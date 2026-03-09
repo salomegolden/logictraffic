@@ -27,7 +27,6 @@ jobs:
           pip install mkdocs-material
 
       - name: Build MkDocs site
-        # Kein --strict, damit wir bei kleinen Warnungen nicht abbrechen
         run: mkdocs build
 
       - name: Upload artifact
