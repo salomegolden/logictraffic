@@ -1,0 +1,5 @@
+site_name: Meine Doku
+site_url: https://salomegolden.github.io/logictraffic/
+
+theme:
+  name: material
