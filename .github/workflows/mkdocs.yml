@@ -23,11 +23,8 @@ jobs:
           python-version: "3.11"
 
       - name: Install Minimal Dependencies
-        run: |
-          # Wir löschen ALLES Vorinstallierte, um MkDocs 2.0 loszuwerden
-          pip uninstall -y mkdocs mkdocs-material
-          # Wir installieren nur das Core-Design (das bringt ein passendes MkDocs mit)
-          pip install "mkdocs-material<10.0"
+        run:
+          pip install mkdocs-material
 
       - name: Build MkDocs site
         # Kein --strict, damit wir bei kleinen Warnungen nicht abbrechen
