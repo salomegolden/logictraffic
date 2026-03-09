@@ -28,20 +28,6 @@ nav:
   - Downloads: docs/downloads.md
   - Beispiele aus dem Unterricht: docs/examples.md
 
-plugins:
-  - search
-  - awesome-pages
-  - mermaid2
-  - git-revision-date-localized:
-      type: datetime
-      fallback_to_build_date: true
-  - mkdocstrings:
-      handlers:
-        python:
-          options:
-            show_source: true
-  - plantuml-markdown
-
 markdown_extensions:
   - admonition
   - toc:
@@ -60,9 +46,4 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/salomegolden/logictraffic
 
-extra_css:
-  - stylesheets/extra.css
-
-extra_javascript:
-  - javascripts/extra.js
 
