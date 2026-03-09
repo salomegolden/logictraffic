@@ -1,4 +1,4 @@
-name: Build and Deploy MkDocs
+name: Workflow Build and Deploy MkDocs 
 
 on:
   push:
