@@ -20,7 +20,7 @@ theme:
     - search.share
 
 nav:
-  - Home: index.md
+  - Home: docs/index.md
   - Überblick: docs/overview.md
   - Zur Sache: docs/topic.md
   - Lehrplan und Lernziele: docs/goals.md
