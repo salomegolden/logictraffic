@@ -13,7 +13,6 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -25,11 +24,14 @@ jobs:
 
       - name: Install dependencies
         run: |
+          # Fixiert MkDocs auf Version 1.x, um Inkompatibilitäten mit Plugins zu vermeiden
+          pip install "mkdocs<2.0"
           pip install mkdocs-material
           pip install mkdocs-mermaid2-plugin
           pip install plantuml-markdown
           pip install mkdocs-awesome-pages-plugin
           pip install mkdocs-git-revision-date-localized-plugin
+          pip install "mkdocstrings[python]"
 
       - name: Build MkDocs site
         run: mkdocs build --strict
@@ -51,7 +53,6 @@ jobs:
     if: github.event_name == 'pull_request'
     needs: build
     runs-on: ubuntu-latest
-
     steps:
       - name: Deploy preview
         id: deployment
