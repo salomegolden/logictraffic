@@ -24,11 +24,15 @@ jobs:
 
       - name: Install dependencies
         run: |
-          # Fixiert MkDocs auf Version 1.x, um Inkompatibilitäten mit Plugins zu vermeiden
+          # 1. Zuerst MkDocs 2.0 deinstallieren, falls es vorinstalliert war
+          pip uninstall -y mkdocs
+          
+          # 2. Die richtige, stabile Version und alle Plugins installieren
+          # Hinweis: Das PlantUML-Plugin heißt bei pip 'mkdocs-plantuml-markdown'
           pip install "mkdocs<2.0"
           pip install mkdocs-material
           pip install mkdocs-mermaid2-plugin
-          pip install plantuml-markdown
+          pip install mkdocs-plantuml-markdown
           pip install mkdocs-awesome-pages-plugin
           pip install mkdocs-git-revision-date-localized-plugin
           pip install "mkdocstrings[python]"
