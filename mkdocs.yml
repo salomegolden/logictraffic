@@ -2,7 +2,7 @@ site_name: LogicTraffic
 site_description: Dokumentation für das LogicTraffic-Projekt
 site_author: Dein Name
 repo_name: logictraffic
-repo_url: https://github.com/<DEIN_GITHUB_USERNAME>/logictraffic
+repo_url: https://github.com/salomegolden/logictraffic
 
 theme:
   name: material
