@@ -1,1 +1,18 @@
-# Readme Repository Logic Traffic
+# Readme Repository Logic Traffic - Projektdokumentation 
+
+| Kalenderwoche | Meilenstein                                                                                                                  | Deadlines                                                                                         |
+| ------------- | ---------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
+| KW 8/9        | Konzept & Planung<br>Theoretische Aufarbeitung - Logik, Formel, Parsebaum <br>Sachanalyse schreiben                          | bis 25.02 fachliche Fragen an Ruedi evt. Besprechung<br>01.03: Sachanalyse <br>                   |
+| KW 10         | Lernziele aus Sachanalyse ableiten  <br>nach Bloom / Krathwohl <br>Forschung zu Logik-Lernen aufarbeiten (F&E Arbeit nutzen) | 03.03: Lernziele formulieren<br>10.03: Besprechung Lernziele und Strukturierung der Reihe         |
+| KW 11/12      | Struktur der Sequenz ausarbeiten <br>Aufgabenset nach LUKAS Modell erarbeiten                                                | W11: evt. Brainstorming zu Aufgabenformate<br>20.03: erster Entwurf Aufgabenset                   |
+| KW 13/14      | Erstellen der Unterrichtssequenzen<br>Beurteilungsanlässe schreiben<br>erste Version Lehrerkommentar fertig haben            | 29.03: Unterrichtssequenzen<br>31.03: Ausprobieren und Präsentation @hslu                         |
+| KW 15         | Zusammenfügen von Lehrerkommentar <br>Unterrichtssequenzen und Aufgaben überarbeiten<br>Schönes Layout machen ;) <br>Puffer  | 03.04 Entwurf Lehrerkommentar<br>irgendwann W15: Besprechen @hslu<br>Weiteres Vorgehen besprechen |
+| KW16          | Unterrichtserprobungen vorbereiten                                                                                           |                                                                                                   |
+| KW 17/18      | Schulferien -> evt. Einsatz in AP Modul?                                                                                     |                                                                                                   |
+| KW 19/20      | Erprobung in Gymnasium Unterstrass                                                                                           |                                                                                                   |
+| KW 21/22      | Überarbeitung von Material<br>Finale Version bereitstellen                                                                   |                                                                                                   |
+| KW23          | Salome ist im Klassenlager ;)                                                                                                |                                                                                                   |
+| KW24          |                                                                                                                              | Achtung 12.06: Abgabe Praktikumsbericht!                                                          |
+| KW25-27       | Evaluation und Überarbeitung, Abschlussbericht schreiben                                                                     |                                                                                                   |
+
+
