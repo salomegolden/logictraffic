@@ -1,3 +1,7 @@
+layout: page
+title: "goals"
+permalink: /goals
+
 # Lernziele für den Einsatz von *Logic Traffic* im Informatikunterricht
 
 Dieses Dokument fasst die Lernziele zusammen, die auf Basis der Funktionen von **Logic Traffic** (Wahrheitstabelle, Formeleditor, Simulation) formuliert wurden.  
