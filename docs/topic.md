@@ -22,16 +22,15 @@ eine **Aussage** wird durch drei Eigenschaften beschrieben [^1]: (1) eine Aussag
     - Die Ampel A ist grün.
     - Auto fährt von Norden.
     - Auto darf nach rechts abbiegen.
-
     Nicht zulässig als Aussagen: 
-    * "Ist die Ampel rot?"
-    * "Halt!"
+    - Ist die Ampel rot?
+    - Halt!
 
 ### Junktoren und Operatoren 
 Junktor = Ein Junktor (von lat. iungere = verbinden) ist ein logisches Verknüpfungszeichen, das zwei Aussagen zu einer neuen Aussage verbindet. Es gibt 3 Junktoren die in dieser Unterrichtseinheit behandelt werden:
-> 1. logisches UND $\land$
-> 2. logisches ODER $\lor$
-> 3. Negation / Verneinung $\neg$
+1. logisches UND $\land$
+2. logisches ODER $\lor$
+3. Negation / Verneinung $\neg$
 Durch Verknüpfung resp. Verneinung von Aussagen entstehen wiederum neue Aussagen.
 
 !!! attention
