@@ -1,6 +1,6 @@
 site_name: LogicTraffic
 site_description: Dokumentation für das LogicTraffic-Projekt
-site_author: Dein Name
+site_author: Salome Gwendolin Guldener
 repo_name: logictraffic
 repo_url: https://github.com/salomegolden/logictraffic
 site_url: https://salomegolden.github.io/logictraffic/
@@ -19,6 +19,9 @@ theme:
     - search.suggest
     - search.highlight
     - search.share
+    
+edit_uri: edit/main/docs/
+
 
 nav:
   - Home: index.md
@@ -28,6 +31,7 @@ nav:
   - Unterrichtsplanung: lessons.md
   - Downloads: downloads.md
   - Beispiele aus dem Unterricht: examples.md
+
 
 markdown_extensions:
   - admonition
