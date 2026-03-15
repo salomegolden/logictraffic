@@ -1,10 +1,10 @@
-name: Workflow Build and Deploy MkDocs 
+name:  Build and Deploy MkDocs
 
 on:
   push:
-    branches: ["main"]
-  pull_request:
-
+    branches: [ "main" ]
+  workflow_dispatch:
+  
 permissions:
   contents: write
   pages: write
@@ -22,12 +22,12 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Install Minimal Dependencies
+      - name: Install MkDocs and theme
         run:
-          pip install mkdocs-material
+          pip install mkdocs mkdocs-material
 
       - name: Build MkDocs site
-        run: mkdocs build
+        run: mkdocs build --strict
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
