@@ -3,7 +3,7 @@
 In der Aussagelogik arbeiten wir mit Aussagen, denen eindeutig ein Wahrheitswert (_true_ oder _false_) zugeordnet werden kann. Für die informatische Umsetzung in Logic Traffic abstrahieren wir die Zustände der Ampelanlage (rot oder grün) auf binäre Werte. Wir arbeiten damit mit Aussagen wie "die Ampel ist grün". Dieser Satz kann nur **wahr** oder **falsch** sein – nichts dazwischen. Durch logische Operatoren wie UND, ODER oder NICHT lassen sich solche Aussagen kombinieren. 
 
 ??? note
-   LogicTraffic nutzt Aussagenlogik, um Ampelphasen und Verkehrssituationen formal darzustellen. Jede Ampel wird durch eine Variable (A, B, C, …) repräsentiert, und jede Formel beschreibt, wann eine Ampel Grün hat    und wann nicht. Durch Aussagenlogik lässt sich eine sichere oder unsichere Kreuzung beschreiben.
+    LogicTraffic nutzt Aussagenlogik, um Ampelphasen und Verkehrssituationen formal darzustellen. Jede Ampel wird durch eine Variable (A, B, C, …) repräsentiert, und jede Formel beschreibt, wann eine Ampel Grün hat    und wann nicht. Durch Aussagenlogik lässt sich eine sichere oder unsichere Kreuzung beschreiben.
 
 ### Variablen und Zustände 
 Eine boolsche Variable ist in der Informatik die kleinste Informationseinheit. Sie trägt genau eine Information, die entweder zutrifft oder eben nicht.
