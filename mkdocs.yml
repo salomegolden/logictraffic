@@ -5,18 +5,17 @@ repo_name: logictraffic
 repo_url: https://github.com/salomegolden/logictraffic
 site_url: https://salomegolden.github.io/logictraffic/
 docs_dir: docs
+edit_uri: edit/main/docs/
 
 theme:
   name: material
   language: de
   features:
     - navigation.instant
-    - navigation.tracking
     - navigation.tabs
     - navigation.sections
     - content.code.copy
     - content.action.edit
-    - toc.integrate
     - search.suggest
     - search.highlight
     - search.share
