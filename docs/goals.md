@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "goals"
-permalink: /goals
+permalink: ./goals
 ---
 
 # Lernziele für den Einsatz von *Logic Traffic* im Informatikunterricht
