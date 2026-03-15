@@ -3,6 +3,8 @@ site_description: Dokumentation für das LogicTraffic-Projekt
 site_author: Dein Name
 repo_name: logictraffic
 repo_url: https://github.com/salomegolden/logictraffic
+site_url: https://salomegolden.github.io/logictraffic/
+docs_dir: docs
 
 theme:
   name: material
@@ -32,18 +34,8 @@ markdown_extensions:
   - admonition
   - toc:
       permalink: true
-  - pymdownx.superfences
-  - pymdownx.highlight
-  - pymdownx.details
-  - pymdownx.tabbed
-  - pymdownx.emoji
-  - pymdownx.tasklist
-  - pymdownx.arithmatex
-  - pymdownx.snippets
-
-extra:
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/salomegolden/logictraffic
+  - footnotes
+  - tables
+  - attr_list
 
 
