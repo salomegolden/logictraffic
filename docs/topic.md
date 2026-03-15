@@ -14,18 +14,18 @@ Eine boolsche Variable ist in der Informatik die kleinste Informationseinheit. S
 ### Aussagen 
 eine **Aussage** wird durch drei Eigenschaften beschrieben [^1]: (1) eine Aussage ist eine sprachliche Einheit, die einen Sachverhalt ausdrückt. (2) Eine Aussage ist entweder _wahr_ (Wahrheitswert $1$) oder _falsch_ (Wahrheitswert $0$). (3) Welche Sprache den Sachverhalt beschreibt ist unerheblich. 
 
-> [!tip]
-> 🚦
-> Im Kontext von LogicTraffic beschreibt eine Aussage einen Sachverhalt (Zustand der Ampeln) den man überprüfen kann: "Ampel A hat grün". Solche Sätze werden im Modell in logische Ausdrücke übersetzt, die man dann mit Operatoren verbinden kann. In LogicTraffic repräsentiert jede Variable eine Aussage über den Zustand einer Ampel.
+??? note
+    Im Kontext von LogicTraffic beschreibt eine Aussage einen Sachverhalt (Zustand der Ampeln) den man überprüfen kann: "Ampel A hat grün". Solche Sätze werden im Modell in logische Ausdrücke übersetzt, die man dann mit Operatoren verbinden kann. In LogicTraffic repräsentiert jede Variable eine Aussage über den Zustand einer Ampel.
 
-Beispiele für Aussagen:
-* „Die Ampel A ist grün.“
-* „Auto fährt von Norden.“
-* „Auto darf nach rechts abbiegen.“
+??? example
+    Beispiele für Aussagen:
+    * „Die Ampel A ist grün.“
+    * „Auto fährt von Norden.“
+    * „Auto darf nach rechts abbiegen.“
 
-Nicht zulässig als Aussagen: 
-* "Ist die Ampel rot?"
-* "Halt!"
+    Nicht zulässig als Aussagen: 
+    * "Ist die Ampel rot?"
+    * "Halt!"
 
 ### Junktoren und Operatoren 
 Junktor = Ein Junktor (von lat. iungere = verbinden) ist ein logisches Verknüpfungszeichen, das zwei Aussagen zu einer neuen Aussage verbindet. Es gibt 3 Junktoren die in dieser Unterrichtseinheit behandelt werden:
@@ -34,7 +34,8 @@ Junktor = Ein Junktor (von lat. iungere = verbinden) ist ein logisches Verknüpf
 > 3. Negation / Verneinung $\neg$
 Durch Verknüpfung resp. Verneinung von Aussagen entstehen wiederum neue Aussagen.
 
-❌❌ Als Erklärung für die Schülerinnen und Schüler kann folgende Analogie dienen: "_Junktoren funktionieren wie grammatikalische Bindewörter („und“, „oder“, „nicht“), nur präziser und eindeutig festgelegt._" 
+!!! attention
+    ❌❌ Als Erklärung für die Schülerinnen und Schüler kann folgende Analogie dienen: "_Junktoren funktionieren wie grammatikalische Bindewörter („und“, „oder“, „nicht“), nur präziser und eindeutig festgelegt._" 
 
 >Operator: In der Aussagenlogik sind Operatoren die „Rechenzeichen“ — sie definieren, wie aus gegebenen Werten (z. B. Ampel grün/rot) ein neuer Wert entsteht.
 >
