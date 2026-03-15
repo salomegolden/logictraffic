@@ -22,13 +22,13 @@ theme:
     - search.share
 
 nav:
-  - Home: docs/index.md
-  - Überblick: docs/overview.md
-  - Zur Sache: docs/topic.md
-  - Lehrplan und Lernziele: docs/goals.md
-  - Unterrichtsplanung: docs/lessons.md
-  - Downloads: docs/downloads.md
-  - Beispiele aus dem Unterricht: docs/examples.md
+  - Home: index.md
+  - Überblick: overview.md
+  - Zur Sache: topic.md
+  - Lehrplan und Lernziele: goals.md
+  - Unterrichtsplanung: lessons.md
+  - Downloads: downloads.md
+  - Beispiele aus dem Unterricht: examples.md
 
 markdown_extensions:
   - admonition
