@@ -19,9 +19,9 @@ eine **Aussage** wird durch drei Eigenschaften beschrieben [^1]: (1) eine Aussag
 
 ??? example
     Beispiele für Aussagen:
-    * „Die Ampel A ist grün.“
-    * „Auto fährt von Norden.“
-    * „Auto darf nach rechts abbiegen.“
+    - Die Ampel A ist grün.
+    - Auto fährt von Norden.
+    - Auto darf nach rechts abbiegen.
 
     Nicht zulässig als Aussagen: 
     * "Ist die Ampel rot?"
