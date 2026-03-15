@@ -8,9 +8,8 @@ In der Aussagelogik arbeiten wir mit Aussagen, denen eindeutig ein Wahrheitswert
 ### Variablen und Zustände 
 Eine boolsche Variable ist in der Informatik die kleinste Informationseinheit. Sie trägt genau eine Information, die entweder zutrifft oder eben nicht.
 
-> [!TIP]
-> 🚦
-> In LogicTraffic steht jede Variable für den Zustand einer Ampel (rot $0$  / grün $1$).
+??? note
+    In LogicTraffic steht jede Variable für den Zustand einer Ampel (rot $0$  / grün $1$).
 
 ### Aussagen 
 eine **Aussage** wird durch drei Eigenschaften beschrieben [^1]: (1) eine Aussage ist eine sprachliche Einheit, die einen Sachverhalt ausdrückt. (2) Eine Aussage ist entweder _wahr_ (Wahrheitswert $1$) oder _falsch_ (Wahrheitswert $0$). (3) Welche Sprache den Sachverhalt beschreibt ist unerheblich. 
