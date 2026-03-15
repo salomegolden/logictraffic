@@ -54,6 +54,7 @@ markdown_extensions:
   - footnotes
   - tables
   - attr_list
+  - def_list
   - pymdownx.details
   - pymdownx.superfences
   - pymdownx.arithmatex:
