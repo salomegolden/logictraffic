@@ -16,9 +16,11 @@ Eine boolsche Variable ist in der Informatik die kleinste Informationseinheit. S
 eine **Aussage** wird durch drei Eigenschaften beschrieben [^1]: (1) eine Aussage ist eine sprachliche Einheit, die einen Sachverhalt ausdrückt. (2) Eine Aussage ist entweder _wahr_ (Wahrheitswert $1$) oder _falsch_ (Wahrheitswert $0$). (3) Welche Sprache den Sachverhalt beschreibt ist unerheblich. 
 
 ??? logictraffic "Aussage in LogicTaffic"
+    
     Im Kontext von LogicTraffic beschreibt eine Aussage einen Sachverhalt (Zustand der Ampeln) den man überprüfen kann: "Ampel A hat grün". Solche Sätze werden im Modell in logische Ausdrücke übersetzt, die man dann mit Operatoren verbinden kann. In LogicTraffic repräsentiert jede Variable eine Aussage über den Zustand einer Ampel.
 
-??? student "Beispiele für Aussagen"
+??? student inline "Beispiele für Aussagen"
+    
     Beispiele für Aussagen:
     - Die Ampel A ist grün.
     - Auto fährt von Norden.
@@ -36,6 +38,9 @@ Durch Verknüpfung resp. Verneinung von Aussagen entstehen wiederum neue Aussage
 
 !!! student "Operatoren - Definition" 
     Operator: In der Aussagenlogik sind Operatoren die „Rechenzeichen“ — sie definieren, wie aus gegebenen Werten (z. B. Ampel grün/rot) ein neuer Wert entsteht.
+
+Hier findet sich eine Tabelle aller Operatoren, welche in den Aufgaben dieser Unterrichtsreihe verwendet werden: 
+
     | Operator    | LaTeX       | Verbale Bedeutung | Logische Form                   |
     | ----------- | ----------- | ----------------- | ------------------------------- |
     | Negation    | `\lnot A`   | A nicht           | $\lnot A$                       |
@@ -43,8 +48,8 @@ Durch Verknüpfung resp. Verneinung von Aussagen entstehen wiederum neue Aussage
     | Disjunktion | `A \lor B`  | A oder B          | $A \lor B$                      |
     | Implikation | `A \to B`   | wenn A, dann B    | $A \to B \equiv \lnot A \lor B$ |
 
-!!! error "Typische Fehlvorstellungen"
-    Gerade zu den Operatoren sind Fehlvorstellungen weit verbreitet [^6]. Es lohnt sich, diese zu kennen und im Unterricht auf sie zu achten. Die üblichen Fehlvorstellungen können hier nachgelesen werden: [Fehlvorstellungen :material-alert-decagram:](learninglogic.md) { md.button }
+!!! error inline "Typische Fehlvorstellungen"
+    Gerade zu den Operatoren sind Fehlvorstellungen weit verbreitet [^6]. Es lohnt sich, diese zu kennen und im Unterricht auf sie zu achten. Die üblichen Fehlvorstellungen können hier nachgelesen werden: [Fehlvorstellungen :material-alert-decagram:](learninglogic.md)
 
 ## Darstellung der Situationen in LogicTraffic 
 Logische Funktionen kann man auf unterschiedliche Arten darstellen wie z.B. Wahrheitstabellen, Normalformen und Parsebäume. In diesem Grundlagenunterricht mit LogicTraffic wird eine ikonische (bildliche) und symbolische (Formel & Wahrheitstabelle) sowie eine verbale (Ausformulierung durch Sprache) genauer beschrieben. 
@@ -60,7 +65,7 @@ Logische Funktionen kann man auf unterschiedliche Arten darstellen wie z.B. Wahr
 
 !!! teacher "Wahrheitstabellen im Unterricht" 
     Auf folgender Seite finden sich weitere Informationen wie man Wahrheitstabellen als Zwischenschritt zwischen ikonischer und symbolischer Darstellungsform im Unterricht nutzen kann: 
-    [Wahrheitstabellen:material-link-circle:](topic/wahrheitstabellen.md)
+    [Wahrheitstabellen:material-link-circle:](topic/wahrheitstabellen.md){ .md-button }
 
     
 #### Formeln 
