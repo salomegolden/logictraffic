@@ -5,7 +5,7 @@ Dieses Dokument fasst die Lernziele zusammen, die auf Basis der Funktionen von *
 Die Einordnung erfolgt entlang der Wissensdimensionen nach **Anderson [^3] (2009)**:  
 
 Die Lernziele sind so formuliert, dass sie die spezifischen Funktionen von Logic Traffic (Wahrheitstabelle, Formeleditor, Simulation) abdecken.  
-Sie sind bezogen auf die oben definierten Inhalte aus den Lehrplänen und formuliert nach Anderson[^3].
+Sie sind bezogen auf die aufgeführten Inhalte aus den Lehrplänen und formuliert nach Anderson[^3]. Somit sollen unterschiedliche Wissens- und Lern
 
 | Wissensart               | Erinnern | Verstehen | Anwenden | Analysieren | Bewerten | Erzeugen |
 |--------------------------|----------|-----------|----------|-------------|----------|----------|
