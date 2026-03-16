@@ -89,5 +89,9 @@ für eine komplexe Kreuzung (z. B. mit Bus‑Priorisierung) eine **lückenlose
   *(D‑EDK, 2016, S. 485)*
 
 ---
- 
+D-EDK, D. E. (2016). Lehrplan 21. Gesamtausgabe. Luzern: D-EDK Geschäftsstelle. https://v-fe.lehrplan.ch/container/V_FE_DE_Gesamtausgabe.pdf
+Rahmenlehrplan gymnasiale Maturitätsschulen. (2024, Juni 20). EDK. https://edudoc.ch/record/232281
+
+
+
 
