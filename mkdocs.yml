@@ -42,7 +42,11 @@ edit_uri: edit/main/docs/
 nav:
   - Home: index.md
   - Überblick: overview.md
-  - Zur Sache: topic.md
+  - Zur Sache: 
+      - topic.md
+      - Darstellungswechsel: darstellungswechsel.md
+      - Normalformeln: normalformeln.md
+      - Wahrheitstabellen: wahrheitstabellen.md
   - Lehrplan und Lernziele: goals.md
   - Unterrichtsplanung: lessons.md
   - Downloads: downloads.md
