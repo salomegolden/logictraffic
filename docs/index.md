@@ -1,1 +1,2 @@
-Hallo Welt
+Man findet folgende Kategorien von Hinweise 
+??? 
