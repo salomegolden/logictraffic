@@ -43,6 +43,9 @@ Durch Verknüpfung resp. Verneinung von Aussagen entstehen wiederum neue Aussage
     | Disjunktion | `A \lor B`  | A oder B          | $A \lor B$                      |
     | Implikation | `A \to B`   | wenn A, dann B    | $A \to B \equiv \lnot A \lor B$ |
 
+!!! error "Typische Fehlvorstellungen"
+    Gerade zu den Operatoren sind Fehlvorstellungen weit verbreitet [^6]. Es lohnt sich, diese zu kennen und im Unterricht auf sie zu achten. Die üblichen Fehlvorstellungen können hier nachgelesen werden: [Fehlvorstellungen :material-alert-decagram:](learninglogic.md) { md.button }
+
 ## Darstellung der Situationen in LogicTraffic 
 Logische Funktionen kann man auf unterschiedliche Arten darstellen wie z.B. Wahrheitstabellen, Normalformen und Parsebäume. In diesem Grundlagenunterricht mit LogicTraffic wird eine ikonische (bildliche) und symbolische (Formel & Wahrheitstabelle) sowie eine verbale (Ausformulierung durch Sprache) genauer beschrieben. 
 
