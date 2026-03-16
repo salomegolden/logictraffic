@@ -50,7 +50,7 @@ Durch Verknüpfung resp. Verneinung von Aussagen entstehen wiederum neue Aussage
 Logische Funktionen kann man auf unterschiedliche Arten darstellen wie z.B. Wahrheitstabellen, Normalformen und Parsebäume. In diesem Grundlagenunterricht mit LogicTraffic wird eine ikonische (bildliche) und symbolische (Formel & Wahrheitstabelle) sowie eine verbale (Ausformulierung durch Sprache) genauer beschrieben. 
 
 !!! teacher "Didaktik des Darstellungswechsel
-    Auf folgender Seite finden sich weitere Informationen zum Darstellungswechsel von enaktiver Darstellung über die ikonische zur symbolischen Darstellungsform: [Darstellungswechsel :material-circle-link:](topic/darstellungswechsel.md){ .md-button }
+    Auf folgender Seite finden sich weitere Informationen zum Darstellungswechsel von enaktiver Darstellung über die ikonische zur symbolischen Darstellungsform: [Darstellungswechsel :material-circle-link:](topic/darstellungswechsel.md)
 
 ### Symbolische Darstellungen in LogicTraffic 
 
@@ -60,13 +60,13 @@ Logische Funktionen kann man auf unterschiedliche Arten darstellen wie z.B. Wahr
 
 !!! teacher "Wahrheitstabellen im Unterricht" 
     Auf folgender Seite finden sich weitere Informationen wie man Wahrheitstabellen als Zwischenschritt zwischen ikonischer und symbolischer Darstellungsform im Unterricht nutzen kann: 
-    [Wahrheitstabellen :material-link-circle:](topic/wahrheitstabellen.md) { .md-button }
+    [Wahrheitstabellen:material-link-circle:](topic/wahrheitstabellen.md)
 
     
 #### Formeln 
 
 !!! teacher "Normalformeln"
-    Auf der folgenden Seite werden behandelten Normalformeln, ihre Herleitung und Anwendung in LogicTraffic nochmals genau erklärt: [Normalformeln :material-link-circle:](topic/normalformeln.md){ .md-button }
+    Auf der folgenden Seite werden behandelten Normalformeln, ihre Herleitung und Anwendung in LogicTraffic nochmals genau erklärt: [Normalformeln :material-link-circle:](topic/normalformeln.md)
 
 
 [^1]: Hoffmann, A., Marx, B., & Vogt, W. (2005). _Mathematik für Ingenieure 1: Lineare Algebra, Analysis - Theorie und Numerik_. Pearson Deutschland.
