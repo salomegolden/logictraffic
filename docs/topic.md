@@ -1,4 +1,8 @@
 # Zur Sache 
+
+
+[Grundlagen](topic.md) ⭐ [Darstellungsformen](/topic/darstellungsformen.md) • [Normalformeln](topic/normalformeln.md) • [Wahrheitstabellen](topic/wahrheitstabellen.md)
+
 ## Grundlagen der Aussagelogik im Kontext von Logic Traffic 
 In der Aussagelogik arbeiten wir mit Aussagen, denen eindeutig ein Wahrheitswert (_true_ oder _false_) zugeordnet werden kann. Für die informatische Umsetzung in Logic Traffic abstrahieren wir die Zustände der Ampelanlage (rot oder grün) auf binäre Werte. Wir arbeiten damit mit Aussagen wie "die Ampel ist grün". Dieser Satz kann nur **wahr** oder **falsch** sein – nichts dazwischen. Durch logische Operatoren wie UND, ODER oder NICHT lassen sich solche Aussagen kombinieren. 
 
@@ -45,10 +49,8 @@ Durch Verknüpfung resp. Verneinung von Aussagen entstehen wiederum neue Aussage
 ## Darstellung der Situationen in LogicTraffic 
 Logische Funktionen kann man auf unterschiedliche Arten darstellen wie z.B. Wahrheitstabellen, Normalformen und Parsebäume. In diesem Grundlagenunterricht mit LogicTraffic wird eine ikonische (bildliche) und symbolische (Formel & Wahrheitstabelle) sowie eine verbale (Ausformulierung durch Sprache) genauer beschrieben. 
 
-### Ikonische Darstellung mit der Simulation in LogicTraffic 
-
-
-### Verbale Übersetzung mit Sprache 
+!!! teacher "Didaktik des Darstellungswechsel
+    Auf folgender Seite finden sich weitere Informationen zum Darstellungswechsel von enaktiver Darstellung über die ikonische zur symbolischen Darstellungsform: [Darstellungswechsel](topic/darstellungswechsel.md)
 
 
 
@@ -58,8 +60,11 @@ Logische Funktionen kann man auf unterschiedliche Arten darstellen wie z.B. Wahr
 ??? meta "Wahrheitstabelle"
     Eine tabellarische Darstellung einer logischen Funktion, die für jede mögliche Kombination von Eingangswerten (0 oder 1) den resultierenden Ausgangswert zeigt. Bei $n$ Variablen hat die Tabelle $2^{n}$ Zeilen [^2]. 
 
-#### Formeln 
+!!! teacher "Wahrheitstabellen im Unterricht" 
+    Auf folgender Seite finden sich weitere Informationen wie man Wahrheitstabellen als Zwischenschritt zwischen ikonischer und symbolischer Darstellungsform im Unterricht nutzen kann: [Wahrheitstabellen](topic/wahrheitstabellen.md) 
 
+    
+#### Formeln 
 
 [^1]: Hoffmann, A., Marx, B., & Vogt, W. (2005). _Mathematik für Ingenieure 1: Lineare Algebra, Analysis - Theorie und Numerik_. Pearson Deutschland.
 
