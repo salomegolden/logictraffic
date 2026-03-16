@@ -3,39 +3,32 @@
   --md-admonition-icon--teacher: url('data:image/svg+xml;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M128 96c0-35.3 28.7-64 64-64h352c35.3 0 64 28.7 64 64v240h-96v-16c0-17.7-14.3-32-32-32h-64c-17.7 0-32 14.3-32 32v16H254.9c10.9-18.8 17.1-40.7 17.1-64 0-70.7-57.3-128-128-128-5.4 0-10.8.3-16 1zm205 352c-5.1-24.2-16.3-46.1-32.1-64H608c0 35.3-28.7 64-64 64zM64 272a80 80 0 1 1 160 0 80 80 0 1 1-160 0M0 480c0-53 43-96 96-96h96c53 0 96 43 96 96 0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32"/></svg>
 '); 
 }
-
 .md-typeset .admonition.teacher,
 .md-typeset details.teacher {
   border-color: #A155E5;
 }
-
 .md-typeset .teacher > .admonition-title,
 .md-typeset .teacher > summary {
   background-color: rgba(161, 85, 229, 0.1);
 }
-
 .md-typeset .teacher > .admonition-title::before,
 .md-typeset .teacher > summary::before {
   background-color: #A155E5;
   mask-image: var(--md-admonition-icon--<teacher>);
   -webkit-mask-image: var(--md-admonition-icon--<teacher>);
 }
-
 /*Hier Admonition - Grün = LogicTraffic*/ 
 :root {
   --md-admonition-icon--logictraffic: url('data:image/svg+xml;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 10h-3V8.86c1.72-.45 3-2 3-3.86h-3V4c0-.55-.45-1-1-1H8c-.55 0-1 .45-1 1v1H4c0 1.86 1.28 3.41 3 3.86V10H4c0 1.86 1.28 3.41 3 3.86V15H4c0 1.86 1.28 3.41 3 3.86V20c0 .55.45 1 1 1h8c.55 0 1-.45 1-1v-1.14c1.72-.45 3-2 3-3.86h-3v-1.14c1.72-.45 3-2 3-3.86m-5 9H9V5h6zm-3-1c.83 0 1.5-.67 1.5-1.5S12.83 15 12 15s-1.5.67-1.5 1.5.67 1.5 1.5 1.5m0-4.5c.83 0 1.5-.67 1.5-1.5s-.67-1.5-1.5-1.5-1.5.67-1.5 1.5.67 1.5 1.5 1.5M12 9c.83 0 1.5-.67 1.5-1.5S12.83 6 12 6s-1.5.67-1.5 1.5S11.17 9 12 9"/></svg>'); /* traffic-light */
 }
-
 .md-typeset .admonition.logictraffic,
 .md-typeset details.logictraffic {
   border-color: #2B9B46;
 }
-
 .md-typeset .practice > .admonition-title,
 .md-typeset .practice > summary {
   background-color: rgba(43, 155, 70, 0.1);
 }
-
 .md-typeset .practice > .admonition-title::before,
 .md-typeset .practice > summary::before {
   background-color: #2B9B46;
@@ -47,24 +40,20 @@
 :root {
   --md-admonition-icon--student: url('data:image/svg+xml; <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 19a2.9 2.9 0 0 0 .17 1H6a1 1 0 0 1-1-1v-1h2m3 1a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1v-1h-4m-6-2a1 1 0 0 0 1 1h2v-2.12A6.92 6.92 0 0 1 5 10a6.8 6.8 0 0 1 .68-3A4 4 0 0 0 4 14.45M17 19a2.9 2.9 0 0 1-.17 1H18a1 1 0 0 0 1-1v-1h-2m0-8a5 5 0 0 1-2 4v2a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1v-2a5 5 0 1 1 8-4m-2 0a3 3 0 1 0-4 2.82V15h2v-2.18A3 3 0 0 0 15 10m3.32-3a6.8 6.8 0 0 1 .68 3 6.92 6.92 0 0 1-2 4.88V17h2a1 1 0 0 0 1-1v-1.55A4 4 0 0 0 18.32 7"/></svg>'); /* lightbulb */
 }
-
 .md-typeset .admonition.student,
 .md-typeset details.student {
   border-color: #5985E1;
 }
-
 .md-typeset .student > .admonition-title,
 .md-typeset .student > summary {
   background-color: rgba(89, 133, 225, 0.1);
 }
-
 .md-typeset .student > .admonition-title::before,
 .md-typeset .student > summary::before {
   background-color: #5985E1;
   mask-image: var(--md-admonition-icon--student);
   -webkit-mask-image: var(--md-admonition-icon--student);
 }
-
 /*hier Warnungen vor Fehler, Fehlkonzepten etc.*/ 
 :root {
   --md-admonition-icon--error: url('data:image/svg+xml; <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m23 12-2.44-2.78.34-3.68-3.61-.82-1.89-3.18L12 3 8.6 1.54 6.71 4.72l-3.61.81.34 3.68L1 12l2.44 2.78-.34 3.69 3.61.82 1.89 3.18L12 21l3.4 1.46 1.89-3.18 3.61-.82-.34-3.68zm-10 5h-2v-2h2zm0-4h-2V7h2z"/></svg>'); /* alert/error */
