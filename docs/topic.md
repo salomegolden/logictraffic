@@ -1,8 +1,5 @@
 # Zur Sache 
 
-
-[Grundlagen](topic.md) ⭐ [Darstellungsformen](/topic/darstellungsformen.md) • [Normalformeln](topic/normalformeln.md) • [Wahrheitstabellen](topic/wahrheitstabellen.md)
-
 ## Grundlagen der Aussagelogik im Kontext von Logic Traffic 
 In der Aussagelogik arbeiten wir mit Aussagen, denen eindeutig ein Wahrheitswert (_true_ oder _false_) zugeordnet werden kann. Für die informatische Umsetzung in Logic Traffic abstrahieren wir die Zustände der Ampelanlage (rot oder grün) auf binäre Werte. Wir arbeiten damit mit Aussagen wie "die Ampel ist grün". Dieser Satz kann nur **wahr** oder **falsch** sein – nichts dazwischen. Durch logische Operatoren wie UND, ODER oder NICHT lassen sich solche Aussagen kombinieren. 
 
@@ -37,22 +34,20 @@ Durch Verknüpfung resp. Verneinung von Aussagen entstehen wiederum neue Aussage
 ??? student "Erklärung für Junktoren" 
     Als Erklärung für die Schülerinnen und Schüler kann folgende Analogie dienen: "_Junktoren funktionieren wie grammatikalische Bindewörter („und“, „oder“, „nicht“). Wir können Sprache so in eine formale Formel umwandeln._" 
 
->Operator: In der Aussagenlogik sind Operatoren die „Rechenzeichen“ — sie definieren, wie aus gegebenen Werten (z. B. Ampel grün/rot) ein neuer Wert entsteht.
-
-| Operator    | LaTeX       | Verbale Bedeutung | Logische Form                   |
-| ----------- | ----------- | ----------------- | ------------------------------- |
-| Negation    | `\lnot A`   | A nicht           | $\lnot A$                       |
-| Konjunktion | `A \land B` | A und B           | $A \land B$                     |
-| Disjunktion | `A \lor B`  | A oder B          | $A \lor B$                      |
-| Implikation | `A \to B`   | wenn A, dann B    | $A \to B \equiv \lnot A \lor B$ |
+!!! student "Operatoren - Definition" 
+    Operator: In der Aussagenlogik sind Operatoren die „Rechenzeichen“ — sie definieren, wie aus gegebenen Werten (z. B. Ampel grün/rot) ein neuer Wert entsteht.
+    | Operator    | LaTeX       | Verbale Bedeutung | Logische Form                   |
+    | ----------- | ----------- | ----------------- | ------------------------------- |
+    | Negation    | `\lnot A`   | A nicht           | $\lnot A$                       |
+    | Konjunktion | `A \land B` | A und B           | $A \land B$                     |
+    | Disjunktion | `A \lor B`  | A oder B          | $A \lor B$                      |
+    | Implikation | `A \to B`   | wenn A, dann B    | $A \to B \equiv \lnot A \lor B$ |
 
 ## Darstellung der Situationen in LogicTraffic 
 Logische Funktionen kann man auf unterschiedliche Arten darstellen wie z.B. Wahrheitstabellen, Normalformen und Parsebäume. In diesem Grundlagenunterricht mit LogicTraffic wird eine ikonische (bildliche) und symbolische (Formel & Wahrheitstabelle) sowie eine verbale (Ausformulierung durch Sprache) genauer beschrieben. 
 
 !!! teacher "Didaktik des Darstellungswechsel
-    Auf folgender Seite finden sich weitere Informationen zum Darstellungswechsel von enaktiver Darstellung über die ikonische zur symbolischen Darstellungsform: [Darstellungswechsel](topic/darstellungswechsel.md)
-
-
+    Auf folgender Seite finden sich weitere Informationen zum Darstellungswechsel von enaktiver Darstellung über die ikonische zur symbolischen Darstellungsform: [Darstellungswechsel :material-circle-link:](topic/darstellungswechsel.md){ .md-button }
 
 ### Symbolische Darstellungen in LogicTraffic 
 
@@ -61,10 +56,15 @@ Logische Funktionen kann man auf unterschiedliche Arten darstellen wie z.B. Wahr
     Eine tabellarische Darstellung einer logischen Funktion, die für jede mögliche Kombination von Eingangswerten (0 oder 1) den resultierenden Ausgangswert zeigt. Bei $n$ Variablen hat die Tabelle $2^{n}$ Zeilen [^2]. 
 
 !!! teacher "Wahrheitstabellen im Unterricht" 
-    Auf folgender Seite finden sich weitere Informationen wie man Wahrheitstabellen als Zwischenschritt zwischen ikonischer und symbolischer Darstellungsform im Unterricht nutzen kann: [Wahrheitstabellen](topic/wahrheitstabellen.md) 
+    Auf folgender Seite finden sich weitere Informationen wie man Wahrheitstabellen als Zwischenschritt zwischen ikonischer und symbolischer Darstellungsform im Unterricht nutzen kann: 
+    [Wahrheitstabellen :material-link-circle:](topic/wahrheitstabellen.md) { .md-button }
 
     
 #### Formeln 
+
+!!! teacher "Normalformeln"
+    Auf der folgenden Seite werden behandelten Normalformeln, ihre Herleitung und Anwendung in LogicTraffic nochmals genau erklärt: [Normalformeln :material-link-circle:](topic/normalformeln.md){ .md-button }
+
 
 [^1]: Hoffmann, A., Marx, B., & Vogt, W. (2005). _Mathematik für Ingenieure 1: Lineare Algebra, Analysis - Theorie und Numerik_. Pearson Deutschland.
 
