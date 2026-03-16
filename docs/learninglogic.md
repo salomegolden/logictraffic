@@ -38,8 +38,10 @@ Im Folgenden werden typische Fehlvorstellungen beschrieben. Die Beschreibung und
         OR bedeutet: Mindestens eine Bedingung ist erfüllt - auch beide. 
         XOR bedeutet: Genau eine der Bedingung ist erfüllt. (Wobei das in Logictraffic nicht behandelt wird) 
     
-??? error "Fehlvorstellung 3: Komplexe Operatoren werden auf „einfache“ AND/OR‑Muster reduziert
-    Lernende versuchen, komplexere logische Ausdrücke – besonders die Implikation („Wenn A, dann B“) – auf vermeintlich einfache Muster wie A ∧ B oder A ∨ B zu reduzieren. Die vollständigen Wahrheitsbedingungen werden dabei nicht berücksichtigt. Typisch ist folgende fehlerhafte Reduktion: $A \rightarrow B$ wird zu $A \land B$ (beide müssen wahr sein) oder zu $A \lor B$ (mindestens eine Bedingung wahr)
+??? error "Fehlvorstellung 3: Komplexe Operatoren werden auf „einfache“ AND/OR‑Muster reduziert"
+    Lernende versuchen, komplexere logische Ausdrücke – besonders die Implikation („Wenn A, dann B“) – auf vermeintlich einfache Muster wie A ∧ B oder A ∨ B zu reduzieren. Die vollständigen Wahrheitsbedingungen werden dabei nicht berücksichtigt. 
+    Typisch ist folgende fehlerhafte Reduktion: $A \rightarrow B$ wird zu $A \land B$ (beide müssen wahr sein) oder zu $A \lor B$ (mindestens eine Bedingung wahr)
+    
     === "Warum ist das falsch?" 
         die Implikation ist nur dann falsch, wenn A wahr und B falsch ist. Weder AND noch OR besitzen diese Struktur — eine intuitive Reduktion verändert also die gesamte logische Aussage.
         
@@ -56,14 +58,14 @@ Im Folgenden werden typische Fehlvorstellungen beschrieben. Die Beschreibung und
     
     === "Typische vergessene Fälle:" 
     
-    * A ist falsch 
-    * alle Variablen sind falsch (∅‑Fall) 
-    * Kombinationen, in denen mehrere Variablen negiert sind
+        * A ist falsch 
+        * alle Variablen sind falsch (∅‑Fall) 
+        * Kombinationen, in denen mehrere Variablen negiert sind
 
     === "Warum die Fehlvorstellung entsteht:" 
-    Alltagssprache führt zu einem „positiven Denkmuster“: Man nennt nur, was vorhanden ist, nicht was fehlt.
-    Das mentale Modell ist oft visuell („dann steht da nur A“), nicht tabellarisch‑formal.
-    Fehlen der Systematik: Lernende prüfen nicht alle Kombinationen, sondern nur „naheliegende“ Fälle.
+        Alltagssprache führt zu einem „positiven Denkmuster“: Man nennt nur, was vorhanden ist, nicht was fehlt. 
+        Das mentale Modell ist oft visuell („dann steht da nur A“), nicht tabellarisch‑formal.
+        Fehlen der Systematik: Lernende prüfen nicht alle Kombinationen, sondern nur „naheliegende“ Fälle.
 
     !!! student "Merksatz gegen die Fehlvorstellung"
     Ein Fall ist nur korrekt beschrieben, wenn alle relevanten Variablen ausdrücklich vorkommen – als A oder als ¬A. Weggelassene Negationen führen fast immer zu falschen Formeln.
