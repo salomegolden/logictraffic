@@ -11,11 +11,11 @@ Im Folgenden werden typische Fehlvorstellungen beschrieben. Die Beschreibung und
 ??? error "Fehlvorstellung 1: Implikation wird als AND interpretiert"
     Lernende glauben, dass eine Aussage der Form „Wenn A, dann B“ bedeutet: A UND B müssen gleichzeitig wahr sein.
     
-    ??? meta "Warum ist das falsch?"
+    === "Warum ist das falsch?" 
         Die Implikation A→B ist nur dann falsch, wenn A wahr und B falsch ist.
         In allen anderen Fällen ist sie wahr, auch wenn A gar nicht eintritt.
         
-    ??? meta "Warum die Fehlvorstellung entsteht"
+    === "Warum die Fehlvorstellung entsteht"
         Alltagssprache erzeugt ein kausales Verständnis: „Wenn A passiert, muss B passieren“.
         
     !!! student "Merksatz gegen die Fehlvorstellung"
@@ -25,12 +25,12 @@ Im Folgenden werden typische Fehlvorstellungen beschrieben. Die Beschreibung und
 ??? error "Fehlvorstellung 2: OR als "genau eine Bedingung" oder als Bestätigung eine der Bedingungen, statt als inklusives Oder"
     Lernende glauben, dass das logische Oder $A \lor B$ nur dann wahr ist, wenn genau eine der beiden Bedingungen wahr ist. Sie interpretieren OR also wie ein exklusives Oder (XOR). Oder sie denken: OR bedeutet, dass B gilt oder A gilt – aber nicht, dass beide gleichzeitig wahr sein dürfen.
 
-    ??? meta "Warum ist das falsch?" 
+    === "Warum ist das falsch?" 
         Das ODER ($\lor$) der Aussagenlogik sagt:
         Die Aussage ist wahr, wenn mindestens eine der Bedingungen wahr ist. 
         Sie ist also auch wahr, wenn beide wahr sind.
 
-    ??? meta "Warum die Fehlvorstellung entsteht" 
+    === "Warum die Fehlvorstellung entsteht" 
         Alltagssprache benutzt „oder“ meistens exklusiv („Pizza oder Pasta?“ → meist nur eins).
         In vielen Übungsbeispielen tauchen OR‑Fälle nicht gleichzeitig wahr auf – der Fall „1/1“ wird unbewusst vergessen.
 
@@ -40,10 +40,10 @@ Im Folgenden werden typische Fehlvorstellungen beschrieben. Die Beschreibung und
     
 ??? error "Fehlvorstellung 3: Komplexe Operatoren werden auf „einfache“ AND/OR‑Muster reduziert
     Lernende versuchen, komplexere logische Ausdrücke – besonders die Implikation („Wenn A, dann B“) – auf vermeintlich einfache Muster wie A ∧ B oder A ∨ B zu reduzieren. Die vollständigen Wahrheitsbedingungen werden dabei nicht berücksichtigt. Typisch ist folgende fehlerhafte Reduktion: $A \rightarrow B$ wird zu $A \land B$ (beide müssen wahr sein) oder zu $A \lor B$ (mindestens eine Bedingung wahr)
-    ??? meta "Warum ist das falsch?" 
+    === "Warum ist das falsch?" 
         die Implikation ist nur dann falsch, wenn A wahr und B falsch ist. Weder AND noch OR besitzen diese Struktur — eine intuitive Reduktion verändert also die gesamte logische Aussage.
         
-    ??? meta "Warum die Fehlvorstellung entsteht:" 
+    === "Warum die Fehlvorstellung entsteht:" 
         Lernende suchen „einfache Muster“, um sprachliche Formulierungen schnell zu übersetzen.
         Alltagssprache erzeugt eine kausale Logik („Wenn A passiert, muss B passieren“) → wirkt wie AND
 
@@ -52,9 +52,15 @@ Im Folgenden werden typische Fehlvorstellungen beschrieben. Die Beschreibung und
 
 ??? error "Fehlvorstellung 4: Nichtbeachtung komplementierter Variablen"
     Lernende berücksichtigen beim Bilden oder Interpretieren von logischen Ausdrücken nicht alle möglichen Wahrheitsfälle, insbesondere jene, in denen Variablen falsch (¬A, ¬B, …) sind. 
-    Dadurch entstehen unvollständige oder falsche Normalformen (DNF, KDNF, KNF, KKNF). Typische vergessene Fälle: A ist falsch || alle Variablen sind falsch (∅‑Fall) || Kombinationen, in denen mehrere Variablen negiert sind
+    Dadurch entstehen unvollständige oder falsche Normalformen (DNF, KDNF, KNF, KKNF). 
+    
+    === "Typische vergessene Fälle:" 
+    
+    * A ist falsch 
+    * alle Variablen sind falsch (∅‑Fall) 
+    * Kombinationen, in denen mehrere Variablen negiert sind
 
-    ??? meta "Warum die Fehlvorstellung entsteht:" 
+    === "Warum die Fehlvorstellung entsteht:" 
     Alltagssprache führt zu einem „positiven Denkmuster“: Man nennt nur, was vorhanden ist, nicht was fehlt.
     Das mentale Modell ist oft visuell („dann steht da nur A“), nicht tabellarisch‑formal.
     Fehlen der Systematik: Lernende prüfen nicht alle Kombinationen, sondern nur „naheliegende“ Fälle.
