@@ -1,22 +1,110 @@
+/*Hier Admonition - Violett / Lila =Lehrpersonen‑Hinweis*/ 
 :root {
-  --md-admonition-icon--chalkboard-teacher: url('data:image/svg+xml;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M128 96c0-35.3 28.7-64 64-64h352c35.3 0 64 28.7 64 64v240h-96v-16c0-17.7-14.3-32-32-32h-64c-17.7 0-32 14.3-32 32v16H254.9c10.9-18.8 17.1-40.7 17.1-64 0-70.7-57.3-128-128-128-5.4 0-10.8.3-16 1zm205 352c-5.1-24.2-16.3-46.1-32.1-64H608c0 35.3-28.7 64-64 64zM64 272a80 80 0 1 1 160 0 80 80 0 1 1-160 0M0 480c0-53 43-96 96-96h96c53 0 96 43 96 96 0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32"/></svg>
+  --md-admonition-icon--teacher: url('data:image/svg+xml;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M128 96c0-35.3 28.7-64 64-64h352c35.3 0 64 28.7 64 64v240h-96v-16c0-17.7-14.3-32-32-32h-64c-17.7 0-32 14.3-32 32v16H254.9c10.9-18.8 17.1-40.7 17.1-64 0-70.7-57.3-128-128-128-5.4 0-10.8.3-16 1zm205 352c-5.1-24.2-16.3-46.1-32.1-64H608c0 35.3-28.7 64-64 64zM64 272a80 80 0 1 1 160 0 80 80 0 1 1-160 0M0 480c0-53 43-96 96-96h96c53 0 96 43 96 96 0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32"/></svg>
 '); 
 }
 
-.md-typeset .admonition.<NAME>,
-.md-typeset details.<NAME> {
-  border-color: <FARBE>;
+.md-typeset .admonition.teacher,
+.md-typeset details.teacher {
+  border-color: #A155E5;
 }
 
-.md-typeset .<NAME> > .admonition-title,
-.md-typeset .<NAME> > summary {
-  background-color: <FARBE transparent>;
+.md-typeset .teacher > .admonition-title,
+.md-typeset .teacher > summary {
+  background-color: rgba(161, 85, 229, 0.1);
 }
 
-.md-typeset .<NAME> > .admonition-title::before,
-.md-typeset .<NAME> > summary::before {
-  background-color: <FARBE>;
-  mask-image: var(--md-admonition-icon--<NAME>);
-  -webkit-mask-image: var(--md-admonition-icon--<NAME>);
+.md-typeset .teacher > .admonition-title::before,
+.md-typeset .teacher > summary::before {
+  background-color: #A155E5;
+  mask-image: var(--md-admonition-icon--<teacher>);
+  -webkit-mask-image: var(--md-admonition-icon--<teacher>);
 }
-``
+
+/*Hier Admonition - Grün = LogicTraffic*/ 
+:root {
+  --md-admonition-icon--logictraffic: url('data:image/svg+xml;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 10h-3V8.86c1.72-.45 3-2 3-3.86h-3V4c0-.55-.45-1-1-1H8c-.55 0-1 .45-1 1v1H4c0 1.86 1.28 3.41 3 3.86V10H4c0 1.86 1.28 3.41 3 3.86V15H4c0 1.86 1.28 3.41 3 3.86V20c0 .55.45 1 1 1h8c.55 0 1-.45 1-1v-1.14c1.72-.45 3-2 3-3.86h-3v-1.14c1.72-.45 3-2 3-3.86m-5 9H9V5h6zm-3-1c.83 0 1.5-.67 1.5-1.5S12.83 15 12 15s-1.5.67-1.5 1.5.67 1.5 1.5 1.5m0-4.5c.83 0 1.5-.67 1.5-1.5s-.67-1.5-1.5-1.5-1.5.67-1.5 1.5.67 1.5 1.5 1.5M12 9c.83 0 1.5-.67 1.5-1.5S12.83 6 12 6s-1.5.67-1.5 1.5S11.17 9 12 9"/></svg>'); /* traffic-light */
+}
+
+.md-typeset .admonition.logictraffic,
+.md-typeset details.logictraffic {
+  border-color: #2B9B46;
+}
+
+.md-typeset .practice > .admonition-title,
+.md-typeset .practice > summary {
+  background-color: rgba(43, 155, 70, 0.1);
+}
+
+.md-typeset .practice > .admonition-title::before,
+.md-typeset .practice > summary::before {
+  background-color: #2B9B46;
+  mask-image: var(--md-admonition-icon--logictraffic);
+  -webkit-mask-image: var(--md-admonition-icon--logictraffic);
+}
+
+/*hier SuS Material und Erklärungen - Blau */ 
+:root {
+  --md-admonition-icon--student: url('data:image/svg+xml; <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 19a2.9 2.9 0 0 0 .17 1H6a1 1 0 0 1-1-1v-1h2m3 1a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1v-1h-4m-6-2a1 1 0 0 0 1 1h2v-2.12A6.92 6.92 0 0 1 5 10a6.8 6.8 0 0 1 .68-3A4 4 0 0 0 4 14.45M17 19a2.9 2.9 0 0 1-.17 1H18a1 1 0 0 0 1-1v-1h-2m0-8a5 5 0 0 1-2 4v2a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1v-2a5 5 0 1 1 8-4m-2 0a3 3 0 1 0-4 2.82V15h2v-2.18A3 3 0 0 0 15 10m3.32-3a6.8 6.8 0 0 1 .68 3 6.92 6.92 0 0 1-2 4.88V17h2a1 1 0 0 0 1-1v-1.55A4 4 0 0 0 18.32 7"/></svg>'); /* lightbulb */
+}
+
+.md-typeset .admonition.student,
+.md-typeset details.student {
+  border-color: #5985E1;
+}
+
+.md-typeset .student > .admonition-title,
+.md-typeset .student > summary {
+  background-color: rgba(89, 133, 225, 0.1);
+}
+
+.md-typeset .student > .admonition-title::before,
+.md-typeset .student > summary::before {
+  background-color: #5985E1;
+  mask-image: var(--md-admonition-icon--student);
+  -webkit-mask-image: var(--md-admonition-icon--student);
+}
+
+/*hier Warnungen vor Fehler, Fehlkonzepten etc.*/ 
+:root {
+  --md-admonition-icon--error: url('data:image/svg+xml; <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m23 12-2.44-2.78.34-3.68-3.61-.82-1.89-3.18L12 3 8.6 1.54 6.71 4.72l-3.61.81.34 3.68L1 12l2.44 2.78-.34 3.69 3.61.82 1.89 3.18L12 21l3.4 1.46 1.89-3.18 3.61-.82-.34-3.68zm-10 5h-2v-2h2zm0-4h-2V7h2z"/></svg>'); /* alert/error */
+}
+
+.md-typeset .admonition.error,
+.md-typeset details.error {
+  border-color: #EA3323;
+}
+
+.md-typeset .error > .admonition-title,
+.md-typeset .error > summary {
+  background-color: rgba(234, 51, 35, 0.1);
+}
+
+.md-typeset .error > .admonition-title::before,
+.md-typeset .error > summary::before {
+  background-color: #EA3323;
+  mask-image: var(--md-admonition-icon--error);
+  -webkit-mask-image: var(--md-admonition-icon--error);
+}
+
+/*für Extra Infos und Sachinformationen*/ 
+:root {
+  --md-admonition-icon--meta: url('data:image/svg+xml;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M16.5 12c0-.68-.06-1.34-.14-2h3.38c.16.64.26 1.31.26 2 0 .37-.03.73-.08 1.08.69.1 1.33.32 1.92.64.1-.56.16-1.13.16-1.72 0-5.5-4.5-10-10-10C6.47 2 2 6.5 2 12s4.5 10 10 10c.59 0 1.16-.06 1.72-.16A5.9 5.9 0 0 1 13 19c0-.29.03-.57.07-.85-.32.63-.67 1.24-1.07 1.81-.83-1.2-1.5-2.53-1.91-3.96h3.72a5.95 5.95 0 0 1 2.59-2.4c.06-.53.1-1.06.1-1.6M12 4.03c.83 1.2 1.5 2.54 1.91 3.97h-3.82c.41-1.43 1.08-2.77 1.91-3.97M4.26 14C4.1 13.36 4 12.69 4 12s.1-1.36.26-2h3.38c-.08.66-.14 1.32-.14 2s.06 1.34.14 2zm.82 2H8c.35 1.25.8 2.45 1.4 3.56A8 8 0 0 1 5.08 16M8 8H5.08A7.92 7.92 0 0 1 9.4 4.44C8.8 5.55 8.35 6.75 8 8m6.34 6H9.66c-.1-.66-.16-1.32-.16-2s.06-1.35.16-2h4.68c.09.65.16 1.32.16 2s-.07 1.34-.16 2m.25-9.56c1.84.63 3.37 1.9 4.33 3.56h-2.95a15.7 15.7 0 0 0-1.38-3.56M23 18v2h-3v3h-2v-3h-3v-2h3v-3h2v3z"/></svg>'); /* travel-explore */
+}
+
+.md-typeset .admonition.meta,
+.md-typeset details.meta {
+  border-color: #666666;
+}
+
+.md-typeset .meta > .admonition-title,
+.md-typeset .meta > summary {
+  background-color: rgba(102, 102, 102, 0.1);
+}
+
+.md-typeset .meta > .admonition-title::before,
+.md-typeset .meta > summary::before {
+  background-color: #666;
+  mask-image: var(--md-admonition-icon--meta);
+  -webkit-mask-image: var(--md-admonition-icon--meta);
+}
