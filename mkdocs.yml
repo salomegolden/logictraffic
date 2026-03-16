@@ -45,9 +45,9 @@ nav:
   - Überblick: overview.md
   - Zur Sache: 
       - topic.md
-      - Darstellungswechsel: darstellungswechsel.md
-      - Normalformeln: normalformeln.md
-      - Wahrheitstabellen: wahrheitstabellen.md
+      - Darstellungswechsel: topic/darstellungswechsel.md
+      - Normalformeln: topic/normalformeln.md
+      - Wahrheitstabellen: topic/wahrheitstabellen.md
   - Lehrplan und Lernziele: goals.md
   - Unterrichtsplanung: lessons.md
   - Downloads: downloads.md
