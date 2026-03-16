@@ -11,6 +11,7 @@ extra_css:
 
 theme:
   name: material
+  font:  NunitoSans
   language: de
   features:
     - navigation.instant
@@ -68,10 +69,7 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
   - pymdownx.arithmatex:
-      inline_wrap: ['$', '$']
-      block_wrap: ['$$', '$$']
+      generic: true
   - pymdownx.tabbed:
       alternate_style: true
 
-extra_javascript:
-  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
