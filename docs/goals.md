@@ -1,11 +1,11 @@
 
 # Lernziele für den Einsatz von *Logic Traffic* im Informatikunterricht
 
-Dieses Dokument fasst die Lernziele zusammen, die auf Basis der Funktionen von **Logic Traffic** (Wahrheitstabelle, Formeleditor, Simulation) formuliert wurden.  
-Die Einordnung erfolgt entlang der Wissensdimensionen nach **Anderson (2009)**:  
+Dieses Dokument fasst die Lernziele zusammen, die auf Basis der Funktionen von **Logic Traffic** (Wahrheitstabelle, Formeleditor, Simulation) formuliert wurden. Diese wurden sowohl mit dem Lehrplan21[^1] als auch mit dem Rahmenlehrplan Gymnasium[^2] verknüpft um für alle Schularten Anknüpfungspunkte zu bieten.  
+Die Einordnung erfolgt entlang der Wissensdimensionen nach **Anderson [^3] (2009)**:  
 
 Die Lernziele sind so formuliert, dass sie die spezifischen Funktionen von Logic Traffic (Wahrheitstabelle, Formeleditor, Simulation) abdecken.  
-Sie sind bezogen auf die oben definierten Inhalte aus den Lehrplänen und formuliert nach Anderson (2009).
+Sie sind bezogen auf die oben definierten Inhalte aus den Lehrplänen und formuliert nach Anderson[^3].
 
 | Wissensart               | Erinnern | Verstehen | Anwenden | Analysieren | Bewerten | Erzeugen |
 |--------------------------|----------|-----------|----------|-------------|----------|----------|
@@ -24,13 +24,11 @@ die logischen Operatoren **AND**, **OR**, **NOT** benennen, ihre Formelzeichen k
 ### Bezüge zu Lehrplänen
 
 **Rahmenlehrplan Gymnasium**  
-- Die Maturandinnen und Maturanden können grundlegende arithmetische und logische Operationen und Funktionen in Programmiersprachen umsetzen.  
-  *(Rahmenlehrplan gymnasiale Maturitätsschulen, 2024, S. 69)*
+- Die Maturandinnen und Maturanden können grundlegende arithmetische und logische Operationen und Funktionen in Programmiersprachen umsetzen ([^2] S. 69).
 
 **Lehrplan 21**  
 - MI.2.1.g: Daten mit verschiedenen Symbolsystemen darstellen und interpretieren  
-  (z. B. logische Verknüpfungen, Symbole für Verkehrszeichen).  
-  *(D‑EDK, 2016, S. 484)*
+  (z. B. logische Verknüpfungen, Symbole für Verkehrszeichen) ([^1] S. 484).
 
 ---
 
@@ -38,18 +36,13 @@ die logischen Operatoren **AND**, **OR**, **NOT** benennen, ihre Formelzeichen k
 
 **Die Schülerinnen und Schüler können**  
 eine sprachliche Beschreibung sicherer Zustände einer Kreuzung in eine **boolesche Formel** übersetzen und diese im **Formeleditor von Logic Traffic** implementieren.
-
 ### Bezüge zu Lehrplänen
-
 **Rahmenlehrplan Gymnasium**  
-- Informationen strukturieren und modellieren (analytisches und vernetztes Denken).  
-  *(2024, S. 68)*  
-- Verschiedene Darstellungen von Informationen erläutern und deren Besonderheiten analysieren.  
-  *(2024, S. 68)*
+- Informationen strukturieren und modellieren (analytisches und vernetztes Denken) ([^2], S. 68).
+- Verschiedene Darstellungen von Informationen erläutern und deren Besonderheiten analysieren ([^2], S. 68).
 
 **Lehrplan 21**  
-- MI.2.2.a: Abläufe mit Entscheidungen und Schleifen lesen, verstehen und in formaler Sprache ausführen.  
-  *(D‑EDK, 2016, S. 485)*
+- MI.2.2.a: Abläufe mit Entscheidungen und Schleifen lesen, verstehen und in formaler Sprache ausführen ([^1], S. 485).
 
 ---
 
@@ -61,14 +54,11 @@ eine fehlerhafte Ampelsteuerung systematisch untersuchen, mithilfe der Simulatio
 ### Bezüge zu Lehrplänen
 
 **Rahmenlehrplan Gymnasium**  
-- Fehler in einem Programm durch systematisches Testen identifizieren und korrigieren.  
-  *(2024, S. 69)*  
-- Struktur von Programmcode und technischen Texten analysieren.  
-  *(2024, S. 68)*
+- Fehler in einem Programm durch systematisches Testen identifizieren und korrigieren ([^2], S. 69).
+- Struktur von Programmcode und technischen Texten analysieren ([^2], S. 68).
 
 **Lehrplan 21**  
-- MI.2.2.c: Fehler in Abläufen finden und beheben (Debugging).  
-  *(D‑EDK, 2016, S. 485)*
+- MI.2.2.c: Fehler in Abläufen finden und beheben (Debugging) ([^1], S. 485).
 
 
 ## Lernziel 4  - Normalformen & Minimierung boolescher Ausdrücke
@@ -79,18 +69,16 @@ für eine komplexe Kreuzung (z. B. mit Bus‑Priorisierung) eine **lückenlose
 ### Bezüge zu Lehrplänen
 
 **Rahmenlehrplan Gymnasium**  
-- Entwicklung einer formalen und systematischen Vorgehensweise zur Problemlösung.  
-  *(2024, S. 67)*  
-- Präzise mathematische Beschreibung mit Symbolen und Nutzen von Abstraktion.  
-  *(2024, S. 63–64)*
+- Entwicklung einer formalen und systematischen Vorgehensweise zur Problemlösung ([^2], S. 67).
+- Präzise mathematische Beschreibung mit Symbolen und Nutzen von Abstraktion ([^2], S. 63–64).
 
 **Lehrplan 21**  
-- MI.2.2.b: Einfache Algorithmen zur Lösung von Problemen entwerfen.  
-  *(D‑EDK, 2016, S. 485)*
+- MI.2.2.b: Einfache Algorithmen zur Lösung von Problemen entwerfen ([^1], S. 485).
 
 ---
-D-EDK, D. E. (2016). Lehrplan 21. Gesamtausgabe. Luzern: D-EDK Geschäftsstelle. https://v-fe.lehrplan.ch/container/V_FE_DE_Gesamtausgabe.pdf
-Rahmenlehrplan gymnasiale Maturitätsschulen. (2024, Juni 20). EDK. https://edudoc.ch/record/232281
+[^1]: D-EDK, D. E. (2016). Lehrplan 21. Gesamtausgabe. Luzern: D-EDK Geschäftsstelle. https://v-fe.lehrplan.ch/container/V_FE_DE_Gesamtausgabe.pdf
+[^2]: Rahmenlehrplan gymnasiale Maturitätsschulen. (2024, Juni 20). EDK. https://edudoc.ch/record/232281
+[^3]: Anderson, L. W. (Hrsg.). (2009). A taxonomy for learning, teaching, and assessing: A revision of Bloom’s taxonomy of educational objectives (Complete ed., [Nachdr.]). Longman.
 
 
 
