@@ -6,6 +6,8 @@ repo_url: https://github.com/salomegolden/logictraffic
 site_url: https://salomegolden.github.io/logictraffic/
 docs_dir: docs
 edit_uri: edit/main/docs/
+extra_css: 
+    - stylesheets/callouts.css
 
 theme:
   name: material
