@@ -8,7 +8,7 @@ In der **Aussagenlogik** arbeiten wir mit Aussagen, denen eindeutig ein Wahrheit
 
 ???+ student "Boolesche Logik"
     **Boolesche Logik** ist die formale Logik mit genau zwei Wahrheitswerten (wahr/falsch bzw. 1/0), in der Aussagen mit Junktoren wie UND ($\land$), ODER ($\lor$) und Negation ($\neg$) verknüpft werden [^5].
-    
+
 ???+ logictraffic "Aussagelogik und Logictraffic"
     **LogicTraffic** nutzt Aussagenlogik zur formalen Modellierung von Ampelzuständen an Kreuzungen. Jede Ampel ist eine Variable (A, B, C, …), Formeln beschreiben sichere/unsichere Zustände (z. B. „A grün ∧ B rot“) [^11], [^10]. 
 
@@ -19,14 +19,14 @@ Eine boolsche Variable ist in der Informatik die kleinste Informationseinheit. S
     In LogicTraffic steht jede Variable für den Zustand einer Ampel (rot $0$  / grün $1$) [^10], [^11].
 
 ### Aussagen 
-eine **Aussage** wird durch drei Eigenschaften beschrieben [^1], [^7]: 
-
     ???+ student inline end "Beispiele für Aussagen"
     Beispiele für Aussagen:
     
     - "Die Ampel A ist grün."
     - "Auto fährt von Norden."
     - „Abbiegen nach rechts erlaubt.“  
+    
+eine **Aussage** wird durch drei Eigenschaften beschrieben [^1], [^7]: 
     
 1. eine Aussage ist eine sprachliche Einheit, die einen Sachverhalt ausdrückt.
 2. Eine Aussage ist entweder _wahr_ (Wahrheitswert $1$) oder _falsch_ (Wahrheitswert $0$).
