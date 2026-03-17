@@ -12,7 +12,7 @@ In der **Aussagenlogik** arbeiten wir mit Aussagen, denen eindeutig ein Wahrheit
 ### Variablen und Zustände 
 Eine boolsche Variable ist in der Informatik die kleinste Informationseinheit. Sie trägt genau eine Information, die entweder zutrifft oder eben nicht.
 
-??? logictraffic "Variable in LogicTraffic"
+???+ logictraffic "Variable in LogicTraffic"
     In LogicTraffic steht jede Variable für den Zustand einer Ampel (rot $0$  / grün $1$) [^10], [^11].
 
 ### Aussagen 
@@ -22,7 +22,7 @@ eine **Aussage** wird durch drei Eigenschaften beschrieben [^1], [^7]:
 2. Eine Aussage ist entweder _wahr_ (Wahrheitswert $1$) oder _falsch_ (Wahrheitswert $0$).
 3. Die Sprache ist beliebig (natürlich oder formal)
 
-??? student inline end "Beispiele für Aussagen"
+???+ student inline end "Beispiele für Aussagen"
     Beispiele für Aussagen:
     
     - "Die Ampel A ist grün."
@@ -33,7 +33,7 @@ eine **Aussage** wird durch drei Eigenschaften beschrieben [^1], [^7]:
     Aussagen beschreiben überprüfbare Sachverhalte (z. B. „Ampel A grün“ → Variable A=1). Diese werden zu logischen Formeln verknüpft, um sichere Kreuzungskonfigurationen zu modellieren [^10], [^11]. 
     
 ### Junktoren und Operatoren 
-!!! meta "Definition von Junktor" 
+??? meta "Definition von Junktor" 
     **Junktor**: Ein Junktor (lat. *iungere* = verbinden) ist ein logisches Verknüpfungszeichen, das zwei oder mehr Aussagen zu einer neuen Aussage verbindet [^7]. 
 
 !!! teacher "Junktoren in der Unterrichtseinheit"
@@ -46,10 +46,10 @@ eine **Aussage** wird durch drei Eigenschaften beschrieben [^1], [^7]:
     Die Implikation \(\to\) wird als abgeleiteter Operator eingeführt (\(\to \equiv \neg A \lor B\)).
 
 
-??? student "Junktoren für SuS"
+???+ student "Junktoren für SuS"
     Junktoren sind wie **Bindewörter** in der Grammatik: ‚und‘, ‚oder‘, ‚nicht‘ verbinden Wörter zu Sätzen – hier verbinden sie Aussagen zu neuen Aussagen [^5].  
 
-!!! student "Operatoren - Definition" 
+???+ student "Operatoren für SuS" 
     **Operatoren** in der Aussagenlogik sind die „Rechenzeichen“, die aus Eingabewerten (wahr/falsch) einen Ausgabewert erzeugen. Sie definieren boolesche Funktionen [^9] [^3]. 
 
     
@@ -60,9 +60,9 @@ eine **Aussage** wird durch drei Eigenschaften beschrieben [^1], [^7]:
 | Negation     | `\(\neg A\)`| „nicht A“         | \(\neg A\)                  |
 | Konjunktion  | `A \(\land\) B` | „A und B“     | \(A \land B\)               |
 | Disjunktion  | `A \(\lor\) B` | „A oder B“    | \(A \lor B\)                |
-| Implikation  | `A \(\to\) B`| „wenn A, dann B“ | \(\neg A \lor B\)           |
+| Implikation  | `A \(\to\) B`| „wenn A, dann B“ | \(A \rightarrow B\)           |
 
-!!! error inline "Typische Fehlvorstellungen"
+!!! error inline end "Typische Fehlvorstellungen"
     Gerade zu den Operatoren sind Fehlvorstellungen weit verbreitet [^6]. Es lohnt sich, diese zu kennen und im Unterricht auf sie zu achten. Die üblichen Fehlvorstellungen können hier nachgelesen werden: [Fehlvorstellungen :material-alert-decagram:](learninglogic.md)
 
 ## Darstellung der Situationen in LogicTraffic 
@@ -74,7 +74,7 @@ Logische Funktionen lassen sich ikonisch (bildlich), symbolisch (Formel, Wahrhei
 ### Symbolische Darstellungen in LogicTraffic 
 
 #### Wahrheitstabellen 
-!!! student "Wahrheitstabelle"
+???+ student "Definition Wahrheitstabelle"
     Eine **Wahrheitstabelle** listet für alle \(2^n\) Eingabekombinationen (\(n\) Variablen) den Ausgabewert einer booleschen Funktion auf [^2], [^8]. 
     
 !!! teacher "Wahrheitstabellen im Unterricht"
@@ -84,7 +84,7 @@ Logische Funktionen lassen sich ikonisch (bildlich), symbolisch (Formel, Wahrhei
 
     
 #### Formeln 
-!!! student "boolesche (Aussagen-)Funktion"
+???+ student "Definition boolesche (Aussagen-)Funktion"
     Eine boolesche (Aussagen‑)Funktion ordnet jeder Kombination von Eingabewahrheitswerten (z.B. A, B) genau einen Ausgabewert (0 oder 1) zu [^7].
 
 !!! teacher "Normalformeln"
