@@ -6,8 +6,7 @@ repo_url: https://github.com/salomegolden/logictraffic
 site_url: https://salomegolden.github.io/logictraffic/
 docs_dir: docs
 edit_uri: edit/main/docs/
-extra_css: 
-    - stylesheets/callouts.css
+
 
 theme:
   name: material
@@ -74,7 +73,10 @@ markdown_extensions:
       generic: true
   - pymdownx.tabbed:
       alternate_style: true
-      
+
+extra_css: 
+    - stylesheets/callouts.css
+
 extra_javascript:
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
