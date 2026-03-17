@@ -41,9 +41,9 @@ eine **Aussage** wird durch drei Eigenschaften beschrieben [^1], [^7]:
 
     1. **Konjunktion** $\land$ (UND)
     2. **Disjunktion** $\lor$ (ODER, inkl. inklusiver Sinn)
-    3. **Negation** \(\neg\) (NICHT) – unärer Junktor
+    3. **Negation** $\neg$ (NICHT) – unärer Junktor
 
-    Die Implikation \(\to\) wird als abgeleiteter Operator eingeführt (\(\to \equiv \neg A \lor B\)).
+    Die Implikation $\rightarrow wird als abgeleiteter Operator eingeführt $\to \equiv \neg A \lor B$
 
 
 ???+ student "Junktoren für SuS"
@@ -57,10 +57,10 @@ eine **Aussage** wird durch drei Eigenschaften beschrieben [^1], [^7]:
 
 | Operator     | LaTeX       | Verbale Bedeutung | Logische Äquivalenz         |
 |--------------|-------------|-------------------|-----------------------------|
-| Negation     | `\(\neg A\)`| „nicht A“         | \(\neg A\)                  |
-| Konjunktion  | `A \(\land\) B` | „A und B“     | \(A \land B\)               |
-| Disjunktion  | `A \(\lor\) B` | „A oder B“    | \(A \lor B\)                |
-| Implikation  | `A \(\to\) B`| „wenn A, dann B“ | \(A \rightarrow B\)           |
+| Negation     | `\(\neg A\)`| „nicht A“         | $\neg A$                  |
+| Konjunktion  | `A \(\land\) B` | „A und B“     | $A \land B$               |
+| Disjunktion  | `A \(\lor\) B` | „A oder B“    | $A \lor B$               |
+| Implikation  | `A \(\to\) B`| „wenn A, dann B“ | $A \rightarrow B$           |
 
 !!! error inline end "Typische Fehlvorstellungen"
     Gerade zu den Operatoren sind Fehlvorstellungen weit verbreitet [^6]. Es lohnt sich, diese zu kennen und im Unterricht auf sie zu achten. Die üblichen Fehlvorstellungen können hier nachgelesen werden: [Fehlvorstellungen :material-alert-decagram:](learninglogic.md)
@@ -75,7 +75,7 @@ Logische Funktionen lassen sich ikonisch (bildlich), symbolisch (Formel, Wahrhei
 
 #### Wahrheitstabellen 
 ???+ student "Definition Wahrheitstabelle"
-    Eine **Wahrheitstabelle** listet für alle \(2^n\) Eingabekombinationen (\(n\) Variablen) den Ausgabewert einer booleschen Funktion auf [^2], [^8]. 
+    Eine **Wahrheitstabelle** listet für alle $2^n$ Eingabekombinationen $n$ Variablen) den Ausgabewert einer booleschen Funktion auf [^2], [^8]. 
     
 !!! teacher "Wahrheitstabellen im Unterricht"
     Zwischenschritt ikonisch ↔ symbolisch: Anleitung und Übungen siehe [Wahrheitstabellen](topic/wahrheitstabellen.md).
