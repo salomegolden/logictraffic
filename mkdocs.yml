@@ -23,6 +23,7 @@ theme:
     - search.suggest
     - search.highlight
     - search.share
+    - content.tooltips
   icon:
     admonition:
       note: octicons/compose-24
@@ -47,7 +48,7 @@ nav:
   - Zur Sache: 
       - topic.md
       - Darstellungswechsel: topic/darstellungswechsel.md
-      - Normalformeln: topic/normalformeln.md
+      - Normalformeln: topic/normalformen.md
       - Wahrheitstabellen: topic/wahrheitstabellen.md
   - Lehrplan und Lernziele: goals.md
   - Unterrichtsplanung: lessons.md
@@ -62,6 +63,7 @@ markdown_extensions:
   - footnotes
   - tables
   - attr_list
+  - md_in_html
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
