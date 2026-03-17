@@ -39,7 +39,7 @@ theme:
       quote: octicons/quote-16
       teacher: material/human-male-board
       logictraffic: material/traffic-light
-      student: material/light-bulb-group
+      student: material/lightbulb-group-outline
       meta: material/web-plus
     
 edit_uri: edit/main/docs/
