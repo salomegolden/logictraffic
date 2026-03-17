@@ -13,14 +13,14 @@ Normalformen sind standardisierte Darstellungsformen für boolesche Funktionen, 
 
 ??? logictraffic "Beispiel aus Logic Traffic für die DNF - Situation 3" 
 
-    === Situation 3: 
+    === "Situation 3:" 
         ![Situation 3](../images/Situation3){ width="150" }
         
-    === Wahrheitstabelle zur Situation 3: 
+    === "Wahrheitstabelle zur Situation 3:"
         Um eine DNF herzuleiten, betrachten wir als Erstes die Wahrheitstabelle.
         ![WahrheitstabelleSituation3](../images/WahrheitstabelleSituation3){ align=right }
         
-    === Herleitung Disjunktive Normalform
+    === "Herleitung Disjunktive Normalform"
         Die Funktion ist in 5 verschiedenen Zeilen wahr. Aus jeder dieser Zeilen entsteht eine UND Kette. Die **kanonische (vollständige) disjunktive Normalform** (KDNF) ist dann: 
         
         $$(\neg A \wedge \neg B \wedge \neg C) \lor (\neg A \wedge \neg B \wedge C) \lor (\neg A \wedge B \wedge \neg C) \lor (A \wedge \neg B \wedge \neg C) \lor (A \wedge B \wedge \neg C)$$
@@ -44,13 +44,13 @@ Durch die Arbeit mit der gleichen Tabelle erkennen Schülerinnen und Schüler gu
 
 ??? logictraffic "Beispiel aus Logic Traffic für die DNF - Situation 3" 
 
-    === Situation 3: 
+    === "Situation 3: "
           ![Situation 3](../images/Situation3){ width="150" }
           
-    === Wahrheitstabelle zur Situation 3: 
+    === "Wahrheitstabelle zur Situation 3: "
         ![WahrheitstabelleSituation3](../images/WahrheitstabelleSituation3){ width 100 }
         
-    === Herleitung Konjunktive Normalform 
+    === "Herleitung Konjunktive Normalform "
         Die Funktion ist in 3 verschiedenen Zeilen falsch ($0$). Aus diesen Zeilen erzeugt man jeweils eine ODER Klammer. Daraus ergibt sich die **kanonische (vollständige) konjunktive Normalform** (KKNF): 
        
         $$(A \lor \neg B \lor \neg C)\land(\neg A \lor B \lor \neg C) \land (\neg A \lor \neg B \lor \neg C)$$ 
