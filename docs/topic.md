@@ -1,79 +1,91 @@
 # Zur Sache 
 
 ## Grundlagen der Aussagelogik im Kontext von Logic Traffic 
-In der Aussagelogik arbeiten wir mit Aussagen, denen eindeutig ein Wahrheitswert (_true_ oder _false_) zugeordnet werden kann. 
+In der **Aussagenlogik** arbeiten wir mit Aussagen, denen eindeutig ein Wahrheitswert (wahr/`true`/1 oder falsch/`false`/0) zugeordnet werden kann [^11].
 
-!!! student "Boolesche Logik"
-    Boolesche Logik ist die formale Logik mit genau zwei Wahrheitswerten (wahr/falsch bzw. 1/0), in der Aussagen mit Operatoren wie UND ($\land$), ODER($\lor$) und NICHT($\not$) verknüpft werden. 
-
-??? logictraffic "Logik und Logictraffic"
-    LogicTraffic nutzt Aussagenlogik, um Ampelzustände an Kreuzungen formal darzustellen. Jede Ampel wird durch eine Variable (A, B, C, …) repräsentiert, und jede Formel beschreibt, wann eine Ampel Grün ist. Durch Aussagenlogik lassen sich sichere oder unsichere Kreuzungssituationen beschreiben.
+???+ student "Boolesche Logik"
+    **Boolesche Logik** ist die formale Logik mit genau zwei Wahrheitswerten (wahr/falsch bzw. 1/0), in der Aussagen mit Junktoren wie UND (\(\land\)), ODER (\(\lor\)) und Negation (\(\neg\)) verknüpft werden [^5].
+    
+???+ logictraffic "Logik und Logictraffic"
+    **LogicTraffic** nutzt Aussagenlogik zur formalen Modellierung von Ampelzuständen an Kreuzungen. Jede Ampel ist eine Variable (A, B, C, …), Formeln beschreiben sichere/unsichere Zustände (z. B. „A grün ∧ B rot“) [^11], [^10]. 
 
 ### Variablen und Zustände 
 Eine boolsche Variable ist in der Informatik die kleinste Informationseinheit. Sie trägt genau eine Information, die entweder zutrifft oder eben nicht.
 
-!!! logictraffic "Variable in LogicTraffic"
-    In LogicTraffic steht jede Variable für den Zustand einer Ampel (rot $0$  / grün $1$).
+??? logictraffic "Variable in LogicTraffic"
+    In LogicTraffic steht jede Variable für den Zustand einer Ampel (rot $0$  / grün $1$) [^10], [^11].
 
 ### Aussagen 
-eine **Aussage** wird durch drei Eigenschaften beschrieben [^1]: (1) eine Aussage ist eine sprachliche Einheit, die einen Sachverhalt ausdrückt. (2) Eine Aussage ist entweder _wahr_ (Wahrheitswert $1$) oder _falsch_ (Wahrheitswert $0$). (3) Welche Sprache den Sachverhalt beschreibt ist unerheblich. 
+eine **Aussage** wird durch drei Eigenschaften beschrieben [^1], [^7]: 
+
+1. eine Aussage ist eine sprachliche Einheit, die einen Sachverhalt ausdrückt.
+2. Eine Aussage ist entweder _wahr_ (Wahrheitswert $1$) oder _falsch_ (Wahrheitswert $0$).
+3. Die Sprache ist beliebig (natürlich oder formal)
+
+??? student inline end "Beispiele für Aussagen"
+    Beispiele für Aussagen:
+    
+    - "Die Ampel A ist grün."
+    - "Auto fährt von Norden."
+    - „Abbiegen nach rechts erlaubt.“  
 
 ??? logictraffic "Aussage in LogicTaffic"
+    Aussagen beschreiben überprüfbare Sachverhalte (z. B. „Ampel A grün“ → Variable A=1). Diese werden zu logischen Formeln verknüpft, um sichere Kreuzungskonfigurationen zu modellieren [^10], [^11]. 
     
-    Im Kontext von LogicTraffic beschreibt eine Aussage einen Sachverhalt (Zustand der Ampeln) den man überprüfen kann: "Ampel A hat grün". Solche Sätze werden im Modell in logische Ausdrücke übersetzt, die man dann mit Operatoren verbinden kann. In LogicTraffic repräsentiert jede Variable eine Aussage über den Zustand einer Ampel.
-
-??? student inline "Beispiele für Aussagen"
-    
-    Beispiele für Aussagen:
-    - Die Ampel A ist grün.
-    - Auto fährt von Norden.
-    - Auto darf nach rechts abbiegen.
-
 ### Junktoren und Operatoren 
-Junktor = Ein Junktor (von lat. iungere = verbinden) ist ein logisches Verknüpfungszeichen, das zwei Aussagen zu einer neuen Aussage verbindet. Es gibt 3 Junktoren die in dieser Unterrichtseinheit behandelt werden:
-1. logisches UND $\land$
-2. logisches ODER $\lor$
-3. Negation / Verneinung $\neg$
-Durch Verknüpfung resp. Verneinung von Aussagen entstehen wiederum neue Aussagen.
+!!! meta "Definition von Junktor" 
+    **Junktor**: Ein Junktor (lat. *iungere* = verbinden) ist ein logisches Verknüpfungszeichen, das zwei oder mehr Aussagen zu einer neuen Aussage verbindet [^7]. 
 
-??? student "Erklärung für Junktoren" 
-    Als Erklärung für die Schülerinnen und Schüler kann folgende Analogie dienen: "_Junktoren funktionieren wie grammatikalische Bindewörter („und“, „oder“, „nicht“). Wir können Sprache so in eine formale Formel umwandeln._" 
+!!! teacher "Junktoren in der Unterrichtseinheit"
+    In dieser UE werden drei grundlegende Junktoren behandelt:
+
+    1. **Konjunktion** $\land$ (UND)
+    2. **Disjunktion** $\lor$ (ODER, inkl. inklusiver Sinn)
+    3. **Negation** \(\neg\) (NICHT) – unärer Junktor
+
+    Die Implikation \(\to\) wird als abgeleiteter Operator eingeführt (\(\to \equiv \neg A \lor B\)).
+
+
+??? student "Junktoren für SuS"
+    Junktoren sind wie **Bindewörter** in der Grammatik: ‚und‘, ‚oder‘, ‚nicht‘ verbinden Wörter zu Sätzen – hier verbinden sie Aussagen zu neuen Aussagen [^5].  
 
 !!! student "Operatoren - Definition" 
-    Operator: In der Aussagenlogik sind Operatoren die „Rechenzeichen“ — sie definieren, wie aus gegebenen Werten (z. B. Ampel grün/rot) ein neuer Wert entsteht.
+    **Operatoren** in der Aussagenlogik sind die „Rechenzeichen“, die aus Eingabewerten (wahr/falsch) einen Ausgabewert erzeugen. Sie definieren boolesche Funktionen [^9] [^3]. 
 
-Hier findet sich eine Tabelle aller Operatoren, welche in den Aufgaben dieser Unterrichtsreihe verwendet werden: 
+    
+**Operatoren-Tabelle** (für diese UE):
 
-    | Operator    | LaTeX       | Verbale Bedeutung | Logische Form                   |
-    | ----------- | ----------- | ----------------- | ------------------------------- |
-    | Negation    | `\lnot A`   | A nicht           | $\lnot A$                       |
-    | Konjunktion | `A \land B` | A und B           | $A \land B$                     |
-    | Disjunktion | `A \lor B`  | A oder B          | $A \lor B$                      |
-    | Implikation | `A \to B`   | wenn A, dann B    | $A \to B \equiv \lnot A \lor B$ |
+| Operator     | LaTeX       | Verbale Bedeutung | Logische Äquivalenz         |
+|--------------|-------------|-------------------|-----------------------------|
+| Negation     | `\(\neg A\)`| „nicht A“         | \(\neg A\)                  |
+| Konjunktion  | `A \(\land\) B` | „A und B“     | \(A \land B\)               |
+| Disjunktion  | `A \(\lor\) B` | „A oder B“    | \(A \lor B\)                |
+| Implikation  | `A \(\to\) B`| „wenn A, dann B“ | \(\neg A \lor B\)           |
 
 !!! error inline "Typische Fehlvorstellungen"
     Gerade zu den Operatoren sind Fehlvorstellungen weit verbreitet [^6]. Es lohnt sich, diese zu kennen und im Unterricht auf sie zu achten. Die üblichen Fehlvorstellungen können hier nachgelesen werden: [Fehlvorstellungen :material-alert-decagram:](learninglogic.md)
 
 ## Darstellung der Situationen in LogicTraffic 
-Logische Funktionen kann man auf unterschiedliche Arten darstellen wie z.B. Wahrheitstabellen, Normalformen und Parsebäume. In diesem Grundlagenunterricht mit LogicTraffic wird eine ikonische (bildliche) und symbolische (Formel & Wahrheitstabelle) sowie eine verbale (Ausformulierung durch Sprache) genauer beschrieben. 
+Logische Funktionen lassen sich ikonisch (bildlich), symbolisch (Formel, Wahrheitstabelle) und verbal (natürliche Sprache) darstellen. LogicTraffic nutzt alle Ebenen für einheitliche Verständnisentwicklung [^11].
 
 !!! teacher "Didaktik des Darstellungswechsel
-    Auf folgender Seite finden sich weitere Informationen zum Darstellungswechsel von enaktiver Darstellung über die ikonische zur symbolischen Darstellungsform: [Darstellungswechsel :material-circle-link:](topic/darstellungswechsel.md)
+    **Darstellungswechsel** (enaktiv → ikonisch → symbolisch): Detaillierte Unterrichtstipps siehe [Darstellungswechsel](topic/darstellungswechsel.md).
 
 ### Symbolische Darstellungen in LogicTraffic 
 
 #### Wahrheitstabellen 
 !!! student "Wahrheitstabelle"
-    Eine tabellarische Darstellung einer logischen Funktion, die für jede mögliche Kombination von Eingangswerten (0 oder 1) den resultierenden Ausgangswert zeigt. Bei $n$ Variablen hat die Tabelle $2^{n}$ Zeilen [^2], [^8]. 
+    Eine **Wahrheitstabelle** listet für alle \(2^n\) Eingabekombinationen (\(n\) Variablen) den Ausgabewert einer booleschen Funktion auf [^2], [^8]. 
+    
+!!! teacher "Wahrheitstabellen im Unterricht"
+    Zwischenschritt ikonisch ↔ symbolisch: Anleitung und Übungen siehe [Wahrheitstabellen](topic/wahrheitstabellen.md).
 
-!!! teacher "Wahrheitstabellen im Unterricht" 
-    Auf folgender Seite finden sich weitere Informationen wie man Wahrheitstabellen als Zwischenschritt zwischen ikonischer und symbolischer Darstellungsform im Unterricht nutzen kann: 
-    [Wahrheitstabellen:material-link-circle:](topic/wahrheitstabellen.md){ .md-button }
+
 
     
 #### Formeln 
 !!! student "boolesche (Aussagen-)Funktion"
-    Eine boolesche (Aussagen‑)Funktion ordnet jeder Kombination von Eingabewahrheitswerten (z.B. A, B) genau einen Ausgabewert zu [^7].
+    Eine boolesche (Aussagen‑)Funktion ordnet jeder Kombination von Eingabewahrheitswerten (z.B. A, B) genau einen Ausgabewert (0 oder 1) zu [^7].
 
 !!! teacher "Normalformeln"
     Auf der folgenden Seite werden behandelten Normalformeln, ihre Herleitung und Anwendung in LogicTraffic nochmals genau erklärt: [Normalformeln :material-link-circle:](topic/normalformen.md)
@@ -95,3 +107,8 @@ Logische Funktionen kann man auf unterschiedliche Arten darstellen wie z.B. Wahr
 
 [^8]: Wahrheitstafeln—Theoretisches Material. Mathematik, 6. Schulstufe. (o. J.). Abgerufen 17. März 2026, von https://www.yaclass.at/p/mathematik/6-schulstufe/mengen-und-mengenoperationen-17080/aussagen-und-mengen-17463/re-519f4254-a9a1-457b-aa7e-38b6386d9b1c
 
+[^9]: Hintergrund. (2021, Juni 22). https://lehrerfortbildung-bw.de/u_matnatech/imp/gym/bp2016/fb2/m02_aug/1_hintergrund/4_grund/
+
+[^10]: Leitprogramm LogicTraffic [BZZ - Modulwiki]. (o. J.). Abgerufen 17. März 2026, von https://wiki.bzz.ch/modul/mathe/ma1/thema/lu04logik/aufgaben/leitprogramm/start
+
+[^11]: Arnold, R., & Hartmann, W. (2007). LogicTraffic – Logik in der Allgemeinbildung. Informatik-Spektrum, 30(1), 19–26. https://doi.org/10.1007/s00287-006-0123-7
