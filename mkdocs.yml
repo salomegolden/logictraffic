@@ -38,7 +38,7 @@ theme:
       example: octicons/beaker-16
       quote: octicons/quote-16
       teacher: material/human-male-board
-      logictraffic: material/traffic-light
+      logictraffic: material/traffic-light-outline
       student: material/lightbulb-group-outline
       meta: material/web-plus
     
