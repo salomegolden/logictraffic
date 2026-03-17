@@ -1,9 +1,12 @@
 # Zur Sache 
 
 ## Grundlagen der Aussagelogik im Kontext von Logic Traffic 
-In der Aussagelogik arbeiten wir mit Aussagen, denen eindeutig ein Wahrheitswert (_true_ oder _false_) zugeordnet werden kann. Für die informatische Umsetzung in Logic Traffic abstrahieren wir die Zustände der Ampelanlage (rot oder grün) auf binäre Werte. Wir arbeiten damit mit Aussagen wie "die Ampel ist grün". Dieser Satz kann nur **wahr** oder **falsch** sein – nichts dazwischen. Durch logische Operatoren wie UND, ODER oder NICHT lassen sich solche Aussagen kombinieren. 
+In der Aussagelogik arbeiten wir mit Aussagen, denen eindeutig ein Wahrheitswert (_true_ oder _false_) zugeordnet werden kann. 
 
-??? logictraffic "Aussagelogik und Logictraffic"
+!!! student "Boolesche Logik"
+    Boolesche Logik ist die formale Logik mit genau zwei Wahrheitswerten (wahr/falsch bzw. 1/0), in der Aussagen mit Operatoren wie UND ($\land$), ODER($\lor$) und NICHT($\not$) verknüpft werden. 
+
+??? logictraffic "Logik und Logictraffic"
     LogicTraffic nutzt Aussagenlogik, um Ampelzustände an Kreuzungen formal darzustellen. Jede Ampel wird durch eine Variable (A, B, C, …) repräsentiert, und jede Formel beschreibt, wann eine Ampel Grün ist. Durch Aussagenlogik lassen sich sichere oder unsichere Kreuzungssituationen beschreiben.
 
 ### Variablen und Zustände 
@@ -60,8 +63,8 @@ Logische Funktionen kann man auf unterschiedliche Arten darstellen wie z.B. Wahr
 ### Symbolische Darstellungen in LogicTraffic 
 
 #### Wahrheitstabellen 
-??? meta "Wahrheitstabelle"
-    Eine tabellarische Darstellung einer logischen Funktion, die für jede mögliche Kombination von Eingangswerten (0 oder 1) den resultierenden Ausgangswert zeigt. Bei $n$ Variablen hat die Tabelle $2^{n}$ Zeilen [^2]. 
+!!! student "Wahrheitstabelle"
+    Eine tabellarische Darstellung einer logischen Funktion, die für jede mögliche Kombination von Eingangswerten (0 oder 1) den resultierenden Ausgangswert zeigt. Bei $n$ Variablen hat die Tabelle $2^{n}$ Zeilen [^2], [^8]. 
 
 !!! teacher "Wahrheitstabellen im Unterricht" 
     Auf folgender Seite finden sich weitere Informationen wie man Wahrheitstabellen als Zwischenschritt zwischen ikonischer und symbolischer Darstellungsform im Unterricht nutzen kann: 
@@ -69,9 +72,11 @@ Logische Funktionen kann man auf unterschiedliche Arten darstellen wie z.B. Wahr
 
     
 #### Formeln 
+!!! student "boolesche (Aussagen-)Funktion"
+    Eine boolesche (Aussagen‑)Funktion ordnet jeder Kombination von Eingabewahrheitswerten (z.B. A, B) genau einen Ausgabewert zu [^7].
 
 !!! teacher "Normalformeln"
-    Auf der folgenden Seite werden behandelten Normalformeln, ihre Herleitung und Anwendung in LogicTraffic nochmals genau erklärt: [Normalformeln :material-link-circle:](topic/normalformeln.md)
+    Auf der folgenden Seite werden behandelten Normalformeln, ihre Herleitung und Anwendung in LogicTraffic nochmals genau erklärt: [Normalformeln :material-link-circle:](topic/normalformen.md)
 
 
 [^1]: Hoffmann, A., Marx, B., & Vogt, W. (2005). _Mathematik für Ingenieure 1: Lineare Algebra, Analysis - Theorie und Numerik_. Pearson Deutschland.
@@ -83,3 +88,10 @@ Logische Funktionen kann man auf unterschiedliche Arten darstellen wie z.B. Wahr
 [^4]: Reichardt, J. (2025). _Digitaltechnik und Digitale Systeme: Von der Booleschen-Algebra über VHDL zur High-Level Synthese_. De Gruyter. [https://doi.org/10.1515/9783111698977](https://doi.org/10.1515/9783111698977)
 
 [^5]: Staab, F. (2012). _Logik und Algebra: Eine praxisbezogene Einführung für Informatiker und Wirtschaftsinformatiker_ (2. Aufl). De Gruyter. [https://doi.org/10.1524/9783486717532](https://doi.org/10.1524/9783486717532)
+
+[^6]: Herman, G. L., Loui, M. C., Kaczmarczyk, L., & Zilles, C. (2012). Describing the What and Why of Students’ Difficulties in Boolean Logic. ACM Transactions on Computing Education, 12(1), 1–28. https://doi.org/10.1145/2133797.2133800
+
+[^7]: Boolesche Funktionen und ihre Normalformen. (2021, Juni 22). https://lehrerfortbildung-bw.de/u_matnatech/imp/gym/bp2016/fb2/m02_aug/1_hintergrund/4_grund/06_funktionen/
+
+[^8]: Wahrheitstafeln—Theoretisches Material. Mathematik, 6. Schulstufe. (o. J.). Abgerufen 17. März 2026, von https://www.yaclass.at/p/mathematik/6-schulstufe/mengen-und-mengenoperationen-17080/aussagen-und-mengen-17463/re-519f4254-a9a1-457b-aa7e-38b6386d9b1c
+
