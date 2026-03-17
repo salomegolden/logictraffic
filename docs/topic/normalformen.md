@@ -9,7 +9,7 @@ Hier kommt ausführlichere Theorie und didaktische Aufarbeitung zu den Normalfor
 
 !!! logictraffic "Beispiel aus Logic Traffic für die DNF - Situation 3" 
     === Situation 3: 
-          ![Situation 3](../images/Situation3){ width="300" }
+          ![Situation 3](../images/Situation3){ width="150" }
     === Wahrheitstabelle zur Situation 3: 
         | A | B | C | sicher |
         | -- | -- | -- | -- |
