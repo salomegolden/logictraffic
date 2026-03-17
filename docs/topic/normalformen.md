@@ -11,9 +11,12 @@ Hier kommt ausführlichere Theorie und didaktische Aufarbeitung zu den Normalfor
     === Situation 3: 
           ![Situation 3](../images/Situation3){ width="150" }
     === Wahrheitstabelle zur Situation 3: 
-        | A | B | C | sicher |
-        | -- | -- | -- | -- |
-        | 0 | 0 | 0 | 1 |
+        ![WahrheitstabelleSituation3](../images/WahrheitstabelleSituation3){ width 100 }
+    === Herleitung Disjunktive Normalform
+        Die Funktion ist in den markierten Zeiten wahr. Die vollständige (kanonische) disjunktive Normalform ist dann: 
+        $$(\neg A \wedge \neg B \wedge \neg C) \lor (\neg A \wedge \neg B \wedge C) \lor (\neg A \wedge B \wedge \neg C) \lor (A \wedge \neg B \wedge \neg C) \lor (A \wedge B \wedge \neg C)$$
+        Wenn wir dies nun kürzen kommen wir auf folgende DNF: 
+        $$(\neg A \land \neg B)\lor(\neg C)$$
         
 
 ## Konjunktive Normalform (KNF) 
