@@ -40,8 +40,8 @@
 .md-typeset .logictraffic > .admonition-title::before,
 .md-typeset .logictraffic > summary::before {
   background-color: #2B9B46;
+  mask-image: var(--md-admonition-icon--logictraffic);
   -webkit-mask-image: var(--md-admonition-icon--logictraffic);
-          mask-image: var(--md-admonition-icon--logictraffic);
 }
 ``
 
@@ -49,7 +49,6 @@
 :root {
   --md-admonition-icon--student: url('data:image/svg"+xml;charset=utf-8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15 14v2a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1v-2a5 5 0 1 1 6 0m-1 4h-4v1a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1m-7 0v-1H5v1a1 1 0 0 0 1 1h1.17A2.9 2.9 0 0 1 7 19m-2-9a6.8 6.8 0 0 1 .68-3A4 4 0 0 0 4 14.45V16a1 1 0 0 0 1 1h2v-2.12A6.92 6.92 0 0 1 5 10m12 8v1a2.9 2.9 0 0 1-.17 1H18a1 1 0 0 0 1-1v-1m-.68-11a6.8 6.8 0 0 1 .68 3 6.92 6.92 0 0 1-2 4.88V17h2a1 1 0 0 0 1-1v-1.55A4 4 0 0 0 18.32 7"/></svg>')
 }
-.md-typeset .admonition.student,
 .md-typeset details.student {
   border-color: #5985E1;
 }
@@ -58,19 +57,18 @@
 .md-typeset .student > summary {
   background-color: rgba(89, 133, 225, 0.1);
 }
+
 .md-typeset .student > .admonition-title::before,
 .md-typeset .student > summary::before {
   background-color: #5985E1;
+  mask-image: var(--md-admonition-icon--student);
   -webkit-mask-image: var(--md-admonition-icon--student);
-          mask-image: var(--md-admonition-icon--student);
 }
 
 /* Typische Fehler / Warnungen (rot) */
 :root {
   --md-admonition-icon--error: url('data:image/svg+xml;charset=utf-8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 3C9.2 3 6.2 5.9 6 9.7L4.1 12.2C3.9 12.5 4.1 13 4.5 13H6V16C6 17.1 6.9 18 8 18H9V21H16V16.3C18.4 15.2 20 12.8 20 10C20 6.1 16.9 3 13 3M14 15H12V13H14V14M14 11H12V5H14V11Z" /></svg>')
 }
-
-.md-typeset .admonition.error,
 .md-typeset details.error {
   border-color: #EA3323;
 }
@@ -83,14 +81,14 @@
 .md-typeset .error > .admonition-title::before,
 .md-typeset .error > summary::before {
   background-color: #EA3323;
+  mask-image: var(--md-admonition-icon--error);
   -webkit-mask-image: var(--md-admonition-icon--error);
-          mask-image: var(--md-admonition-icon--error);
 }
 
 
 /*für Extra Infos und Sachinformationen*/ 
 :root {
---md-admonition-icon--meta: url('data:image/svg+xml;charset=utf-8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M16.5 12c0-.68-.06-1.34-.14-2h3.38c.16.64.26 1.31.26 2 0 .37-.03.73-.08 1.08.69.1 1.33.32 1.92.64.1-.56.16-1.13.16-1.72 0-5.5-4.5-10-10-10C6.47 2 2 6.5 2 12s4.5 10 10 10c.59 0 1.16-.06 1.72-.16A5.9 5.9 0 0 1 13 19c0-.29.03-.57.07-.85-.32.63-.67 1.24-1.07 1.81-.83-1.2-1.5-2.53-1.91-3.96h3.72a5.95 5.95 0 0 1 2.59-2.4c.06-.53.1-1.06.1-1.6M12 4.03c.83 1.2 1.5 2.54 1.91 3.97h-3.82c.41-1.43 1.08-2.77 1.91-3.97M4.26 14C4.1 13.36 4 12.69 4 12s.1-1.36.26-2h3.38c-.08.66-.14 1.32-.14 2s.06 1.34.14 2zm.82 2H8c.35 1.25.8 2.45 1.4 3.56A8 8 0 0 1 5.08 16M8 8H5.08A7.92 7.92 0 0 1 9.4 4.44C8.8 5.55 8.35 6.75 8 8m6.34 6H9.66c-.1-.66-.16-1.32-.16-2s.06-1.35.16-2h4.68c.09.65.16 1.32.16 2s-.07 1.34-.16 2m.25-9.56c1.84.63 3.37 1.9 4.33 3.56h-2.95a15.7 15.7 0 0 0-1.38-3.56M23 18v2h-3v3h-2v-3h-3v-2h3v-3h2v3z"/></svg>')
+  --md-admonition-icon--meta: url('data:image/svg+xml;charset=utf-8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M16.5 12c0-.68-.06-1.34-.14-2h3.38c.16.64.26 1.31.26 2 0 .37-.03.73-.08 1.08.69.1 1.33.32 1.92.64.1-.56.16-1.13.16-1.72 0-5.5-4.5-10-10-10C6.47 2 2 6.5 2 12s4.5 10 10 10c.59 0 1.16-.06 1.72-.16A5.9 5.9 0 0 1 13 19c0-.29.03-.57.07-.85-.32.63-.67 1.24-1.07 1.81-.83-1.2-1.5-2.53-1.91-3.96h3.72a5.95 5.95 0 0 1 2.59-2.4c.06-.53.1-1.06.1-1.6M12 4.03c.83 1.2 1.5 2.54 1.91 3.97h-3.82c.41-1.43 1.08-2.77 1.91-3.97M4.26 14C4.1 13.36 4 12.69 4 12s.1-1.36.26-2h3.38c-.08.66-.14 1.32-.14 2s.06 1.34.14 2zm.82 2H8c.35 1.25.8 2.45 1.4 3.56A8 8 0 0 1 5.08 16M8 8H5.08A7.92 7.92 0 0 1 9.4 4.44C8.8 5.55 8.35 6.75 8 8m6.34 6H9.66c-.1-.66-.16-1.32-.16-2s.06-1.35.16-2h4.68c.09.65.16 1.32.16 2s-.07 1.34-.16 2m.25-9.56c1.84.63 3.37 1.9 4.33 3.56h-2.95a15.7 15.7 0 0 0-1.38-3.56M23 18v2h-3v3h-2v-3h-3v-2h3v-3h2v3z"/></svg>')
 }
   .md-typeset details.meta {
   border-color: #666666;
