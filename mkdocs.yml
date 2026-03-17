@@ -40,6 +40,7 @@ theme:
       teacher: material/human-male-board
       logictraffic: material/traffic-light-outline
       student: material/lightbulb-group-outline
+      error: material/alert-octagram
       meta: material/web-plus
     
 edit_uri: edit/main/docs/
