@@ -38,6 +38,14 @@ Das LUKAS‑Modell hilft, Lernprozesse systematisch über passende Aufgabentypen
 In der folgenden Tabelle werden die 8 Aufgabentypen beschrieben. 
 
 ## Übersicht der Aufgabentypen nach Luthiger (2018)
+Das Modell unterscheidet acht Aufgabentypen, die jeweils spezifische epistemologische (erkenntnistheoretische) und didaktische Funktionen erfüllen.
+
+!!! meta "8 Aufgabentypen"
+
+   === Konfrontationsaufgabe
+
+
+
 
 | Aufgabentyp  | Didaktische Funktion | Epistemologische Funktion | Zielsetzung | Stellung im Lernprozess | Beispiel oder Merkmal | Link |
 | :--- | :--- | :--- | :--- | :--- | :--- | :---: |
