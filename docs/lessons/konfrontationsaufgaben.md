@@ -17,6 +17,7 @@
     Alternativ: Ausgedruckte Kreuzungsfelder und Papierautos.
 
 ???+ teacher "Ablauf KA1"
+    
     ???+ teacher "Schritt 1: Situation legen (enaktiv)"
         Die Lernenden legen mit den Autos selbst eine konkrete Verkehrssituation auf die Kreuzung:
         
