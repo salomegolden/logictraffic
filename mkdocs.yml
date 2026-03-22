@@ -55,7 +55,16 @@ nav:
       - Normalformeln: topic/normalformen.md
       - Wahrheitstabellen: topic/wahrheitstabellen.md
   - Lehrplan und Lernziele: goals.md
-  - Unterrichtsplanung: lessons.md
+  - Unterrichtsplanung: 
+      - lessons.md
+      - Konfrontationsaufgaben: lessons/konfrontationsaufgaben.md
+      - Erarbeitungsaufgaben: lessons/erarbeitungsaufgaben.md
+      - Übungsaufgaben: lessons/übungsaufgaben.md
+      - Vertiefungsaufgaben: lessons/vertiefungsaufgaben.md
+      - Syntheseaufgaben: lessons/syntheseausfgaben.md
+      - Transferaufgaben: lessons/transferaufgaben.md
+      - formative Beurteilungsaufgaben: lessons/formativebeurteilungsaufgaben.md
+      - summative Beurteilungsaufgaben: lessons/summativebeurteilungsaufgaben.md
   - Downloads: downloads.md
   - Beispiele aus dem Unterricht: examples.md
 
