@@ -25,7 +25,7 @@
         - Auto von Süden fährt rechts ab
         - Auto von Westen fährt geradeaus
 
-   ???+ teacher "Schritt 2: Entscheidung treffen ohne Regeln zu erklären" 
+    ???+ teacher "Schritt 2: Entscheidung treffen ohne Regeln zu erklären" 
         „Ist diese Kreuzungssituation sicher oder unsicher? Warum?“
         Die Lernenden dürfen sich bewegen, Autos umstellen, „drüberfahren“, Abstände prüfen.
         ??? error "Fehlerquellen" 
@@ -41,10 +41,11 @@
         
         → Das ist der didaktische Kern der Konfrontationsaufgabe: Die Lernenden spüren ein Problem, das später mit Aussagenlogik formal gelöst werden soll.
 
-    ??? teacher "Vertiefung mit Reflexionsfragen" 
-        Diese Fragen öffnen das Thema für die nächsten Schritte (Erarbeitungsaufgaben), in denen Variablen, Wahrheitswerte und logische Operatoren eingeführt werden.
+     ??? teacher "Vertiefung mit Reflexionsfragen" 
+         Diese Fragen öffnen das Thema für die nächsten Schritte (Erarbeitungsaufgaben), in denen Variablen, Wahrheitswerte und logische Operatoren eingeführt werden.
     
-        - Welche Autos kommen sich in die Quere?
-        - Kann man diese Situation allgemein beschreiben?
-        - Was müsste man immer wissen, um Sicherheit zu beurteilen?
-        - Reicht eure Intuition? Oder braucht es klare Regeln?
+         - Welche Autos kommen sich in die Quere?
+         - Kann man diese Situation allgemein beschreiben?
+         - Was müsste man immer wissen, um Sicherheit zu beurteilen?
+         - Reicht eure Intuition? Oder braucht es klare Regeln?
+
