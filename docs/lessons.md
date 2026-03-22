@@ -40,7 +40,7 @@ In der folgenden Tabelle werden die 8 Aufgabentypen beschrieben.
 ## Übersicht der Aufgabentypen nach Luthiger (2018)
 Das Modell unterscheidet acht Aufgabentypen, die jeweils spezifische epistemologische (erkenntnistheoretische) und didaktische Funktionen erfüllen.
 
-!!! meta "Lernaufgaben"
+???+ meta "Lernaufgaben"
 
    === "Konfrontationsaufgabe (KA)"
         **didaktische Funktion** = Kontakt mit lebensweltlicher Situation oder fachauthentischem Problem; Anregung zum Fragen und Austauschen.
@@ -49,6 +49,7 @@ Das Modell unterscheidet acht Aufgabentypen, die jeweils spezifische epistemolog
         **Stellung im Lernprozess** = Einstieg / Beginn einer Unterrichtssequenz; kann den gesamten Prozess begleiten.
         **Beispiel oder Merkmal** = Lebensweltliche Phänomene, Divergierendes Denken, Hoher Authentizitätsgrad.
         [KA](lessons/konfrontationsaufgaben.md)
+    
     === "Erarbeitungsaufgabe (EA)"
         **didaktische Funktion** = Aufbau fachlicher und überfachlicher Kompetenzen durch Erkunden und Entdecken; Ordnung und Sicherung von Erkenntnissen.
         **Epistemologische Funktion** = Verknüpfung singulärer Erfahrungen mit der Fachwissenschaft; Entwicklung von Fachbegriffen und Strukturen.
@@ -56,6 +57,7 @@ Das Modell unterscheidet acht Aufgabentypen, die jeweils spezifische epistemolog
         **Stellung im Lernprozess** = Aufbauphase nach der Konfrontation.
         **Beispiel oder Merkmal** = Aktiv-entdeckendes Lernen, Systematisierung individueller Erkenntnisse.
         [EA](lessons/erarbeitungsaufgaben.md)
+    
     === "Vertiefungsaufgabe (VA)"
         **didaktische Funktion** = Elaborierendes Durcharbeiten; Wissen in verschiedenen Richtungen analysieren und flexibilisieren.
         **Epistemologische Funktion** = Prüfen, Vernetzen und Bereitstellen für den Transfer; Erzielung eines tieferen Verständnisses durch Perspektivenwechsel.
@@ -63,6 +65,7 @@ Das Modell unterscheidet acht Aufgabentypen, die jeweils spezifische epistemolog
         **Stellung im Lernprozess** = Vertiefungsphase nach der Erarbeitung; Teil des Konsolidierungszyklus.
         **Beispiel oder Merkmal** = Umorganisieren, Umkehren, Variieren, Erfinden (Produktives Üben).
         [VA](lessons/vertiefungsaufgaben.md)
+   
     === "Übungsaufgabe (ÜA)"
         **didaktische Funktion** = Festigen und Automatisieren von deklarativem Wissen und psychomotorischen Fertigkeiten.
         **Epistemologische Funktion** = Verfügbarmachen von Wissen ohne hohe kognitive Beanspruchung (Entlastung des Arbeitsgedächtnisses).
@@ -70,6 +73,7 @@ Das Modell unterscheidet acht Aufgabentypen, die jeweils spezifische epistemolog
         **Stellung im Lernprozess** = Integrativer Bestandteil aller Phasen; Schwerpunkt nach Erarbeitung/Vertiefung.
         **Beispiel oder Merkmal** = Vokabeln lernen, mathematische Algorithmen lösen (Automatisierendes Üben).
         [ÜA](lessons/übungsaufgaben.md)
+    
     === "Syntheseaufgabe (SA)"
         **didaktische Funktion** = Horizontale Kompetenzvernetzung; Anwendung kumulativ aufgebauter Teilkompetenzen innerhalb des Themengebiets.
         **Epistemologische Funktion** = Analogiebildendes Denken; Zusammenführen von Teilaspekten zur Zielkompetenz; Bewusstmachen des Kompetenzzuwachses.
@@ -77,6 +81,7 @@ Das Modell unterscheidet acht Aufgabentypen, die jeweils spezifische epistemolog
         **Stellung im Lernprozess** = Anwendungsphase am Ende einer Unterrichtseinheit.
         **Beispiel oder Merkmal** = Komplexe Anforderungssituationen im gelernten Themenbereich; Rückgriff auf KA.
         [SA](lessons/syntheseaufgaben.md) 
+    
     === "Transferaufgabe (TA)" 
         **didaktische Funktion** = Übertragung der Kompetenzen auf neue Kontexte (innerfachlich, überfachlich oder lebensweltlich).
         **Epistemologische Funktion** = Dekontextualisierung; Nutzbarmachung von Wissen in unbekannten Situationen; Erschliessung der Welt.
@@ -86,7 +91,8 @@ Das Modell unterscheidet acht Aufgabentypen, die jeweils spezifische epistemolog
         [TA](lessons/transferaufgaben.md)
 
 
-!!! meta "Beurteilungsaufgaben" 
+???+ meta "Beurteilungsaufgaben" 
+    
     === "Formative Beurteilungsaufgabe (FBa)"
         **didaktische Funktion** = Diagnose und Beratung; Rückmeldung über den Lernstand zur Steuerung des weiteren Lernens.
         **Epistemologische Funktion** = Keine epistemologische Funktion (fokussiert auf Performanznachweis).
@@ -94,6 +100,7 @@ Das Modell unterscheidet acht Aufgabentypen, die jeweils spezifische epistemolog
         **Stellung im Lernprozess** = Kontinuierlich während des gesamten Lernprozesses einsetzbar.
         **Beispiel oder Merkmal** = Verstehensorientierte Diagnose (z.B. Erkläraufgaben), Lernjournal-Einträge.
         [FBa](lessons/formativebeurteilungsaufgaben.md)
+    
     === "Summative Beurteilungsaufgaben (SBa)"
         **didaktische Funktion** = Bilanzierende Beurteilung und Bewertung; Feststellung des erreichten Kompetenzniveaus.
         **Epistemologische Funktion** = Keine epistemologische Funktion
