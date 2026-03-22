@@ -17,4 +17,34 @@
     Alternativ: Ausgedruckte Kreuzungsfelder und Papierautos.
 
 ???+ teacher "Ablauf KA1"
+    ???+ teacher "Schritt 1: Situation legen (enaktiv)"
+        Die Lernenden legen mit den Autos selbst eine konkrete Verkehrssituation auf die Kreuzung:
+        
+        - Auto von Norden fährt geradeaus
+        - Auto von Osten fährt links ab
+        - Auto von Süden fährt rechts ab
+        - Auto von Westen fährt geradeaus
+
+   ???+ teacher "Schritt 2: Entscheidung treffen ohne Regeln zu erklären" 
+        „Ist diese Kreuzungssituation sicher oder unsicher? Warum?“
+        Die Lernenden dürfen sich bewegen, Autos umstellen, „drüberfahren“, Abstände prüfen.
+        ??? error "Fehlerquellen" 
+            Wichtig: Keine logischen Begriffe verwenden, Keine Fachregeln erklären, Nur intuitives Entscheiden zulassen
+
+    ???+ teacher "Schritt 3: Irritation auslösen"
+        Du veränderst nur ein einziges Auto: Auto von Osten fährt statt links nun geradeaus.
+        👉 „Ist es jetzt immer noch sicher? Was hat sich verändert?“ 
+        Die Lernenden bemerken:
+        
+        * Schon kleine Änderungen machen die Situation plötzlich gefährlich.
+        * Ihre intuitive Regel reicht nicht mehr.
+        
+        → Das ist der didaktische Kern der Konfrontationsaufgabe: Die Lernenden spüren ein Problem, das später mit Aussagenlogik formal gelöst werden soll.
+
+    ??? teacher "Vertiefung mit Reflexionsfragen" 
+        Diese Fragen öffnen das Thema für die nächsten Schritte (Erarbeitungsaufgaben), in denen Variablen, Wahrheitswerte und logische Operatoren eingeführt werden.
     
+        - Welche Autos kommen sich in die Quere?
+        - Kann man diese Situation allgemein beschreiben?
+        - Was müsste man immer wissen, um Sicherheit zu beurteilen?
+        - Reicht eure Intuition? Oder braucht es klare Regeln?
