@@ -1,6 +1,6 @@
 # Erarbeitungsaufgaben 
 
-## Erarbeitungsaufgabe 1 „Wie beschreiben wir eine Kreuzung eindeutig?“
+## Erarbeitungsaufgabe 1 „Wie beschreiben wir eine Kreuzung eindeutig? - Einfürhung Wahrheitstabelle“
 Diese Erarbeitungsaufgabe eignet sich besonders auf Folgeaufgabe auf Konforntationsaufgabe 1. 
 
 ???+ teacher "Ziel der Aufgabe" 
@@ -13,4 +13,13 @@ Diese Erarbeitungsaufgabe eignet sich besonders auf Folgeaufgabe auf Konforntati
 ???+ teacher "Ausgangspunkt: Kreuzung aus der Konfrontation" 
     Die Lernenden arbeiten zunächst mit GENAU der Verkehrssituation, die sie in der Konfrontationsaufgabe als unsicher oder verändert wahrgenommen haben. Die Lehrperson oder die SuS legen sie nochmals als Modell oder projizieren sie. 
     
+## Erarbeitungsaufgabe 2: "Wahrheitstabelle -> KDNF" 
+
+
+## Erarbeitungsaufgabe 3: "Wahrheitstabelle -> KKNF" 
+
+## Erarbeitungsaufgabe 4: "Wahrheitstabelle -> KDNF -> DNF" 
+
+## Erarbeitungsaufgabe 5: "Wahrheitstabelle -> KKNF -> KNF" 
+
 
