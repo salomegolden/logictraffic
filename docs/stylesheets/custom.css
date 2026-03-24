@@ -1,0 +1,66 @@
+/* docs/stylesheets/custom.css */
+
+:root {
+  /* --- FARBEN AUS DER LOGICTRAFFIC-ANWENDUNG --- */
+  --header-grey: #303030;         /* Für den Header-Balken */
+  --md-accent-fg-color: #41b1f7; /* Ein etwas gesättigteres Hellblau für Links */
+  
+  /* Logik-Farben für Tabellenüberschriften und Admonitions */
+  --logic-light-red: #f08080;
+  --logic-light-green: #a5d6a7;
+  --logic-light-blue: #81d4fa;
+  --logic-cream-yellow: #fff9e6; /* Für Hervorhebungen, wie die ausgewählte Zeile */
+}
+
+/* 1. Header-Anpassung: Dunkelgrau wie in der App */
+.md-header {
+  background-color: var(--header-grey) !important;
+}
+
+.md-header__topic, .md-header__meta, .md-header__button {
+  color: white !important;
+}
+
+/* 2. Karten-Effekt für Hauptinhalte und Sidebar */
+.md-main, .md-sidebar {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05); /* Subtiler Schatten wie in der App */
+}
+
+/* 3. Tabellen-Styling im LogicTraffic-Stil */
+.md-typeset table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.md-typeset table td, .md-typeset table th {
+  border: 1px solid #e0e0e0; /* Sauberes Gitter */
+  padding: 8px;
+}
+
+/* Utility-Klassen, die du in deinem Markdown verwenden kannst, um Spalten einzufärben */
+/* Verwende sie z.B. so in Markdown: <span class="text-blue">C</span> */
+.text-red { color: var(--logic-light-red); }
+.text-green { color: var(--logic-light-green); }
+.text-blue { color: var(--logic-light-blue); }
+
+/* Füge diese Klasse zu einer Tabellenzeile hinzu, um sie hervorzuheben (simuliert die Auswahl in der App) */
+/* Verwende sie in Markdown mit: | { .highlight-row } C | D | E | sicher | */
+.highlight-row {
+  background-color: var(--logic-cream-yellow) !important;
+}
+
+/* 4. Admonitions (Info-Boxen) mit LogicTraffic-Farben */
+/* Du kannst die bestehenden 'note', 'tip', 'success', 'warning' etc. verwenden */
+
+.md-typeset .admonition.tip {
+  border-left-color: var(--logic-light-blue) !important;
+  background-color: #f7fcfe !important;
+}
+.md-typeset .admonition.success {
+  border-left-color: var(--logic-light-green) !important;
+  background-color: #f8fff9 !important;
+}
+.md-typeset .admonition.warning {
+  border-left-color: var(--logic-light-red) !important;
+  background-color: #fff9f9 !important;
+}
