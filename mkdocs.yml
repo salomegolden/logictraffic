@@ -7,7 +7,6 @@ site_url: https://salomegolden.github.io/logictraffic/
 docs_dir: docs
 edit_uri: edit/main/docs/
 
-
 theme:
   name: material
     font: Noto Sans
@@ -25,7 +24,7 @@ theme:
     - content.tooltips
   icon:
     # --- NEU: Logo-Icon angepasst ---
-    logo: material/traffic-light  # Ein Ampel-Icon für den Header
+    logo: material/traffic-light
     admonition:
       note: octicons/compose-24
       abstract: octicons/checklist-16
