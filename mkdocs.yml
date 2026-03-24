@@ -11,7 +11,7 @@ theme:
   name: material
   language: de
   font:
-    text: Nunito Sans
+    text: Quicksand
     code: Roboto Mono
   palette:
     - scheme: default
