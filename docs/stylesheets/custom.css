@@ -49,18 +49,3 @@
   background-color: var(--logic-cream-yellow) !important;
 }
 
-/* 4. Admonitions (Info-Boxen) mit LogicTraffic-Farben */
-/* Du kannst die bestehenden 'note', 'tip', 'success', 'warning' etc. verwenden */
-
-.md-typeset .admonition.tip {
-  border-left-color: var(--logic-light-blue) !important;
-  background-color: #f7fcfe !important;
-}
-.md-typeset .admonition.success {
-  border-left-color: var(--logic-light-green) !important;
-  background-color: #f8fff9 !important;
-}
-.md-typeset .admonition.warning {
-  border-left-color: var(--logic-light-red) !important;
-  background-color: #fff9f9 !important;
-}
