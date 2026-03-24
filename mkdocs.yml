@@ -10,12 +10,12 @@ edit_uri: edit/main/docs/
 
 theme:
   name: material
-  font:  NunitoSans
+    font:  quicksand
+    code: Roboto Mono  # Für Code-Blöcke
   language: de
   features:
     - navigation.instant
     - navigation.tabs
-    - navigation.sections
     - navigation.path
     - content.code.copy
     - content.action.edit
@@ -24,6 +24,8 @@ theme:
     - search.share
     - content.tooltips
   icon:
+    # --- NEU: Logo-Icon angepasst ---
+    logo: material/traffic-light  # Ein Ampel-Icon für den Header
     admonition:
       note: octicons/compose-24
       abstract: octicons/checklist-16
@@ -42,9 +44,21 @@ theme:
       student: material/lightbulb-group-outline
       error: material/head-alert
       meta: material/web-plus
-    
-edit_uri: edit/main/docs/
-
+  palette:
+    # Hell (als Standard)
+    - scheme: default
+      primary: light-blue    # Oder eine Standardfarbe, die wir per CSS überschreiben
+      accent: light-blue
+      toggle:
+        icon: material/brightness-7
+        name: In den dunklen Modus
+    # Dunkel (Optional, aber gut zu haben)
+    - scheme: slate
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/brightness-4
+        name: In den hellen Modus
 
 nav:
   - Home: index.md
@@ -90,6 +104,7 @@ markdown_extensions:
 
 extra_css: 
     - stylesheets/callouts.css
+    - stylesheets/custom.css
 
 extra_javascript:
   - https://polyfill.io/v3/polyfill.min.js?features=es6
