@@ -10,7 +10,7 @@ edit_uri: edit/main/docs/
 
 theme:
   name: material
-    font: Quicksand
+    font: Noto Sans
     code: Roboto Mono  # Für Code-Blöcke
   language: de
   features:
