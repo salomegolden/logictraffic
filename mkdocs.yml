@@ -9,12 +9,27 @@ edit_uri: edit/main/docs/
 
 theme:
   name: material
-    font: Noto Sans
-    code: Roboto Mono  # Für Code-Blöcke
   language: de
+  font:
+    text: Nunito Sans
+    code: Roboto Mono
+  palette:
+    - scheme: default
+      primary: grey
+      accent: light-blue
+      toggle:
+        icon: material/brightness-7
+        name: Dark Mode
+    - scheme: slate
+      primary: grey
+      accent: light-blue
+      toggle:
+        icon: material/brightness-4
+        name: Light Mode
   features:
     - navigation.instant
     - navigation.tabs
+    - navigation.sections
     - navigation.path
     - content.code.copy
     - content.action.edit
@@ -23,41 +38,14 @@ theme:
     - search.share
     - content.tooltips
   icon:
-    # --- NEU: Logo-Icon angepasst ---
     logo: material/traffic-light
     admonition:
       note: octicons/compose-24
-      abstract: octicons/checklist-16
-      info: octicons/info-16
-      tip: octicons/light-bulb-24
-      success: octicons/check-16
-      question: octicons/question-16
-      warning: octicons/alert-16
-      failure: octicons/x-circle-16
-      danger: octicons/zap-16
-      bug: octicons/bug-16
-      example: octicons/beaker-16
-      quote: octicons/quote-16
-      teacher: material/human-male-board
-      logictraffic: material/traffic-light-outline
-      student: material/lightbulb-group-outline
-      error: material/head-alert
-      meta: material/web-plus
-  palette:
-    # Hell (als Standard)
-    - scheme: default
-      primary: light-blue    # Oder eine Standardfarbe, die wir per CSS überschreiben
-      accent: light-blue
-      toggle:
-        icon: material/brightness-7
-        name: In den dunklen Modus
-    # Dunkel (Optional, aber gut zu haben)
-    - scheme: slate
-      primary: teal
-      accent: teal
-      toggle:
-        icon: material/brightness-4
-        name: In den hellen Modus
+      tip: material/lightbulb-on-outline
+      success: material/check-decagram-outline
+      warning: material/alert-decagram-outline
+      failure: material/close-octagon-outline
+      danger: material/lightning-bolt-outline
 
 nav:
   - Home: index.md
@@ -81,7 +69,6 @@ nav:
   - Downloads: downloads.md
   - Beispiele aus dem Unterricht: examples.md
 
-
 markdown_extensions:
   - admonition
   - toc:
@@ -102,8 +89,8 @@ markdown_extensions:
       alternate_style: true
 
 extra_css: 
-    - stylesheets/callouts.css
-    - stylesheets/custom.css
+  - stylesheets/callouts.css
+  - stylesheets/custom.css
 
 extra_javascript:
   - https://polyfill.io/v3/polyfill.min.js?features=es6
