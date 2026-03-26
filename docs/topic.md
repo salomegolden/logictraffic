@@ -1,16 +1,16 @@
 # Zur Sache 
 
 !!! teacher "LogicTraffic"
-    LogicTraffic simuliert eine Strassenkreuzung mit Ampeln für verschiedene Fahrspuren. Ziel ist es, eine logische Formel zu finden, die sicherstellt, dass kreuzende Spuren nie gleichzeitig grün haben – so verhindert man Unfälle. Das Programm zeigt, wie Logik im Alltag (z. B. Ampelsteuerung) angewendet wird [^12].
+    LogicTraffic simuliert eine Strassenkreuzung mit Ampeln für verschiedene Fahrspuren. Ziel ist es, eine logische Formel zu finden, die sicherstellt, dass kreuzende Spuren nie gleichzeitig grün haben – so verhindert man Unfälle. Das Programm zeigt, wie Ausagenlogik im Alltag (z.B. zur Ampelsteuerung) angewendet werden kann [^12].
 
 ## Grundlagen der Aussagelogik im Kontext von Logic Traffic 
 In der **Aussagenlogik** arbeiten wir mit Aussagen, denen eindeutig ein Wahrheitswert (wahr/`true`/1 oder falsch/`false`/0) zugeordnet werden kann [^11].
 
 ???+ student "Boolesche Logik"
-    **Boolesche Logik** ist die formale Logik mit genau zwei Wahrheitswerten (wahr/falsch bzw. 1/0), in der Aussagen mit Junktoren wie UND ($\land$), ODER ($\lor$) und Negation ($\neg$) verknüpft werden [^5].
+    **Boolesche Logik** ist die formale Logik mit genau zwei Wahrheitswerten (wahr/falsch bzw. 1/0), in der Aussagen mit Junktoren wie UND ($\land$), ODER ($\lor$) und Negation ($\neg$) verknüpft werden [^5]. Hinweis Ruedi: $-Zeichen funktionieren auf pages nichts.
 
 ???+ logictraffic "Aussagelogik und Logictraffic"
-    **LogicTraffic** nutzt Aussagenlogik zur formalen Modellierung von Ampelzuständen an Kreuzungen. Jede Ampel ist eine Variable (A, B, C, …), Formeln beschreiben sichere/unsichere Zustände (z. B. „A grün ∧ B rot“) [^11], [^10]. 
+    **LogicTraffic** nutzt Aussagenlogik zur Modellierung von Ampelzuständen an Kreuzungen. Jeder Spur bzw. Ampel wird eine Variable (A, B, C, …) zugewiesen und Formeln beschreiben bestimmte Zustände (z. B. "A grün ∧ B rot", bzw. "Spur A befahrbar, Spur B gesperrt") [^11], [^10]. 
 
 ### Variablen und Zustände 
 Eine boolsche Variable ist in der Informatik die kleinste Informationseinheit. Sie trägt genau eine Information, die entweder zutrifft oder eben nicht.
@@ -23,8 +23,8 @@ Eine boolsche Variable ist in der Informatik die kleinste Informationseinheit. S
     Beispiele für Aussagen:
     
     - "Die Ampel A ist grün."
-    - "Auto fährt von Norden."
-    - „Abbiegen nach rechts erlaubt.“  
+    - "Ein Auto fährt von Norden nach Süden."
+    - "Abbiegen nach rechts ist auf dieser Strasse erlaubt."
     
 eine **Aussage** wird durch drei Eigenschaften beschrieben [^1], [^7]: 
     
@@ -33,16 +33,16 @@ eine **Aussage** wird durch drei Eigenschaften beschrieben [^1], [^7]:
 3. Die Sprache ist beliebig (natürlich oder formal)
 
 ??? logictraffic "Aussage in LogicTaffic"
-    Aussagen beschreiben überprüfbare Sachverhalte (z. B. „Ampel A grün“ → Variable A=1). In LogicTraffic gelten Aussagen für Spuren: „Spur B hat grün“ – das ist wahr, wenn die Ampel grün leuchtet. Diese werden zu logischen Formeln verknüpft, um sichere Kreuzungskonfigurationen zu modellieren [^10], [^11]. 
+    Aussagen beschreiben überprüfbare Sachverhalte (z. B. „Ampel A grün bzw. Spur A ist befahrbar“ → Variable A = 1). In LogicTraffic gelten diese Aussagen für Spuren und Ampeln: „Ampel B ist grün“ ist äquivalent zu "Spur B ist befahrbar" und werden in LogicTraffic kompakt als B = 1 wiedergegeben. Derartige Aussagen werden zu logischen Formeln verknüpft, um sichere Kreuzungskonfigurationen zu modellieren [^10], [^11]. 
     ??? student "Beispiele für Aussagen aus LogicTraffic" 
         * Einfache Aussage: A = "Spur A hat grün" 
-        * Zusdammengesetzte Aussage: $A \land \neg B$ => „Spur A hat grün UND Spur B hat rot.“ (verhindert Kollision).
+        * Zusdammengesetzte Aussage: $A \land \neg B$ => „Spur A hat grün UND Spur B hat rot.“ (verhindert Kollision). -> Hinweis Ruedi: Sonderzeichen funken nicht.
    ??? teacher "Aussagen entdecken" 
        Schüler:innen experimentieren, indem sie Ampeln klicken und sehen, wie Aussagen in der Wahrheitstabelle wahr/falsch werden.
     
 ### Junktoren und Operatoren 
 ??? meta "Definition von Junktor" 
-    **Junktor**: Ein Junktor (lat. *iungere* = verbinden) ist ein logisches Verknüpfungszeichen, das zwei oder mehr Aussagen zu einer neuen Aussage verbindet [^7]. 
+    **Junktor**: Ein Junktor (lat. *iungere* = verbinden) ist ein logisches Verknüpfungszeichen, das zwei oder mehr Aussagen zu einer neuen Aussage verbindet [^7]. -> DEF passt nicht für Negation, da gibt's nur 1 Aussage. Ist das nicht also kein Junktor?
 
 !!! teacher "Junktoren in der Unterrichtseinheit"
     In dieser UE werden drei grundlegende Junktoren behandelt:
@@ -70,6 +70,8 @@ eine **Aussage** wird durch drei Eigenschaften beschrieben [^1], [^7]:
 | Disjunktion  | `A \(\lor\) B` | „A oder B“    | $A \lor B$               |
 | Implikation  | `A \(\to\) B`| „wenn A, dann B“ | $A \rightarrow B$           |
 
+Hinweis Ruedi: Hier fände ich die Wahrheitstabellen zu diesen vier Operatoren sinnvoll. :-) Oder kommen diese sonstwo?
+
 !!! error inline end "Typische Fehlvorstellungen"
     Gerade zu den Operatoren sind Fehlvorstellungen weit verbreitet [^6]. Es lohnt sich, diese zu kennen und im Unterricht auf sie zu achten. Die üblichen Fehlvorstellungen können hier nachgelesen werden: [Fehlvorstellungen :material-alert-decagram:](learninglogic.md)
 
@@ -93,7 +95,7 @@ Logische Funktionen lassen sich ikonisch (bildlich), symbolisch (Formel, Wahrhei
     Eine boolesche (Aussagen‑)Funktion ordnet jeder Kombination von Eingabewahrheitswerten (z.B. A, B) genau einen Ausgabewert (0 oder 1) zu [^7].
 
 !!! teacher "Normalformeln"
-    Auf der folgenden Seite werden behandelten Normalformeln, ihre Herleitung und Anwendung in LogicTraffic nochmals genau erklärt: [Normalformeln :material-link-circle:](topic/normalformen.md)
+    Auf der folgenden Seite werden die behandelten Normalformeln, ihre Herleitung und Anwendung in LogicTraffic erläutert: [Normalformeln :material-link-circle:](topic/normalformen.md)
 
 [^1]: Hoffmann, A., Marx, B., & Vogt, W. (2005). _Mathematik für Ingenieure 1: Lineare Algebra, Analysis - Theorie und Numerik_. Pearson Deutschland.
 [^2]:Junker, M. (2025). _Logik für die Informatik: Eine Einführung in die Aussagenlogik, Prädikatenlogik und Berechenbarkeitstheorie_. Springer Berlin Heidelberg. [https://doi.org/10.1007/978-3-662-70825-5](https://doi.org/10.1007/978-3-662-70825-5)
