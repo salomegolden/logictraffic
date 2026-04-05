@@ -1,29 +1,35 @@
 # Normalformen 
-Normalformen sind standardisierte Darstellungsformen für boolesche Funktionen, die beliebige logische Ausdrücke in eine einheitliche Struktur aus Konjunktionen und Disjunktionen überführen [^1], [^4]. Sie ermöglichen eine systematische Analyse, Vergleichbarkeit und Minimierung von logischen Funktionen, wie sie z. B. in LogicTraffic zur Optimierung sicherer Verkehrssignale an Kreuzungen eingesetzt werden [^4].
+???+ meta "Definition von Normalformeln" 
+    Normalformen sind standardisierte Darstellungsformen für boolesche Funktionen, die beliebige logische Ausdrücke in eine einheitliche Struktur aus Konjunktionen und Disjunktionen überführen [^1], [^4]. Sie ermöglichen eine systematische Analyse und Vergleichbarkeit von logischen Funktionen.
 
 !!! teacher "Konjunktive und Disjunktive Normalformen erklären" 
-    Für Schülerinnen und Schüler können die DNF und KNF als zwei feste „Bauweisen“ für logische Bedingungen erklärt werden, die man direkt aus einer Wahrheitstabelle ablesen kann. Für Schülerinnen und Schüler kann dieses Thema sehr herausfordernd sein [^5]
+    Für Schülerinnen und Schüler können die KDNF und KKNF als zwei unterschiedliche Startegien erklärt werden, wie aus einer vorgegebenen Wahrheitstabelle systematisch eine dazu passende aussagenlogische Formel erzeugt werden kann. Hinweis: Für Schülerinnen und Schüler kann dieses Thema sehr herausfordernd sein [^5]
 
-## Disjunktive Normalform (DNF) 
+## Kanonische Disjunktive Normalform (KDNF) 
 ???+ student "Disjunktive Normalform" 
-    Disjunktive Normalform (DNF): Eine **Disjunktive Normalform** (DNF) ist eine grosse ODER-Verknüpfung von UND-Bedingungen [^1]. Jede UND‑Bedingung beschreibt eine Zeile der Wahrheitstabelle, in der das Ergebnis wahr (1) ist. Wenn wir für jede Zeile der Wahrheitstabelle, in der die Funktion „wahr“ (1) ist, eine UND-Bedingung bauen – und in jeder dieser Bedingungen alle Variablen genau einmal stehen (entweder normal oder mit „NICHT“) –, dann verknüpfen wir diese mit ODER. Das Ergebnis ist die **kanonische (vollständige) disjunktive Normalform** (KDNF) [^1], [^2]. Zusammenfassend kann man sagen: Die KDNF beschreibt alle Fälle, in denen die Funktion wahr ist. 
-
+    Eine **Disjunktive Normalform** (DNF) ist eine grosse ODER-Verknüpfung von UND-Bedingungen [^1]. Jede UND‑Bedingung beschreibt eine Zeile der Wahrheitstabelle, in der das Ergebnis wahr (1) ist. (Hinweis: Das stimmt nur für die KDNF!) Wenn wir für jede Zeile der Wahrheitstabelle, in der die Funktion „wahr“ (1) ist, eine UND-Bedingung bauen – und in jeder dieser Bedingungen alle Variablen genau einmal stehen (entweder normal oder mit „NICHT“) –, dann verknüpfen wir diese mit ODER. Das Ergebnis ist die **kanonische (vollständige) disjunktive Normalform** (KDNF) [^1], [^2]. Zusammenfassend kann man sagen: Die KDNF beschreibt alle Fälle, in denen die Funktion wahr ist. 
+    
     ??? student "Merksatz für die SuS:"
-        Jeder Wahre Zeile (1) aus der Tabelle wird zu einem vollen UND-Baustein, alle Bausteine kommen mit ODER zusammen – nichts fehlt, nichts wird gekürzt = KDNF.
+        Jeder Wahre Zeile (1) aus der Tabelle wird zu einem vollen UND-Baustein, alle Bausteine kommen mit ODER zusammen 
+    
+<!-- Naja, es gibt durchaus SuS die das nicht ganz so schnell kapieren. Denen kann es helfen, einen Merksatz zur Unterscheidung zu haben. Auch wenn es für dich von Beginn weg und für mich mittlerweile logisch ist. -->
 
-??? logictraffic "Beispiel aus Logic Traffic für die DNF - Situation 3" 
+??? logictraffic "Beispiel aus Logic Traffic für die KDNF - Situation 3" 
 
     === "Situation 3:" 
         ![Situation 3](../images/Situation3){ width="150" }
         
     === "Wahrheitstabelle zur Situation 3:"
-        Um eine DNF herzuleiten, betrachten wir als Erstes die Wahrheitstabelle.
+        Um eine KDNF herzuleiten, betrachten wir als Erstes die Wahrheitstabelle.
         ![WahrheitstabelleSituation3](../images/WahrheitstabelleSituation3){ align=right }
         
-    === "Herleitung Disjunktive Normalform"
-        Die Funktion ist in 5 verschiedenen Zeilen wahr. Aus jeder dieser Zeilen entsteht eine UND Kette. Die **kanonische (vollständige) disjunktive Normalform** (KDNF) ist dann: 
+    === "Herleitung kanonische Disjunktive Normalform"
+        Die Funktion ist in 5 verschiedenen Zeilen wahr. Aus jeder dieser Zeilen entsteht eine UND Kette. Die **kanonische disjunktive Normalform** (KDNF) ist dann: 
         
-        $$(\neg A \wedge \neg B \wedge \neg C) \lor (\neg A \wedge \neg B \wedge C) \lor (\neg A \wedge B \wedge \neg C) \lor (A \wedge \neg B \wedge \neg C) \lor (A \wedge B \wedge \neg C)$$
+        $$(\neg A \wedge \neg B \wedge \neg C) \lor (\neg A \wedge \neg B \wedge C) \lor (\neg A \wedge B \wedge \neg C) \lor (A \wedge \neg B \wedge \neg C) \lor (A \wedge B \wedge \neg C)$$ 
+
+        ???+ logictraffic "Darstellung in LogicTraffic" 
+            Im Unterricht mit Logictraffic wird diese Formel automatisch erstellt. Für die Anleitung zur Bedienung: LINK 
         
         Durch Zusammenfassen gleicher Teilbedingungen ergibt sich die gekürzte DNF:
         
@@ -35,7 +41,7 @@ Normalformen sind standardisierte Darstellungsformen für boolesche Funktionen, 
 ## Konjunktive Normalform (KNF) 
 
 ???+ student "Konjunktive Normalform" 
-    Die **Konjunktive Normalform** (KNF) ist eine grosse UND‑Verknüpfung von ODER‑Bedingungen. [^1] [^2]. Jede ODER‑Bedingung beschreibt eine Zeile der Wahrheitstabelle, in der das Ergebnis falsch (0) ist. Du kannst dir die KNF vorstellen wie ein Sicherheitscheck: Alle Bedingungen (die ODER-Klammern) müssen erfüllt sein, damit die ganze Sache „wahr“ ist. Wenn auch nur eine ODER-Klammer „falsch“ ist, scheitert alles [^3]. Wenn wir für jede Zeile der Wahrheitstabelle, in der die Funktion „falsch“ (0) ist, eine ODER-Bedingung bauen – und in jeder dieser Bedingungen alle Variablen genau einmal stehen (entweder normal oder mit „NICHT“) –, dann verknüpfen wir diese mit UND. Das Ergebnis ist die **kanonische (vollständige) konjunktive Normalform** (KKNF) [^1].
+    Die **Konjunktive Normalform** (KNF) ist eine grosse UND‑Verknüpfung von ODER‑Bedingungen. [^1] [^2]. Jede ODER‑Bedingung beschreibt eine Zeile der Wahrheitstabelle, in der das Ergebnis falsch (0) ist. (Das stimmt allg. wiederum )bloss für KKNFs). Du kannst dir die KNF vorstellen wie ein Sicherheitscheck: Alle Bedingungen (die ODER-Klammern) müssen erfüllt sein, damit die ganze Sache „wahr“ ist. Wenn auch nur eine ODER-Klammer „falsch“ ist, scheitert alles [^3]. Wenn wir für jede Zeile der Wahrheitstabelle, in der die Funktion „falsch“ (0) ist, eine ODER-Bedingung bauen – und in jeder dieser Bedingungen alle Variablen genau einmal stehen (entweder normal oder mit „NICHT“) –, dann verknüpfen wir diese mit UND. Das Ergebnis ist die **kanonische konjunktive Normalform** (KKNF) [^1]. 
 
     ??? student "Merksatz für die SuS" 
         Jeder unsichere Zeile aus der Tabelle (0) wird zu einem vollen ODER-Baustein, alle Bausteine kommen mit UND zusammen – nichts fehlt, nichts wird gekürzt.
@@ -69,8 +75,8 @@ Für Schülerinnen und Schüler kann folgende Tabelle ein Überblick bieten. Es 
 !!! student "Merktabelle der unten folgenden Erklärungen" 
     | Form | Bausteine                                             | Blick auf Wahrheitstabelle                                         |
     | ---- | ----------------------------------------------------- | ------------------------------------------------------------------ |
-    | DNF  | ODER von UND‑Ketten.         | Verknüpft alle Zeilen mit Ergebnis 1.           |
-    | KNF  | UND von ODER‑Klammern.  | Verknüpft alle Zeilen mit Ergebnis 0.  |
+    | DNF  | ODER von UND‑Klammern         | Verknüpft alle Zeilen mit Ergebnis 1.           |
+    | KNF  | UND von ODER‑Klammern  | Verknüpft alle Zeilen mit Ergebnis 0.  |
 
 ## Fächerübergreifenden Unterricht: 
 Boolesche Normalformen (DNF, KNF) bieten vielfältige fachübergreifende Anknüpfungspunkte im Gymnasialunterricht. Diese sollen hier einzeln kurz vorgestellt werden: 
