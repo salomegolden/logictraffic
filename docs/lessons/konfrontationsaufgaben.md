@@ -19,23 +19,29 @@
 ???+ logictraffic "Situation 4 enaktiv nachspielen"
     
     ???+ teacher "Schritt 1: Situation legen (enaktiv)"         
-        Die Lernenden legen mit den Autos selbst eine konkrete Verkehrssituation (im Beispiel Situation 4) auf die Kreuzung:
-        
-        - Auto A fährt von Norden geradeaus
-        - Auto B fährt von Osten geradeaus
-        - Auto C fährt von Westen geradeaus 
+        Die Lernenden legen mit den Autos selbst eine konkrete Verkehrssituation (im Beispiel Situation 4) auf die passende Kreuzung:
+        ![Image title](/docs/images/Situation4enaktiv.JPEG){ align=right }
+        - Auto D (grün) fährt von Süden geradeaus
+        - Auto E (rot) fährt von Westen geradeaus
+        - Auto C (blau) fährt von Osten geradeaus 
         
     ???+ teacher "Schritt 2: Entscheidung treffen ohne Regeln zu erklären" 
-        Welches Auto muss rot / grün haben, damit die Kreuzung sicher ist?" 
-        --> Beschreibt mit Worten alle sicheren Zustände
-        Die Lernenden dürfen sich bewegen, Autos umstellen, „drüberfahren“, Abstände prüfen.
-        Wichtig: Keine logischen Begriffe verwenden, Keine Fachregeln erklären, Nur intuitives Entscheiden zulassen
+        Welche Ampeln werden benötigt, damit die Kreuzung sicher ist? 
+        !!! meta "Lösung" 
+            in diesem Beispiel von Situation 4: dreimal geradeaus, weil die Autos alle geradeaus wollen. 
+            Die SuS bekommen dann entsprechende Ampeln. 
+            ![Situation 4 enaktiv mit Ampeln](/docs/images/situation4enaktivampeln.JPEG){ align=right }
+
+        Aufgabe: Beschreibt mit Worten (evt. schriftlich) alle sicheren Zustände - schon jetzt fällt auf, dass das in geschriebenen sprachlichen Sätzen ziemlich aufwendig ist, selbst wenn es "nur" vier sichere Zustände gibt.   
+        Die Lernenden dürfen sich bewegen, Autos umstellen, „drüberfahren“ etc. 
+        Wichtig: Keine logischen Begriffe verwenden, Keine Fachregeln erklären, Nur intuitives Entscheiden zulassen. Ausserdem muss darauf geachtet werden, dass nur die gelegte Situation betrachtet wird. Also dass kein Auto abbiegen will etc. 
 
     ???+ teacher "Schritt 3: Irritation auslösen"
-        Du veränderst nur ein einziges Auto: Auto von Osten fährt statt links nun geradeaus.
+        Du veränderst nur ein einziges Auto: das grüne Auto fährt statt geradeaus nun links.
+        ![Situation 4 verändert sich](/docs/images/situation4enaktivgrünlinks.JPEG)
         👉 „Ist es jetzt immer noch sicher? Was hat sich verändert?“ 
         Die Lernenden bemerken:
-        * Schon kleine Änderungen machen die Situation plötzlich gefährlich.        
+        * Schon kleine Änderungen machen die Situation plötzlich gefährlich. -> eine andere Ampel wird benötigt.        
         → Das ist der didaktische Kern der Konfrontationsaufgabe: Die Lernenden spüren ein Problem, das später mit Aussagenlogik formal gelöst werden soll.
 
     ??? teacher "Vertiefung mit Reflexionsfragen" 
@@ -44,4 +50,7 @@
         - Kann man diese Situation allgemein beschreiben?
         - Was müsste man immer wissen, um Sicherheit zu beurteilen?
         - Reicht eure Intuition? Oder braucht es klare Regeln?
+        - Weitere Karten mit entsprechenden Situationen legen, mündlich beschreiben lassen. 
+
+
 
