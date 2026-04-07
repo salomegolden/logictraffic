@@ -20,7 +20,7 @@
     
     ???+ teacher "Schritt 1: Situation legen (enaktiv)"         
         Die Lernenden legen mit den Autos selbst eine konkrete Verkehrssituation (im Beispiel Situation 4) auf die passende Kreuzung:
-        ![Image title](/docs/images/Situation4enaktiv.JPEG){ align=right }
+        ![Image title](../images/Situation4enaktiv.JPEG){ align=right }
         - Auto D (grün) fährt von Süden geradeaus
         - Auto E (rot) fährt von Westen geradeaus
         - Auto C (blau) fährt von Osten geradeaus 
@@ -30,7 +30,7 @@
         !!! meta "Lösung" 
             in diesem Beispiel von Situation 4: dreimal geradeaus, weil die Autos alle geradeaus wollen. 
             Die SuS bekommen dann entsprechende Ampeln. 
-            ![Situation 4 enaktiv mit Ampeln](/docs/images/situation4enaktivampeln.JPEG){ align=right }
+            ![Situation 4 enaktiv mit Ampeln](../images/situation4enaktivampeln.JPEG){ align=right }
 
         Aufgabe: Beschreibt mit Worten (evt. schriftlich) alle sicheren Zustände - schon jetzt fällt auf, dass das in geschriebenen sprachlichen Sätzen ziemlich aufwendig ist, selbst wenn es "nur" vier sichere Zustände gibt.   
         Die Lernenden dürfen sich bewegen, Autos umstellen, „drüberfahren“ etc. 
@@ -38,7 +38,7 @@
 
     ???+ teacher "Schritt 3: Irritation auslösen"
         Du veränderst nur ein einziges Auto: das grüne Auto fährt statt geradeaus nun links.
-        ![Situation 4 verändert sich](/docs/images/situation4enaktivgrünlinks.JPEG)
+        ![Situation 4 verändert sich](../images/situation4enaktivgrünlinks.JPEG)
         👉 „Ist es jetzt immer noch sicher? Was hat sich verändert?“ 
         Die Lernenden bemerken:
         * Schon kleine Änderungen machen die Situation plötzlich gefährlich. -> eine andere Ampel wird benötigt.        
