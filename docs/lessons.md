@@ -49,9 +49,7 @@ Das Modell unterscheidet acht Aufgabentypen, die jeweils spezifische epistemolog
         - **Zielsetzung** = Lernende mit einer Anforderungssituation vertraut machen; ein Erfahrungsfeld öffnen.
         - **Stellung im Lernprozess** = Einstieg / Beginn einer Unterrichtssequenz; kann den gesamten Prozess begleiten.
         - **Beispiel oder Merkmal** = Lebensweltliche Phänomene, Divergierendes Denken, Hoher Authentizitätsgrad.
-        
-        [KA](lessons/konfrontationsaufgaben.md)
-    
+            
     === "Erarbeitungsaufgabe (EA)"
         
         - **didaktische Funktion** = Aufbau fachlicher und überfachlicher Kompetenzen durch Erkunden und Entdecken; Ordnung und Sicherung von Erkenntnissen.
@@ -59,9 +57,7 @@ Das Modell unterscheidet acht Aufgabentypen, die jeweils spezifische epistemolog
         - **Zielsetzung** = Kognitiv aktivierender Wissenserwerb; Annäherung an fachliche Normen (Dimension des Regulären).
         - **Stellung im Lernprozess** = Aufbauphase nach der Konfrontation.
         - **Beispiel oder Merkmal** = Aktiv-entdeckendes Lernen, Systematisierung individueller Erkenntnisse.
-        
-        [EA](lessons/erarbeitungsaufgaben.md)
-    
+            
     === "Vertiefungsaufgabe (VA)"
         
         - **didaktische Funktion** = Elaborierendes Durcharbeiten; Wissen in verschiedenen Richtungen analysieren und flexibilisieren.
@@ -69,9 +65,7 @@ Das Modell unterscheidet acht Aufgabentypen, die jeweils spezifische epistemolog
         - **Zielsetzung** = Qualitätssteigerung, Ausdifferenzierung und Variantenbildung.
         - **Stellung im Lernprozess** = Vertiefungsphase nach der Erarbeitung; Teil des Konsolidierungszyklus.
         - **Beispiel oder Merkmal** = Umorganisieren, Umkehren, Variieren, Erfinden (Produktives Üben).
-        
-        [VA](lessons/vertiefungsaufgaben.md)
-   
+           
     === "Übungsaufgabe (ÜA)"
         
         - **didaktische Funktion** = Festigen und Automatisieren von deklarativem Wissen und psychomotorischen Fertigkeiten.
@@ -79,9 +73,7 @@ Das Modell unterscheidet acht Aufgabentypen, die jeweils spezifische epistemolog
         - **Zielsetzung** = Konsolidierung, Geläufigkeit, Vorbeugen des Vergessens, Aufbau von Selbstvertrauen.
         - **Stellung im Lernprozess** = Integrativer Bestandteil aller Phasen; Schwerpunkt nach Erarbeitung/Vertiefung.
         - **Beispiel oder Merkmal** = Vokabeln lernen, mathematische Algorithmen lösen (Automatisierendes Üben).
-        
-        [ÜA](lessons/übungsaufgaben.md)
-    
+            
     === "Syntheseaufgabe (SA)"
         
         - **didaktische Funktion** = Horizontale Kompetenzvernetzung; Anwendung kumulativ aufgebauter Teilkompetenzen innerhalb des Themengebiets.
@@ -89,9 +81,7 @@ Das Modell unterscheidet acht Aufgabentypen, die jeweils spezifische epistemolog
         - **Zielsetzung** = Zusammenführung der Kompetenzaspekte; Vermeidung von trägem Wissen.
         - **Stellung im Lernprozess** = Anwendungsphase am Ende einer Unterrichtseinheit.
         - **Beispiel oder Merkmal** = Komplexe Anforderungssituationen im gelernten Themenbereich; Rückgriff auf KA.
-        
-        [SA](lessons/syntheseaufgaben.md) 
-    
+            
     === "Transferaufgabe (TA)" 
         
         - **didaktische Funktion** = Übertragung der Kompetenzen auf neue Kontexte (innerfachlich, überfachlich oder lebensweltlich).
@@ -100,8 +90,6 @@ Das Modell unterscheidet acht Aufgabentypen, die jeweils spezifische epistemolog
         - **Stellung im Lernprozess** = Abschluss des Lernzyklus; Anwendung auf Neues.
         - **Beispiel oder Merkmal** = Lösen von Problemen in unbekannten Anforderungssituationen; Selbstevaluation.
         
-        [TA](lessons/transferaufgaben.md)
-
 
 ???+ meta "Beurteilungsaufgaben" 
     
@@ -112,9 +100,7 @@ Das Modell unterscheidet acht Aufgabentypen, die jeweils spezifische epistemolog
         * **Zielsetzung** = Diagnostische Informationen ohne Notendruck; Förderung des Lernprozesses.
         * **Stellung im Lernprozess** = Kontinuierlich während des gesamten Lernprozesses einsetzbar.
         * **Beispiel oder Merkmal** = Verstehensorientierte Diagnose (z.B. Erkläraufgaben), Lernjournal-Einträge.
-        
-        [FBa](lessons/formativebeurteilungsaufgaben.md)
-    
+            
     === "Summative Beurteilungsaufgaben (SBa)"
         
         * **didaktische Funktion** = Bilanzierende Beurteilung und Bewertung; Feststellung des erreichten Kompetenzniveaus.
@@ -123,8 +109,6 @@ Das Modell unterscheidet acht Aufgabentypen, die jeweils spezifische epistemolog
         * **Stellung im Lernprozess** = Am Ende eines Lernprozesses / einer Unterrichtseinheit.
         * **Beispiel oder Merkmal** = Prüfungsaufgaben, Verfahrensorientierte Diagnoseaufgaben. 
         
-        [SBa](lessons/summativebeurteilungsaufgaben.md)
-
 
 
 **Quelle:**
