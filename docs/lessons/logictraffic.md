@@ -15,6 +15,8 @@ Die Grundidee der Online Lernumgebung LogicTraffic ist es, eine aussagelogische 
 !!! logictraffic "KA1 - Einführung LogicTraffic" 
     Die Lehrperson zeigt ein Foto/kurzes Video einer stark befahrenen Kreuzung mit Ampeln (Beamer/Arbeitsblatt) [Beispiele](../material/LogicTraffic%20-%20Einführung%20Konfrontationsaufgabe%201%20Mögliche%20Bilder%20von%20Kreuzungen%20und%20Verkehrssituationen.pdf).
 
+    Falls die Aufgabe schriftlich bearbeitet werden soll: [KA1_LogicTraffic](../material/Kreuzungen%20beobachten%20und%20beschreiben.pdf)
+
     !!! student "Auftrag an die Lernenden, 5 - 10 Minuten"
         Beschreibe, was an dieser Kreuzung alles gleichzeitig passieren muss, damit niemand verunfallt.
         Formuliere mindestens drei „Wenn‑dann“-Sätze zur Kreuzung, z.B.:
@@ -55,7 +57,7 @@ Die Grundidee der Online Lernumgebung LogicTraffic ist es, eine aussagelogische 
     Lernende arbeiten am Gerät, idealerweise zu zweit.
     !!! student "Arbeitsaufgabe"
     ???+ meta "als PDF"
-       sdf
+       [EA1_LogicTraffic](../material/Einführung%20LogicTraffic.pdf)
     
     ??? student "Schritt 1 - Starte das Tool" 
         
@@ -112,7 +114,7 @@ Die Grundidee der Online Lernumgebung LogicTraffic ist es, eine aussagelogische 
     Erarbeiten, dass die Wahrheitstabelle explizit festlegt, welche Ampelkombinationen „sicher“ sind, und dass die Formel genau diese sicheren Zeilen beschreibt.
 
 !!! logictraffic "EA2 - Einführung ins Tool" 
-    Die Notizen können sich die Lernenden in ihr Heft oder auf ein Papier machen. Alternativ steht ein Arbeitsblatt zur Verfügung: 
+    Die Notizen können sich die Lernenden in ihr Heft oder auf ein Papier machen. Alternativ steht ein Arbeitsblatt zur Verfügung: [ÜA1_Logictraffic](../material/Von%20der%20Kreuzung%20zur%20Tabelle%20und%20zurück.pdf)
 
     ??? student "Schritt 1 - Wähle eine einfache Situation"
         Wähle in LogicTraffic eine Situation mit zwei Fahrspuren (z.B. A und B).
