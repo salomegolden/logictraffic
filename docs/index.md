@@ -87,7 +87,7 @@ Die Inhalte sind in klaren Bereichen organisiert, damit Sie je nach Unterrichtss
 
     Konkrete Beispiele zur Vertiefung und direkten Verwendung im Unterricht.
 
-    [Zu den Beispielen](unterricht/examples.md)
+    [Zu den Beispielen](examples.md)
 
 -   :material-download-outline: **Downloads**
 

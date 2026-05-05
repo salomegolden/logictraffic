@@ -1,25 +1,25 @@
 /* Clear, compact sidebar styling for MkDocs Material */
 
 :root {
-  --sidebar-text: #263238;
-  --sidebar-text-muted: #52616b;
-  --sidebar-border: #d8e0e6;
-  --sidebar-active-green: #17643a;
-  --sidebar-active-green-soft: #e7f5ee;
-  --sidebar-hover-blue: #075985;
-  --sidebar-hover-blue-soft: #e6f3fb;
-  --sidebar-focus-ring: #0ea5e9;
+  --sidebar-text: #171717;
+  --sidebar-text-muted: #525252;
+  --sidebar-border: #e5e5e5;
+  --sidebar-active: #111111;
+  --sidebar-active-soft: #f2f2f2;
+  --sidebar-hover: #262626;
+  --sidebar-hover-soft: #f7f7f7;
+  --sidebar-focus-ring: #111111;
 }
 
 [data-md-color-scheme="slate"] {
-  --sidebar-text: #edf4f7;
-  --sidebar-text-muted: #b8c4cc;
-  --sidebar-border: #3b4a53;
-  --sidebar-active-green: #9ee6bd;
-  --sidebar-active-green-soft: #173b29;
-  --sidebar-hover-blue: #a7d8ff;
-  --sidebar-hover-blue-soft: #123348;
-  --sidebar-focus-ring: #7dd3fc;
+  --sidebar-text: #fafafa;
+  --sidebar-text-muted: #c7c7c7;
+  --sidebar-border: #3f3f46;
+  --sidebar-active: #ffffff;
+  --sidebar-active-soft: #27272a;
+  --sidebar-hover: #ffffff;
+  --sidebar-hover-soft: #1f1f23;
+  --sidebar-focus-ring: #ffffff;
 }
 
 .md-sidebar--primary .md-sidebar__scrollwrap {
@@ -31,6 +31,7 @@
 }
 
 .md-sidebar--primary .md-nav__title {
+  display: none;
   color: var(--sidebar-text-muted);
   font-size: 0.62rem;
   font-weight: 700;
@@ -44,6 +45,11 @@
 
 .md-sidebar--primary .md-nav__item {
   padding: 0;
+}
+
+/* Der aktive Top-Level-Tab steht bereits oben in der Navbar. */
+.md-sidebar--primary .md-nav--primary > .md-nav__list > .md-nav__item > .md-nav__link {
+  display: none;
 }
 
 .md-sidebar--primary .md-nav__link {
@@ -63,24 +69,24 @@
 
 .md-sidebar--primary .md-nav__link:hover {
   border-color: transparent;
-  border-left-color: var(--sidebar-hover-blue);
-  background-color: var(--sidebar-hover-blue-soft);
-  color: var(--sidebar-hover-blue);
+  border-left-color: var(--sidebar-hover);
+  background-color: var(--sidebar-hover-soft);
+  color: var(--sidebar-hover);
 }
 
 .md-sidebar--primary .md-nav__link--active {
   border-color: transparent;
-  border-left-color: var(--sidebar-active-green);
-  background-color: var(--sidebar-active-green-soft);
-  color: var(--sidebar-active-green);
+  border-left-color: var(--sidebar-active);
+  background-color: var(--sidebar-active-soft);
+  color: var(--sidebar-active);
   font-weight: 700;
 }
 
 .md-sidebar--primary .md-nav__link--active:hover {
   border-color: transparent;
-  border-left-color: var(--sidebar-active-green);
-  background-color: var(--sidebar-active-green-soft);
-  color: var(--sidebar-active-green);
+  border-left-color: var(--sidebar-active);
+  background-color: var(--sidebar-active-soft);
+  color: var(--sidebar-active);
 }
 
 .md-sidebar--primary .md-nav__link:focus-visible {
@@ -98,17 +104,17 @@
 
 .md-sidebar--primary .md-nav__item--section > .md-nav__link:hover {
   border-color: transparent;
-  border-left-color: var(--sidebar-hover-blue);
-  background-color: var(--sidebar-hover-blue-soft);
-  color: var(--sidebar-hover-blue);
+  border-left-color: var(--sidebar-hover);
+  background-color: var(--sidebar-hover-soft);
+  color: var(--sidebar-hover);
 }
 
 .md-sidebar--primary .md-nav__item--section > .md-nav__link--active,
 .md-sidebar--primary .md-nav__item--section > .md-nav__link--active:hover {
   border-color: transparent;
-  border-left-color: var(--sidebar-active-green);
-  background-color: var(--sidebar-active-green-soft);
-  color: var(--sidebar-active-green);
+  border-left-color: var(--sidebar-active);
+  background-color: var(--sidebar-active-soft);
+  color: var(--sidebar-active);
 }
 
 /* Ebene 2: sichtbare Gruppen in der Sidebar */
@@ -126,18 +132,18 @@
 }
 
 .md-sidebar--primary .md-nav--primary > .md-nav__list > .md-nav__item > .md-nav > .md-nav__list > .md-nav__item > .md-nav__link:hover {
-  background-color: var(--sidebar-hover-blue-soft);
+  background-color: var(--sidebar-hover-soft);
   border-color: transparent;
-  border-left-color: var(--sidebar-hover-blue);
-  color: var(--sidebar-hover-blue);
+  border-left-color: var(--sidebar-hover);
+  color: var(--sidebar-hover);
 }
 
 .md-sidebar--primary .md-nav--primary > .md-nav__list > .md-nav__item > .md-nav > .md-nav__list > .md-nav__item > .md-nav__link--active,
 .md-sidebar--primary .md-nav--primary > .md-nav__list > .md-nav__item > .md-nav > .md-nav__list > .md-nav__item > .md-nav__link--active:hover {
-  background-color: var(--sidebar-active-green-soft);
+  background-color: var(--sidebar-active-soft);
   border-color: transparent;
-  border-left-color: var(--sidebar-active-green);
-  color: var(--sidebar-active-green);
+  border-left-color: var(--sidebar-active);
+  color: var(--sidebar-active);
 }
 
 /* Ebene 3: eingerueckte Seiten innerhalb der Gruppen */
@@ -159,9 +165,9 @@
 
 .md-sidebar--primary .md-nav--primary > .md-nav__list > .md-nav__item > .md-nav > .md-nav__list > .md-nav__item > .md-nav .md-nav__link--active {
   border-color: transparent;
-  border-left-color: var(--sidebar-active-green);
-  background-color: var(--sidebar-active-green-soft);
-  color: var(--sidebar-active-green);
+  border-left-color: var(--sidebar-active);
+  background-color: var(--sidebar-active-soft);
+  color: var(--sidebar-active);
   font-weight: 700;
 }
 
