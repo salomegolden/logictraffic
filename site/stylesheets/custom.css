@@ -29,12 +29,8 @@ body, .md-typeset, .md-sidebar, .md-header, .md-footer {
   color: white !important;
 }
 
-/* 2. Karten-Effekt für Hauptinhalte */
-.md-main {
+/* 2. Karten-Effekt für Hauptinhalte und Sidebar */
+.md-main, .md-sidebar {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05); /* Subtiler Schatten wie in der App */
-}
-
-.md-sidebar {
-  box-shadow: none;
 }
 
