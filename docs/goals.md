@@ -16,7 +16,7 @@ Sie sind bezogen auf die aufgeführten Inhalte aus den Lehrplänen und formulier
 
 ---
 
-## Lernziel 1  - Logische Operatoren & Wahrheitstabellen
+## Lernziel 1  - Logische Operatoren & Wahrheitstabellen {#lernziel-1-logische-operatoren-wahrheitstabellen}
 
 **Die Schülerinnen und Schüler können** die logischen Operatoren **AND**, **OR**, **NOT** benennen, ihre Formelzeichen kennen und die Zustände einer Kreuzung (z. B. *Ampel A Grün = 1*) in einer Wahrheitstabelle korrekt zuordnen.
 
@@ -29,7 +29,7 @@ Sie sind bezogen auf die aufgeführten Inhalte aus den Lehrplänen und formulier
 
 ---
 
-## Lernziel 2 - Boolesche Formeln aus Textbeschreibungen ableiten
+## Lernziel 2 - Boolesche Formeln aus Textbeschreibungen ableiten {#lernziel-2-boolesche-formeln-aus-textbeschreibungen-ableiten}
 
 **Die Schülerinnen und Schüler können** eine sprachliche Beschreibung sicherer Zustände einer Kreuzung in eine **boolesche Formel** übersetzen und diese im **Formeleditor von Logic Traffic** implementieren.
 ### Bezüge zu Lehrplänen
@@ -42,7 +42,7 @@ Sie sind bezogen auf die aufgeführten Inhalte aus den Lehrplänen und formulier
 
 ---
 
-## Lernziel 3 - Debugging einer fehlerhaften Ampelsteuerung
+## Lernziel 3 - Debugging einer fehlerhaften Ampelsteuerung {#lernziel-3-debugging-einer-fehlerhaften-ampelsteuerung}
 
 **Die Schülerinnen und Schüler können** eine fehlerhafte Ampelsteuerung systematisch untersuchen, mithilfe der Simulation logische Konflikte identifizieren (z. B. *gleichzeitiges Grün für kreuzende Ströme*) und die entsprechende Zeile in der Wahrheitstabelle lokalisieren.
 
@@ -55,7 +55,7 @@ Sie sind bezogen auf die aufgeführten Inhalte aus den Lehrplänen und formulier
 **Lehrplan 21** MI.2.2.c: Fehler in Abläufen finden und beheben (Debugging) ([^1], S. 485).
 
 
-## Lernziel 4  - Normalformen & Minimierung boolescher Ausdrücke
+## Lernziel 4  - Normalformen & Minimierung boolescher Ausdrücke {#lernziel-4-normalformen-minimierung-boolescher-ausdrücke}
 
 **Die Schülerinnen und Schüler können** für eine komplexe Kreuzung (z. B. mit Bus‑Priorisierung) eine **lückenlose Wahrheitstabelle** erstellen, daraus die **Disjunktive Normalform (DNF)** und **Konjunktive Normalform (KNF)** ableiten und diese mithilfe der **booleschen Gesetze** (z. B. De Morgan, Distributivgesetz) minimieren, um eine logisch elegante und redundanzfreie Steuerung zu erzeugen.
 

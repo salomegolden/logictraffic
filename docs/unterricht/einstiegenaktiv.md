@@ -17,7 +17,7 @@
 !!! logictraffic "Situation 4 enaktiv nachspielen"
     ???+ teacher "Schritt 1: Situation legen (enaktiv)"         
         Die Lernenden legen mit den Autos selbst eine konkrete Verkehrssituation (im Beispiel Situation 4) auf die passende Kreuzung:
-        ![Situation 4 Enaktiv](../../images/Situation4enaktiv.JPEG){ align=right width=200 }
+        ![Situation 4 Enaktiv](../images/Situation4enaktiv.JPEG){ align=right width=200 }
         
         - Auto D (grün) fährt von Süden geradeaus
         - Auto E (rot) fährt von Westen geradeaus
@@ -26,7 +26,7 @@
     ???+ teacher "Schritt 2: Entscheidung treffen ohne Regeln zu erklären" 
         Welche Ampeln werden benötigt, damit die Kreuzung sicher ist? 
         !!! meta "Lösung" 
-            ![Situation 4 enaktiv mit Ampeln](../../images/situation4enaktivampeln.JPEG){ align=right width=200 }
+            ![Situation 4 enaktiv mit Ampeln](../images/situation4enaktivampeln.JPEG){ align=right width=200 }
             in diesem Beispiel von Situation 4: dreimal geradeaus, weil die Autos alle geradeaus wollen. 
             Die SuS bekommen dann entsprechende Ampeln. 
 
@@ -36,7 +36,7 @@
 
     ???+ teacher "Schritt 3: Irritation auslösen"
         Du veränderst nur ein einziges Auto: das grüne Auto fährt statt geradeaus nun rechts. 👉 „Ist es jetzt immer noch sicher? Was hat sich verändert?“ 
-        ![Situation 4 verändert sich](../../images/situation4enaktivgrünlinks.JPEG){ align=right width=200 }
+        ![Situation 4 verändert sich](../images/situation4enaktivgrünlinks.JPEG){ align=right width=200 }
         
         Die Lernenden bemerken:
         * Schon kleine Änderungen machen die Situation plötzlich gefährlich. -> eine andere Ampel wird benötigt.        

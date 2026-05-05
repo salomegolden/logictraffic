@@ -2,7 +2,7 @@
 Boolesche bzw. aussagenlogische Inhalte werden in mehreren empirischen Arbeiten als zentral für kritisches Denken, Mathematik/Informatik und Problemlösen beschrieben, gleichzeitig aber als nachweislich schwierig zu erlernen mit typischen, gut dokumentierten Fehlvorstellungen [^1] [^2]. 
 
 ## Begründung für die Bedeutung im Unterricht 
-Abgesehen von den inhaltlichen Verknüpfungen zu den Lehrplänen von Gymnasium und der obligatorischen Schule [Lernziele und Lehrplan](../unterricht/goals.md) zeigt auch die Forschung, dass Logik eine wichtige und grundlegende Basis darstellt: Studien betonen, dass logisches Denken Sprache, Erfahrung und Fachwissen verknüpft und so Problemlöse‑ und Entscheidungsfähigkeit unterstützt [^1].
+Abgesehen von den inhaltlichen Verknüpfungen zu den Lehrplänen von Gymnasium und der obligatorischen Schule [Lernziele und Lehrplan](../goals.md) zeigt auch die Forschung, dass Logik eine wichtige und grundlegende Basis darstellt: Studien betonen, dass logisches Denken Sprache, Erfahrung und Fachwissen verknüpft und so Problemlöse‑ und Entscheidungsfähigkeit unterstützt [^1].
 In einer Studie zur Wiedereinführung von Logik in der Sekundarstufe berichten Schüler, dass sie Logik als hilfreich für Mathematik, Alltag und weitere Ausbildung einschätzen, wenn sie mit alltagsnahen Beispielen unterrichtet wird [^3].
 
 ## typische Fehlvorstellungen 
@@ -76,4 +76,4 @@ Im Folgenden werden typische Fehlvorstellungen beschrieben. Die Beschreibung und
 [^3]: Milbou, L., Deprez, J., & Laenens, E. (o. J.). A study on the Reintroduction of Logic in Secondary Schools.
 
 
-[def]: goals.md
+[def]: ../goals.md

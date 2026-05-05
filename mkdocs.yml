@@ -56,7 +56,7 @@ nav:
       - Wahrheitstabellen: topic/wahrheitstabellen.md
       - Normalformen: topic/normalformen.md
       - Lern- und Lehrherausforderungen: topic/difficulties.md
-  - Unterrichtsziele: unterricht/goals.md
+  - Unterrichtsziele: goals.md
   - Unterrichtsplanung:
     - Lektionen Übersicht: unterricht/index.md
     - Enaktiver Einstieg: unterricht/einstiegenaktiv.md
@@ -68,7 +68,7 @@ nav:
     - Beurteilung: beurteilung/index.md
     - Formative Beurteilungsaufgaben: beurteilung/formativebeurteilungsaufgaben.md
     - Summative Beurteilungsaufgaben: beurteilung/summativebeurteilungsaufgaben.md
-  - Beispiele auf der Erprobung: examples.md
+  - Beispiele auf der Erprobung: unterricht/examples.md
   - Downloads: downloads.md
 
 markdown_extensions:

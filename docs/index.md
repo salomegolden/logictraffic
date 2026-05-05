@@ -63,7 +63,7 @@ Die Inhalte sind in klaren Bereichen organisiert, damit Sie je nach Unterrichtss
 
     Lernziele und Lehrplanbezug für die Unterrichtssequenz.
 
-    [Zu Lehrplan und Lernzielen](unterricht/goals.md)
+    [Zu Lehrplan und Lernzielen](goals.md)
 
 -   :material-school-outline: **Unterricht**
 
@@ -71,7 +71,7 @@ Die Inhalte sind in klaren Bereichen organisiert, damit Sie je nach Unterrichtss
 
     Thematisch gegliederte Unterrichtseinheiten und Hinweise zur Durchführung.
 
-    [Zum Unterricht](unterricht/lessons/index.md)
+    [Zum Unterricht](unterricht/index.md)
 
 -   :material-clipboard-check-outline: **Beurteilung**
 
@@ -79,7 +79,7 @@ Die Inhalte sind in klaren Bereichen organisiert, damit Sie je nach Unterrichtss
 
     Erarbeitungs-, Übungs- und Beurteilungsaufgaben auswählen.
 
-    [Zur Beurteilung](unterricht/beurteilung/index.md)
+    [Zur Beurteilung](beurteilung/index.md)
 
 -   :material-book-open-page-variant-outline: **Beispiele**
 
