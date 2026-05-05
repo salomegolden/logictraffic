@@ -30,6 +30,7 @@ theme:
     - navigation.instant
     - navigation.tabs
     - navigation.sections
+    - navigation.indexes
     - navigation.path
     - content.code.copy
     - content.action.edit
@@ -55,21 +56,19 @@ nav:
       - Wahrheitstabellen: topic/wahrheitstabellen.md
       - Normalformen: topic/normalformen.md
       - Lern- und Lehrherausforderungen: topic/difficulties.md
-  - Unterricht:
-      - Unterricht Übersicht: unterricht/index.md
-      - Ziele: unterricht/goals.md
-      - Lektionsübersicht: 
-        - Lektionen Übersicht: unterricht/lessons/index.md
-        - Enaktiver Einstieg: unterricht/lessons/einstiegenaktiv.md
-        - Einführung Online Lernumgebung: unterricht/lessons/logictraffic.md
-        - Wahrheitstabelle: unterricht/lessons/wahrheitstabellen.md
-        - Formeln verstehen: unterricht/lessons/formelnverstehen.md
-        - Formeln formulieren: unterricht/lessons/formelnformulieren.md
-      - Beurteilung: 
-        - Beurteilung: unterricht/beurteilung/index.md
-        - Formative Beurteilungsaufgaben: unterricht/beurteilung/formativebeurteilungsaufgaben.md
-        - Summative Beurteilungsaufgaben: unterricht/beurteilung/summativebeurteilungsaufgaben.md
-      - Beispiele auf der Erprobung: unterricht/examples.md
+  - Unterrichtsziele: unterricht/goals.md
+  - Unterrichtsplanung:
+    - Lektionen Übersicht: unterricht/index.md
+    - Enaktiver Einstieg: unterricht/einstiegenaktiv.md
+    - Einführung Online Lernumgebung: unterricht/logictraffic.md
+    - Wahrheitstabelle: unterricht/wahrheitstabellen.md
+    - Formeln verstehen: unterricht/formelnverstehen.md
+    - Formeln formulieren: unterricht/formelnformulieren.md
+  - Beurteilung: 
+    - Beurteilung: beurteilung/index.md
+    - Formative Beurteilungsaufgaben: beurteilung/formativebeurteilungsaufgaben.md
+    - Summative Beurteilungsaufgaben: beurteilung/summativebeurteilungsaufgaben.md
+  - Beispiele auf der Erprobung: examples.md
   - Downloads: downloads.md
 
 markdown_extensions:
