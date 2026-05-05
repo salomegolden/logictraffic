@@ -3,13 +3,21 @@
 :root {
   /* --- FARBEN AUS DER LOGICTRAFFIC-ANWENDUNG --- */
   --header-grey: #303030;         /* Für den Header-Balken */
-  --md-accent-fg-color: #41b1f7; /* Ein etwas gesättigteres Hellblau für Links */
+  --md-accent-fg-color: #5c41f7; /* Ein etwas gesättigteres Hellblau für Links */
   
   /* Logik-Farben für Tabellenüberschriften und Admonitions */
   --logic-light-red: #f08080;
   --logic-light-green: #a5d6a7;
   --logic-light-blue: #81d4fa;
   --logic-cream-yellow: #fff9e6; /* Für Hervorhebungen, wie die ausgewählte Zeile */
+}
+
+:root {
+  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+body, .md-typeset, .md-sidebar, .md-header, .md-footer {
+  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif !important;
 }
 
 /* 1. Header-Anpassung: Dunkelgrau wie in der App */
@@ -47,5 +55,26 @@
 /* Verwende sie in Markdown mit: | { .highlight-row } C | D | E | sicher | */
 .highlight-row {
   background-color: var(--logic-cream-yellow) !important;
+}
+
+/* Sidebar Navigation Styling */
+.md-sidebar .md-nav__link {
+  background-color: #f8f9fa; /* Light grey background */
+  border-radius: 6px;
+  margin: 4px 8px;
+  padding: 10px 16px;
+  transition: background-color 0.2s ease;
+  display: block;
+  width: calc(100% - 16px); /* Fitted to container */
+}
+
+.md-sidebar .md-nav__link:hover {
+  background-color: hwb(194 30% 28%); /* Slightly darker on hover */
+}
+
+.md-sidebar .md-nav__link--active {
+  background-color: #3dc270; /* Accent blue for active */
+  color: white;
+  font-weight: 500;
 }
 

@@ -76,7 +76,7 @@ eine **Aussage** wird durch drei Eigenschaften beschrieben [^1], [^7]:
 | Implikation  | `A \(\to\) B`| „wenn A, dann B“ | $A \rightarrow B$           |
 
 !!! error inline end "Typische Fehlvorstellungen"
-    Gerade zu den Operatoren sind Fehlvorstellungen weit verbreitet [^6]. Es lohnt sich, diese zu kennen und im Unterricht auf sie zu achten. Die üblichen Fehlvorstellungen können hier nachgelesen werden: [Fehlvorstellungen :material-alert-decagram:](learninglogic.md)
+    Gerade zu den Operatoren sind Fehlvorstellungen weit verbreitet [^6]. Es lohnt sich, diese zu kennen und im Unterricht auf sie zu achten. Die üblichen Fehlvorstellungen können hier nachgelesen werden: [Fehlvorstellungen :material-alert-decagram:](difficulties.md)
 
 Die Wahrheitstabellen der Operatoren in dieser Unterrichtseinheit stellen sich folgendermassen dar: 
 
@@ -129,7 +129,7 @@ Die Disjunktion ist die einschliessende ODER-Verknüpfung. Sie ist, anders als d
 Logische Funktionen lassen sich ikonisch (bildlich), symbolisch (Formel, Wahrheitstabelle) und verbal (natürliche Sprache) darstellen. LogicTraffic nutzt alle Ebenen für einheitliche Verständnisentwicklung [^11].
 
 !!! teacher "Didaktik des Darstellungswechsel
-    **Darstellungswechsel** (enaktiv → ikonisch → symbolisch): Detaillierte Unterrichtstipps siehe [Darstellungswechsel](topic/darstellungswechsel.md).
+    **Darstellungswechsel** (enaktiv → ikonisch → symbolisch): Detaillierte Unterrichtstipps siehe [Darstellungswechsel](darstellungswechsel.md).
 
 ### Symbolische Darstellungen in LogicTraffic 
 
@@ -138,14 +138,14 @@ Logische Funktionen lassen sich ikonisch (bildlich), symbolisch (Formel, Wahrhei
     Eine **Wahrheitstabelle** listet für alle $2^n$ Eingabekombinationen $n$ Variablen den Ausgabewert einer booleschen Funktion auf [^2], [^8]. 
     
 !!! teacher "Wahrheitstabellen im Unterricht"
-    Zwischenschritt ikonisch ↔ symbolisch: Anleitung und Übungen siehe [Wahrheitstabellen](topic/wahrheitstabellen.md).
+    Zwischenschritt ikonisch ↔ symbolisch: Anleitung und Übungen siehe [Wahrheitstabellen](wahrheitstabellen.md).
 
 #### Formeln 
 ???+ student "Definition boolesche (Aussagen-)Funktion"
     Eine boolesche (Aussagen‑)Funktion ordnet jeder Kombination von Eingabewahrheitswerten (z.B. A, B) genau einen Ausgabewert (0 oder 1) zu [^7].
 
 !!! teacher "Normalformeln"
-    Auf der folgenden Seite werden behandelten Normalformeln, ihre Herleitung und Anwendung in LogicTraffic nochmals genau erklärt: [Normalformeln :material-link-circle:](topic/normalformeln.md)
+    Auf der folgenden Seite werden behandelten Normalformeln, ihre Herleitung und Anwendung in LogicTraffic nochmals genau erklärt: [Normalformeln :material-link-circle:](normalformen.md)
 
 [^1]: Hoffmann, A., Marx, B., & Vogt, W. (2005). _Mathematik für Ingenieure 1: Lineare Algebra, Analysis - Theorie und Numerik_. Pearson Deutschland.
 [^2]:Junker, M. (2025). _Logik für die Informatik: Eine Einführung in die Aussagenlogik, Prädikatenlogik und Berechenbarkeitstheorie_. Springer Berlin Heidelberg. [https://doi.org/10.1007/978-3-662-70825-5](https://doi.org/10.1007/978-3-662-70825-5)

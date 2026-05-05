@@ -11,8 +11,8 @@ theme:
   name: material
   language: de
   font:
-    text: Quicksand
-    code: Roboto Mono
+    text: Inter
+    code: Fira Code
   palette:
     - scheme: default
       primary: grey
@@ -49,25 +49,26 @@ theme:
 
 nav:
   - Home: index.md
-  - Überblick: overview.md
-  - Zur Sache: 
-      - topic.md
+  - Sachinformationen:
+      - Sachinformationen: topic/index.md
       - Darstellungswechsel: topic/darstellungswechsel.md
-      - Normalformeln: topic/normalformeln.md
       - Wahrheitstabellen: topic/wahrheitstabellen.md
-  - Lehrplan und Lernziele: goals.md
-  - Unterrichtsplanung: 
-      - lessons.md
-      - Einstieg: lessons/einstiegenaktiv.md
-      - Online Tool LogicTraffic: lessons/logictraffic.md
-      - Wahrheitstabellen: lessons/wahrheitstabellen.md
-      - Formeln formulieren: lessons/formelnformulieren.md
-      - Formeln lesen: lessons/formelnverstehen.md
-      - Transferaufgaben: lessons/transfersyntheseaufgaben.md
-      - formative Beurteilungsaufgaben: lessons/formativebeurteilungsaufgaben.md
-      - summative Beurteilungsaufgaben: lessons/summativebeurteilungsaufgaben.md
+      - Normalformen: topic/normalformeln.md
+      - Lern- und Lehrherausforderungen: topic/difficulties.md
+  - Unterricht:
+      - Unterricht Übersicht: unterricht/index.md
+      - Ziele: unterricht/goals.md
+      - Lektionsübersicht: unterricht/lessons/index.md
+      - Enaktiver Einstieg: unterricht/lessons/einstiegenaktiv.md
+      - Einführung Online Lernumgebung: unterricht/lessons/logictraffic.md
+      - Wahrheitstabelle: unterricht/lessons/wahrheitstabellen.md
+      - Formeln verstehen: unterricht/lessons/formelnverstehen.md
+      - Formeln formulieren: unterricht/lessons/formelnformulieren.md
+      - Beurteilung: unterricht/beurteilung/index.md
+      - Formative Beurteilungsaufgaben: unterricht/beurteilung/formativebeurteilungsaufgaben.md
+      - Summative Beurteilungsaufgaben: unterricht/beurteilung/summativebeurteilungsaufgaben.md
+      - Beispiele auf der Erprobung: unterricht/examples.md
   - Downloads: downloads.md
-  - Beispiele aus dem Unterricht: examples.md
 
 markdown_extensions:
   - admonition
