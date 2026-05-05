@@ -27,7 +27,6 @@ theme:
         icon: material/brightness-4
         name: Light Mode
   features:
-    - navigation.instant
     - navigation.tabs
     - navigation.sections
     - navigation.indexes
@@ -68,7 +67,7 @@ nav:
     - Beurteilung: beurteilung/index.md
     - Formative Beurteilungsaufgaben: beurteilung/formativebeurteilungsaufgaben.md
     - Summative Beurteilungsaufgaben: beurteilung/summativebeurteilungsaufgaben.md
-  - Beispiele auf der Erprobung: unterricht/examples.md
+  - Beispiele auf der Erprobung: examples.md
   - Downloads: downloads.md
 
 markdown_extensions:
