@@ -79,7 +79,8 @@ Die Grundidee der Online Lernumgebung LogicTraffic ist es, eine aussagelogische 
 
         ???+ teacher "Lösung" 
             Die Lösung könnte etwa so aussehen: 
-            ![Lösung zur EA1](../images/Lösung%20Beschriftung%20Programm.png){ width: 400 }
+            ![Lösung zur EA1](../../images/LösungBeschriftungProgramm.JPEG){ width = 400 }
+
     
     ??? student "Schritt 3 - Ampel und Wahrheitswerte zuordnen" 
         Klicke in der Verkehrssituation auf eine Ampel einer Spur (z.B. A), bis sie grün ist.
