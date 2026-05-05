@@ -9,10 +9,10 @@ Sie sind bezogen auf die aufgeführten Inhalte aus den Lehrplänen und formulier
 
 | Wissensart               | Erinnern | Verstehen | Anwenden | Analysieren | Bewerten | Erzeugen |
 |--------------------------|----------|-----------|----------|-------------|----------|----------|
-| **Faktenwissen**         | [LZ1](#lernziel-1----logische-operatoren--wahrheitstabellen)     |           |          |             |          |          |
-| **Konzeptuelles Wissen** |          | [LZ1](#lernziel-1----logische-operatoren--wahrheitstabellen)       |          | [LZ3](#lernziel-3---debugging-einer-fehlerhaften-ampelsteuerung)         |          |          |
-| **Prozedurales Wissen**  |          |           | [LZ2](#lernziel-2---boolesche-formeln-aus-textbeschreibungen-ableiten)      | [LZ3](#lernziel-3---debugging-einer-fehlerhaften-ampelsteuerung)         | [LZ4](#lernziel-4----normalformen--minimierung-boolescher-ausdrücke)     | [LZ4](#lernziel-4----normalformen--minimierung-boolescher-ausdrücke)      |
-| **Metakognitives Wissen**|          |           |          |             | [LZ4](#lernziel-4----normalformen--minimierung-boolescher-ausdrücke)      | [LZ4](#lernziel-4----normalformen--minimierung-boolescher-ausdrücke)      |
+| **Faktenwissen**         | [LZ1](#lernziel-1-logische-operatoren-wahrheitstabellen)     |           |          |             |          |          |
+| **Konzeptuelles Wissen** |          | [LZ1](#lernziel-1-logische-operatoren-wahrheitstabellen)       |          | [LZ3](#lernziel-3-debugging-einer-fehlerhaften-ampelsteuerung)         |          |          |
+| **Prozedurales Wissen**  |          |           | [LZ2](#lernziel-2-boolesche-formeln-aus-textbeschreibungen-ableiten)      | [LZ3](#lernziel-3-debugging-einer-fehlerhaften-ampelsteuerung)         | [LZ4](#lernziel-4-normalformen-minimierung-boolescher-ausdrücke)     | [LZ4](#lernziel-4-normalformen-minimierung-boolescher-ausdrücke)      |
+| **Metakognitives Wissen**|          |           |          |             | [LZ4](#lernziel-4-normalformen-minimierung-boolescher-ausdrücke)      | [LZ4](#lernziel-4-normalformen-minimierung-boolescher-ausdrücke)      |
 
 ---
 

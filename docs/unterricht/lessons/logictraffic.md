@@ -3,7 +3,7 @@
 Die Grundidee der Online Lernumgebung LogicTraffic ist es, eine aussagelogische Formel zu finden, welche die vorgegebene Verkehrssituation sicher macht. 
 
 !!! logictraffic "Programmaufbau:" 
-    ![LogicTraffic](../images/Screenshot%202026-04-22%20at%2009-49-45%20logictraffic_anleitung%20-%20logictraffic_anleitung.pdf.png)
+    ![LogicTraffic](../../images/Screenshot%202026-04-22%20at%2009-49-45%20logictraffic_anleitung%20-%20logictraffic_anleitung.pdf.png)
     In der graphischen Lernumgebung werden Verkehrssituationen an einer Kreuzung dargestellt. Dabei wird jede Fahrspur durch eine Variable (A, B, C…) identifiziert und jede Spur hat eine dazugehörige Ampel. Daneben werden in einer Wahrheitstabelle alle Spuren aufgelistet und es wird festgelegt, welche Konfigurationen sicher sind. Hier entspricht „0“ (logisch falsch) einer roten Ampel, also „Fahrspur nicht frei“ und entsprechend „1“ (logisch wahr) einer grünen Ampel, also „Spur befahrbar“. Eine Statusanzeige gibt an, ob die aktuelle Belegung der Tabelle (also die Einträge in der „sicher“-Spalte) nicht sicher, nicht optimal oder optimal ist. Ebenfalls wird zur aktuellen Belegung der Tabelle eine aussagenlogische Formel in gewünschter Form angegeben. Im Weiteren steht ein Formeleditor zur Verfügung, in welchem direkt Formeln erstellt und editiert werden können.
 
 ## Konfrontationsaufgaben
@@ -13,9 +13,9 @@ Die Grundidee der Online Lernumgebung LogicTraffic ist es, eine aussagelogische 
     Diese Konfrontationsaufgabe kann auch weggelassen werden, falls zuvor der Einstieg ins Thema enaktiv durchgeführt wurde [Einstieg](../lessons/einstiegenaktiv.md). Allerdings bietet sie auch eine gute Wiederholung der sprachlichen Beschreibung von Situationen. 
 
 !!! logictraffic "KA1 - Einführung LogicTraffic" 
-    Die Lehrperson zeigt ein Foto/kurzes Video einer stark befahrenen Kreuzung mit Ampeln (Beamer/Arbeitsblatt) [Beispiele](../material/LogicTraffic%20-%20Einführung%20Konfrontationsaufgabe%201%20Mögliche%20Bilder%20von%20Kreuzungen%20und%20Verkehrssituationen.pdf).
+    Die Lehrperson zeigt ein Foto/kurzes Video einer stark befahrenen Kreuzung mit Ampeln (Beamer/Arbeitsblatt) [Beispiele](../../pdfmaterial/LogicTraffic%20-%20Einführung%20Konfrontationsaufgabe%201%20Mögliche%20Bilder%20von%20Kreuzungen%20und%20Verkehrssituationen.pdf).
 
-    Falls die Aufgabe schriftlich bearbeitet werden soll: [KA1_LogicTraffic](../material/Kreuzungen%20beobachten%20und%20beschreiben.pdf)
+    Falls die Aufgabe schriftlich bearbeitet werden soll: [KA1_LogicTraffic](../../pdfmaterial/Kreuzungen%20beobachten%20und%20beschreiben.pdf)
 
     !!! student "Auftrag an die Lernenden, 5 - 10 Minuten"
         Beschreibe, was an dieser Kreuzung alles gleichzeitig passieren muss, damit niemand verunfallt.
@@ -57,7 +57,7 @@ Die Grundidee der Online Lernumgebung LogicTraffic ist es, eine aussagelogische 
     Lernende arbeiten am Gerät, idealerweise zu zweit.
     !!! student "Arbeitsaufgabe"
     ???+ meta "als PDF"
-       [EA1_LogicTraffic](../material/Einführung%20LogicTraffic.pdf)
+       [EA1_LogicTraffic](../../pdfmaterial/Einführung%20LogicTraffic.pdf)
     
     ??? student "Schritt 1 - Starte das Tool" 
         
@@ -114,7 +114,7 @@ Die Grundidee der Online Lernumgebung LogicTraffic ist es, eine aussagelogische 
     Erarbeiten, dass die Wahrheitstabelle explizit festlegt, welche Ampelkombinationen „sicher“ sind, und dass die Formel genau diese sicheren Zeilen beschreibt.
 
 !!! logictraffic "EA2 - Einführung ins Tool" 
-    Die Notizen können sich die Lernenden in ihr Heft oder auf ein Papier machen. Alternativ steht ein Arbeitsblatt zur Verfügung: [ÜA1_Logictraffic](../material/Von%20der%20Kreuzung%20zur%20Tabelle%20und%20zurück.pdf)
+    Die Notizen können sich die Lernenden in ihr Heft oder auf ein Papier machen. Alternativ steht ein Arbeitsblatt zur Verfügung: [ÜA1_Logictraffic](../../pdfmaterial/Von%20der%20Kreuzung%20zur%20Tabelle%20und%20zurück.pdf)
 
     ??? student "Schritt 1 - Wähle eine einfache Situation"
         Wähle in LogicTraffic eine Situation mit zwei Fahrspuren (z.B. A und B).
