@@ -33,18 +33,69 @@ Die Inhalte sind in klaren Bereichen organisiert, damit Sie je nach Unterrichtss
 
 ## Didaktischer Mehrwert auf einen Blick
 
-- **Anschluss an Lehrpläne:** Inhalte orientieren sich an zentralen Kompetenzen des logischen Denkens.
-- **Lernwirksame Struktur:** Vom Aufbau von Grundvorstellungen bis zur Anwendung in komplexeren Aufgabenformaten.
+- **Anschluss an Lehrpläne:** Inhalte orientieren sich an zentralen Kompetenzen Lehrplans für Gymnasien als auch des Lehrplan 21 und sind auf den dritten Zyklus ausgerichtet. 
+- **Lernwirksame Struktur:** Vom Aufbau von Grundvorstellungen durch enaktives Nachspielen bis zur Anwendung in komplexeren Aufgabenformaten.
 - **Fokus auf Verstehen statt Auswendiglernen:** Logische Zusammenhänge werden über Darstellungen, Sprache und formale Schreibweisen verknüpft.
 - **Unterstützung bei Beurteilung:** Aufgabenideen für formative und summative Lernkontrollen.
 
-## Empfohlener Einstieg
-Wenn Sie neu mit LogicTraffic arbeiten, starten Sie am besten in dieser Reihenfolge:
-1. **Überblick**: Ziele, Aufbau und didaktischer Rahmen der Unterrichtssequenz. Hier finden Sie alles auf einen Blick. 
-2. **Zur Sache**: Falls gewünscht, können hier die im Unterricht behandelten Konzepte durch die Lehrperson repetiert und erarbeitet werden. Neben (allenfalls schon bekannten) Sachinhalten finden Sie hier aber auch häufige Fehler und Missverständnisse bei Lernenden und Hinweise, wie man mit diesen umgehen kann. 
-3. **Lehrplan und Lernziele** 
-4. **Unterricht**: Der Unterricht wird in Unterrichtseinheiten thematisch gegliedert. Ausserdem erhalten Sie hier Informationen zu
-5. **Beurteilung**: Erarbeitungs-, Übungs- und Beurteilungsaufgaben auswählen.
-6. **Beispiele** 
-7. **Downloads** 
+
+<div class="grid cards" markdown>
+
+-   :material-compass-outline: **Überblick**
+
+    ---
+
+    Ziele, Aufbau und didaktischer Rahmen der Unterrichtssequenz auf einen Blick.
+
+    [Zum Überblick](unterricht/index.md)
+
+-   :material-lightbulb-on-outline: **Zur Sache**
+
+    ---
+
+    Fachliche Konzepte repetieren und erarbeiten – inklusive typischer Fehler und Missverständnisse.
+
+    [Zu den Inhalten](topic/index.md)
+
+-   :material-target: **Lehrplan und Lernziele**
+
+    ---
+
+    Lernziele und Lehrplanbezug für die Unterrichtssequenz.
+
+    [Zu Lehrplan und Lernzielen](unterricht/goals.md)
+
+-   :material-school-outline: **Unterricht**
+
+    ---
+
+    Thematisch gegliederte Unterrichtseinheiten und Hinweise zur Durchführung.
+
+    [Zum Unterricht](unterricht/lessons/index.md)
+
+-   :material-clipboard-check-outline: **Beurteilung**
+
+    ---
+
+    Erarbeitungs-, Übungs- und Beurteilungsaufgaben auswählen.
+
+    [Zur Beurteilung](unterricht/beurteilung/index.md)
+
+-   :material-book-open-page-variant-outline: **Beispiele**
+
+    ---
+
+    Konkrete Beispiele zur Vertiefung und direkten Verwendung im Unterricht.
+
+    [Zu den Beispielen](unterricht/examples.md)
+
+-   :material-download-outline: **Downloads**
+
+    ---
+
+    Materialien, Dateien und weitere Unterlagen zum Herunterladen.
+
+    [Zu den Downloads](downloads.md)
+
+</div>
 
