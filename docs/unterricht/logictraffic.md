@@ -23,8 +23,8 @@ Die Grundidee der Online Lernumgebung LogicTraffic ist es, eine aussagelogische 
         Beschreibe, was an dieser Kreuzung alles gleichzeitig passieren muss, damit niemand verunfallt.
         Formuliere mindestens drei "Wenn-dann"-Sätze zur Kreuzung, z.B.:
 
-        - Wenn die Fussgängerampel grün ist, dann ...
-        - Wenn ein Bus kommt, dann ...
+        - Wenn die Ampel grün ist, dann ...
+        - Wenn ein Auto von da kommt, dann ...
 
         Überlege:
 
@@ -42,7 +42,7 @@ Die Grundidee der Online Lernumgebung LogicTraffic ist es, eine aussagelogische 
 
     !!! student "Auftrag - Einzel- oder Gruppenarbeit, 5-10 Minuten"
         1. Skizziere auf einem Blatt grob eine Kreuzung (nur mit Strichen/Pfeilen).
-        2. Schreibe dazu, wann welche Ampel "Grün", "Rot" oder "Gelb" sein soll. Nutze wieder Wenn-dann-Sätze.
+        2. Schreibe dazu, wann welche Ampel "Grün" oder "Rot" sein soll. Nutze wieder Wenn-dann-Sätze.
         3. Tauscht euch kurz mit einer anderen Person aus: Finden sich Widersprüche? Gibt es Situationen, die ihr noch nicht geregelt habt?
 
     !!! teacher "Anschlussfrage im Plenum"
@@ -83,7 +83,7 @@ Die Grundidee der Online Lernumgebung LogicTraffic ist es, eine aussagelogische 
             * Simulation starten
             * Formeleditor
 
-            ???+ teacher "Lösung"
+            ??? teacher "Lösung"
                 Die Lösung könnte etwa so aussehen:
                 ![Lösung zur EA1](../images/LösungBeschriftungProgramm.JPEG){ width = 400 }
 
@@ -126,8 +126,7 @@ Die Grundidee der Online Lernumgebung LogicTraffic ist es, eine aussagelogische 
 
     !!! logictraffic "Ablauf"
         ??? student "Schritt 1 - Wähle eine einfache Situation"
-            Wähle in LogicTraffic eine Situation mit zwei Fahrspuren (z.B. A und B).
-            Notiere: "Spur A verläuft ..., Spur B verläuft ..." (z.B. kreuzend oder parallel).
+            Wähle in LogicTraffic eine Situation mit zwei Fahrzeugen (z.B. A und B).
 
         ??? student "Schritt 2 - Ampelstellungen ausprobieren"
             Stelle im Kreuzungsbild folgende Situationen ein (klicke auf die Ampeln):

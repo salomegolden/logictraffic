@@ -1,4 +1,8 @@
 ## Konfrontationsaufgabe 1 - Enaktiver Einstieg in das Thema
+Das enaktive Material kann man auch gut selbst basteln. Eine entsprechende Vorlage (passend für ein Set, also eine Gruppe findet sich hier)
+
+[:mail-inbox: Vorlage enaktives Material](../pdfmaterial/Druckvorlage%20für%20enaktives%20Material%20-%20Logic%20Traffic.pdf)
+
 !!! task "KA1 - Situation 4 enaktiv nachspielen"
     ??? meta "Didaktische Begründung"
         Die Lernenden stellen mit einem physischen Kreuzungsmodell verschiedene Verkehrssituationen dar und entscheiden intuitiv, ob sie sicher oder unsicher sind. Bereits kleine Veränderungen führen zu kontroversen Einschätzungen - dadurch entsteht eine produktive Irritation. Diese dient als Ausgangspunkt für den Aufbau von Aussagenlogik, da deutlich wird, dass Sicherheit formal und eindeutig beschrieben werden muss.
@@ -9,14 +13,14 @@
         Das erzeugt Irritation ("Warum ist das jetzt unsicher?") und öffnet die Tür zur späteren formalen Modellierung.
 
     ???+ teacher "Material pro Gruppe (3-4 Personen)"
-        Spielfläche: Ein mit Klebeband auf dem Tisch markiertes Kreuz = Kreuzung mit 4 Einfahrten (N, O, S, W) oder Vorlage
+        Spielfläche: Ein mit Klebeband auf dem Tisch markiertes Kreuz = Kreuzung mit 4 Einfahrten oder Vorlage
         Fahrzeuge: 3-4 Spielzeugautos pro Gruppe
         Pfeilkarten für eine Richtung (gerade, links, rechts)
         Signalkarten: Pro "Fahrspur" ein Set aus einer roten und einer grünen Ampelkarte (oder z.B. rote und grüne LEGO-Steine)
         Alternativ: Ausgedruckte Kreuzungsfelder und Papierautos.
 
     !!! logictraffic "Ablauf"
-        ???+ teacher "Schritt 1 - Situation legen (enaktiv)"
+        ??? student "Schritt 1 - Situation legen (enaktiv)"
             Die Lernenden legen mit den Autos selbst eine konkrete Verkehrssituation (im Beispiel Situation 4) auf die passende Kreuzung:
             ![Situation 4 Enaktiv](../images/Situation4enaktiv.JPEG){ align=right width=200 }
 
@@ -24,7 +28,7 @@
             - Auto E (rot) fährt von Westen geradeaus
             - Auto C (blau) fährt von Osten geradeaus
 
-        ???+ teacher "Schritt 2 - Entscheidung treffen ohne Regeln zu erklären"
+        ??? student "Schritt 2 - Entscheidung treffen ohne Regeln zu erklären"
             Welche Ampeln werden benötigt, damit die Kreuzung sicher ist?
             !!! meta "Lösung"
                 ![Situation 4 enaktiv mit Ampeln](../images/situation4enaktivampeln.JPEG){ align=right width=200 }
@@ -35,7 +39,7 @@
             Die Lernenden dürfen sich bewegen, Autos umstellen, „drüberfahren“ etc.
             Wichtig: Keine logischen Begriffe verwenden, Keine Fachregeln erklären, Nur intuitives Entscheiden zulassen. Ausserdem muss darauf geachtet werden, dass nur die gelegte Situation betrachtet wird. Also dass kein Auto abbiegen will etc.
 
-        ???+ teacher "Schritt 3 - Irritation auslösen"
+        ??? student "Schritt 3 - Irritation auslösen"
             Du veränderst nur ein einziges Auto: das grüne Auto fährt statt geradeaus nun rechts. "Ist es jetzt immer noch sicher? Was hat sich verändert?"
             ![Situation 4 verändert sich](../images/situation4enaktivgrünlinks.JPEG){ align=right width=200 }
 
@@ -44,7 +48,7 @@
 
             Das ist der didaktische Kern der Konfrontationsaufgabe: Die Lernenden spüren ein Problem, das später mit Aussagenlogik formal gelöst werden soll.
 
-        ??? teacher "Vertiefung mit Reflexionsfragen"
+        ??? student "Vertiefung mit Reflexionsfragen"
             Diese Fragen öffnen das Thema für die nächsten Schritte (Erarbeitungsaufgaben), in denen Variablen, Wahrheitswerte und logische Operatoren eingeführt werden.
 
             - Welche Autos kommen sich in die Quere?
@@ -68,19 +72,19 @@ Diese Erarbeitungsaufgabe eignet sich besonders auf Folgeaufgabe auf Konforntati
     !!! logictraffic "Ausgangspunkt"
         Die Lernenden arbeiten zunächst mit GENAU der Verkehrssituation, die sie in der Konfrontationsaufgabe als unsicher oder verändert wahrgenommen haben. Die Lehrperson oder die SuS legen sie nochmals als Modell oder projizieren sie.
 
-    === "Schritt 1 - Problemstellung"
+    ??? student "Schritt 1 - Problemstellung"
 
         Lehrperson stellt folgende Problemstellung: "In der letzten Aufgabe habt ihr gemerkt, dass eine kleine Veränderung (Ampel wechselt auf grün) plötzlich alles unsicher macht. Wie können wir sicherstellen, dass wir keine gefährliche Situation übersehen? Notiert eure Ideen."
 
         Ziel: Die Lernenden formulieren das Bedürfnis nach vollständiger Übersicht.
 
-    === "Schritt 2 - Erarbeitung des Konzeptes der Wahrheitstabelle"
+    ??? student "Schritt 2 - Erarbeitung des Konzeptes der Wahrheitstabelle"
 
         "Die Kreuzung hat drei Autos. Wie viele mögliche Rot-Gruen-Kombinationen gibt es? Notiert zuerst eure Vermutung, dann versucht es exakt auszuzählen."
 
         Ziel: Lernende entdecken selbst 2³ = 8 mögliche Zustände. Damit entsteht der natürliche Übergang: "Wir brauchen eine Tabelle, die alle Kombinationen auflistet." (Das ist die Wahrheitstabelle, aber der Begriff wird erst jetzt eingeführt.)
 
-    === "Schritt 3: Wahrheitstabelle erstellen"
+    ??? student "Schritt 3: Wahrheitstabelle erstellen"
 
         Lehrperson gibt eine leere Tabelle ohne Überschrift (Begriffe kommen erst durch die Lernenden!)
         gemeinsam werden Beschriftungen der Überschriften erarbeitet. C, D, E (Ampelzustand für die Autos) & letzte Spalte (sicher / unsicher).
