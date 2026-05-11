@@ -19,7 +19,7 @@ Eine boolsche Variable ist in der Informatik die kleinste Informationseinheit. S
     In LogicTraffic steht jede Variable für den Zustand einer Ampel (rot $0$  / grün $1$) [^10], [^11].
 
 ### Aussagen 
-    ???+ student inline end "Beispiele für Aussagen"
+???+ student "Beispiele für Aussagen"
     Beispiele für Aussagen:
     
     - "Die Ampel A ist grün."
@@ -37,7 +37,8 @@ eine **Aussage** wird durch drei Eigenschaften beschrieben [^1], [^7]:
     ??? student "Beispiele für Aussagen aus LogicTraffic" 
         * Einfache Aussage: A = "Spur A hat grün" 
         * Zusdammengesetzte Aussage: $A \land \neg B$ => „Spur A hat grün UND Spur B hat rot.“ (verhindert Kollision).
-   ??? teacher "Aussagen entdecken" 
+        
+    ??? teacher "Aussagen entdecken" 
        Schüler:innen experimentieren, indem sie Ampeln klicken und sehen, wie Aussagen in der Wahrheitstabelle wahr/falsch werden.
     
 ### Junktoren und Operatoren 
