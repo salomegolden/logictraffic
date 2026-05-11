@@ -103,3 +103,27 @@
   -webkit-mask-image: var(--md-admonition-icon--meta);
 }
 
+/* 6. AUFGABE (klarer Rahmen für Unterrichtsaufgaben) */
+:root {
+  --md-admonition-icon--task: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M19 3h-4.18C14.4 1.84 13.3 1 12 1S9.6 1.84 9.18 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2m-7 0a1 1 0 0 1 1 1 1 1 0 0 1-1 1 1 1 0 0 1-1-1 1 1 0 0 1 1-1m-1 14-4-4 1.41-1.41L11 14.17l5.59-5.59L18 10z"/></svg>');
+}
+.md-typeset .admonition.task,
+.md-typeset details.task {
+  border-color: #E0A106;
+  border-width: 0.12rem;
+  margin: 1.4rem 0;
+  box-shadow: 0 0.15rem 0.5rem rgba(48, 48, 48, 0.08);
+}
+.md-typeset .task > .admonition-title,
+.md-typeset .task > summary {
+  background-color: rgba(224, 161, 6, 0.13);
+  border-color: #E0A106;
+  font-weight: 700;
+}
+.md-typeset .task > .admonition-title::before,
+.md-typeset .task > summary::before {
+  background-color: #E0A106;
+  mask-image: var(--md-admonition-icon--task);
+  -webkit-mask-image: var(--md-admonition-icon--task);
+}
+
