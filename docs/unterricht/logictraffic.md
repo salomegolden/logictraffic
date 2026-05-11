@@ -19,17 +19,18 @@ Die Grundidee der Online Lernumgebung LogicTraffic ist es, eine aussagelogische 
 
         Falls die Aufgabe schriftlich bearbeitet werden soll: [KA1_LogicTraffic](../pdfmaterial/Kreuzungen%20beobachten%20und%20beschreiben.pdf)
 
-    !!! student "Auftrag an die Lernenden, 5-10 Minuten"
-        Beschreibe, was an dieser Kreuzung alles gleichzeitig passieren muss, damit niemand verunfallt.
-        Formuliere mindestens drei "Wenn-dann"-Sätze zur Kreuzung, z.B.:
+    !!! logictraffic "Auftrag"
+        ??? student "Auftrag an die Lernenden, 5-10 Minuten"
+            Beschreibe, was an dieser Kreuzung alles gleichzeitig passieren muss, damit niemand verunfallt.
+            Formuliere mindestens drei "Wenn-dann"-Sätze zur Kreuzung, z.B.:
 
-        - Wenn die Ampel grün ist, dann ...
-        - Wenn ein Auto von da kommt, dann ...
+            - Wenn die Ampel grün ist, dann ...
+            - Wenn ein Auto von da kommt, dann ...
 
-        Überlege:
+            Überlege:
 
-        - Wer oder was "entscheidet", wann welches Licht leuchtet?
-        - Glaubst du, dass dahinter ein Programm steckt? Begründe.
+            - Wer oder was "entscheidet", wann welches Licht leuchtet?
+            - Glaubst du, dass dahinter ein Programm steckt? Begründe.
 
 ### Konfrontationsaufgabe 2
 
@@ -40,10 +41,11 @@ Die Grundidee der Online Lernumgebung LogicTraffic ist es, eine aussagelogische 
     !!! logictraffic "Ausgangspunkt"
         Tafelbild mit der Leitfrage: "Stell dir vor, du bist die Schaltzentrale dieser Kreuzung. Wie würdest du die Ampeln so steuern, dass es nie zu Unfällen kommt?" Als Material kann man die Bilder von [KA1](#konfrontationsaufgabe-1) verwenden.
 
-    !!! student "Auftrag - Einzel- oder Gruppenarbeit, 5-10 Minuten"
-        1. Skizziere auf einem Blatt grob eine Kreuzung (nur mit Strichen/Pfeilen).
-        2. Schreibe dazu, wann welche Ampel "Grün" oder "Rot" sein soll. Nutze wieder Wenn-dann-Sätze.
-        3. Tauscht euch kurz mit einer anderen Person aus: Finden sich Widersprüche? Gibt es Situationen, die ihr noch nicht geregelt habt?
+    !!! logictraffic "Auftrag"
+        ??? student "Auftrag - Einzel- oder Gruppenarbeit, 5-10 Minuten"
+            1. Skizziere auf einem Blatt grob eine Kreuzung (nur mit Strichen/Pfeilen).
+            2. Schreibe dazu, wann welche Ampel "Grün", "Rot" oder "Gelb" sein soll. Nutze wieder Wenn-dann-Sätze.
+            3. Tauscht euch kurz mit einer anderen Person aus: Finden sich Widersprüche? Gibt es Situationen, die ihr noch nicht geregelt habt?
 
     !!! teacher "Anschlussfrage im Plenum"
         "Wie könnten wir so etwas mit einem Computer programmieren, ohne eine Programmiersprache lernen zu müssen?"
@@ -83,7 +85,7 @@ Die Grundidee der Online Lernumgebung LogicTraffic ist es, eine aussagelogische 
             * Simulation starten
             * Formeleditor
 
-            ??? teacher "Lösung"
+            ???+ teacher "Lösung"
                 Die Lösung könnte etwa so aussehen:
                 ![Lösung zur EA1](../images/LösungBeschriftungProgramm.JPEG){ width = 400 }
 
@@ -126,7 +128,8 @@ Die Grundidee der Online Lernumgebung LogicTraffic ist es, eine aussagelogische 
 
     !!! logictraffic "Ablauf"
         ??? student "Schritt 1 - Wähle eine einfache Situation"
-            Wähle in LogicTraffic eine Situation mit zwei Fahrzeugen (z.B. A und B).
+            Wähle in LogicTraffic eine Situation mit zwei Fahrspuren (z.B. A und B).
+            Notiere: "Spur A verläuft ..., Spur B verläuft ..." (z.B. kreuzend oder parallel).
 
         ??? student "Schritt 2 - Ampelstellungen ausprobieren"
             Stelle im Kreuzungsbild folgende Situationen ein (klicke auf die Ampeln):
