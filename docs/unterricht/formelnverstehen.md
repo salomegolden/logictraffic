@@ -1,6 +1,12 @@
+# Formeln verstehen
+
+## Erarbeitungsaufgabe (EA) - Logische Verknüpfungen
+
+### Aufgabe
 !!! task "Erarbeitungsaufgabe (EA) - Logische Verknüpfungen" 
     ??? teacher "Ziel der Aufgabe" 
 
+    #### Ablauf
     ??? student "Schritt 1 - Formeleditor entdecken"    
          Öffne den Formeleditor
          Schau, dass alle Zeichen funktionieren. 

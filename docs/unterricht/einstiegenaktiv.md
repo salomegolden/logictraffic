@@ -1,8 +1,10 @@
 ## Konfrontationsaufgabe 1 - Enaktiver Einstieg in das Thema
-Das enaktive Material kann man auch gut selbst basteln. Eine entsprechende Vorlage (passend für ein Set, also eine Gruppe findet sich hier)
+Das enaktive Material kann man auch gut selbst basteln. Eine entsprechende Vorlage (passend für ein Set, also eine Gruppe) findet sich hier.
 
+### Material
 [:mail-inbox: Vorlage enaktives Material](../pdfmaterial/Druckvorlage%20für%20enaktives%20Material%20-%20Logic%20Traffic.pdf)
 
+### Aufgabe
 !!! task "KA1 - Situation 4 enaktiv nachspielen"
     ??? meta "Didaktische Begründung"
         Die Lernenden stellen mit einem physischen Kreuzungsmodell verschiedene Verkehrssituationen dar und entscheiden intuitiv, ob sie sicher oder unsicher sind. Bereits kleine Veränderungen führen zu kontroversen Einschätzungen - dadurch entsteht eine produktive Irritation. Diese dient als Ausgangspunkt für den Aufbau von Aussagenlogik, da deutlich wird, dass Sicherheit formal und eindeutig beschrieben werden muss.
@@ -19,6 +21,7 @@ Das enaktive Material kann man auch gut selbst basteln. Eine entsprechende Vorla
         Signalkarten: Pro "Fahrspur" ein Set aus einer roten und einer grünen Ampelkarte (oder z.B. rote und grüne LEGO-Steine)
         Alternativ: Ausgedruckte Kreuzungsfelder und Papierautos.
 
+    #### Ablauf
     !!! logictraffic "Ablauf"
         ??? student "Schritt 1 - Situation legen (enaktiv)"
             Die Lernenden legen mit den Autos selbst eine konkrete Verkehrssituation (im Beispiel Situation 4) auf die passende Kreuzung:
@@ -61,6 +64,7 @@ Das enaktive Material kann man auch gut selbst basteln. Eine entsprechende Vorla
 ## Erarbeitungsaufgabe 1 „Wie beschreiben wir eine Kreuzung eindeutig? - Einführung in das Konzept Wahrheitstabelle“
 Diese Erarbeitungsaufgabe eignet sich besonders auf Folgeaufgabe auf Konforntationsaufgabe 1.
 
+### Aufgabe
 !!! task "EA1 - Wie beschreiben wir eine Kreuzung eindeutig?"
     ???+ teacher "Ziel der Aufgabe"
         - Übergang von der enaktiven Arbeit mit dem Modell zur fachlichen Strukturierung
@@ -69,9 +73,11 @@ Diese Erarbeitungsaufgabe eignet sich besonders auf Folgeaufgabe auf Konforntati
         - Vorbereitung auf logische Operatoren, Wahrheitstabellen und formale Sicherheitsregeln
         - Entwicklung einer gemeinsamen Sprache: "Wie beschreibt man eine Kreuzung logisch?"
 
+    #### Ausgangspunkt
     !!! logictraffic "Ausgangspunkt"
         Die Lernenden arbeiten zunächst mit GENAU der Verkehrssituation, die sie in der Konfrontationsaufgabe als unsicher oder verändert wahrgenommen haben. Die Lehrperson oder die SuS legen sie nochmals als Modell oder projizieren sie.
 
+    #### Ablauf
     ??? student "Schritt 1 - Problemstellung"
 
         Lehrperson stellt folgende Problemstellung: "In der letzten Aufgabe habt ihr gemerkt, dass eine kleine Veränderung (Ampel wechselt auf grün) plötzlich alles unsicher macht. Wie können wir sicherstellen, dass wir keine gefährliche Situation übersehen? Notiert eure Ideen."

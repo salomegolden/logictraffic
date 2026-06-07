@@ -1,11 +1,16 @@
 # Wahrheitstabellen im Unterricht erarbeiten 
 Eine Wahrheitstabelle ist eine systematische Übersicht, die für alle möglichen Kombinationen von Eingangswerten die zugehörigen Ausgangswerte zeigt.
-Werte:
+
+### Werte
 
     1 (oder wahr) = „ja", „an", „grün", sicher"
     0 (oder falsch) = „nein", „aus", „rot", „unsicher"
 
+### Variablen
+
 Variablen: Repräsentieren Aussagen (z.B. A, B, C)
+
+### Wichtiger Hinweis
 
 Wichtig: Bei n Variablen gibt es 2ⁿ Zeilen
 
@@ -15,10 +20,12 @@ Wichtig: Bei n Variablen gibt es 2ⁿ Zeilen
 
 ## Erarbeitungsaufgabe (EA) - Wahrheitstabellen entdecken 
 
+### Aufgabe
 !!! task "Erarbeitungsaufgabe (EA1) - Wahrheitstabellen entdecken" 
     ??? teacher "Ziel der Aufgabe" 
         Grundlagen der Wahrheitstabelle in LogicTraffic entdecken 
     
+    #### Ablauf
     ??? student "Schritt 1 - Variablen verstehen" 
         In Logic Traffic repräsentiert jede Spur eine Variable (A, B, C, ...)
         Wert 1 (grün) = Spur hat grün

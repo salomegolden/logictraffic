@@ -11,14 +11,17 @@ Die Grundidee der Online Lernumgebung LogicTraffic ist es, eine aussagelogische 
 ### Konfrontationsaufgabe 1
 
 !!! task "KA1 - Einführung LogicTraffic"
+    #### Hinweis
     ??? teacher "Hinweis"
         Diese Konfrontationsaufgabe kann auch weggelassen werden, falls zuvor der Einstieg ins Thema enaktiv durchgeführt wurde [Einstieg](einstiegenaktiv.md). Allerdings bietet sie auch eine gute Wiederholung der sprachlichen Beschreibung von Situationen.
 
+    #### Ausgangspunkt
     !!! logictraffic "Ausgangspunkt"
         Die Lehrperson zeigt ein Foto/kurzes Video einer stark befahrenen Kreuzung mit Ampeln (Beamer/Arbeitsblatt) [Beispiele](../pdfmaterial/LogicTraffic%20-%20Einführung%20Konfrontationsaufgabe%201%20Mögliche%20Bilder%20von%20Kreuzungen%20und%20Verkehrssituationen.pdf).
 
         Falls die Aufgabe schriftlich bearbeitet werden soll: [KA1_LogicTraffic](../pdfmaterial/Kreuzungen%20beobachten%20und%20beschreiben.pdf)
 
+    #### Auftrag
     !!! logictraffic "Auftrag"
         ??? student "Auftrag an die Lernenden, 5-10 Minuten"
             Beschreibe, was an dieser Kreuzung alles gleichzeitig passieren muss, damit niemand verunfallt.
@@ -35,18 +38,22 @@ Die Grundidee der Online Lernumgebung LogicTraffic ist es, eine aussagelogische 
 ### Konfrontationsaufgabe 2
 
 !!! task "KA2 - Die Schaltzentrale"
+    #### Ziel
     ??? teacher "Ziel der Aufgabe"
         Die Lernenden formulieren erste Steuerungsregeln für eine Kreuzung und erkennen, dass dafür klare, widerspruchsfreie Bedingungen nötig sind.
 
+    #### Ausgangspunkt
     !!! logictraffic "Ausgangspunkt"
         Tafelbild mit der Leitfrage: "Stell dir vor, du bist die Schaltzentrale dieser Kreuzung. Wie würdest du die Ampeln so steuern, dass es nie zu Unfällen kommt?" Als Material kann man die Bilder von [KA1](#konfrontationsaufgabe-1) verwenden.
 
+    #### Auftrag
     !!! logictraffic "Auftrag"
         ??? student "Auftrag - Einzel- oder Gruppenarbeit, 5-10 Minuten"
             1. Skizziere auf einem Blatt grob eine Kreuzung (nur mit Strichen/Pfeilen).
             2. Schreibe dazu, wann welche Ampel "Grün", "Rot" oder "Gelb" sein soll. Nutze wieder Wenn-dann-Sätze.
             3. Tauscht euch kurz mit einer anderen Person aus: Finden sich Widersprüche? Gibt es Situationen, die ihr noch nicht geregelt habt?
 
+    #### Plenum & Übergang
     !!! teacher "Anschlussfrage im Plenum"
         "Wie könnten wir so etwas mit einem Computer programmieren, ohne eine Programmiersprache lernen zu müssen?"
 
@@ -59,14 +66,17 @@ Die Grundidee der Online Lernumgebung LogicTraffic ist es, eine aussagelogische 
 ## Erarbeitungsaufgabe - Finde die Bausteine
 
 !!! task "EA1 - Bedienung und Grundkonzept des Tools aufbauen"
+    #### Ziel
     ??? teacher "Ziel der Aufgabe"
         Hier geht es um das Erarbeiten der "Sprache" von logictraffic.ch: Oberflächen, Bausteine, Simulation.
 
         Die Lernenden lernen die Oberfläche kennen, klären Bedeutungen der Darstellungen und gewinnen eine erste Einsicht in den Zusammenhang Ampelsituation ↔ Wahrheitstabelle ↔ Formel.
 
+    #### Material
     ???+ meta "Als PDF"
         [EA1_LogicTraffic](../pdfmaterial/Einführung%20LogicTraffic.pdf)
 
+    #### Ablauf
     !!! logictraffic "Ablauf"
         ??? student "Schritt 1 - Starte das Tool"
             * Öffne [Logictraffic](https://logictraffic.ch).
@@ -120,12 +130,15 @@ Die Grundidee der Online Lernumgebung LogicTraffic ist es, eine aussagelogische 
 ## Übungsaufgabe - Von der Kreuzung zur Tabelle und zurück
 
 !!! task "ÜA1 - Von der Kreuzung zur Tabelle und zurück"
+    #### Ziel
     !!! teacher "Ziel der Aufgabe"
         Erarbeiten, dass die Wahrheitstabelle explizit festlegt, welche Ampelkombinationen "sicher" sind, und dass die Formel genau diese sicheren Zeilen beschreibt.
 
+    #### Material
     ???+ meta "Material"
         Die Notizen können sich die Lernenden in ihr Heft oder auf ein Papier machen. Alternativ steht ein Arbeitsblatt zur Verfügung: [ÜA1_Logictraffic](../pdfmaterial/Von%20der%20Kreuzung%20zur%20Tabelle%20und%20zurück.pdf)
 
+    #### Ablauf
     !!! logictraffic "Ablauf"
         ??? student "Schritt 1 - Wähle eine einfache Situation"
             Wähle in LogicTraffic eine Situation mit zwei Fahrspuren (z.B. A und B).
@@ -161,15 +174,18 @@ Die Grundidee der Online Lernumgebung LogicTraffic ist es, eine aussagelogische 
 ## Übungsaufgabe - Umgang mit Logic Traffic festigen - Tool Führerschein
 
 !!! task "ÜA2 - Tool Führerschein"
+    #### Ziele
     !!! teacher "Ziele der Übung"
         Routine im Umgang mit Ampel-Anklicken, "sicher"-Spalte, Statusanzeige, Formelform.
         Alltagssicherheit bei der Interpretation von 0/1, sicher/unsicher.
         Automatisierung der grundlegenden Interaktionen, Sicherheit im Lesen/Deuten der Statusanzeige, ohne bereits tief in Normalformen einzusteigen.
 
+    #### Formative Beurteilung
     !!! teacher "Formative Beurteilungsaufgabe"
         Diese Aufgabe kann auch als formative Beurteilungsaufgabe dienen. Wichtig ist dann, dass sich die Lehrperson vom Lernenden zeigen lässt, dass er oder sie die entsprechenden Fähigkeiten auch kann.
         Dies kann auch durch Partnerarbeit geschehen.
 
+    #### Auftrag
     !!! logictraffic "Auftrag"
         Die Checkliste für den Führerschein sowie eine Vorlage für einen solchen "Führerschein" finden sich hier:
 
@@ -205,6 +221,7 @@ Die Grundidee der Online Lernumgebung LogicTraffic ist es, eine aussagelogische 
 ## Syntheseaufgabe
 
 !!! task "SA1 - LogicTraffic in einer Gesamtaufgabe anwenden"
+    #### Ziel
     !!! teacher "Ziel der Aufgabe"
         Fokus: mehrere zuvor erarbeitete Teilkompetenzen in einer komplexeren Anforderungssituation anwenden.
         Lernende zeigen, dass sie:
@@ -214,9 +231,11 @@ Die Grundidee der Online Lernumgebung LogicTraffic ist es, eine aussagelogische 
         * die Wahrheitstabelle so bearbeiten, dass sie zur optimalen Sicherheitsregel wird,
         * die resultierende Formel als Gesamtmodell verstehen.
 
+    #### Voraussetzungen
     !!! danger "Voraussetzungen"
         Bei dieser Aufgabe müssen die Grundlagen des Themas Wahrheitstabellen und für den Schritt 3 auch die der Formeln verstanden sein.
 
+    #### Ablauf
     !!! logictraffic "Ablauf"
         ??? student "Schritt 1 - Situation auswählen"
             Wähle in LogicTraffic eine Verkehrssituation mit 3 Autos aus.
