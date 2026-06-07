@@ -273,6 +273,14 @@ video {
   background: var(--callout-bg);
 }
 
+.admonition .admonition,
+.admonition details,
+.page-content details .admonition,
+.page-content details details {
+  margin: 0.9rem 0;
+  box-shadow: none;
+}
+
 .admonition-title,
 .page-content details summary {
   margin: -1rem -1rem 0.75rem;
@@ -296,6 +304,22 @@ video {
 
 .page-content details summary {
   cursor: pointer;
+  list-style: none;
+}
+
+.page-content details summary::-webkit-details-marker {
+  display: none;
+}
+
+.page-content details summary::after {
+  content: "+";
+  float: right;
+  color: var(--callout-color);
+  font-weight: 900;
+}
+
+.page-content details[open] > summary::after {
+  content: "-";
 }
 
 .admonition.teacher,
@@ -335,12 +359,45 @@ details.task,
 details.task-collapse {
   --callout-color: #d08a00;
   --callout-bg: #fffaf0;
+  border-width: 1px;
+  border-left-width: 6px;
+  box-shadow: 0 10px 32px rgb(31 35 40 / 0.08);
 }
 
 .admonition.goal,
 details.goal {
   --callout-color: #b7791f;
   --callout-bg: #fff8df;
+}
+
+.admonition.task > .admonition-title,
+details.task > summary {
+  font-size: 1.05rem;
+}
+
+.admonition.goal > .admonition-title,
+details.goal > summary {
+  color: #6f4a0d;
+}
+
+.admonition.logictraffic > .admonition-title,
+details.logictraffic > summary {
+  color: #0f5f2c;
+}
+
+.admonition.teacher > .admonition-title,
+details.teacher > summary {
+  color: #5225a8;
+}
+
+.admonition.student > .admonition-title,
+details.student > summary {
+  color: #1749aa;
+}
+
+.admonition.meta > .admonition-title,
+details.meta > summary {
+  color: #475569;
 }
 
 .admonition.inline.end {
@@ -383,6 +440,33 @@ details.goal {
   margin-top: auto;
   margin-bottom: 0;
   font-weight: 700;
+}
+
+.task-overview {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin: 0.75rem 0 1.25rem;
+}
+
+.task-overview a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 36px;
+  padding: 0.35rem 0.7rem;
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius);
+  background: var(--color-soft);
+  color: var(--color-ink);
+  font-size: 0.93rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.task-overview a:hover {
+  border-color: var(--color-accent);
+  background: var(--color-accent-soft);
+  color: var(--color-accent);
 }
 
 .tabbed-set {

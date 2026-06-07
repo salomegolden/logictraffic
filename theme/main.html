@@ -8,7 +8,7 @@
     <title>{% if page and page.title %}{{ page.title }} - {% endif %}{{ config.site_name }}</title>
 
     {% for path in config.extra_css %}
-      <link rel="stylesheet" href="{{ base_url }}/{{ path }}">
+      <link rel="stylesheet" href="{{ path|url }}">
     {% endfor %}
   </head>
   <body>
