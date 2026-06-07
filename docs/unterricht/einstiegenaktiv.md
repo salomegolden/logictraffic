@@ -13,7 +13,7 @@ Das enaktive Material kann man auch gut selbst basteln. Eine entsprechende Vorla
 ### Aufgabe
 <a id="ka1-situation-4-enaktiv-nachspielen"></a>
 
-???+ task "KA1 - Situation 4 enaktiv nachspielen"
+??? task "KA1 - Situation 4 enaktiv nachspielen"
     ??? meta "Didaktische Begründung"
         Die Lernenden stellen mit einem physischen Kreuzungsmodell verschiedene Verkehrssituationen dar und entscheiden intuitiv, ob sie sicher oder unsicher sind. Bereits kleine Veränderungen führen zu kontroversen Einschätzungen - dadurch entsteht eine produktive Irritation. Diese dient als Ausgangspunkt für den Aufbau von Aussagenlogik, da deutlich wird, dass Sicherheit formal und eindeutig beschrieben werden muss.
 
@@ -87,7 +87,7 @@ Diese Erarbeitungsaufgabe eignet sich besonders als Folgeaufgabe auf Konfrontati
 ### Aufgabe
 <a id="ea1-wie-beschreiben-wir-eine-kreuzung-eindeutig"></a>
 
-???+ task "EA1 - Wie beschreiben wir eine Kreuzung eindeutig?"
+??? task "EA1 - Wie beschreiben wir eine Kreuzung eindeutig?"
     !!! goal "Ziel der Aufgabe"
         - Übergang von der enaktiven Arbeit mit dem Modell zur fachlichen Strukturierung
         - Einführung in Variablen als formale Beschreibungen von Verkehrssituationen

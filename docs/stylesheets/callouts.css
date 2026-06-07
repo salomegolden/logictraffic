@@ -54,8 +54,8 @@
   display: inline-block;
   flex: 0 0 auto;
   color: var(--bs-callout-color);
-  font-family: "bootstrap-icons";
-  font-size: 1rem;
+  font-family: "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", sans-serif;
+  font-size: 1.05rem;
   font-weight: 400;
   line-height: 1;
 }
@@ -130,9 +130,9 @@ details.meta {
 .admonition.task,
 details.task,
 details.task-collapse {
-    --bs-callout-color: #FFE02E; 
+  --bs-callout-color: #8A5A00;
   --bs-callout-bg: #FFF7C8;
-  --bs-callout-border: #FFEB7F;
+  --bs-callout-border: #E0B400;
   --callout-icon: "✍️";
 }
 
