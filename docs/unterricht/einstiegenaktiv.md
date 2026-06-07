@@ -1,16 +1,14 @@
-## Konfrontationsaufgabe 1 - Enaktiver Einstieg in das Thema
-Das enaktive Material kann man auch gut selbst basteln. Eine entsprechende Vorlage (passend für ein Set, also eine Gruppe) findet sich hier.
-
-### Aufgabenübersicht
 <nav class="task-overview" markdown>
 [KA1 - Situation 4 enaktiv nachspielen](#ka1-situation-4-enaktiv-nachspielen)
 [EA1 - Wie beschreiben wir eine Kreuzung eindeutig?](#ea1-wie-beschreiben-wir-eine-kreuzung-eindeutig)
 </nav>
 
+## Konfrontationsaufgabe 1 - Enaktiver Einstieg in das Thema
+Das enaktive Material kann man auch gut selbst basteln. Eine entsprechende Vorlage (passend für ein Set, also eine Gruppe) findet sich hier.
+
 ### Material
 [Vorlage enaktives Material](../pdfmaterial/Druckvorlage%20für%20enaktives%20Material%20-%20Logic%20Traffic.pdf)
-
-### Aufgabe
+ 
 <a id="ka1-situation-4-enaktiv-nachspielen"></a>
 
 ??? task "KA1 - Situation 4 enaktiv nachspielen"
@@ -78,13 +76,6 @@ Das enaktive Material kann man auch gut selbst basteln. Eine entsprechende Vorla
 ## Erarbeitungsaufgabe 1 "Wie beschreiben wir eine Kreuzung eindeutig? - Einführung in das Konzept Wahrheitstabelle"
 Diese Erarbeitungsaufgabe eignet sich besonders als Folgeaufgabe auf Konfrontationsaufgabe 1.
 
-### Aufgabenübersicht
-<nav class="task-overview" markdown>
-[KA1 - Situation 4 enaktiv nachspielen](#ka1-situation-4-enaktiv-nachspielen)
-[EA1 - Wie beschreiben wir eine Kreuzung eindeutig?](#ea1-wie-beschreiben-wir-eine-kreuzung-eindeutig)
-</nav>
-
-### Aufgabe
 <a id="ea1-wie-beschreiben-wir-eine-kreuzung-eindeutig"></a>
 
 ??? task "EA1 - Wie beschreiben wir eine Kreuzung eindeutig?"
@@ -95,22 +86,22 @@ Diese Erarbeitungsaufgabe eignet sich besonders als Folgeaufgabe auf Konfrontati
         - Vorbereitung auf logische Operatoren, Wahrheitstabellen und formale Sicherheitsregeln
         - Entwicklung einer gemeinsamen Sprache: "Wie beschreibt man eine Kreuzung logisch?"
 
-    #### Ausgangspunkt
+    ### Ausgangspunkt
     !!! logictraffic "Ausgangspunkt"
         Die Lernenden arbeiten zunächst mit genau der Verkehrssituation, die sie in der Konfrontationsaufgabe als unsicher oder verändert wahrgenommen haben. Die Lehrperson oder die SuS legen sie nochmals als Modell oder projizieren sie.
 
-    #### Ablauf
-    ??? student "Schritt 1 - Problemstellung"
+    ### Ablauf
+    #### Schritt 1 - Problemstellung
         Lehrperson stellt folgende Problemstellung: "In der letzten Aufgabe habt ihr gemerkt, dass eine kleine Veränderung (Ampel wechselt auf grün) plötzlich alles unsicher macht. Wie können wir sicherstellen, dass wir keine gefährliche Situation übersehen? Notiert eure Ideen."
 
         Ziel: Die Lernenden formulieren das Bedürfnis nach vollständiger Übersicht.
 
-    ??? student "Schritt 2 - Erarbeitung des Konzeptes der Wahrheitstabelle"
+    #### Schritt 2 - Erarbeitung des Konzeptes der Wahrheitstabelle
         "Die Kreuzung hat drei Autos. Wie viele mögliche Rot-Grün-Kombinationen gibt es? Notiert zuerst eure Vermutung, dann versucht es exakt auszuzählen."
 
         Ziel: Lernende entdecken selbst 2³ = 8 mögliche Zustände. Damit entsteht der natürliche Übergang: "Wir brauchen eine Tabelle, die alle Kombinationen auflistet." Der Begriff Wahrheitstabelle wird erst jetzt eingeführt.
 
-    ??? student "Schritt 3 - Wahrheitstabelle erstellen"
+    #### Schritt 3 - Wahrheitstabelle erstellen
         Lehrperson gibt eine leere Tabelle ohne Überschrift. Die Begriffe kommen erst durch die Lernenden.
 
         Gemeinsam werden Beschriftungen der Überschriften erarbeitet: C, D, E (Ampelzustand für die Autos) und letzte Spalte (sicher / unsicher).
