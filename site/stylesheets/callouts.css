@@ -1,129 +1,170 @@
-/* ═══════════════════════════════════════════════════════════════
-   LOGICTRAFFIC THEME - Custom Admonition Icons & Colors
-   Material for MkDocs - Vollständige Konfiguration
-   ═══════════════════════════════════════════════════════════════ */
+/* Bootstrap-style callouts for MkDocs admonitions and pymdownx.details. */
 
-/* 1. LEHRER (Violett/Lila) */
 :root {
-  --md-admonition-icon--teacher: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M20 17a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H9.46c.35.61.54 1.3.54 2h10v11h-9v2m4-10v2H9v13H7v-6H5v6H3v-8H1.5V9a2 2 0 0 1 2-2zM8 4a2 2 0 0 1-2 2 2 2 0 0 1-2-2 2 2 0 0 1 2-2 2 2 0 0 1 2 2"/></svg>');
-}
-.md-typeset .admonition.teacher,
-.md-typeset details.teacher {
-  border-color: #A155E5;
-}
-.md-typeset .teacher > .admonition-title,
-.md-typeset .teacher > summary {
-  background-color: rgba(161, 85, 229, 0.1);
-  border-color: #A155E5;
-}
-.md-typeset .teacher > .admonition-title::before,
-.md-typeset .teacher > summary::before {
-  background-color: #A155E5;
-  -webkit-mask-image: var(--md-admonition-icon--teacher);
-  mask-image: var(--md-admonition-icon--teacher);
+  --bs-callout-color: var(--bs-primary-text-emphasis);
+  --bs-callout-bg: var(--bs-primary-bg-subtle);
+  --bs-callout-border: var(--bs-primary-border-subtle);
+  --callout-icon: "\F431";
 }
 
-/* 2. LOGICTRAFFIC (Grün/Ampel) */
-:root {
-  --md-admonition-icon--logictraffic: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><circle cx="12" cy="6" r="3" fill="%23ff4444"/><circle cx="12" cy="12" r="3" fill="%23ffff44"/><circle cx="12" cy="18" r="3" fill="%2344ff44"/><rect x="4" y="3" width="16" height="18" rx="2" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>');
-}
-.md-typeset .admonition.logictraffic,
-.md-typeset details.logictraffic {
-  border-color: #2B9B46;
-}
-.md-typeset .logictraffic > .admonition-title,
-.md-typeset .logictraffic > summary {
-  background-color: rgba(43, 155, 70, 0.1);
-  border-color: #2B9B46;
-}
-.md-typeset .logictraffic > .admonition-title::before,
-.md-typeset .logictraffic > summary::before {
-  background-color: #2B9B46;
-  -webkit-mask-image: var(--md-admonition-icon--logictraffic);
-  mask-image: var(--md-admonition-icon--logictraffic);
+.admonition,
+.page-content > details,
+.page-content details:not(.site-nav__group) {
+  margin: 1.25rem 0;
+  padding: 1.1rem 1.25rem;
+  border: 1px solid var(--bs-callout-border);
+  border-left-width: 0.35rem;
+  border-radius: var(--bs-border-radius);
+  background: var(--bs-callout-bg);
+  color: var(--bs-body-color);
 }
 
-/* 3. STUDENT/SuS (Blau) */
-:root {
-  --md-admonition-icon--student: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 19a2.9 2.9 0 0 0 .17 1H6a1 1 0 0 1-1-1v-1h2m3 1a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1v-1h-4m-6-2a1 1 0 0 0 1 1h2v-2.12A6.92 6.92 0 0 1 5 10a6.8 6.8 0 0 1 .68-3A4 4 0 0 0 4 14.45M17 19a2.9 2.9 0 0 1-.17 1H18a1 1 0 0 0 1-1v-1h-2m0-8a5 5 0 0 1-2 4v2a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1v-2a5 5 0 1 1 8-4m-2 0a3 3 0 1 0-4 2.82V15h2v-2.18A3 3 0 0 0 15 10m3.32-3a6.8 6.8 0 0 1 .68 3 6.92 6.92 0 0 1-2 4.88V17h2a1 1 0 0 0 1-1v-1.55A4 4 0 0 0 18.32 7"/></svg>');
-}
-.md-typeset .admonition.student,
-.md-typeset details.student {
-  border-color: #5985E1;
-}
-.md-typeset .student > .admonition-title,
-.md-typeset .student > summary {
-  background-color: rgba(89, 133, 225, 0.1);
-  border-color: #5985E1;
-}
-.md-typeset .student > .admonition-title::before,
-.md-typeset .student > summary::before {
-  background-color: #5985E1;
-  -webkit-mask-image: var(--md-admonition-icon--student);
-  mask-image: var(--md-admonition-icon--student);
+.admonition .admonition,
+.admonition details,
+.page-content details .admonition,
+.page-content details details {
+  margin: 0.9rem 0;
+  box-shadow: none;
 }
 
-/* 4. FEHLER/Warnung (Rot) */
-:root {
-  --md-admonition-icon--error: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M13 3C9.2 3 6.2 5.9 6 9.7L4.1 12.2C3.9 12.5 4.1 13 4.5 13H6V16C6 17.1 6.9 18 8 18H9V21H16V16.3C18.4 15.2 20 12.8 20 10C20 6.1 16.9 3 13 3M14 15H12V13H14V14M14 11H12V5H14V11Z"/></svg>');
-}
-.md-typeset .admonition.error,
-.md-typeset details.error {
-  border-color: #EA3323;
-}
-.md-typeset .error > .admonition-title,
-.md-typeset .error > summary {
-  background-color: rgba(234, 51, 35, 0.1);
-  border-color: #EA3323;
-}
-.md-typeset .error > .admonition-title::before,
-.md-typeset .error > summary::before {
-  background-color: #EA3323;
-  -webkit-mask-image: var(--md-admonition-icon--error);
-  mask-image: var(--md-admonition-icon--error);
+.admonition-title,
+.page-content details summary {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  margin: 0 0 0.75rem;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--bs-callout-color);
+  font-weight: 800;
+  line-height: 1.35;
 }
 
-/* 5. META/Extra-Infos (Grau) */
-:root {
-  --md-admonition-icon--meta: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M16.5 12c0-.68-.06-1.34-.14-2h3.38c.16.64.26 1.31.26 2 0 .37-.03.73-.08 1.08.69.1 1.33.32 1.92.64.1-.56.16-1.13.16-1.72 0-5.5-4.5-10-10-10C6.47 2 2 6.5 2 12s4.5 10 10 10c.59 0 1.16-.06 1.72-.16A5.9 5.9 0 0 1 13 19c0-.29.03-.57.07-.85-.32.63-.67 1.24-1.07 1.81-.83-1.2-1.5-2.53-1.91-3.96h3.72a5.95 5.95 0 0 1 2.59-2.4c.06-.53.1-1.06.1-1.6M12 4.03c.83 1.2 1.5 2.54 1.91 3.97h-3.82c.41-1.43 1.08-2.77 1.91-3.97M4.26 14C4.1 13.36 4 12.69 4 12s.1-1.36.26-2h3.38c-.08.66-.14 1.32-.14 2s.06 1.34.14 2zm.82 2H8c.35 1.25.8 2.45 1.4 3.56A8 8 0 0 1 5.08 16M8 8H5.08A7.92 7.92 0 0 1 9.4 4.44C8.8 5.55 8.35 6.75 8 8m6.34 6H9.66c-.1-.66-.16-1.32-.16-2s.06-1.35.16-2h4.68c.09.65.16 1.32.16 2s-.07 1.34-.16 2m.25-9.56c1.84.63 3.37 1.9 4.33 3.56h-2.95a15.7 15.7 0 0 0-1.38-3.56M23 18v2h-3v3h-2v-3h-3v-2h3v-3h2v3z"/></svg>');
-}
-.md-typeset .admonition.meta,
-.md-typeset details.meta {
-  border-color: #666666;
-}
-.md-typeset .meta > .admonition-title,
-.md-typeset .meta > summary {
-  background-color: rgba(102, 102, 102, 0.1);
-  border-color: #666666;
-}
-.md-typeset .meta > .admonition-title::before,
-.md-typeset .meta > summary::before {
-  background-color: #666666;
-  -webkit-mask-image: var(--md-admonition-icon--meta);
-  mask-image: var(--md-admonition-icon--meta);
+.admonition-title {
+  margin: 0 0 0.75rem;
+  padding: 0;
+  border: 0;
+  background: transparent;
 }
 
-/* 6. AUFGABE (klarer Rahmen für Unterrichtsaufgaben) */
-:root {
-  --md-admonition-icon--task: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M19 3h-4.18C14.4 1.84 13.3 1 12 1S9.6 1.84 9.18 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2m-7 0a1 1 0 0 1 1 1 1 1 0 0 1-1 1 1 1 0 0 1-1-1 1 1 0 0 1 1-1m-1 14-4-4 1.41-1.41L11 14.17l5.59-5.59L18 10z"/></svg>');
-}
-.md-typeset .admonition.task,
-.md-typeset details.task {
-  border-color: #E0A106;
-  border-width: 0.12rem;
-  margin: 1.4rem 0;
-  box-shadow: 0 0.15rem 0.5rem rgba(48, 48, 48, 0.08);
-}
-.md-typeset .task > .admonition-title,
-.md-typeset .task > summary {
-  background-color: rgba(224, 161, 6, 0.13);
-  border-color: #E0A106;
-  font-weight: 700;
-}
-.md-typeset .task > .admonition-title::before,
-.md-typeset .task > summary::before {
-  background-color: #E0A106;
-  -webkit-mask-image: var(--md-admonition-icon--task);
-  mask-image: var(--md-admonition-icon--task);
+.admonition-title::before,
+.page-content details summary::before {
+  content: var(--callout-icon);
+  display: inline-block;
+  flex: 0 0 auto;
+  color: var(--bs-callout-color);
+  font-family: "bootstrap-icons";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
 }
 
+.admonition > :last-child,
+.page-content details > :last-child {
+  margin-bottom: 0;
+}
+
+.page-content details summary {
+  cursor: pointer;
+  list-style: none;
+}
+
+.page-content details summary::-webkit-details-marker {
+  display: none;
+}
+
+.page-content details summary::after {
+  content: "+";
+  margin-left: auto;
+  color: var(--bs-callout-color);
+  font-weight: 900;
+}
+
+.page-content details[open] > summary::after {
+  content: "-";
+}
+
+.admonition.teacher,
+details.teacher {
+  --bs-callout-color: var(--bs-purple);
+  --bs-callout-bg: #fbf8ff;
+  --bs-callout-border: #d8c5ff;
+  --callout-icon: "\F4D7";
+}
+
+.admonition.logictraffic,
+details.logictraffic {
+  --bs-callout-color: var(--bs-success-text-emphasis);
+  --bs-callout-bg: var(--bs-success-bg-subtle);
+  --bs-callout-border: var(--bs-success-border-subtle);
+  --callout-icon: "\F7E2";
+}
+
+.admonition.student,
+details.student {
+  --bs-callout-color: var(--bs-primary-text-emphasis);
+  --bs-callout-bg: var(--bs-primary-bg-subtle);
+  --bs-callout-border: var(--bs-primary-border-subtle);
+  --callout-icon: "\F6FE";
+}
+
+.admonition.error,
+details.error,
+.admonition.danger,
+details.danger {
+  --bs-callout-color: var(--bs-danger-text-emphasis);
+  --bs-callout-bg: var(--bs-danger-bg-subtle);
+  --bs-callout-border: var(--bs-danger-border-subtle);
+  --callout-icon: "\F33A";
+}
+
+.admonition.meta,
+details.meta {
+  --bs-callout-color: var(--bs-secondary-text-emphasis);
+  --bs-callout-bg: var(--bs-secondary-bg-subtle);
+  --bs-callout-border: var(--bs-secondary-border-subtle);
+  --callout-icon: "\F431";
+}
+
+.admonition.task,
+details.task,
+details.task-collapse {
+  --bs-callout-color: var(--bs-warning-text-emphasis);
+  --bs-callout-bg: var(--bs-warning-bg-subtle);
+  --bs-callout-border: var(--bs-warning-border-subtle);
+  --callout-icon: "\F28B";
+  box-shadow: 0 0.35rem 1.25rem rgb(33 37 41 / 0.06);
+}
+
+.admonition.goal,
+details.goal {
+  --bs-callout-color: var(--bs-warning-text-emphasis);
+  --bs-callout-bg: #fff8df;
+  --bs-callout-border: var(--bs-warning-border-subtle);
+  --callout-icon: "\F5E3";
+}
+
+.admonition.task > .admonition-title,
+details.task > summary {
+  font-size: 1.05rem;
+}
+
+.admonition.goal > .admonition-title,
+details.goal > summary,
+.admonition.logictraffic > .admonition-title,
+details.logictraffic > summary,
+.admonition.teacher > .admonition-title,
+details.teacher > summary,
+.admonition.student > .admonition-title,
+details.student > summary,
+.admonition.meta > .admonition-title,
+details.meta > summary {
+  color: var(--bs-callout-color);
+}
+
+.admonition.inline.end {
+  float: right;
+  width: min(22rem, 45%);
+  margin: 0 0 1rem 1.25rem;
+}
