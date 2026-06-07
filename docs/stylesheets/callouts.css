@@ -90,7 +90,7 @@ details.teacher {
   --bs-callout-color: #6F56FF;
   --bs-callout-bg: #DED9FF;
   --bs-callout-border: #bdb2ff;
-  --callout-icon: "\F432";
+  --callout-icon: "🏫";
 }
 
 .admonition.logictraffic,
@@ -98,7 +98,7 @@ details.logictraffic {
   --bs-callout-color: #16D35E;
   --bs-callout-bg: #C6F9D9;
   --bs-callout-border: #7BF1A8;
-  --callout-icon: "\F595";
+  --callout-icon: "🚦";
 }
 
 .admonition.student,
@@ -106,7 +106,7 @@ details.student {
   --bs-callout-color: #287AFF; 
   --bs-callout-bg: #C8DDFF;
   --bs-callout-border: #A0C4FF;
-  --callout-icon: "\F6FE";
+  --callout-icon: "🎓";
 }
 
 .admonition.error,
@@ -116,7 +116,7 @@ details.danger {
   --bs-callout-color: #FF5252;
   --bs-callout-bg: #FFD6D6;
   --bs-callout-border: #FFADAD;
-  --callout-icon: "\F33A";
+  --callout-icon: "⚠️";
 }
 
 .admonition.meta,
@@ -124,7 +124,7 @@ details.meta {
   --bs-callout-color: #87786E;
   --bs-callout-bg: #E7E4E2;
   --bs-callout-border: #D9D4D1;
-  --callout-icon: "\F18F";
+  --callout-icon: "ℹ️";
 }
 
 .admonition.task,
@@ -133,7 +133,7 @@ details.task-collapse {
     --bs-callout-color: #FFE02E; 
   --bs-callout-bg: #FFF7C8;
   --bs-callout-border: #FFEB7F;
-  --callout-icon: "\F802";
+  --callout-icon: "✍️";
 }
 
 .admonition.goal,
@@ -141,7 +141,7 @@ details.goal {
   --bs-callout-color: #FFA02C;
   --bs-callout-bg: #FFE7CB;
   --bs-callout-border: #FFD6A5;
-  --callout-icon: "\F28B";
+  --callout-icon: "🎯";
 }
 
 .admonition.task > .admonition-title,
