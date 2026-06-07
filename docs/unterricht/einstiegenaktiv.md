@@ -9,7 +9,7 @@ Das enaktive Material kann man auch gut selbst basteln. Eine entsprechende Vorla
     ??? meta "Didaktische Begründung"
         Die Lernenden stellen mit einem physischen Kreuzungsmodell verschiedene Verkehrssituationen dar und entscheiden intuitiv, ob sie sicher oder unsicher sind. Bereits kleine Veränderungen führen zu kontroversen Einschätzungen - dadurch entsteht eine produktive Irritation. Diese dient als Ausgangspunkt für den Aufbau von Aussagenlogik, da deutlich wird, dass Sicherheit formal und eindeutig beschrieben werden muss.
 
-    ??? teacher "Ziel der Aufgabe"
+    !!! goal "Ziel der Aufgabe"
         Lernende werden körperlich-handlungsorientiert (enaktiv) an eine Verkehrssituation herangeführt.
         Sie sollen intuitiv entscheiden, wann eine Kreuzung sicher oder unsicher ist - ohne bereits logische Begriffe zu kennen.
         Das erzeugt Irritation ("Warum ist das jetzt unsicher?") und öffnet die Tür zur späteren formalen Modellierung.
@@ -66,7 +66,7 @@ Diese Erarbeitungsaufgabe eignet sich besonders auf Folgeaufgabe auf Konforntati
 
 ### Aufgabe
 !!! task "EA1 - Wie beschreiben wir eine Kreuzung eindeutig?"
-    ???+ teacher "Ziel der Aufgabe"
+    !!! goal "Ziel der Aufgabe"
         - Übergang von der enaktiven Arbeit mit dem Modell zur fachlichen Strukturierung
         - Einführung in Variablen als formale Beschreibungen von Verkehrssituationen
         - Aufbau eines ersten Verständnisses von Wahrheitswerten (0 = steht, 1 = fährt)

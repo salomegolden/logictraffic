@@ -39,7 +39,7 @@ Die Grundidee der Online Lernumgebung LogicTraffic ist es, eine aussagelogische 
 
 !!! task "KA2 - Die Schaltzentrale"
     #### Ziel
-    ??? teacher "Ziel der Aufgabe"
+    !!! goal "Ziel der Aufgabe"
         Die Lernenden formulieren erste Steuerungsregeln für eine Kreuzung und erkennen, dass dafür klare, widerspruchsfreie Bedingungen nötig sind.
 
     #### Ausgangspunkt
@@ -67,7 +67,7 @@ Die Grundidee der Online Lernumgebung LogicTraffic ist es, eine aussagelogische 
 
 !!! task "EA1 - Bedienung und Grundkonzept des Tools aufbauen"
     #### Ziel
-    ??? teacher "Ziel der Aufgabe"
+    !!! goal "Ziel der Aufgabe"
         Hier geht es um das Erarbeiten der "Sprache" von logictraffic.ch: Oberflächen, Bausteine, Simulation.
 
         Die Lernenden lernen die Oberfläche kennen, klären Bedeutungen der Darstellungen und gewinnen eine erste Einsicht in den Zusammenhang Ampelsituation ↔ Wahrheitstabelle ↔ Formel.
@@ -131,7 +131,7 @@ Die Grundidee der Online Lernumgebung LogicTraffic ist es, eine aussagelogische 
 
 !!! task "ÜA1 - Von der Kreuzung zur Tabelle und zurück"
     #### Ziel
-    !!! teacher "Ziel der Aufgabe"
+    !!! goal "Ziel der Aufgabe"
         Erarbeiten, dass die Wahrheitstabelle explizit festlegt, welche Ampelkombinationen "sicher" sind, und dass die Formel genau diese sicheren Zeilen beschreibt.
 
     #### Material
@@ -175,7 +175,7 @@ Die Grundidee der Online Lernumgebung LogicTraffic ist es, eine aussagelogische 
 
 !!! task "ÜA2 - Tool Führerschein"
     #### Ziele
-    !!! teacher "Ziele der Übung"
+    !!! goal "Ziele der Übung"
         Routine im Umgang mit Ampel-Anklicken, "sicher"-Spalte, Statusanzeige, Formelform.
         Alltagssicherheit bei der Interpretation von 0/1, sicher/unsicher.
         Automatisierung der grundlegenden Interaktionen, Sicherheit im Lesen/Deuten der Statusanzeige, ohne bereits tief in Normalformen einzusteigen.
@@ -222,7 +222,7 @@ Die Grundidee der Online Lernumgebung LogicTraffic ist es, eine aussagelogische 
 
 !!! task "SA1 - LogicTraffic in einer Gesamtaufgabe anwenden"
     #### Ziel
-    !!! teacher "Ziel der Aufgabe"
+    !!! goal "Ziel der Aufgabe"
         Fokus: mehrere zuvor erarbeitete Teilkompetenzen in einer komplexeren Anforderungssituation anwenden.
         Lernende zeigen, dass sie:
 

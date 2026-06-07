@@ -4,7 +4,7 @@
 
 ### Aufgabe
 !!! task "Erarbeitungsaufgabe (EA) - Logische Verknüpfungen" 
-    ??? teacher "Ziel der Aufgabe" 
+    !!! goal "Ziel der Aufgabe" 
 
     #### Ablauf
     ??? student "Schritt 1 - Formeleditor entdecken"    

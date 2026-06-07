@@ -22,7 +22,7 @@ Wichtig: Bei n Variablen gibt es 2ⁿ Zeilen
 
 ### Aufgabe
 !!! task "Erarbeitungsaufgabe (EA1) - Wahrheitstabellen entdecken" 
-    ??? teacher "Ziel der Aufgabe" 
+    !!! goal "Ziel der Aufgabe" 
         Grundlagen der Wahrheitstabelle in LogicTraffic entdecken 
     
     #### Ablauf
