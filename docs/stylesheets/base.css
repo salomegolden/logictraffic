@@ -1,12 +1,12 @@
 :root {
   --color-ink: #1f2328;
   --color-muted: #5b6472;
-  --color-line: #d9dee7;
+  --color-line: #cfcfcf;
   --color-paper: #ffffff;
   --color-soft: #f5f7fa;
   --color-header: #303030;
-  --color-accent: #2563eb;
-  --color-accent-soft: #dbeafe;
+  --color-accent: #1b5091;
+  --color-accent-soft: #6ea1d4;
   --content-width: 1180px;
   --radius: 8px;
   --logic-light-red: #f08080;

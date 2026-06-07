@@ -87,25 +87,25 @@
 
 .admonition.teacher,
 details.teacher {
-  --bs-callout-color: var(--bs-purple);
-  --bs-callout-bg: #fbf8ff;
-  --bs-callout-border: #d8c5ff;
-  --callout-icon: "\F4D7";
+  --bs-callout-color: #6F56FF;
+  --bs-callout-bg: #DED9FF;
+  --bs-callout-border: #bdb2ff;
+  --callout-icon: "\F432";
 }
 
 .admonition.logictraffic,
 details.logictraffic {
-  --bs-callout-color: var(--bs-success-text-emphasis);
-  --bs-callout-bg: var(--bs-success-bg-subtle);
-  --bs-callout-border: var(--bs-success-border-subtle);
-  --callout-icon: "\F7E2";
+  --bs-callout-color: #16D35E;
+  --bs-callout-bg: #C6F9D9;
+  --bs-callout-border: #7BF1A8;
+  --callout-icon: "\F595";
 }
 
 .admonition.student,
 details.student {
-  --bs-callout-color: var(--bs-primary-text-emphasis);
-  --bs-callout-bg: var(--bs-primary-bg-subtle);
-  --bs-callout-border: var(--bs-primary-border-subtle);
+  --bs-callout-color: #287AFF; 
+  --bs-callout-bg: #C8DDFF;
+  --bs-callout-border: #A0C4FF;
   --callout-icon: "\F6FE";
 }
 
@@ -113,36 +113,35 @@ details.student {
 details.error,
 .admonition.danger,
 details.danger {
-  --bs-callout-color: var(--bs-danger-text-emphasis);
-  --bs-callout-bg: var(--bs-danger-bg-subtle);
-  --bs-callout-border: var(--bs-danger-border-subtle);
+  --bs-callout-color: #FF5252;
+  --bs-callout-bg: #FFD6D6;
+  --bs-callout-border: #FFADAD;
   --callout-icon: "\F33A";
 }
 
 .admonition.meta,
 details.meta {
-  --bs-callout-color: var(--bs-secondary-text-emphasis);
-  --bs-callout-bg: var(--bs-secondary-bg-subtle);
-  --bs-callout-border: var(--bs-secondary-border-subtle);
-  --callout-icon: "\F431";
+  --bs-callout-color: #87786E;
+  --bs-callout-bg: #E7E4E2;
+  --bs-callout-border: #D9D4D1;
+  --callout-icon: "\F18F";
 }
 
 .admonition.task,
 details.task,
 details.task-collapse {
-  --bs-callout-color: var(--bs-warning-text-emphasis);
-  --bs-callout-bg: var(--bs-warning-bg-subtle);
-  --bs-callout-border: var(--bs-warning-border-subtle);
-  --callout-icon: "\F28B";
-  box-shadow: 0 0.35rem 1.25rem rgb(33 37 41 / 0.06);
+    --bs-callout-color: #FFE02E; 
+  --bs-callout-bg: #FFF7C8;
+  --bs-callout-border: #FFEB7F;
+  --callout-icon: "\F802";
 }
 
 .admonition.goal,
 details.goal {
-  --bs-callout-color: var(--bs-warning-text-emphasis);
-  --bs-callout-bg: #fff8df;
-  --bs-callout-border: var(--bs-warning-border-subtle);
-  --callout-icon: "\F5E3";
+  --bs-callout-color: #FFA02C;
+  --bs-callout-bg: #FFE7CB;
+  --bs-callout-border: #FFD6A5;
+  --callout-icon: "\F28B";
 }
 
 .admonition.task > .admonition-title,
