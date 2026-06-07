@@ -39,63 +39,56 @@ Die Inhalte sind in klaren Bereichen organisiert, damit Sie je nach Unterrichtss
 - **Unterstützung bei Beurteilung:** Aufgabenideen für formative und summative Lernkontrollen.
 
 
-<div class="grid cards" markdown>
+<div class="link-grid" markdown>
 
--   :material-compass-outline: **Überblick**
+<section class="link-card" markdown>
+<p class="link-card__title">Überblick</p>
+Ziele, Aufbau und didaktischer Rahmen der Unterrichtssequenz auf einen Blick.
 
-    ---
+[Zum Überblick](unterricht/index.md)
+</section>
 
-    Ziele, Aufbau und didaktischer Rahmen der Unterrichtssequenz auf einen Blick.
+<section class="link-card" markdown>
+<p class="link-card__title">Zur Sache</p>
+Fachliche Konzepte repetieren und erarbeiten – inklusive typischer Fehler und Missverständnisse.
 
-    [Zum Überblick](unterricht/index.md)
+[Zu den Inhalten](topic/index.md)
+</section>
 
--   :material-lightbulb-on-outline: **Zur Sache**
+<section class="link-card" markdown>
+<p class="link-card__title">Lehrplan und Lernziele</p>
+Lernziele und Lehrplanbezug für die Unterrichtssequenz.
 
-    ---
+[Zu Lehrplan und Lernzielen](goals.md)
+</section>
 
-    Fachliche Konzepte repetieren und erarbeiten – inklusive typischer Fehler und Missverständnisse.
+<section class="link-card" markdown>
+<p class="link-card__title">Unterricht</p>
+Thematisch gegliederte Unterrichtseinheiten und Hinweise zur Durchführung.
 
-    [Zu den Inhalten](topic/index.md)
+[Zum Unterricht](unterricht/index.md)
+</section>
 
--   :material-target: **Lehrplan und Lernziele**
+<section class="link-card" markdown>
+<p class="link-card__title">Beurteilung</p>
+Erarbeitungs-, Übungs- und Beurteilungsaufgaben auswählen.
 
-    ---
+[Zur Beurteilung](beurteilung/index.md)
+</section>
 
-    Lernziele und Lehrplanbezug für die Unterrichtssequenz.
+<section class="link-card" markdown>
+<p class="link-card__title">Beispiele</p>
+Konkrete Beispiele zur Vertiefung und direkten Verwendung im Unterricht.
 
-    [Zu Lehrplan und Lernzielen](goals.md)
+[Zu den Beispielen](examples.md)
+</section>
 
--   :material-school-outline: **Unterricht**
+<section class="link-card" markdown>
+<p class="link-card__title">Downloads</p>
+Materialien, Dateien und weitere Unterlagen zum Herunterladen.
 
-    ---
-
-    Thematisch gegliederte Unterrichtseinheiten und Hinweise zur Durchführung.
-
-    [Zum Unterricht](unterricht/index.md)
-
--   :material-clipboard-check-outline: **Beurteilung**
-
-    ---
-
-    Erarbeitungs-, Übungs- und Beurteilungsaufgaben auswählen.
-
-    [Zur Beurteilung](beurteilung/index.md)
-
--   :material-book-open-page-variant-outline: **Beispiele**
-
-    ---
-
-    Konkrete Beispiele zur Vertiefung und direkten Verwendung im Unterricht.
-
-    [Zu den Beispielen](examples.md)
-
--   :material-download-outline: **Downloads**
-
-    ---
-
-    Materialien, Dateien und weitere Unterlagen zum Herunterladen.
-
-    [Zu den Downloads](downloads.md)
+[Zu den Downloads](downloads.md)
+</section>
 
 </div>
 

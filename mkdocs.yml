@@ -8,44 +8,9 @@ docs_dir: docs
 edit_uri: edit/main/docs/
 
 theme:
-  name: material
+  name: null
+  custom_dir: theme
   language: de
-  font:
-    text: Inter
-    code: Fira Code
-  palette:
-    - scheme: default
-      primary: grey
-      accent: light-blue
-      toggle:
-        icon: material/brightness-7
-        name: Dark Mode
-    - scheme: slate
-      primary: grey
-      accent: light-blue
-      toggle:
-        icon: material/brightness-4
-        name: Light Mode
-  features:
-    - navigation.tabs
-    - navigation.sections
-    - navigation.indexes
-    - navigation.path
-    - content.code.copy
-    - content.action.edit
-    - search.suggest
-    - search.highlight
-    - search.share
-    - content.tooltips
-  icon:
-    logo: material/traffic-light
-    admonition:
-      note: octicons/compose-24
-      tip: material/lightbulb-on-outline
-      success: material/check-decagram-outline
-      warning: material/alert-decagram-outline
-      failure: material/close-octagon-outline
-      danger: material/lightning-bolt-outline
 
 nav:
   - Home: index.md
@@ -78,8 +43,8 @@ markdown_extensions:
   - attr_list
   - md_in_html
   - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      emoji_index: !!python/name:pymdownx.emoji.twemoji
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
   - def_list
   - pymdownx.details
   - pymdownx.superfences
@@ -90,11 +55,12 @@ markdown_extensions:
       alternate_style: true
 
 extra_css: 
+  - stylesheets/theme.css
   - stylesheets/callouts.css
   - stylesheets/custom.css
   - stylesheets/nav-dropdown.css
 
 extra_javascript:
-  - docs/javascripts/mathjax.js
+  - javascripts/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js

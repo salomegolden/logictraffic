@@ -54,7 +54,7 @@ Durch die Arbeit mit der gleichen Tabelle erkennen Schülerinnen und Schüler gu
           ![Situation 3](../images/Situation3){ width="150" }
           
     === "Wahrheitstabelle zur Situation 3: "
-        ![WahrheitstabelleSituation3](../images/WahrheitstabelleSituation3){ width 100 }
+        ![WahrheitstabelleSituation3](../images/WahrheitstabelleSituation3){ width="100" }
         
     === "Herleitung Konjunktive Normalform "
         Die Funktion ist in 3 verschiedenen Zeilen falsch ($0$). Aus diesen Zeilen erzeugt man jeweils eine ODER Klammer. Daraus ergibt sich die **kanonische (vollständige) konjunktive Normalform** (KKNF): 

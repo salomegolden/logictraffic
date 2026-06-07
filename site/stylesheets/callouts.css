@@ -19,8 +19,8 @@
 .md-typeset .teacher > .admonition-title::before,
 .md-typeset .teacher > summary::before {
   background-color: #A155E5;
-  mask-image: var(--md-admonition-icon--teacher);
   -webkit-mask-image: var(--md-admonition-icon--teacher);
+  mask-image: var(--md-admonition-icon--teacher);
 }
 
 /* 2. LOGICTRAFFIC (Grün/Ampel) */
@@ -39,8 +39,8 @@
 .md-typeset .logictraffic > .admonition-title::before,
 .md-typeset .logictraffic > summary::before {
   background-color: #2B9B46;
-  mask-image: var(--md-admonition-icon--logictraffic);
   -webkit-mask-image: var(--md-admonition-icon--logictraffic);
+  mask-image: var(--md-admonition-icon--logictraffic);
 }
 
 /* 3. STUDENT/SuS (Blau) */
@@ -59,8 +59,8 @@
 .md-typeset .student > .admonition-title::before,
 .md-typeset .student > summary::before {
   background-color: #5985E1;
-  mask-image: var(--md-admonition-icon--student);
   -webkit-mask-image: var(--md-admonition-icon--student);
+  mask-image: var(--md-admonition-icon--student);
 }
 
 /* 4. FEHLER/Warnung (Rot) */
@@ -79,8 +79,8 @@
 .md-typeset .error > .admonition-title::before,
 .md-typeset .error > summary::before {
   background-color: #EA3323;
-  mask-image: var(--md-admonition-icon--error);
   -webkit-mask-image: var(--md-admonition-icon--error);
+  mask-image: var(--md-admonition-icon--error);
 }
 
 /* 5. META/Extra-Infos (Grau) */
@@ -99,8 +99,8 @@
 .md-typeset .meta > .admonition-title::before,
 .md-typeset .meta > summary::before {
   background-color: #666666;
-  mask-image: var(--md-admonition-icon--meta);
   -webkit-mask-image: var(--md-admonition-icon--meta);
+  mask-image: var(--md-admonition-icon--meta);
 }
 
 /* 6. AUFGABE (klarer Rahmen für Unterrichtsaufgaben) */
@@ -123,7 +123,7 @@
 .md-typeset .task > .admonition-title::before,
 .md-typeset .task > summary::before {
   background-color: #E0A106;
-  mask-image: var(--md-admonition-icon--task);
   -webkit-mask-image: var(--md-admonition-icon--task);
+  mask-image: var(--md-admonition-icon--task);
 }
 
