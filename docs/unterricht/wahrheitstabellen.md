@@ -1,6 +1,9 @@
 # Wahrheitstabellen im Unterricht erarbeiten 
 Eine Wahrheitstabelle ist eine systematische Übersicht, die für alle möglichen Kombinationen von Eingangswerten die zugehörigen Ausgangswerte zeigt.
 
+### Aufgabenübersicht
+- [EA1 - Wahrheitstabellen entdecken](#ea1-wahrheitstabellen-entdecken)
+
 ### Werte
 
     1 (oder wahr) = „ja", „an", „grün", sicher"
@@ -22,6 +25,9 @@ Wichtig: Bei n Variablen gibt es 2ⁿ Zeilen
 
 ### Aufgabe
 !!! task "Erarbeitungsaufgabe (EA1) - Wahrheitstabellen entdecken" 
+<a id="ea1-wahrheitstabellen-entdecken"></a>
+<details class="task-collapse">
+<summary>EA1 - Wahrheitstabellen entdecken</summary>
     !!! goal "Ziel der Aufgabe" 
         Grundlagen der Wahrheitstabelle in LogicTraffic entdecken 
     
@@ -42,5 +48,6 @@ Wichtig: Bei n Variablen gibt es 2ⁿ Zeilen
         Beobachte die Verkehrssituation: Was passiert?
         Notiere: Bei welchen Kombinationen gibt es Kollisionen?
         Übertrage die Wahrheitstabelle ausgefüllt in dein Heft
+</details>
 
     

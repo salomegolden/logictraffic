@@ -2,8 +2,14 @@
 
 ## Erarbeitungsaufgabe (EA) - Logische Verknüpfungen
 
+### Aufgabenübersicht
+- [EA - Logische Verknüpfungen](#ea-logische-verknuepfungen)
+
 ### Aufgabe
 !!! task "Erarbeitungsaufgabe (EA) - Logische Verknüpfungen" 
+<a id="ea-logische-verknuepfungen"></a>
+<details class="task-collapse">
+<summary>EA - Logische Verknüpfungen</summary>
     !!! goal "Ziel der Aufgabe" 
 
     #### Ablauf
@@ -28,3 +34,4 @@
 
     ??? student "Schritt 3 - Wahrheitstabellen erstellen" 
         Erstelle für jeden Operator (∧, ∨, ¬) eine eigene Wahrheitstabelle und beschreibe mit eigenen Worten, was der Operator bedeutet.
+</details>

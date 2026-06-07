@@ -1,11 +1,18 @@
 ## Konfrontationsaufgabe 1 - Enaktiver Einstieg in das Thema
 Das enaktive Material kann man auch gut selbst basteln. Eine entsprechende Vorlage (passend für ein Set, also eine Gruppe) findet sich hier.
 
+### Aufgabenübersicht
+- [KA1 - Situation 4 enaktiv nachspielen](#ka1-situation-4-enaktiv-nachspielen)
+- [EA1 - Wie beschreiben wir eine Kreuzung eindeutig?](#ea1-wie-beschreiben-wir-eine-kreuzung-eindeutig)
+
 ### Material
 [:mail-inbox: Vorlage enaktives Material](../pdfmaterial/Druckvorlage%20für%20enaktives%20Material%20-%20Logic%20Traffic.pdf)
 
 ### Aufgabe
 !!! task "KA1 - Situation 4 enaktiv nachspielen"
+<a id="ka1-situation-4-enaktiv-nachspielen"></a>
+<details class="task-collapse">
+<summary>KA1 - Situation 4 enaktiv nachspielen</summary>
     ??? meta "Didaktische Begründung"
         Die Lernenden stellen mit einem physischen Kreuzungsmodell verschiedene Verkehrssituationen dar und entscheiden intuitiv, ob sie sicher oder unsicher sind. Bereits kleine Veränderungen führen zu kontroversen Einschätzungen - dadurch entsteht eine produktive Irritation. Diese dient als Ausgangspunkt für den Aufbau von Aussagenlogik, da deutlich wird, dass Sicherheit formal und eindeutig beschrieben werden muss.
 
@@ -59,13 +66,21 @@ Das enaktive Material kann man auch gut selbst basteln. Eine entsprechende Vorla
             - Was müsste man immer wissen, um Sicherheit zu beurteilen?
             - Reicht eure Intuition? Oder braucht es klare Regeln?
             - Weitere Karten mit entsprechenden Situationen legen, mündlich beschreiben lassen.
+</details>
 
 
 ## Erarbeitungsaufgabe 1 „Wie beschreiben wir eine Kreuzung eindeutig? - Einführung in das Konzept Wahrheitstabelle“
 Diese Erarbeitungsaufgabe eignet sich besonders auf Folgeaufgabe auf Konforntationsaufgabe 1.
 
+### Aufgabenübersicht
+- [KA1 - Situation 4 enaktiv nachspielen](#ka1-situation-4-enaktiv-nachspielen)
+- [EA1 - Wie beschreiben wir eine Kreuzung eindeutig?](#ea1-wie-beschreiben-wir-eine-kreuzung-eindeutig)
+
 ### Aufgabe
 !!! task "EA1 - Wie beschreiben wir eine Kreuzung eindeutig?"
+<a id="ea1-wie-beschreiben-wir-eine-kreuzung-eindeutig"></a>
+<details class="task-collapse">
+<summary>EA1 - Wie beschreiben wir eine Kreuzung eindeutig?</summary>
     !!! goal "Ziel der Aufgabe"
         - Übergang von der enaktiven Arbeit mit dem Modell zur fachlichen Strukturierung
         - Einführung in Variablen als formale Beschreibungen von Verkehrssituationen
@@ -97,5 +112,6 @@ Diese Erarbeitungsaufgabe eignet sich besonders auf Folgeaufgabe auf Konforntati
 
         ??? meta "binär"
             hier Verknüpfung zum Konzept von "binär" -> Also zwei Zustände: sicher / unsicher oder rot / grün.
+</details>
 
 Um das Erstellen von Wahrheitstabellen zu üben eignet sich nun das Online Tool LogicTraffic. Für die Einführung von diesem siehe: [LogicTrafficEinstieg](logictraffic.md). Für weitere Übungsaufgaben und Vertiefung zum Thema Wahrheitstabellen siehe: [Wahrheitstabellen](wahrheitstabellen.md).

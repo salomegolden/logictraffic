@@ -2,6 +2,14 @@
 
 Die Grundidee der Online Lernumgebung LogicTraffic ist es, eine aussagelogische Formel zu finden, welche die vorgegebene Verkehrssituation sicher macht.
 
+### Aufgabenübersicht
+- [KA1 - Einführung LogicTraffic](#ka1-einfuehrung-logictraffic)
+- [KA2 - Die Schaltzentrale](#ka2-die-schaltzentrale)
+- [EA1 - Bedienung und Grundkonzept des Tools aufbauen](#ea1-bedienung-und-grundkonzept-des-tools-aufbauen)
+- [ÜA1 - Von der Kreuzung zur Tabelle und zurück](#ua1-von-der-kreuzung-zur-tabelle-und-zurueck)
+- [ÜA2 - Tool Führerschein](#ua2-tool-fuehrerschein)
+- [SA1 - LogicTraffic in einer Gesamtaufgabe anwenden](#sa1-logictraffic-in-einer-gesamtaufgabe-anwenden)
+
 !!! logictraffic "Programmaufbau"
     ![LogicTraffic](../images/Screenshot%202026-04-22%20at%2009-49-45%20logictraffic_anleitung%20-%20logictraffic_anleitung.pdf.png)
     In der graphischen Lernumgebung werden Verkehrssituationen an einer Kreuzung dargestellt. Dabei wird jede Fahrspur durch eine Variable (A, B, C...) identifiziert und jede Spur hat eine dazugehörige Ampel. Daneben werden in einer Wahrheitstabelle alle Spuren aufgelistet und es wird festgelegt, welche Konfigurationen sicher sind. Hier entspricht "0" (logisch falsch) einer roten Ampel, also "Fahrspur nicht frei" und entsprechend "1" (logisch wahr) einer grünen Ampel, also "Spur befahrbar". Eine Statusanzeige gibt an, ob die aktuelle Belegung der Tabelle (also die Einträge in der "sicher"-Spalte) nicht sicher, nicht optimal oder optimal ist. Ebenfalls wird zur aktuellen Belegung der Tabelle eine aussagenlogische Formel in gewünschter Form angegeben. Im Weiteren steht ein Formeleditor zur Verfügung, in welchem direkt Formeln erstellt und editiert werden können.
@@ -9,6 +17,9 @@ Die Grundidee der Online Lernumgebung LogicTraffic ist es, eine aussagelogische 
 ## Konfrontationsaufgaben
 
 ### Konfrontationsaufgabe 1
+<a id="ka1-einfuehrung-logictraffic"></a>
+<details class="task-collapse">
+<summary>KA1 - Einführung LogicTraffic</summary>
 
 !!! task "KA1 - Einführung LogicTraffic"
     #### Hinweis
@@ -34,8 +45,12 @@ Die Grundidee der Online Lernumgebung LogicTraffic ist es, eine aussagelogische 
 
             - Wer oder was "entscheidet", wann welches Licht leuchtet?
             - Glaubst du, dass dahinter ein Programm steckt? Begründe.
+</details>
 
 ### Konfrontationsaufgabe 2
+<a id="ka2-die-schaltzentrale"></a>
+<details class="task-collapse">
+<summary>KA2 - Die Schaltzentrale</summary>
 
 !!! task "KA2 - Die Schaltzentrale"
     #### Ziel
@@ -62,8 +77,12 @@ Die Grundidee der Online Lernumgebung LogicTraffic ist es, eine aussagelogische 
 
         - Wofür könnte das gut sein?
         - Was könnte man damit machen?
+</details>
 
 ## Erarbeitungsaufgabe - Finde die Bausteine
+<a id="ea1-bedienung-und-grundkonzept-des-tools-aufbauen"></a>
+<details class="task-collapse">
+<summary>EA1 - Bedienung und Grundkonzept des Tools aufbauen</summary>
 
 !!! task "EA1 - Bedienung und Grundkonzept des Tools aufbauen"
     #### Ziel
@@ -126,8 +145,12 @@ Die Grundidee der Online Lernumgebung LogicTraffic ist es, eine aussagelogische 
 
             * "Die Formel ändert sich, wenn ich ..."
             * "Eine Zeile mit 'sicher = 1' taucht in der DNF als ... auf."
+</details>
 
 ## Übungsaufgabe - Von der Kreuzung zur Tabelle und zurück
+<a id="ua1-von-der-kreuzung-zur-tabelle-und-zurueck"></a>
+<details class="task-collapse">
+<summary>ÜA1 - Von der Kreuzung zur Tabelle und zurück</summary>
 
 !!! task "ÜA1 - Von der Kreuzung zur Tabelle und zurück"
     #### Ziel
@@ -169,9 +192,11 @@ Die Grundidee der Online Lernumgebung LogicTraffic ist es, eine aussagelogische 
             Kopiert die Formel auf das Arbeitsblatt (z.B. !A & B | A & !B o.ä.).
 
             Diskutiert:
-            Wie passt diese Formel zu eurer verbalen Regel? Welche Teile der Formel entsprechen "A grün, B rot ist sicher", usw.?
-
+            Wie passt diese Formel zu eurer verbalen Regel? Welche Teile der Formel entsprechen "A grün, B rot ist sicher", usw.?</details>
 ## Übungsaufgabe - Umgang mit Logic Traffic festigen - Tool Führerschein
+<a id="ua2-tool-fuehrerschein"></a>
+<details class="task-collapse">
+<summary>ÜA2 - Tool Führerschein</summary>
 
 !!! task "ÜA2 - Tool Führerschein"
     #### Ziele
@@ -217,8 +242,12 @@ Die Grundidee der Online Lernumgebung LogicTraffic ist es, eine aussagelogische 
 
             * Ich kann im Bereich "Formeln" zwischen verschiedenen Formeln umschalten (DNF, KNF, Einfachste).
             * Ich sehe, dass sich die Formel ändert, obwohl die Verkehrssituation gleich bleibt, wenn ich umschalte.
+</details>
 
 ## Syntheseaufgabe
+<a id="sa1-logictraffic-in-einer-gesamtaufgabe-anwenden"></a>
+<details class="task-collapse">
+<summary>SA1 - LogicTraffic in einer Gesamtaufgabe anwenden</summary>
 
 !!! task "SA1 - LogicTraffic in einer Gesamtaufgabe anwenden"
     #### Ziel
@@ -249,3 +278,4 @@ Die Grundidee der Online Lernumgebung LogicTraffic ist es, eine aussagelogische 
             Schalte rechts auf die Formeldarstellung "Einfachste". Schreibe die Formel ab.
 
             Erkläre in 2-3 Sätzen: "Diese Formel beschreibt meine fertige, optimale Sicherheitsregel, weil ..." (z.B.: Sie ist genau dann wahr, wenn ...).
+</details>

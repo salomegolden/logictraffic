@@ -54,3 +54,31 @@ body, .md-typeset, .md-sidebar, .md-header, .md-footer {
   color: #4f3f1c;
 }
 
+/* 4. Ausklappbare Aufgabenbereiche */
+.md-typeset details.task-collapse {
+  border: 1px solid #d9d0a9;
+  border-radius: 0.75rem;
+  background-color: #fcfbf2;
+  margin: 1.25rem 0;
+  padding: 0.35rem 0.5rem 0.8rem;
+}
+
+.md-typeset details.task-collapse summary {
+  cursor: pointer;
+  font-weight: 700;
+  background-color: #f7f0d7;
+  border: 1px solid #e5d9a8;
+  border-radius: 0.5rem;
+  padding: 0.85rem 1rem;
+  margin-bottom: 0.75rem;
+  list-style: none;
+}
+
+.md-typeset details.task-collapse summary::-webkit-details-marker {
+  display: none;
+}
+
+.md-typeset details.task-collapse[open] summary {
+  background-color: #eef0d1;
+}
+
