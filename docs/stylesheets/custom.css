@@ -38,3 +38,19 @@ body, .md-typeset, .md-sidebar, .md-header, .md-footer {
   box-shadow: none;
 }
 
+/* 3. Eigene Lernziel-Admonition */
+.md-typeset .admonition.goal {
+  border-left-color: #f7c873;
+  background-color: #fff7d9;
+}
+
+.md-typeset .admonition.goal .admonition-title {
+  color: #a66f00;
+}
+
+.md-typeset .admonition.goal p,
+.md-typeset .admonition.goal ul,
+.md-typeset .admonition.goal ol {
+  color: #4f3f1c;
+}
+
