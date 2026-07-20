@@ -8,8 +8,18 @@ docs_dir: docs
 edit_uri: edit/main/docs/
 
 theme:
-  name: mkdocs
-  locale: de
+  name: material
+  language: de
+  font:
+    text: Roboto 
+    code: Google Sans Code
+  features:
+    - navigation.path
+    - navigation.instant
+    - navigation.indexes
+    - navigation.footer
+    - content.action.edit
+    - content.action.view
 
 nav:
   - Home: index.md
@@ -36,7 +46,7 @@ nav:
 markdown_extensions:
   - admonition
   - toc:
-      permalink: false
+      permalink: true
   - footnotes
   - tables
   - attr_list
