@@ -1,173 +1,182 @@
-<!doctype html>
-<html lang="de">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Dokumentation für das LogicTraffic-Projekt">
-    <meta name="author" content="Salome Gwendolin Guldener">
-    <title>Formative Beurteilungsaufgaben - LogicTraffic</title>
+<!DOCTYPE html>
+<html lang="de" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="Salome Gwendolin Guldener">
+        <link rel="canonical" href="https://salomegolden.github.io/logictraffic/beurteilung/formativebeurteilungsaufgaben/">
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Formative Beurteilungsaufgaben - LogicTraffic</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../../css/brands.min.css" rel="stylesheet">
+        <link href="../../css/solid.min.css" rel="stylesheet">
+        <link href="../../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">LogicTraffic</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href="../.." class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Sachinformationen</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../topic/" class="dropdown-item">Sachinformationen</a>
+</li>
+                                    
+<li>
+    <a href="../../topic/darstellungswechsel/" class="dropdown-item">Darstellungswechsel</a>
+</li>
+                                    
+<li>
+    <a href="../../topic/wahrheitstabellen/" class="dropdown-item">Wahrheitstabellen</a>
+</li>
+                                    
+<li>
+    <a href="../../topic/normalformen/" class="dropdown-item">Normalformen</a>
+</li>
+                                    
+<li>
+    <a href="../../topic/difficulties/" class="dropdown-item">Lern- und Lehrherausforderungen</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../goals/" class="nav-link">Unterrichtsziele</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Unterrichtsplanung</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../unterricht/" class="dropdown-item">Unterrichtsplanung</a>
+</li>
+                                    
+<li>
+    <a href="../../unterricht/einstiegenaktiv/" class="dropdown-item">Enaktiver Einstieg</a>
+</li>
+                                    
+<li>
+    <a href="../../unterricht/logictraffic/" class="dropdown-item">Einführung Online Lernumgebung</a>
+</li>
+                                    
+<li>
+    <a href="../../unterricht/wahrheitstabellen/" class="dropdown-item">Wahrheitstabelle</a>
+</li>
+                                    
+<li>
+    <a href="../../unterricht/formelnverstehen/" class="dropdown-item">Formeln verstehen</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle active" aria-current="page" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Beurteilung</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../" class="dropdown-item">Beurteilung</a>
+</li>
+                                    
+<li>
+    <a href="./" class="dropdown-item active" aria-current="page">Formative Beurteilungsaufgaben</a>
+</li>
+                                    
+<li>
+    <a href="../summativebeurteilungsaufgaben/" class="dropdown-item">Summative Beurteilungsaufgaben</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../examples/" class="nav-link">Beispiele auf der Erprobung</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../downloads/" class="nav-link">Downloads</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Suche
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Zurück
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../summativebeurteilungsaufgaben/" class="nav-link">
+                                    Weiter <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://github.com/salomegolden/logictraffic/edit/main/docs/beurteilung/formativebeurteilungsaufgaben.md" class="nav-link">Bearbeiten auf logictraffic
+                                    </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Inhaltsverzeichnis">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
 
     
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
-    
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
-    
-      <link rel="stylesheet" href="../../stylesheets/theme.css">
-    
-  </head>
-  <body>
-    <header class="site-header">
-      <a class="site-brand" href="../../">
-        <span class="site-brand__mark" aria-hidden="true">LT</span>
-        <span class="site-brand__text">LogicTraffic</span>
-      </a>
-
-      <nav class="site-nav" aria-label="Hauptnavigation">
-        
-          
-            <a href="../.." >
-              Home
-            </a>
-          
-        
-          
-            <details class="site-nav__group">
-              <summary>Sachinformationen</summary>
-              <div class="site-nav__submenu">
-                
-                  <a href="../../topic/" >
-                    Sachinformationen
-                  </a>
-                
-                  <a href="../../topic/darstellungswechsel/" >
-                    Darstellungswechsel
-                  </a>
-                
-                  <a href="../../topic/wahrheitstabellen/" >
-                    Wahrheitstabellen
-                  </a>
-                
-                  <a href="../../topic/normalformen/" >
-                    Normalformen
-                  </a>
-                
-                  <a href="../../topic/difficulties/" >
-                    Lern- und Lehrherausforderungen
-                  </a>
-                
-              </div>
-            </details>
-          
-        
-          
-            <a href="../../goals/" >
-              Unterrichtsziele
-            </a>
-          
-        
-          
-            <details class="site-nav__group">
-              <summary>Unterrichtsplanung</summary>
-              <div class="site-nav__submenu">
-                
-                  <a href="../../unterricht/" >
-                    Unterrichtsplanung
-                  </a>
-                
-                  <a href="../../unterricht/einstiegenaktiv/" >
-                    Enaktiver Einstieg
-                  </a>
-                
-                  <a href="../../unterricht/logictraffic/" >
-                    Einführung Online Lernumgebung
-                  </a>
-                
-                  <a href="../../unterricht/wahrheitstabellen/" >
-                    Wahrheitstabelle
-                  </a>
-                
-                  <a href="../../unterricht/formelnverstehen/" >
-                    Formeln verstehen
-                  </a>
-                
-              </div>
-            </details>
-          
-        
-          
-            <details class="site-nav__group">
-              <summary>Beurteilung</summary>
-              <div class="site-nav__submenu">
-                
-                  <a href="../" >
-                    Beurteilung
-                  </a>
-                
-                  <a href="./" aria-current="page">
-                    Formative Beurteilungsaufgaben
-                  </a>
-                
-                  <a href="../summativebeurteilungsaufgaben/" >
-                    Summative Beurteilungsaufgaben
-                  </a>
-                
-              </div>
-            </details>
-          
-        
-          
-            <a href="../../examples/" >
-              Beispiele auf der Erprobung
-            </a>
-          
-        
-          
-            <a href="../../downloads/" >
-              Downloads
-            </a>
-          
-        
-      </nav>
-    </header>
-
-    <main class="site-shell">
-      <aside class="page-sidebar" aria-label="Seitennavigation">
-        
-          <p class="page-sidebar__title">Auf dieser Seite</p>
-          <ol class="page-toc">
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
             
-              <li>
-                <a href="#formative-beurteilungsaufgaben">Formative Beurteilungsaufgaben</a>
-                
-                  <ol>
-                    
-                      <li>
-                        <a href="#aufgabenideen">Aufgabenideen</a>
-                        
-                      </li>
-                    
-                      <li>
-                        <a href="#ruckmeldefragen">Rückmeldefragen</a>
-                        
-                      </li>
-                    
-                      <li>
-                        <a href="#auswertung">Auswertung</a>
-                        
-                      </li>
-                    
-                  </ol>
-                
-              </li>
-            
-          </ol>
-        
-      </aside>
+            <li class="nav-item" data-bs-level="1"><a href="#formative-beurteilungsaufgaben" class="nav-link">Formative Beurteilungsaufgaben</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#aufgabenideen" class="nav-link">Aufgabenideen</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#ruckmeldefragen" class="nav-link">Rückmeldefragen</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#auswertung" class="nav-link">Auswertung</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
 
-      <article class="page-content">
-        <h1 id="formative-beurteilungsaufgaben">Formative Beurteilungsaufgaben<a class="headerlink" href="#formative-beurteilungsaufgaben" title="Permanent link">&para;</a></h1>
+<h1 id="formative-beurteilungsaufgaben">Formative Beurteilungsaufgaben</h1>
 <p>Formative Beurteilung soll während des Lernprozesses sichtbar machen, welche Vorstellungen tragfähig sind und wo noch Unterstützung nötig ist. Die Aufgaben sind kurz und lassen sich gut in Unterrichtsphasen einbauen.</p>
-<h2 id="aufgabenideen">Aufgabenideen<a class="headerlink" href="#aufgabenideen" title="Permanent link">&para;</a></h2>
+<h2 id="aufgabenideen">Aufgabenideen</h2>
 <table>
 <thead>
 <tr>
@@ -204,7 +213,7 @@
 </tr>
 </tbody>
 </table>
-<h2 id="ruckmeldefragen">Rückmeldefragen<a class="headerlink" href="#ruckmeldefragen" title="Permanent link">&para;</a></h2>
+<h2 id="ruckmeldefragen">Rückmeldefragen</h2>
 <ul>
 <li>Welche Variable steht für welche Spur?</li>
 <li>Was bedeutet <code>1</code> in dieser Zeile?</li>
@@ -212,7 +221,7 @@
 <li>Welche Zeile der Wahrheitstabelle passt zur aktuellen Ampelsituation?</li>
 <li>Welche Bedingung beschreibt die Formel in Alltagssprache?</li>
 </ul>
-<h2 id="auswertung">Auswertung<a class="headerlink" href="#auswertung" title="Permanent link">&para;</a></h2>
+<h2 id="auswertung">Auswertung</h2>
 <p>Formative Aufgaben müssen nicht benotet werden. Hilfreich ist eine kurze Einordnung:</p>
 <table>
 <thead>
@@ -239,27 +248,85 @@
 <td>Beispiele mit <code>A = 1</code> und <code>B = 1</code> gezielt prüfen</td>
 </tr>
 </tbody>
-</table>
-      </article>
-    </main>
+</table></div>
+            </div>
+        </div>
 
-    <footer class="site-footer">
-      <span>LogicTraffic</span>
-      
-        <a href="https://github.com/salomegolden/logictraffic">GitHub</a>
-      
-    </footer>
+        <footer class="col-md-12">
+            <hr>
+            <p>Diese Dokumentation wurde erstellt mit <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js"></script>
+        <script src="../../javascripts/mathjax.js"></script>
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+        <script src="../../search/main.js"></script>
 
-    
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    
-      <script src="../../javascripts/mathjax.js"></script>
-    
-      <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-    
-      <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    
-      <script src="../../search/main.js"></script>
-    
-  </body>
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Suche</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Schließen"></button>
+            </div>
+            <div class="modal-body">
+                <p>Von hier aus können Sie diese Dokumente durchsuchen. Geben Sie unten Ihre Suchanfrage ein.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Suche..." id="mkdocs-search-query" title="Geben Sie hier ihre Suchanfrage ein">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="Keine Ergebnisse gefunden"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Tastenkombinationen</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Schließen"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Taste</th>
+                    <th>Aktion</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Diese Hilfe anzeigen</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Nächste Seite</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Vorherige Seite</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Suche</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
 </html>

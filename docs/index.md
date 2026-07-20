@@ -23,51 +23,14 @@ Diese Materialien richten sich an Lehrpersonen, die
 
 ## Aufbau der Materialien
 
-<div class="link-grid" markdown>
-
-<section class="link-card" markdown>
-<p class="link-card__title">Unterrichtsplanung</p>
-Reihenfolge, didaktische Idee und Aufgabentypen der Sequenz.
-
-[Zur Planung](unterricht/index.md)
-</section>
-
-<section class="link-card" markdown>
-<p class="link-card__title">Sachinformationen</p>
-Grundbegriffe, Darstellungswechsel, Wahrheitstabellen, Normalformen und Lernhürden.
-
-[Zu den Grundlagen](topic/index.md)
-</section>
-
-<section class="link-card" markdown>
-<p class="link-card__title">Unterrichtsziele</p>
-Kompetenzen, Lernziele und Lehrplanbezüge.
-
-[Zu den Zielen](goals.md)
-</section>
-
-<section class="link-card" markdown>
-<p class="link-card__title">Unterrichtsmaterial</p>
-Enaktiver Einstieg, Tool-Einführung, Wahrheitstabellen und Formeln.
-
-[Zu den Aufgaben](unterricht/logictraffic.md)
-</section>
-
-<section class="link-card" markdown>
-<p class="link-card__title">Beurteilung</p>
-Formative und summative Aufgaben mit Kriterien.
-
-[Zur Beurteilung](beurteilung/index.md)
-</section>
-
-<section class="link-card" markdown>
-<p class="link-card__title">Downloads</p>
-Arbeitsblätter, Bildmaterial und Druckvorlagen.
-
-[Zu den Downloads](downloads.md)
-</section>
-
-</div>
+| Bereich | Inhalt | Link |
+| --- | --- | --- |
+| Unterrichtsplanung | Reihenfolge, didaktische Idee und Aufgabentypen der Sequenz | [Zur Planung](unterricht/index.md) |
+| Sachinformationen | Grundbegriffe, Darstellungswechsel, Wahrheitstabellen, Normalformen und Lernhürden | [Zu den Grundlagen](topic/index.md) |
+| Unterrichtsziele | Kompetenzen, Lernziele und Lehrplanbezüge | [Zu den Zielen](goals.md) |
+| Unterrichtsmaterial | Enaktiver Einstieg, Tool-Einführung, Wahrheitstabellen und Formeln | [Zu den Aufgaben](unterricht/logictraffic.md) |
+| Beurteilung | Formative und summative Aufgaben mit Kriterien | [Zur Beurteilung](beurteilung/index.md) |
+| Downloads | Arbeitsblätter, Bildmaterial und Druckvorlagen | [Zu den Downloads](downloads.md) |
 
 ## Didaktischer Fokus
 

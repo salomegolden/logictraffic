@@ -2,14 +2,12 @@
 
 LogicTraffic ist eine Lernumgebung, in der Verkehrssituationen, Wahrheitstabellen und boolesche Formeln miteinander verbunden werden. Ziel ist, eine logische Regel zu finden, die eine Kreuzung sicher macht.
 
-<nav class="task-overview" markdown>
-[KA1 - Einführung](#ka1-einfuehrung)
-[KA2 - Schaltzentrale](#ka2-schaltzentrale)
-[EA1 - Oberfläche verstehen](#ea1-oberflaeche-verstehen)
-[ÜA1 - Kreuzung und Tabelle](#ua1-kreuzung-und-tabelle)
-[ÜA2 - Tool-Führerschein](#ua2-tool-fuehrerschein)
-[SA1 - Gesamtaufgabe](#sa1-gesamtaufgabe)
-</nav>
+- [KA1 - Einführung](#ka1-einfuehrung)
+- [KA2 - Schaltzentrale](#ka2-schaltzentrale)
+- [EA1 - Oberfläche verstehen](#ea1-oberflaeche-verstehen)
+- [ÜA1 - Kreuzung und Tabelle](#ua1-kreuzung-und-tabelle)
+- [ÜA2 - Tool-Führerschein](#ua2-tool-fuehrerschein)
+- [SA1 - Gesamtaufgabe](#sa1-gesamtaufgabe)
 
 ## Programmaufbau
 
@@ -26,10 +24,8 @@ LogicTraffic ist eine Lernumgebung, in der Verkehrssituationen, Wahrheitstabelle
 
 ## Aufgaben
 
-<div class="task-list" markdown>
-
 <a id="ka1-einfuehrung"></a>
-<details class="task-collapse" markdown>
+<details markdown>
 <summary>KA1 - Einführung</summary>
 
 ### Ziel
@@ -50,7 +46,7 @@ Material: [Bilder für KA1](../pdfmaterial/LogicTraffic%20-%20Einf%C3%BChrung%20
 </details>
 
 <a id="ka2-schaltzentrale"></a>
-<details class="task-collapse" markdown>
+<details markdown>
 <summary>KA2 - Die Schaltzentrale</summary>
 
 ### Ziel
@@ -69,7 +65,7 @@ Die Lernenden formulieren erste Steuerungsregeln und erkennen, dass sichere Ampe
 </details>
 
 <a id="ea1-oberflaeche-verstehen"></a>
-<details class="task-collapse" markdown>
+<details markdown>
 <summary>EA1 - Oberfläche und Grundkonzept verstehen</summary>
 
 ### Ziel
@@ -93,7 +89,7 @@ Material: [Arbeitsblatt EA1](../pdfmaterial/Einf%C3%BChrung%20LogicTraffic.pdf)
 </details>
 
 <a id="ua1-kreuzung-und-tabelle"></a>
-<details class="task-collapse" markdown>
+<details markdown>
 <summary>ÜA1 - Von der Kreuzung zur Tabelle und zurück</summary>
 
 ### Ziel
@@ -115,7 +111,7 @@ Material: [Arbeitsblatt ÜA1](../pdfmaterial/Von%20der%20Kreuzung%20zur%20Tabell
 </details>
 
 <a id="ua2-tool-fuehrerschein"></a>
-<details class="task-collapse" markdown>
+<details markdown>
 <summary>ÜA2 - Tool-Führerschein</summary>
 
 ### Ziel
@@ -137,7 +133,7 @@ Diese Aufgabe eignet sich auch als kurze formative Beurteilung.
 </details>
 
 <a id="sa1-gesamtaufgabe"></a>
-<details class="task-collapse" markdown>
+<details markdown>
 <summary>SA1 - LogicTraffic in einer Gesamtaufgabe anwenden</summary>
 
 ### Ziel
@@ -156,5 +152,3 @@ Die Lernenden verbinden mehrere Teilkompetenzen in einer komplexeren Aufgabe.
 Voraussetzung: Grundlagen zu Wahrheitstabellen und Formeln sollten bereits eingeführt sein.
 
 </details>
-
-</div>

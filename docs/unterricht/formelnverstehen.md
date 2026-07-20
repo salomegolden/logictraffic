@@ -2,9 +2,7 @@
 
 Diese Seite führt in logische Verknüpfungen und den Formeleditor ein. Ziel ist, dass Lernende Formeln nicht nur eingeben, sondern mit Wahrheitstabellen und Verkehrssituationen verbinden.
 
-<nav class="task-overview" markdown>
-[EA1 - Logische Verknüpfungen](#ea1-logische-verknuepfungen)
-</nav>
+- [EA1 - Logische Verknüpfungen](#ea1-logische-verknuepfungen)
 
 ## Vorbereitung
 
@@ -18,7 +16,7 @@ Diese Seite führt in logische Verknüpfungen und den Formeleditor ein. Ziel ist
 
 <a id="ea1-logische-verknuepfungen"></a>
 
-<details class="task-collapse" markdown>
+<details markdown>
 <summary>EA1 - Logische Verknüpfungen</summary>
 
 ### Ziel

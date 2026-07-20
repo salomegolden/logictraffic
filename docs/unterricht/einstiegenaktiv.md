@@ -2,10 +2,8 @@
 
 Der enaktive Einstieg macht Verkehrssicherheit zuerst handelnd erfahrbar. Lernende legen Autos, verändern Ampeln und beschreiben sichere Zustände, bevor die formale Wahrheitstabelle eingeführt wird.
 
-<nav class="task-overview" markdown>
-[KA1 - Situation 4 enaktiv nachspielen](#ka1-situation-4-enaktiv-nachspielen)
-[EA1 - Kreuzung eindeutig beschreiben](#ea1-kreuzung-eindeutig-beschreiben)
-</nav>
+- [KA1 - Situation 4 enaktiv nachspielen](#ka1-situation-4-enaktiv-nachspielen)
+- [EA1 - Kreuzung eindeutig beschreiben](#ea1-kreuzung-eindeutig-beschreiben)
 
 ## Material
 
@@ -21,7 +19,7 @@ Der enaktive Einstieg macht Verkehrssicherheit zuerst handelnd erfahrbar. Lernen
 
 <a id="ka1-situation-4-enaktiv-nachspielen"></a>
 
-<details class="task-collapse" markdown>
+<details markdown>
 <summary>KA1 - Situation 4 enaktiv nachspielen</summary>
 
 ### Ziel
@@ -54,7 +52,7 @@ Die Lernenden beurteilen eine Verkehrssituation intuitiv und merken, dass kleine
 
 <a id="ea1-kreuzung-eindeutig-beschreiben"></a>
 
-<details class="task-collapse" markdown>
+<details markdown>
 <summary>EA1 - Kreuzung eindeutig beschreiben</summary>
 
 ### Ziel

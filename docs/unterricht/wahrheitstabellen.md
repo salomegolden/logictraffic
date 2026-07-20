@@ -2,9 +2,7 @@
 
 Eine Wahrheitstabelle zeigt für alle möglichen Kombinationen von Eingangswerten den zugehörigen Ausgangswert. In LogicTraffic bedeutet das: Alle Ampelzustände werden systematisch gesammelt und auf Sicherheit geprüft.
 
-<nav class="task-overview" markdown>
-[EA1 - Wahrheitstabellen entdecken](#ea1-wahrheitstabellen-entdecken)
-</nav>
+- [EA1 - Wahrheitstabellen entdecken](#ea1-wahrheitstabellen-entdecken)
 
 ## Grundbegriffe
 
@@ -28,7 +26,7 @@ Bei `n` Variablen gibt es `2^n` Zeilen in der Wahrheitstabelle.
 
 <a id="ea1-wahrheitstabellen-entdecken"></a>
 
-<details class="task-collapse" markdown>
+<details markdown>
 <summary>EA1 - Wahrheitstabellen entdecken</summary>
 
 ### Ziel
