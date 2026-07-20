@@ -65,12 +65,16 @@ In dieser Unterrichtseinheit stehen drei grundlegende Operatoren im Zentrum. Die
 
 #### Negation
 
+Die Negation kehrt den Wahrheitswert einer Aussage um. Wenn `A` wahr ist, ist `¬A` falsch; wenn `A` falsch ist, ist `¬A` wahr.
+
 | `A` | `¬A` |
 | --- | --- |
 | 1 | 0 |
 | 0 | 1 |
 
 #### Konjunktion
+
+Die Konjunktion entspricht dem logischen UND. `A ∧ B` ist nur dann wahr, wenn beide Teilaussagen wahr sind.
 
 | `A` | `B` | `A ∧ B` |
 | --- | --- | --- |
@@ -80,6 +84,8 @@ In dieser Unterrichtseinheit stehen drei grundlegende Operatoren im Zentrum. Die
 | 0 | 0 | 0 |
 
 #### Disjunktion
+
+Die Disjunktion entspricht dem inklusiven ODER. `A ∨ B` ist wahr, sobald mindestens eine der beiden Aussagen wahr ist; auch beide dürfen wahr sein.
 
 | `A` | `B` | `A ∨ B` |
 | --- | --- | --- |
@@ -91,6 +97,8 @@ In dieser Unterrichtseinheit stehen drei grundlegende Operatoren im Zentrum. Die
 #### Implikation
 
 Die Implikation entfernt sich am stärksten von der Alltagssprache. Formulierungen wie "Aus A folgt B" können missverständlich sein, weil sie schnell kausal verstanden werden. Präziser ist: `A` ist hinreichend für `B`, oder `B` ist notwendig für `A`.[^13]
+
+`A → B` ist nur dann falsch, wenn die Voraussetzung `A` wahr ist, die Schlussfolgerung `B` aber falsch ist.
 
 | `A` | `B` | `A → B` |
 | --- | --- | --- |
