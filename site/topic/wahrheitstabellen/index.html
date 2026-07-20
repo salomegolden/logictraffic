@@ -142,15 +142,27 @@
                   <ol>
                     
                       <li>
-                        <a href="#wahrheitstabellen-und-logictraffic">Wahrheitstabellen und LogicTraffic</a>
+                        <a href="#definition">Definition</a>
                         
-                          <ol>
-                            
-                              <li><a href="#definition">Definition</a></li>
-                            
-                              <li><a href="#wahrheitstabellen-in-logictraffic">Wahrheitstabellen in Logictraffic</a></li>
-                            
-                          </ol>
+                      </li>
+                    
+                      <li>
+                        <a href="#bedeutung-in-logictraffic">Bedeutung in LogicTraffic</a>
+                        
+                      </li>
+                    
+                      <li>
+                        <a href="#sicher-oder-unsicher">Sicher oder unsicher</a>
+                        
+                      </li>
+                    
+                      <li>
+                        <a href="#didaktischer-nutzen">Didaktischer Nutzen</a>
+                        
+                      </li>
+                    
+                      <li>
+                        <a href="#weiterarbeiten">Weiterarbeiten</a>
                         
                       </li>
                     
@@ -164,40 +176,140 @@
 
       <article class="page-content">
         <h1 id="wahrheitstabellen">Wahrheitstabellen<a class="headerlink" href="#wahrheitstabellen" title="Permanent link">&para;</a></h1>
-<h2 id="wahrheitstabellen-und-logictraffic">Wahrheitstabellen und LogicTraffic<a class="headerlink" href="#wahrheitstabellen-und-logictraffic" title="Permanent link">&para;</a></h2>
-<details class="logictraffic" open="open">
-<summary>Wahrheitstabellen</summary>
-<p>Wahrheitstabellen sind ein zentrales Werkzeug in LogicTraffic, um systematisch alle möglichen Zustände einer Verkehrskreuzung festzuhalten und zu überprüfen, ob Formeln sicher sind, sprich ob diese keine Kollisionen zulassen <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup>.</p>
-</details>
-<h3 id="definition">Definition<a class="headerlink" href="#definition" title="Permanent link">&para;</a></h3>
-<details class="student">
-<summary>Wahrheitstabelle</summary>
-<p>Eine Wahrheitstabelle listet systematisch alle Kombinationen der Wahrheitswerte (0 = falsch/rot, 1 = wahr/grün) aller Variablen (bei Logictraffic entsprechen diese Spuren bzw. Ampeln) auf. Eine Wahrheistabelle für <span class="arithmatex">\(n\)</span> Variablen hat entsprchend <span class="arithmatex">\(2^n\)</span> Zeilen [^2]. Pro Zeile wird in der Wahrheitstabelle in einer zusätzlichen Spalte der jeweilige Wahrheitswert einer betimmten Formel angegeben.</p>
-</details>
-<h3 id="wahrheitstabellen-in-logictraffic">Wahrheitstabellen in Logictraffic<a class="headerlink" href="#wahrheitstabellen-in-logictraffic" title="Permanent link">&para;</a></h3>
-<div class="admonition logictraffic">
-<p class="admonition-title">Wahrheitstabelle</p>
-<p>In LogicTraffic entspricht die „sicher“-Spalte der Ampelsicherheit. Entsprechend sind 0 und 1-Werte in dieser Spalte wie folgt zu interpretieren:</p>
-<ul>
-<li>1: bei dieser Belegung der Wahrheitstabelle (also bei diesen Ampel-Einstellungen) sind keine Kollision möglich</li>
-<li>0: bei dieser Belegung der Wahrheitstabelle (also bei diesen Ampel-Einstellungen) sind Kollision möglich</li>
-</ul>
-<p>Diese Werte können z.B. durch klicken auf den aktuellen Wert geändert werden. Und entsprechend passt sich die zur Wahrheitstabelle automatisch generierte Formel unterhalb an.</p>
-</div>
-<details class="teacher" open="open">
-<summary>Sinn der Wahrheitstabelle in der Simulation</summary>
-<p>In der Simulation dient die Wahrheitstabelle unterschiedlichen didaktischen Zielsetzungen: </p>
-<ul>
-<li>Visualisierung: Parallel zur Simulation zeigt die Tabelle Ampelzustände und Sicherheitsstatus (nicht sicher, nicht optimal, optimal).</li>
-<li>Interaktion: Klicks auf Ampeln oder Tabelle aktualisieren die Formel automatisch (z. B. zu DNF oder KNF).</li>
-<li>Lernweg: Schüler:innen markieren erst manuell „sichere“ Zeilen, dann generiert das Programm Formeln – ideal für entdeckendes Lernen.</li>
-</ul>
-</details>
+<p>Wahrheitstabellen sind ein zentrales Werkzeug in LogicTraffic. Sie halten systematisch alle möglichen Zustände einer Verkehrskreuzung fest und zeigen, welche Kombinationen sicher sind.<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></p>
+<h2 id="definition">Definition<a class="headerlink" href="#definition" title="Permanent link">&para;</a></h2>
+<p>Eine Wahrheitstabelle listet alle Kombinationen der Wahrheitswerte aller Variablen auf. Bei <code>n</code> Variablen enthält sie <code>2^n</code> Zeilen.<sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup></p>
+<table>
+<thead>
+<tr>
+<th>Anzahl Variablen</th>
+<th>Anzahl Tabellenzeilen</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>2</td>
+</tr>
+<tr>
+<td>2</td>
+<td>4</td>
+</tr>
+<tr>
+<td>3</td>
+<td>8</td>
+</tr>
+<tr>
+<td>4</td>
+<td>16</td>
+</tr>
+</tbody>
+</table>
+<h2 id="bedeutung-in-logictraffic">Bedeutung in LogicTraffic<a class="headerlink" href="#bedeutung-in-logictraffic" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Tabellenteil</th>
+<th>Bedeutung</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Variablenspalten</td>
+<td>Ampelzustände der Spuren, z.B. <code>A</code>, <code>B</code>, <code>C</code></td>
+</tr>
+<tr>
+<td>Wert <code>1</code></td>
+<td>Spur hat grün bzw. ist befahrbar</td>
+</tr>
+<tr>
+<td>Wert <code>0</code></td>
+<td>Spur hat rot bzw. ist gesperrt</td>
+</tr>
+<tr>
+<td>Spalte "sicher"</td>
+<td>Bewertung der gesamten Ampelkombination</td>
+</tr>
+</tbody>
+</table>
+<h2 id="sicher-oder-unsicher">Sicher oder unsicher<a class="headerlink" href="#sicher-oder-unsicher" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Wert in der Spalte "sicher"</th>
+<th>Bedeutung</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>1</code></td>
+<td>Diese Ampelkombination lässt keine Kollision zu.</td>
+</tr>
+<tr>
+<td><code>0</code></td>
+<td>Diese Ampelkombination kann zu einer Kollision führen.</td>
+</tr>
+</tbody>
+</table>
+<p>Die Werte können in LogicTraffic verändert werden. Dadurch passt sich die automatisch erzeugte Formel an. So wird sichtbar, dass die Formel genau die markierten sicheren Zeilen beschreibt.</p>
+<h2 id="didaktischer-nutzen">Didaktischer Nutzen<a class="headerlink" href="#didaktischer-nutzen" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Funktion</th>
+<th>Nutzen im Unterricht</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Visualisierung</td>
+<td>Lernende sehen Ampelzustände und Sicherheitsstatus nebeneinander.</td>
+</tr>
+<tr>
+<td>Systematisierung</td>
+<td>Keine Kombination wird vergessen.</td>
+</tr>
+<tr>
+<td>Interaktion</td>
+<td>Klicks auf Ampeln oder Tabellenwerte verändern die Situation.</td>
+</tr>
+<tr>
+<td>Formelbrücke</td>
+<td>Aus sicheren Zeilen kann eine boolesche Formel entstehen.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="weiterarbeiten">Weiterarbeiten<a class="headerlink" href="#weiterarbeiten" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Ziel</th>
+<th>Seite</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Wahrheitstabellen im Unterricht einführen</td>
+<td><a href="../../unterricht/wahrheitstabellen/">Wahrheitstabellen im Unterricht</a></td>
+</tr>
+<tr>
+<td>Operatoren und Grundbegriffe nachschlagen</td>
+<td><a href="../">Zur Sache</a></td>
+</tr>
+<tr>
+<td>Formeln aus Tabellen ableiten</td>
+<td><a href="../normalformen/">Normalformen</a></td>
+</tr>
+</tbody>
+</table>
 <div class="footnote">
 <hr />
 <ol>
 <li id="fn:1">
-<p>Arnold, R., &amp; Hartmann, W. (2007). LogicTraffic – Logik in der Allgemeinbildung. Informatik-Spektrum, 30(1), 19–26. https://doi.org/10.1007/s00287-006-0123-7&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+<p>Arnold, R., &amp; Hartmann, W. (2007). LogicTraffic - Logik in der Allgemeinbildung. Informatik-Spektrum, 30(1), 19-26. https://doi.org/10.1007/s00287-006-0123-7&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:2">
+<p>Junker, M. (2025). <em>Logik für die Informatik: Eine Einführung in die Aussagenlogik, Prädikatenlogik und Berechenbarkeitstheorie</em>. Springer Berlin Heidelberg. https://doi.org/10.1007/978-3-662-70825-5&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
 </li>
 </ol>
 </div>

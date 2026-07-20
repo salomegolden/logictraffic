@@ -1,27 +1,52 @@
-# Wahrheitstabellen 
+# Wahrheitstabellen
 
-## Wahrheitstabellen und LogicTraffic 
-???+ logictraffic "Wahrheitstabellen" 
-    Wahrheitstabellen sind ein zentrales Werkzeug in LogicTraffic, um systematisch alle möglichen Zustände einer Verkehrskreuzung festzuhalten und zu überprüfen, ob Formeln sicher sind, sprich ob diese keine Kollisionen zulassen [^1].
-### Definition 
-??? student "Wahrheitstabelle" 
-    Eine Wahrheitstabelle listet systematisch alle Kombinationen der Wahrheitswerte (0 = falsch/rot, 1 = wahr/grün) aller Variablen (bei Logictraffic entsprechen diese Spuren bzw. Ampeln) auf. Eine Wahrheistabelle für $n$ Variablen hat entsprchend $2^n$ Zeilen [^2]. Pro Zeile wird in der Wahrheitstabelle in einer zusätzlichen Spalte der jeweilige Wahrheitswert einer betimmten Formel angegeben.
+Wahrheitstabellen sind ein zentrales Werkzeug in LogicTraffic. Sie halten systematisch alle möglichen Zustände einer Verkehrskreuzung fest und zeigen, welche Kombinationen sicher sind.[^1]
 
-### Wahrheitstabellen in Logictraffic 
-!!! logictraffic "Wahrheitstabelle"
-    In LogicTraffic entspricht die „sicher“-Spalte der Ampelsicherheit. Entsprechend sind 0 und 1-Werte in dieser Spalte wie folgt zu interpretieren:
+## Definition
 
-    * 1: bei dieser Belegung der Wahrheitstabelle (also bei diesen Ampel-Einstellungen) sind keine Kollision möglich
-    * 0: bei dieser Belegung der Wahrheitstabelle (also bei diesen Ampel-Einstellungen) sind Kollision möglich
+Eine Wahrheitstabelle listet alle Kombinationen der Wahrheitswerte aller Variablen auf. Bei `n` Variablen enthält sie `2^n` Zeilen.[^2]
 
-    Diese Werte können z.B. durch klicken auf den aktuellen Wert geändert werden. Und entsprechend passt sich die zur Wahrheitstabelle automatisch generierte Formel unterhalb an.
+| Anzahl Variablen | Anzahl Tabellenzeilen |
+| --- | --- |
+| 1 | 2 |
+| 2 | 4 |
+| 3 | 8 |
+| 4 | 16 |
 
+## Bedeutung in LogicTraffic
 
-???+ teacher "Sinn der Wahrheitstabelle in der Simulation" 
-    In der Simulation dient die Wahrheitstabelle unterschiedlichen didaktischen Zielsetzungen: 
+| Tabellenteil | Bedeutung |
+| --- | --- |
+| Variablenspalten | Ampelzustände der Spuren, z.B. `A`, `B`, `C` |
+| Wert `1` | Spur hat grün bzw. ist befahrbar |
+| Wert `0` | Spur hat rot bzw. ist gesperrt |
+| Spalte "sicher" | Bewertung der gesamten Ampelkombination |
 
-    * Visualisierung: Parallel zur Simulation zeigt die Tabelle Ampelzustände und Sicherheitsstatus (nicht sicher, nicht optimal, optimal).
-    * Interaktion: Klicks auf Ampeln oder Tabelle aktualisieren die Formel automatisch (z. B. zu DNF oder KNF).
-    * Lernweg: Schüler:innen markieren erst manuell „sichere“ Zeilen, dann generiert das Programm Formeln – ideal für entdeckendes Lernen.
+## Sicher oder unsicher
 
-[^1]: Arnold, R., & Hartmann, W. (2007). LogicTraffic – Logik in der Allgemeinbildung. Informatik-Spektrum, 30(1), 19–26. https://doi.org/10.1007/s00287-006-0123-7
+| Wert in der Spalte "sicher" | Bedeutung |
+| --- | --- |
+| `1` | Diese Ampelkombination lässt keine Kollision zu. |
+| `0` | Diese Ampelkombination kann zu einer Kollision führen. |
+
+Die Werte können in LogicTraffic verändert werden. Dadurch passt sich die automatisch erzeugte Formel an. So wird sichtbar, dass die Formel genau die markierten sicheren Zeilen beschreibt.
+
+## Didaktischer Nutzen
+
+| Funktion | Nutzen im Unterricht |
+| --- | --- |
+| Visualisierung | Lernende sehen Ampelzustände und Sicherheitsstatus nebeneinander. |
+| Systematisierung | Keine Kombination wird vergessen. |
+| Interaktion | Klicks auf Ampeln oder Tabellenwerte verändern die Situation. |
+| Formelbrücke | Aus sicheren Zeilen kann eine boolesche Formel entstehen. |
+
+## Weiterarbeiten
+
+| Ziel | Seite |
+| --- | --- |
+| Wahrheitstabellen im Unterricht einführen | [Wahrheitstabellen im Unterricht](../unterricht/wahrheitstabellen.md) |
+| Operatoren und Grundbegriffe nachschlagen | [Zur Sache](index.md) |
+| Formeln aus Tabellen ableiten | [Normalformen](normalformen.md) |
+
+[^1]: Arnold, R., & Hartmann, W. (2007). LogicTraffic - Logik in der Allgemeinbildung. Informatik-Spektrum, 30(1), 19-26. https://doi.org/10.1007/s00287-006-0123-7
+[^2]: Junker, M. (2025). _Logik für die Informatik: Eine Einführung in die Aussagenlogik, Prädikatenlogik und Berechenbarkeitstheorie_. Springer Berlin Heidelberg. https://doi.org/10.1007/978-3-662-70825-5

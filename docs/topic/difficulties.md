@@ -1,79 +1,64 @@
-# Lernen und Lehren von Logik im Infromatikunterricht & die Schwierigkeiten damit
-Boolesche bzw. aussagenlogische Inhalte werden in mehreren empirischen Arbeiten als zentral für kritisches Denken, Mathematik/Informatik und Problemlösen beschrieben, gleichzeitig aber als nachweislich schwierig zu erlernen mit typischen, gut dokumentierten Fehlvorstellungen [^1] [^2]. 
+# Lern- und Lehrherausforderungen
 
-## Begründung für die Bedeutung im Unterricht 
-Abgesehen von den inhaltlichen Verknüpfungen zu den Lehrplänen von Gymnasium und der obligatorischen Schule [Lernziele und Lehrplan](../goals.md) zeigt auch die Forschung, dass Logik eine wichtige und grundlegende Basis darstellt: Studien betonen, dass logisches Denken Sprache, Erfahrung und Fachwissen verknüpft und so Problemlöse‑ und Entscheidungsfähigkeit unterstützt [^1].
-In einer Studie zur Wiedereinführung von Logik in der Sekundarstufe berichten Schüler, dass sie Logik als hilfreich für Mathematik, Alltag und weitere Ausbildung einschätzen, wenn sie mit alltagsnahen Beispielen unterrichtet wird [^3].
+Boolesche Logik ist fachlich grundlegend, aber für Lernende oft anspruchsvoll. Schwierigkeiten entstehen besonders dort, wo Alltagssprache, Tabellenlogik und formale Symbole nicht deckungsgleich sind.[^1][^2]
 
-## typische Fehlvorstellungen 
-Im Folgenden werden typische Fehlvorstellungen beschrieben. Die Beschreibung und Konzepte stammen aus einer Forschungsarbeit welche mit Studierenden durchgeführt worden ist [^2]: 
+## Warum das Thema wichtig ist
 
-??? error "Fehlvorstellung 1: Implikation wird als AND interpretiert"
-    Lernende glauben, dass eine Aussage der Form „Wenn A, dann B“ bedeutet: A UND B müssen gleichzeitig wahr sein.
-    
-    === "Warum ist das falsch?" 
-        Die Implikation A→B ist nur dann falsch, wenn A wahr und B falsch ist.
-        In allen anderen Fällen ist sie wahr, auch wenn A gar nicht eintritt.
-        
-    === "Warum die Fehlvorstellung entsteht"
-        Alltagssprache erzeugt ein kausales Verständnis: „Wenn A passiert, muss B passieren“.
-        
-    !!! student "Merksatz gegen die Fehlvorstellung"
-        Implikation beschreibt keine Kausalität, sondern eine logische Bedingung.
-        Nur der Fall A wahr, B falsch macht sie falsch.
+Logisches Denken verbindet Sprache, Erfahrung und Fachwissen. Es unterstützt Problemlösen, Modellieren und Entscheiden. Gerade alltagsnahe Beispiele wie Ampelsteuerungen helfen, abstrakte Logik verständlicher zu machen.[^3]
 
-??? error "Fehlvorstellung 2: OR als "genau eine Bedingung" oder als Bestätigung eine der Bedingungen, statt als inklusives Oder"
-    Lernende glauben, dass das logische Oder $A \lor B$ nur dann wahr ist, wenn genau eine der beiden Bedingungen wahr ist. Sie interpretieren OR also wie ein exklusives Oder (XOR). Oder sie denken: OR bedeutet, dass B gilt oder A gilt – aber nicht, dass beide gleichzeitig wahr sein dürfen.
+## Typische Fehlvorstellungen
 
-    === "Warum ist das falsch?" 
-        Das ODER ($\lor$) der Aussagenlogik sagt:
-        Die Aussage ist wahr, wenn mindestens eine der Bedingungen wahr ist. 
-        Sie ist also auch wahr, wenn beide wahr sind.
+| Fehlvorstellung | Woran man sie erkennt | Unterrichtlicher Fokus |
+| --- | --- | --- |
+| Implikation wird als UND gelesen | Lernende deuten "Wenn A, dann B" als "A und B müssen beide gelten" | Wahrheitstabelle der Implikation gezielt prüfen |
+| ODER wird exklusiv verstanden | `A ∨ B` gilt für Lernende nur, wenn genau eine Aussage wahr ist | Fall `A = 1`, `B = 1` sichtbar machen |
+| Komplexe Operatoren werden vereinfacht | Implikation wird zu AND oder OR umgedeutet | vollständige Wahrheitsbedingungen vergleichen |
+| Negierte Variablen werden übersehen | Formeln enthalten nur positive Fälle | jede Tabellenzeile vollständig übersetzen |
 
-    === "Warum die Fehlvorstellung entsteht" 
-        Alltagssprache benutzt „oder“ meistens exklusiv („Pizza oder Pasta?“ → meist nur eins).
-        In vielen Übungsbeispielen tauchen OR‑Fälle nicht gleichzeitig wahr auf – der Fall „1/1“ wird unbewusst vergessen.
+## Fehlvorstellung: Implikation als UND
 
-    !!! student "Merksatz gegen die Fehlvorstellung:"
-        OR bedeutet: Mindestens eine Bedingung ist erfüllt - auch beide. 
-        XOR bedeutet: Genau eine der Bedingung ist erfüllt. (Wobei das in Logictraffic nicht behandelt wird) 
-    
-??? error "Fehlvorstellung 3: Komplexe Operatoren werden auf „einfache“ AND/OR‑Muster reduziert"
-    Lernende versuchen, komplexere logische Ausdrücke – besonders die Implikation („Wenn A, dann B“) – auf vermeintlich einfache Muster wie A ∧ B oder A ∨ B zu reduzieren. Die vollständigen Wahrheitsbedingungen werden dabei nicht berücksichtigt. 
-    Typisch ist folgende fehlerhafte Reduktion: $A \rightarrow B$ wird zu $A \land B$ (beide müssen wahr sein) oder zu $A \lor B$ (mindestens eine Bedingung wahr)
-    
-    === "Warum ist das falsch?" 
-        die Implikation ist nur dann falsch, wenn A wahr und B falsch ist. Weder AND noch OR besitzen diese Struktur — eine intuitive Reduktion verändert also die gesamte logische Aussage.
-        
-    === "Warum die Fehlvorstellung entsteht:" 
-        Lernende suchen „einfache Muster“, um sprachliche Formulierungen schnell zu übersetzen.
-        Alltagssprache erzeugt eine kausale Logik („Wenn A passiert, muss B passieren“) → wirkt wie AND
+Lernende glauben häufig, dass eine Aussage der Form `A -> B` nur wahr ist, wenn `A` und `B` gleichzeitig wahr sind. Das ist fachlich falsch: Eine Implikation ist nur dann falsch, wenn `A` wahr und `B` falsch ist.
 
-    !!! student "Merksatz gegen die Fehlvorstellung" 
-        Eine Implikation ist keine UND‑ oder ODER‑Aussage.  Sie ist nur im Fall A=1, B=0 falsch – sonst wahr.
+| A | B | A -> B |
+| --- | --- | --- |
+| 1 | 1 | 1 |
+| 1 | 0 | 0 |
+| 0 | 1 | 1 |
+| 0 | 0 | 1 |
 
-??? error "Fehlvorstellung 4: Nichtbeachtung komplementierter Variablen"
-    Lernende berücksichtigen beim Bilden oder Interpretieren von logischen Ausdrücken nicht alle möglichen Wahrheitsfälle, insbesondere jene, in denen Variablen falsch (¬A, ¬B, …) sind. 
-    Dadurch entstehen unvollständige oder falsche Normalformen (DNF, KDNF, KNF, KKNF). 
-    
-    === "Typische vergessene Fälle:" 
-    
-        * A ist falsch 
-        * alle Variablen sind falsch (∅‑Fall) 
-        * Kombinationen, in denen mehrere Variablen negiert sind
+Hilfreicher Merksatz: Eine Implikation beschreibt keine Kausalität, sondern eine logische Bedingung.
 
-    === "Warum die Fehlvorstellung entsteht:" 
-        Alltagssprache führt zu einem „positiven Denkmuster“: Man nennt nur, was vorhanden ist, nicht was fehlt. 
-        Das mentale Modell ist oft visuell („dann steht da nur A“), nicht tabellarisch‑formal.
-        Fehlen der Systematik: Lernende prüfen nicht alle Kombinationen, sondern nur „naheliegende“ Fälle.
+## Fehlvorstellung: ODER als exklusives Oder
 
-    !!! student "Merksatz gegen die Fehlvorstellung"
-    Ein Fall ist nur korrekt beschrieben, wenn alle relevanten Variablen ausdrücklich vorkommen – als A oder als ¬A. Weggelassene Negationen führen fast immer zu falschen Formeln.
-    
+Im Alltag meint "oder" oft: entweder das eine oder das andere. In der Aussagenlogik ist `A ∨ B` aber inklusiv. Die Aussage ist wahr, wenn mindestens eine Bedingung erfüllt ist, also auch dann, wenn beide wahr sind.
 
-[^1]: Fehér, Z., Jaruska, L., Szarka, K., & Tóthová Tarová, E. (2023). Students’ propositional logic thinking in higher education from the perspective of disciplines. Frontiers in Education, 8. https://doi.org/10.3389/feduc.2023.1247653
-[^2]: Herman, G. L., Loui, M. C., Kaczmarczyk, L., & Zilles, C. (2012). Describing the What and Why of Students’ Difficulties in Boolean Logic. ACM Transactions on Computing Education, 12(1), 1–28. https://doi.org/10.1145/2133797.2133800
-[^3]: Milbou, L., Deprez, J., & Laenens, E. (o. J.). A study on the Reintroduction of Logic in Secondary Schools.
+| A | B | A ∨ B |
+| --- | --- | --- |
+| 1 | 1 | 1 |
+| 1 | 0 | 1 |
+| 0 | 1 | 1 |
+| 0 | 0 | 0 |
 
+Hilfreicher Merksatz: OR bedeutet mindestens eine Bedingung, nicht genau eine Bedingung.
 
-[def]: ../goals.md
+## Fehlvorstellung: Unvollständige Fälle
+
+Beim Bilden von Normalformen werden negierte Variablen oft vergessen. Lernende notieren dann nur, was sichtbar "vorhanden" ist, und übersehen Fälle wie `¬A` oder Kombinationen, in denen mehrere Variablen falsch sind.
+
+| Problem | Gegenmassnahme |
+| --- | --- |
+| Variable fehlt im Baustein | jede Zeile Spalte für Spalte übersetzen |
+| nur positive Variablen werden notiert | bewusst nach roten Ampeln bzw. `0`-Werten fragen |
+| Formel wird aus Intuition gebildet | zuerst Tabelle vollständig machen, danach Formel ableiten |
+
+## Praktische Diagnosefragen
+
+- Was bedeutet `0` in dieser Spalte?
+- Darf bei `A ∨ B` auch beides wahr sein?
+- Welche Tabellenzeile macht die Implikation falsch?
+- Kommt jede Variable in diesem Normalform-Baustein genau einmal vor?
+- Welche Verkehrssituation passt zu dieser Formel?
+
+[^1]: Fehér, Z., Jaruska, L., Szarka, K., & Tóthová Tarová, E. (2023). Students' propositional logic thinking in higher education from the perspective of disciplines. Frontiers in Education, 8. https://doi.org/10.3389/feduc.2023.1247653
+[^2]: Herman, G. L., Loui, M. C., Kaczmarczyk, L., & Zilles, C. (2012). Describing the What and Why of Students' Difficulties in Boolean Logic. ACM Transactions on Computing Education, 12(1), 1-28. https://doi.org/10.1145/2133797.2133800
+[^3]: Milbou, L., Deprez, J., & Laenens, E. A study on the Reintroduction of Logic in Secondary Schools.

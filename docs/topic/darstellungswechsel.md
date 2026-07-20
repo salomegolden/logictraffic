@@ -1,10 +1,35 @@
-# Darstellungswechsel in der Informatikdidaktik und in LogicTraffic
-!!! teacher "aktueller Forschungsstand"
-In der Informatik‑Didaktik wird explizit hervorgehoben, dass das Übersetzen verbaler Spezifikationen in boolesche Ausdrücke eine Schlüsselkompetenz für Digitaltechnik und diskrete Mathematik ist [^1].
+# Darstellungswechsel
 
-Hier kurz Theorie der Darstellungsformen erklären - enaktiv, ikonisch, symbolisch (nach Bruner) 
-Hier kurz Theorie der Darstellungsformen erklären - enaktiv, ikonisch, symbolisch (nach Bruner) inkl. virtuell-enaktiv nach W. Hartmann, M. Näf, and R. Reichert. Informatikunterricht planen und durchführen. Springer, Berlin, 2006. (Neue Version folgt 2026 :-)
+Ein zentrales Lernziel bei LogicTraffic ist der Wechsel zwischen verschiedenen Darstellungen derselben Situation. Lernende sollen nicht nur eine Formel sehen, sondern verstehen, wie sie aus einer Verkehrssituation, einer sprachlichen Regel und einer Wahrheitstabelle entsteht.
 
+## Darstellungsformen
 
+| Darstellung | Beispiel | Lernchance |
+| --- | --- | --- |
+| enaktiv | Kreuzung mit Autos oder Karten nachspielen | Sicherheit körperlich und anschaulich erfahren |
+| ikonisch | Kreuzung im Tool betrachten | Spuren, Wege und mögliche Kollisionen erkennen |
+| verbal | "A darf fahren, wenn B rot ist" | Bedingungen in Alltagssprache formulieren |
+| tabellarisch | Wahrheitstabelle ausfüllen | alle Fälle systematisch erfassen |
+| symbolisch | `A ∧ ¬B` | Regeln präzise und knapp ausdrücken |
 
-[^1]: Herman, G. L., Loui, M. C., Kaczmarczyk, L., & Zilles, C. (2012). Describing the What and Why of Students’ Difficulties in Boolean Logic. ACM Transactions on Computing Education, 12(1), 1–28. https://doi.org/10.1145/2133797.2133800
+## Warum der Wechsel wichtig ist
+
+Viele Schwierigkeiten entstehen nicht, weil einzelne Begriffe fehlen, sondern weil Lernende Darstellungen nicht sicher verbinden können. Eine Ampel im Bild, ein Wert in der Tabelle und ein Symbol in der Formel müssen als drei Beschreibungen derselben Sache verstanden werden.
+
+## Unterrichtliche Hinweise
+
+| Beobachtung | Möglicher Impuls |
+| --- | --- |
+| Lernende verstehen die Formel isoliert nicht | Zurück zur Kreuzung: Welche Spur ist gemeint? |
+| Eine Tabellenzeile wirkt abstrakt | Ampeln im Tool passend einstellen und die Zeile markieren |
+| Die Sprache bleibt ungenau | Satzbausteine anbieten: "Die Situation ist sicher, wenn ..." |
+| Formeln werden geraten | zuerst sichere Zeilen sammeln, dann Formel ableiten |
+
+## Verbindung zu den Aufgaben
+
+| Phase | Geeignete Seite |
+| --- | --- |
+| Einstieg über Handeln | [Enaktiver Einstieg](../unterricht/einstiegenaktiv.md) |
+| Arbeit mit dem Tool | [Einführung Online Lernumgebung](../unterricht/logictraffic.md) |
+| Tabellen systematisieren | [Wahrheitstabellen](wahrheitstabellen.md) |
+| Formeln aus Tabellen ableiten | [Normalformen](normalformen.md) |

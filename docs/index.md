@@ -1,103 +1,79 @@
-# LogicTraffic – Unterricht mit Logik, die sichtbar wird
+# LogicTraffic
 
-Willkommen bei **LogicTraffic** – einer Unterrichtsanwendung für den Informatikunterricht am Gymnasium.  
-Die Plattform unterstützt Lehrpersonen dabei, zentrale Inhalte der Aussagenlogik strukturiert, anschaulich und differenziert zu vermitteln.
+LogicTraffic unterstützt den Informatikunterricht dabei, Aussagenlogik sichtbar und handhabbar zu machen. Lernende arbeiten mit Verkehrssituationen, Wahrheitstabellen und booleschen Formeln und verbinden dabei Alltagssprache mit formaler Modellierung.
 
-## Für wen ist LogicTraffic gedacht?
+## Schnell finden
 
-**LogicTraffic richtet sich an Gymnasialehrpersonen**, die
+| Ich möchte ... | Einstieg |
+| --- | --- |
+| die Unterrichtssequenz planen | [Unterrichtsplanung](unterricht/index.md) |
+| fachliche Grundlagen nachschlagen | [Zur Sache](topic/index.md) |
+| Lernziele und Lehrplanbezug prüfen | [Unterrichtsziele](goals.md) |
+| Aufgaben zur Beurteilung auswählen | [Beurteilung](beurteilung/index.md) |
+| Arbeitsblätter und Vorlagen herunterladen | [Downloads](downloads.md) |
 
-- Logik fachlich korrekt und verständlich einführen möchten,
-- typische Fehlvorstellungen früh erkennen und gezielt bearbeiten wollen,
-- Aufgabenformate für Erarbeitung, Übung, Vertiefung und Beurteilung suchen,
-- Unterrichtseinheiten effizient planen und flexibel an Lernniveaus anpassen möchten.
+## Für wen ist die Seite gedacht?
 
-## Was Sie auf dieser Seite finden
+Diese Materialien richten sich an Lehrpersonen, die
 
-Die Inhalte sind in klaren Bereichen organisiert, damit Sie je nach Unterrichtssituation schnell das Richtige finden:
+- Aussagenlogik anschaulich und fachlich sauber einführen möchten,
+- typische Fehlvorstellungen früh erkennen wollen,
+- Aufgaben für Erarbeitung, Übung, Vertiefung und Beurteilung suchen,
+- LogicTraffic flexibel in eine eigene Unterrichtssequenz einbauen möchten.
 
-<div class="orientation-grid" markdown>
-
-<section class="orientation-item" markdown>
-<span class="orientation-label">Sachinformationen</span>
-Fachliche Grundlagen, Darstellungswechsel, Wahrheitstabellen, Normalformen und typische Lernhürden.
-</section>
-
-<section class="orientation-item" markdown>
-<span class="orientation-label">Unterrichtsplanung</span>
-Konkrete Unterrichtsbausteine vom Einstieg über LogicTraffic bis zu Übungen und Vertiefungen.
-</section>
-
-<section class="orientation-item" markdown>
-<span class="orientation-label">Unterrichtsziele</span>
-Lernziele mit Lehrplanbezug und fachlicher Einordnung.
-</section>
-
-<section class="orientation-item" markdown>
-<span class="orientation-label">Beurteilung und Material</span>
-Formative und summative Aufgaben, Beispiele aus der Erprobung sowie Downloads.
-</section>
-
-</div>
-
-## Didaktischer Mehrwert auf einen Blick
-
-- **Anschluss an Lehrpläne:** Inhalte orientieren sich an zentralen Kompetenzen Lehrplans für Gymnasien als auch des Lehrplan 21 und sind auf den dritten Zyklus ausgerichtet. 
-- **Lernwirksame Struktur:** Vom Aufbau von Grundvorstellungen durch enaktives Nachspielen bis zur Anwendung in komplexeren Aufgabenformaten.
-- **Fokus auf Verstehen statt Auswendiglernen:** Logische Zusammenhänge werden über Darstellungen, Sprache und formale Schreibweisen verknüpft.
-- **Unterstützung bei Beurteilung:** Aufgabenideen für formative und summative Lernkontrollen.
-
+## Aufbau der Materialien
 
 <div class="link-grid" markdown>
 
 <section class="link-card" markdown>
-<p class="link-card__title">Überblick</p>
-Startpunkt für die Planung: Aufbau, Reihenfolge und didaktische Idee der Unterrichtssequenz.
+<p class="link-card__title">Unterrichtsplanung</p>
+Reihenfolge, didaktische Idee und Aufgabentypen der Sequenz.
 
-[Zum Überblick](unterricht/index.md)
+[Zur Planung](unterricht/index.md)
 </section>
 
 <section class="link-card" markdown>
-<p class="link-card__title">Zur Sache</p>
-Fachliche Konzepte nachschlagen: Darstellungswechsel, Wahrheitstabellen, Normalformen und Lernhürden.
+<p class="link-card__title">Sachinformationen</p>
+Grundbegriffe, Darstellungswechsel, Wahrheitstabellen, Normalformen und Lernhürden.
 
-[Zu den Inhalten](topic/index.md)
+[Zu den Grundlagen](topic/index.md)
 </section>
 
 <section class="link-card" markdown>
-<p class="link-card__title">Lehrplan und Lernziele</p>
-Kompetenzen, Lernziele und Lehrplanbezüge für die Unterrichtssequenz prüfen.
+<p class="link-card__title">Unterrichtsziele</p>
+Kompetenzen, Lernziele und Lehrplanbezüge.
 
-[Zu Lehrplan und Lernzielen](goals.md)
+[Zu den Zielen](goals.md)
 </section>
 
 <section class="link-card" markdown>
-<p class="link-card__title">Unterricht</p>
-Einheiten auswählen: enaktiver Einstieg, Einführung in LogicTraffic, Wahrheitstabellen und Formeln.
+<p class="link-card__title">Unterrichtsmaterial</p>
+Enaktiver Einstieg, Tool-Einführung, Wahrheitstabellen und Formeln.
 
-[Zum Unterricht](unterricht/index.md)
+[Zu den Aufgaben](unterricht/logictraffic.md)
 </section>
 
 <section class="link-card" markdown>
 <p class="link-card__title">Beurteilung</p>
-Aufgaben für Lernstand, formative Rückmeldung und summative Beurteilung finden.
+Formative und summative Aufgaben mit Kriterien.
 
 [Zur Beurteilung](beurteilung/index.md)
 </section>
 
 <section class="link-card" markdown>
-<p class="link-card__title">Beispiele</p>
-Erprobte Beispiele ansehen und für eigene Lektionen adaptieren.
-
-[Zu den Beispielen](examples.md)
-</section>
-
-<section class="link-card" markdown>
 <p class="link-card__title">Downloads</p>
-Arbeitsblätter, Vorlagen und weitere Unterlagen gesammelt herunterladen.
+Arbeitsblätter, Bildmaterial und Druckvorlagen.
 
 [Zu den Downloads](downloads.md)
 </section>
 
 </div>
 
+## Didaktischer Fokus
+
+| Fokus | Bedeutung |
+| --- | --- |
+| Verstehen statt Auswendiglernen | Logische Regeln werden aus konkreten Verkehrssituationen entwickelt. |
+| Darstellungswechsel | Bild, Sprache, Tabelle und Formel werden systematisch verbunden. |
+| produktiver Umgang mit Fehlern | Unsichere Ampelsteuerungen werden analysiert und verbessert. |
+| flexible Unterrichtsplanung | Aufgaben lassen sich einzeln oder als Sequenz verwenden. |

@@ -1,116 +1,78 @@
 # Enaktiver Einstieg
 
-Diese Seite bündelt handlungsorientierte Aufgaben, mit denen Lernende Verkehrssituationen zuerst körperlich und anschaulich untersuchen, bevor sie diese formal mit Wahrheitstabellen beschreiben.
+Der enaktive Einstieg macht Verkehrssicherheit zuerst handelnd erfahrbar. Lernende legen Autos, verändern Ampeln und beschreiben sichere Zustände, bevor die formale Wahrheitstabelle eingeführt wird.
 
 <nav class="task-overview" markdown>
 [KA1 - Situation 4 enaktiv nachspielen](#ka1-situation-4-enaktiv-nachspielen)
-[EA1 - Wie beschreiben wir eine Kreuzung eindeutig?](#ea1-wie-beschreiben-wir-eine-kreuzung-eindeutig)
+[EA1 - Kreuzung eindeutig beschreiben](#ea1-kreuzung-eindeutig-beschreiben)
 </nav>
 
-## Konfrontationsaufgabe 1 - Enaktiver Einstieg in das Thema
-Das enaktive Material kann man auch gut selbst basteln. Eine entsprechende Vorlage (passend für ein Set, also eine Gruppe) findet sich hier.
+## Material
 
-### Material
-[Vorlage enaktives Material](../pdfmaterial/Druckvorlage%20für%20enaktives%20Material%20-%20Logic%20Traffic.pdf)
- 
+| Material | Hinweis |
+| --- | --- |
+| Kreuzungsfeld | mit Klebeband auf dem Tisch oder als Ausdruck |
+| Fahrzeuge | 3 bis 4 Spielzeugautos pro Gruppe |
+| Ampelkarten | pro Spur eine rote und eine grüne Karte |
+| Richtungskarten | geradeaus, links, rechts |
+| Druckvorlage | [Enaktives Material herunterladen](../pdfmaterial/Druckvorlage%20f%C3%BCr%20enaktives%20Material%20-%20Logic%20Traffic.pdf) |
+
+## Konfrontationsaufgabe
+
 <a id="ka1-situation-4-enaktiv-nachspielen"></a>
 
-??? task "KA1 - Situation 4 enaktiv nachspielen"
-    ??? meta "Didaktische Begründung"
-        Die Lernenden stellen mit einem physischen Kreuzungsmodell verschiedene Verkehrssituationen dar und entscheiden intuitiv, ob sie sicher oder unsicher sind. Bereits kleine Veränderungen führen zu kontroversen Einschätzungen - dadurch entsteht eine produktive Irritation. Diese dient als Ausgangspunkt für den Aufbau von Aussagenlogik, da deutlich wird, dass Sicherheit formal und eindeutig beschrieben werden muss.
+<details class="task-collapse" markdown>
+<summary>KA1 - Situation 4 enaktiv nachspielen</summary>
 
-    !!! goal "Ziel der Aufgabe"
-        Lernende werden körperlich-handlungsorientiert (enaktiv) an eine Verkehrssituation herangeführt.
-        Sie sollen intuitiv entscheiden, wann eine Kreuzung sicher oder unsicher ist - ohne bereits logische Begriffe zu kennen.
-        Das erzeugt Irritation ("Warum ist das jetzt unsicher?") und öffnet die Tür zur späteren formalen Modellierung.
+### Ziel
 
-    ???+ teacher "Material pro Gruppe (3-4 Personen)"
-        - Spielfläche: Ein mit Klebeband auf dem Tisch markiertes Kreuz = Kreuzung mit 4 Einfahrten oder Vorlage
-        - Fahrzeuge: 3-4 Spielzeugautos pro Gruppe
-        - Pfeilkarten für eine Richtung (gerade, links, rechts)
-        - Signalkarten: Pro "Fahrspur" ein Set aus einer roten und einer grünen Ampelkarte (oder z.B. rote und grüne LEGO-Steine)
-        - Alternativ: Ausgedruckte Kreuzungsfelder und Papierautos.
+Die Lernenden beurteilen eine Verkehrssituation intuitiv und merken, dass kleine Änderungen neue Sicherheitsfragen erzeugen. Diese Irritation bereitet die spätere formale Modellierung vor.
 
-    ### Ablauf
+### Ablauf
 
-    #### Schritt 1 - Situation legen (enaktiv)
-    Die Lernenden legen mit den Autos selbst eine konkrete Verkehrssituation (im Beispiel Situation 4) auf die passende Kreuzung:
+| Schritt | Auftrag |
+| --- | --- |
+| 1. Situation legen | Legt die Fahrzeuge auf die Kreuzung. Beispiel: D fährt von Süden geradeaus, E von Westen geradeaus, C von Osten geradeaus. |
+| 2. Sicherheit entscheiden | Legt Ampelkarten so, dass die Situation sicher ist. |
+| 3. Sichere Zustände beschreiben | Formuliert mündlich oder schriftlich, welche Ampelkombinationen sicher sind. |
+| 4. Veränderung auslösen | Verändert ein Auto oder eine Fahrtrichtung und prüft, ob die Lösung noch sicher ist. |
+| 5. Reflexion | Besprecht, warum Intuition allein schnell unübersichtlich wird. |
 
-    ![Situation 4 Enaktiv](../images/Situation4enaktiv.JPEG){ align=right width=200 }
+![Situation 4 Enaktiv](../images/Situation4enaktiv.JPEG){ width=260 }
+![Situation 4 mit Ampeln](../images/situation4enaktivampeln.JPEG){ width=260 }
 
-    - Auto D (grün) fährt von Süden geradeaus
-    - Auto E (rot) fährt von Westen geradeaus
-    - Auto C (blau) fährt von Osten geradeaus
+### Hinweise für die Durchführung
 
-    #### Schritt 2 - Entscheidung treffen ohne Regeln zu erklären
-    Welche Ampeln werden benötigt, damit die Kreuzung sicher ist?
+- Noch keine logischen Fachbegriffe einführen.
+- Nur die gelegte Situation betrachten.
+- Lernende dürfen Autos bewegen und mögliche Kollisionen ausprobieren.
+- Ziel ist nicht die perfekte Regel, sondern das Bedürfnis nach einer vollständigen Übersicht.
 
-    !!! meta "Lösung"
-        ![Situation 4 enaktiv mit Ampeln](../images/situation4enaktivampeln.JPEG){ align=right width=200 }
+</details>
 
-        In diesem Beispiel von Situation 4: dreimal geradeaus, weil die Autos alle geradeaus wollen. Die SuS bekommen dann entsprechende Ampeln.
+## Erarbeitungsaufgabe
 
-    Aufgabe: Beschreibt mit Worten (evt. schriftlich) alle sicheren Zustände - schon jetzt fällt auf, dass das in geschriebenen sprachlichen Sätzen ziemlich aufwendig ist, selbst wenn es "nur" vier sichere Zustände gibt.
+<a id="ea1-kreuzung-eindeutig-beschreiben"></a>
 
-    Die Lernenden dürfen sich bewegen, Autos umstellen, "drüberfahren" etc.
+<details class="task-collapse" markdown>
+<summary>EA1 - Kreuzung eindeutig beschreiben</summary>
 
-    !!! teacher "Hinweis zur Durchführung"
-        Keine logischen Begriffe verwenden, keine Fachregeln erklären, nur intuitives Entscheiden zulassen. Ausserdem muss darauf geachtet werden, dass nur die gelegte Situation betrachtet wird, also dass kein Auto abbiegen will etc.
+### Ziel
 
-    #### Schritt 3 - Irritation auslösen
-    Du veränderst nur ein einziges Auto: das grüne Auto fährt statt geradeaus nun rechts. "Ist es jetzt immer noch sicher? Was hat sich verändert?"
+Die Lernenden wechseln von der gelegten Situation zur fachlichen Struktur: Variablen, Zustände und vollständige Kombinationen.
 
-    ![Situation 4 verändert sich](../images/situation4enaktivgrünlinks.JPEG){ align=right width=200 }
+### Ablauf
 
-    Die Lernenden bemerken:
+| Schritt | Auftrag |
+| --- | --- |
+| 1. Problem formulieren | Warum reicht es nicht, nur einzelne sichere Fälle zu nennen? |
+| 2. Kombinationen zählen | Wie viele Rot-Grün-Kombinationen gibt es bei drei Autos? |
+| 3. Tabelle anlegen | Erstellt eine leere Tabelle mit den Spuren als Spalten. |
+| 4. Sicherheit ergänzen | Markiert für jede Kombination sicher oder unsicher. |
+| 5. Begriff sichern | Führt den Begriff Wahrheitstabelle ein. |
 
-    - Schon kleine Änderungen machen die Situation plötzlich gefährlich. Es wird eine andere Ampel benötigt.
+### Anschluss
 
-    Das ist der didaktische Kern der Konfrontationsaufgabe: Die Lernenden spüren ein Problem, das später mit Aussagenlogik formal gelöst werden soll.
+Für weitere Arbeit mit Tabellen eignet sich [Wahrheitstabellen im Unterricht](wahrheitstabellen.md). Für den Übergang ins Online-Tool passt [Einführung Online Lernumgebung](logictraffic.md).
 
-    !!! student "Vertiefung mit Reflexionsfragen"
-        Diese Fragen öffnen das Thema für die nächsten Schritte (Erarbeitungsaufgaben), in denen Variablen, Wahrheitswerte und logische Operatoren eingeführt werden.
-
-        - Welche Autos kommen sich in die Quere?
-        - Kann man diese Situation allgemein beschreiben?
-        - Was müsste man immer wissen, um Sicherheit zu beurteilen?
-        - Reicht eure Intuition? Oder braucht es klare Regeln?
-        - Weitere Karten mit entsprechenden Situationen legen, mündlich beschreiben lassen.
-
-## Erarbeitungsaufgabe 1 "Wie beschreiben wir eine Kreuzung eindeutig? - Einführung in das Konzept Wahrheitstabelle"
-Diese Erarbeitungsaufgabe eignet sich besonders als Folgeaufgabe auf Konfrontationsaufgabe 1.
-
-<a id="ea1-wie-beschreiben-wir-eine-kreuzung-eindeutig"></a>
-
-??? task "EA1 - Wie beschreiben wir eine Kreuzung eindeutig?"
-    !!! goal "Ziel der Aufgabe"
-        - Übergang von der enaktiven Arbeit mit dem Modell zur fachlichen Strukturierung
-        - Einführung in Variablen als formale Beschreibungen von Verkehrssituationen
-        - Aufbau eines ersten Verständnisses von Wahrheitswerten (0 = steht, 1 = fährt)
-        - Vorbereitung auf logische Operatoren, Wahrheitstabellen und formale Sicherheitsregeln
-        - Entwicklung einer gemeinsamen Sprache: "Wie beschreibt man eine Kreuzung logisch?"
-
-    ### Ausgangspunkt
-    !!! logictraffic "Ausgangspunkt"
-        Die Lernenden arbeiten zunächst mit genau der Verkehrssituation, die sie in der Konfrontationsaufgabe als unsicher oder verändert wahrgenommen haben. Die Lehrperson oder die SuS legen sie nochmals als Modell oder projizieren sie.
-
-    ### Ablauf
-    #### Schritt 1 - Problemstellung
-        Lehrperson stellt folgende Problemstellung: "In der letzten Aufgabe habt ihr gemerkt, dass eine kleine Veränderung (Ampel wechselt auf grün) plötzlich alles unsicher macht. Wie können wir sicherstellen, dass wir keine gefährliche Situation übersehen? Notiert eure Ideen."
-
-        Ziel: Die Lernenden formulieren das Bedürfnis nach vollständiger Übersicht.
-
-    #### Schritt 2 - Erarbeitung des Konzeptes der Wahrheitstabelle
-        "Die Kreuzung hat drei Autos. Wie viele mögliche Rot-Grün-Kombinationen gibt es? Notiert zuerst eure Vermutung, dann versucht es exakt auszuzählen."
-
-        Ziel: Lernende entdecken selbst 2³ = 8 mögliche Zustände. Damit entsteht der natürliche Übergang: "Wir brauchen eine Tabelle, die alle Kombinationen auflistet." Der Begriff Wahrheitstabelle wird erst jetzt eingeführt.
-
-    #### Schritt 3 - Wahrheitstabelle erstellen
-        Lehrperson gibt eine leere Tabelle ohne Überschrift. Die Begriffe kommen erst durch die Lernenden.
-
-        Gemeinsam werden Beschriftungen der Überschriften erarbeitet: C, D, E (Ampelzustand für die Autos) und letzte Spalte (sicher / unsicher).
-
-        ??? meta "Binär"
-            Hier entsteht die Verknüpfung zum Konzept von "binär": zwei Zustände, zum Beispiel sicher / unsicher oder rot / grün.
-
-Um das Erstellen von Wahrheitstabellen zu üben eignet sich nun das Online Tool LogicTraffic. Für die Einführung von diesem siehe: [LogicTrafficEinstieg](logictraffic.md). Für weitere Übungsaufgaben und Vertiefung zum Thema Wahrheitstabellen siehe: [Wahrheitstabellen](wahrheitstabellen.md).
+</details>

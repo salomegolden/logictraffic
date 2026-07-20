@@ -142,15 +142,27 @@
                   <ol>
                     
                       <li>
-                        <a href="#erarbeitungsaufgabe-ea-logische-verknupfungen">Erarbeitungsaufgabe (EA) - Logische Verknüpfungen</a>
+                        <a href="#vorbereitung">Vorbereitung</a>
+                        
+                      </li>
+                    
+                      <li>
+                        <a href="#erarbeitungsaufgabe">Erarbeitungsaufgabe</a>
                         
                           <ol>
                             
-                              <li><a href="#aufgabenubersicht">Aufgabenübersicht</a></li>
+                              <li><a href="#ziel">Ziel</a></li>
                             
-                              <li><a href="#aufgabe">Aufgabe</a></li>
+                              <li><a href="#ablauf">Ablauf</a></li>
+                            
+                              <li><a href="#ergebnis">Ergebnis</a></li>
                             
                           </ol>
+                        
+                      </li>
+                    
+                      <li>
+                        <a href="#anschluss">Anschluss</a>
                         
                       </li>
                     
@@ -164,43 +176,92 @@
 
       <article class="page-content">
         <h1 id="formeln-verstehen">Formeln verstehen<a class="headerlink" href="#formeln-verstehen" title="Permanent link">&para;</a></h1>
-<h2 id="erarbeitungsaufgabe-ea-logische-verknupfungen">Erarbeitungsaufgabe (EA) - Logische Verknüpfungen<a class="headerlink" href="#erarbeitungsaufgabe-ea-logische-verknupfungen" title="Permanent link">&para;</a></h2>
-<h3 id="aufgabenubersicht">Aufgabenübersicht<a class="headerlink" href="#aufgabenubersicht" title="Permanent link">&para;</a></h3>
-<ul>
-<li><a href="#ea-logische-verknuepfungen">EA - Logische Verknüpfungen</a></li>
-</ul>
-<h3 id="aufgabe">Aufgabe<a class="headerlink" href="#aufgabe" title="Permanent link">&para;</a></h3>
-<div class="admonition task">
-<p class="admonition-title">Erarbeitungsaufgabe (EA) - Logische Verknüpfungen</p>
-</div>
-<p><a id="ea-logische-verknuepfungen"></a></p>
+<p>Diese Seite führt in logische Verknüpfungen und den Formeleditor ein. Ziel ist, dass Lernende Formeln nicht nur eingeben, sondern mit Wahrheitstabellen und Verkehrssituationen verbinden.</p>
+<nav class="task-overview">
+<p><a href="#ea1-logische-verknuepfungen">EA1 - Logische Verknüpfungen</a></p>
+</nav>
+<h2 id="vorbereitung">Vorbereitung<a class="headerlink" href="#vorbereitung" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Voraussetzung</th>
+<th>Hinweis</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Variablen</td>
+<td>Lernende kennen <code>A</code>, <code>B</code>, <code>C</code> als Spuren bzw. Ampeln.</td>
+</tr>
+<tr>
+<td>Wahrheitswerte</td>
+<td><code>1</code> bedeutet grün/befahrbar, <code>0</code> bedeutet rot/gesperrt.</td>
+</tr>
+<tr>
+<td>Wahrheitstabelle</td>
+<td>Lernende können eine Tabellenzeile einer Ampelsituation zuordnen.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="erarbeitungsaufgabe">Erarbeitungsaufgabe<a class="headerlink" href="#erarbeitungsaufgabe" title="Permanent link">&para;</a></h2>
+<p><a id="ea1-logische-verknuepfungen"></a></p>
 <details class="task-collapse">
-<summary>EA - Logische Verknüpfungen</summary>
-    !!! goal "Ziel der Aufgabe" 
-
-    #### Ablauf
-    ??? student "Schritt 1 - Formeleditor entdecken"    
-         Öffne den Formeleditor
-         Schau, dass alle Zeichen funktionieren. 
-
-    ??? student "Schritt 2 - Formeln ausprobieren und Wahrheitstabellen für Operatoren entwickeln" 
-        Teste folgende Formeln (einzeln eingeben und beobachten):
-
-            A (nur Spur A)
-            B (nur Spur B)
-            A ∧ B (Konjunktion/UND)
-            A ∨ B (Disjunktion/ODER)
-            ¬A (Negation/NICHT)
-
-        Für jede Formel:
-
-            Klicke auf "In Wahrheitstabelle laden"
-            Vergleiche die Spalte "sicher" mit deiner Erwartung
-            Teste die Simulation
-
-    ??? student "Schritt 3 - Wahrheitstabellen erstellen" 
-        Erstelle für jeden Operator (∧, ∨, ¬) eine eigene Wahrheitstabelle und beschreibe mit eigenen Worten, was der Operator bedeutet.
+<summary>EA1 - Logische Verknüpfungen</summary>
+<h3 id="ziel">Ziel<a class="headerlink" href="#ziel" title="Permanent link">&para;</a></h3>
+<p>Die Lernenden entdecken die Bedeutung von <code>AND</code>, <code>OR</code> und <code>NOT</code>, indem sie Formeln im Formeleditor testen und mit Wahrheitstabellen vergleichen.</p>
+<h3 id="ablauf">Ablauf<a class="headerlink" href="#ablauf" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Schritt</th>
+<th>Auftrag</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1. Formeleditor entdecken</td>
+<td>Öffne den Formeleditor und teste, ob die Zeichen eingegeben werden können.</td>
+</tr>
+<tr>
+<td>2. Formeln ausprobieren</td>
+<td>Gib nacheinander <code>A</code>, <code>B</code>, <code>A ∧ B</code>, <code>A ∨ B</code> und <code>¬A</code> ein.</td>
+</tr>
+<tr>
+<td>3. Tabelle vergleichen</td>
+<td>Lade jede Formel in die Wahrheitstabelle und vergleiche die Spalte "sicher" mit deiner Erwartung.</td>
+</tr>
+<tr>
+<td>4. Bedeutung formulieren</td>
+<td>Beschreibe für jeden Operator in eigenen Worten, wann die Formel wahr ist.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="ergebnis">Ergebnis<a class="headerlink" href="#ergebnis" title="Permanent link">&para;</a></h3>
+<p>Am Ende haben die Lernenden für <code>∧</code>, <code>∨</code> und <code>¬</code> je eine Wahrheitstabelle und eine kurze Erklärung in Alltagssprache.</p>
 </details>
+<h2 id="anschluss">Anschluss<a class="headerlink" href="#anschluss" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Wenn ...</th>
+<th>Dann weiter mit</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>die Operatoren noch unsicher sind</td>
+<td><a href="../../topic/#operatoren">Zur Sache</a></td>
+</tr>
+<tr>
+<td>Formeln aus Tabellen entstehen sollen</td>
+<td><a href="../../topic/normalformen/">Normalformen</a></td>
+</tr>
+<tr>
+<td>das Tool stärker geübt werden soll</td>
+<td><a href="../logictraffic/">Einführung Online Lernumgebung</a></td>
+</tr>
+</tbody>
+</table>
       </article>
     </main>
 

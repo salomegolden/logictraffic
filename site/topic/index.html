@@ -142,28 +142,43 @@
                   <ol>
                     
                       <li>
-                        <a href="#grundlagen-der-aussagelogik-im-kontext-von-logic-traffic">Grundlagen der Aussagelogik im Kontext von Logic Traffic</a>
+                        <a href="#orientierung">Orientierung</a>
+                        
+                      </li>
+                    
+                      <li>
+                        <a href="#grundidee-von-logictraffic">Grundidee von LogicTraffic</a>
+                        
+                      </li>
+                    
+                      <li>
+                        <a href="#zentrale-begriffe">Zentrale Begriffe</a>
+                        
+                      </li>
+                    
+                      <li>
+                        <a href="#aussagenlogik-in-logictraffic">Aussagenlogik in LogicTraffic</a>
+                        
+                      </li>
+                    
+                      <li>
+                        <a href="#operatoren">Operatoren</a>
                         
                           <ol>
                             
-                              <li><a href="#variablen-und-zustande">Variablen und Zustände</a></li>
-                            
-                              <li><a href="#aussagen">Aussagen</a></li>
-                            
-                              <li><a href="#junktoren-und-operatoren">Junktoren und Operatoren</a></li>
+                              <li><a href="#wahrheitstabellen-der-operatoren">Wahrheitstabellen der Operatoren</a></li>
                             
                           </ol>
                         
                       </li>
                     
                       <li>
-                        <a href="#darstellung-der-situationen-in-logictraffic">Darstellung der Situationen in LogicTraffic</a>
+                        <a href="#darstellungen-in-logictraffic">Darstellungen in LogicTraffic</a>
                         
-                          <ol>
-                            
-                              <li><a href="#symbolische-darstellungen-in-logictraffic">Symbolische Darstellungen in LogicTraffic</a></li>
-                            
-                          </ol>
+                      </li>
+                    
+                      <li>
+                        <a href="#weiterarbeiten">Weiterarbeiten</a>
                         
                       </li>
                     
@@ -177,130 +192,191 @@
 
       <article class="page-content">
         <h1 id="zur-sache">Zur Sache<a class="headerlink" href="#zur-sache" title="Permanent link">&para;</a></h1>
-<div class="admonition teacher">
-<p class="admonition-title">LogicTraffic</p>
-<p>LogicTraffic simuliert eine Strassenkreuzung mit Ampeln für verschiedene Fahrspuren. Ziel ist es, eine logische Formel zu finden, die sicherstellt, dass kreuzende Spuren nie gleichzeitig grün haben – so verhindert man Unfälle. Das Programm zeigt, wie Logik im Alltag (z. B. Ampelsteuerung) angewendet wird <sup id="fnref:12"><a class="footnote-ref" href="#fn:12">11</a></sup>.</p>
-</div>
-<h2 id="grundlagen-der-aussagelogik-im-kontext-von-logic-traffic">Grundlagen der Aussagelogik im Kontext von Logic Traffic<a class="headerlink" href="#grundlagen-der-aussagelogik-im-kontext-von-logic-traffic" title="Permanent link">&para;</a></h2>
-<p>In der <strong>Aussagenlogik</strong> arbeiten wir mit Aussagen, denen eindeutig ein Wahrheitswert (wahr/<code>true</code>/1 oder falsch/<code>false</code>/0) zugeordnet werden kann <sup id="fnref:11"><a class="footnote-ref" href="#fn:11">10</a></sup>.</p>
-<details class="student" open="open">
-<summary>Boolesche Logik</summary>
-<p><strong>Boolesche Logik</strong> ist die formale Logik mit genau zwei Wahrheitswerten (wahr/falsch bzw. 1/0), in der Aussagen mit Junktoren wie UND (<span class="arithmatex">\(\land\)</span>), ODER (<span class="arithmatex">\(\lor\)</span>) und Negation (<span class="arithmatex">\(\neg\)</span>) verknüpft werden <sup id="fnref:5"><a class="footnote-ref" href="#fn:5">4</a></sup>.</p>
-</details>
-<details class="logictraffic" open="open">
-<summary>Aussagelogik und Logictraffic</summary>
-<p><strong>LogicTraffic</strong> nutzt Aussagenlogik zur formalen Modellierung von Ampelzuständen an Kreuzungen. Jeder Spur bzw. Ampel ist eine Variable (A, B, C, …) zugewiesen und Formeln beschreiben bestimte Zustände (z.B. "<span class="arithmatex">\(A\)</span> grün <span class="arithmatex">\(\lor B\)</span> rot" bzw. "Spur A befahrbar, Spur B gesperrt") <sup id="fnref3:11"><a class="footnote-ref" href="#fn:11">10</a></sup>, <sup id="fnref:10"><a class="footnote-ref" href="#fn:10">9</a></sup>. </p>
-</details>
-<h3 id="variablen-und-zustande">Variablen und Zustände<a class="headerlink" href="#variablen-und-zustande" title="Permanent link">&para;</a></h3>
-<p>Eine boolsche Variable ist in der Informatik die kleinste Informationseinheit. Sie trägt genau eine Information, die entweder zutrifft oder eben nicht.</p>
-<details class="logictraffic">
-<summary>Variable in LogicTraffic</summary>
-<p>In LogicTraffic steht jede Variable für den Zustand einer Ampel (rot <span class="arithmatex">\(0\)</span>  / grün <span class="arithmatex">\(1\)</span>) <sup id="fnref2:10"><a class="footnote-ref" href="#fn:10">9</a></sup>, <sup id="fnref4:11"><a class="footnote-ref" href="#fn:11">10</a></sup>.</p>
-</details>
-<h3 id="aussagen">Aussagen<a class="headerlink" href="#aussagen" title="Permanent link">&para;</a></h3>
-<details class="student" open="open">
-<summary>Beispiele für Aussagen</summary>
-<p>Beispiele für Aussagen:</p>
-<ul>
-<li>"Die Ampel A ist grün."</li>
-<li>"Auto fährt von Norden nach Süden."</li>
-<li>„Abbiegen nach rechts ist auf dieser Strasse erlaubt.“  </li>
-</ul>
-</details>
-<p>eine <strong>Aussage</strong> wird durch drei Eigenschaften beschrieben <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup>, <sup id="fnref:7"><a class="footnote-ref" href="#fn:7">6</a></sup>: </p>
-<ol>
-<li>eine Aussage ist eine sprachliche Einheit, die einen Sachverhalt ausdrückt.</li>
-<li>Eine Aussage ist entweder <em>wahr</em> (Wahrheitswert <span class="arithmatex">\(1\)</span>) oder <em>falsch</em> (Wahrheitswert <span class="arithmatex">\(0\)</span>).</li>
-<li>Die Sprache ist beliebig (natürlich oder formal)</li>
-</ol>
-<details class="logictraffic">
-<summary>Aussage in LogicTaffic</summary>
-<p>Aussagen beschreiben überprüfbare Sachverhalte (z. B. „Ampel A grün bzw. Spur ist befahrbar.“ → Variable A=1). In LogicTraffic gelten Aussagen für Spuren und Ampeln: "Ampel B hat grün“ ist äquivalent zu "Spur B ist befahrbar" und werden in LogicTraffic kompakt als <span class="arithmatex">\(B = 1\)</span> wiedergegeben. Derartige Aussagen werden zu logischen Formeln verknüpft, um scihere Kruezungskonfigurationen zu modellieren <sup id="fnref3:10"><a class="footnote-ref" href="#fn:10">9</a></sup>, <sup id="fnref5:11"><a class="footnote-ref" href="#fn:11">10</a></sup>. </p>
-<details class="student">
-<summary>Beispiele für Aussagen aus LogicTraffic</summary>
-<ul>
-<li>Einfache Aussage: A = "Spur A hat grün" </li>
-<li>Zusdammengesetzte Aussage: <span class="arithmatex">\(A \land \neg B\)</span> =&gt; „Spur A hat grün UND Spur B hat rot.“ (verhindert Kollision).</li>
-</ul>
-</details>
-<details class="teacher">
-<summary>Aussagen entdecken</summary>
-</details>
-<p>Schüler:innen experimentieren, indem sie Ampeln klicken und sehen, wie Aussagen in der Wahrheitstabelle wahr/falsch werden.</p>
-</details>
-<h3 id="junktoren-und-operatoren">Junktoren und Operatoren<a class="headerlink" href="#junktoren-und-operatoren" title="Permanent link">&para;</a></h3>
-<details class="meta">
-<summary>Definition von Junktor</summary>
-<p><strong>Junktor</strong>: Ein Junktor (lat. <em>iungere</em> = verbinden) ist ein logisches Verknüpfungszeichen, das zwei oder mehr Aussagen zu einer neuen Aussage verbindet <sup id="fnref2:7"><a class="footnote-ref" href="#fn:7">6</a></sup>. </p>
-<!-- ich meine tatsächlich, dass eine Negation kein Junktor ist, schaue ich aber nochmals nach!-->
-</details>
-<div class="admonition teacher">
-<p class="admonition-title">Junktoren in der Unterrichtseinheit</p>
-<p>In dieser UE werden drei grundlegende Junktoren behandelt:</p>
-<ol>
-<li><strong>Konjunktion</strong> <span class="arithmatex">\(\land\)</span> (UND)</li>
-<li><strong>Disjunktion</strong> <span class="arithmatex">\(\lor\)</span> (ODER, inkl. inklusiver Sinn)</li>
-<li><strong>Negation</strong> <span class="arithmatex">\(\neg\)</span> (NICHT) – unärer Junktor</li>
-</ol>
-<p>Die Implikation <span class="arithmatex">\(\rightarrow\)</span> wird als abgeleiteter Operator eingeführt: <span class="arithmatex">\(A \to B \equiv \neg A \lor B\)</span></p>
-</div>
-<details class="student" open="open">
-<summary>Junktoren für SuS</summary>
-<p>Junktoren sind wie <strong>Bindewörter</strong> in der Grammatik: ‚und‘, ‚oder‘, ‚nicht‘ verbinden Wörter zu Sätzen – hier verbinden sie Aussagen zu neuen Aussagen <sup id="fnref2:5"><a class="footnote-ref" href="#fn:5">4</a></sup>.  </p>
-</details>
-<details class="student" open="open">
-<summary>Operatoren für SuS</summary>
-<p><strong>Operatoren</strong> in der Aussagenlogik sind die „Rechenzeichen“, die aus Eingabewerten (wahr/falsch) einen Ausgabewert erzeugen. Sie definieren boolesche Funktionen <sup id="fnref:9"><a class="footnote-ref" href="#fn:9">8</a></sup> <sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup>. </p>
-</details>
-<p><strong>Operatoren-Tabelle</strong> (für diese UE):</p>
+<p>Diese Seite gibt einen kompakten Überblick über die fachlichen Grundlagen von LogicTraffic. Für ausführlichere Erklärungen sind die Vertiefungsseiten verlinkt.</p>
+<h2 id="orientierung">Orientierung<a class="headerlink" href="#orientierung" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Bereich</th>
+<th>Wofür ist er hilfreich?</th>
+<th>Vertiefung</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Aussagelogik</td>
+<td>Grundbegriffe verstehen: Aussage, Wahrheitswert, Variable, Junktor</td>
+<td>diese Seite</td>
+</tr>
+<tr>
+<td>Darstellungswechsel</td>
+<td>Verstehen, wie Verkehrssituation, Sprache, Tabelle und Formel zusammenhängen</td>
+<td><a href="darstellungswechsel/">Darstellungswechsel</a></td>
+</tr>
+<tr>
+<td>Wahrheitstabellen</td>
+<td>Systematisch alle Ampelzustände erfassen und Sicherheit prüfen</td>
+<td><a href="wahrheitstabellen/">Wahrheitstabellen</a></td>
+</tr>
+<tr>
+<td>Normalformen</td>
+<td>Aus Wahrheitstabellen Formeln erzeugen und vergleichen</td>
+<td><a href="normalformen/">Normalformen</a></td>
+</tr>
+<tr>
+<td>Lernhürden</td>
+<td>Typische Fehlvorstellungen erkennen und im Unterricht bearbeiten</td>
+<td><a href="difficulties/">Lern- und Lehrherausforderungen</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="grundidee-von-logictraffic">Grundidee von LogicTraffic<a class="headerlink" href="#grundidee-von-logictraffic" title="Permanent link">&para;</a></h2>
+<p>LogicTraffic simuliert eine Strassenkreuzung mit Ampeln für verschiedene Fahrspuren. Ziel ist es, eine logische Formel zu finden, die sicherstellt, dass kreuzende Spuren nie gleichzeitig grün haben. Dadurch wird sichtbar, wie Aussagenlogik in einem alltagsnahen Steuerungsproblem angewendet wird.<sup id="fnref:11"><a class="footnote-ref" href="#fn:11">9</a></sup><sup id="fnref:12"><a class="footnote-ref" href="#fn:12">10</a></sup></p>
+<p>In LogicTraffic wird jede Fahrspur durch eine Variable beschrieben. Eine Ampel ist entweder rot (<code>0</code>) oder grün (<code>1</code>). Die Wahrheitstabelle listet alle möglichen Kombinationen dieser Ampelzustände auf. Die Formel beschreibt anschliessend, welche Kombinationen sicher sind.</p>
+<h2 id="zentrale-begriffe">Zentrale Begriffe<a class="headerlink" href="#zentrale-begriffe" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Begriff</th>
+<th>Kurze Erklärung</th>
+<th>Beispiel in LogicTraffic</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Aussage</td>
+<td>Ein Sachverhalt, der eindeutig wahr oder falsch ist.<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup><sup id="fnref:7"><a class="footnote-ref" href="#fn:7">5</a></sup></td>
+<td>"Ampel A ist grün."</td>
+</tr>
+<tr>
+<td>Wahrheitswert</td>
+<td>Wert einer Aussage: wahr/<code>1</code> oder falsch/<code>0</code></td>
+<td><code>A = 1</code> bedeutet: Spur A ist befahrbar.</td>
+</tr>
+<tr>
+<td>Variable</td>
+<td>Platzhalter für eine Aussage oder einen Zustand</td>
+<td><code>A</code>, <code>B</code>, <code>C</code> stehen für Fahrspuren bzw. Ampeln.</td>
+</tr>
+<tr>
+<td>Junktor</td>
+<td>Logisches Verknüpfungszeichen, das Aussagen verbindet.<sup id="fnref2:7"><a class="footnote-ref" href="#fn:7">5</a></sup></td>
+<td><code>A ∧ B</code>, <code>A ∨ B</code>, <code>¬A</code></td>
+</tr>
+<tr>
+<td>Operator</td>
+<td>Rechenzeichen der booleschen Logik; erzeugt aus Wahrheitswerten neue Wahrheitswerte.<sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup><sup id="fnref:9"><a class="footnote-ref" href="#fn:9">7</a></sup></td>
+<td>UND, ODER, NICHT</td>
+</tr>
+<tr>
+<td>Boolesche Funktion</td>
+<td>Ordnet jeder Kombination von Eingabewerten genau einen Ausgabewert zu.<sup id="fnref3:7"><a class="footnote-ref" href="#fn:7">5</a></sup></td>
+<td>Eine Sicherheitsregel für eine Kreuzung</td>
+</tr>
+<tr>
+<td>Wahrheitstabelle</td>
+<td>Tabelle mit allen <code>2^n</code> Kombinationen von <code>n</code> Variablen.<sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup><sup id="fnref:8"><a class="footnote-ref" href="#fn:8">6</a></sup></td>
+<td>Alle Rot-Grün-Kombinationen einer Situation</td>
+</tr>
+<tr>
+<td>Normalform</td>
+<td>Standardisierte Form einer booleschen Formel</td>
+<td>DNF, KNF, KDNF, KKNF</td>
+</tr>
+</tbody>
+</table>
+<h2 id="aussagenlogik-in-logictraffic">Aussagenlogik in LogicTraffic<a class="headerlink" href="#aussagenlogik-in-logictraffic" title="Permanent link">&para;</a></h2>
+<p>In der Aussagenlogik werden Aussagen mit genau zwei möglichen Wahrheitswerten betrachtet: wahr oder falsch. In LogicTraffic entspricht das dem Ampelzustand:</p>
+<table>
+<thead>
+<tr>
+<th>Logischer Wert</th>
+<th>Bedeutung in LogicTraffic</th>
+<th>Alltagssprache</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>1</code></td>
+<td>Ampel ist grün</td>
+<td>Die Spur ist befahrbar.</td>
+</tr>
+<tr>
+<td><code>0</code></td>
+<td>Ampel ist rot</td>
+<td>Die Spur ist gesperrt.</td>
+</tr>
+</tbody>
+</table>
+<p>Eine einfache Aussage ist zum Beispiel:</p>
+<table>
+<thead>
+<tr>
+<th>Schreibweise</th>
+<th>Bedeutung</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>A</code></td>
+<td>Spur A hat grün.</td>
+</tr>
+<tr>
+<td><code>¬A</code></td>
+<td>Spur A hat nicht grün, also rot.</td>
+</tr>
+<tr>
+<td><code>A ∧ ¬B</code></td>
+<td>Spur A hat grün und Spur B hat rot.</td>
+</tr>
+</tbody>
+</table>
+<p>Solche Aussagen werden zu Formeln verknüpft. Eine Formel beschreibt dann nicht mehr nur eine einzelne Ampel, sondern eine ganze Sicherheitsregel für die Kreuzung.<sup id="fnref:10"><a class="footnote-ref" href="#fn:10">8</a></sup><sup id="fnref2:11"><a class="footnote-ref" href="#fn:11">9</a></sup></p>
+<h2 id="operatoren">Operatoren<a class="headerlink" href="#operatoren" title="Permanent link">&para;</a></h2>
+<p>In dieser Unterrichtseinheit stehen drei grundlegende Operatoren im Zentrum. Die Implikation kann als zusätzlicher Operator eingeführt werden, ist aber didaktisch anspruchsvoller.</p>
 <table>
 <thead>
 <tr>
 <th>Operator</th>
-<th>LaTeX</th>
-<th>Verbale Bedeutung</th>
-<th>Logische Äquivalenz</th>
+<th>Zeichen</th>
+<th>Bedeutung</th>
+<th>Wann ist der Ausdruck wahr?</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>Negation</td>
-<td><code>\(\neg A\)</code></td>
-<td>„nicht A“</td>
-<td><span class="arithmatex">\(\neg A\)</span></td>
+<td><code>¬A</code></td>
+<td>nicht A</td>
+<td>wenn <code>A</code> falsch ist</td>
 </tr>
 <tr>
 <td>Konjunktion</td>
-<td><code>A \(\land\) B</code></td>
-<td>„A und B“</td>
-<td><span class="arithmatex">\(A \land B\)</span></td>
+<td><code>A ∧ B</code></td>
+<td>A und B</td>
+<td>wenn beide Aussagen wahr sind</td>
 </tr>
 <tr>
 <td>Disjunktion</td>
-<td><code>A \(\lor\) B</code></td>
-<td>„A oder B“</td>
-<td><span class="arithmatex">\(A \lor B\)</span></td>
+<td><code>A ∨ B</code></td>
+<td>A oder B</td>
+<td>wenn mindestens eine Aussage wahr ist</td>
 </tr>
 <tr>
 <td>Implikation</td>
-<td><code>A \(\to\) B</code></td>
-<td>„wenn A, dann B“</td>
-<td><span class="arithmatex">\(A \rightarrow B\)</span></td>
+<td><code>A → B</code></td>
+<td>wenn A, dann B</td>
+<td>immer ausser bei <code>A = 1</code> und <code>B = 0</code></td>
 </tr>
 </tbody>
 </table>
-<div class="admonition error inline end">
-<p class="admonition-title">Typische Fehlvorstellungen</p>
-<p>Gerade zu den Operatoren sind Fehlvorstellungen weit verbreitet <sup id="fnref:6"><a class="footnote-ref" href="#fn:6">5</a></sup>. Es lohnt sich, diese zu kennen und im Unterricht auf sie zu achten. Die üblichen Fehlvorstellungen können hier nachgelesen werden: <a href="difficulties/">Fehlvorstellungen</a></p>
-</div>
-<p>Die Wahrheitstabellen der Operatoren in dieser Unterrichtseinheit stellen sich folgendermassen dar: </p>
-<h4 id="negation-not">Negation NOT<a class="headerlink" href="#negation-not" title="Permanent link">&para;</a></h4>
-<p>In der boolschen Algebra ist NICHT eine Grundverknüpfung bei der der Ausdruck den Wahrheitswert umkehrt. Die Wahrheitstabelle fasst hier alle möglichen Kombinationen zusammen <sup id="fnref:13"><a class="footnote-ref" href="#fn:13">12</a></sup>: </p>
+<h3 id="wahrheitstabellen-der-operatoren">Wahrheitstabellen der Operatoren<a class="headerlink" href="#wahrheitstabellen-der-operatoren" title="Permanent link">&para;</a></h3>
+<h4 id="negation">Negation<a class="headerlink" href="#negation" title="Permanent link">&para;</a></h4>
 <table>
 <thead>
 <tr>
-<th><span class="arithmatex">\(A\)</span></th>
-<th><span class="arithmatex">\(\neg A\)</span></th>
+<th><code>A</code></th>
+<th><code>¬A</code></th>
 </tr>
 </thead>
 <tbody>
@@ -314,14 +390,13 @@
 </tr>
 </tbody>
 </table>
-<h4 id="konjunktion-and">Konjunktion AND<a class="headerlink" href="#konjunktion-and" title="Permanent link">&para;</a></h4>
-<p>Die Konjunktion ist die UND-Verknüpfung. Sie ist genau dann wahr, wenn beide Teilaussagen A und B wahr sind. Sie ist also falsch, wenn nur eine der beiden Aussagen falsch ist. Hier die Wahrheitstabelle dazu <sup id="fnref2:13"><a class="footnote-ref" href="#fn:13">12</a></sup>: </p>
+<h4 id="konjunktion">Konjunktion<a class="headerlink" href="#konjunktion" title="Permanent link">&para;</a></h4>
 <table>
 <thead>
 <tr>
-<th><span class="arithmatex">\(A\)</span></th>
-<th><span class="arithmatex">\(B\)</span></th>
-<th><span class="arithmatex">\(A \land B\)</span></th>
+<th><code>A</code></th>
+<th><code>B</code></th>
+<th><code>A ∧ B</code></th>
 </tr>
 </thead>
 <tbody>
@@ -347,14 +422,13 @@
 </tr>
 </tbody>
 </table>
-<h4 id="diskunktion-or">Diskunktion OR<a class="headerlink" href="#diskunktion-or" title="Permanent link">&para;</a></h4>
-<p>Die Disjunktion ist die einschliessende ODER-Verknüpfung. Sie ist, anders als die Konjunktion, wahr sobald einer der Aussagen (A oder B) wahr ist. Sie ist nur falsch, wenn beide Aussagen falsch sind. Dies zeigt auch die zugehörige Wahrheitstabelle <sup id="fnref3:13"><a class="footnote-ref" href="#fn:13">12</a></sup>: </p>
+<h4 id="disjunktion">Disjunktion<a class="headerlink" href="#disjunktion" title="Permanent link">&para;</a></h4>
 <table>
 <thead>
 <tr>
-<th><span class="arithmatex">\(A\)</span></th>
-<th><span class="arithmatex">\(B\)</span></th>
-<th><span class="arithmatex">\(A \lor B\)</span></th>
+<th><code>A</code></th>
+<th><code>B</code></th>
+<th><code>A ∨ B</code></th>
 </tr>
 </thead>
 <tbody>
@@ -381,22 +455,13 @@
 </tbody>
 </table>
 <h4 id="implikation">Implikation<a class="headerlink" href="#implikation" title="Permanent link">&para;</a></h4>
-<div class="admonition meta">
-<p class="admonition-title">Implikation und Umgangssprache</p>
-<p>Die Implikation ist die Verknüpfung, die sich am weitesten von der umgangssprachlichen Logik entfernt. Deshalb ist die umgangssprachliche Übersetzung der Implikation in die Formulierung „Aus A folgt B“ mit Vorsicht anzuwenden da dies nicht immer korrekt ist und impliziert, dass die beiden Teilaussagen gleichberechtigt sind, was bei der Implikation nicht mehr der Fall ist <sup id="fnref4:13"><a class="footnote-ref" href="#fn:13">12</a></sup>. 
- Empfohlen wird zum Beispiel die Formulierung: "A impliziert B" oder "A ist hinreichend für B" sowie "B ist notwendig für A"</p>
-</div>
-<div class="admonition student">
-<p class="admonition-title">Begrifflichkeiten</p>
-<p>Damit die Implikation von Schüler:innen einfacher verstanden werden kann, lohnt es sich, die Begrifflichkeiten der Voraussetzung und der Schlussfolgerung einzuführen. Dabei wird die links vom Junktor stehende Aussage Voraussetzung und die rechtsstehende Schlussfolgerung genannt. </p>
-</div>
-<p>Eine Aussage A ⇒ B ist nur dann falsch, wenn A wahr und B falsch ist. Wenn man von einer falschen Voraussetzung A ausgeht und eine wahre Schlussfolgerung B hervorbringt, gilt die Implikation immer noch als richtig. Übersichtlicher wird diese Logik in der zugehörigen Wahrheitstabelle: </p>
+<p>Die Implikation entfernt sich am stärksten von der Alltagssprache. Formulierungen wie "Aus A folgt B" können missverständlich sein, weil sie schnell kausal verstanden werden. Präziser ist: <code>A</code> ist hinreichend für <code>B</code>, oder <code>B</code> ist notwendig für <code>A</code>.<sup id="fnref:13"><a class="footnote-ref" href="#fn:13">11</a></sup></p>
 <table>
 <thead>
 <tr>
-<th><span class="arithmatex">\(A\)</span></th>
-<th><span class="arithmatex">\(B\)</span></th>
-<th><span class="arithmatex">\(A \Rightarrow B\)</span></th>
+<th><code>A</code></th>
+<th><code>B</code></th>
+<th><code>A → B</code></th>
 </tr>
 </thead>
 <tbody>
@@ -406,14 +471,14 @@
 <td>1</td>
 </tr>
 <tr>
+<td>1</td>
 <td>0</td>
-<td>1</td>
-<td>1</td>
+<td>0</td>
 </tr>
 <tr>
+<td>0</td>
 <td>1</td>
-<td>0</td>
-<td>0</td>
+<td>1</td>
 </tr>
 <tr>
 <td>0</td>
@@ -422,31 +487,68 @@
 </tr>
 </tbody>
 </table>
-<h2 id="darstellung-der-situationen-in-logictraffic">Darstellung der Situationen in LogicTraffic<a class="headerlink" href="#darstellung-der-situationen-in-logictraffic" title="Permanent link">&para;</a></h2>
-<p>Logische Funktionen lassen sich ikonisch (bildlich), symbolisch (Formel, Wahrheitstabelle) und verbal (natürliche Sprache) darstellen. LogicTraffic nutzt alle Ebenen für einheitliche Verständnisentwicklung <sup id="fnref2:11"><a class="footnote-ref" href="#fn:11">10</a></sup>.</p>
-<div class="admonition teacher">
-<p class="admonition-title">Didaktik des Darstellungswechsels</p>
-<p><strong>Darstellungswechsel</strong> (enaktiv → ikonisch → symbolisch): Detaillierte Unterrichtstipps siehe <a href="darstellungswechsel/">Darstellungswechsel</a>.</p>
-</div>
-<h3 id="symbolische-darstellungen-in-logictraffic">Symbolische Darstellungen in LogicTraffic<a class="headerlink" href="#symbolische-darstellungen-in-logictraffic" title="Permanent link">&para;</a></h3>
-<h4 id="wahrheitstabellen">Wahrheitstabellen<a class="headerlink" href="#wahrheitstabellen" title="Permanent link">&para;</a></h4>
-<details class="student" open="open">
-<summary>Definition Wahrheitstabelle</summary>
-<p>Eine <strong>Wahrheitstabelle</strong> listet für alle <span class="arithmatex">\(2^n\)</span> Eingabekombinationen <span class="arithmatex">\(n\)</span> Variablen den Ausgabewert einer booleschen Funktion auf <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup>, <sup id="fnref:8"><a class="footnote-ref" href="#fn:8">7</a></sup>. </p>
-</details>
-<div class="admonition teacher">
-<p class="admonition-title">Wahrheitstabellen im Unterricht</p>
-<p>Zwischenschritt ikonisch ↔ symbolisch: Anleitung und Übungen siehe <a href="wahrheitstabellen/">Wahrheitstabellen</a>.</p>
-</div>
-<h4 id="formeln">Formeln<a class="headerlink" href="#formeln" title="Permanent link">&para;</a></h4>
-<details class="student" open="open">
-<summary>Definition boolesche (Aussagen-)Funktion</summary>
-<p>Eine boolesche (Aussagen‑)Funktion ordnet jeder Kombination von Eingabewahrheitswerten (z.B. A, B) genau einen Ausgabewert (0 oder 1) zu <sup id="fnref3:7"><a class="footnote-ref" href="#fn:7">6</a></sup>.</p>
-</details>
-<div class="admonition teacher">
-<p class="admonition-title">Normalformeln</p>
-<p>Auf der folgenden Seite werden behandelten Normalformeln, ihre Herleitung und Anwendung in LogicTraffic nochmals genau erklärt: <a href="normalformen/">Normalformen</a></p>
-</div>
+<p>Gerade bei Operatoren treten häufig Fehlvorstellungen auf, besonders beim inklusiven Oder und bei der Implikation. Eine Übersicht dazu findet sich unter <a href="difficulties/">Lern- und Lehrherausforderungen</a>.<sup id="fnref:6"><a class="footnote-ref" href="#fn:6">4</a></sup></p>
+<h2 id="darstellungen-in-logictraffic">Darstellungen in LogicTraffic<a class="headerlink" href="#darstellungen-in-logictraffic" title="Permanent link">&para;</a></h2>
+<p>LogicTraffic verbindet mehrere Darstellungsformen. Das ist didaktisch wichtig, weil Lernende nicht nur Formeln sehen, sondern zwischen Situation, Sprache, Tabelle und Formel wechseln müssen.</p>
+<table>
+<thead>
+<tr>
+<th>Darstellung</th>
+<th>In LogicTraffic</th>
+<th>Lernfunktion</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ikonisch</td>
+<td>Kreuzung, Spuren, Ampeln</td>
+<td>Situation anschaulich erfassen</td>
+</tr>
+<tr>
+<td>verbal</td>
+<td>Beschreibung sicherer und unsicherer Zustände</td>
+<td>Regeln in Alltagssprache formulieren</td>
+</tr>
+<tr>
+<td>tabellarisch</td>
+<td>Wahrheitstabelle</td>
+<td>alle Fälle systematisch prüfen</td>
+</tr>
+<tr>
+<td>symbolisch</td>
+<td>boolesche Formel</td>
+<td>Sicherheitsregel formal ausdrücken</td>
+</tr>
+</tbody>
+</table>
+<p>Der Wechsel zwischen diesen Darstellungen ist ein zentraler Lernschritt. Ausführlicher wird er auf der Seite <a href="darstellungswechsel/">Darstellungswechsel</a> erklärt.</p>
+<h2 id="weiterarbeiten">Weiterarbeiten<a class="headerlink" href="#weiterarbeiten" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Wenn Sie ...</th>
+<th>Dann passt diese Seite</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Wahrheitstabellen fachlich erklären oder im Unterricht einsetzen möchten</td>
+<td><a href="wahrheitstabellen/">Wahrheitstabellen</a></td>
+</tr>
+<tr>
+<td>Formeln aus Tabellen herleiten möchten</td>
+<td><a href="normalformen/">Normalformen</a></td>
+</tr>
+<tr>
+<td>typische Denkfehler vorbereiten möchten</td>
+<td><a href="difficulties/">Lern- und Lehrherausforderungen</a></td>
+</tr>
+<tr>
+<td>konkrete Aufgaben für den Unterricht suchen</td>
+<td><a href="../unterricht/">Unterrichtsplanung</a></td>
+</tr>
+</tbody>
+</table>
 <div class="footnote">
 <hr />
 <ol>
@@ -459,32 +561,29 @@
 <li id="fn:3">
 <p>Kreuzer, M., &amp; Kühling, S. (2014). <em>Logik für Informatiker</em>. Pearson Deutschland. <a href="https://elibrary.pearson.de/book/99.150005/9783863267391">https://elibrary.pearson.de/book/99.150005/9783863267391</a>&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
 </li>
-<li id="fn:5">
-<p>Staab, F. (2012). <em>Logik und Algebra: Eine praxisbezogene Einführung für Informatiker und Wirtschaftsinformatiker</em> (2. Aufl). De Gruyter. <a href="https://doi.org/10.1524/9783486717532">https://doi.org/10.1524/9783486717532</a>&#160;<a class="footnote-backref" href="#fnref:5" title="Jump back to footnote 4 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:5" title="Jump back to footnote 4 in the text">&#8617;</a></p>
-</li>
 <li id="fn:6">
-<p>Herman, G. L., Loui, M. C., Kaczmarczyk, L., &amp; Zilles, C. (2012). Describing the What and Why of Students’ Difficulties in Boolean Logic. ACM Transactions on Computing Education, 12(1), 1–28. https://doi.org/10.1145/2133797.2133800&#160;<a class="footnote-backref" href="#fnref:6" title="Jump back to footnote 5 in the text">&#8617;</a></p>
+<p>Herman, G. L., Loui, M. C., Kaczmarczyk, L., &amp; Zilles, C. (2012). Describing the What and Why of Students' Difficulties in Boolean Logic. ACM Transactions on Computing Education, 12(1), 1-28. https://doi.org/10.1145/2133797.2133800&#160;<a class="footnote-backref" href="#fnref:6" title="Jump back to footnote 4 in the text">&#8617;</a></p>
 </li>
 <li id="fn:7">
-<p>Boolesche Funktionen und ihre Normalformen. (2021, Juni 22). https://lehrerfortbildung-bw.de/u_matnatech/imp/gym/bp2016/fb2/m02_aug/1_hintergrund/4_grund/06_funktionen/&#160;<a class="footnote-backref" href="#fnref:7" title="Jump back to footnote 6 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:7" title="Jump back to footnote 6 in the text">&#8617;</a><a class="footnote-backref" href="#fnref3:7" title="Jump back to footnote 6 in the text">&#8617;</a></p>
+<p>Boolesche Funktionen und ihre Normalformen. (2021, Juni 22). https://lehrerfortbildung-bw.de/u_matnatech/imp/gym/bp2016/fb2/m02_aug/1_hintergrund/4_grund/06_funktionen/&#160;<a class="footnote-backref" href="#fnref:7" title="Jump back to footnote 5 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:7" title="Jump back to footnote 5 in the text">&#8617;</a><a class="footnote-backref" href="#fnref3:7" title="Jump back to footnote 5 in the text">&#8617;</a></p>
 </li>
 <li id="fn:8">
-<p>Wahrheitstafeln—Theoretisches Material. Mathematik, 6. Schulstufe. (o. J.). Abgerufen 17. März 2026, von https://www.yaclass.at/p/mathematik/6-schulstufe/mengen-und-mengenoperationen-17080/aussagen-und-mengen-17463/re-519f4254-a9a1-457b-aa7e-38b6386d9b1c&#160;<a class="footnote-backref" href="#fnref:8" title="Jump back to footnote 7 in the text">&#8617;</a></p>
+<p>Wahrheitstafeln - Theoretisches Material. Mathematik, 6. Schulstufe. (o. J.). Abgerufen 17. März 2026, von https://www.yaclass.at/p/mathematik/6-schulstufe/mengen-und-mengenoperationen-17080/aussagen-und-mengen-17463/re-519f4254-a9a1-457b-aa7e-38b6386d9b1c&#160;<a class="footnote-backref" href="#fnref:8" title="Jump back to footnote 6 in the text">&#8617;</a></p>
 </li>
 <li id="fn:9">
-<p>Hintergrund. (2021, Juni 22). https://lehrerfortbildung-bw.de/u_matnatech/imp/gym/bp2016/fb2/m02_aug/1_hintergrund/4_grund/&#160;<a class="footnote-backref" href="#fnref:9" title="Jump back to footnote 8 in the text">&#8617;</a></p>
+<p>Hintergrund. (2021, Juni 22). https://lehrerfortbildung-bw.de/u_matnatech/imp/gym/bp2016/fb2/m02_aug/1_hintergrund/4_grund/&#160;<a class="footnote-backref" href="#fnref:9" title="Jump back to footnote 7 in the text">&#8617;</a></p>
 </li>
 <li id="fn:10">
-<p>Leitprogramm LogicTraffic [BZZ - Modulwiki]. (o. J.). Abgerufen 17. März 2026, von https://wiki.bzz.ch/modul/mathe/ma1/thema/lu04logik/aufgaben/leitprogramm/start&#160;<a class="footnote-backref" href="#fnref:10" title="Jump back to footnote 9 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:10" title="Jump back to footnote 9 in the text">&#8617;</a><a class="footnote-backref" href="#fnref3:10" title="Jump back to footnote 9 in the text">&#8617;</a></p>
+<p>Leitprogramm LogicTraffic [BZZ - Modulwiki]. (o. J.). Abgerufen 17. März 2026, von https://wiki.bzz.ch/modul/mathe/ma1/thema/lu04logik/aufgaben/leitprogramm/start&#160;<a class="footnote-backref" href="#fnref:10" title="Jump back to footnote 8 in the text">&#8617;</a></p>
 </li>
 <li id="fn:11">
-<p>Arnold, R., &amp; Hartmann, W. (2007). LogicTraffic – Logik in der Allgemeinbildung. Informatik-Spektrum, 30(1), 19–26. https://doi.org/10.1007/s00287-006-0123-7&#160;<a class="footnote-backref" href="#fnref:11" title="Jump back to footnote 10 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:11" title="Jump back to footnote 10 in the text">&#8617;</a><a class="footnote-backref" href="#fnref3:11" title="Jump back to footnote 10 in the text">&#8617;</a><a class="footnote-backref" href="#fnref4:11" title="Jump back to footnote 10 in the text">&#8617;</a><a class="footnote-backref" href="#fnref5:11" title="Jump back to footnote 10 in the text">&#8617;</a></p>
+<p>Arnold, R., &amp; Hartmann, W. (2007). LogicTraffic - Logik in der Allgemeinbildung. Informatik-Spektrum, 30(1), 19-26. https://doi.org/10.1007/s00287-006-0123-7&#160;<a class="footnote-backref" href="#fnref:11" title="Jump back to footnote 9 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:11" title="Jump back to footnote 9 in the text">&#8617;</a></p>
 </li>
 <li id="fn:12">
-<p>Arnold, R., Amstalden, B., &amp; Bader, J. (2022). Enhancing the Role of Computational Thinking in Primary and Secondary Education in Switzerland. Proceedings of the 17th Workshop in Primary and Secondary Computing Education, 1–2. https://doi.org/10.1145/3556787.3556874&#160;<a class="footnote-backref" href="#fnref:12" title="Jump back to footnote 11 in the text">&#8617;</a></p>
+<p>Arnold, R., Amstalden, B., &amp; Bader, J. (2022). Enhancing the Role of Computational Thinking in Primary and Secondary Education in Switzerland. Proceedings of the 17th Workshop in Primary and Secondary Computing Education, 1-2. https://doi.org/10.1145/3556787.3556874&#160;<a class="footnote-backref" href="#fnref:12" title="Jump back to footnote 10 in the text">&#8617;</a></p>
 </li>
 <li id="fn:13">
-<p>https://de.wikiversity.org/wiki/Aussagenlogik/Elementare_Einf%C3%BChrung/Textabschnitt&#160;<a class="footnote-backref" href="#fnref:13" title="Jump back to footnote 12 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:13" title="Jump back to footnote 12 in the text">&#8617;</a><a class="footnote-backref" href="#fnref3:13" title="Jump back to footnote 12 in the text">&#8617;</a><a class="footnote-backref" href="#fnref4:13" title="Jump back to footnote 12 in the text">&#8617;</a></p>
+<p>https://de.wikiversity.org/wiki/Aussagenlogik/Elementare_Einf%C3%BChrung/Textabschnitt&#160;<a class="footnote-backref" href="#fnref:13" title="Jump back to footnote 11 in the text">&#8617;</a></p>
 </li>
 </ol>
 </div>

@@ -142,30 +142,32 @@
                   <ol>
                     
                       <li>
-                        <a href="#kanonische-disjunktive-normalform-kdnf">Kanonische Disjunktive Normalform (KDNF)</a>
+                        <a href="#uberblick">Überblick</a>
                         
                       </li>
                     
                       <li>
-                        <a href="#konjunktive-normalform-knf">Konjunktive Normalform (KNF)</a>
+                        <a href="#kanonische-disjunktive-normalform">Kanonische disjunktive Normalform</a>
                         
                       </li>
                     
                       <li>
-                        <a href="#zusammenfassung">Zusammenfassung</a>
+                        <a href="#konjunktive-normalform">Konjunktive Normalform</a>
                         
                       </li>
                     
                       <li>
-                        <a href="#facherubergreifenden-unterricht">Fächerübergreifenden Unterricht:</a>
+                        <a href="#didaktische-hinweise">Didaktische Hinweise</a>
                         
-                          <ol>
-                            
-                              <li><a href="#mathematik">Mathematik</a></li>
-                            
-                              <li><a href="#physilk">Physilk</a></li>
-                            
-                          </ol>
+                      </li>
+                    
+                      <li>
+                        <a href="#fachubergreifende-anschlusse">Fachübergreifende Anschlüsse</a>
+                        
+                      </li>
+                    
+                      <li>
+                        <a href="#weiterarbeiten">Weiterarbeiten</a>
                         
                       </li>
                     
@@ -179,146 +181,179 @@
 
       <article class="page-content">
         <h1 id="normalformen">Normalformen<a class="headerlink" href="#normalformen" title="Permanent link">&para;</a></h1>
-<details class="meta" open="open">
-<summary>Definition von Normalformeln</summary>
-<p>Normalformen sind standardisierte Darstellungsformen für boolesche Funktionen, die beliebige logische Ausdrücke in eine einheitliche Struktur aus Konjunktionen und Disjunktionen überführen <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup>, <sup id="fnref:4"><a class="footnote-ref" href="#fn:4">4</a></sup>. Sie ermöglichen eine systematische Analyse und Vergleichbarkeit von logischen Funktionen.</p>
-</details>
-<div class="admonition teacher">
-<p class="admonition-title">Konjunktive und Disjunktive Normalformen erklären</p>
-<p>Für Schülerinnen und Schüler können die KDNF und KKNF als zwei unterschiedliche Startegien erklärt werden, wie aus einer vorgegebenen Wahrheitstabelle systematisch eine dazu passende aussagenlogische Formel erzeugt werden kann. Hinweis: Für Schülerinnen und Schüler kann dieses Thema sehr herausfordernd sein <sup id="fnref:5"><a class="footnote-ref" href="#fn:5">5</a></sup></p>
-</div>
-<h2 id="kanonische-disjunktive-normalform-kdnf">Kanonische Disjunktive Normalform (KDNF)<a class="headerlink" href="#kanonische-disjunktive-normalform-kdnf" title="Permanent link">&para;</a></h2>
-<details class="student" open="open">
-<summary>Disjunktive Normalform</summary>
-<p>Eine <strong>Disjunktive Normalform</strong> (DNF) ist eine grosse ODER-Verknüpfung von UND-Bedingungen <sup id="fnref2:1"><a class="footnote-ref" href="#fn:1">1</a></sup>. Jede UND‑Bedingung beschreibt eine Zeile der Wahrheitstabelle, in der das Ergebnis wahr (1) ist. (Hinweis: Das stimmt nur für die KDNF!) Wenn wir für jede Zeile der Wahrheitstabelle, in der die Funktion „wahr“ (1) ist, eine UND-Bedingung bauen – und in jeder dieser Bedingungen alle Variablen genau einmal stehen (entweder normal oder mit „NICHT“) –, dann verknüpfen wir diese mit ODER. Das Ergebnis ist die <strong>kanonische (vollständige) disjunktive Normalform</strong> (KDNF) <sup id="fnref3:1"><a class="footnote-ref" href="#fn:1">1</a></sup>, <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup>. Zusammenfassend kann man sagen: Die KDNF beschreibt alle Fälle, in denen die Funktion wahr ist. </p>
-<details class="student">
-<summary>Merksatz für die SuS:</summary>
-<p>Jeder Wahre Zeile (1) aus der Tabelle wird zu einem vollen UND-Baustein, alle Bausteine kommen mit ODER zusammen </p>
-</details>
-</details>
-<!-- Naja, es gibt durchaus SuS die das nicht ganz so schnell kapieren. Denen kann es helfen, einen Merksatz zur Unterscheidung zu haben. Auch wenn es für dich von Beginn weg und für mich mittlerweile logisch ist. -->
-
-<details class="logictraffic">
-<summary>Beispiel aus Logic Traffic für die KDNF - Situation 3</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="1:3"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><input id="__tabbed_1_3" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Situation 3:</label><label for="__tabbed_1_2">Wahrheitstabelle zur Situation 3:</label><label for="__tabbed_1_3">Herleitung kanonische Disjunktive Normalform</label></div>
-<div class="tabbed-content">
-<div class="tabbed-block">
-<p><img alt="Situation 3" src="../../images/Situation3" width="150" /></p>
-</div>
-<div class="tabbed-block">
-<p>Um eine KDNF herzuleiten, betrachten wir als Erstes die Wahrheitstabelle.
-<img align="right" alt="WahrheitstabelleSituation3" src="../../images/WahrheitstabelleSituation3" /></p>
-</div>
-<div class="tabbed-block">
-<p>Die Funktion ist in 5 verschiedenen Zeilen wahr. Aus jeder dieser Zeilen entsteht eine UND Kette. Die <strong>kanonische disjunktive Normalform</strong> (KDNF) ist dann: </p>
-<div class="arithmatex">\[(\neg A \wedge \neg B \wedge \neg C) \lor (\neg A \wedge \neg B \wedge C) \lor (\neg A \wedge B \wedge \neg C) \lor (A \wedge \neg B \wedge \neg C) \lor (A \wedge B \wedge \neg C)\]</div>
-<details class="logictraffic" open="open">
-<summary>Darstellung in LogicTraffic</summary>
-<p>Im Unterricht mit Logictraffic wird diese Formel automatisch erstellt. Für die Anleitung zur Bedienung: LINK </p>
-</details>
-<p>Durch Zusammenfassen gleicher Teilbedingungen ergibt sich die gekürzte DNF:</p>
-<div class="arithmatex">\[(\neg A \land \neg B)\lor(\neg C)\]</div>
-<details class="student">
-<summary>Erklärung in natürlicher Sprache:</summary>
-<p>Diese Formel drückt aus: Die Bedingung gilt genau dann, wenn entweder beide A und B falsch sind oder C falsch ist. Die Formel ist wahr wenn mindestens eine der beiden Situationen eintritt: 1. A ist falsch <strong>und</strong> B ist falsch (egal was C ist) oder C ist falsch (egal was A oder B sind) </p>
-</details>
-</div>
-</div>
-</div>
-</details>
-<h2 id="konjunktive-normalform-knf">Konjunktive Normalform (KNF)<a class="headerlink" href="#konjunktive-normalform-knf" title="Permanent link">&para;</a></h2>
-<details class="student" open="open">
-<summary>Konjunktive Normalform</summary>
-<p>Die <strong>Konjunktive Normalform</strong> (KNF) ist eine grosse UND‑Verknüpfung von ODER‑Bedingungen. <sup id="fnref4:1"><a class="footnote-ref" href="#fn:1">1</a></sup> <sup id="fnref2:2"><a class="footnote-ref" href="#fn:2">2</a></sup>. Jede ODER‑Bedingung beschreibt eine Zeile der Wahrheitstabelle, in der das Ergebnis falsch (0) ist. (Das stimmt allg. wiederum )bloss für KKNFs). Du kannst dir die KNF vorstellen wie ein Sicherheitscheck: Alle Bedingungen (die ODER-Klammern) müssen erfüllt sein, damit die ganze Sache „wahr“ ist. Wenn auch nur eine ODER-Klammer „falsch“ ist, scheitert alles <sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup>. Wenn wir für jede Zeile der Wahrheitstabelle, in der die Funktion „falsch“ (0) ist, eine ODER-Bedingung bauen – und in jeder dieser Bedingungen alle Variablen genau einmal stehen (entweder normal oder mit „NICHT“) –, dann verknüpfen wir diese mit UND. Das Ergebnis ist die <strong>kanonische konjunktive Normalform</strong> (KKNF) <sup id="fnref5:1"><a class="footnote-ref" href="#fn:1">1</a></sup>. </p>
-<details class="student">
-<summary>Merksatz für die SuS</summary>
-<p>Jeder unsichere Zeile aus der Tabelle (0) wird zu einem vollen ODER-Baustein, alle Bausteine kommen mit UND zusammen – nichts fehlt, nichts wird gekürzt.</p>
-</details>
-</details>
-<p>Durch die Arbeit mit der gleichen Tabelle erkennen Schülerinnen und Schüler gut, wie sich DNF und KNF ergänzen.</p>
-<details class="logictraffic">
-<summary>Beispiel aus Logic Traffic für die DNF - Situation 3</summary>
-<div class="tabbed-set tabbed-alternate" data-tabs="2:3"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><input id="__tabbed_2_3" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">Situation 3: </label><label for="__tabbed_2_2">Wahrheitstabelle zur Situation 3: </label><label for="__tabbed_2_3">Herleitung Konjunktive Normalform </label></div>
-<div class="tabbed-content">
-<div class="tabbed-block">
-<p><img alt="Situation 3" src="../../images/Situation3" width="150" /></p>
-</div>
-<div class="tabbed-block">
-<p><img alt="WahrheitstabelleSituation3" src="../../images/WahrheitstabelleSituation3" width="100" /></p>
-</div>
-<div class="tabbed-block">
-<p>Die Funktion ist in 3 verschiedenen Zeilen falsch (<span class="arithmatex">\(0\)</span>). Aus diesen Zeilen erzeugt man jeweils eine ODER Klammer. Daraus ergibt sich die <strong>kanonische (vollständige) konjunktive Normalform</strong> (KKNF): </p>
-<div class="arithmatex">\[(A \lor \neg B \lor \neg C)\land(\neg A \lor B \lor \neg C) \land (\neg A \lor \neg B \lor \neg C)\]</div>
-<p>Gekürzt ergibt das die KNF: </p>
-<div class="arithmatex">\[ (\neg B \lor \neg C) \land (\neg A \lor \neg C) \]</div>
-<details class="student">
-<summary>Beschreibung in natürlicher Sprache</summary>
-<p>Diese Formel gilt genau dann, wenn beide Bedingungen erfüllt sind: C ist falsch oder (falls C wahr ist) sowohl A als auch B falsch sein müssen.
-Sie ist wahr, wenn C falsch ist (egal was A und B sind), <strong>oder</strong> wenn C wahr ist, aber <strong>beide</strong> A und B falsch sind.</p>
-</details>
-</div>
-</div>
-</div>
-</details>
-<h2 id="zusammenfassung">Zusammenfassung<a class="headerlink" href="#zusammenfassung" title="Permanent link">&para;</a></h2>
-<p>Für Schülerinnen und Schüler kann folgende Tabelle ein Überblick bieten. Es lohnt sich diese gross auszudrucken und bei entsprechenden Unterrichtsinhalten aufzuhängen. </p>
-<div class="admonition student">
-<p class="admonition-title">Merktabelle der unten folgenden Erklärungen</p>
+<p>Normalformen sind standardisierte Darstellungen boolescher Funktionen. Sie helfen, aus einer Wahrheitstabelle systematisch eine Formel zu erzeugen und verschiedene Formeln miteinander zu vergleichen.<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></p>
+<h2 id="uberblick">Überblick<a class="headerlink" href="#uberblick" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
 <tr>
 <th>Form</th>
-<th>Bausteine</th>
-<th>Blick auf Wahrheitstabelle</th>
+<th>Grundidee</th>
+<th>Blick auf die Wahrheitstabelle</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>DNF</td>
-<td>ODER von UND‑Klammern</td>
-<td>Verknüpft alle Zeilen mit Ergebnis 1.</td>
+<td>ODER von UND-Bausteinen</td>
+<td>beschreibt Zeilen mit Ergebnis <code>1</code></td>
 </tr>
 <tr>
 <td>KNF</td>
-<td>UND von ODER‑Klammern</td>
-<td>Verknüpft alle Zeilen mit Ergebnis 0.</td>
+<td>UND von ODER-Bausteinen</td>
+<td>beschreibt Zeilen mit Ergebnis <code>0</code></td>
+</tr>
+<tr>
+<td>KDNF</td>
+<td>vollständige DNF</td>
+<td>jede wahre Zeile wird vollständig beschrieben</td>
+</tr>
+<tr>
+<td>KKNF</td>
+<td>vollständige KNF</td>
+<td>jede falsche Zeile wird vollständig beschrieben</td>
 </tr>
 </tbody>
 </table>
-</div>
-<h2 id="facherubergreifenden-unterricht">Fächerübergreifenden Unterricht:<a class="headerlink" href="#facherubergreifenden-unterricht" title="Permanent link">&para;</a></h2>
-<p>Boolesche Normalformen (DNF, KNF) bieten vielfältige fachübergreifende Anknüpfungspunkte im Gymnasialunterricht. Diese sollen hier einzeln kurz vorgestellt werden: </p>
-<h3 id="mathematik">Mathematik<a class="headerlink" href="#mathematik" title="Permanent link">&para;</a></h3>
-<details class="meta">
-<summary>Mengenlehre</summary>
-<p>DNF entspricht der Vereinigung von Durchschnitten (Summe von Produkten), KNF dem Durchschnitt von Vereinigungen (Produkt von Summen) – direkte Analogie zu Venn-Diagrammen <sup id="fnref6:1"><a class="footnote-ref" href="#fn:1">1</a></sup>.</p>
-</details>
-<details class="meta">
-<summary>Algebra</summary>
-<p>Boolesche Algebra als distributiver komplementärer Verband mit Axiomen wie Kommutativ‑ und De-Morgan-Gesetzen.</p>
-</details>
-<h3 id="physilk">Physilk<a class="headerlink" href="#physilk" title="Permanent link">&para;</a></h3>
-<details class="meta">
-<summary>Schaltkreise</summary>
-<p>Schaltalgebra in digitaler Technik (z. B. Logikgatter)</p>
-</details>
+<h2 id="kanonische-disjunktive-normalform">Kanonische disjunktive Normalform<a class="headerlink" href="#kanonische-disjunktive-normalform" title="Permanent link">&para;</a></h2>
+<p>Die kanonische disjunktive Normalform entsteht aus allen Zeilen, in denen die Funktion wahr ist. Jede dieser Zeilen wird zu einem vollständigen UND-Baustein. Alle Bausteine werden anschliessend mit ODER verbunden.<sup id="fnref2:1"><a class="footnote-ref" href="#fn:1">1</a></sup><sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup></p>
+<p>Merksatz für Lernende:</p>
+<table>
+<thead>
+<tr>
+<th>Schritt</th>
+<th>Beschreibung</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Suche alle Zeilen mit Ergebnis <code>1</code>.</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Baue aus jeder dieser Zeilen einen vollständigen UND-Baustein.</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Verbinde alle Bausteine mit ODER.</td>
+</tr>
+</tbody>
+</table>
+<p>Beispiel:</p>
+<p><code>(¬A ∧ ¬B ∧ C) ∨ (A ∧ ¬B ∧ C)</code></p>
+<p>Diese Formel sagt: Die Funktion ist wahr, wenn eine der beschriebenen Zeilen eintritt.</p>
+<h2 id="konjunktive-normalform">Konjunktive Normalform<a class="headerlink" href="#konjunktive-normalform" title="Permanent link">&para;</a></h2>
+<p>Die konjunktive Normalform arbeitet mit den Zeilen, in denen die Funktion falsch ist. Jede dieser Zeilen wird zu einem ODER-Baustein. Alle Bausteine werden anschliessend mit UND verbunden.<sup id="fnref3:1"><a class="footnote-ref" href="#fn:1">1</a></sup><sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup></p>
+<p>Merksatz für Lernende:</p>
+<table>
+<thead>
+<tr>
+<th>Schritt</th>
+<th>Beschreibung</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Suche alle Zeilen mit Ergebnis <code>0</code>.</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Baue aus jeder dieser Zeilen einen vollständigen ODER-Baustein.</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Verbinde alle Bausteine mit UND.</td>
+</tr>
+</tbody>
+</table>
+<p>Beispiel:</p>
+<p><code>(A ∨ ¬B ∨ C) ∧ (¬A ∨ B ∨ C)</code></p>
+<p>Diese Formel sagt: Alle Bedingungen müssen erfüllt sein, damit die ganze Formel wahr ist.</p>
+<h2 id="didaktische-hinweise">Didaktische Hinweise<a class="headerlink" href="#didaktische-hinweise" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Schwierigkeit</th>
+<th>Unterstützung</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Lernende verwechseln DNF und KNF</td>
+<td>konsequent mit <code>1</code>-Zeilen bzw. <code>0</code>-Zeilen markieren</td>
+</tr>
+<tr>
+<td>Negationen werden vergessen</td>
+<td>jede Tabellenzeile Variable für Variable übersetzen</td>
+</tr>
+<tr>
+<td>Formeln wirken zu lang</td>
+<td>zuerst kanonisch vollständig arbeiten, erst danach vereinfachen</td>
+</tr>
+<tr>
+<td>Bedeutung bleibt abstrakt</td>
+<td>Formel wieder in Alltagssprache übersetzen lassen</td>
+</tr>
+</tbody>
+</table>
+<h2 id="fachubergreifende-anschlusse">Fachübergreifende Anschlüsse<a class="headerlink" href="#fachubergreifende-anschlusse" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Fachbereich</th>
+<th>Anschluss</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mathematik</td>
+<td>Mengenlehre, Venn-Diagramme, algebraische Strukturen</td>
+</tr>
+<tr>
+<td>Informatik</td>
+<td>Schaltnetze, Logikgatter, Bedingungen in Programmen</td>
+</tr>
+<tr>
+<td>Physik/Technik</td>
+<td>digitale Schaltungen und Steuerungslogik</td>
+</tr>
+</tbody>
+</table>
+<h2 id="weiterarbeiten">Weiterarbeiten<a class="headerlink" href="#weiterarbeiten" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Ziel</th>
+<th>Seite</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Grundlagen zu Wahrheitstabellen auffrischen</td>
+<td><a href="../wahrheitstabellen/">Wahrheitstabellen</a></td>
+</tr>
+<tr>
+<td>typische Fehlvorstellungen vorbereiten</td>
+<td><a href="../difficulties/">Lern- und Lehrherausforderungen</a></td>
+</tr>
+<tr>
+<td>Aufgaben mit LogicTraffic einsetzen</td>
+<td><a href="../../unterricht/logictraffic/">Einführung Online Lernumgebung</a></td>
+</tr>
+</tbody>
+</table>
 <div class="footnote">
 <hr />
 <ol>
 <li id="fn:1">
-<p>Boolesche Funktionen und ihre Normalformen. (2021, Juni 22). https://lehrerfortbildung-bw.de/u_matnatech/imp/gym/bp2016/fb2/m02_aug/1_hintergrund/4_grund/06_funktionen/&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:1" title="Jump back to footnote 1 in the text">&#8617;</a><a class="footnote-backref" href="#fnref3:1" title="Jump back to footnote 1 in the text">&#8617;</a><a class="footnote-backref" href="#fnref4:1" title="Jump back to footnote 1 in the text">&#8617;</a><a class="footnote-backref" href="#fnref5:1" title="Jump back to footnote 1 in the text">&#8617;</a><a class="footnote-backref" href="#fnref6:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+<p>Boolesche Funktionen und ihre Normalformen. (2021, Juni 22). https://lehrerfortbildung-bw.de/u_matnatech/imp/gym/bp2016/fb2/m02_aug/1_hintergrund/4_grund/06_funktionen/&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:1" title="Jump back to footnote 1 in the text">&#8617;</a><a class="footnote-backref" href="#fnref3:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
 </li>
 <li id="fn:2">
-<p>Inf-schule | Schaltnetze » Fachkonzept disjunktive Normalform. (o. J.). Abgerufen 17. März 2026, von https://inf-schule.de/rechner/digitaltechnik/Schaltnetze/Fachkonzept_Normalform&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+<p>Inf-schule | Schaltnetze: Fachkonzept disjunktive Normalform. Abgerufen 17. März 2026, von https://inf-schule.de/rechner/digitaltechnik/Schaltnetze/Fachkonzept_Normalform&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
 </li>
 <li id="fn:3">
-<p>Konjunktive Normalform: Umwandlung &amp; Beispiel. (o. J.). StudySmarter. Abgerufen 17. März 2026, von https://www.studysmarter.de/schule/informatik/theoretische-informatik/konjunktive-normalform/&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
-</li>
-<li id="fn:4">
-<p>Arnold, R., &amp; Hartmann, W. (2007). LogicTraffic – Logik in der Allgemeinbildung. Informatik-Spektrum, 30(1), 19–26. https://doi.org/10.1007/s00287-006-0123-7&#160;<a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text">&#8617;</a></p>
-</li>
-<li id="fn:5">
-<p>Herman, G. L., Loui, M. C., Kaczmarczyk, L., &amp; Zilles, C. (2012). Describing the What and Why of Students’ Difficulties in Boolean Logic. ACM Transactions on Computing Education, 12(1), 1–28. https://doi.org/10.1145/2133797.2133800&#160;<a class="footnote-backref" href="#fnref:5" title="Jump back to footnote 5 in the text">&#8617;</a></p>
+<p>Konjunktive Normalform: Umwandlung &amp; Beispiel. StudySmarter. Abgerufen 17. März 2026, von https://www.studysmarter.de/schule/informatik/theoretische-informatik/konjunktive-normalform/&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
 </li>
 </ol>
 </div>

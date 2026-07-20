@@ -1,32 +1,29 @@
-/* Calm callouts for MkDocs admonitions and pymdownx.details. */
+/* Quiet styling for optional MkDocs admonitions and task details. */
 
 :root {
   --bs-callout-color: #405060;
   --bs-callout-bg: #f8fafc;
   --bs-callout-border: #d6dee7;
-  --bs-callout-title-bg: rgb(255 255 255 / 0.45);
 }
 
 .admonition,
 .page-content > details,
 .page-content details:not(.site-nav__group) {
-  margin: 1.25rem 0;
-  padding: 1rem 1.15rem;
+  margin: 1rem 0;
+  padding: 0.95rem 1rem;
   border: 1px solid var(--bs-callout-border);
-  border-left-width: 0.28rem;
-  border-radius: var(--bs-border-radius);
+  border-left: 0.24rem solid var(--bs-callout-color);
+  border-radius: var(--radius);
   background: var(--bs-callout-bg);
   color: var(--bs-body-color);
-  box-shadow: 0 2px 10px rgb(31 35 40 / 0.035);
 }
 
 .admonition .admonition,
 .admonition details,
 .page-content details .admonition,
 .page-content details details {
-  margin: 0.9rem 0;
-  background: rgb(255 255 255 / 0.52);
-  box-shadow: none;
+  margin: 0.8rem 0;
+  background: rgb(255 255 255 / 0.6);
 }
 
 .admonition-title,
@@ -34,42 +31,24 @@
   display: flex;
   align-items: center;
   gap: 0.55rem;
-  margin: 0 0 0.75rem;
+  margin: 0 0 0.7rem;
   padding: 0;
-  border: 0;
-  background: transparent;
   color: var(--bs-callout-color);
+  cursor: pointer;
   font-weight: 750;
   line-height: 1.35;
-}
-
-.admonition-title {
-  margin: 0 0 0.75rem;
-  padding: 0;
-  border: 0;
-  background: transparent;
+  list-style: none;
 }
 
 .admonition-title::before,
 .page-content details summary::before {
   content: "";
-  display: block;
   flex: 0 0 auto;
-  width: 0.55rem;
-  height: 0.55rem;
+  width: 0.5rem;
+  height: 0.5rem;
   border-radius: 999px;
-  background: var(--bs-callout-color);
-  opacity: 0.78;
-}
-
-.admonition > :last-child,
-.page-content details > :last-child {
-  margin-bottom: 0;
-}
-
-.page-content details summary {
-  cursor: pointer;
-  list-style: none;
+  background: currentColor;
+  opacity: 0.75;
 }
 
 .page-content details summary::-webkit-details-marker {
@@ -88,6 +67,11 @@
 }
 
 .page-content details:not([open]) > summary {
+  margin-bottom: 0;
+}
+
+.admonition > :last-child,
+.page-content details > :last-child {
   margin-bottom: 0;
 }
 
@@ -113,8 +97,8 @@ details.student {
 }
 
 .admonition.error,
-details.error,
 .admonition.danger,
+details.error,
 details.danger {
   --bs-callout-color: #9a514b;
   --bs-callout-bg: #fff5f3;
@@ -122,65 +106,26 @@ details.danger {
 }
 
 .admonition.meta,
-details.meta {
+.admonition.note,
+details.meta,
+details.note {
   --bs-callout-color: #6f6257;
   --bs-callout-bg: #f7f5f2;
   --bs-callout-border: #ded8d0;
 }
 
 .admonition.task,
+.admonition.goal,
 details.task,
+details.goal,
 details.task-collapse {
   --bs-callout-color: #735f36;
   --bs-callout-bg: #fffaf0;
   --bs-callout-border: #e3d5b3;
 }
 
-.admonition.goal,
-details.goal {
-  --bs-callout-color: #7b6236;
-  --bs-callout-bg: #fff8ec;
-  --bs-callout-border: #e7d8bd;
-}
-
-.admonition.note,
-details.note {
-  --bs-callout-color: #3f6475;
-  --bs-callout-bg: #f3f8fa;
-  --bs-callout-border: #ccdde4;
-}
-
-.admonition.task > .admonition-title,
-details.task > summary {
-  font-size: 1.05rem;
-}
-
 details.task-collapse {
   --bs-callout-color: #49566a;
   --bs-callout-bg: #ffffff;
   --bs-callout-border: #d6dee7;
-  border-left-width: 0.22rem;
-}
-
-details.task-collapse > summary {
-  font-size: 1rem;
-}
-
-.admonition.goal > .admonition-title,
-details.goal > summary,
-.admonition.logictraffic > .admonition-title,
-details.logictraffic > summary,
-.admonition.teacher > .admonition-title,
-details.teacher > summary,
-.admonition.student > .admonition-title,
-details.student > summary,
-.admonition.meta > .admonition-title,
-details.meta > summary {
-  color: var(--bs-callout-color);
-}
-
-.admonition.inline.end {
-  float: right;
-  width: min(22rem, 45%);
-  margin: 0 0 1rem 1.25rem;
 }

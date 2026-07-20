@@ -1,162 +1,136 @@
-# Zur Sache 
+# Zur Sache
 
-!!! teacher "LogicTraffic"
-    LogicTraffic simuliert eine Strassenkreuzung mit Ampeln für verschiedene Fahrspuren. Ziel ist es, eine logische Formel zu finden, die sicherstellt, dass kreuzende Spuren nie gleichzeitig grün haben – so verhindert man Unfälle. Das Programm zeigt, wie Logik im Alltag (z. B. Ampelsteuerung) angewendet wird [^12].
+Diese Seite gibt einen kompakten Überblick über die fachlichen Grundlagen von LogicTraffic. Für ausführlichere Erklärungen sind die Vertiefungsseiten verlinkt.
 
-## Grundlagen der Aussagelogik im Kontext von Logic Traffic 
-In der **Aussagenlogik** arbeiten wir mit Aussagen, denen eindeutig ein Wahrheitswert (wahr/`true`/1 oder falsch/`false`/0) zugeordnet werden kann [^11].
+## Orientierung
 
-???+ student "Boolesche Logik"
-    **Boolesche Logik** ist die formale Logik mit genau zwei Wahrheitswerten (wahr/falsch bzw. 1/0), in der Aussagen mit Junktoren wie UND ($\land$), ODER ($\lor$) und Negation ($\neg$) verknüpft werden [^5].
+| Bereich | Wofür ist er hilfreich? | Vertiefung |
+| --- | --- | --- |
+| Aussagelogik | Grundbegriffe verstehen: Aussage, Wahrheitswert, Variable, Junktor | diese Seite |
+| Darstellungswechsel | Verstehen, wie Verkehrssituation, Sprache, Tabelle und Formel zusammenhängen | [Darstellungswechsel](darstellungswechsel.md) |
+| Wahrheitstabellen | Systematisch alle Ampelzustände erfassen und Sicherheit prüfen | [Wahrheitstabellen](wahrheitstabellen.md) |
+| Normalformen | Aus Wahrheitstabellen Formeln erzeugen und vergleichen | [Normalformen](normalformen.md) |
+| Lernhürden | Typische Fehlvorstellungen erkennen und im Unterricht bearbeiten | [Lern- und Lehrherausforderungen](difficulties.md) |
 
-???+ logictraffic "Aussagelogik und Logictraffic"
-    **LogicTraffic** nutzt Aussagenlogik zur formalen Modellierung von Ampelzuständen an Kreuzungen. Jeder Spur bzw. Ampel ist eine Variable (A, B, C, …) zugewiesen und Formeln beschreiben bestimte Zustände (z.B. "$A$ grün $\lor B$ rot" bzw. "Spur A befahrbar, Spur B gesperrt") [^11], [^10]. 
+## Grundidee von LogicTraffic
 
-### Variablen und Zustände 
-Eine boolsche Variable ist in der Informatik die kleinste Informationseinheit. Sie trägt genau eine Information, die entweder zutrifft oder eben nicht.
+LogicTraffic simuliert eine Strassenkreuzung mit Ampeln für verschiedene Fahrspuren. Ziel ist es, eine logische Formel zu finden, die sicherstellt, dass kreuzende Spuren nie gleichzeitig grün haben. Dadurch wird sichtbar, wie Aussagenlogik in einem alltagsnahen Steuerungsproblem angewendet wird.[^11][^12]
 
-??? logictraffic "Variable in LogicTraffic"
-    In LogicTraffic steht jede Variable für den Zustand einer Ampel (rot $0$  / grün $1$) [^10], [^11].
+In LogicTraffic wird jede Fahrspur durch eine Variable beschrieben. Eine Ampel ist entweder rot (`0`) oder grün (`1`). Die Wahrheitstabelle listet alle möglichen Kombinationen dieser Ampelzustände auf. Die Formel beschreibt anschliessend, welche Kombinationen sicher sind.
 
-### Aussagen 
-???+ student "Beispiele für Aussagen"
-    Beispiele für Aussagen:
-    
-    - "Die Ampel A ist grün."
-    - "Auto fährt von Norden nach Süden."
-    - „Abbiegen nach rechts ist auf dieser Strasse erlaubt.“  
-    
-eine **Aussage** wird durch drei Eigenschaften beschrieben [^1], [^7]: 
-    
-1. eine Aussage ist eine sprachliche Einheit, die einen Sachverhalt ausdrückt.
-2. Eine Aussage ist entweder _wahr_ (Wahrheitswert $1$) oder _falsch_ (Wahrheitswert $0$).
-3. Die Sprache ist beliebig (natürlich oder formal)
+## Zentrale Begriffe
 
-??? logictraffic "Aussage in LogicTaffic"
-    Aussagen beschreiben überprüfbare Sachverhalte (z. B. „Ampel A grün bzw. Spur ist befahrbar.“ → Variable A=1). In LogicTraffic gelten Aussagen für Spuren und Ampeln: "Ampel B hat grün“ ist äquivalent zu "Spur B ist befahrbar" und werden in LogicTraffic kompakt als $B = 1$ wiedergegeben. Derartige Aussagen werden zu logischen Formeln verknüpft, um scihere Kruezungskonfigurationen zu modellieren [^10], [^11]. 
-    ??? student "Beispiele für Aussagen aus LogicTraffic" 
-        * Einfache Aussage: A = "Spur A hat grün" 
-        * Zusdammengesetzte Aussage: $A \land \neg B$ => „Spur A hat grün UND Spur B hat rot.“ (verhindert Kollision).
-        
-    ??? teacher "Aussagen entdecken" 
-       Schüler:innen experimentieren, indem sie Ampeln klicken und sehen, wie Aussagen in der Wahrheitstabelle wahr/falsch werden.
-    
-### Junktoren und Operatoren 
-??? meta "Definition von Junktor" 
-    **Junktor**: Ein Junktor (lat. *iungere* = verbinden) ist ein logisches Verknüpfungszeichen, das zwei oder mehr Aussagen zu einer neuen Aussage verbindet [^7]. 
+| Begriff | Kurze Erklärung | Beispiel in LogicTraffic |
+| --- | --- | --- |
+| Aussage | Ein Sachverhalt, der eindeutig wahr oder falsch ist.[^1][^7] | "Ampel A ist grün." |
+| Wahrheitswert | Wert einer Aussage: wahr/`1` oder falsch/`0` | `A = 1` bedeutet: Spur A ist befahrbar. |
+| Variable | Platzhalter für eine Aussage oder einen Zustand | `A`, `B`, `C` stehen für Fahrspuren bzw. Ampeln. |
+| Junktor | Logisches Verknüpfungszeichen, das Aussagen verbindet.[^7] | `A ∧ B`, `A ∨ B`, `¬A` |
+| Operator | Rechenzeichen der booleschen Logik; erzeugt aus Wahrheitswerten neue Wahrheitswerte.[^3][^9] | UND, ODER, NICHT |
+| Boolesche Funktion | Ordnet jeder Kombination von Eingabewerten genau einen Ausgabewert zu.[^7] | Eine Sicherheitsregel für eine Kreuzung |
+| Wahrheitstabelle | Tabelle mit allen `2^n` Kombinationen von `n` Variablen.[^2][^8] | Alle Rot-Grün-Kombinationen einer Situation |
+| Normalform | Standardisierte Form einer booleschen Formel | DNF, KNF, KDNF, KKNF |
 
-    <!-- ich meine tatsächlich, dass eine Negation kein Junktor ist, schaue ich aber nochmals nach!-->
+## Aussagenlogik in LogicTraffic
 
+In der Aussagenlogik werden Aussagen mit genau zwei möglichen Wahrheitswerten betrachtet: wahr oder falsch. In LogicTraffic entspricht das dem Ampelzustand:
 
+| Logischer Wert | Bedeutung in LogicTraffic | Alltagssprache |
+| --- | --- | --- |
+| `1` | Ampel ist grün | Die Spur ist befahrbar. |
+| `0` | Ampel ist rot | Die Spur ist gesperrt. |
 
-!!! teacher "Junktoren in der Unterrichtseinheit"
-    In dieser UE werden drei grundlegende Junktoren behandelt:
+Eine einfache Aussage ist zum Beispiel:
 
-    1. **Konjunktion** $\land$ (UND)
-    2. **Disjunktion** $\lor$ (ODER, inkl. inklusiver Sinn)
-    3. **Negation** $\neg$ (NICHT) – unärer Junktor
+| Schreibweise | Bedeutung |
+| --- | --- |
+| `A` | Spur A hat grün. |
+| `¬A` | Spur A hat nicht grün, also rot. |
+| `A ∧ ¬B` | Spur A hat grün und Spur B hat rot. |
 
-    Die Implikation $\rightarrow$ wird als abgeleiteter Operator eingeführt: $A \to B \equiv \neg A \lor B$
+Solche Aussagen werden zu Formeln verknüpft. Eine Formel beschreibt dann nicht mehr nur eine einzelne Ampel, sondern eine ganze Sicherheitsregel für die Kreuzung.[^10][^11]
 
+## Operatoren
 
-???+ student "Junktoren für SuS"
-    Junktoren sind wie **Bindewörter** in der Grammatik: ‚und‘, ‚oder‘, ‚nicht‘ verbinden Wörter zu Sätzen – hier verbinden sie Aussagen zu neuen Aussagen [^5].  
+In dieser Unterrichtseinheit stehen drei grundlegende Operatoren im Zentrum. Die Implikation kann als zusätzlicher Operator eingeführt werden, ist aber didaktisch anspruchsvoller.
 
-???+ student "Operatoren für SuS" 
-    **Operatoren** in der Aussagenlogik sind die „Rechenzeichen“, die aus Eingabewerten (wahr/falsch) einen Ausgabewert erzeugen. Sie definieren boolesche Funktionen [^9] [^3]. 
+| Operator | Zeichen | Bedeutung | Wann ist der Ausdruck wahr? |
+| --- | --- | --- | --- |
+| Negation | `¬A` | nicht A | wenn `A` falsch ist |
+| Konjunktion | `A ∧ B` | A und B | wenn beide Aussagen wahr sind |
+| Disjunktion | `A ∨ B` | A oder B | wenn mindestens eine Aussage wahr ist |
+| Implikation | `A → B` | wenn A, dann B | immer ausser bei `A = 1` und `B = 0` |
 
+### Wahrheitstabellen der Operatoren
 
-    
-**Operatoren-Tabelle** (für diese UE):
+#### Negation
 
-| Operator     | LaTeX       | Verbale Bedeutung | Logische Äquivalenz         |
-|--------------|-------------|-------------------|-----------------------------|
-| Negation     | `\(\neg A\)`| „nicht A“         | $\neg A$                  |
-| Konjunktion  | `A \(\land\) B` | „A und B“     | $A \land B$               |
-| Disjunktion  | `A \(\lor\) B` | „A oder B“    | $A \lor B$               |
-| Implikation  | `A \(\to\) B`| „wenn A, dann B“ | $A \rightarrow B$           |
+| `A` | `¬A` |
+| --- | --- |
+| 1 | 0 |
+| 0 | 1 |
 
-!!! error inline end "Typische Fehlvorstellungen"
-    Gerade zu den Operatoren sind Fehlvorstellungen weit verbreitet [^6]. Es lohnt sich, diese zu kennen und im Unterricht auf sie zu achten. Die üblichen Fehlvorstellungen können hier nachgelesen werden: [Fehlvorstellungen](difficulties.md)
+#### Konjunktion
 
-Die Wahrheitstabellen der Operatoren in dieser Unterrichtseinheit stellen sich folgendermassen dar: 
+| `A` | `B` | `A ∧ B` |
+| --- | --- | --- |
+| 1 | 1 | 1 |
+| 1 | 0 | 0 |
+| 0 | 1 | 0 |
+| 0 | 0 | 0 |
 
-#### Negation NOT
-In der boolschen Algebra ist NICHT eine Grundverknüpfung bei der der Ausdruck den Wahrheitswert umkehrt. Die Wahrheitstabelle fasst hier alle möglichen Kombinationen zusammen [^13]: 
+#### Disjunktion
 
-| $A$ | $\neg A$ |
-|----|----|
-|1|0|
-|0|1|
+| `A` | `B` | `A ∨ B` |
+| --- | --- | --- |
+| 1 | 1 | 1 |
+| 1 | 0 | 1 |
+| 0 | 1 | 1 |
+| 0 | 0 | 0 |
 
-#### Konjunktion AND
-Die Konjunktion ist die UND-Verknüpfung. Sie ist genau dann wahr, wenn beide Teilaussagen A und B wahr sind. Sie ist also falsch, wenn nur eine der beiden Aussagen falsch ist. Hier die Wahrheitstabelle dazu [^13]: 
+#### Implikation
 
-| $A$ | $B$ | $A \land B$ | 
-|------|------|-------|
-|1|1|1|
-|1|0|0|
-|0|1|0|
-|0|0|0|
+Die Implikation entfernt sich am stärksten von der Alltagssprache. Formulierungen wie "Aus A folgt B" können missverständlich sein, weil sie schnell kausal verstanden werden. Präziser ist: `A` ist hinreichend für `B`, oder `B` ist notwendig für `A`.[^13]
 
-#### Diskunktion OR 
-Die Disjunktion ist die einschliessende ODER-Verknüpfung. Sie ist, anders als die Konjunktion, wahr sobald einer der Aussagen (A oder B) wahr ist. Sie ist nur falsch, wenn beide Aussagen falsch sind. Dies zeigt auch die zugehörige Wahrheitstabelle [^13]: 
+| `A` | `B` | `A → B` |
+| --- | --- | --- |
+| 1 | 1 | 1 |
+| 1 | 0 | 0 |
+| 0 | 1 | 1 |
+| 0 | 0 | 1 |
 
-| $A$ | $B$ | $A \lor B$ |
-|-----|----|------|
-|1|1|1|
-|1|0|1|
-|0|1|1|
-|0|0|0|
+Gerade bei Operatoren treten häufig Fehlvorstellungen auf, besonders beim inklusiven Oder und bei der Implikation. Eine Übersicht dazu findet sich unter [Lern- und Lehrherausforderungen](difficulties.md).[^6]
 
-#### Implikation 
-!!! meta "Implikation und Umgangssprache"
-     Die Implikation ist die Verknüpfung, die sich am weitesten von der umgangssprachlichen Logik entfernt. Deshalb ist die umgangssprachliche Übersetzung der Implikation in die Formulierung „Aus A folgt B“ mit Vorsicht anzuwenden da dies nicht immer korrekt ist und impliziert, dass die beiden Teilaussagen gleichberechtigt sind, was bei der Implikation nicht mehr der Fall ist [^13]. 
-     Empfohlen wird zum Beispiel die Formulierung: "A impliziert B" oder "A ist hinreichend für B" sowie "B ist notwendig für A"
+## Darstellungen in LogicTraffic
 
-!!! student "Begrifflichkeiten" 
-    Damit die Implikation von Schüler:innen einfacher verstanden werden kann, lohnt es sich, die Begrifflichkeiten der Voraussetzung und der Schlussfolgerung einzuführen. Dabei wird die links vom Junktor stehende Aussage Voraussetzung und die rechtsstehende Schlussfolgerung genannt. 
+LogicTraffic verbindet mehrere Darstellungsformen. Das ist didaktisch wichtig, weil Lernende nicht nur Formeln sehen, sondern zwischen Situation, Sprache, Tabelle und Formel wechseln müssen.
 
- Eine Aussage A ⇒ B ist nur dann falsch, wenn A wahr und B falsch ist. Wenn man von einer falschen Voraussetzung A ausgeht und eine wahre Schlussfolgerung B hervorbringt, gilt die Implikation immer noch als richtig. Übersichtlicher wird diese Logik in der zugehörigen Wahrheitstabelle: 
+| Darstellung | In LogicTraffic | Lernfunktion |
+| --- | --- | --- |
+| ikonisch | Kreuzung, Spuren, Ampeln | Situation anschaulich erfassen |
+| verbal | Beschreibung sicherer und unsicherer Zustände | Regeln in Alltagssprache formulieren |
+| tabellarisch | Wahrheitstabelle | alle Fälle systematisch prüfen |
+| symbolisch | boolesche Formel | Sicherheitsregel formal ausdrücken |
 
-| $A$ | $B$ | $A \Rightarrow B$| 
-|----|----|------|
-|1|1|1|
-|0|1|1|
-|1|0|0|
-|0|0|1|
+Der Wechsel zwischen diesen Darstellungen ist ein zentraler Lernschritt. Ausführlicher wird er auf der Seite [Darstellungswechsel](darstellungswechsel.md) erklärt.
 
-## Darstellung der Situationen in LogicTraffic 
-Logische Funktionen lassen sich ikonisch (bildlich), symbolisch (Formel, Wahrheitstabelle) und verbal (natürliche Sprache) darstellen. LogicTraffic nutzt alle Ebenen für einheitliche Verständnisentwicklung [^11].
+## Weiterarbeiten
 
-!!! teacher "Didaktik des Darstellungswechsels"
-    **Darstellungswechsel** (enaktiv → ikonisch → symbolisch): Detaillierte Unterrichtstipps siehe [Darstellungswechsel](darstellungswechsel.md).
-
-### Symbolische Darstellungen in LogicTraffic 
-
-#### Wahrheitstabellen 
-???+ student "Definition Wahrheitstabelle"
-    Eine **Wahrheitstabelle** listet für alle $2^n$ Eingabekombinationen $n$ Variablen den Ausgabewert einer booleschen Funktion auf [^2], [^8]. 
-    
-!!! teacher "Wahrheitstabellen im Unterricht"
-    Zwischenschritt ikonisch ↔ symbolisch: Anleitung und Übungen siehe [Wahrheitstabellen](wahrheitstabellen.md).
-
-#### Formeln 
-???+ student "Definition boolesche (Aussagen-)Funktion"
-    Eine boolesche (Aussagen‑)Funktion ordnet jeder Kombination von Eingabewahrheitswerten (z.B. A, B) genau einen Ausgabewert (0 oder 1) zu [^7].
-
-!!! teacher "Normalformeln"
-    Auf der folgenden Seite werden behandelten Normalformeln, ihre Herleitung und Anwendung in LogicTraffic nochmals genau erklärt: [Normalformen](normalformen.md)
+| Wenn Sie ... | Dann passt diese Seite |
+| --- | --- |
+| Wahrheitstabellen fachlich erklären oder im Unterricht einsetzen möchten | [Wahrheitstabellen](wahrheitstabellen.md) |
+| Formeln aus Tabellen herleiten möchten | [Normalformen](normalformen.md) |
+| typische Denkfehler vorbereiten möchten | [Lern- und Lehrherausforderungen](difficulties.md) |
+| konkrete Aufgaben für den Unterricht suchen | [Unterrichtsplanung](../unterricht/index.md) |
 
 [^1]: Hoffmann, A., Marx, B., & Vogt, W. (2005). _Mathematik für Ingenieure 1: Lineare Algebra, Analysis - Theorie und Numerik_. Pearson Deutschland.
-[^2]:Junker, M. (2025). _Logik für die Informatik: Eine Einführung in die Aussagenlogik, Prädikatenlogik und Berechenbarkeitstheorie_. Springer Berlin Heidelberg. [https://doi.org/10.1007/978-3-662-70825-5](https://doi.org/10.1007/978-3-662-70825-5)
+[^2]: Junker, M. (2025). _Logik für die Informatik: Eine Einführung in die Aussagenlogik, Prädikatenlogik und Berechenbarkeitstheorie_. Springer Berlin Heidelberg. [https://doi.org/10.1007/978-3-662-70825-5](https://doi.org/10.1007/978-3-662-70825-5)
 [^3]: Kreuzer, M., & Kühling, S. (2014). _Logik für Informatiker_. Pearson Deutschland. [https://elibrary.pearson.de/book/99.150005/9783863267391](https://elibrary.pearson.de/book/99.150005/9783863267391)
-[^5]: Staab, F. (2012). _Logik und Algebra: Eine praxisbezogene Einführung für Informatiker und Wirtschaftsinformatiker_ (2. Aufl). De Gruyter. [https://doi.org/10.1524/9783486717532](https://doi.org/10.1524/9783486717532)
-[^6]: Herman, G. L., Loui, M. C., Kaczmarczyk, L., & Zilles, C. (2012). Describing the What and Why of Students’ Difficulties in Boolean Logic. ACM Transactions on Computing Education, 12(1), 1–28. https://doi.org/10.1145/2133797.2133800
+[^6]: Herman, G. L., Loui, M. C., Kaczmarczyk, L., & Zilles, C. (2012). Describing the What and Why of Students' Difficulties in Boolean Logic. ACM Transactions on Computing Education, 12(1), 1-28. https://doi.org/10.1145/2133797.2133800
 [^7]: Boolesche Funktionen und ihre Normalformen. (2021, Juni 22). https://lehrerfortbildung-bw.de/u_matnatech/imp/gym/bp2016/fb2/m02_aug/1_hintergrund/4_grund/06_funktionen/
-[^8]: Wahrheitstafeln—Theoretisches Material. Mathematik, 6. Schulstufe. (o. J.). Abgerufen 17. März 2026, von https://www.yaclass.at/p/mathematik/6-schulstufe/mengen-und-mengenoperationen-17080/aussagen-und-mengen-17463/re-519f4254-a9a1-457b-aa7e-38b6386d9b1c
+[^8]: Wahrheitstafeln - Theoretisches Material. Mathematik, 6. Schulstufe. (o. J.). Abgerufen 17. März 2026, von https://www.yaclass.at/p/mathematik/6-schulstufe/mengen-und-mengenoperationen-17080/aussagen-und-mengen-17463/re-519f4254-a9a1-457b-aa7e-38b6386d9b1c
 [^9]: Hintergrund. (2021, Juni 22). https://lehrerfortbildung-bw.de/u_matnatech/imp/gym/bp2016/fb2/m02_aug/1_hintergrund/4_grund/
-[^10]: Leitprogramm LogicTraffic [BZZ - Modulwiki]. (o. J.). Abgerufen 17. März 2026, von https://wiki.bzz.ch/modul/mathe/ma1/thema/lu04logik/aufgaben/leitprogramm/start
-[^11]: Arnold, R., & Hartmann, W. (2007). LogicTraffic – Logik in der Allgemeinbildung. Informatik-Spektrum, 30(1), 19–26. https://doi.org/10.1007/s00287-006-0123-7
-[^12]: Arnold, R., Amstalden, B., & Bader, J. (2022). Enhancing the Role of Computational Thinking in Primary and Secondary Education in Switzerland. Proceedings of the 17th Workshop in Primary and Secondary Computing Education, 1–2. https://doi.org/10.1145/3556787.3556874
-[^13]: https://de.wikiversity.org/wiki/Aussagenlogik/Elementare_Einf%C3%BChrung/Textabschnitt 
+[^10]: Leitprogramm LogicTraffic [BZZ - Modulwiki]. (o. J.). Abgerufen 17. März 2026, von https://wiki.bzz.ch/modul/mathe/ma1/thema/lu04logik/aufgaben/leitprogramm/start
+[^11]: Arnold, R., & Hartmann, W. (2007). LogicTraffic - Logik in der Allgemeinbildung. Informatik-Spektrum, 30(1), 19-26. https://doi.org/10.1007/s00287-006-0123-7
+[^12]: Arnold, R., Amstalden, B., & Bader, J. (2022). Enhancing the Role of Computational Thinking in Primary and Secondary Education in Switzerland. Proceedings of the 17th Workshop in Primary and Secondary Computing Education, 1-2. https://doi.org/10.1145/3556787.3556874
+[^13]: https://de.wikiversity.org/wiki/Aussagenlogik/Elementare_Einf%C3%BChrung/Textabschnitt

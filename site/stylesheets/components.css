@@ -1,7 +1,7 @@
 .link-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 0.85rem;
   margin-top: 1.5rem;
 }
 
@@ -34,12 +34,12 @@
 .link-card {
   display: flex;
   flex-direction: column;
-  min-height: 180px;
-  padding: 1rem;
+  min-height: 150px;
+  padding: 0.95rem;
   border: 1px solid var(--color-line);
   border-radius: var(--radius);
   background: var(--color-paper);
-  box-shadow: 0 8px 28px rgb(31 35 40 / 0.06);
+  box-shadow: 0 6px 18px rgb(31 35 40 / 0.045);
 }
 
 .link-card__title {
@@ -64,7 +64,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 0.6rem;
-  margin: 0.75rem 0 1.25rem;
+  margin: 0.85rem 0 1.5rem;
 }
 
 .task-overview a {
@@ -74,7 +74,7 @@
   padding: 0.35rem 0.7rem;
   border: 1px solid var(--color-line);
   border-radius: var(--radius);
-  background: var(--color-soft);
+  background: #ffffff;
   color: var(--color-ink);
   font-size: 0.93rem;
   font-weight: 700;
@@ -85,6 +85,12 @@
   border-color: var(--color-accent);
   background: var(--color-accent-soft);
   color: var(--color-accent);
+}
+
+.task-list {
+  display: grid;
+  gap: 0.75rem;
+  margin: 1rem 0 1.5rem;
 }
 
 .tabbed-set {
