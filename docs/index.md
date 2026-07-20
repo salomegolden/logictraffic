@@ -16,20 +16,29 @@ Die Plattform unterstützt Lehrpersonen dabei, zentrale Inhalte der Aussagenlogi
 
 Die Inhalte sind in klaren Bereichen organisiert, damit Sie je nach Unterrichtssituation schnell das Richtige finden:
 
-??? teacher "Hinweise für die Lehrperson" 
-    Didaktischer Hintergrund, Lernziele und methodische Impulse zur Planung, Durchführung und Differenzierung von Unterrichtssequenzen.
+<div class="orientation-grid" markdown>
 
-??? logictraffic "LogicTraffic in der Praxis"
-    Konkrete Umsetzungen mit der Anwendung: Bedienhinweise, Beispielabläufe und Musterlösungen für den Einsatz im Unterricht.
+<section class="orientation-item" markdown>
+<span class="orientation-label">Sachinformationen</span>
+Fachliche Grundlagen, Darstellungswechsel, Wahrheitstabellen, Normalformen und typische Lernhürden.
+</section>
 
-??? student "Fachliche Inhalte für Schüler:innen"
-    Verständliche Definitionen, Erklärungen, Merksätze und Miniübungen, die direkt in Lernphasen eingesetzt werden können.
+<section class="orientation-item" markdown>
+<span class="orientation-label">Unterrichtsplanung</span>
+Konkrete Unterrichtsbausteine vom Einstieg über LogicTraffic bis zu Übungen und Vertiefungen.
+</section>
 
-??? error "Stolpersteine und typische Fehlerquellen"
-    Häufige Missverständnisse aus der Aussagenlogik – inklusive Hinweisen, wie diese im Unterricht sichtbar und bearbeitbar gemacht werden.
+<section class="orientation-item" markdown>
+<span class="orientation-label">Unterrichtsziele</span>
+Lernziele mit Lehrplanbezug und fachlicher Einordnung.
+</section>
 
-??? meta "Hintergrund und Exkurs"
-    Vertiefende fachliche Perspektiven und Verbindungen zu weiteren Themen im Informatik- und Mathematikunterricht.
+<section class="orientation-item" markdown>
+<span class="orientation-label">Beurteilung und Material</span>
+Formative und summative Aufgaben, Beispiele aus der Erprobung sowie Downloads.
+</section>
+
+</div>
 
 ## Didaktischer Mehrwert auf einen Blick
 
@@ -43,49 +52,49 @@ Die Inhalte sind in klaren Bereichen organisiert, damit Sie je nach Unterrichtss
 
 <section class="link-card" markdown>
 <p class="link-card__title">Überblick</p>
-Ziele, Aufbau und didaktischer Rahmen der Unterrichtssequenz auf einen Blick.
+Startpunkt für die Planung: Aufbau, Reihenfolge und didaktische Idee der Unterrichtssequenz.
 
 [Zum Überblick](unterricht/index.md)
 </section>
 
 <section class="link-card" markdown>
 <p class="link-card__title">Zur Sache</p>
-Fachliche Konzepte repetieren und erarbeiten – inklusive typischer Fehler und Missverständnisse.
+Fachliche Konzepte nachschlagen: Darstellungswechsel, Wahrheitstabellen, Normalformen und Lernhürden.
 
 [Zu den Inhalten](topic/index.md)
 </section>
 
 <section class="link-card" markdown>
 <p class="link-card__title">Lehrplan und Lernziele</p>
-Lernziele und Lehrplanbezug für die Unterrichtssequenz.
+Kompetenzen, Lernziele und Lehrplanbezüge für die Unterrichtssequenz prüfen.
 
 [Zu Lehrplan und Lernzielen](goals.md)
 </section>
 
 <section class="link-card" markdown>
 <p class="link-card__title">Unterricht</p>
-Thematisch gegliederte Unterrichtseinheiten und Hinweise zur Durchführung.
+Einheiten auswählen: enaktiver Einstieg, Einführung in LogicTraffic, Wahrheitstabellen und Formeln.
 
 [Zum Unterricht](unterricht/index.md)
 </section>
 
 <section class="link-card" markdown>
 <p class="link-card__title">Beurteilung</p>
-Erarbeitungs-, Übungs- und Beurteilungsaufgaben auswählen.
+Aufgaben für Lernstand, formative Rückmeldung und summative Beurteilung finden.
 
 [Zur Beurteilung](beurteilung/index.md)
 </section>
 
 <section class="link-card" markdown>
 <p class="link-card__title">Beispiele</p>
-Konkrete Beispiele zur Vertiefung und direkten Verwendung im Unterricht.
+Erprobte Beispiele ansehen und für eigene Lektionen adaptieren.
 
 [Zu den Beispielen](examples.md)
 </section>
 
 <section class="link-card" markdown>
 <p class="link-card__title">Downloads</p>
-Materialien, Dateien und weitere Unterlagen zum Herunterladen.
+Arbeitsblätter, Vorlagen und weitere Unterlagen gesammelt herunterladen.
 
 [Zu den Downloads](downloads.md)
 </section>

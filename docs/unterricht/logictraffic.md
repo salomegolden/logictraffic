@@ -2,17 +2,22 @@
 
 Die Grundidee der Online Lernumgebung LogicTraffic ist es, eine aussagelogische Formel zu finden, welche die vorgegebene Verkehrssituation sicher macht.
 
-### Aufgabenübersicht
-- [KA1 - Einführung LogicTraffic](#ka1-einfuehrung-logictraffic)
-- [KA2 - Die Schaltzentrale](#ka2-die-schaltzentrale)
-- [EA1 - Bedienung und Grundkonzept des Tools aufbauen](#ea1-bedienung-und-grundkonzept-des-tools-aufbauen)
-- [ÜA1 - Von der Kreuzung zur Tabelle und zurück](#ua1-von-der-kreuzung-zur-tabelle-und-zurueck)
-- [ÜA2 - Tool Führerschein](#ua2-tool-fuehrerschein)
-- [SA1 - LogicTraffic in einer Gesamtaufgabe anwenden](#sa1-logictraffic-in-einer-gesamtaufgabe-anwenden)
+## Aufgabenübersicht
 
-!!! logictraffic "Programmaufbau"
-    ![LogicTraffic](../images/Screenshot%202026-04-22%20at%2009-49-45%20logictraffic_anleitung%20-%20logictraffic_anleitung.pdf.png)
-    In der graphischen Lernumgebung werden Verkehrssituationen an einer Kreuzung dargestellt. Dabei wird jede Fahrspur durch eine Variable (A, B, C...) identifiziert und jede Spur hat eine dazugehörige Ampel. Daneben werden in einer Wahrheitstabelle alle Spuren aufgelistet und es wird festgelegt, welche Konfigurationen sicher sind. Hier entspricht "0" (logisch falsch) einer roten Ampel, also "Fahrspur nicht frei" und entsprechend "1" (logisch wahr) einer grünen Ampel, also "Spur befahrbar". Eine Statusanzeige gibt an, ob die aktuelle Belegung der Tabelle (also die Einträge in der "sicher"-Spalte) nicht sicher, nicht optimal oder optimal ist. Ebenfalls wird zur aktuellen Belegung der Tabelle eine aussagenlogische Formel in gewünschter Form angegeben. Im Weiteren steht ein Formeleditor zur Verfügung, in welchem direkt Formeln erstellt und editiert werden können.
+<nav class="task-overview" markdown>
+[KA1 - Einführung LogicTraffic](#ka1-einfuehrung-logictraffic)
+[KA2 - Die Schaltzentrale](#ka2-die-schaltzentrale)
+[EA1 - Bedienung und Grundkonzept des Tools aufbauen](#ea1-bedienung-und-grundkonzept-des-tools-aufbauen)
+[ÜA1 - Von der Kreuzung zur Tabelle und zurück](#ua1-von-der-kreuzung-zur-tabelle-und-zurueck)
+[ÜA2 - Tool Führerschein](#ua2-tool-fuehrerschein)
+[SA1 - LogicTraffic in einer Gesamtaufgabe anwenden](#sa1-logictraffic-in-einer-gesamtaufgabe-anwenden)
+</nav>
+
+## Programmaufbau
+
+![LogicTraffic](../images/Screenshot%202026-04-22%20at%2009-49-45%20logictraffic_anleitung%20-%20logictraffic_anleitung.pdf.png)
+
+In der graphischen Lernumgebung werden Verkehrssituationen an einer Kreuzung dargestellt. Dabei wird jede Fahrspur durch eine Variable (A, B, C...) identifiziert und jede Spur hat eine dazugehörige Ampel. Daneben werden in einer Wahrheitstabelle alle Spuren aufgelistet und es wird festgelegt, welche Konfigurationen sicher sind. Hier entspricht "0" (logisch falsch) einer roten Ampel, also "Fahrspur nicht frei" und entsprechend "1" (logisch wahr) einer grünen Ampel, also "Spur befahrbar". Eine Statusanzeige gibt an, ob die aktuelle Belegung der Tabelle (also die Einträge in der "sicher"-Spalte) nicht sicher, nicht optimal oder optimal ist. Ebenfalls wird zur aktuellen Belegung der Tabelle eine aussagenlogische Formel in gewünschter Form angegeben. Im Weiteren steht ein Formeleditor zur Verfügung, in welchem direkt Formeln erstellt und editiert werden können.
 
 ## Konfrontationsaufgaben
 

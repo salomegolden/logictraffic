@@ -142,17 +142,7 @@
                   <ol>
                     
                       <li>
-                        <a href="#aufgabenubersicht">Aufgabenübersicht</a>
-                        
-                      </li>
-                    
-                      <li>
-                        <a href="#werte">Werte</a>
-                        
-                      </li>
-                    
-                      <li>
-                        <a href="#variablen">Variablen</a>
+                        <a href="#grundbegriffe">Grundbegriffe</a>
                         
                       </li>
                     
@@ -162,11 +152,11 @@
                       </li>
                     
                       <li>
-                        <a href="#erarbeitungsaufgabe-ea-wahrheitstabellen-entdecken">Erarbeitungsaufgabe (EA) - Wahrheitstabellen entdecken</a>
+                        <a href="#erarbeitungsaufgabe-wahrheitstabellen-entdecken">Erarbeitungsaufgabe - Wahrheitstabellen entdecken</a>
                         
                           <ol>
                             
-                              <li><a href="#aufgabe">Aufgabe</a></li>
+                              <li><a href="#ablauf">Ablauf</a></li>
                             
                           </ol>
                         
@@ -183,50 +173,85 @@
       <article class="page-content">
         <h1 id="wahrheitstabellen-im-unterricht-erarbeiten">Wahrheitstabellen im Unterricht erarbeiten<a class="headerlink" href="#wahrheitstabellen-im-unterricht-erarbeiten" title="Permanent link">&para;</a></h1>
 <p>Eine Wahrheitstabelle ist eine systematische Übersicht, die für alle möglichen Kombinationen von Eingangswerten die zugehörigen Ausgangswerte zeigt.</p>
-<h3 id="aufgabenubersicht">Aufgabenübersicht<a class="headerlink" href="#aufgabenubersicht" title="Permanent link">&para;</a></h3>
-<ul>
-<li><a href="#ea1-wahrheitstabellen-entdecken">EA1 - Wahrheitstabellen entdecken</a></li>
-</ul>
-<h3 id="werte">Werte<a class="headerlink" href="#werte" title="Permanent link">&para;</a></h3>
-<pre><code>1 (oder wahr) = „ja", „an", „grün", sicher"
-0 (oder falsch) = „nein", „aus", „rot", „unsicher"
-</code></pre>
-<h3 id="variablen">Variablen<a class="headerlink" href="#variablen" title="Permanent link">&para;</a></h3>
-<p>Variablen: Repräsentieren Aussagen (z.B. A, B, C)</p>
-<h3 id="wichtiger-hinweis">Wichtiger Hinweis<a class="headerlink" href="#wichtiger-hinweis" title="Permanent link">&para;</a></h3>
-<p>Wichtig: Bei n Variablen gibt es 2ⁿ Zeilen</p>
-<pre><code>1 Variable → 2 Zeilen
-2 Variablen → 4 Zeilen
-3 Variablen → 8 Zeilen
-</code></pre>
-<h2 id="erarbeitungsaufgabe-ea-wahrheitstabellen-entdecken">Erarbeitungsaufgabe (EA) - Wahrheitstabellen entdecken<a class="headerlink" href="#erarbeitungsaufgabe-ea-wahrheitstabellen-entdecken" title="Permanent link">&para;</a></h2>
-<h3 id="aufgabe">Aufgabe<a class="headerlink" href="#aufgabe" title="Permanent link">&para;</a></h3>
-<div class="admonition task">
-<p class="admonition-title">Erarbeitungsaufgabe (EA1) - Wahrheitstabellen entdecken</p>
-</div>
+<nav class="task-overview">
+<p><a href="#ea1-wahrheitstabellen-entdecken">EA1 - Wahrheitstabellen entdecken</a></p>
+</nav>
+<h2 id="grundbegriffe">Grundbegriffe<a class="headerlink" href="#grundbegriffe" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Begriff</th>
+<th>Bedeutung im Unterrichtskontext</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Wert 1</td>
+<td>wahr, ja, an, grün, sicher</td>
+</tr>
+<tr>
+<td>Wert 0</td>
+<td>falsch, nein, aus, rot, unsicher</td>
+</tr>
+<tr>
+<td>Variable</td>
+<td>Repräsentiert eine Aussage oder eine Fahrspur, z.B. A, B, C</td>
+</tr>
+</tbody>
+</table>
+<h2 id="wichtiger-hinweis">Wichtiger Hinweis<a class="headerlink" href="#wichtiger-hinweis" title="Permanent link">&para;</a></h2>
+<p>Bei <code>n</code> Variablen gibt es <code>2^n</code> Zeilen in der Wahrheitstabelle.</p>
+<table>
+<thead>
+<tr>
+<th>Anzahl Variablen</th>
+<th>Anzahl Zeilen</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1 Variable</td>
+<td>2 Zeilen</td>
+</tr>
+<tr>
+<td>2 Variablen</td>
+<td>4 Zeilen</td>
+</tr>
+<tr>
+<td>3 Variablen</td>
+<td>8 Zeilen</td>
+</tr>
+</tbody>
+</table>
+<h2 id="erarbeitungsaufgabe-wahrheitstabellen-entdecken">Erarbeitungsaufgabe - Wahrheitstabellen entdecken<a class="headerlink" href="#erarbeitungsaufgabe-wahrheitstabellen-entdecken" title="Permanent link">&para;</a></h2>
 <p><a id="ea1-wahrheitstabellen-entdecken"></a></p>
-<details class="task-collapse">
+<details class="task">
 <summary>EA1 - Wahrheitstabellen entdecken</summary>
-    !!! goal "Ziel der Aufgabe" 
-        Grundlagen der Wahrheitstabelle in LogicTraffic entdecken 
-
-    #### Ablauf
-    ??? student "Schritt 1 - Variablen verstehen" 
-        In Logic Traffic repräsentiert jede Spur eine Variable (A, B, C, ...)
-        Wert 1 (grün) = Spur hat grün
-        Wert 0 (rot) = Spur hat rot
-
-    ??? student "Schritt 2 - Wahrheitstabellen erkunden" 
-        Betrachte bei verschiedenen Situationen die Wahrheitstabelle 
-        Zähle: Wie viele Zeilen hat die Tabelle bei 2 Spuren?
-        Erkläre: Warum gibt es genau diese Anzahl an Zeilen?
-        Systematik entdecken: In welcher Reihenfolge sind die Kombinationen aufgelistet?
-
-    ??? student "Schritt 3 - Spalte "sicher" analysieren" 
-        Klicke nacheinander auf verschiedene Zeilen der Wahrheitstabelle
-        Beobachte die Verkehrssituation: Was passiert?
-        Notiere: Bei welchen Kombinationen gibt es Kollisionen?
-        Übertrage die Wahrheitstabelle ausgefüllt in dein Heft
+<div class="admonition goal">
+<p class="admonition-title">Ziel der Aufgabe</p>
+<p>Die Lernenden entdecken die Grundlagen der Wahrheitstabelle in LogicTraffic.</p>
+</div>
+<h3 id="ablauf">Ablauf<a class="headerlink" href="#ablauf" title="Permanent link">&para;</a></h3>
+<h4 id="schritt-1-variablen-verstehen">Schritt 1 - Variablen verstehen<a class="headerlink" href="#schritt-1-variablen-verstehen" title="Permanent link">&para;</a></h4>
+<p>In LogicTraffic repräsentiert jede Spur eine Variable (A, B, C, ...).</p>
+<ul>
+<li>Wert 1 (grün): Die Spur hat grün.</li>
+<li>Wert 0 (rot): Die Spur hat rot.</li>
+</ul>
+<h4 id="schritt-2-wahrheitstabellen-erkunden">Schritt 2 - Wahrheitstabellen erkunden<a class="headerlink" href="#schritt-2-wahrheitstabellen-erkunden" title="Permanent link">&para;</a></h4>
+<p>Betrachtet bei verschiedenen Situationen die Wahrheitstabelle.</p>
+<ul>
+<li>Wie viele Zeilen hat die Tabelle bei 2 Spuren?</li>
+<li>Warum gibt es genau diese Anzahl an Zeilen?</li>
+<li>In welcher Reihenfolge sind die Kombinationen aufgelistet?</li>
+</ul>
+<h4 id="schritt-3-spalte-sicher-analysieren">Schritt 3 - Spalte "sicher" analysieren<a class="headerlink" href="#schritt-3-spalte-sicher-analysieren" title="Permanent link">&para;</a></h4>
+<p>Klickt nacheinander auf verschiedene Zeilen der Wahrheitstabelle.</p>
+<ul>
+<li>Was passiert in der Verkehrssituation?</li>
+<li>Bei welchen Kombinationen gibt es Kollisionen?</li>
+<li>Übertragt die ausgefüllte Wahrheitstabelle ins Heft.</li>
+</ul>
 </details>
       </article>
     </main>

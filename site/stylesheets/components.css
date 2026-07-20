@@ -5,6 +5,32 @@
   margin-top: 1.5rem;
 }
 
+.orientation-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 0.75rem;
+  margin: 1rem 0 1.75rem;
+}
+
+.orientation-item {
+  padding: 0.85rem 0.95rem;
+  border: 1px solid var(--color-line);
+  border-left: 0.22rem solid #6f7f91;
+  border-radius: var(--radius);
+  background: var(--color-soft);
+}
+
+.orientation-item p {
+  margin: 0;
+}
+
+.orientation-label {
+  display: block;
+  margin-bottom: 0.25rem;
+  color: var(--color-ink);
+  font-weight: 800;
+}
+
 .link-card {
   display: flex;
   flex-direction: column;

@@ -1,50 +1,55 @@
-# Wahrheitstabellen im Unterricht erarbeiten 
+# Wahrheitstabellen im Unterricht erarbeiten
+
 Eine Wahrheitstabelle ist eine systematische Übersicht, die für alle möglichen Kombinationen von Eingangswerten die zugehörigen Ausgangswerte zeigt.
 
+<nav class="task-overview" markdown>
 [EA1 - Wahrheitstabellen entdecken](#ea1-wahrheitstabellen-entdecken)
+</nav>
 
-### Werte
+## Grundbegriffe
 
-    1 (oder wahr) = „ja", „an", „grün", sicher"
-    0 (oder falsch) = „nein", „aus", „rot", „unsicher"
+| Begriff | Bedeutung im Unterrichtskontext |
+| --- | --- |
+| Wert 1 | wahr, ja, an, grün, sicher |
+| Wert 0 | falsch, nein, aus, rot, unsicher |
+| Variable | Repräsentiert eine Aussage oder eine Fahrspur, z.B. A, B, C |
 
-### Variablen
+## Wichtiger Hinweis
 
-Variablen: Repräsentieren Aussagen (z.B. A, B, C)
+Bei `n` Variablen gibt es `2^n` Zeilen in der Wahrheitstabelle.
 
-### Wichtiger Hinweis
+| Anzahl Variablen | Anzahl Zeilen |
+| --- | --- |
+| 1 Variable | 2 Zeilen |
+| 2 Variablen | 4 Zeilen |
+| 3 Variablen | 8 Zeilen |
 
-Wichtig: Bei n Variablen gibt es 2ⁿ Zeilen
+## Erarbeitungsaufgabe - Wahrheitstabellen entdecken
 
-    1 Variable → 2 Zeilen
-    2 Variablen → 4 Zeilen
-    3 Variablen → 8 Zeilen
+<a id="ea1-wahrheitstabellen-entdecken"></a>
 
-## Erarbeitungsaufgabe (EA) - Wahrheitstabellen entdecken 
+??? task "EA1 - Wahrheitstabellen entdecken"
+    !!! goal "Ziel der Aufgabe"
+        Die Lernenden entdecken die Grundlagen der Wahrheitstabelle in LogicTraffic.
 
-??? task "Erarbeitungsaufgabe (EA1) - Wahrheitstabellen entdecken" 
-    <a id="ea1-wahrheitstabellen-entdecken"></a>
-    <summary>EA1 - Wahrheitstabellen entdecken</summary>
-    
-    !!! goal "Ziel der Aufgabe" 
-        Grundlagen der Wahrheitstabelle in LogicTraffic entdecken 
-    
     ### Ablauf
-    #### Schritt 1 - Variablen verstehen 
-        In Logic Traffic repräsentiert jede Spur eine Variable (A, B, C, ...)
-        Wert 1 (grün) = Spur hat grün
-        Wert 0 (rot) = Spur hat rot
-    
-    #### Schritt 2 - Wahrheitstabellen erkunden 
-        Betrachte bei verschiedenen Situationen die Wahrheitstabelle 
-        Zähle: Wie viele Zeilen hat die Tabelle bei 2 Spuren?
-        Erkläre: Warum gibt es genau diese Anzahl an Zeilen?
-        Systematik entdecken: In welcher Reihenfolge sind die Kombinationen aufgelistet?
 
-    #### Schritt 3 - Spalte "sicher" analysieren 
-        Klicke nacheinander auf verschiedene Zeilen der Wahrheitstabelle
-        Beobachte die Verkehrssituation: Was passiert?
-        Notiere: Bei welchen Kombinationen gibt es Kollisionen?
-        Übertrage die Wahrheitstabelle ausgefüllt in dein Heft
+    #### Schritt 1 - Variablen verstehen
+    In LogicTraffic repräsentiert jede Spur eine Variable (A, B, C, ...).
 
-    
+    - Wert 1 (grün): Die Spur hat grün.
+    - Wert 0 (rot): Die Spur hat rot.
+
+    #### Schritt 2 - Wahrheitstabellen erkunden
+    Betrachtet bei verschiedenen Situationen die Wahrheitstabelle.
+
+    - Wie viele Zeilen hat die Tabelle bei 2 Spuren?
+    - Warum gibt es genau diese Anzahl an Zeilen?
+    - In welcher Reihenfolge sind die Kombinationen aufgelistet?
+
+    #### Schritt 3 - Spalte "sicher" analysieren
+    Klickt nacheinander auf verschiedene Zeilen der Wahrheitstabelle.
+
+    - Was passiert in der Verkehrssituation?
+    - Bei welchen Kombinationen gibt es Kollisionen?
+    - Übertragt die ausgefüllte Wahrheitstabelle ins Heft.

@@ -1,3 +1,7 @@
+# Enaktiver Einstieg
+
+Diese Seite bündelt handlungsorientierte Aufgaben, mit denen Lernende Verkehrssituationen zuerst körperlich und anschaulich untersuchen, bevor sie diese formal mit Wahrheitstabellen beschreiben.
+
 <nav class="task-overview" markdown>
 [KA1 - Situation 4 enaktiv nachspielen](#ka1-situation-4-enaktiv-nachspielen)
 [EA1 - Wie beschreiben wir eine Kreuzung eindeutig?](#ea1-wie-beschreiben-wir-eine-kreuzung-eindeutig)

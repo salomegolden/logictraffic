@@ -1,22 +1,23 @@
-/* Bootstrap-style callouts for MkDocs admonitions and pymdownx.details. */
+/* Calm callouts for MkDocs admonitions and pymdownx.details. */
 
 :root {
-  --bs-callout-color: var(--bs-primary-text-emphasis);
-  --bs-callout-bg: var(--bs-primary-bg-subtle);
-  --bs-callout-border: var(--bs-primary-border-subtle);
-  --callout-icon: "\F431";
+  --bs-callout-color: #405060;
+  --bs-callout-bg: #f8fafc;
+  --bs-callout-border: #d6dee7;
+  --bs-callout-title-bg: rgb(255 255 255 / 0.45);
 }
 
 .admonition,
 .page-content > details,
 .page-content details:not(.site-nav__group) {
   margin: 1.25rem 0;
-  padding: 1.1rem 1.25rem;
+  padding: 1rem 1.15rem;
   border: 1px solid var(--bs-callout-border);
-  border-left-width: 0.35rem;
+  border-left-width: 0.28rem;
   border-radius: var(--bs-border-radius);
   background: var(--bs-callout-bg);
   color: var(--bs-body-color);
+  box-shadow: 0 2px 10px rgb(31 35 40 / 0.035);
 }
 
 .admonition .admonition,
@@ -24,6 +25,7 @@
 .page-content details .admonition,
 .page-content details details {
   margin: 0.9rem 0;
+  background: rgb(255 255 255 / 0.52);
   box-shadow: none;
 }
 
@@ -37,7 +39,7 @@
   border: 0;
   background: transparent;
   color: var(--bs-callout-color);
-  font-weight: 800;
+  font-weight: 750;
   line-height: 1.35;
 }
 
@@ -50,14 +52,14 @@
 
 .admonition-title::before,
 .page-content details summary::before {
-  content: var(--callout-icon);
-  display: inline-block;
+  content: "";
+  display: block;
   flex: 0 0 auto;
-  color: var(--bs-callout-color);
-  font-family: "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", sans-serif;
-  font-size: 1.05rem;
-  font-weight: 400;
-  line-height: 1;
+  width: 0.55rem;
+  height: 0.55rem;
+  border-radius: 999px;
+  background: var(--bs-callout-color);
+  opacity: 0.78;
 }
 
 .admonition > :last-child,
@@ -77,76 +79,91 @@
 .page-content details summary::after {
   content: "+";
   margin-left: auto;
-  color: var(--bs-callout-color);
-  font-weight: 900;
+  color: var(--color-muted);
+  font-weight: 800;
 }
 
 .page-content details[open] > summary::after {
   content: "-";
 }
 
+.page-content details:not([open]) > summary {
+  margin-bottom: 0;
+}
+
 .admonition.teacher,
 details.teacher {
-  --bs-callout-color: #6F56FF;
-  --bs-callout-bg: #DED9FF;
-  --bs-callout-border: #bdb2ff;
-  --callout-icon: "🏫";
+  --bs-callout-color: #5f5a83;
+  --bs-callout-bg: #f5f3fa;
+  --bs-callout-border: #d9d5e9;
 }
 
 .admonition.logictraffic,
 details.logictraffic {
-  --bs-callout-color: #16D35E;
-  --bs-callout-bg: #C6F9D9;
-  --bs-callout-border: #7BF1A8;
-  --callout-icon: "🚦";
+  --bs-callout-color: #37694a;
+  --bs-callout-bg: #f2f8f4;
+  --bs-callout-border: #ccdfd2;
 }
 
 .admonition.student,
 details.student {
-  --bs-callout-color: #287AFF; 
-  --bs-callout-bg: #C8DDFF;
-  --bs-callout-border: #A0C4FF;
-  --callout-icon: "🎓";
+  --bs-callout-color: #3f6688;
+  --bs-callout-bg: #f2f7fb;
+  --bs-callout-border: #ceddeb;
 }
 
 .admonition.error,
 details.error,
 .admonition.danger,
 details.danger {
-  --bs-callout-color: #FF5252;
-  --bs-callout-bg: #FFD6D6;
-  --bs-callout-border: #FFADAD;
-  --callout-icon: "⚠️";
+  --bs-callout-color: #9a514b;
+  --bs-callout-bg: #fff5f3;
+  --bs-callout-border: #edcbc6;
 }
 
 .admonition.meta,
 details.meta {
-  --bs-callout-color: #87786E;
-  --bs-callout-bg: #E7E4E2;
-  --bs-callout-border: #D9D4D1;
-  --callout-icon: "ℹ️";
+  --bs-callout-color: #6f6257;
+  --bs-callout-bg: #f7f5f2;
+  --bs-callout-border: #ded8d0;
 }
 
 .admonition.task,
 details.task,
 details.task-collapse {
-  --bs-callout-color: #8A5A00;
-  --bs-callout-bg: #FFF7C8;
-  --bs-callout-border: #E0B400;
-  --callout-icon: "✍️";
+  --bs-callout-color: #735f36;
+  --bs-callout-bg: #fffaf0;
+  --bs-callout-border: #e3d5b3;
 }
 
 .admonition.goal,
 details.goal {
-  --bs-callout-color: #FFA02C;
-  --bs-callout-bg: #FFE7CB;
-  --bs-callout-border: #FFD6A5;
-  --callout-icon: "🎯";
+  --bs-callout-color: #7b6236;
+  --bs-callout-bg: #fff8ec;
+  --bs-callout-border: #e7d8bd;
+}
+
+.admonition.note,
+details.note {
+  --bs-callout-color: #3f6475;
+  --bs-callout-bg: #f3f8fa;
+  --bs-callout-border: #ccdde4;
 }
 
 .admonition.task > .admonition-title,
 details.task > summary {
   font-size: 1.05rem;
+}
+
+details.task-collapse {
+  --bs-callout-color: #49566a;
+  --bs-callout-bg: #ffffff;
+  --bs-callout-border: #d6dee7;
+  border-left-width: 0.22rem;
+}
+
+details.task-collapse > summary {
+  font-size: 1rem;
 }
 
 .admonition.goal > .admonition-title,
