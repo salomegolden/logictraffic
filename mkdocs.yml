@@ -29,7 +29,7 @@ theme:
       quote: material/clipboard-text-outline
       tip: material/lightbulb-on-outline
       warning: material/alert-circle-outline
-      example: material/checkdecagram-outline
+      example: material/check-decagram-outline
       info: material/book-education-outline
       question: material/chat-question-outline
       note: material/package-variant-closed
