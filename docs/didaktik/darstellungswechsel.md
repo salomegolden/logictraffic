@@ -24,12 +24,3 @@ Viele Schwierigkeiten entstehen nicht, weil einzelne Begriffe fehlen, sondern we
 | Eine Tabellenzeile wirkt abstrakt | Ampeln im Tool passend einstellen und die Zeile markieren |
 | Die Sprache bleibt ungenau | Satzbausteine anbieten: "Die Situation ist sicher, wenn ..." |
 | Formeln werden geraten | zuerst sichere Zeilen sammeln, dann Formel ableiten |
-
-## Verbindung zu den Aufgaben
-
-| Phase | Geeignete Seite |
-| --- | --- |
-| Einstieg über Handeln | [Enaktiver Einstieg](../unterricht/einstiegenaktiv.md) |
-| Arbeit mit dem Tool | [Einführung Online Lernumgebung](../unterricht/logictraffic.md) |
-| Tabellen systematisieren | [Wahrheitstabellen](wahrheitstabellen.md) |
-| Formeln aus Tabellen ableiten | [Normalformen](normalformen.md) |

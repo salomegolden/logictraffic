@@ -22,6 +22,54 @@ Eine Wahrheitstabelle listet alle Kombinationen der Wahrheitswerte aller Variabl
 | Wert `0` | Spur hat rot bzw. ist gesperrt |
 | Spalte "sicher" | Bewertung der gesamten Ampelkombination |
 
+### Wahrheitstabellen der Operatoren
+
+#### Negation
+
+Die Negation kehrt den Wahrheitswert einer Aussage um. Wenn `A` wahr ist, ist `¬A` falsch; wenn `A` falsch ist, ist `¬A` wahr.
+
+| `A` | `¬A` |
+| --- | --- |
+| 1 | 0 |
+| 0 | 1 |
+
+#### Konjunktion
+
+Die Konjunktion entspricht dem logischen UND. `A ∧ B` ist nur dann wahr, wenn beide Teilaussagen wahr sind.
+
+| `A` | `B` | `A ∧ B` |
+| --- | --- | --- |
+| 1 | 1 | 1 |
+| 1 | 0 | 0 |
+| 0 | 1 | 0 |
+| 0 | 0 | 0 |
+
+#### Disjunktion
+
+Die Disjunktion entspricht dem inklusiven ODER. `A ∨ B` ist wahr, sobald mindestens eine der beiden Aussagen wahr ist; auch beide dürfen wahr sein.
+
+| `A` | `B` | `A ∨ B` |
+| --- | --- | --- |
+| 1 | 1 | 1 |
+| 1 | 0 | 1 |
+| 0 | 1 | 1 |
+| 0 | 0 | 0 |
+
+#### Implikation
+
+Die Implikation entfernt sich am stärksten von der Alltagssprache. Formulierungen wie "Aus A folgt B" können missverständlich sein, weil sie schnell kausal verstanden werden. Präziser ist: `A` ist hinreichend für `B`, oder `B` ist notwendig für `A`.[^13]
+
+`A → B` ist nur dann falsch, wenn die Voraussetzung `A` wahr ist, die Schlussfolgerung `B` aber falsch ist.
+
+| `A` | `B` | `A → B` |
+| --- | --- | --- |
+| 1 | 1 | 1 |
+| 1 | 0 | 0 |
+| 0 | 1 | 1 |
+| 0 | 0 | 1 |
+
+Gerade bei Operatoren treten häufig Fehlvorstellungen auf, besonders beim inklusiven Oder und bei der Implikation. Eine Übersicht dazu findet sich unter [Lern- und Lehrherausforderungen](difficulties.md).[^6]
+
 ## Sicher oder unsicher
 
 | Wert in der Spalte "sicher" | Bedeutung |
