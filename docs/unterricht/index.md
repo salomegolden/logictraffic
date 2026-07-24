@@ -1,14 +1,8 @@
 # Unterricht durchführen
 
-Die Unterrichtseinheit ermöglicht einen schrittweisen Einstieg in die
-boolesche Aussagenlogik. Ausgangspunkt sind konkrete Verkehrssituationen,
-die zunächst mit physischen Materialien untersucht und anschliessend in
-der digitalen Lernumgebung LogicTraffic dargestellt werden.
+Die Unterrichtseinheit ermöglicht einen schrittweisen Einstieg in die boolesche Aussagenlogik. Ausgangspunkt sind konkrete Verkehrssituationen, die zunächst mit physischen Materialien untersucht und anschliessend in der digitalen Lernumgebung LogicTraffic dargestellt werden.
 
-Im weiteren Verlauf wechseln die Lernenden von der konkreten
-Verkehrssituation zu Wahrheitstabellen und booleschen Formeln. Dadurch
-werden unterschiedliche Darstellungen miteinander verbunden und die
-Abstraktion schrittweise aufgebaut.
+Im weiteren Verlauf wechseln die Lernenden von der konkreten Verkehrssituation zu Wahrheitstabellen und booleschen Formeln. Dadurch werden unterschiedliche Darstellungen miteinander verbunden und die Abstraktion schrittweise aufgebaut.
 
 !!! abstract "Unterrichtseinheit auf einen Blick"
 
@@ -28,8 +22,7 @@ Abstraktion schrittweise aufgebaut.
 
 ## Aufbau der Unterrichtseinheit
 
-Die Unterrichtseinheit folgt einer Progression vom konkreten Handeln
-zur formalen Darstellung:
+Die Unterrichtseinheit folgt einer Progression vom konkreten Handeln zur formalen Darstellung:
 
 ![Darstellungswechsel in der Unterrichtseinheit (generiert mit GPT5.6 (OpenAI))](https://github.com/salomegolden/logictraffic/releases/download/images-v1/entwicklung_darstellungswechsel.png)
 
@@ -43,10 +36,7 @@ Zentrale Darstellung: konkret und handelnd.
 
 ### Baustein 2 - Lernumgebung LogicTraffic
 
-Die Erkenntnisse aus dem enaktiven Einstieg werden auf die digitale
-Lernumgebung übertragen. Die Lernenden steuern Ampeln, beobachten
-Verkehrssituationen und lernen die Funktionen und Bedienung von
-LogicTraffic kennen.
+Die Erkenntnisse aus dem enaktiven Einstieg werden auf die digitale Lernumgebung übertragen. Die Lernenden steuern Ampeln, beobachten Verkehrssituationen und lernen die Funktionen und Bedienung von LogicTraffic kennen.
 
 Zentrale Darstellung: virtuell-enaktiv und ikonisch
 
@@ -54,9 +44,7 @@ Zentrale Darstellung: virtuell-enaktiv und ikonisch
 
 ### Baustein 3 - Wahrheitstabellen
 
-Die Lernenden erfassen die möglichen Ampelzustände systematisch in
-einer Wahrheitstabelle. Dabei verbinden sie konkrete Situationen mit
-Variablen und Wahrheitswerten.
+Die Lernenden erfassen die möglichen Ampelzustände systematisch in einer Wahrheitstabelle. Dabei verbinden sie konkrete Situationen mit Variablen und Wahrheitswerten.
 
 Zentrale Darstellung: tabellarisch und symbolisch
 
@@ -64,9 +52,7 @@ Zentrale Darstellung: tabellarisch und symbolisch
 
 ### Baustein 4 - Boolesche Algebra und Normalformen
 
-Die Sicherheitsregeln werden mit den Operatoren NICHT, UND und ODER
-formal beschrieben. Verschiedene Formeln können verglichen und auf
-ihre Bedeutung für die Verkehrssituation geprüft werden.
+Die Sicherheitsregeln werden mit den Operatoren NICHT, UND und ODER formal beschrieben. Verschiedene Formeln können verglichen und auf ihre Bedeutung für die Verkehrssituation geprüft werden.
 
 Zentrale Darstellung: formal und symbolisch
 
@@ -106,8 +92,7 @@ Vor dem Unterricht sollten insbesondere folgende Punkte geklärt werden:
 
 ---
 
-Möglichkeiten zur Unterstützung, Vertiefung und Anpassung an
-unterschiedliche Lerngruppen.
+Möglichkeiten zur Unterstützung, Vertiefung und Anpassung an unterschiedliche Lerngruppen.
 
 [:link: Differenzierung und Unterstützung](differenzierung.md)
 
@@ -115,8 +100,7 @@ unterschiedliche Lerngruppen.
 
 ---
 
-Hinweise zu formativen Lernkontrollen, Beobachtungen und möglichen
-summativen Aufgaben.
+Hinweise zu formativen Lernkontrollen, Beobachtungen und möglichen summativen Aufgaben.
 
 [:link: Beurteilung](beurteilung.md.md)
 
@@ -124,8 +108,7 @@ summativen Aufgaben.
 
 ---
 
-Fachliche Erläuterungen zu Logik, Wahrheitstabellen, boolescher
-Algebra und Normalformen.
+Fachliche Erläuterungen zu Logik, Wahrheitstabellen, boolescher Algebra und Normalformen.
 
 [:link: Fachlicher Hintergrund](../fachlicher-hintergrund/index.md)
 

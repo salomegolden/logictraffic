@@ -281,9 +281,9 @@ Die entstandene Tabelle bildet die Brücke zur formalen Darstellung:
 
 > Wir haben die Ampelzustände bisher mit Rot und Grün beschrieben. In der Logik werden solche zwei möglichen Zustände häufig als falsch und wahr oder als 0 und 1 dargestellt.
 
-Für die Weiterarbeit eignet sich der Baustein [Wahrheitstabellen](wahrheitstabellen.md).
+Für die Weiterarbeit eignet sich der [Baustein3 - Wahrheitstabellen](baustein3-wahrheitstabellen.md).
 
-Soll direkt mit der digitalen Lernumgebung weitergearbeitet werden, kann anschliessend der Baustein [Einführung in LogicTraffic](logictraffic.md) eingesetzt werden. LogicTraffic verbindet die Verkehrssituation mit Wahrheitstabelle und Formeleditor und ermöglicht dadurch den schrittweisen Übergang zwischen verschiedenen Darstellungen.
+Soll direkt mit der digitalen Lernumgebung weitergearbeitet werden, kann anschliessend der Baustein [Baustein 2 - LogicTraffic](baustein2-logictraffic.md) eingesetzt werden. LogicTraffic verbindet die Verkehrssituation mit Wahrheitstabelle und Formeleditor und ermöglicht dadurch den schrittweisen Übergang zwischen verschiedenen Darstellungen.
 
 ## Materialien
 

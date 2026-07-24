@@ -2,8 +2,6 @@
 
 Diese Seite führt in logische Verknüpfungen und den Formeleditor ein. Ziel ist, dass Lernende Formeln nicht nur eingeben, sondern mit Wahrheitstabellen und Verkehrssituationen verbinden.
 
-- [EA1 - Logische Verknüpfungen](#ea1-logische-verknuepfungen)
-
 ## Vorbereitung
 
 | Voraussetzung | Hinweis |
@@ -14,10 +12,6 @@ Diese Seite führt in logische Verknüpfungen und den Formeleditor ein. Ziel ist
 
 ## Erarbeitungsaufgabe
 
-<a id="ea1-logische-verknuepfungen"></a>
-
-<details markdown>
-<summary>EA1 - Logische Verknüpfungen</summary>
 
 ### Ziel
 
@@ -36,12 +30,5 @@ Die Lernenden entdecken die Bedeutung von `AND`, `OR` und `NOT`, indem sie Forme
 
 Am Ende haben die Lernenden für `∧`, `∨` und `¬` je eine Wahrheitstabelle und eine kurze Erklärung in Alltagssprache.
 
-</details>
 
-## Anschluss
 
-| Wenn ... | Dann weiter mit |
-| --- | --- |
-| die Operatoren noch unsicher sind | [Zur Sache](../topic/index.md#operatoren) |
-| Formeln aus Tabellen entstehen sollen | [Normalformen](../topic/normalformen.md) |
-| das Tool stärker geübt werden soll | [Einführung Online Lernumgebung](logictraffic.md) |
