@@ -62,7 +62,7 @@ nav:
       - Downloads: anhang/downloads.md
       - Glossar: anhang/glossar.md
       - Literatur: anhang/literatur.md
-      - Hintergrund und Entwicklung: about.md
+      - Hintergrund und Entwicklung: anhang/about.md
 
 markdown_extensions:
   - admonition

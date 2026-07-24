@@ -1,6 +1,6 @@
 ## Grundidee von LogicTraffic
 
-LogicTraffic simuliert eine Strassenkreuzung mit Ampeln für verschiedene Fahrspuren. Ziel ist es, eine logische Formel zu finden, die sicherstellt, dass kreuzende Spuren nie gleichzeitig grün haben. Dadurch wird sichtbar, wie Aussagenlogik in einem alltagsnahen Steuerungsproblem angewendet wird.[^11][^12]
+LogicTraffic simuliert eine Strassenkreuzung mit Ampeln für verschiedene Fahrspuren. Ziel ist es, eine logische Formel zu finden, die sicherstellt, dass kreuzende Spuren nie gleichzeitig grün haben. Dadurch wird sichtbar, wie Aussagenlogik in einem alltagsnahen Steuerungsproblem angewendet wird.
 
 In LogicTraffic wird jede Fahrspur durch eine Variable beschrieben. Eine Ampel ist entweder rot (`0`) oder grün (`1`). Die Wahrheitstabelle listet alle möglichen Kombinationen dieser Ampelzustände auf. Die Formel beschreibt anschliessend, welche Kombinationen sicher sind.
 
@@ -8,13 +8,13 @@ In LogicTraffic wird jede Fahrspur durch eine Variable beschrieben. Eine Ampel i
 
 | Begriff | Kurze Erklärung | Beispiel in LogicTraffic |
 | --- | --- | --- |
-| Aussage | Ein Sachverhalt, der eindeutig wahr oder falsch ist.[^1][^7] | "Ampel A ist grün." |
+| Aussage | Ein Sachverhalt, der eindeutig wahr oder falsch ist. | "Ampel A ist grün." |
 | Wahrheitswert | Wert einer Aussage: wahr/`1` oder falsch/`0` | `A = 1` bedeutet: Spur A ist befahrbar. |
 | Variable | Platzhalter für eine Aussage oder einen Zustand | `A`, `B`, `C` stehen für Fahrspuren bzw. Ampeln. |
-| Junktor | Logisches Verknüpfungszeichen, das Aussagen verbindet.[^7] | `A ∧ B`, `A ∨ B`, `¬A` |
-| Operator | Rechenzeichen der booleschen Logik; erzeugt aus Wahrheitswerten neue Wahrheitswerte.[^3][^9] | UND, ODER, NICHT |
-| Boolesche Funktion | Ordnet jeder Kombination von Eingabewerten genau einen Ausgabewert zu.[^7] | Eine Sicherheitsregel für eine Kreuzung |
-| Wahrheitstabelle | Tabelle mit allen `2^n` Kombinationen von `n` Variablen.[^2][^8] | Alle Rot-Grün-Kombinationen einer Situation |
+| Junktor | Logisches Verknüpfungszeichen, das Aussagen verbindet. | `A ∧ B`, `A ∨ B`, `¬A` |
+| Operator | Rechenzeichen der booleschen Logik; erzeugt aus Wahrheitswerten neue Wahrheitswerte.| UND, ODER, NICHT |
+| Boolesche Funktion | Ordnet jeder Kombination von Eingabewerten genau einen Ausgabewert zu. | Eine Sicherheitsregel für eine Kreuzung |
+| Wahrheitstabelle | Tabelle mit allen `2^n` Kombinationen von `n` Variablen.| Alle Rot-Grün-Kombinationen einer Situation |
 | Normalform | Standardisierte Form einer booleschen Formel | DNF, KNF, KDNF, KKNF |
 
 ## Aussagenlogik in LogicTraffic
@@ -34,4 +34,4 @@ Eine einfache Aussage ist zum Beispiel:
 | `¬A` | Spur A hat nicht grün, also rot. |
 | `A ∧ ¬B` | Spur A hat grün und Spur B hat rot. |
 
-Solche Aussagen werden zu Formeln verknüpft. Eine Formel beschreibt dann nicht mehr nur eine einzelne Ampel, sondern eine ganze Sicherheitsregel für die Kreuzung.[^10][^11]
+Solche Aussagen werden zu Formeln verknüpft. Eine Formel beschreibt dann nicht mehr nur eine einzelne Ampel, sondern eine ganze Sicherheitsregel für die Kreuzung.

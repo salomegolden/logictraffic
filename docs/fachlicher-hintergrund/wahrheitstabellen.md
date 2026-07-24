@@ -88,13 +88,6 @@ Die Werte können in LogicTraffic verändert werden. Dadurch passt sich die auto
 | Interaktion | Klicks auf Ampeln oder Tabellenwerte verändern die Situation. |
 | Formelbrücke | Aus sicheren Zeilen kann eine boolesche Formel entstehen. |
 
-## Weiterarbeiten
-
-| Ziel | Seite |
-| --- | --- |
-| Wahrheitstabellen im Unterricht einführen | [Wahrheitstabellen im Unterricht](../unterricht/wahrheitstabellen.md) |
-| Operatoren und Grundbegriffe nachschlagen | [Zur Sache](index.md) |
-| Formeln aus Tabellen ableiten | [Normalformen](normalformen.md) |
 
 [^1]: Arnold, R., & Hartmann, W. (2007). LogicTraffic - Logik in der Allgemeinbildung. Informatik-Spektrum, 30(1), 19-26. https://doi.org/10.1007/s00287-006-0123-7
 [^2]: Junker, M. (2025). _Logik für die Informatik: Eine Einführung in die Aussagenlogik, Prädikatenlogik und Berechenbarkeitstheorie_. Springer Berlin Heidelberg. https://doi.org/10.1007/978-3-662-70825-5

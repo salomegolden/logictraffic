@@ -69,8 +69,8 @@ Diese Formel sagt: Alle Bedingungen müssen erfüllt sein, damit die ganze Forme
 | Ziel | Seite |
 | --- | --- |
 | Grundlagen zu Wahrheitstabellen auffrischen | [Wahrheitstabellen](wahrheitstabellen.md) |
-| typische Fehlvorstellungen vorbereiten | [Lern- und Lehrherausforderungen](difficulties.md) |
-| Aufgaben mit LogicTraffic einsetzen | [Einführung Online Lernumgebung](../unterricht/logictraffic.md) |
+| typische Fehlvorstellungen vorbereiten |  |
+| Aufgaben mit LogicTraffic einsetzen | |
 
 [^1]: Boolesche Funktionen und ihre Normalformen. (2021, Juni 22). https://lehrerfortbildung-bw.de/u_matnatech/imp/gym/bp2016/fb2/m02_aug/1_hintergrund/4_grund/06_funktionen/
 [^2]: Inf-schule | Schaltnetze: Fachkonzept disjunktive Normalform. Abgerufen 17. März 2026, von https://inf-schule.de/rechner/digitaltechnik/Schaltnetze/Fachkonzept_Normalform

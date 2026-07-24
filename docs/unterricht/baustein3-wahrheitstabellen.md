@@ -2,7 +2,6 @@
 
 Eine Wahrheitstabelle zeigt für alle möglichen Kombinationen von Eingangswerten den zugehörigen Ausgangswert. In LogicTraffic bedeutet das: Alle Ampelzustände werden systematisch gesammelt und auf Sicherheit geprüft.
 
-- [EA1 - Wahrheitstabellen entdecken](#ea1-wahrheitstabellen-entdecken)
 
 ## Grundbegriffe
 
@@ -24,10 +23,6 @@ Bei `n` Variablen gibt es `2^n` Zeilen in der Wahrheitstabelle.
 
 ## Erarbeitungsaufgabe
 
-<a id="ea1-wahrheitstabellen-entdecken"></a>
-
-<details markdown>
-<summary>EA1 - Wahrheitstabellen entdecken</summary>
 
 ### Ziel
 
@@ -48,13 +43,3 @@ Die Lernenden entdecken, wie Wahrheitstabellen in LogicTraffic aufgebaut sind un
 - Welche Zeile passt zur aktuellen Ampelsituation?
 - Welche Kombinationen führen zu Kollisionen?
 - Warum ist eine vollständige Tabelle sicherer als eine intuitive Liste?
-
-</details>
-
-## Weiterarbeiten
-
-| Ziel | Seite |
-| --- | --- |
-| fachliche Erklärung nachschlagen | [Wahrheitstabellen](../topic/wahrheitstabellen.md) |
-| LogicTraffic-Aufgaben anschliessen | [Einführung Online Lernumgebung](logictraffic.md) |
-| Formeln aus Tabellen ableiten | [Formeln verstehen](formelnverstehen.md) |
