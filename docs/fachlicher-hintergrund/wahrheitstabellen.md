@@ -68,7 +68,6 @@ Die Implikation entfernt sich am stärksten von der Alltagssprache. Formulierung
 | 0 | 1 | 1 |
 | 0 | 0 | 1 |
 
-Gerade bei Operatoren treten häufig Fehlvorstellungen auf, besonders beim inklusiven Oder und bei der Implikation. Eine Übersicht dazu findet sich unter [Lern- und Lehrherausforderungen](difficulties.md).[^6]
 
 ## Sicher oder unsicher
 

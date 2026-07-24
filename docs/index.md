@@ -8,7 +8,7 @@ Die Lernenden untersuchen zunächst konkrete Verkehrssituationen, beschreiben si
 
 [ :material-traffic-light: LogicTraffic öffnen](https://logictraffic.ch/){ .md-button .md-button--primary }
 
-[ :material-school-outline: Unterrichtsmaterialien ansehen](unterricht/){ .md-button }
+[ :material-school-outline: Unterrichtsmaterialien ansehen](unterricht/index.md){ .md-button }
 
 ---
 
@@ -38,7 +38,7 @@ Die Unterrichtsmaterialien folgen einer schrittweisen Progression:
 
     Vorbereitung, Unterrichtsabläufe, Beurteilung und Möglichkeiten zur Differenzierung für den direkten Einsatz im Unterricht.
 
-    [:octicons-arrow-right-24: Zur Unterrichtsübersicht](unterricht/)
+    [:octicons-arrow-right-24: Zur Unterrichtsübersicht](unterricht/index.md)
 
 -   :material-compass-outline:{ .lg .middle } **Didaktische Grundlagen**
 
@@ -46,7 +46,7 @@ Die Unterrichtsmaterialien folgen einer schrittweisen Progression:
 
     Hinweise zum Aufbau der Lernumgebung, zum Darstellungswechsel, zu Lernzielen und typischen Lernschwierigkeiten.
 
-    [:octicons-arrow-right-24: Zur Didaktik](didaktik/)
+    [:octicons-arrow-right-24: Zur Didaktik](didaktik/index.md)
 
 -   :material-book-education-outline:{ .lg .middle } **Fachlicher Hintergrund**
 
@@ -54,7 +54,7 @@ Die Unterrichtsmaterialien folgen einer schrittweisen Progression:
 
     Grundlagen zur Logik, zu Wahrheitstabellen, boolescher Algebra und Normalformen.
 
-    [:octicons-arrow-right-24: Zum fachlichen Hintergrund](fachlicher-hintergrund/)
+    [:octicons-arrow-right-24: Zum fachlichen Hintergrund](fachlicher-hintergrund/index.md)
 
 -   :material-download:{ .lg .middle } **Downloads**
 

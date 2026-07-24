@@ -102,7 +102,7 @@ Möglichkeiten zur Unterstützung, Vertiefung und Anpassung an unterschiedliche 
 
 Hinweise zu formativen Lernkontrollen, Beobachtungen und möglichen summativen Aufgaben.
 
-[:link: Beurteilung](beurteilung.md.md)
+[:link: Beurteilung](beurteilung.md)
 
 - :open_book:{ .lg .middle } Fachlicher Hintergrund
 
