@@ -11,7 +11,7 @@ LogicTraffic ist eine Lernumgebung, in der Verkehrssituationen, Wahrheitstabelle
 
 ## Programmaufbau
 
-![LogicTraffic](../images/Screenshot%202026-04-22%20at%2009-49-45%20logictraffic_anleitung%20-%20logictraffic_anleitung.pdf.png)
+Abbildung: LogicTraffic-Oberfläche.
 
 | Bereich | Bedeutung |
 | --- | --- |
@@ -41,7 +41,7 @@ Die Lernenden beschreiben eine reale oder bildlich gezeigte Kreuzung und formuli
 | Sprachlicher Auftrag | Mindestens drei Wenn-dann-Sätze formulieren. |
 | Übergang | Frage: Wer oder was entscheidet, wann welche Ampel leuchtet? |
 
-Material: [Bilder für KA1](../pdfmaterial/LogicTraffic%20-%20Einf%C3%BChrung%20Konfrontationsaufgabe%201%20M%C3%B6gliche%20Bilder%20von%20Kreuzungen%20und%20Verkehrssituationen.pdf), [Arbeitsblatt KA1](../pdfmaterial/Kreuzungen%20beobachten%20und%20beschreiben.pdf)
+Material: Bilder für KA1, Arbeitsblatt KA1
 
 </details>
 
@@ -76,15 +76,15 @@ Die Lernenden lernen die Oberfläche kennen und verbinden Ampelsituation, Wahrhe
 
 | Schritt | Auftrag |
 | --- | --- |
-| 1. Tool öffnen | [LogicTraffic](https://logictraffic.ch) öffnen und eine einfache Situation wählen. |
+| 1. Tool öffnen | LogicTraffic öffnen und eine einfache Situation wählen. |
 | 2. Oberfläche beschriften | Kreuzung, Wahrheitstabelle, Statusanzeige, Simulation und Formelbereich markieren. |
 | 3. Ampelwerte zuordnen | Eine Ampel anklicken und prüfen, welcher Tabellenwert zu grün bzw. rot gehört. |
 | 4. Tabelle verändern | Werte in der Spalte "sicher" ändern und die Statusanzeige beobachten. |
 | 5. Formel beobachten | Zwischen DNF, KNF und einfachster Formel wechseln. |
 
-Material: [Arbeitsblatt EA1](../pdfmaterial/Einf%C3%BChrung%20LogicTraffic.pdf)
+Material: Arbeitsblatt EA1
 
-![Lösung zur Oberflächenbeschriftung](../images/L%C3%B6sungBeschriftungProgramm.JPEG){ width=420 }
+Abbildung: Lösung zur Oberflächenbeschriftung.
 
 </details>
 
@@ -106,7 +106,7 @@ Die Lernenden erkennen, dass die Wahrheitstabelle festlegt, welche Ampelkombinat
 | 4. Regel formulieren | Schreibe eine Sicherheitsregel in Alltagssprache. |
 | 5. Formel vergleichen | Vergleiche die Regel mit der Formel im Tool. |
 
-Material: [Arbeitsblatt ÜA1](../pdfmaterial/Von%20der%20Kreuzung%20zur%20Tabelle%20und%20zur%C3%BCck.pdf)
+Material: Arbeitsblatt ÜA1
 
 </details>
 

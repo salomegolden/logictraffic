@@ -1,0 +1,50 @@
+Geeignete Admonition-Typen
+
+Bei MkDocs Material kannst du die Typen gezielt einsetzen.
+
+!!! abstract "Auf einen Blick"
+
+Für organisatorische Eckdaten. -> 
+Für organisatorische Eckdaten. -> :material-file-eye-outline:
+
+!!! quote "Arbeitsauftrag"
+
+Für Formulierungen, die direkt an die Lernenden gegeben werden können.
+
+??? tip "Hinweise für die Durchführung"
+
+Für optionale methodische Hinweise.
+
+??? warning "Typische Lernschwierigkeit"
+
+Für Schwierigkeiten und passende Reaktionen.
+
+??? example "Mögliche Lösung"
+
+Für Lösungen und erwartete Ergebnisse.
+
+??? info "Fachlicher Hintergrund"
+
+Für kurze fachliche Ergänzungen.
+
+!!! question "Reflexionsfrage"
+
+Für Fragen am Ende einer Phase oder Lektion.
+
+Der Unterschied ist:
+
+!!! tip
+
+ist standardmässig geöffnet,
+
+??? tip
+
+ist standardmässig geschlossen,
+
+???+ tip
+
+ist ausklappbar, aber beim Öffnen der Seite bereits geöffnet.
+
+markdown_extensions:
+  - def_list 
+-> 

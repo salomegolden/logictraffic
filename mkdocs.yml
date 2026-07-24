@@ -13,6 +13,9 @@ theme:
   font:
     text: Roboto 
     code: Google Sans Code
+  palette:
+    primary: "#0C1EE7"
+    accent: "#CC111A"
   features:
     - navigation.path
     - navigation.instant
@@ -20,6 +23,16 @@ theme:
     - navigation.footer
     - content.action.edit
     - content.action.view
+  icon:
+    admonition: 
+      abstract: material/file-eye-outline
+      quote: material/clipboard-text-outline
+      tip: material/lightbulb-on-outline
+      warning: material/alert-circle-outline
+      example: material/checkdecagram-outline
+      info: material/book-education-outline
+      question: material/chat-question-outline
+      note: material/package-variant-closed
 
 nav:
   - Start: index.md
@@ -53,8 +66,7 @@ nav:
       - Downloads: anhang/downloads.md
       - Glossar: anhang/glossar.md
       - Literatur: anhang/literatur.md
-
-  - Hintergrund und Entwicklung: about.md
+      - Hintergrund und Entwicklung: about.md
 
 
 markdown_extensions:

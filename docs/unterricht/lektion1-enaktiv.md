@@ -13,7 +13,7 @@ Der enaktive Einstieg macht Verkehrssicherheit zuerst handelnd erfahrbar. Lernen
 | Fahrzeuge | 3 bis 4 Spielzeugautos pro Gruppe |
 | Ampelkarten | pro Spur eine rote und eine grüne Karte |
 | Richtungskarten | geradeaus, links, rechts |
-| Druckvorlage | [Enaktives Material herunterladen](../pdfmaterial/Druckvorlage%20f%C3%BCr%20enaktives%20Material%20-%20Logic%20Traffic.pdf) |
+| Druckvorlage | Enaktives Material |
 
 ## Konfrontationsaufgabe
 
@@ -36,8 +36,8 @@ Die Lernenden beurteilen eine Verkehrssituation intuitiv und merken, dass kleine
 | 4. Veränderung auslösen | Verändert ein Auto oder eine Fahrtrichtung und prüft, ob die Lösung noch sicher ist. |
 | 5. Reflexion | Besprecht, warum Intuition allein schnell unübersichtlich wird. |
 
-![Situation 4 Enaktiv](../images/Situation4enaktiv.JPEG){ width=260 }
-![Situation 4 mit Ampeln](../images/situation4enaktivampeln.JPEG){ width=260 }
+Abbildung: Situation 4 Enaktiv.
+Abbildung: Situation 4 mit Ampeln.
 
 ### Hinweise für die Durchführung
 
