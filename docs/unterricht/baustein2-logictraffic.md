@@ -12,7 +12,7 @@ Im Zentrum steht zunächst nicht das formale Arbeiten mit Formeln. Die Lernenden
     **:busts_in_silhouette: Sozialform:**  
     Klassenunterricht, Partnerarbeit und kurze Einzelphasen
 
-    **:laptop: Computer:**  
+    **:material-laptop: Computer:**  
     Ein Computer oder Tablet pro Zweiergruppe
 
     **:brain: Vorwissen:**  
@@ -24,9 +24,9 @@ Im Zentrum steht zunächst nicht das formale Arbeiten mit Formeln. Die Lernenden
 
 !!! note "Downloads zu Baustein 2"
 
-    - [:framed_picture: Bild: Aufbau der Webseite und ihre Bereiche](https://github.com/salomegolden/logictraffic/releases/download/images-v1/logictraffic_anleitung.png)
-    - [:framed_picture: Bild: Teilbereiche der Webseite](https://github.com/salomegolden/logictraffic/releases/download/images-v1/losungBeschriftungProgramm.png)
-    - [:framed_picture: Tafelbild: Beispiel für die Ergebnissicherung](https://github.com/salomegolden/logictraffic/releases/download/images-v1/b2_tafelbild.png)
+    - [:material-image-outline: Bild: Aufbau der Webseite und ihre Bereiche](https://github.com/salomegolden/logictraffic/releases/download/images-v1/logictraffic_anleitung.png)
+    - [:material-image-outline: Bild: Teilbereiche der Webseite](https://github.com/salomegolden/logictraffic/releases/download/images-v1/losungBeschriftungProgramm.png)
+    - [:material-image-outline: Tafelbild: Beispiel für die Ergebnissicherung](https://github.com/salomegolden/logictraffic/releases/download/images-v1/b2_tafelbild.png)
     - [:memo: AB2.1 – Ergebnissicherung zur Orientierung auf der Webseite](https://github.com/salomegolden/logictraffic/releases/download/material-v1/b2_einfuhrung_logictraffic_AB.pdf)
     - [:film_projector: Präsentation mit Bildern von Kreuzungen](https://github.com/salomegolden/logictraffic/releases/download/material-v1/b2_prasentation_kreuzungen.pdf)
 
@@ -56,7 +56,7 @@ Die Lernenden können …
     Für die Durchführung werden benötigt:
 
     - :globe_with_meridians: [LogicTraffic](https://logictraffic.ch/)
-    - :tablet: ein Computer oder Tablet pro Zweiergruppe
+    - :material-tablet: ein Computer oder Tablet pro Zweiergruppe
     - :film_projector: ein Beamer oder Präsentationsbildschirm
     - :ledger: Notizpapier oder das Heft der Lernenden
 
@@ -469,9 +469,9 @@ Diese Frage führt zum nächsten Baustein, in dem Wahrheitstabellen systematisch
 
 !!! note "Ergänzendes Material und Downloads"
 
-    - [:framed_picture: **Aufbau der Webseite und ihre Bereiche**](https://github.com/salomegolden/logictraffic/releases/download/images-v1/logictraffic_anleitung.png)
-    - [:framed_picture: **Teilbereiche der Webseite**](https://github.com/salomegolden/logictraffic/releases/download/images-v1/losungBeschriftungProgramm.png)
-    - [:framed_picture: **Tafelbild zur Ergebnissicherung**](https://github.com/salomegolden/logictraffic/releases/download/images-v1/b2_tafelbild.png)
+    - [:material-image-outline: **Aufbau der Webseite und ihre Bereiche**](https://github.com/salomegolden/logictraffic/releases/download/images-v1/logictraffic_anleitung.png)
+    - [:material-image-outline: **Teilbereiche der Webseite**](https://github.com/salomegolden/logictraffic/releases/download/images-v1/losungBeschriftungProgramm.png)
+    - [:material-image-outline: **Tafelbild zur Ergebnissicherung**](https://github.com/salomegolden/logictraffic/releases/download/images-v1/b2_tafelbild.png)
     - [:memo: **AB2.1 – Orientierung auf der Webseite**](https://github.com/salomegolden/logictraffic/releases/download/material-v1/b2_einfuhrung_logictraffic_AB.pdf)
     - [:film_projector: **Präsentation mit Bildern von Kreuzungen**](https://github.com/salomegolden/logictraffic/releases/download/material-v1/b2_prasentation_kreuzungen.pdf)
 

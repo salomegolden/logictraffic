@@ -7,11 +7,11 @@ Hier finden sich alle Downloads zum Baustein 1, insbesondere Anleitung und Vorla
 
 ## Downloads B2
 
-[:framed_picture: Bild: Aufbau der Webseite und ihre Bereiche](https://github.com/salomegolden/logictraffic/releases/download/images-v1/logictraffic_anleitung.png)
+[:material-image-outline: Bild: Aufbau der Webseite und ihre Bereiche](https://github.com/salomegolden/logictraffic/releases/download/images-v1/logictraffic_anleitung.png)
 
-[:framed_picture: Bild: Teilbereiche der Webseite (beschrieben auch auf Tafelbild)](https://github.com/salomegolden/logictraffic/releases/download/images-v1/losungBeschriftungProgramm.png)
+[:material-image-outline: Bild: Teilbereiche der Webseite (beschrieben auch auf Tafelbild)](https://github.com/salomegolden/logictraffic/releases/download/images-v1/losungBeschriftungProgramm.png)
 
-[:framed_picture: Tafelbild: Beispiel für das Tafelbild](https://github.com/salomegolden/logictraffic/releases/download/images-v1/b2_tafelbild.png)
+[:material-image-outline: Tafelbild: Beispiel für das Tafelbild](https://github.com/salomegolden/logictraffic/releases/download/images-v1/b2_tafelbild.png)
 
 [:memo: AB2.1 mögliche Ergebnissicherung zur Orientierung auf der Webseite](https://github.com/salomegolden/logictraffic/releases/download/material-v1/b2_einfuhrung_logictraffic_AB.pdf)
 

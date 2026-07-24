@@ -16,7 +16,7 @@ Ausgehend von einzelnen konkreten Situationen entsteht schrittweise das Bedürfn
     
     **:busts_in_silhouette: Sozialform:** Gruppenarbeit, anschliessend Austausch im Plenum  
     
-    **:laptop: Computer:** nicht erforderlich
+    **:material-laptop: Computer:** nicht erforderlich
     
     **:brain: Vorwissen:** kein Vorwissen erforderlich
     
@@ -290,7 +290,7 @@ Soll direkt mit der digitalen Lernumgebung weitergearbeitet werden, kann anschli
 | Material | Hinweis |
 | --- | --- |
 | :motorway: Kreuzungsfeld | als Ausdruck oder laminierte Vorlage |
-| :car: Fahrzeuge | drei verschiedenfarbige Spielfiguren, Holzsteine (angemalt) oder Vorlage aus Tonpapier ausdrucken und ausschneiden |
+| :material-car: Fahrzeuge | drei verschiedenfarbige Spielfiguren, Holzsteine (angemalt) oder Vorlage aus Tonpapier ausdrucken und ausschneiden |
 | :arrow_up: :arrow_left: :arrow_right: Richtungskarten | zeigen die Fahrtrichtung der einzelnen Fahrzeuge |
 | :vertical_traffic_light: Wendbare Ampelplättchen | kleine Holzstücke mit Grün auf einer Seite und Rot auf der Rückseite oder Vorlage auf Tonpapier drucken, ausschneiden, falten und kleben |
 | :memo: [AB1.1 „Kreuzung beschreiben“](https://github.com/salomegolden/logictraffic/releases/download/material-v1/b1_kreuzungen_beschreiben_AB.pdf) | optionale Ergebnissicherung und Tabelle zum Festhalten der Beobachtungen |

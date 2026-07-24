@@ -1,0 +1,2412 @@
+
+<!doctype html>
+<html lang="de" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Dokumentation für das LogicTraffic-Projekt">
+      
+      
+        <meta name="author" content="Salome Gwendolin Guldener">
+      
+      
+        <link rel="canonical" href="https://salomegolden.github.io/logictraffic/unterricht/baustein2-logictraffic/">
+      
+      
+        <link rel="prev" href="../baustein1-enaktiv/">
+      
+      
+        <link rel="next" href="../baustein3-wahrheitstabellen/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>Baustein 2: Lernumgebung LogicTraffic - LogicTraffic</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+  
+  
+    
+      
+      
+    
+  
+    
+      
+      
+    
+  
+    
+      
+      
+    
+  
+    
+      
+      
+    
+  
+    
+      
+      
+    
+  
+    
+      
+      
+    
+  
+    
+      
+      
+    
+  
+    
+      
+      
+    
+  
+  
+  <style>:root{--md-admonition-icon--abstract:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M17%2018c.56%200%201%20.44%201%201s-.44%201-1%201-1-.44-1-1%20.44-1%201-1m0-3c-2.73%200-5.06%201.66-6%204%20.94%202.34%203.27%204%206%204s5.06-1.66%206-4c-.94-2.34-3.27-4-6-4m0%206.5a2.5%202.5%200%200%201-2.5-2.5%202.5%202.5%200%200%201%202.5-2.5%202.5%202.5%200%200%201%202.5%202.5%202.5%202.5%200%200%201-2.5%202.5M9.27%2020H6V4h7v5h5v4.07c.7.08%201.36.25%202%20.49V8l-6-6H6a2%202%200%200%200-2%202v16a2%202%200%200%200%202%202h4.5a8.2%208.2%200%200%201-1.23-2%22/%3E%3C/svg%3E');--md-admonition-icon--quote:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M19%203h-4.18C14.25%201.44%2012.53.64%2011%201.2c-.86.3-1.5.96-1.82%201.8H5a2%202%200%200%200-2%202v14a2%202%200%200%200%202%202h14a2%202%200%200%200%202-2V5a2%202%200%200%200-2-2m-7%200a1%201%200%200%201%201%201%201%201%200%200%201-1%201%201%201%200%200%201-1-1%201%201%200%200%201%201-1M7%207h10V5h2v14H5V5h2zm10%204H7V9h10zm-2%204H7v-2h8z%22/%3E%3C/svg%3E');--md-admonition-icon--tip:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M20%2011h3v2h-3zM1%2011h3v2H1zM13%201v3h-2V1zM4.92%203.5l2.13%202.14-1.42%201.41L3.5%204.93zm12.03%202.13%202.12-2.13%201.43%201.43-2.13%202.12zM12%206a6%206%200%200%201%206%206c0%202.22-1.21%204.16-3%205.2V19a1%201%200%200%201-1%201h-4a1%201%200%200%201-1-1v-1.8c-1.79-1.04-3-2.98-3-5.2a6%206%200%200%201%206-6m2%2015v1a1%201%200%200%201-1%201h-2a1%201%200%200%201-1-1v-1zm-3-3h2v-2.13c1.73-.44%203-2.01%203-3.87a4%204%200%200%200-4-4%204%204%200%200%200-4%204c0%201.86%201.27%203.43%203%203.87z%22/%3E%3C/svg%3E');--md-admonition-icon--warning:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M11%2015h2v2h-2zm0-8h2v6h-2zm1-5C6.47%202%202%206.5%202%2012a10%2010%200%200%200%2010%2010%2010%2010%200%200%200%2010-10A10%2010%200%200%200%2012%202m0%2018a8%208%200%200%201-8-8%208%208%200%200%201%208-8%208%208%200%200%201%208%208%208%208%200%200%201-8%208%22/%3E%3C/svg%3E');--md-admonition-icon--example:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22m23%2012-2.4-2.8.3-3.7-3.6-.8-1.9-3.2L12%203%208.6%201.5%206.7%204.7l-3.6.8.3%203.7L1%2012l2.4%202.8-.3%203.7%203.6.8%201.9%203.2L12%2021l3.4%201.5%201.9-3.2%203.6-.8-.3-3.7zm-4.3%204.9-2.7.6-1.4%202.4-2.6-1.1-2.6%201.1L8%2017.5l-2.7-.6.2-2.8L3.7%2012l1.8-2.1-.2-2.8L8%206.5l1.4-2.4L12%205.2l2.6-1.1L16%206.5l2.7.6-.2%202.8%201.8%202.1-1.8%202.1zm-2.1-9.3L18%209l-8%208-4-4%201.4-1.4%202.6%202.6z%22/%3E%3C/svg%3E');--md-admonition-icon--info:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M6%2020h7v2H6c-1.11%200-2-.89-2-2V4a2%202%200%200%201%202-2h12a2%202%200%200%201%202%202v8.54l-1.5-.82-.5.28V4h-5v8l-2.5-2.25L8%2012V4H6zm18-3-5.5-3-5.5%203%205.5%203zm-9%202.09v2L18.5%2023l3.5-1.91v-2L18.5%2021z%22/%3E%3C/svg%3E');--md-admonition-icon--question:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M12%203C6.5%203%202%206.6%202%2011c0%202.2%201.1%204.2%202.8%205.5%200%20.6-.4%202.2-2.8%204.5%202.4-.1%204.6-1%206.5-2.5%201.1.3%202.3.5%203.5.5%205.5%200%2010-3.6%2010-8s-4.5-8-10-8m0%2014c-4.4%200-8-2.7-8-6s3.6-6%208-6%208%202.7%208%206-3.6%206-8%206m.2-10.5c-.9%200-1.6.2-2.1.5-.6.4-.9%201-.8%201.7h2q0-.45.3-.6c.2-.1.4-.2.7-.2s.6.1.8.3.3.4.3.7-.1.5-.2.7c-.2.2-.4.4-.6.5-.5.3-.9.6-1.1.8-.4.3-.5.6-.5%201.1h2c0-.3.1-.5.1-.7.1-.2.3-.3.5-.5.5-.2.8-.5%201.1-.9s.4-.8.4-1.2c0-.7-.3-1.3-.8-1.7-.4-.3-1.2-.5-2.1-.5M11%2013v2h2v-2z%22/%3E%3C/svg%3E');--md-admonition-icon--note:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M21%2016.5c0%20.38-.21.71-.53.88l-7.9%204.44c-.16.12-.36.18-.57.18s-.41-.06-.57-.18l-7.9-4.44A.99.99%200%200%201%203%2016.5v-9c0-.38.21-.71.53-.88l7.9-4.44c.16-.12.36-.18.57-.18s.41.06.57.18l7.9%204.44c.32.17.53.5.53.88zM12%204.15l-1.89%201.07L16%208.61l1.96-1.11zM6.04%207.5%2012%2010.85l1.96-1.1-5.88-3.4zM5%2015.91l6%203.38v-6.71L5%209.21zm14%200v-6.7l-6%203.37v6.71z%22/%3E%3C/svg%3E');}</style>
+
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CGoogle+Sans+Code:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Google Sans Code"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="#0C1EE7" data-md-color-accent="#CC111A">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#baustein-2-logictraffic-kennenlernen" class="md-skip">
+          Zum Inhalt
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Kopfzeile">
+    <a href="../.." title="LogicTraffic" class="md-header__button md-logo" aria-label="LogicTraffic" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            LogicTraffic
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Baustein 2: Lernumgebung LogicTraffic
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Suche" placeholder="Suche" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Suche">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Zurücksetzen" aria-label="Zurücksetzen" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Suche wird initialisiert
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/salomegolden/logictraffic" title="Zum Repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    logictraffic
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="LogicTraffic" class="md-nav__button md-logo" aria-label="LogicTraffic" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    LogicTraffic
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/salomegolden/logictraffic" title="Zum Repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    logictraffic
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Start
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../didaktik/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Didaktische Hinweise
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Didaktische Hinweise
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../didaktik/lernziele/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Lehrplan und Lernziele
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../didaktik/aufbau/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aufbau der Unterrichtseinheit
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../didaktik/darstellungswechsel/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Darstellungswechsel
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../didaktik/lernschwierigkeiten/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Typische Lernschwierigkeiten
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Unterricht durchführen
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Unterricht durchführen
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../vorbereitung/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Vorbereitung
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../baustein1-enaktiv/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Baustein 1: Enaktiver Einstieg
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Baustein 2: Lernumgebung LogicTraffic
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Baustein 2: Lernumgebung LogicTraffic
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Inhaltsverzeichnis">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Inhaltsverzeichnis
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#lernziele" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lernziele
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vorbereitung" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Vorbereitung
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#programmaufbau" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Programmaufbau
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#unterrichtsablauf" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Unterrichtsablauf
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#durchfuhrung" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Durchführung
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Durchführung">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#phase-1-an-den-enaktiven-einstieg-anknupfen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Phase 1 – An den enaktiven Einstieg anknüpfen
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#phase-2-oberflache-gemeinsam-erkunden" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Phase 2 – Oberfläche gemeinsam erkunden
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#phase-3-ampelzustande-und-tabellenzeilen-untersuchen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Phase 3 – Ampelzustände und Tabellenzeilen untersuchen
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#phase-4-sichere-zustande-festlegen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Phase 4 – Sichere Zustände festlegen
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#phase-5-kreuzung-tabelle-und-formel-verbinden" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Phase 5 – Kreuzung, Tabelle und Formel verbinden
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ergebnissicherung" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ergebnissicherung
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#erwartete-ergebnisse" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Erwartete Ergebnisse
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#typische-lernschwierigkeiten" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Typische Lernschwierigkeiten
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#differenzierung" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Differenzierung
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Differenzierung">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#unterstutzung" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Unterstützung
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#erweiterung" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Erweiterung
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ubergang-zum-nachsten-baustein" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Übergang zum nächsten Baustein
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#materialien" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Materialien
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../baustein3-wahrheitstabellen/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Baustein 3: Wahrheitstabellen
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../baustein4-boolesche-algebra/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Baustein 4: Boolesche Algebra
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../differenzierung/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Differenzierung und Unterstützung
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../beurteilung/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Beurteilung
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../fachlicher-hintergrund/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fachlicher Hintergrund
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Fachlicher Hintergrund
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fachlicher-hintergrund/logik/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Logik
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fachlicher-hintergrund/wahrheitstabellen/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Wahrheitstabellen
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fachlicher-hintergrund/boolesche-algebra/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Boolesche Algebra
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fachlicher-hintergrund/normalformen/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Normalformen
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../anhang/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Anhang
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5" id="__nav_5_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Anhang
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../anhang/downloads/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Downloads
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../anhang/glossar/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Glossar
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../anhang/literatur/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Literatur
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../anhang/about/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Hintergrund und Entwicklung
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Inhaltsverzeichnis">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Inhaltsverzeichnis
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#lernziele" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lernziele
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vorbereitung" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Vorbereitung
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#programmaufbau" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Programmaufbau
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#unterrichtsablauf" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Unterrichtsablauf
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#durchfuhrung" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Durchführung
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Durchführung">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#phase-1-an-den-enaktiven-einstieg-anknupfen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Phase 1 – An den enaktiven Einstieg anknüpfen
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#phase-2-oberflache-gemeinsam-erkunden" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Phase 2 – Oberfläche gemeinsam erkunden
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#phase-3-ampelzustande-und-tabellenzeilen-untersuchen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Phase 3 – Ampelzustände und Tabellenzeilen untersuchen
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#phase-4-sichere-zustande-festlegen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Phase 4 – Sichere Zustände festlegen
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#phase-5-kreuzung-tabelle-und-formel-verbinden" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Phase 5 – Kreuzung, Tabelle und Formel verbinden
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ergebnissicherung" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ergebnissicherung
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#erwartete-ergebnisse" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Erwartete Ergebnisse
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#typische-lernschwierigkeiten" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Typische Lernschwierigkeiten
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#differenzierung" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Differenzierung
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Differenzierung">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#unterstutzung" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Unterstützung
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#erweiterung" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Erweiterung
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ubergang-zum-nachsten-baustein" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Übergang zum nächsten Baustein
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#materialien" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Materialien
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+  <nav class="md-path" aria-label="Navigation" >
+    <ol class="md-path__list">
+      
+        
+  
+  
+    <li class="md-path__item">
+      <a href="../.." class="md-path__link">
+        
+  <span class="md-ellipsis">
+    Start
+  </span>
+
+      </a>
+    </li>
+  
+
+      
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Unterricht durchführen
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
+
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+    <a href="https://github.com/salomegolden/logictraffic/edit/main/docs/unterricht/baustein2-logictraffic.md" title="Seite editieren" class="md-content__button md-icon" rel="edit">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
+  
+  
+    
+      
+    
+    <a href="https://github.com/salomegolden/logictraffic/raw/main/docs/unterricht/baustein2-logictraffic.md" title="Quellcode der Seite anzeigen" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c.56 0 1 .44 1 1s-.44 1-1 1-1-.44-1-1 .44-1 1-1m0-3c-2.73 0-5.06 1.66-6 4 .94 2.34 3.27 4 6 4s5.06-1.66 6-4c-.94-2.34-3.27-4-6-4m0 6.5a2.5 2.5 0 0 1-2.5-2.5 2.5 2.5 0 0 1 2.5-2.5 2.5 2.5 0 0 1 2.5 2.5 2.5 2.5 0 0 1-2.5 2.5M9.27 20H6V4h7v5h5v4.07c.7.08 1.36.25 2 .49V8l-6-6H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h4.5a8.2 8.2 0 0 1-1.23-2"/></svg>
+    </a>
+  
+
+
+<h1 id="baustein-2-logictraffic-kennenlernen">Baustein 2 – LogicTraffic kennenlernen<a class="headerlink" href="#baustein-2-logictraffic-kennenlernen" title="Permanent link">&para;</a></h1>
+<p>In diesem Baustein lernen die Lernenden die digitale Lernumgebung LogicTraffic kennen. Sie untersuchen, wie die dargestellte Verkehrssituation, die Wahrheitstabelle und boolesche Formeln miteinander verbunden sind.</p>
+<p>Im Zentrum steht zunächst nicht das formale Arbeiten mit Formeln. Die Lernenden sollen verstehen, welche Informationen die verschiedenen Bereiche der Oberfläche zeigen und wie sich Veränderungen an der Kreuzung in der Wahrheitstabelle widerspiegeln.</p>
+<div class="admonition abstract">
+<p class="admonition-title">Auf einen Blick</p>
+<p><strong><img alt="⏱" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/23f1.svg" title=":stopwatch:" /> Dauer:</strong><br />
+45–60 Minuten</p>
+<p><strong><img alt="👥" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f465.svg" title=":busts_in_silhouette:" /> Sozialform:</strong><br />
+Klassenunterricht, Partnerarbeit und kurze Einzelphasen</p>
+<p><strong><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 6h16v10H4m16 2a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2H4c-1.11 0-2 .89-2 2v10a2 2 0 0 0 2 2H0v2h24v-2z"/></svg></span> Computer:</strong><br />
+Ein Computer oder Tablet pro Zweiergruppe</p>
+<p><strong><img alt="🧠" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f9e0.svg" title=":brain:" /> Vorwissen:</strong><br />
+Die Lernenden können sichere und unsichere Verkehrssituationen unterscheiden.<br />
+Idealerweise wurde zuvor Baustein 1 durchgeführt.</p>
+<p><strong><img alt="📦" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f4e6.svg" title=":package:" /> Material:</strong><br />
+LogicTraffic, Beamer oder Präsentationsbildschirm, Notizpapier</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Downloads zu Baustein 2</p>
+<ul>
+<li><a href="https://github.com/salomegolden/logictraffic/releases/download/images-v1/logictraffic_anleitung.png"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 19H5V5h14m0-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2m-5.04 9.29-2.75 3.54-1.96-2.36L6.5 17h11z"/></svg></span> Bild: Aufbau der Webseite und ihre Bereiche</a></li>
+<li><a href="https://github.com/salomegolden/logictraffic/releases/download/images-v1/losungBeschriftungProgramm.png"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 19H5V5h14m0-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2m-5.04 9.29-2.75 3.54-1.96-2.36L6.5 17h11z"/></svg></span> Bild: Teilbereiche der Webseite</a></li>
+<li><a href="https://github.com/salomegolden/logictraffic/releases/download/images-v1/b2_tafelbild.png"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 19H5V5h14m0-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2m-5.04 9.29-2.75 3.54-1.96-2.36L6.5 17h11z"/></svg></span> Tafelbild: Beispiel für die Ergebnissicherung</a></li>
+<li><a href="https://github.com/salomegolden/logictraffic/releases/download/material-v1/b2_einfuhrung_logictraffic_AB.pdf"><img alt="📝" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f4dd.svg" title=":memo:" /> AB2.1 – Ergebnissicherung zur Orientierung auf der Webseite</a></li>
+<li><a href="https://github.com/salomegolden/logictraffic/releases/download/material-v1/b2_prasentation_kreuzungen.pdf"><img alt="📽" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f4fd.svg" title=":film_projector:" /> Präsentation mit Bildern von Kreuzungen</a></li>
+</ul>
+</div>
+<h2 id="lernziele">Lernziele<a class="headerlink" href="#lernziele" title="Permanent link">&para;</a></h2>
+<p>Die Lernenden können …</p>
+<ul>
+<li>die zentralen Bereiche von LogicTraffic benennen;</li>
+<li>die Variablen <code>A</code>, <code>B</code>, <code>C</code> den entsprechenden Fahrspuren zuordnen;</li>
+<li>erklären, wie Ampelzustände mit <code>0</code> und <code>1</code> dargestellt werden;</li>
+<li>zu einer Ampelkombination die passende Tabellenzeile finden;</li>
+<li>sichere und unsichere Ampelkombinationen unterscheiden;</li>
+<li>die Bedeutung der Spalte «sicher» erklären;</li>
+<li>beschreiben, wie Kreuzung, Wahrheitstabelle und Formel zusammenhängen;</li>
+<li>die Rückmeldungen der Statusanzeige in Grundzügen deuten.</li>
+</ul>
+<h2 id="vorbereitung">Vorbereitung<a class="headerlink" href="#vorbereitung" title="Permanent link">&para;</a></h2>
+<ul>
+<li>LogicTraffic auf den Geräten öffnen und die Funktionsfähigkeit prüfen.</li>
+<li>Eine einfache Situation mit zwei Fahrspuren auswählen.</li>
+<li>Dieselbe Situation für die gemeinsame Einführung über den Beamer bereitstellen.</li>
+<li>Falls Baustein 1 durchgeführt wurde, möglichst eine vergleichbare Verkehrssituation verwenden.</li>
+<li>Entscheiden, ob der Formelbereich zu Beginn ausgeblendet oder zunächst nicht thematisiert wird.</li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Material</p>
+<p>Für die Durchführung werden benötigt:</p>
+<ul>
+<li><img alt="🌐" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f310.svg" title=":globe_with_meridians:" /> <a href="https://logictraffic.ch/">LogicTraffic</a></li>
+<li><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 18H5V6h14m2-2H3c-1.11 0-2 .89-2 2v12a2 2 0 0 0 2 2h18a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2"/></svg></span> ein Computer oder Tablet pro Zweiergruppe</li>
+<li><img alt="📽" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f4fd.svg" title=":film_projector:" /> ein Beamer oder Präsentationsbildschirm</li>
+<li><img alt="📒" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f4d2.svg" title=":ledger:" /> Notizpapier oder das Heft der Lernenden</li>
+</ul>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Vorbereitung der Lernumgebung</p>
+<p>Wählen Sie zunächst eine Situation mit zwei Variablen (1 oder 2, 11 ist auch möglich, aber ein Spezialfall). Dadurch gibt es nur vier mögliche Ampelkombinationen. Der Zusammenhang zwischen Kreuzung und Wahrheitstabelle bleibt so überschaubar.</p>
+</div>
+<h2 id="programmaufbau">Programmaufbau<a class="headerlink" href="#programmaufbau" title="Permanent link">&para;</a></h2>
+<p><img alt="Aufbau der Webseite und ihre Bereiche" src="https://github.com/salomegolden/logictraffic/releases/download/images-v1/logictraffic_anleitung.png" /></p>
+<table>
+<thead>
+<tr>
+<th>Bereich</th>
+<th>Bedeutung</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Kreuzung</td>
+<td>Zeigt die Verkehrssituation, die Fahrspuren und die Ampeln.</td>
+</tr>
+<tr>
+<td>Variablen</td>
+<td>Bezeichnen die Fahrspuren mit <code>A</code>, <code>B</code>, <code>C</code> usw.</td>
+</tr>
+<tr>
+<td>Wahrheitstabelle</td>
+<td>Zeigt alle möglichen Kombinationen der Ampelzustände.</td>
+</tr>
+<tr>
+<td>Spalte «sicher»</td>
+<td>Legt fest, welche Kombinationen durch die Steuerung erlaubt werden.</td>
+</tr>
+<tr>
+<td>Statusanzeige</td>
+<td>Gibt eine Rückmeldung zur eingestellten Lösung.</td>
+</tr>
+<tr>
+<td>Formelbereich</td>
+<td>Beschreibt die als sicher festgelegten Zustände formal.</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition info">
+<p class="admonition-title">Fachlicher Hintergrund</p>
+<p>Jede Zeile der Wahrheitstabelle steht für genau eine mögliche Kombination von Ampelzuständen.</p>
+<p>Bei zwei Ampeln gibt es vier Kombinationen:</p>
+<table>
+<thead>
+<tr>
+<th><code>A</code></th>
+<th><code>B</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>0</code></td>
+<td><code>0</code></td>
+</tr>
+<tr>
+<td><code>0</code></td>
+<td><code>1</code></td>
+</tr>
+<tr>
+<td><code>1</code></td>
+<td><code>0</code></td>
+</tr>
+<tr>
+<td><code>1</code></td>
+<td><code>1</code></td>
+</tr>
+</tbody>
+</table>
+<p>Im Kontext von LogicTraffic gilt:</p>
+<ul>
+<li><code>0</code>: Die Ampel ist rot.</li>
+<li><code>1</code>: Die Ampel ist grün.</li>
+</ul>
+<p>Die Werte <code>0</code> und <code>1</code> beschreiben zunächst nur die Zustände der Ampeln. Ob eine gesamte Kombination sicher ist, wird separat in der Spalte «sicher» festgelegt.</p>
+</div>
+<h2 id="unterrichtsablauf">Unterrichtsablauf<a class="headerlink" href="#unterrichtsablauf" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Phase</th>
+<th>Inhalt</th>
+<th>Sozialform</th>
+<th>Dauer</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>An den enaktiven Einstieg anknüpfen</td>
+<td>Klassenunterricht</td>
+<td>ca. 5 Min.</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Oberfläche gemeinsam erkunden</td>
+<td>Klassenunterricht</td>
+<td>ca. 10 Min.</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Ampelzustände und Tabellenzeilen untersuchen</td>
+<td>Partnerarbeit</td>
+<td>ca. 15 Min.</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Sichere Zustände festlegen</td>
+<td>Partnerarbeit</td>
+<td>ca. 10–15 Min.</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Darstellungen verbinden und Ergebnisse sichern</td>
+<td>Klassenunterricht</td>
+<td>ca. 10 Min.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="durchfuhrung">Durchführung<a class="headerlink" href="#durchfuhrung" title="Permanent link">&para;</a></h2>
+<h3 id="phase-1-an-den-enaktiven-einstieg-anknupfen">Phase 1 – An den enaktiven Einstieg anknüpfen<a class="headerlink" href="#phase-1-an-den-enaktiven-einstieg-anknupfen" title="Permanent link">&para;</a></h3>
+<p>Falls Baustein 1 durchgeführt wurde, greift die Lehrperson die dort untersuchte Kreuzung nochmals auf. Die Lernenden erinnern sich daran, wie sie mit den Fahrzeugen und den drehbaren Ampelhölzchen sichere und unsichere Zustände dargestellt haben.</p>
+<div class="admonition quote">
+<p class="admonition-title">Einstiegsauftrag</p>
+<p>Erinnert euch an die Kreuzung aus dem letzten Baustein.</p>
+<p>Überlegt:</p>
+<ul>
+<li>Welche Informationen müssten wir einem Computer geben, damit er die Kreuzung darstellen kann?</li>
+<li>Wie könnte der Computer verschiedene Ampelstellungen speichern?</li>
+<li>Wie könnte er erkennen, ob eine Ampelstellung sicher ist?</li>
+</ul>
+</div>
+<p>Falls Baustein 1 nicht durchgeführt wurde, kann direkt eine einfache Kreuzung in LogicTraffic gezeigt werden.</p>
+<div class="admonition tip">
+<p class="admonition-title">Durchführungshinweis</p>
+<p>Sammeln Sie die Vermutungen zunächst, ohne die Begriffe Wahrheitstabelle oder boolesche Formel vollständig zu erklären. Die Lernenden sollen die Darstellungen anschliessend im Tool selbst entdecken.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Alternative Kreuzungen</p>
+<p>Für einen Einstieg mit Verbindung zur realen Welt, können auch Bilder aus der <a href="https://github.com/salomegolden/logictraffic/releases/download/material-v1/b2_prasentation_kreuzungen.pdf">Präsentation Kreuzungen</a> gezeigt werden. Dazu gehört dann die Frage, was es braucht, damit die entsprechende Kreuzung sicher funktioniert.</p>
+</div>
+<h3 id="phase-2-oberflache-gemeinsam-erkunden">Phase 2 – Oberfläche gemeinsam erkunden<a class="headerlink" href="#phase-2-oberflache-gemeinsam-erkunden" title="Permanent link">&para;</a></h3>
+<p>Die Lehrperson öffnet eine einfache Situation mit zwei Fahrspuren in <a href="https://logictraffic.ch/">LogicTraffic</a> und zeigt die Oberfläche über den Beamer.</p>
+<p>Zunächst werden nur vier Bereiche betrachtet:</p>
+<ol>
+<li>Kreuzung</li>
+<li>Variablen</li>
+<li>Wahrheitstabelle</li>
+<li>Spalte «sicher»</li>
+</ol>
+<p>Der Formelbereich wird noch nicht vertieft.</p>
+<p><img alt="Teilbereiche von LogicTraffic mit Beschriftungen" src="https://github.com/salomegolden/logictraffic/releases/download/images-v1/losungBeschriftungProgramm.png" /></p>
+<p>Die Abbildung kann über den Beamer gezeigt oder den Lernenden als Orientierung bereitgestellt werden.</p>
+<div class="admonition quote">
+<p class="admonition-title">Beobachtungsauftrag</p>
+<p>Beobachtet genau, was passiert, wenn eine Ampel angeklickt wird.</p>
+<p>Achtet dabei auf:</p>
+<ul>
+<li>die Farbe der Ampel;</li>
+<li>die Werte <code>0</code> und <code>1</code>;</li>
+<li>die markierte Zeile in der Wahrheitstabelle.</li>
+</ul>
+</div>
+<p>Die Lehrperson stellt nacheinander verschiedene Ampelkombinationen ein.</p>
+<div class="admonition quote">
+<p class="admonition-title">Gemeinsam festhalten</p>
+<p>Gemeinsam wird festgehalten:</p>
+<ul>
+<li>Jede Fahrspur besitzt eine Variable.</li>
+<li>Die Variable beschreibt den Zustand der zugehörigen Ampel.</li>
+<li>Die aktuelle Ampelstellung gehört zu genau einer Tabellenzeile.</li>
+<li>Die Wahrheitstabelle enthält alle möglichen Ampelstellungen.</li>
+</ul>
+</div>
+<div class="admonition info">
+<p class="admonition-title">Warum gibt es vier Tabellenzeilen?</p>
+<p>Jede der beiden Ampeln kann zwei Zustände annehmen:</p>
+<ul>
+<li>rot</li>
+<li>grün</li>
+</ul>
+<p>Daraus entstehen vier mögliche Kombinationen:</p>
+<ul>
+<li>beide rot;</li>
+<li><code>A</code> rot und <code>B</code> grün;</li>
+<li><code>A</code> grün und <code>B</code> rot;</li>
+<li>beide grün.</li>
+</ul>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Typische Lernschwierigkeit: 0 und 1</p>
+<p>Lernende interpretieren <code>0</code> möglicherweise als «falsch» oder «falsch eingestellt» und <code>1</code> als «richtig».</p>
+<p>Stellen Sie deshalb immer wieder den Bezug zur Kreuzung her:</p>
+<ul>
+<li><code>0</code> bedeutet hier: rot.</li>
+<li><code>1</code> bedeutet hier: grün.</li>
+</ul>
+</div>
+<h3 id="phase-3-ampelzustande-und-tabellenzeilen-untersuchen">Phase 3 – Ampelzustände und Tabellenzeilen untersuchen<a class="headerlink" href="#phase-3-ampelzustande-und-tabellenzeilen-untersuchen" title="Permanent link">&para;</a></h3>
+<p>Die Lernenden arbeiten in Zweiergruppen. Eine Person bedient LogicTraffic, die andere beobachtet und notiert. Nach der Hälfte der Zeit werden die Rollen gewechselt.</p>
+<div class="admonition quote">
+<p class="admonition-title">Lernauftrag 1 – Oberfläche untersuchen</p>
+<p>Öffnet eine Situation mit zwei Fahrzeugen (Situation 1, 2, 11).</p>
+<p>Untersucht gemeinsam:</p>
+<ol>
+<li>Welche Variable gehört zu welcher Fahrspur?</li>
+<li>Was verändert sich, wenn ihr eine Ampel anklickt?</li>
+<li>Welche Tabellenzeile gehört zur aktuellen Ampelstellung?</li>
+<li>Welche vier Ampelkombinationen sind möglich?</li>
+<li>Woran erkennt ihr, dass ihr alle Kombinationen ausprobiert habt?</li>
+</ol>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Mögliche Ergebnissicherung</p>
+<p>Alternativ zur selbst gezeichneten Tabelle kann das Arbeitsblatt<br />
+<a href="https://github.com/salomegolden/logictraffic/releases/download/material-v1/b2_einfuhrung_logictraffic_AB.pdf"><img alt="📝" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f4dd.svg" title=":memo:" /> <strong>AB2.1 – Orientierung auf der Webseite</strong></a><br />
+eingesetzt werden. Es unterstützt die Lernenden dabei, die Bereiche der Oberfläche und ihre Funktionen festzuhalten.</p>
+</div>
+<details class="quote" open="open">
+<summary>Einträge ins Heft oder Notizbuch</summary>
+<p>Die Lernenden können ihre Beobachtungen in einer selbst gezeichneten Tabelle festhalten:</p>
+<table>
+<thead>
+<tr>
+<th>Ampel <code>A</code></th>
+<th>Ampel <code>B</code></th>
+<th>Tabellenwerte</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>rot</td>
+<td>rot</td>
+<td></td>
+</tr>
+<tr>
+<td>rot</td>
+<td>grün</td>
+<td></td>
+</tr>
+<tr>
+<td>grün</td>
+<td>rot</td>
+<td></td>
+</tr>
+<tr>
+<td>grün</td>
+<td>grün</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</details>
+<div class="admonition tip">
+<p class="admonition-title">Durchführungshinweis</p>
+<p>Lassen Sie die Lernenden die Tabelle selbst zeichnen. Dadurch wird sichtbar, ob sie die vier Kombinationen systematisch erfassen können.</p>
+<p>Unterstützende Fragen:</p>
+<ul>
+<li>Welche Kombination fehlt noch?</li>
+<li>Worin unterscheidet sich diese Zeile von der vorherigen?</li>
+<li>Welche Ampel gehört zur ersten Spalte?</li>
+<li>Wie kannst du die Tabellenzeile an der Kreuzung überprüfen?</li>
+</ul>
+</div>
+<details class="example">
+<summary>Mögliches Ergebnis</summary>
+<table>
+<thead>
+<tr>
+<th>Ampel <code>A</code></th>
+<th>Ampel <code>B</code></th>
+<th>Tabellenwerte</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>rot</td>
+<td>rot</td>
+<td><code>0</code>, <code>0</code></td>
+</tr>
+<tr>
+<td>rot</td>
+<td>grün</td>
+<td><code>0</code>, <code>1</code></td>
+</tr>
+<tr>
+<td>grün</td>
+<td>rot</td>
+<td><code>1</code>, <code>0</code></td>
+</tr>
+<tr>
+<td>grün</td>
+<td>grün</td>
+<td><code>1</code>, <code>1</code></td>
+</tr>
+</tbody>
+</table>
+</details>
+<div class="admonition warning">
+<p class="admonition-title">Typische Lernschwierigkeit: nur den aktuellen Zustand betrachten</p>
+<p>Einige Lernende konzentrieren sich ausschliesslich auf die aktuell sichtbare Kreuzung.</p>
+<p>Erinnern Sie daran, dass die Wahrheitstabelle nicht nur den aktuellen Zustand zeigt. Sie enthält alle möglichen Kombinationen, auch wenn an der Kreuzung jeweils nur eine davon dargestellt wird.</p>
+</div>
+<h3 id="phase-4-sichere-zustande-festlegen">Phase 4 – Sichere Zustände festlegen<a class="headerlink" href="#phase-4-sichere-zustande-festlegen" title="Permanent link">&para;</a></h3>
+<p>Nun untersuchen die Lernenden, welche Ampelkombinationen bei der gewählten Kreuzung (hier nur Kreuzungen 1 oder 2 sinnvoll) sicher sind.</p>
+<div class="admonition quote">
+<p class="admonition-title">Lernauftrag 2 – Sichere Zustände untersuchen</p>
+<p>Probiert alle vier Ampelkombinationen aus.</p>
+<p>Entscheidet für jede Kombination:</p>
+<ol>
+<li>Ist die Verkehrssituation sicher oder unsicher?</li>
+<li>Woran erkennt ihr das an der Kreuzung?</li>
+<li>Welcher Wert muss in der Spalte «sicher» stehen?</li>
+<li>Wie verändert sich die Statusanzeige?</li>
+</ol>
+</div>
+<p>Die Lernenden tragen ihre Entscheidungen in LogicTraffic ein und beobachten die Rückmeldungen.</p>
+<div class="admonition tip">
+<p class="admonition-title">Durchführungshinweis</p>
+<p>Fordern Sie bei jeder Entscheidung eine Begründung ein.</p>
+<p>Statt:</p>
+<blockquote>
+<p>Diese Zeile ist falsch.</p>
+</blockquote>
+<p>sollten die Lernenden genauer formulieren:</p>
+<blockquote>
+<p>Diese Kombination ist unsicher, weil sich die Fahrwege von <code>A</code> und <code>B</code> kreuzen.</p>
+</blockquote>
+</div>
+<div class="admonition info">
+<p class="admonition-title">Sicher und optimal</p>
+<p>Eine sichere Steuerung erlaubt keine gefährlichen Ampelkombinationen.</p>
+<p>Sie ist jedoch nicht automatisch optimal. Eine Steuerung kann unnötig viele sichere Kombinationen verbieten.</p>
+<p>Wenn beispielsweise alle Ampeln immer rot bleiben, entstehen zwar keine Kollisionen, der Verkehr wird aber vollständig blockiert.</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Typische Lernschwierigkeit: sicher und optimal</p>
+<p>Lernende setzen «sicher» und «optimal» möglicherweise gleich.</p>
+<p>Verdeutlichen Sie den Unterschied:</p>
+<ul>
+<li><strong>sicher:</strong> Keine gefährliche Kombination wird erlaubt.</li>
+<li><strong>optimal:</strong> Alle sicheren und sinnvollen Kombinationen werden zugelassen, ohne eine gefährliche Kombination zu erlauben.</li>
+</ul>
+</div>
+<h3 id="phase-5-kreuzung-tabelle-und-formel-verbinden">Phase 5 – Kreuzung, Tabelle und Formel verbinden<a class="headerlink" href="#phase-5-kreuzung-tabelle-und-formel-verbinden" title="Permanent link">&para;</a></h3>
+<p>Erst nachdem Kreuzung und Wahrheitstabelle verstanden wurden, wird der Formelbereich einbezogen.</p>
+<p>Die Lehrperson zeigt, wie sich die Formel verändert, wenn in der Spalte «sicher» ein Wert geändert wird.</p>
+<div class="admonition quote">
+<p class="admonition-title">Lernauftrag 3 – Drei Darstellungen vergleichen</p>
+<p>Betrachtet dieselbe Sicherheitsregel in drei Darstellungen:</p>
+<ol>
+<li><img alt="🖼" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f5bc.svg" title=":frame_photo:" /> als Verkehrssituation;</li>
+<li><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 4h14a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2m0 4v4h6V8zm8 0v4h6V8zm-8 6v4h6v-4zm8 0v4h6v-4z"/></svg></span> als Wahrheitstabelle;</li>
+<li><img alt="🔣" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f523.svg" title=":symbols:" /> als Formel (hier bitte "einfachste" einstellen).</li>
+</ol>
+<p>Besprecht:</p>
+<ul>
+<li>Was zeigt die Kreuzung?</li>
+<li>Was zeigt die Wahrheitstabelle?</li>
+<li>Was beschreibt die Formel?</li>
+<li>Welche Informationen sind in allen drei Darstellungen gleich?</li>
+</ul>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Durchführungshinweis</p>
+<p>Die Begriffe DNF und KNF müssen in diesem Baustein noch nicht eingeführt werden.</p>
+<p>Entscheidend ist zunächst nur die Erkenntnis, dass die Formel dieselben sicheren Zustände beschreibt wie die Wahrheitstabelle.</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Typische Lernschwierigkeit: Formel zu früh formalisieren</p>
+<p>Die Formelansicht kann überfordern, wenn der Zusammenhang zwischen Kreuzung und Wahrheitstabelle noch nicht verstanden ist.</p>
+<p>Lassen Sie die Lernenden die Formel zunächst nur als dritte Darstellung derselben Sicherheitsregel betrachten. Falls gar kein Vorwissen zu den logischen Operationen und die Darstellung der logischen Formeln vorhanden ist, kann diese Phase auch noch weggelassen werden. </p>
+</div>
+<h2 id="ergebnissicherung">Ergebnissicherung<a class="headerlink" href="#ergebnissicherung" title="Permanent link">&para;</a></h2>
+<p>Die Ergebnisse werden gemeinsam gesammelt und als Tafelbild oder digitale Notiz festgehalten.</p>
+<details class="example">
+<summary>Mögliches Tafelbild</summary>
+<p><img alt="Tafelbild B2, generiert mit ChatGPT, GPT5.6" src="https://github.com/salomegolden/logictraffic/releases/download/images-v1/b2_tafelbild.png" /></p>
+<p><strong>LogicTraffic verbindet mehrere Darstellungen</strong></p>
+<table>
+<thead>
+<tr>
+<th>Darstellung</th>
+<th>Bedeutung</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Kreuzung</td>
+<td>zeigt einen konkreten Ampelzustand</td>
+</tr>
+<tr>
+<td>Wahrheitstabelle</td>
+<td>zeigt alle möglichen Ampelzustände</td>
+</tr>
+<tr>
+<td>Spalte «sicher»</td>
+<td>legt fest, welche Zustände erlaubt sind</td>
+</tr>
+<tr>
+<td>Formel</td>
+<td>beschreibt die Sicherheitsregel formal</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Merksätze</strong></p>
+<ul>
+<li>Jede Fahrspur wird durch eine Variable bezeichnet.</li>
+<li><code>0</code> steht in LogicTraffic für Rot.</li>
+<li><code>1</code> steht in LogicTraffic für Grün.</li>
+<li>Jede Zeile der Wahrheitstabelle beschreibt eine mögliche Ampelkombination.</li>
+<li>Die Spalte «sicher» bewertet die gesamte Kombination.</li>
+<li>Die Formel beschreibt dieselben sicheren Zustände wie die Wahrheitstabelle.</li>
+</ul>
+</details>
+<h2 id="erwartete-ergebnisse">Erwartete Ergebnisse<a class="headerlink" href="#erwartete-ergebnisse" title="Permanent link">&para;</a></h2>
+<p>Die Lernenden sollten am Ende beispielsweise erklären können:</p>
+<blockquote>
+<p>Wenn <code>A = 1</code> und <code>B = 0</code> ist, dann ist die Ampel von <code>A</code> grün und die Ampel von <code>B</code> rot.</p>
+<p>Die Wahrheitstabelle enthält alle möglichen Kombinationen der Ampelzustände.</p>
+<p>In der Spalte «sicher» wird festgelegt, welche Kombinationen erlaubt werden.</p>
+<p>Die Formel beschreibt dieselbe Sicherheitsregel wie die Wahrheitstabelle.</p>
+</blockquote>
+<details class="example">
+<summary>Mögliche Erklärung einer Situation</summary>
+<p>Wenn sich die Fahrwege von <code>A</code> und <code>B</code> kreuzen, dürfen nicht beide Ampeln gleichzeitig grün sein.</p>
+<p>Die Tabellenzeile <code>A = 1</code> und <code>B = 1</code> muss deshalb als unsicher markiert werden.</p>
+</details>
+<h2 id="typische-lernschwierigkeiten">Typische Lernschwierigkeiten<a class="headerlink" href="#typische-lernschwierigkeiten" title="Permanent link">&para;</a></h2>
+<details class="warning">
+<summary>0 und 1 werden mit falsch und richtig verwechselt</summary>
+<p>Die Werte beschreiben zunächst nur den Zustand einer Ampel:</p>
+<ul>
+<li><code>0</code>: rot</li>
+<li><code>1</code>: grün</li>
+</ul>
+<p>Ob die gesamte Kombination sicher ist, wird erst in der Spalte «sicher» festgelegt.</p>
+</details>
+<details class="warning">
+<summary>Aktuelle Kreuzung und Wahrheitstabelle werden gleichgesetzt</summary>
+<p>Die Kreuzung zeigt jeweils nur eine Kombination. Die Wahrheitstabelle enthält dagegen alle möglichen Kombinationen.</p>
+<p>Lassen Sie die Lernenden wiederholt zwischen einer konkreten Ampelstellung und der zugehörigen Tabellenzeile wechseln.</p>
+</details>
+<details class="warning">
+<summary>Sicherheit wird nur anhand einzelner Ampeln beurteilt</summary>
+<p>Nicht eine einzelne Ampel ist sicher oder unsicher, sondern die Kombination mehrerer Ampelzustände im Zusammenhang mit den Fahrwegen.</p>
+</details>
+<details class="warning">
+<summary>Die Statusanzeige ersetzt die eigene Begründung</summary>
+<p>Lernende können versuchen, Werte so lange zu verändern, bis «optimal» erscheint.</p>
+<p>Verlangen Sie deshalb zuerst eine fachliche Entscheidung und erst danach die Überprüfung mit der Statusanzeige.</p>
+</details>
+<h2 id="differenzierung">Differenzierung<a class="headerlink" href="#differenzierung" title="Permanent link">&para;</a></h2>
+<h3 id="unterstutzung">Unterstützung<a class="headerlink" href="#unterstutzung" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Eine Situation mit nur zwei Variablen verwenden.</li>
+<li>Die Variablen direkt an den Fahrspuren zeigen.</li>
+<li><code>0</code> und <code>1</code> zusätzlich mit roten und grünen Punkten notieren.</li>
+<li>Die vier möglichen Kombinationen gemeinsam vorgeben.</li>
+<li>
+<p>Satzanfänge bereitstellen:</p>
+<blockquote>
+<p>Die Tabellenzeile passt zur Kreuzung, weil …</p>
+<p>Die Situation ist sicher, weil …</p>
+<p>Die Situation ist unsicher, weil …</p>
+</blockquote>
+</li>
+</ul>
+<div class="admonition tip">
+<p class="admonition-title">Unterstützung in der Partnerarbeit</p>
+<p>Achten Sie darauf, dass nicht nur die technisch erfahrenere Person das Tool bedient.</p>
+<p>Lassen Sie die Rollen bewusst wechseln:</p>
+<ul>
+<li>Person 1 bedient LogicTraffic.</li>
+<li>Person 2 beschreibt und begründet.</li>
+<li>Danach werden die Rollen getauscht.</li>
+</ul>
+</div>
+<h3 id="erweiterung">Erweiterung<a class="headerlink" href="#erweiterung" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Eine Situation mit drei Variablen auswählen.</li>
+<li>Vorhersagen, wie viele Tabellenzeilen benötigt werden.</li>
+<li>Eine sichere, aber nicht optimale Lösung herstellen.</li>
+<li>Zwei verschiedene sichere Lösungen vergleichen.</li>
+<li>Beobachten, wie sich die Formel bei einer Änderung der Tabelle verändert.</li>
+<li>Eine Sicherheitsregel zuerst in Alltagssprache formulieren und anschliessend im Tool umsetzen.</li>
+</ul>
+<div class="admonition question">
+<p class="admonition-title">Vertiefende Reflexion</p>
+<p>Bei zwei Ampeln gibt es vier mögliche Kombinationen.</p>
+<ul>
+<li>Wie viele Kombinationen gibt es bei drei Ampeln?</li>
+<li>Wie könnt ihr diese Anzahl bestimmen, ohne alle Kombinationen aufzuschreiben?</li>
+<li>Warum wird eine systematische Darstellung bei mehr Ampeln immer wichtiger?</li>
+</ul>
+</div>
+<h2 id="ubergang-zum-nachsten-baustein">Übergang zum nächsten Baustein<a class="headerlink" href="#ubergang-zum-nachsten-baustein" title="Permanent link">&para;</a></h2>
+<p>Zum Abschluss wird der Blick auf die systematische Konstruktion von Wahrheitstabellen gelenkt.</p>
+<div class="admonition question">
+<p class="admonition-title">Übergang zur Wahrheitstabelle</p>
+<p>LogicTraffic zeigt bereits alle möglichen Ampelkombinationen.</p>
+<p>Wie können wir eine solche Wahrheitstabelle selbstständig aufbauen, ohne eine Kombination zu vergessen?</p>
+</div>
+<p>Diese Frage führt zum nächsten Baustein, in dem Wahrheitstabellen systematisch erstellt, gelesen und interpretiert werden.</p>
+<h2 id="materialien">Materialien<a class="headerlink" href="#materialien" title="Permanent link">&para;</a></h2>
+<div class="admonition note">
+<p class="admonition-title">Benötigtes Material</p>
+<ul>
+<li>LogicTraffic</li>
+<li>Computer oder Tablets</li>
+<li>Beamer oder Präsentationsbildschirm</li>
+<li>Notizpapier oder Hefte</li>
+</ul>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Ergänzendes Material und Downloads</p>
+<ul>
+<li><a href="https://github.com/salomegolden/logictraffic/releases/download/images-v1/logictraffic_anleitung.png"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 19H5V5h14m0-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2m-5.04 9.29-2.75 3.54-1.96-2.36L6.5 17h11z"/></svg></span> <strong>Aufbau der Webseite und ihre Bereiche</strong></a></li>
+<li><a href="https://github.com/salomegolden/logictraffic/releases/download/images-v1/losungBeschriftungProgramm.png"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 19H5V5h14m0-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2m-5.04 9.29-2.75 3.54-1.96-2.36L6.5 17h11z"/></svg></span> <strong>Teilbereiche der Webseite</strong></a></li>
+<li><a href="https://github.com/salomegolden/logictraffic/releases/download/images-v1/b2_tafelbild.png"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 19H5V5h14m0-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2m-5.04 9.29-2.75 3.54-1.96-2.36L6.5 17h11z"/></svg></span> <strong>Tafelbild zur Ergebnissicherung</strong></a></li>
+<li><a href="https://github.com/salomegolden/logictraffic/releases/download/material-v1/b2_einfuhrung_logictraffic_AB.pdf"><img alt="📝" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f4dd.svg" title=":memo:" /> <strong>AB2.1 – Orientierung auf der Webseite</strong></a></li>
+<li><a href="https://github.com/salomegolden/logictraffic/releases/download/material-v1/b2_prasentation_kreuzungen.pdf"><img alt="📽" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f4fd.svg" title=":film_projector:" /> <strong>Präsentation mit Bildern von Kreuzungen</strong></a></li>
+</ul>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Mögliche spätere Ergänzungen</p>
+<p>Ergänzend könnten später noch ein Beobachtungsbogen zur Partnerarbeit, eine Merkkarte zu Kreuzung, Wahrheitstabelle und Formel sowie eine kurze Aufgabe zur formativen Lernstandserhebung entwickelt werden.</p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Fußzeile" >
+        
+          
+          <a href="../baustein1-enaktiv/" class="md-footer__link md-footer__link--prev" aria-label="Zurück: Baustein 1: Enaktiver Einstieg">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Zurück
+              </span>
+              <div class="md-ellipsis">
+                Baustein 1: Enaktiver Einstieg
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../baustein3-wahrheitstabellen/" class="md-footer__link md-footer__link--next" aria-label="Weiter: Baustein 3: Wahrheitstabellen">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Weiter
+              </span>
+              <div class="md-ellipsis">
+                Baustein 3: Wahrheitstabellen
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.path", "navigation.instant", "navigation.indexes", "navigation.footer", "content.action.edit", "content.action.view"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "In Zwischenablage kopiert", "clipboard.copy": "In Zwischenablage kopieren", "search.result.more.one": "1 weiteres Suchergebnis auf dieser Seite", "search.result.more.other": "# weitere Suchergebnisse auf dieser Seite", "search.result.none": "Keine Suchergebnisse", "search.result.one": "1 Suchergebnis", "search.result.other": "# Suchergebnisse", "search.result.placeholder": "Suchbegriff eingeben", "search.result.term.missing": "Es fehlt", "select.version": "Version ausw\u00e4hlen"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+        <script src="../../code/javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>

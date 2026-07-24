@@ -60,7 +60,7 @@ Zentrale Darstellung: formal und symbolisch
 
 ## Mögliche Durchführung
 
-| Baustein | Schwerpunkt | :hourglass_not_done: Richtzeit | :computer: Computer |
+| Baustein | Schwerpunkt | :material-timer-sand: Richtzeit | :computer: Computer |
 | ------- | --------------------------------------------- | ---------: | :------: |
 | 1 | Sichere Ampelschaltungen handelnd untersuchen | 45–90 Min. | Nein |
 | 2 | LogicTraffic kennenlernen und bedienen | 45 Min. | Ja |
@@ -76,11 +76,11 @@ Zentrale Darstellung: formal und symbolisch
 Vor dem Unterricht sollten insbesondere folgende Punkte geklärt werden:
 
 - :alarm_clock: verfügbare Unterrichtszeit;
-- :laptop: Zugang zu Computern oder Tablets;
+- :material-laptop: Zugang zu Computern oder Tablets;
 - :paperclip: Herstellung und Bereitstellung der enaktiven Materialien;
 - :busts_in_silhouette: Gruppengrösse und Sozialformen;
-- :magnifying_glass_tilted_right: gewünschter fachlicher Vertiefungsgrad;
-- :check_mark_button: Form der Lernkontrolle oder Beurteilung.
+- :material-magnify: gewünschter fachlicher Vertiefungsgrad;
+- :material-check-circle-outline: Form der Lernkontrolle oder Beurteilung.
 
 [:link: zur Vorbereitung](vorbereitung.md)
 
@@ -96,7 +96,7 @@ Möglichkeiten zur Unterstützung, Vertiefung und Anpassung an unterschiedliche 
 
 [:link: Differenzierung und Unterstützung](differenzierung.md)
 
-- :check_mark_button:{ .lg .middle } Beurteilung
+- :material-check-circle-outline:{ .lg .middle } Beurteilung
 
 ---
 
@@ -112,7 +112,7 @@ Fachliche Erläuterungen zu Logik, Wahrheitstabellen, boolescher Algebra und Nor
 
 [:link: Fachlicher Hintergrund](../fachlicher-hintergrund/index.md)
 
-- :file_folder: { .lg .middle } Materialien
+- :file_folder:{ .lg .middle } Materialien
 
 ---
 
@@ -138,7 +138,7 @@ Kurze Einführung.
     
     **:busts_in_silhouette: Sozialform:**  
     
-    **:laptop: Computer:**  
+    **:material-laptop: Computer:**  
     
     **:brain: Vorwissen:**  
     
