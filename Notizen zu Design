@@ -47,4 +47,16 @@ ist ausklappbar, aber beim Öffnen der Seite bereits geöffnet.
 
 markdown_extensions:
   - def_list 
--> 
+
+
+| Admonition | Empfehlung             | Icon                                      |
+| ---------- | ---------------------- | ----------------------------------------- |
+| `abstract` | Überblick              | `material/text-box-outline`               |
+| `quote`    | Arbeitsauftrag         | `material/clipboard-text-outline`         |
+| `tip`      | Durchführungshinweise  | `material/lightbulb-on-outline`           |
+| `warning`  | Lernschwierigkeiten    | `material/alert-circle-outline`           |
+| `example`  | Lösung / Beispiel      | `material/check-circle-outline`           |
+| `info`     | Fachlicher Hintergrund | `material/book-open-page-variant-outline` |
+| `question` | Reflexion              | `material/help-circle-outline`            |
+| `note`     | Material und Downloads | `material/package-variant-closed`            |
+

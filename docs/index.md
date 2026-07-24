@@ -10,7 +10,7 @@ LogicTraffic unterstützt den Informatikunterricht dabei, Aussagenlogik sichtbar
 | fachliche Grundlagen nachschlagen | [Zur Sache](topic/index.md) |
 | Lernziele und Lehrplanbezug prüfen | [Unterrichtsziele](goals.md) |
 | Aufgaben zur Beurteilung auswählen | [Beurteilung](beurteilung/index.md) |
-| Arbeitsblätter und Vorlagen herunterladen | [Downloads](downloads.md) |
+| Arbeitsblätter und Vorlagen herunterladen | Downloads |
 
 ## Für wen ist die Seite gedacht?
 
@@ -30,7 +30,7 @@ Diese Materialien richten sich an Lehrpersonen, die
 | Unterrichtsziele | Kompetenzen, Lernziele und Lehrplanbezüge | [Zu den Zielen](goals.md) |
 | Unterrichtsmaterial | Enaktiver Einstieg, Tool-Einführung, Wahrheitstabellen und Formeln | [Zu den Aufgaben](unterricht/logictraffic.md) |
 | Beurteilung | Formative und summative Aufgaben mit Kriterien | [Zur Beurteilung](beurteilung/index.md) |
-| Downloads | Arbeitsblätter, Bildmaterial und Druckvorlagen | [Zu den Downloads](downloads.md) |
+| Downloads | Arbeitsblätter, Bildmaterial und Druckvorlagen | Zu den Downloads |
 
 ## Didaktischer Fokus
 

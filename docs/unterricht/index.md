@@ -1,52 +1,190 @@
-# Unterrichtsplanung
+# Unterricht durchführen
 
-Die Unterrichtssequenz ist als Aufgabenset angelegt. Sie orientiert sich am LUKAS-Modell der PH Luzern und unterscheidet bewusst zwischen Lernaufgaben und Beurteilungsaufgaben.[^1]
+Die Unterrichtseinheit ermöglicht einen schrittweisen Einstieg in die
+boolesche Aussagenlogik. Ausgangspunkt sind konkrete Verkehrssituationen,
+die zunächst mit physischen Materialien untersucht und anschliessend in
+der digitalen Lernumgebung LogicTraffic dargestellt werden.
 
-## Schnell starten
+Im weiteren Verlauf wechseln die Lernenden von der konkreten
+Verkehrssituation zu Wahrheitstabellen und booleschen Formeln. Dadurch
+werden unterschiedliche Darstellungen miteinander verbunden und die
+Abstraktion schrittweise aufgebaut.
 
-| Ziel | Seite |
-| --- | --- |
-| handlungsorientiert ins Thema einsteigen | [Enaktiver Einstieg](einstiegenaktiv.md) |
-| LogicTraffic als Online-Tool einführen | [Einführung Online Lernumgebung](logictraffic.md) |
-| Wahrheitstabellen systematisch erarbeiten | [Wahrheitstabelle](wahrheitstabellen.md) |
-| Formeln und Operatoren verstehen | [Formeln verstehen](formelnverstehen.md) |
-| Beurteilungsaufgaben auswählen | [Beurteilung](../beurteilung/index.md) |
+!!! abstract "Unterrichtseinheit auf einen Blick"
 
-## Didaktische Leitidee
+    **:busts_in_silhouette: Zielgruppe:** Gymnasialer Informatikunterricht  
 
-LogicTraffic eignet sich, weil Lernende denselben fachlichen Zusammenhang in mehreren Darstellungen bearbeiten: als Verkehrssituation, als sprachliche Regel, als Wahrheitstabelle und als Formel. Der Unterricht soll deshalb nicht nur Begriffe vermitteln, sondern den Wechsel zwischen diesen Darstellungen einüben.
+    **:jigsaw: Umfang:** vier thematische Unterrichtsbausteine  
 
-## LUKAS-Modell in Kürze
+    **:stopwatch: Dauer:** je nach Vertiefung etwa 4–6 Lektionen  
 
-Das LUKAS-Modell hilft, Aufgaben nicht nur nach Schwierigkeit, sondern nach ihrer Funktion im Lernprozess zu ordnen. Dadurch wird sichtbar, ob eine Aufgabe Vorwissen aktiviert, Fachbegriffe aufbaut, Übung ermöglicht oder Kompetenzen überprüft.
+    **:brain: Vorwissen:** keine Vorkenntnisse in Aussagenlogik erforderlich  
+    
+    **:busts_in_silhouette: Sozialformen:** Einzel-, Partner- und Gruppenarbeit  
 
-| Aufgabentyp | Funktion im Lernprozess | Beispiel in LogicTraffic |
-| --- | --- | --- |
-| Konfrontationsaufgabe | Irritation, Vorwissen, Fragehaltung | reale oder gespielte Kreuzung beurteilen |
-| Erarbeitungsaufgabe | Fachbegriffe und Strukturen aufbauen | Wahrheitstabelle aus einer Situation entwickeln |
-| Vertiefungsaufgabe | Zusammenhänge ausdifferenzieren | gleiche Situation verbal, tabellarisch und formal beschreiben |
-| Übungsaufgabe | Routinen sichern | Ampelzustände, Tabellenzeilen und Formeln wiederholt zuordnen |
-| Syntheseaufgabe | Teilkompetenzen verbinden | vollständige LogicTraffic-Aufgabe lösen |
-| Transferaufgabe | Wissen auf neue Kontexte übertragen | eine andere Steuerungslogik modellieren |
-| Formative Beurteilungsaufgabe | Lernstand sichtbar machen | Lösung erklären, Fehler finden, Rückmeldung erhalten |
-| Summative Beurteilungsaufgabe | Kompetenzstand bilanzieren | Abschlussaufgabe mit neuer Verkehrssituation |
+    **:computer: Computer:** ab Lektion 2 erforderlich  
 
-## Lern- und Leistungssituationen trennen
+    **:globe_with_meridians: Lernumgebung:** LogicTraffic
 
-| Merkmal | Lernsituation | Leistungssituation |
-| --- | --- | --- |
-| Zweck | Aufbau, Erkundung, Vertiefung | Nachweis und Bewertung |
-| Umgang mit Fehlern | Fehler sind Lernanlässe | Fehler zeigen Unterstützungsbedarf oder Leistungsstand |
-| Unterstützung | Hinweise, Partnerarbeit und Rückfragen sind sinnvoll | selbstständiges Arbeiten steht im Vordergrund |
-| Fokus | Prozess, Begründung, Begriffsbildung | Ergebnis, Nachvollziehbarkeit, fachliche Genauigkeit |
+## Aufbau der Unterrichtseinheit
 
-## Empfohlene Reihenfolge
+Die Unterrichtseinheit folgt einer Progression vom konkreten Handeln
+zur formalen Darstellung:
 
-1. Enaktiver Einstieg: Sicherheit intuitiv beurteilen.
-2. LogicTraffic kennenlernen: Oberfläche, Ampeln, Tabelle und Formel erkunden.
-3. Wahrheitstabellen erarbeiten: alle Zustände systematisch erfassen.
-4. Formeln verstehen: Operatoren und Formeleditor nutzen.
-5. Üben und vertiefen: Darstellungswechsel festigen.
-6. Beurteilen: formative Rückmeldung und summative Abschlussaufgabe einsetzen.
+![Darstellungswechsel in der Unterrichtseinheit (generiert mit GPT5.6 (OpenAI))](https://github.com/salomegolden/logictraffic/releases/download/images-v1/entwicklung_darstellungswechsel.png)
 
-[^1]: Wilhelm, M., Luthiger, H. & Wespi, C. (2014). Prozessmodell zur Entwicklung von kompetenzorientierten Aufgabensets. Luzern: Entwicklungsschwerpunkt Kompetenzorientierter Unterricht, Pädagogische Hochschule Luzern.
+### Baustein 1 - Enaktiver Einstieg
+
+Die Lernenden untersuchen mit physischen Materialien, welche Ampelschaltungen sicher oder unsicher sind. Sie begründen ihre Entscheidungen und formulieren erste Regeln in Alltagssprache.
+
+Zentrale Darstellung: konkret und handelnd.
+
+[:link: zu Baustein 1](baustein1-enaktiv.md)
+
+### Baustein 2 - Lernumgebung LogicTraffic
+
+Die Erkenntnisse aus dem enaktiven Einstieg werden auf die digitale
+Lernumgebung übertragen. Die Lernenden steuern Ampeln, beobachten
+Verkehrssituationen und lernen die Funktionen und Bedienung von
+LogicTraffic kennen.
+
+Zentrale Darstellung: virtuell-enaktiv und ikonisch
+
+[:link: zu Baustein 2](baustein2-logictraffic.md)
+
+### Baustein 3 - Wahrheitstabellen
+
+Die Lernenden erfassen die möglichen Ampelzustände systematisch in
+einer Wahrheitstabelle. Dabei verbinden sie konkrete Situationen mit
+Variablen und Wahrheitswerten.
+
+Zentrale Darstellung: tabellarisch und symbolisch
+
+[:link: zu Baustein 3](baustein3-wahrheitstabellen.md)
+
+### Baustein 4 - Boolesche Algebra und Normalformen
+
+Die Sicherheitsregeln werden mit den Operatoren NICHT, UND und ODER
+formal beschrieben. Verschiedene Formeln können verglichen und auf
+ihre Bedeutung für die Verkehrssituation geprüft werden.
+
+Zentrale Darstellung: formal und symbolisch
+
+[:link: zu Baustein 4](baustein4-boolesche-algebra.md)
+
+## Mögliche Durchführung
+
+| Baustein | Schwerpunkt | :hourglass_not_done: Richtzeit | :computer: Computer |
+| ------- | --------------------------------------------- | ---------: | :------: |
+| 1 | Sichere Ampelschaltungen handelnd untersuchen | 45–90 Min. | Nein |
+| 2 | LogicTraffic kennenlernen und bedienen | 45 Min. | Ja |
+| 3 | Zustände in Wahrheitstabellen darstellen | 45–90 Min. | Ja |
+| 4 | Sicherheitsregeln formal beschreiben | 45–90 Min. | Ja |
+
+!!! info "Flexibler Einsatz"
+
+    Die vier Lektionen bilden eine zusammenhängende Unterrichtseinheit. Je nach Vorwissen, verfügbarer Zeit und Schwerpunkt können einzelne Phasen gekürzt, erweitert oder mit bestehenden Materialien kombiniert werden.
+
+## Vor der Durchführung
+
+Vor dem Unterricht sollten insbesondere folgende Punkte geklärt werden:
+
+- :alarm_clock: verfügbare Unterrichtszeit;
+- :laptop: Zugang zu Computern oder Tablets;
+- :paperclip: Herstellung und Bereitstellung der enaktiven Materialien;
+- :busts_in_silhouette: Gruppengrösse und Sozialformen;
+- :magnifying_glass_tilted_right: gewünschter fachlicher Vertiefungsgrad;
+- :check_mark_button: Form der Lernkontrolle oder Beurteilung.
+
+[:link: zur Vorbereitung](vorbereitung.md)
+
+## Begleitende Hinweise
+
+<div class="grid cards" markdown>
+
+- :level_slider:{ .lg .middle } Differenzierung
+
+---
+
+Möglichkeiten zur Unterstützung, Vertiefung und Anpassung an
+unterschiedliche Lerngruppen.
+
+[:link: Differenzierung und Unterstützung](differenzierung.md)
+
+- :check_mark_button:{ .lg .middle } Beurteilung
+
+---
+
+Hinweise zu formativen Lernkontrollen, Beobachtungen und möglichen
+summativen Aufgaben.
+
+[:link: Beurteilung](beurteilung.md.md)
+
+- :open_book:{ .lg .middle } Fachlicher Hintergrund
+
+---
+
+Fachliche Erläuterungen zu Logik, Wahrheitstabellen, boolescher
+Algebra und Normalformen.
+
+[:link: Fachlicher Hintergrund](../fachlicher-hintergrund/index.md)
+
+- :file_folder: { .lg .middle } Materialien
+
+---
+
+Arbeitsblätter, Vorlagen, Lösungen und weitere Materialien.
+
+[:link: Zu den Downloads](../anhang/downloads.md)
+
+</div>
+
+??? tip "Hinweise aus der ersten Erprobung"
+
+    Die physische Konfrontationsaufgabe wurde in der Pilotdurchführung überwiegend als verständlich und motivierend beurteilt. Gleichzeitig zeigten die Rückmeldungen, dass insbesondere präzise Aufgabenstellungen und ergänzende Hinweise für Lehrpersonen wichtig sind.
+
+Vorlage für die Lektionen:
+
+# Baustein X – Titel
+
+Kurze Einführung.
+
+!!! abstract "Auf einen Blick"
+
+    **:stopwatch: Dauer:**  
+    
+    **:busts_in_silhouette: Sozialform:**  
+    
+    **:laptop: Computer:**  
+    
+    **:brain: Vorwissen:**  
+    
+    **:package: Material:**  
+
+## Lernziele
+
+## Vorbereitung
+
+## Unterrichtsablauf
+
+## Durchführung
+
+### Phase 1
+
+### Phase 2
+
+### Phase 3
+
+## Erwartete Ergebnisse
+
+??? example "Mögliche Ergebnisse"
+
+## Typische Lernschwierigkeiten
+
+??? warning "Typische Schwierigkeit"
+
+## Differenzierung
+
+## Übergang zur nächsten Lektion
+
+## Materialien

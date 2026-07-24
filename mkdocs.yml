@@ -36,31 +36,27 @@ theme:
 
 nav:
   - Start: index.md
-
   - Didaktische Hinweise:
       - Überblick: didaktik/index.md
       - Lehrplan und Lernziele: didaktik/lernziele.md
       - Aufbau der Unterrichtseinheit: didaktik/aufbau.md
       - Darstellungswechsel: didaktik/darstellungswechsel.md
       - Typische Lernschwierigkeiten: didaktik/lernschwierigkeiten.md
-
-  - Unterricht durchführen:
-      - Überblick: unterricht/index.md
-      - Vorbereitung: unterricht/vorbereitung.md
-      - "Lektion 1: Enaktiver Einstieg": unterricht/lektion1-enaktiv.md
-      - "Lektion 2: Lernumgebung LogicTraffic": unterricht/lektion2-logictraffic.md
-      - "Lektion 3: Wahrheitstabellen": unterricht/lektion3-wahrheitstabellen.md
-      - "Lektion 4: Boolesche Algebra": unterricht/lektion4-boolesche-algebra.md
-      - Differenzierung und Unterstützung: unterricht/differenzierung.md
-      - Beurteilung: unterricht/beurteilung.md
-
+- Unterricht durchführen:
+    - Überblick: unterricht/index.md
+    - Vorbereitung: unterricht/vorbereitung.md
+    - "Baustein 1: Enaktiver Einstieg": unterricht/baustein1-enaktiv.md
+    - "Baustein 2: Lernumgebung LogicTraffic": unterricht/baustein2-logictraffic.md
+    - "Baustein 3: Wahrheitstabellen": unterricht/baustein3-wahrheitstabellen.md
+    - "Baustein 4: Boolesche Algebra": unterricht/baustein4-boolesche-algebra.md
+    - Differenzierung und Unterstützung: unterricht/differenzierung.md
+    - Beurteilung: unterricht/beurteilung.md
   - Fachlicher Hintergrund:
       - Überblick: fachlicher-hintergrund/index.md
       - Logik: fachlicher-hintergrund/logik.md
       - Wahrheitstabellen: fachlicher-hintergrund/wahrheitstabellen.md
       - Boolesche Algebra: fachlicher-hintergrund/boolesche-algebra.md
       - Normalformen: fachlicher-hintergrund/normalformen.md
-
   - Anhang:
       - Überblick: anhang/index.md
       - Downloads: anhang/downloads.md
@@ -78,7 +74,7 @@ markdown_extensions:
   - attr_list
   - md_in_html
   - pymdownx.emoji:
-      emoji_index: !!python/name:pymdownx.emoji.twemoji
+      emoji_index: !!python/name:pymdownx.emoji.gemoji
       emoji_generator: !!python/name:pymdownx.emoji.to_svg
   - def_list
   - pymdownx.details
@@ -90,6 +86,6 @@ markdown_extensions:
       alternate_style: true
 
 extra_javascript:
-  - javascripts/mathjax.js
+  - code/javascripts/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
