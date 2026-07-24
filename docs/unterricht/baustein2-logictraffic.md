@@ -12,7 +12,7 @@ Im Zentrum steht zunächst nicht das formale Arbeiten mit Formeln. Die Lernenden
     **:busts_in_silhouette: Sozialform:**  
     Klassenunterricht, Partnerarbeit und kurze Einzelphasen
 
-    **:material-laptop: Computer:**  
+    **:computer: Computer:**  
     Ein Computer oder Tablet pro Zweiergruppe
 
     **:brain: Vorwissen:**  
@@ -320,6 +320,9 @@ Die Lehrperson zeigt, wie sich die Formel verändert, wenn in der Spalte «siche
     - Was beschreibt die Formel?
     - Welche Informationen sind in allen drei Darstellungen gleich?
 
+    Gemeinsam kann auch das Tafelbild ausgefüllt werden: 
+    ![Tafelbild B2, generiert mit ChatGPT, GPT5.6](https://github.com/salomegolden/logictraffic/releases/download/images-v1/b2_tafelbild.png)
+
 !!! tip "Durchführungshinweis"
 
     Die Begriffe DNF und KNF müssen in diesem Baustein noch nicht eingeführt werden.
@@ -336,7 +339,7 @@ Die Lehrperson zeigt, wie sich die Formel verändert, wenn in der Spalte «siche
 
 Die Ergebnisse werden gemeinsam gesammelt und als Tafelbild oder digitale Notiz festgehalten.
 
-??? example "Mögliches Tafelbild"
+??? example "Ergebnisse"
 
     ![Tafelbild B2, generiert mit ChatGPT, GPT5.6](https://github.com/salomegolden/logictraffic/releases/download/images-v1/b2_tafelbild.png)
 

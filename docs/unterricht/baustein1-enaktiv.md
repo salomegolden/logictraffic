@@ -16,7 +16,7 @@ Ausgehend von einzelnen konkreten Situationen entsteht schrittweise das Bedürfn
     
     **:busts_in_silhouette: Sozialform:** Gruppenarbeit, anschliessend Austausch im Plenum  
     
-    **:material-laptop: Computer:** nicht erforderlich
+    **:computer: Computer:** nicht erforderlich
     
     **:brain: Vorwissen:** kein Vorwissen erforderlich
     

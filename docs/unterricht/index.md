@@ -75,99 +75,53 @@ Zentrale Darstellung: formal und symbolisch
 
 Vor dem Unterricht sollten insbesondere folgende Punkte geklärt werden:
 
-- :alarm_clock: verfügbare Unterrichtszeit;
-- :material-laptop: Zugang zu Computern oder Tablets;
-- :paperclip: Herstellung und Bereitstellung der enaktiven Materialien;
-- :busts_in_silhouette: Gruppengrösse und Sozialformen;
+- :material-clock-outline: verfügbare Unterrichtszeit;
+- :computer: Zugang zu Computern oder Tablets;
+- :material-paperclip: Herstellung und Bereitstellung der enaktiven Materialien;
+- :material-account-group-outline: Gruppengrösse und Sozialformen;
 - :material-magnify: gewünschter fachlicher Vertiefungsgrad;
 - :material-check-circle-outline: Form der Lernkontrolle oder Beurteilung.
 
-[:link: zur Vorbereitung](vorbereitung.md)
+[:material-arrow-right: zur Vorbereitung](vorbereitung.md)
 
 ## Begleitende Hinweise
 
 <div class="grid cards" markdown>
 
-- :level_slider:{ .lg .middle } Differenzierung
+-   :material-tune:{ .lg .middle } **Differenzierung**
 
----
+    ---
 
-Möglichkeiten zur Unterstützung, Vertiefung und Anpassung an unterschiedliche Lerngruppen.
+    Möglichkeiten zur Unterstützung, Vertiefung und Anpassung an unterschiedliche Lerngruppen.
 
-[:link: Differenzierung und Unterstützung](differenzierung.md)
+    [:material-arrow-right: Differenzierung und Unterstützung](differenzierung.md)
 
-- :material-check-circle-outline:{ .lg .middle } Beurteilung
+-   :material-check-circle-outline:{ .lg .middle } **Beurteilung**
 
----
+    ---
 
-Hinweise zu formativen Lernkontrollen, Beobachtungen und möglichen summativen Aufgaben.
+    Hinweise zu formativen Lernkontrollen, Beobachtungen und möglichen summativen Aufgaben.
 
-[:link: Beurteilung](beurteilung.md)
+    [:material-arrow-right: Beurteilung](beurteilung.md)
 
-- :open_book:{ .lg .middle } Fachlicher Hintergrund
+-   :material-book-open-page-variant-outline:{ .lg .middle } **Fachlicher Hintergrund**
 
----
+    ---
 
-Fachliche Erläuterungen zu Logik, Wahrheitstabellen, boolescher Algebra und Normalformen.
+    Fachliche Erläuterungen zu Logik, Wahrheitstabellen, boolescher Algebra und Normalformen.
 
-[:link: Fachlicher Hintergrund](../fachlicher-hintergrund/index.md)
+    [:material-arrow-right: Fachlicher Hintergrund](../fachlicher-hintergrund/index.md)
 
-- :file_folder:{ .lg .middle } Materialien
+-   :material-folder-outline:{ .lg .middle } **Materialien**
 
----
+    ---
 
-Arbeitsblätter, Vorlagen, Lösungen und weitere Materialien.
+    Arbeitsblätter, Vorlagen, Lösungen und weitere Materialien.
 
-[:link: Zu den Downloads](../anhang/downloads.md)
+    [:material-arrow-right: Zu den Downloads](../anhang/downloads.md)
 
 </div>
 
 ??? tip "Hinweise aus der ersten Erprobung"
 
     Die physische Konfrontationsaufgabe wurde in der Pilotdurchführung überwiegend als verständlich und motivierend beurteilt. Gleichzeitig zeigten die Rückmeldungen, dass insbesondere präzise Aufgabenstellungen und ergänzende Hinweise für Lehrpersonen wichtig sind.
-
-Vorlage für die Lektionen:
-
-# Baustein X – Titel
-
-Kurze Einführung.
-
-!!! abstract "Auf einen Blick"
-
-    **:stopwatch: Dauer:**  
-    
-    **:busts_in_silhouette: Sozialform:**  
-    
-    **:material-laptop: Computer:**  
-    
-    **:brain: Vorwissen:**  
-    
-    **:package: Material:**  
-
-## Lernziele
-
-## Vorbereitung
-
-## Unterrichtsablauf
-
-## Durchführung
-
-### Phase 1
-
-### Phase 2
-
-### Phase 3
-
-## Erwartete Ergebnisse
-
-??? example "Mögliche Ergebnisse"
-
-## Typische Lernschwierigkeiten
-
-??? warning "Typische Schwierigkeit"
-
-## Differenzierung
-
-## Übergang zur nächsten Lektion
-
-## Materialien
