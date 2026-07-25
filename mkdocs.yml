@@ -33,6 +33,7 @@ theme:
       info: material/book-education-outline
       question: material/chat-question-outline
       note: material/package-variant-closed
+    annotation: material/arrow-right-circle-outline
 
 nav:
   - Start: index.md
