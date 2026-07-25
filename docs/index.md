@@ -1,5 +1,7 @@
 # LogicTraffic im Unterricht
 
+![Übersichtsbild, generiert mit ChatGPT; GPT5.5](https://github.com/salomegolden/logictraffic/releases/download/images-v1/titelbild_webseite.png)
+
 ## Boolesche Logik anschaulich, handelnd und alltagsnah vermitteln
 
 LogicTraffic nutzt Verkehrskreuzungen, Ampeln und Fahrtrichtungen, um einen anschaulichen Zugang zur booleschen Aussagenlogik zu schaffen.

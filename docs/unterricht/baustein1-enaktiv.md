@@ -29,7 +29,7 @@ Die Lernenden können …
 
 ## Vorbereitung
 
-??? note "Ein Materialset pro Gruppe umfasst:"
+???+ note "Ein Materialset pro Gruppe umfasst:"
 
     - ein Kreuzungsfeld mit 3 Spuren;
     - ein Kreuzungsfeld mit 4 Spuren;
@@ -63,7 +63,7 @@ Die Lernenden können …
 
 ## Durchführung
 
-### Phase 1 – Verkehrssituation nachspielen
+### Phase 1 – Verkehrssituation nachspielen { #phase-1--verkehrssituation-nachspielen }
 
 Die Lernenden erhalten eine vorgegebene Verkehrssituation und stellen diese mit dem Material nach.
 
@@ -81,11 +81,14 @@ Die Lernenden erhalten eine vorgegebene Verkehrssituation und stellen diese mit 
 
 Die Lernenden bewegen die Fahrzeuge probeweise entlang ihrer Fahrwege. Dadurch werden mögliche Kollisionen unmittelbar sichtbar.
 
-Die Lehrperson führt an dieser Stelle noch keine logischen Fachbegriffe ein. Im Zentrum steht die intuitive Auseinandersetzung mit der konkreten Situation.
 
-!!! tip "Hinweise für die Durchführung"
+???+ tip "Hinweise für die Durchführung"
 
     Lassen Sie die Lernenden die Fahrzeuge tatsächlich bewegen. Eine mögliche Kollision sollte nicht nur beschrieben, sondern mit dem Material nachvollzogen werden.
+
+    Die Lehrperson führt an dieser Stelle noch keine logischen Fachbegriffe ein. Im Zentrum steht die intuitive Auseinandersetzung mit der konkreten Situation.
+
+???+ question "Impulsfragen"
 
     Fragen Sie beispielsweise:
 
@@ -94,7 +97,7 @@ Die Lehrperson führt an dieser Stelle noch keine logischen Fachbegriffe ein. Im
     - Woran erkennt ihr, ob die Situation sicher ist?
     - Gibt es mehrere sichere Lösungen?
 
-### Phase 2 – Sichere Ampelstellungen finden
+### Phase 2 – Sichere Ampelstellungen finden { #phase-2--sichere-ampelstellungen-finden }
 
 Jeder verwendeten Spur ist ein wendbares Ampelplättchen zugeordnet. Durch Umdrehen stellen die Lernenden die jeweilige Ampel auf Rot oder Grün.
 
@@ -114,13 +117,13 @@ Die Gruppen verändern die Zustände der Ampeln nacheinander und probieren versc
 
 Es können auch bewusst unsichere Kombinationen eingestellt werden. Dadurch wird sichtbar, welche gleichzeitig grünen Ampeln zu einem Konflikt führen.
 
-!!! question "Impuls für die Reflexion"
+???+ question "Impuls für die Reflexion"
 
     Reicht es aus, eine einzige sichere Ampelstellung zu finden?
 
-Die Frage lenkt den Blick darauf, dass eine Verkehrssituation nicht nur durch eine einzelne Lösung beschrieben werden kann. Für eine vollständige Steuerung müssen sämtliche möglichen Ampelzustände beurteilt werden.
+    Die Frage lenkt den Blick darauf, dass eine Verkehrssituation nicht nur durch eine einzelne Lösung beschrieben werden kann. Für eine vollständige Steuerung müssen sämtliche möglichen Ampelzustände beurteilt werden.
 
-### Phase 3 – Situation verändern
+### Phase 3 – Situation verändern { #phase-3--situation-verändern }
 
 Die ursprüngliche Verkehrssituation wird leicht verändert. Beispielsweise wird ein Fahrzeug verschoben oder seine Fahrtrichtung gewechselt.
 
@@ -134,11 +137,11 @@ Die ursprüngliche Verkehrssituation wird leicht verändert. Beispielsweise wird
     - Welche Konflikte sind neu entstanden?
     - Welche bisherigen Regeln gelten nicht mehr?
 
-??? info "Was soll hier gelernt werden?"
+???+ info "Was soll hier gelernt werden?"
 
     Durch die Veränderung sollen die Lernenden erkennen, dass Sicherheit von der jeweils vorgegebenen Verkehrssituation abhängt. Eine Regel, die für eine Situation funktioniert, kann bei einer veränderten Situation falsch sein.
 
-### Phase 4 – Alle Zustände systematisch erfassen
+### Phase 4 – Alle Zustände systematisch erfassen { #phase-4--alle-zustände-systematisch-erfassen }
 
 Im nächsten Schritt wird von einzelnen eingestellten Lösungen zu einer vollständigen Übersicht übergegangen.
 
@@ -155,32 +158,38 @@ Im nächsten Schritt wird von einzelnen eingestellten Lösungen zu einer vollst�
 
 Die Lehrperson kann zunächst fragen, wie viele Kombinationen bei drei Ampeln möglich sind. Die Lernenden dürfen diese durch systematisches Legen ermitteln.
 
-Bei drei Ampeln entstehen insgesamt acht Kombinationen.
+???+ example "3 Ampeln"
 
-| C | D | E | sicher? |
-| --- | --- | --- | --- |
-| Rot | Rot | Rot | |
-| Rot | Rot | Grün | |
-| Rot | Grün | Rot | |
-| Rot | Grün | Grün | |
-| Grün | Rot | Rot | |
-| Grün | Rot | Grün | |
-| Grün | Grün | Rot | |
-| Grün | Grün | Grün | |
+    Bei drei Ampeln entstehen insgesamt acht Kombinationen.
 
-Die Bezeichnung **Wahrheitstabelle** muss nicht zu Beginn dieser Phase genannt werden. Sinnvoll ist, den Begriff erst einzuführen, nachdem die Lernenden selbst das Bedürfnis nach einer vollständigen Tabelle erkannt haben.
+    | C | D | E | sicher? |
+    | --- | --- | --- | --- |
+    | Rot | Rot | Rot | |
+    | Rot | Rot | Grün | |
+    | Rot | Grün | Rot | |
+    | Rot | Grün | Grün | |
+    | Grün | Rot | Rot | |
+    | Grün | Rot | Grün | |
+    | Grün | Grün | Rot | |
+    | Grün | Grün | Grün | |
 
-### Phase 5 – Ergebnisse sichern
+???+ info "Begriff Wahrheitstabelle"
+
+    Die Bezeichnung **Wahrheitstabelle** muss nicht zu Beginn dieser Phase genannt werden. Sinnvoll ist, den Begriff erst einzuführen, nachdem die Lernenden selbst das Bedürfnis nach einer vollständigen Tabelle erkannt haben.
+
+### Phase 5 – Ergebnisse sichern { #phase-5--ergebnisse-sichern }
 
 Die Gruppen vergleichen ihre Tabellen im Plenum. Zur schriftlichen Ergebnissicherung kann das Arbeitsblatt [AB1.1 „Kreuzung beschreiben“](https://github.com/salomegolden/logictraffic/releases/download/material-v1/b1_kreuzungen_beschreiben_AB.pdf) eingesetzt werden.
 
 Dabei werden insbesondere folgende Fragen besprochen:
 
-- Haben alle Gruppen dieselben Kombinationen gefunden?
-- Wurde jede mögliche Kombination genau einmal erfasst?
-- Bei welchen Kombinationen waren sich die Gruppen uneinig?
-- Wie lässt sich die Entscheidung „sicher“ oder „unsicher“ begründen?
-- Welchen Vorteil hat die Tabelle gegenüber dem blossen Ausprobieren?
+???+ question "Impulsfragen"
+
+    - Haben alle Gruppen dieselben Kombinationen gefunden?
+    - Wurde jede mögliche Kombination genau einmal erfasst?
+    - Bei welchen Kombinationen waren sich die Gruppen uneinig?
+    - Wie lässt sich die Entscheidung „sicher“ oder „unsicher“ begründen?
+    - Welchen Vorteil hat die Tabelle gegenüber dem blossen Ausprobieren?
 
 Anschliessend führt die Lehrperson den Begriff **Wahrheitstabelle** ein.
 
