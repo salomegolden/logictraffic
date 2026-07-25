@@ -19,7 +19,7 @@ Die Unterrichtsmaterialien folgen einer schrittweisen Progression:
 
 === ":material-hand-clap: Handeln:"
 
-   Die Lernenden stellen Verkehrssituationen mit Fahrzeugen, Kreuzungsfeldern und drehbaren Ampeln nach.
+    Die Lernenden stellen Verkehrssituationen mit Fahrzeugen, Kreuzungsfeldern und drehbaren Ampeln nach.
 
 === ":octicons-browser-24: Darstellen:"  
 
