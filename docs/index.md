@@ -11,7 +11,7 @@ Die Lernenden untersuchen zunächst konkrete Verkehrssituationen, beschreiben si
 Die ganze Unterrichtsreihe basiert auf der online Lernumgebung LogicTraffic (1). 
 { .annotate }
 
-1.      :link: Link zur Webseite: [:vertical_traffic_light: LogicTraffic](logictraffic.ch)
+1.      :link: Link zur Webseite: [:vertical_traffic_light: LogicTraffic](https://logictraffic.ch)
 
 ## :material-map-marker-path: Vom konkreten Handeln zur formalen Logik
 
