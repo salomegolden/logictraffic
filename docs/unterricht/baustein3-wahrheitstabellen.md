@@ -26,7 +26,7 @@ Im Themenbereich der Wahrheitstabellen steht der Übergang von der anschaulichen
 | Phase | Inhalt (Stichworte) | Sozialform / Medien | Richtwert |
 | :--- | :--- | :--- | :--- |
 | **1. Einstieg & Problemstellung** | • Reaktivierung Simulation & Vorwissen<br>• Demonstration Situation 2 (2 Spuren)<br>• Leitfrage: Lückenlose Sicherheit aller Kombinationen?<br>• Ziel: Einführung der Wahrheitstabelle | **Plenum**<br>• Beamer / Tafel<br>• *LogicTraffic* | **ca. 7 Min.** |
-| **2. Erarbeitung I**<br>*(2 Spuren)* | • Belegung klären: $0 = \text{Rot}$, $1 = \text{Grün}$[cite: 3, 4]<br>• Systematisches Eintragen der 4 Zustände ($2^2$) <br>• Spalte `sicher` bestimmen ($0 = \text{Kollision}$, $1 = \text{sicher}$)<br>• Visuelle Überprüfung per Simulation | **Partnerarbeit**<br>• Schüler-Geräte[cite: 2, 4]<br>• *LogicTraffic*<br>• Arbeitsblatt | **ca. 10 Min.** |
+| **2. Erarbeitung I**<br>*(2 Spuren)* | • Belegung klären: $0 = \text{Rot}$, $1 = \text{Grün}$<br>• Systematisches Eintragen der 4 Zustände ($2^2$) <br>• Spalte `sicher` bestimmen ($0 = \text{Kollision}$, $1 = \text{sicher}$)<br>• Visuelle Überprüfung per Simulation | **Partnerarbeit**<br>• Schüler-Geräte<br>• *LogicTraffic*<br>• Arbeitsblatt | **ca. 10 Min.** |
 | **3. Vertiefung**<br>*(3 Spuren)* | • Erweiterung: Situation 3 (3 Spuren)<br>• Zustandsraum: 8 Zeilen ($2^3$)<br>• Geordnetes Binärmuster ($000$ bis $111$)<br>• Ausfüllen der Tabelle in der Software | **Partnerarbeit**<br>• *LogicTraffic*<br>• Arbeitsblatt | **ca. 15 Min.** |
 | **4. Kognitiver Konflikt** | • Skalierung: Situation 10 (5 Spuren)<br>• Exponentielles Wachstum: 32 Zeilen ($2^5$)<br>• Erkenntnis: Grenzen & Ineffizienz der Tabelle<br>• Leitfrage: Notwendigkeit kompakter Formeln | **Plenum**<br>• Beamerprojektion<br>• Unterrichtsgespräch | **ca. 8 Min.** |
 | **5. Sicherung & Ausblick** | • Festhalten der Kernpunkte ($2^n$-Systematik, $0/1$-Logik)<br>• Verbale Formulierung erster Vorfahrtsregeln<br>• Ausblick: Baustein 4 (Boolesche Formeln) | **Plenum / Einzelarbeit**<br>• Tafel<br>• Arbeitsblatt / Portfolio | **ca. 5 Min.** |
@@ -95,7 +95,9 @@ Sozialform / Medien: Partnerarbeit mit Plenumsreflexion; LogicTraffic (Situation
 
 ??? tip ":police: in LogicTraffic"
 
-    Das [Polizisten-Status](../anhang/glossar.md#polizisten-status) gibt den SuS formativ Rückmeldung:  --8<-- "code/includes/begriffe.md:polizisten_status"
+    Das [Polizisten-Status](../anhang/glossar.md#polizisten-status) gibt den SuS formativ Rückmeldung:  
+    
+    --8<-- "code/includes/begriffe.md:polizisten_status"
 
 ### Phase 4 - Kognitiver Konflikt - Grenzen der Wahrheitstabellen 
 Sozialform / Medien: Lehrgespräch / Plenum; Beamerprojektion von Situation 10 (5 Fahrspuren).
