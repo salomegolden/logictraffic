@@ -93,11 +93,11 @@ Sozialform / Medien: Partnerarbeit mit Plenumsreflexion; LogicTraffic (Situation
 
     Schnellere Schülerpaare erhalten eine ausgedruckte oder vorbereitete Wahrheitstabelle mit 2–3 eingebauten Fehlern (z. B. Kollision fälschlicherweise als $1$ markiert). Der Auftrag lautet: „Stellt die verdächtigen Zeilen in LogicTraffic ein, findet die Kollisionen und korrigiert die Tabelle mit rotem Stift.“  
 
-??? tip ":police: in LogicTraffic"
+??? tip ":woman_police_officer: in LogicTraffic"
 
     Das [Polizisten-Status](../anhang/glossar.md#polizisten-status) gibt den SuS formativ Rückmeldung:  
-    
-    --8<-- "code/includes/begriffe.md:polizisten_status"
+
+--8<-- "code/includes/begriffe.md:polizisten_status"
 
 ### Phase 4 - Kognitiver Konflikt - Grenzen der Wahrheitstabellen 
 Sozialform / Medien: Lehrgespräch / Plenum; Beamerprojektion von Situation 10 (5 Fahrspuren).
