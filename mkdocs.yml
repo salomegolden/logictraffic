@@ -54,7 +54,6 @@ nav:
       - Beurteilung: unterricht/beurteilung.md
   - Fachlicher Hintergrund:
       - Überblick: fachlicher-hintergrund/index.md
-      - Logik: fachlicher-hintergrund/logik.md
       - Wahrheitstabellen: fachlicher-hintergrund/wahrheitstabellen.md
       - Boolesche Algebra: fachlicher-hintergrund/boolesche-algebra.md
       - Normalformen: fachlicher-hintergrund/normalformen.md
@@ -84,6 +83,9 @@ markdown_extensions:
       generic: true
   - pymdownx.tabbed:
       alternate_style: true
+  - pymdownx.snippets:
+      base_path: ["docs"] # Basispfad für Snippet-Dateien
+      check_paths: true
 
 extra_javascript:
   - code/javascripts/mathjax.js
