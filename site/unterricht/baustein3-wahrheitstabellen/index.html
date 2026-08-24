@@ -1526,8 +1526,8 @@
 </tr>
 <tr>
 <td style="text-align: left;"><strong>2. Erarbeitung I</strong><br><em>(2 Spuren)</em></td>
-<td style="text-align: left;">• Belegung klären: <span class="arithmatex">\(0 = \text{Rot}\)</span>, <span class="arithmatex">\(1 = \text{Grün}\)</span>[cite: 3, 4]<br>• Systematisches Eintragen der 4 Zustände (<span class="arithmatex">\(2^2\)</span>) <br>• Spalte <code>sicher</code> bestimmen (<span class="arithmatex">\(0 = \text{Kollision}\)</span>, <span class="arithmatex">\(1 = \text{sicher}\)</span>)<br>• Visuelle Überprüfung per Simulation</td>
-<td style="text-align: left;"><strong>Partnerarbeit</strong><br>• Schüler-Geräte[cite: 2, 4]<br>• <em>LogicTraffic</em><br>• Arbeitsblatt</td>
+<td style="text-align: left;">• Belegung klären: <span class="arithmatex">\(0 = \text{Rot}\)</span>, <span class="arithmatex">\(1 = \text{Grün}\)</span><br>• Systematisches Eintragen der 4 Zustände (<span class="arithmatex">\(2^2\)</span>) <br>• Spalte <code>sicher</code> bestimmen (<span class="arithmatex">\(0 = \text{Kollision}\)</span>, <span class="arithmatex">\(1 = \text{sicher}\)</span>)<br>• Visuelle Überprüfung per Simulation</td>
+<td style="text-align: left;"><strong>Partnerarbeit</strong><br>• Schüler-Geräte<br>• <em>LogicTraffic</em><br>• Arbeitsblatt</td>
 <td style="text-align: left;"><strong>ca. 10 Min.</strong></td>
 </tr>
 <tr>
@@ -1615,8 +1615,21 @@ Pair Learning: Das gemeinsame Diskutieren am Bildschirm zwingt die Lernenden, ih
 <p>Schnellere Schülerpaare erhalten eine ausgedruckte oder vorbereitete Wahrheitstabelle mit 2–3 eingebauten Fehlern (z. B. Kollision fälschlicherweise als <span class="arithmatex">\(1\)</span> markiert). Der Auftrag lautet: „Stellt die verdächtigen Zeilen in LogicTraffic ein, findet die Kollisionen und korrigiert die Tabelle mit rotem Stift.“  </p>
 </details>
 <details class="tip">
-<summary>:police: in LogicTraffic</summary>
-<p>Das <a href="../../anhang/glossar/#polizisten-status">Polizisten-Status</a> gibt den SuS formativ Rückmeldung:  --8&lt;-- "code/includes/begriffe.md:polizisten_status"</p>
+<summary><img alt="👮‍♀️" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f46e-200d-2640-fe0f.svg" title=":woman_police_officer:" /> in LogicTraffic</summary>
+<p>Das <a href="../../anhang/glossar/#polizisten-status">Polizisten-Status</a> gibt den SuS formativ Rückmeldung:  </p>
+</details>
+<p><span id="polizisten-status"></span></p>
+<details class="info">
+<summary>Polizisten-Status (Feedback in LogicTraffic)</summary>
+<ul>
+<li><strong>Fachlich:</strong> Semantische Korrektheitsprüfung des logischen Gesamtausdrucks gegenüber der modellierten Sicherheitsmatrix.</li>
+<li><strong>In LogicTraffic:</strong> Visuelle Rückmeldung über das Polizisten-Icon in drei Stufen:<ul>
+<li><strong>Not safe (Stopp-Geste):</strong> Die Formel erlaubt mindestens eine Kollision (eine unsichere Konfiguration ist als <span class="arithmatex">\(1\)</span> deklariert).</li>
+<li><strong>Safe (nachdenklich):</strong> Keine Kollision möglich, aber gefahrlose Ampelkonstellationen werden unnötig blockiert (mindestens eine sichere Konfiguration hat den Wert <span class="arithmatex">\(0\)</span>).</li>
+<li><strong>Optimal (salutierend):</strong> Exakte Übereinstimmung; alle sicheren Zustände sind freigegeben (<span class="arithmatex">\(1\)</span>) und alle unsicheren gesperrt (<span class="arithmatex">\(0\)</span>).</li>
+</ul>
+</li>
+</ul>
 </details>
 <h3 id="phase-4-kognitiver-konflikt-grenzen-der-wahrheitstabellen">Phase 4 - Kognitiver Konflikt - Grenzen der Wahrheitstabellen<a class="headerlink" href="#phase-4-kognitiver-konflikt-grenzen-der-wahrheitstabellen" title="Permanent link">&para;</a></h3>
 <p>Sozialform / Medien: Lehrgespräch / Plenum; Beamerprojektion von Situation 10 (5 Fahrspuren).</p>
