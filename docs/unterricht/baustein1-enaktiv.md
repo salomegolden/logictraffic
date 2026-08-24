@@ -16,6 +16,12 @@ Ausgehend von einzelnen konkreten Situationen entsteht schrittweise das Bedürfn
     
     **:package: Material:** Kreuzungsfeld, Fahrzeuge, Richtungskarten, wendbare Ampelplättchen und Arbeitsblatt
 
+!!! note "Downloads zu Baustein 1"
+
+    - [:package: Druckvorlage für das enaktive Material](https://github.com/salomegolden/logictraffic/releases/download/material-v1/b1_druckvorlage_enaktives_material.pdf)
+    - [:memo: AB1.1 „Kreuzung beschreiben“](https://github.com/salomegolden/logictraffic/releases/download/material-v1/b1_kreuzungen_beschreiben_AB.pdf)
+    - [:material-image-outline: Bild vom enaktiven Material](https://github.com/salomegolden/logictraffic/releases/download/images-v1/enaktivesmaterial.jpeg)
+
 ## Lernziele
 
 Die Lernenden können …

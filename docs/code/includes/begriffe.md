@@ -167,7 +167,7 @@
 
 ??? info "Kontextorientierung & Lebensweltbezug"
     * **Didaktisch:** Didaktisches Prinzip (u. a. «Informatik im Kontext» / IniK), bei dem Fachinhalte nicht abstrakt-systematisch, sondern eingebettet in bedeutungsvolle Problemstellungen aus der Lebenswelt der Lernenden eingeführt werden.
-    * **Im LogicTraffic-Unterricht:** Der Straßenverkehr dient als vertraute Alltagsanalogie: Das intuitive Verständnis von Vorfahrt und Unfallgefahr motiviert direkt den formalen Bedarf nach Kollisionsfreiheit und Boolescher Logik.
+    * **Im LogicTraffic-Unterricht:** Der Strassenverkehr dient als vertraute Alltagsanalogie: Das intuitive Verständnis von Vorfahrt und Unfallgefahr motiviert direkt den formalen Bedarf nach Kollisionsfreiheit und Boolescher Logik.
 --8<-- [end:kontextorientierung]
 
 ## N
@@ -207,7 +207,7 @@
 <span id="symbolisch"></span>
 
 ??? info "Symbolische Repräsentation (formal-abstrakt)"
-    * **Didaktisch:** Höchste Abstraktionsstufe zur Erfassung von Sachverhalten mittels formaler Zeichen, Text, mathematischer Notationen oder Codes (nach Jerome Bruner). Bietet den didaktischen Vorteil, komplexe Zusammenhänge äußerst kompakt und präzise zu beschreiben.
+    * **Didaktisch:** Höchste Abstraktionsstufe zur Erfassung von Sachverhalten mittels formaler Zeichen, Text, mathematischer Notationen oder Codes (nach Jerome Bruner). Bietet den didaktischen Vorteil, komplexe Zusammenhänge äusserst kompakt und präzise zu beschreiben.
     * **Im LogicTraffic-Unterricht:** Beschreibung von Sicherheitsbedingungen durch formal-logische Notationen (z. B. Boolesche Formeln mit $\land, \lor, \neg, \rightarrow$, Normalformen KDNF/KKNF) sowie tabellarische Codierungen in der Wahrheitstabelle ($0$ und $1$).
 --8<-- [end:symbolisch]
 
@@ -218,7 +218,7 @@
 
 ??? info "Virtuell-enaktive Repräsentation (simulativ-handelnd)"
     * **Didaktisch:** Informatikdidaktische Erweiterung der klassischen Bruner-Trias (nach Hartmann, Näf & Reichert sowie Arnold). Reale Handlungsprozesse werden durch interaktive Manipulation dynamischer Software-Objekte und Echtzeitsimulationen am Computer nachgebildet.
-    * **Im LogicTraffic-Unterricht:** Durch Mausklicks auf Ampeln verändern Lernende Schaltzustände interaktiv und erhalten durch die animierte Verkehrssimulation unmittelbares Feedback (fließender Verkehr vs. Kollision).
+    * **Im LogicTraffic-Unterricht:** Durch Mausklicks auf Ampeln verändern Lernende Schaltzustände interaktiv und erhalten durch die animierte Verkehrssimulation unmittelbares Feedback (fliessender Verkehr vs. Kollision).
 --8<-- [end:virtuell_enaktiv]
 
 ## W
