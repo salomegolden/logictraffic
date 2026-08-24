@@ -1,3 +1,3 @@
 # Glossar
 
---8<-- "docs/code/includes/begriffe.md"
+--8<-- "code/includes/begriffe.md"
