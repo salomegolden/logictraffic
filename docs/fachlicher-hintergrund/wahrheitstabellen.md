@@ -5,6 +5,7 @@ Wahrheitstabellen (auch Wahrheitstafeln, engl. truth tables) bilden das zentrale
 Wahrheitstabellen bilden im Unterricht die Brücke zwischen der spielerischen Verkehrssimulation und der formalen Aussagenlogik. Sie verorten sich in der auf der Stufe Strukturieren: Lernende verlassen das rein intuitive Ausprobieren und erfassen alle möglichen Signalzustände einer Kreuzung systematisch und lückenlos [^5].  
 
 ## Semantik: Wie die Kreuzung in Nullen und Einsen übersetzt wird
+
 In der klassischen Aussagenlogik ist jede Aussage entweder wahr ($1$) oder falsch ($0$). In LogicTraffic wird diese zweiwertige Logik direkt auf die Ampeln und Spuren übertragen [^1]:  
 
 | Element in LogicTraffic | Logische Bedeutung | Verkehrsbedeutung im Unterricht |
@@ -20,6 +21,7 @@ In der klassischen Aussagenlogik ist jede Aussage entweder wahr ($1$) oder falsc
     In realen Kreuzungen gibt es Gelbphasen und Übergangszeiten. Zur didaktischen Reduktion arbeitet LogicTraffic statisch: Eine Spur hat entweder strikt Grün ($1$) oder strikt Rot ($0$). Dies ermöglicht es Schülerinnen und Schülern, elementare Aussagenlogik ohne zeitliche Komplexität zu erlernen.  
 
 ## Systematik statt Zufall: Der Zustandsraum ($2^n$)
+
 Für jede Fahrspur gibt es genau zwei Möglichkeiten: Rot ($0$) oder Grün ($1$). Bei $n$ Fahrspuren ergeben sich daher mathematisch genau $2^n$ verschiedene Ampelkombinationen [^1], [^6]:
 
 * 2 Spuren ($n=2$): $2^2 = 4$ Kombinationen.
@@ -27,6 +29,7 @@ Für jede Fahrspur gibt es genau zwei Möglichkeiten: Rot ($0$) oder Grün ($1$)
 * 5 Spuren ($n=5$): $2^5 = 32$ Kombinationen.
 
 ### Synchrone Repräsentation (Darstellungswechsel)
+
 Mehr Informationen zum Konzept vom [Darstellungswechsel](../didaktik/darstellungswechsel.md). 
 
 LogicTraffic verknüpft die visuelle Simulation und die symbolische Tabelle synchron miteinander:  
@@ -68,6 +71,7 @@ LogicTraffic verknüpft die visuelle Simulation und die symbolische Tabelle sync
     * Klärung im Unterricht: Die Spalte sicher prüft ausschliesslich die Unfallfreiheit, nicht den Verkehrsfluss oder die Effizienz der Ampel. Wenn alle Fahrzeuge stehen, kann physikalisch keine Kollision geschehen.
 
 ### Die 3-Spuren-Kreuzung (Situation 3, $n=3 \rightarrow 8$ Zeilen)
+
 Spur $A$ und Spur $B$ verlaufen parallel (vertragen sich), während Spur $C$ als Abbieger beide Fahrwege schneidet.
 
 === "Beschreibung der Situation"
@@ -89,6 +93,7 @@ Spur $A$ und Spur $B$ verlaufen parallel (vertragen sich), während Spur $C$ als
     | 1 | 1 | 1 | **0** | **Kollision:** $C$ kollidiert mit $A$ und $B$. |
 
 ## Das Polizisten-Feedback als formative Diagnose
+
 Das Polizisten-Icon in LogicTraffic gibt unmittelbare Rückmeldung über die Vollständigkeit und Korrektheit der Sicherheitsbewertung in der Tabelle [^1]:
 
 | Status / Feedback | Polizist | Fachliche Bedeutung | Verkehrssemantik in LogicTraffic |
