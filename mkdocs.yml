@@ -18,7 +18,6 @@ theme:
     accent: "#CC111A"
   features:
     - navigation.path
-    - navigation.instant
     - navigation.indexes
     - navigation.footer
     - content.action.edit
