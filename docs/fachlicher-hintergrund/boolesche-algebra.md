@@ -2,7 +2,7 @@
 
 Die formale Logik bildet eine der zentralen Fundamentalen Ideen der Informatik (nach Schwill sowie Hartmann et al. [^1]): Sie spannt das Fundament von der mathematischen Modellierung realer Systeme über Algorithmen bis hin zum Hardware- und Datenbankentwurf.  
 
-In LogicTraffic repräsentieren Formeln das Formalisieren. Während [Wahrheitstabellen](--8<-- "docs/code/includes/begriffe.md:wahrheitstabelle") der vollständigen Erfassung aller Zustände dienen (Strukturieren), ermöglichen Formeln eine kompakte, deklarative und rechenbare Steuerung der Lichtsignalanlage. [^1], [^2].  
+In LogicTraffic repräsentieren Formeln das Formalisieren. Während [Wahrheitstabellen](--8<-- "code/includes/begriffe.md:wahrheitstabelle") der vollständigen Erfassung aller Zustände dienen (Strukturieren), ermöglichen Formeln eine kompakte, deklarative und rechenbare Steuerung der Lichtsignalanlage. [^1], [^2].  
 
 ## Didaktischer Sinn: Vom Tabellenumweg zur Steuerungsregel
 
@@ -51,27 +51,27 @@ Mithilfe der Booleschen Algebra können Steuerungsformeln formal vereinfacht wer
 
 === "KDNF"
 
-    --8<-- "docs/code/includes/begriffe.md:kdnf"
+    --8<-- "code/includes/begriffe.md:kdnf"
 
 === "KKNF"
 
-    --8<-- "docs/code/includes/begriffe.md:kknf"
+    --8<-- "code/includes/begriffe.md:kknf"
 
 === "KNF"
 
-    --8<-- "docs/code/includes/begriffe.md:knf"
+    --8<-- "code/includes/begriffe.md:knf"
 
 === "DNF"
 
-    --8<-- "docs/code/includes/begriffe.md:dnf"
+    --8<-- "code/includes/begriffe.md:dnf"
 
 === "Implikationsform"
 
-    --8<-- "docs/code/includes/begriffe.md:implikationsformel"
+    --8<-- "code/includes/begriffe.md:implikationsformel"
 
 === "Einfachste Form"
 
-    --8<-- "docs/code/includes/begriffe.md:einfachste_form"
+    --8<-- "code/includes/begriffe.md:einfachste_form"
 
 Mehr dazu [hier](normalformen.md).
 
