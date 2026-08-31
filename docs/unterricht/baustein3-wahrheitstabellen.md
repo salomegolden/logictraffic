@@ -31,9 +31,10 @@ Im Themenbereich der Wahrheitstabellen steht der Übergang von der anschaulichen
 | **4. Kognitiver Konflikt** | • Skalierung: Situation 10 (5 Spuren)<br>• Exponentielles Wachstum: 32 Zeilen ($2^5$)<br>• Erkenntnis: Grenzen & Ineffizienz der Tabelle<br>• Leitfrage: Notwendigkeit kompakter Formeln | **Plenum**<br>• Beamerprojektion<br>• Unterrichtsgespräch | **ca. 8 Min.** |
 | **5. Sicherung & Ausblick** | • Festhalten der Kernpunkte ($2^n$-Systematik, $0/1$-Logik)<br>• Verbale Formulierung erster Vorfahrtsregeln<br>• Ausblick: Baustein 4 (Boolesche Formeln) | **Plenum / Einzelarbeit**<br>• Tafel<br>• Arbeitsblatt / Portfolio | **ca. 5 Min.** |
 
-## Durchführung 
+## Durchführung
 
 ### Phase 1 - Einstieg & Problemstellung
+
 Sozialform / Medien: Plenum / Lehrgespräch; Beamer/Whiteboard mit Demonstration von LogicTraffic (Situation 2).  
 
 ??? info "Didaktische Absicht"
@@ -52,7 +53,7 @@ Sozialform / Medien: Plenum / Lehrgespräch; Beamer/Whiteboard mit Demonstration
 
         „Wie viele verschiedene Schaltzustände gibt es bei zwei Ampeln überhaupt?“
 
-### Phase 2 - Erarbeitung 1 - Grundstruktur am 2-Spuren-Beispiel 
+### Phase 2 - Erarbeitung 1 - Grundstruktur am 2-Spuren-Beispiel
 
 Sozialform / Medien: Partnerarbeit (Pair Learning); Schülergeräte mit LogicTraffic, Arbeitsblatt mit 2-Spuren-Raster. 
 
@@ -61,7 +62,7 @@ Sozialform / Medien: Partnerarbeit (Pair Learning); Schülergeräte mit LogicTra
     Klärung der binären Semantik ($0 = \text{Rot}$, $1 = \text{Grün}$) und Erstellung der ersten vollständigen Wahrheitstabelle ($2^2 = 4$ Zustände).
     Pair Learning: Das gemeinsame Diskutieren am Bildschirm zwingt die Lernenden, ihre intuitive Wahrnehmung sprachlich in Wahrheitswerte zu übersetzen.
 
-??? quote "Ablauf und Arbeitsauftrag" 
+??? quote "Ablauf und Arbeitsauftrag"
 
     1. Die Lernenden öffnen zu zweit Situation 2 in LogicTraffic. 
     2. Das Tabellenraster wird formal definiert: Die Spalten $A$ und $B$ repräsentieren die Spuren/Ampeln (Aussagenvariablen); die Spalte sicher bildet das Gesamtergebnis ab. 
@@ -76,6 +77,7 @@ Sozialform / Medien: Partnerarbeit (Pair Learning); Schülergeräte mit LogicTra
     Manche SuS interpretieren den Zustand $00$ (beide Rot) fälschlicherweise als unsicher (sicher = 0), weil „der Verkehr blockiert wird“. Hier muss präzisiert werden: sicher = 1 bedeutet ausschliesslich Kollisionsfreiheit, nicht Verkehrsfluss-Effizienz.
 
 ### Phase 3 - Vertiefung und Systematik - Die 3-Spuren-Kreuzung
+
 Sozialform / Medien: Partnerarbeit mit Plenumsreflexion; LogicTraffic (Situation 3), Arbeitsblatt.  
 
 ??? info "Didaktische Absicht"
@@ -99,7 +101,8 @@ Sozialform / Medien: Partnerarbeit mit Plenumsreflexion; LogicTraffic (Situation
 
     --8<-- "code/includes/begriffe.md:polizisten_status"
 
-### Phase 4 - Kognitiver Konflikt - Grenzen der Wahrheitstabellen 
+### Phase 4 - Kognitiver Konflikt - Grenzen der Wahrheitstabellen
+
 Sozialform / Medien: Lehrgespräch / Plenum; Beamerprojektion von Situation 10 (5 Fahrspuren).
 
 ??? info "Didaktische Absicht"
@@ -119,7 +122,8 @@ Sozialform / Medien: Lehrgespräch / Plenum; Beamerprojektion von Situation 10 (
 
         „Können wir dem Steuerungscomputer der Ampel nicht eine kurze, schlaue logische Regel übergeben, anstatt ihm eine endlose Tabelle mit 32 oder 1024 Zeilen einzuspeisen?“
 
-### Phase 5 - Sicherung und Ausblick 
+### Phase 5 - Sicherung und Ausblick
+
 Sozialform / Medien: Plenum / Einzelarbeit; Tafelbild, Merkheft / Begleitportfolio.
 
 ??? info "Didaktische Absicht"

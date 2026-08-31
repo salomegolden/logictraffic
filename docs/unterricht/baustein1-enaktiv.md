@@ -293,7 +293,7 @@ Am Ende des Bausteins steht die Erkenntnis, dass eine Verkehrssituation mit mehr
 Die entstandene Tabelle bildet die Brücke zur formalen Darstellung:
 
 !!! tip "Überleitung"
-    
+
     > Wir haben die Ampelzustände bisher mit Rot und Grün beschrieben. In der Logik werden solche zwei möglichen Zustände häufig als falsch und wahr oder als 0 und 1 dargestellt.
 
 Für die Weiterarbeit eignet sich der [Baustein3 - Wahrheitstabellen](baustein3-wahrheitstabellen.md).

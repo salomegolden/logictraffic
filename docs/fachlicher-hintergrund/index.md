@@ -10,7 +10,7 @@ In LogicTraffic wird jede Fahrspur durch eine Variable beschrieben. Eine Ampel i
 | --- | --- | --- |
 | Aussage | Ein Sachverhalt, der eindeutig wahr oder falsch ist. | "Ampel A ist grün." |
 | Wahrheitswert | Wert einer Aussage: wahr/`1` oder falsch/`0` | `A = 1` bedeutet: Spur A ist befahrbar. |
-| Variable | Platzhalter für eine Aussage oder einen Zustand | `A`, `B`, `C` stehen für Fahrspuren bzw. Ampeln. |
+| Aussagevariable | Platzhalter für eine Aussage oder einen Zustand | `A`, `B`, `C` stehen für Fahrspuren bzw. Ampeln. |
 | Junktor | Logisches Verknüpfungszeichen, das Aussagen verbindet. | `A ∧ B`, `A ∨ B`, `¬A` |
 | Operator | Rechenzeichen der booleschen Logik; erzeugt aus Wahrheitswerten neue Wahrheitswerte.| UND, ODER, NICHT |
 | Boolesche Funktion | Ordnet jeder Kombination von Eingabewerten genau einen Ausgabewert zu. | Eine Sicherheitsregel für eine Kreuzung |

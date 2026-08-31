@@ -82,7 +82,21 @@
     * **In LogicTraffic:** $\neg A \lor \neg B$ bedeutet: Mindestens eine der beiden Spuren $A$ oder $B$ muss Rot haben (kein gleichzeitiges Grün).
 --8<-- [end:disjunktion]
 
+--8<-- [start:dnf]
+<a id="dnf"></a>
+??? note "Fachbegriff: Disjunktive Normalform (DNF / CDNF)"
+    * **Fachlich:** Eine standardisierte Formelstruktur, bestehend aus einer Disjunktion (ODER-Verknüpfung) von Konjunktionstermen (UND-Verknüpfungen von Literalen) der Form $\bigvee_{i=1}^k \bigwedge_{j=1}^{n_i} L_{ij}$. Jede aussagenlogische Formel lässt sich in eine äquivalente DNF überführen. 
+    * **In LogicTraffic:** Beschreibt die Steuerung über alle *erlaubten, kollisionsfreien Verkehrszustände* (alle Zeilen mit `sicher = 1`). Über das Dropdown-Menü kann die vollständige *KDNF* generiert oder eine per Quine-McCluskey-Algorithmus minimierte, kompakte *DNF* ausgewählt werden.
+--8<-- [end:dnf]
+
 ## E
+
+--8<-- [start:einfachste_form]
+<a id="einfachste-form"></a>
+??? note "Fachbegriff: Einfachste Form (Simplest Form)"
+    * **Fachlich:** Die minimierte, logisch äquivalente Repräsentation einer Schaltfunktion bezüglich einer definierten Kostenfunktion (minimale gewichtete Summe aus Anzahl der Literale und logischen Operatoren). Zur Berechnung werden automatisierte Minimierungsverfahren wie der Quine-McCluskey-Algorithmus eingesetzt.
+    * **In LogicTraffic:** Die im Dropdown-Menü auswählbare kürzestmögliche Formel zur Steuerung einer Kreuzung.
+--8<-- [end:einfachste_form]
 
 --8<-- [start:eis_prinzip]
 <span id="eis-prinzip"></span>
@@ -128,6 +142,13 @@
     * **In LogicTraffic:** $A \rightarrow \neg B$ formuliert eine Schaltungsregel: «Wenn Spur $A$ Grün hat, dann muss Spur $B$ zwingend Rot haben».
 --8<-- [end:implikation]
 
+--8<-- [start:implikationsformel]
+<a id="implikationsformel"></a>
+??? note "Fachbegriff: Implikationsformel (Implication Form)"
+    * **Fachlich:** Eine Formelgestalt, die logische Verknüpfungen gezielt unter Verwendung des Implikationsjunktors ($\rightarrow$) ausdrückt, basierend auf den algebraischen Ersetzungsregeln $\neg A \lor B \equiv A \rightarrow B$ bzw. $\neg(A \land B) \equiv A \rightarrow \neg B$.
+    * **In LogicTraffic:** Eine im Formel-Menü automatisch generierte, optimierte Formel, die Kollisionsverbote in handlungsorientierte Wenn-Dann-Schaltregeln übersetzt (z. B. $C \rightarrow \neg(A \lor B)$ bzw. $A \rightarrow \neg B$)[cite: 1, 2]. Sie bildet das intuitive menschliche Regelverständnis an einer Kreuzung («Wenn Spur $A$ Grün hat, dann muss Spur $B$ Rot sein») am unmittelbarsten ab.
+--8<-- [end:implikationsformel]
+
 --8<-- [start:informatische_modellierung]
 <span id="informatische-modellierung"></span>
 
@@ -136,12 +157,27 @@
     * **Im LogicTraffic-Unterricht:** Eine reale Verkehrskreuzung wird vereinfacht als System binärer Fahrspuren modelliert (Grün = $1$, Rot = $0$, keine Gelbphase), um logische Abhängigkeiten und Kollisionsregeln formalisierbar zu machen.
 --8<-- [end:informatische_modellierung]
 
+## J
+
+--8<-- [start:junktoren]
+<span id="junktoren"></span>
+
+??? info "Fachbegriff: Junktoren (Logische Operatoren)"
+    * **Fachlich:** Formale Verknüpfungszeichen der Aussagenlogik, mit denen atomare Aussagenvariablen oder Teilformeln induktiv zu zusammengesetzten Formeln verbunden werden. Unterschieden werden einstellige Junktoren ($\neg$) und zweistellige Junktoren ($\land, \lor, \rightarrow, \leftrightarrow$), welche den Wahrheitswertverlauf deterministisch definieren.
+    * **Didaktisch:** Werkzeuge des Darstellungswechsels zur formal-symbolischen Repräsentationsebene (nach Bruner). Sie unterstützen die Dekomposition komplexer Alltagssituationen in elementare Teilkonflikte und ermöglichen den Übergang von informellen Wenn-Dann-Vorstellungen zu prüfbaren formalen Regeln.
+    * **Im LogicTraffic-Unterricht:** Die im Formeleditor bereitgestellten Symbole ($\neg, \land, \lor, \rightarrow$), mit denen Steuerungs- und Verriegelungsregeln für Fahrspuren definiert werden:
+        * $\neg A$: Haltegebot bzw. Rotphase für Spur $A$.
+        * $A \land B$: Gleichzeitiges Grün zweier kreuzender Spuren (Kollisionszustand).
+        * $\neg A \lor \neg B$: Kollisionsvermeidung (mindestens eine Spur muss Rot zeigen).
+        * $A \rightarrow \neg B$: Konditionale Schaltungsregel («Wenn Spur $A$ Grün hat, dann muss Spur $B$ Rot sein»).
+--8<-- [end:junktoren]
+
 ## K
 
 --8<-- [start:kdnf]
 <span id="kdnf"></span>
 
-??? info "Kanonische Disjunktive Normalform (KDNF / CDNF)"
+??? info "Kanonische Disjunktive Normalform (KDNF)"
     * **Fachlich:** Eine ODER-Verknüpfung aller Minterme (Vollkonjunktionen aller beteiligten Variablen für jede Zeile der Wahrheitstabelle mit dem Ausgangswert $1$).
     * **In LogicTraffic:** Beschreibt die Steuerung als Summe aller erlaubten, kollisionsfreien Gesamtzustände der Kreuzung.
 --8<-- [end:kdnf]
@@ -149,10 +185,17 @@
 --8<-- [start:kknf]
 <span id="kknf"></span>
 
-??? info "Kanonische Konjunktive Normalform (KKNF / CCNF)"
+??? info "Kanonische Konjunktive Normalform (KKNF)"
     * **Fachlich:** Eine UND-Verknüpfung aller Maxterme (Volldisjunktionen zur gezielten Sperrung aller Zeilen der Wahrheitstabelle mit dem Ausgangswert $0$).
     * **In LogicTraffic:** Beschreibt die Steuerung durch das explizite Verbot aller kollisionsgefährdeten Ampelkombinationen.
 --8<-- [end:kknf]
+
+--8<-- [start:knf]
+<a id="knf"></a>
+??? note "Fachbegriff: Konjunktive Normalform (KNF)"
+    * **Fachlich:** Eine standardisierte Formelstruktur, bestehend aus einer Konjunktion (UND-Verknüpfung) von Disjunktionstermen bzw. Klauseln (ODER-Verknüpfungen von Literalen) der Form $\bigwedge_{i=1}^k \bigvee_{j=1}^{n_i} L_{ij}$. Jede aussagenlogische Formel lässt sich in eine äquivalente KNF überführen[cite: 1]. 
+    * **In LogicTraffic:** Beschreibt die Steuerung über das explizite *Verbot aller Unfall- und Kollisionskonstellationen* (alle Zeilen mit `sicher = 0`). LogicTraffic bietet im Formel-Menü sowohl die vollständige *CCNF* als auch die durch den Quine-McCluskey-Algorithmus optimierte *KNF / CNF* an.
+--8<-- [end:knf]
 
 --8<-- [start:konjunktion]
 <span id="konjunktion"></span>

@@ -130,7 +130,7 @@ Falls Baustein 1 nicht durchgeführt wurde, kann direkt eine einfache Kreuzung i
     Sammeln Sie die Vermutungen zunächst, ohne die Begriffe Wahrheitstabelle oder boolesche Formel vollständig zu erklären. Die Lernenden sollen die Darstellungen anschliessend im Tool selbst entdecken.
 
 !!! note "Alternative Kreuzungen"
-    
+
     Für einen Einstieg mit Verbindung zur realen Welt, können auch Bilder aus der [Präsentation Kreuzungen](https://github.com/salomegolden/logictraffic/releases/download/material-v1/b2_prasentation_kreuzungen.pdf) gezeigt werden. Dazu gehört dann die Frage, was es braucht, damit die entsprechende Kreuzung sicher funktioniert.
 
 ### Phase 2 – Oberfläche gemeinsam erkunden
