@@ -1,0 +1,35 @@
+.lt-tool-example {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(180px, 260px);
+  gap: 1rem;
+  align-items: start;
+}
+
+.lt-tool-example__text > :first-child {
+  margin-top: 0;
+}
+
+.lt-tool-example__image {
+  width: min(260px, 100%);
+  margin: 0;
+  justify-self: end;
+}
+
+.lt-tool-example__image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 44.9375em) {
+  .lt-tool-example {
+    grid-template-columns: 1fr;
+  }
+
+  .lt-tool-example__image {
+    width: min(240px, 100%);
+    justify-self: start;
+  }
+}

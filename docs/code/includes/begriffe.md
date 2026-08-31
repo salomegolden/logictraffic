@@ -84,7 +84,8 @@
 
 --8<-- [start:dnf]
 <a id="dnf"></a>
-??? note "Fachbegriff: Disjunktive Normalform (DNF / CDNF)"
+
+??? info "Disjunktive Normalform (DNF / CDNF)"
     * **Fachlich:** Eine standardisierte Formelstruktur, bestehend aus einer Disjunktion (ODER-Verknüpfung) von Konjunktionstermen (UND-Verknüpfungen von Literalen) der Form $\bigvee_{i=1}^k \bigwedge_{j=1}^{n_i} L_{ij}$. Jede aussagenlogische Formel lässt sich in eine äquivalente DNF überführen. 
     * **In LogicTraffic:** Beschreibt die Steuerung über alle *erlaubten, kollisionsfreien Verkehrszustände* (alle Zeilen mit `sicher = 1`). Über das Dropdown-Menü kann die vollständige *KDNF* generiert oder eine per Quine-McCluskey-Algorithmus minimierte, kompakte *DNF* ausgewählt werden.
 --8<-- [end:dnf]
@@ -93,7 +94,8 @@
 
 --8<-- [start:einfachste_form]
 <a id="einfachste-form"></a>
-??? note "Fachbegriff: Einfachste Form (Simplest Form)"
+
+??? info "Einfachste Form"
     * **Fachlich:** Die minimierte, logisch äquivalente Repräsentation einer Schaltfunktion bezüglich einer definierten Kostenfunktion (minimale gewichtete Summe aus Anzahl der Literale und logischen Operatoren). Zur Berechnung werden automatisierte Minimierungsverfahren wie der Quine-McCluskey-Algorithmus eingesetzt.
     * **In LogicTraffic:** Die im Dropdown-Menü auswählbare kürzestmögliche Formel zur Steuerung einer Kreuzung.
 --8<-- [end:einfachste_form]
@@ -144,7 +146,8 @@
 
 --8<-- [start:implikationsformel]
 <a id="implikationsformel"></a>
-??? note "Fachbegriff: Implikationsformel (Implication Form)"
+
+??? info "Implikationsform"
     * **Fachlich:** Eine Formelgestalt, die logische Verknüpfungen gezielt unter Verwendung des Implikationsjunktors ($\rightarrow$) ausdrückt, basierend auf den algebraischen Ersetzungsregeln $\neg A \lor B \equiv A \rightarrow B$ bzw. $\neg(A \land B) \equiv A \rightarrow \neg B$.
     * **In LogicTraffic:** Eine im Formel-Menü automatisch generierte, optimierte Formel, die Kollisionsverbote in handlungsorientierte Wenn-Dann-Schaltregeln übersetzt (z. B. $C \rightarrow \neg(A \lor B)$ bzw. $A \rightarrow \neg B$)[cite: 1, 2]. Sie bildet das intuitive menschliche Regelverständnis an einer Kreuzung («Wenn Spur $A$ Grün hat, dann muss Spur $B$ Rot sein») am unmittelbarsten ab.
 --8<-- [end:implikationsformel]
@@ -192,7 +195,8 @@
 
 --8<-- [start:knf]
 <a id="knf"></a>
-??? note "Fachbegriff: Konjunktive Normalform (KNF)"
+
+??? info "Konjunktive Normalform (KNF)"
     * **Fachlich:** Eine standardisierte Formelstruktur, bestehend aus einer Konjunktion (UND-Verknüpfung) von Disjunktionstermen bzw. Klauseln (ODER-Verknüpfungen von Literalen) der Form $\bigwedge_{i=1}^k \bigvee_{j=1}^{n_i} L_{ij}$. Jede aussagenlogische Formel lässt sich in eine äquivalente KNF überführen[cite: 1]. 
     * **In LogicTraffic:** Beschreibt die Steuerung über das explizite *Verbot aller Unfall- und Kollisionskonstellationen* (alle Zeilen mit `sicher = 0`). LogicTraffic bietet im Formel-Menü sowohl die vollständige *CCNF* als auch die durch den Quine-McCluskey-Algorithmus optimierte *KNF / CNF* an.
 --8<-- [end:knf]
@@ -281,3 +285,4 @@
     * **Fachlich:** Die beiden Werte der klassischen zweiwertigen Logik ($1 = \text{wahr}$, $0 = \text{falsch}$).
     * **In LogicTraffic:** Repräsentiert die Ampelphasen: $1 = \text{Grün (Fahrt frei)}$, $0 = \text{Rot (Halt)}$.
 --8<-- [end:wahrheitswert]
+

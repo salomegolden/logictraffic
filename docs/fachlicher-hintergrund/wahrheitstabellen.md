@@ -53,8 +53,14 @@ LogicTraffic verknüpft die visuelle Simulation und die symbolische Tabelle sync
 
 === "Beschreibung der Situation"
 
-    Zwei Spuren $A$ und $B$ kreuzen sich rechtwinklig. Haben beide gleichzeitig Grün, kommt es zum Unfall.  
-    ![Situation 2 - Screenshot aus LogicTraffic](https://github.com/salomegolden/logictraffic/releases/download/images-v1/situation2screenshot.png){ align=right }
+    <div class="lt-tool-example" markdown="1">
+    <div class="lt-tool-example__text" markdown="1">
+    Zwei Spuren $A$ und $B$ kreuzen sich rechtwinklig. Haben beide gleichzeitig Grün, kommt es zum Unfall.
+    </div>
+    <figure class="lt-tool-example__image" markdown="1">
+    ![Situation 2 - Screenshot aus LogicTraffic](https://github.com/salomegolden/logictraffic/releases/download/images-v1/situation2screenshot.png)
+    </figure>
+    </div>
 
 === "Wahrheitstabelle" 
 
@@ -76,8 +82,14 @@ Spur $A$ und Spur $B$ verlaufen parallel (vertragen sich), während Spur $C$ als
 
 === "Beschreibung der Situation"
 
+    <div class="lt-tool-example" markdown="1">
+    <div class="lt-tool-example__text" markdown="1">
     Spur $A$ und Spur $B$ verlaufen parallel (vertragen sich), während Spur $C$ als Abbieger beide Fahrwege schneidet.
-    ![Situation 3 - Screenshot aus LogicTraffic](https://github.com/salomegolden/logictraffic/releases/download/images-v1/situation3_3spuren.png){ align=right }
+    </div>
+    <figure class="lt-tool-example__image" markdown="1">
+    ![Situation 3 - Screenshot aus LogicTraffic](https://github.com/salomegolden/logictraffic/releases/download/images-v1/situation3_3spuren.png)
+    </figure>
+    </div>
 
 === "Wahrheitstabelle"
 

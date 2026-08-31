@@ -87,6 +87,9 @@ markdown_extensions:
       base_path: ["docs"] # Basispfad für Snippet-Dateien
       check_paths: true
 
+extra_css:
+  - stylesheets/extra.css
+
 extra_javascript:
   - code/javascripts/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
