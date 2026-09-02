@@ -9,7 +9,8 @@ Eine Wahrheitstabelle zeigt für alle möglichen Kombinationen von Eingangswerte
 !!! note "Downloads zum Baustein"
     noch to do 
 
-## Lernziele: 
+## Lernziele:
+
 Im Themenbereich der Wahrheitstabellen steht der Übergang von der anschaulichen Verkehrssimulation zur systematischen, tabellarischen Modellierung im Fokus. Die Lernziele gliedern sich in fachliche, methodische und metakognitive Aspekte:  
 
 - Systematische Zustandserfassung: Die Lernenden verstehen eine Wahrheitstabelle als Methode, um alle $2^n$ denkbaren Ampelkonfigurationen bei $n$ Fahrspuren (Variablen) vollständig und lückenlos abzubilden.
@@ -18,7 +19,8 @@ Im Themenbereich der Wahrheitstabellen steht der Übergang von der anschaulichen
 - Darstellungswechsel: Die Lernenden vollziehen den Transfer von der ikonisch-animierten Verkehrskreuzung zur symbolisch-tabellarischen Repräsentation.
 - Erkennen von Limitationen (Kognitiver Konflikt): Die Lernenden erkennen, dass Wahrheitstabellen bei steigender Spurenanzahl exponentiell wachsen ($2^n$) und als Steuerungswerkzeug unhandlich werden, was die Notwendigkeit kompakterer aussagenlogischer Formeln motiviert.
 
-## Vorbereitung 
+## Vorbereitung
+
 
 
 ## Unterrichtsablauf - Überblick
@@ -128,7 +130,7 @@ Sozialform / Medien: Plenum / Einzelarbeit; Tafelbild, Merkheft / Begleitportfol
 
 ??? info "Didaktische Absicht"
 
-    Synthese der formalen Grundlagen und sprachliche Vorbereitung der Junktoren (Baustein 4: Boolesche Algebra). 
+    Synthese der formalen Grundlagen und sprachliche Vorbereitung der Junktoren (Baustein 4: Boolesche Algebra). Die Wahrheitstabelle dient als vollständige Zustandserfassung, erzeugt jedoch bei mehr als drei Spuren einen kognitiven Konflikt (exponentielles Zeilenwachstum $2^n$), welcher unmittelbar den Bedarf für kompakte Steuerungsformeln begründet.
 
 ??? quote "Ablauf und Arbeitsauftrag"
 
