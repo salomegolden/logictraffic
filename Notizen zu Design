@@ -60,3 +60,107 @@ markdown_extensions:
 | `question` | Reflexion              | `material/help-circle-outline`            |
 | `note`     | Material und Downloads | `material/package-variant-closed`            |
 
+
+Aufbau der 4 Bausteine: 
+# Baustein X – Titel
+
+Kurze Einführung:
+- Was passiert in diesem Baustein?
+- Was ist die zentrale Idee?
+- Wie knüpft er an den vorherigen Baustein an bzw. wohin führt er?
+
+!!! abstract "Auf einen Blick"
+
+    **:stopwatch: Dauer:** ...
+    
+    **:busts_in_silhouette: Sozialform:** ...
+    
+    **:computer: Computer:** ...
+    
+    **:brain: Vorwissen:** ...
+    
+    **:package: Material:** ...
+
+!!! note "Downloads zu Baustein X"
+
+    - ...
+    - ...
+    - ...
+
+## Lernziele
+
+Die Lernenden können …
+
+- ...
+- ...
+- ...
+
+## Vorbereitung
+
+- ...
+- ...
+- ...
+
+## Unterrichtsablauf – Überblick
+
+| Phase | Inhalt | Sozialform / Medien | Richtwert |
+| --- | --- | --- | --- |
+| 1. ... | ... | ... | ... |
+| 2. ... | ... | ... | ... |
+| 3. ... | ... | ... | ... |
+
+## Durchführung
+
+### Phase 1 – ...
+
+**Ziel der Phase:** ...
+
+**Durchführung**
+
+...
+
+!!! tip "Hinweis für die Lehrperson"
+
+    ...
+
+### Phase 2 – ...
+
+...
+
+## Ergebnissicherung
+
+...
+
+## Differenzierung
+
+=== "Unterstützen"
+
+    ...
+
+=== "Erweitern"
+
+    ...
+
+## Didaktische Hinweise
+
+...
+
+## Übergang zum nächsten Baustein
+
+...
+
+
+| Bereich                  | Empfehlung                                                                                                                                              |
+| ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Seitentitel**          | Immer `# Baustein X – ...`. Baustein 3 heisst momentan nur „Wahrheitstabellen im Unterricht“, Baustein 4 „Formeln verstehen“. Ich würde sie angleichen. |
+| **Einleitung**           | Immer ca. 2 kurze Absätze. Keine detaillierte Theorie bereits ganz oben.                                                                                |
+| **Auf einen Blick**      | Auf allen Seiten exakt dieselben fünf Kategorien und dieselbe Reihenfolge.                                                                              |
+| **Downloads**            | Immer direkt nach „Auf einen Blick“.                                                                                                                    |
+| **Lernziele**            | Immer als beobachtbare Fähigkeiten formulieren: „Die Lernenden können …“.                                                                               |
+| **Vorbereitung**         | Nur Dinge, die die Lehrperson **vor dem Unterricht** tatsächlich vorbereiten muss.                                                                      |
+| **Ablauftabelle**        | Einheitliche vier Spalten: Phase – Inhalt – Sozialform/Medien – Richtwert.                                                                              |
+| **Durchführung**         | Die Überschriften sollen exakt mit den Phasen der Übersichtstabelle übereinstimmen.                                                                     |
+| **Ergebnissicherung**    | Eigener Abschnitt statt sie unterschiedlich innerhalb einzelner Phasen zu verstecken.                                                                   |
+| **Differenzierung**      | Auf jeder Seite derselbe Ort und dieselbe Darstellung.                                                                                                  |
+| **Didaktische Hinweise** | Hintergrund und Begründungen hierhin – nicht mit der eigentlichen Unterrichtsanleitung vermischen.                                                      |
+| **Übergang**             | Jeder Baustein endet mit einem kurzen expliziten Übergang zum nächsten.                                                                                 |
