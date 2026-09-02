@@ -1,580 +1,818 @@
-# Formeln verstehen
+# Baustein 4 – Logische Formeln
 
-Diese Seite führt in logische Verknüpfungen und den Formeleditor ein. Ziel ist, dass Lernende Formeln nicht nur eingeben, sondern mit Wahrheitstabellen und Verkehrssituationen verbinden. Am Ende der Tabellen-Lektion wurde gezeigt, dass eine Kreuzung mit 5 Spuren bereits $2^5 = 32$ Zeilen benötigt und 10 Spuren sogar $2^{10} = 1024$ Zeilen erfordern würden.
+In diesem Baustein lernen die Lernenden, Sicherheitsregeln einer Verkehrskreuzung mit aussagenlogischen Formeln zu beschreiben.
 
-Die fundamentale Leitidee: „Ein Steuerungscomputer speichert keine endlose Tabelle, sondern prüft Regeln!“ Eine Ampelsteuerung benötigt eine handlungsorientierte Bedingung, die in Echtzeit entscheidet, ob ein Signalzustand erlaubt ist.
+Ausgangspunkt ist die Erkenntnis aus Baustein 3: Wahrheitstabellen können alle möglichen Zustände vollständig darstellen, werden mit zunehmender Anzahl von Variablen jedoch schnell sehr umfangreich. Die Lernenden untersuchen deshalb, wie dieselbe Sicherheitsregel mit wenigen logischen Operatoren kompakter dargestellt werden kann.
 
-!!! info "Von der Alltagssprache zur Formelsprache"
-
-    Von der Alltagssprache zur Formelsprache (Scaffolding):Umgangssprache: „Wenn Spur A grün ist, muss Spur B rot sein.“Logische Bausteine zuordnen: „Spur A grün“ ($A$), „Spur B rot / Halt“ ($\neg B$), „Wenn … dann …“ ($\rightarrow$).Formel: $A \rightarrow \neg B$.
+Dabei wechseln sie zwischen Alltagssprache, Verkehrssituation, Wahrheitstabelle und Formel. In einer optionalen Vertiefung vergleichen sie unterschiedliche, aber logisch äquivalente Formeln und lernen DNF und KNF als strukturierte Darstellungsformen kennen.
 
 !!! abstract "Auf einen Blick"
 
     **:stopwatch: Dauer:**  
-    45 Minuten (Basis: Junktoren $\neg, \land, \lor, \rightarrow$, Syntax & Modellierung von Situation 2 und 3) 
-    90 Minuten (inkl. Vertiefung zu semantischen Äquivalenzen, Optimierung und kanonischen Normalformen)
+    ca. 60 Minuten für den Basisteil  
+    zusätzlich ca. 30–45 Minuten für die Vertiefung zu Äquivalenzen, DNF und KNF
 
     **:busts_in_silhouette: Sozialform:**  
-    Kooperatives Arbeiten im Schüler-Tandem; Plenumsphasen für Konfrontation und Ergebnissicherung
+    Plenum, Partnerarbeit und kurze Einzelphasen
 
     **:computer: Computer:**  
-    Ein Rechner, Laptop oder Tablet mit Zugriff auf *LogicTraffic* pro Zweiergruppe (Nutzung des integrierten Formeleditors mit Bildschirmtastatur)
+    Ein Computer oder Tablet mit LogicTraffic pro Zweiergruppe
 
     **:brain: Vorwissen:**  
-    * [Baustein 3 (Wahrheitstabellen)](baustein3-wahrheitstabellen.md) wurde abgeschlossen 
-    * Variablen als Fahrspuren ($A, B, C$) sowie Wahrheitswerte ($1 = \text{Grün}$, $0 = \text{Rot/Halt}$) sind bekannt
-    * Die Ergebnisspalte `sicher` ($1 = \text{kollisionsfrei}$, $0 = \text{Kollision}$) ist vertraut
-    * Der kognitive Konflikt bezüglich der Skalierungsgrenzen von Wahrheitstabellen bei wachsender Spurenanzahl ($2^n$ Zeilen, z. B. 32 Zeilen bei Situation 10) ist präsent
+    - [Baustein 3 – Wahrheitstabellen](baustein3-wahrheitstabellen.md) wurde idealerweise abgeschlossen.
+    - Die Lernenden kennen Variablen als Bezeichnungen für Fahrspuren.
+    - `0 = Rot` und `1 = Grün` sind bekannt.
+    - Die Bedeutung der Spalte `sicher` ist bekannt.
+    - Die Lernenden können einfache Wahrheitstabellen lesen und erstellen.
+    - Die Regel $2^n$ und das Skalierungsproblem von Wahrheitstabellen sind bekannt.
 
     **:package: Material:**  
-    * Webanwendung *LogicTraffic*  
-    * Lehrpersonen-PC mit Beamer oder Präsentationsbildschirm zur Demonstration.  
-    * Arbeitsblatt xx
-    * Arbeitsblatt xy
-    * Übersichtsblatt yy 
-    * Notizpapier / Begleitportfolio zur formalen Ergebnissicherung.
+    LogicTraffic, Computer oder Tablets, Beamer oder Präsentationsbildschirm, Arbeitsblatt bzw. Heft oder Begleitportfolio
 
 !!! note "Downloads zu Baustein 4"
 
-    [link]
+    - [:memo: Arbeitsblatt zu logischen Formeln](LINK_ERGÄNZEN)
+    - [:material-image-outline: Übersicht zu den logischen Operatoren](LINK_ERGÄNZEN)
+    - [:material-image-outline: Merkblatt zu DNF und KNF](LINK_ERGÄNZEN)
 
 ## Lernziele
 
-Die Lernenden
+### Basisteil
 
-* …übersetzen umgangssprachliche Verkehrs- und Sicherheitsregeln schrittweise in aussagenlogische Ausdrücke.
-* nutzen den Zeichenvorrat von LogicTraffic ($A, B, C, \dots$, $\neg, \land, \lor, \rightarrow$, Klammern) syntaktisch korrekt.
-* verstehen die logische Bedeutung der Operatoren anhand des Verkehrsgeschehens (z. B. $A \land B =$ Kollision, $\neg A =$ Halt).
-* interpretieren das Feedbacksystem (Not safe, Safe, Optimal) und iterieren ihre Formeln bis zur semantischen Äquivalenz.
+Die Lernenden können …
+
+- einfache Verkehrs- und Sicherheitsregeln in aussagenlogische Formeln übersetzen;
+- die Operatoren `¬`, `∧`, `∨` und `→` in ihrem Verkehrskontext erklären;
+- logische Formeln in LogicTraffic syntaktisch korrekt eingeben;
+- eine Formel anhand der zugehörigen Wahrheitstabelle überprüfen;
+- erklären, dass unterschiedliche Formeln dieselbe Sicherheitsregel beschreiben können;
+- zwischen einer konkreten Verkehrssituation, einer sprachlichen Regel, einer Wahrheitstabelle und einer Formel wechseln;
+- den Vorteil kompakter Formeln gegenüber umfangreichen Wahrheitstabellen beschreiben.
+
+### Optionale Vertiefung
+
+Die Lernenden können zusätzlich …
+
+- logisch äquivalente Formeln anhand ihrer Wahrheitstabellen erkennen;
+- einfache Anwendungen der De-Morgan-Regeln nachvollziehen;
+- den Aufbau einer disjunktiven Normalform (DNF) und einer konjunktiven Normalform (KNF) beschreiben;
+- DNF und KNF in einfachen Beispielen erkennen;
+- erklären, wie eine kanonische DNF bzw. KNF direkt aus einer Wahrheitstabelle erzeugt werden kann;
+- kanonische und vereinfachte Formeln hinsichtlich Länge und Verständlichkeit vergleichen.
 
 ## Vorbereitung
 
-## Unterrichtsablauf - Überblick
+- LogicTraffic auf den Geräten öffnen und die Funktionsfähigkeit des Formeleditors prüfen.
+- Für die Einführung eine einfache Situation mit zwei Fahrspuren vorbereiten, beispielsweise Situation 2.
+- Für die selbstständige Erarbeitung Situation 3 bereitstellen.
+- Falls die Vertiefung durchgeführt wird, die Auswahlmöglichkeiten für Normalformen im Formeleditor vorab prüfen.
+- Die 5-Spuren-Kreuzung aus Baustein 3 für den abschliessenden Transfer bereithalten.
+- Arbeitsblatt bzw. Begleitportfolio bereitstellen.
 
-### 1. Basisversion (45 Minuten): Formeln & Steuerung
+??? tip "Abgrenzung zu Baustein 3"
 
-| Phase | Inhalt & Aktivität | Sozialform / Medien | Richtwert |
-| :--- | :--- | :--- | :--- |
-| **1. Einstieg & Konflikt** | • Grenzen der Tabelle an *Situation 8* aufzeigen (32 Zeilen).<br>• Leitfrage: Wie steuern wir die Kreuzung mit einer einzigen Regel? | **Plenum**<br>Beamer (*Situation 10*) | **ca. 10'** |
-| **2. Erarbeitung** | • Junktoren ($\neg, \land, \lor, \rightarrow$) an *Situation 2* ableiten ($A \rightarrow \neg B$).<br>• Eingabe im Formeleditor und Parsebaum demonstrieren[cite: 2, 4]. | **Plenum**<br>Tafel, *LogicTraffic* | **ca. 10'** |
-| **3. Übung** | • Tandems steuern *Situation 3* [3 Spuren](cite: 1, 4).<br>• Formeloptimierung über den Polizisten-Status (`Not safe`, `Safe`, `Optimal`). | **Pair Learning**<br>Schüler-PCs [*LogicTraffic*](cite: 1, 12) | **ca. 30'** |
-| **4. Sicherung** | • Lösungsvergleich ($A \rightarrow \neg C$ vs. $\neg(A \land C)$)[cite: 2].<br>• Vorrangregeln ($\neg$ vor $\land$ vor $\lor$ vor $\rightarrow$) festhalten[cite: 2]. | **Plenum**<br>Merkheft / Portfolio | **ca. 10'** |
+    In Baustein 3 stand die Frage im Zentrum:
 
----
+    > Wie können wir **alle möglichen Zustände vollständig** darstellen?
 
-### 2. Erweiterte Version (90 Minuten): Inkl. Äquivalenzen & Normalformen
+    Baustein 4 verfolgt nun eine andere Frage:
 
-| Phase | Inhalt & Aktivität | Sozialform / Medien | Richtwert |
-| :--- | :--- | :--- | :--- |
-| **1. Einstieg & Konflikt** | • Skalierungsgrenzen von Tabellen an *Situation 8* rekapitulieren.<br>• Impuls: Steuerungsrechner prüfen kompakte Regeln in Echtzeit. | **Plenum**<br>Beamer (*Situation 10*) | **ca. 10'** |
-| **2. Erarbeitung I** | • Junktoren ($\neg, \land, \lor, \rightarrow$) an *Situation 2* einführen.<br>• Formeleditor und Parsebaum erproben. | **Plenum**<br>Tafel, *LogicTraffic* | **ca. 15'** |
-| **3. Übung I** | • Steuerungsformeln für *Situation 3* im Tandem entwickeln.<br>• Iterative Fehlerbehebung mit Polizisten-Feedback (`Optimal`). | **Pair Learning**<br>Schüler-PCs (*LogicTraffic*) | **ca. 30'** |
-| **4. Erarbeitung II** | • Semantische Äquivalenzen vergleichen (z. B. De Morgan).<br>• Automatische Generierung von KDNF und KKNF demonstrieren. | **Plenum**<br>Beamer, *LogicTraffic* | **ca. 15'** |
-| **5. Übung II** | • Transfer: Steuerung von *Situation 10* (5 Spuren) via Formeln oder *Simplest Form*. | **Pair Learning**<br>Schüler-PCs [*LogicTraffic*](cite: 1, 12) | **ca. 30'** |
-| **6. Sicherung** | • Gegenüberstellung: Tabelle vs. Formel vs. Normalformen.<br>• Dokumentation der Rechenregeln im Portfolio. | **Plenum**<br>Merkheft / Portfolio | **ca. 15'** |
+    > Wie können wir **dieselbe Sicherheitsregel möglichst kompakt und eindeutig** beschreiben?
+
+    Die Wahrheitstabelle verschwindet dabei nicht. Sie dient weiterhin zur Überprüfung, ob zwei Darstellungen tatsächlich dieselbe logische Funktion beschreiben.
+
+## Fachlicher Hintergrund
+
+### Logische Operatoren
+
+In LogicTraffic werden Aussagen über Fahrspuren mit logischen Operatoren miteinander verbunden.
+
+| Alltagssprache | Symbol | Fachbegriff | Beispiel |
+| --- | :---: | --- | --- |
+| NICHT | `¬` | Negation | `¬A` |
+| UND | `∧` | Konjunktion | `A ∧ B` |
+| ODER | `∨` | Disjunktion | `A ∨ B` |
+| WENN … DANN | `→` | Implikation | `A → ¬B` |
+
+Im Verkehrskontext können diese Ausdrücke beispielsweise so gelesen werden:
+
+- `¬A`: Spur `A` hat nicht Grün, also Rot.
+- `A ∧ B`: Spur `A` und Spur `B` haben gleichzeitig Grün.
+- `¬A ∨ ¬B`: Mindestens eine der beiden Spuren hat Rot.
+- `A → ¬B`: Wenn Spur `A` Grün hat, muss Spur `B` Rot haben.
+
+!!! info "Von der Alltagssprache zur Formel"
+
+    Eine Sicherheitsregel kann schrittweise formalisiert werden.
+
+    **Alltagssprache:**
+
+    > Wenn Spur A grün ist, muss Spur B rot sein.
+
+    **Logische Bausteine:**
+
+    - Spur A ist grün: `A`
+    - Spur B ist rot: `¬B`
+    - Wenn … dann …: `→`
+
+    **Formel:**
+
+    `A → ¬B`
+
+!!! warning "Die Implikation ist anspruchsvoller"
+
+    Der Ausdruck `A → ¬B` wird im Alltag leicht anders verstanden als in der formalen Logik.
+
+    Für die erste Einführung kann deshalb zunächst mit einem direkten Kollisionsverbot gearbeitet werden:
+
+    `¬(A ∧ B)`
+
+    Bedeutung:
+
+    > A und B dürfen nicht gleichzeitig Grün haben.
+
+    Die Implikation kann anschliessend als alternative Form derselben Sicherheitsidee eingeführt werden.
+
+## Unterrichtsablauf – Überblick
+
+| Phase | Inhalt | Sozialform / Medien | Richtwert |
+| --- | --- | --- | --- |
+| **1. Problemstellung** | Skalierungsproblem aus Baustein 3 aufgreifen und nach einer kurzen Sicherheitsregel suchen | Plenum, LogicTraffic / Beamer | ca. 5–10 Min. |
+| **2. Erarbeitung** | Logische Operatoren aus Verkehrsregeln entwickeln und erste Formeln bilden | Plenum, LogicTraffic | ca. 15 Min. |
+| **3. Modellierung** | Sicherheitsregeln für Situation 3 selbstständig formulieren und prüfen | Partnerarbeit, LogicTraffic | ca. 20 Min. |
+| **4. Formeln vergleichen** | Verschiedene korrekte Formeln vergleichen und Äquivalenz vorbereiten | Plenum / Partnerarbeit | ca. 10 Min. |
+| **5. Sicherung** | Operatoren, Darstellungswechsel und zentrale Erkenntnisse festhalten | Plenum / Einzelarbeit | ca. 10 Min. |
 
 ## Durchführung
 
-### Phase 1 - Konfrontationsaufgabe - Die Grenzen der Tabelle
+### Phase 1 – Von der Tabelle zur Regel
 
-??? question "Aufgabe 1: Der Speicherüberlauf an Grosskreuzungen (Situation 8)"
+**Ziel der Phase:**  
+Die Lernenden reaktivieren das Skalierungsproblem von Wahrheitstabellen und entwickeln das Bedürfnis nach einer kompakteren Darstellung.
 
-    Phase: Einstieg & Konfrontation | Modus: Plenum & Tandem | Zeit: ca. 7 Min. | Situation: Situation 8
+Die Lehrperson greift die Ergebnisse aus Baustein 3 auf.
 
-Didaktische Absicht: Reaktivierung des kognitiven Konflikts aus Baustein 3: Wahrheitstabellen skalieren exponentiell ($2^n$) und sind für reale Steuerungsrechner ungeeignet. Es entsteht das Bedürfnis nach einer kompakten Bedingungsprüfung in Echtzeit.
+Bei fünf Variablen entstehen bereits:
 
-Ablauf: Die Lehrperson projiziert die 5-Spuren-Kreuzung (Situation 10) an die Wand und lässt die Schüler/innen kurz per Handnotiz versuchen, das Verkehrsgeschehen in einem Satz zusammenzufassen.
+$$
+2^5 = 32
+$$
 
-**Kontext:**  
-An der Kreuzung mit 3 Spuren (*Situation 3*) reichte uns eine Tabelle mit $2^3 = 8$ Zeilen. Nun stehen wir vor einer klassischen 4-Wege-Kreuzung (*Situation 8* mit den Spuren $A, B, C, D$). Eine lückenlose Wahrheitstabelle würde hier bereits $2^4 = 16$ Zeilen umfassen. Der Steuerungscomputer der Ampelanlage soll jedoch nicht jedes Mal 16 Zeilen durchforsten müssen, sondern anhand einer handlungsorientierten Regel schalten.
+mögliche Belegungen.
 
-!!! quote "Arbeitsauftrag"
+Bei zehn Variablen wären es:
 
-    1. Öffnet in *LogicTraffic* die **Situation 8**.
-    2. Beobachtet kurz die vier Fahrspuren $A, B, C$ und $D$.
-    3. Notiert zu zweit auf einem Schmierzettel **genau einen verständlichen deutschen Satz**, der unmissverständlich festlegt, wer wann fahren darf (oder wer warten muss), damit es *niemals* kracht.
-    4. *Reflexionsfrage:* Warum ist dieser deutsche Satz für einen Programmierer oder Computer immer noch zu ungenau?
+$$
+2^{10} = 1024
+$$
+
+Belegungen.
+
+!!! question "Einstiegsfrage"
+
+    Wahrheitstabellen können vollständig beschreiben, welche Ampelstellungen sicher sind.
+
+    **Müssen wir dafür aber wirklich jede mögliche Kombination einzeln aufschreiben?**
+
+    Oder können wir die Sicherheitsregel mit wenigen Zeichen ausdrücken?
+
+Die Lehrperson zeigt anschliessend eine einfache Kreuzung mit zwei Fahrspuren.
+
+Die Lernenden formulieren zunächst in Alltagssprache, was gelten muss.
+
+Mögliche Aussagen:
+
+> A und B dürfen nicht gleichzeitig Grün haben.
+
+> Wenn A Grün hat, muss B Rot haben.
+
+> Mindestens eine der beiden Ampeln muss Rot zeigen.
+
+Die verschiedenen Formulierungen werden zunächst gesammelt, ohne sie sofort formal zu bewerten.
+
+??? note "Didaktische Absicht"
+
+    Die Formel entsteht aus einer bereits verstandenen Verkehrsregel.
+
+    Dadurch wird die symbolische Darstellung nicht als isolierter Zeichenvorrat eingeführt, sondern als weitere Repräsentation einer bekannten Situation.
+
+### Phase 2 – Logische Bausteine kennenlernen
+
+**Ziel der Phase:**  
+Die Lernenden ordnen sprachlichen Verknüpfungen logische Operatoren zu und bilden erste einfache Formeln.
+
+Die Lehrperson führt die Operatoren schrittweise ein.
+
+!!! quote "Lernauftrag 1 – Von der Sprache zur Formel"
+
+    Ergänzt die fehlenden Formeln.
+
+    | Verkehrssituation / Regel | Logischer Ausdruck |
+    | --- | --- |
+    | Spur `B` muss anhalten. | `¬B` |
+    | Spur `A` und Spur `B` haben gleichzeitig Grün. | |
+    | Mindestens eine der beiden Spuren muss Rot haben. | |
+    | Wenn `A` Grün hat, muss `B` Rot haben. | |
+
+??? success "Mögliche Lösung"
+
+    | Verkehrssituation / Regel | Logischer Ausdruck |
+    | --- | --- |
+    | Spur `B` muss anhalten. | `¬B` |
+    | Spur `A` und Spur `B` haben gleichzeitig Grün. | `A ∧ B` |
+    | Mindestens eine der beiden Spuren muss Rot haben. | `¬A ∨ ¬B` |
+    | Wenn `A` Grün hat, muss `B` Rot haben. | `A → ¬B` |
+
+Nun wird eine der Formeln in LogicTraffic eingegeben.
+
+Besonders anschaulich ist zunächst:
+
+`¬(A ∧ B)`
+
+Die Formel bedeutet:
+
+> Es darf nicht gleichzeitig gelten, dass `A` und `B` Grün haben.
+
+Die Lernenden laden die Formel in die Wahrheitstabelle und beobachten, welche Belegungen als sicher markiert werden.
+
+!!! quote "Beobachtungsauftrag"
+
+    Vergleicht die Formel mit der Wahrheitstabelle.
+
+    - Welche Tabellenzeile wird durch die Formel ausgeschlossen?
+    - Welche Kombinationen bleiben erlaubt?
+    - Passt das zur Verkehrssituation?
+
+!!! tip "Nicht das Softwarefeedback erklären lassen"
+
+    LogicTraffic kann zur Überprüfung verwendet werden.
+
+    Die fachliche Begründung sollte jedoch zuerst von den Lernenden kommen.
+
+    Nicht:
+
+    > Die Formel stimmt, weil LogicTraffic `Optimal` anzeigt.
+
+    Sondern:
+
+    > Die Formel stimmt, weil genau die Kombination ausgeschlossen wird, bei der sich die beiden grünen Fahrspuren kreuzen.
+
+??? warning "Klammern"
+
+    Klammern helfen dabei, zusammengesetzte Formeln eindeutig zu lesen.
+
+    Für den Einstieg ist es sinnvoll, lieber eine Klammer zu viel als eine zu wenig zu setzen.
+
+    Beispiel:
+
+    `¬(A ∧ B)`
+
+    oder bei mehreren Regeln:
+
+    `(A → ¬C) ∧ (B → ¬C)`
+
+### Phase 3 – Sicherheitsregeln selbst formulieren
+
+**Ziel der Phase:**  
+Die Lernenden entwickeln für eine komplexere Verkehrssituation selbstständig aussagenlogische Formeln.
+
+Die Lernenden öffnen Situation 3.
+
+Die Fahrspuren `A` und `B` verlaufen parallel, während `C` beide kreuzt.
+
+!!! quote "Lernauftrag 2 – Situation 3 steuern"
+
+    Untersucht die Kreuzung genau.
+
+    1. Welche Fahrspuren können miteinander kollidieren?
+    2. Formuliert zunächst in Alltagssprache mindestens zwei Sicherheitsregeln.
+    3. Übersetzt eure Regeln anschliessend in logische Formeln.
+    4. Gebt die Formel in LogicTraffic ein.
+    5. Vergleicht die erzeugte Spalte `sicher` mit eurer Erwartung.
+    6. Verbessert eure Formel, falls nötig.
 
 ??? tip "Denkhilfe"
 
-    Orientiert euch an den Fahrtrichtungen: Welche Richtungen schneiden sich im Zentrum und dürfen niemals gleichzeitig Grün erhalten?
+    Statt sofort eine grosse Formel zu suchen, können zunächst einzelne Konflikte beschrieben werden.
 
-??? success "Didaktischer Erwartungshorizont"
+    Beispielsweise:
 
-    * **Schülersatz (Beispiel):** *„Die Spuren der Querstrasse dürfen niemals gleichzeitig grün sein mit den Spuren der Hauptstrasse.“* oder *„Wenn A oder B fahren, müssen C und D zwingend rot haben.“*
-    * **Kern-Erkenntnis:** Alltagssprache verwendet Sammelbegriffe („Querstrasse“, „Hauptstrasse“) oder lange Nebensätze. Der Mikrocontroller einer Ampel kennt jedoch nur Einzelsignale ($0$ und $1$) und benötigt exakte, berechenbare Bedingungen.
+    > A und C dürfen nicht gleichzeitig Grün haben.
 
-??? tip "Sprachhilfe: Satzbausteine für deine Ampelregel"
-    **1. Wortspeicher (Wichtige Begriffe):**
+    Daraus wird:
 
-    * *Spuren:* Spur $A$, Spur $B$ (Verkehrsachse 1) | Spur $C$, Spur $D$ (Querachse 2)[cite: 1, 11]
-    * *Signale:* hat Grün / freie Fahrt ($1$) | hat Rot / muss anhalten ($0$)
-    * *Gefahr:* gleichzeitig, kreuzen sich, schneiden sich, Unfall / Kollision
+    `¬(A ∧ C)`
 
-    **2. Satzbau-Schablonen (Wähle eine Variante):**
+    Für den zweiten Konflikt:
 
-    * **Variante A (Wenn-Dann-Form):**  
-      *„Wenn Spur _____ (oder Spur _____) Grün hat, dann müssen Spur _____ und Spur _____ zwingend Rot haben.“*
-    * **Variante B (Kollisionsverbot):**  
-      *„Spur _____ und Spur _____ dürfen niemals gleichzeitig mit Spur _____ oder _____ fahren.“*
-    * **Variante C (Achsen-Regel):**  
-      *„Solange auf der Hauptstrasse ($A$ und $B$) gefahren wird, muss die Querstrasse ($C$ und $D$) komplett stehen.“*
+    `¬(B ∧ C)`
 
-??? example "Mögliche Ergebnisse und Lösungen"
+    Beide Regeln müssen gleichzeitig gelten. Deshalb können sie mit `∧` verbunden werden.
 
-    Je nach Sprachniveau und Abstraktionsgrad der Schülerpaare treten typischerweise drei Formulierungsebenen auf:
-    
-    * Alltagssprachliche Schülerformulierung (Einstiegsniveau): *„Die Autos von oben und unten dürfen niemals gleichzeitig mit den Autos von links und rechts fahren, sonst kracht es in der Mitte.“ Didaktischer Kommentar: Intuitiv richtig, fasst Spuren jedoch noch zu Richtungen zusammen.
-    * Strukturierte Steuerungsregel (Zielformulierung für den Transfer): *„Wenn Spur $A$ oder Spur $B$ Grün hat, müssen die Spuren $C$ und $D$ Rot haben – und umgekehrt.“* (Didaktischer Kommentar: Eignet sich didaktisch ideal, da die Wenn-Dann-Struktur unmittelbar die Implikation vorstrukturiert).
-    * Kollisionsorientierte Negationsregel (Vorbereitung De Morgan): *„Es darf niemals passieren, dass $A$ oder $B$ gleichzeitig mit $C$ oder $D$ Grün haben.“* 
-    (Didaktischer Kommentar: Bereitet das Verbot von Konjunktionen $\neg(\dots \land \dots)$ vor).D
-    
-    Didaktische Brücke zur Formalisierung: Anhand der Zielformulierung lässt sich der Schritt zur Formel im Unterrichtsgespräch nahtlos anschliessen:
-    $$\underbrace{\text{Wenn } A \text{ oder } B \text{ Grün hat}}_{(A \lor B)}, \quad \underbrace{\text{dann müssen}}_{ \rightarrow } \quad \underbrace{C \text{ und } D \text{ Rot sein}}_{(\neg C \land \neg D)}$$
-    
-    Dies verdeutlicht der Klasse, dass die logische Formel $(A \lor B) \rightarrow (\neg C \land \neg D)$ keine willkürliche Mathematik ist, sondern eine exakte 1:1-Übersetzung ihrer eigenen deutschen Verkehrsregel.
+??? success "Mögliche korrekte Formeln"
 
-### Phase 2 - Erarbeitungsaufgabe - Das Übersetzungsbüro (Situation 2 / Syntax, Junktoren & Editor)
+    Für Situation 3 sind beispielsweise folgende Darstellungen möglich:
 
-Ein Ampelcomputer versteht keine langen deutschen Sätze, sondern verarbeitet mathematisch exakte Rechenzeichen. An einer einfachen Kreuzung mit zwei schneidenden Spuren ($A$ und $B$) übersetzt ihr typische Verkehrssituationen Schritt für Schritt in die Maschinensprache von *LogicTraffic*.
+    **Kollisionsverbote:**
 
-Didaktische Absicht:
+    `¬(A ∧ C) ∧ ¬(B ∧ C)`
 
-* Erarbeitung der formalen Junktoren ($\neg, \land, \lor, \rightarrow$) direkt aus dem realen Verkehrsgeschehen.
-* Einführung der materialen Implikation ($A \rightarrow \neg B$) als intuitive Schaltungsregel („Wenn A fährt, muss B halten“).
-* Kennenlernen des Formeleditors und der Bildschirmtastatur in LogicTraffic ohne Syntaxfrust.
-* Unmittelbare Verifikation von Formeleingaben über die automatisierte Synchronisation mit der Wahrheitstabelle und das Polizisten-Feedback.
+    **Mit Implikationen:**
 
-!!! quote "Arbeitsauftrag 1"
-    1. Übertragt die Bedeutungen in eure Notizen und ergänzt die fehlenden Formeln mithilfe des **Wort- und Symbolspeichers**:
+    `(A → ¬C) ∧ (B → ¬C)`
 
-        | Nr. | Verkehrssituation / Regel | Logische Bedeutung | LogicTraffic-Ausdruck |
-        | :-: | :--- | :--- | :--- |
-        | **1** | Spur $B$ muss anhalten. | Spur $B$ hat kein Grün (also Rot). | `¬B` |
-        | **2** | Spur $A$ und Spur $B$ fahren gleichzeitig los. | Spur $A$ hat Grün **und** Spur $B$ hat Grün (Crash!). | `...` |
-        | **3** | Kollisionsvermeidung: Mindestens eine Spur steht. | Spur $A$ hat Rot **oder** Spur $B$ hat Rot (oder beide). | `...` |
-        | **4** | Schaltungsregel: *„Wenn A grün ist, muss B rot sein.“* | **Wenn** Spur $A$ gilt, **dann** folgt daraus $\neg B$. | `...` |
+    **Zusammengefasste Implikation:**
 
-    2. Öffnet in *LogicTraffic* die **Situation 2**.
-    3. Klickt im Formeleditor auf die Tasten der Bildschirmtastatur, um die Schaltformel `A → ¬B` einzugeben[cite: 2, 6].
-    4. Klickt auf **In Wahrheitstabelle laden** (bzw. **prüfen**):
-        
-        * Welches Feedback-Icon zeigt der Polizist neben dem Formelfeld an?
-        * Was hat sich in der Spalte `sicher` der Wahrheitstabelle verändert?
+    `C → (¬A ∧ ¬B)`
 
-??? tip "Wort- und Symbolspeicher für den Formeleditor"
+    **Klauselform:**
 
-    * `¬` (**Negation / NICHT**): Kehrt den Wert um (`¬A` = Rot für Spur $A$).
-    * `∧` (**Konjunktion / UND**): Beide Spuren fahren gleichzeitig (`A ∧ B`).
-    * `∨` (**Disjunktion / ODER**): Mindestens eine Bedingung ist erfüllt (`¬A ∨ ¬B`).
-    * `→` (**Implikation / WENN-DANN**): Schaltungsbedingung (`A → ¬B`).
-    * `Del`: Letztes eingegebenes Zeichen löschen.
+    `(¬A ∨ ¬C) ∧ (¬B ∨ ¬C)`
 
-??? success "Musterlösung & Fachbegriffe"
+    Die Formeln sehen unterschiedlich aus, erzeugen aber dieselbe Sicherheitsregel.
 
-    * **Ergänzte Tabelle:**
-        * Zeile 2: `A ∧ B` *(Konjunktion / Beschreibung des Crash-Zustands)*
-        * Zeile 3: `¬A ∨ ¬B` *(Disjunktion / De Morgan'sche Kollisionsvermeidung)*
-        * Zeile 4: `A → ¬B` *(Materiale Implikation / direkte Schaltungsregel)*
-    * **Polizisten-Status:** Der Polizist salutiert (**Optimal**).
-    * **Auswirkung in der Tabelle:** In der Spalte `sicher` werden alle unfallfreien Belegungen ($00, 01, 10$) mit einer $1$ belegt, während der Kollisionszustand ($11$) zuverlässig auf $0$ gesperrt wird.
+!!! warning "Safe ist nicht automatisch eine optimale Steuerung"
 
-??? warning "Entlastung von Syntaxhürden"
+    Eine Formel kann alle Kollisionen verhindern und trotzdem unnötig viele sichere Zustände verbieten.
 
-    Anfängliche Frustration bei Programmier- und Logikwerkzeugen entsteht meist durch Syntaxfehler oder das mühsame Suchen von Sonderzeichen ($\neg, \land, \lor, \rightarrow$) auf der Computertastatur. Die ausschliessliche Nutzung der On-Screen-Tastatur im LogicTraffic-Editor nimmt diese Hürde vollständig weg, sodass die Aufmerksamkeit ganz auf der logischen Bedeutung verbleibt. 
+    Beispielsweise wäre eine Steuerung, bei der alle Ampeln immer Rot bleiben, zwar sicher, aber wenig sinnvoll.
 
-??? warning "Implikation im Verkehrsmodell"
+    Das Feedback von LogicTraffic kann deshalb zur Reflexion genutzt werden:
 
-    Das klassische logische Missverständnis bei der materialen Implikation („Warum ist $0 \rightarrow \dots$ wahr?“) klärt sich über den situativen Kontext zwanglos auf: Wenn Spur $A$ an der roten Ampel wartet ($A = 0$), geht von ihr physikalisch keine Gefahr aus. Die Regel $A \rightarrow \neg B$ wird dadurch nicht verletzt, und Spur $B$ darf vollkommen gefahrlos schalten.
+    - Verhindert unsere Formel alle Kollisionen?
+    - Erlaubt sie gleichzeitig die sicheren Kombinationen?
 
-??? info "Synchroner Darstellungswechsel:"
+    Der Status selbst ersetzt jedoch nicht die fachliche Begründung.
 
-    Der Klick auf In Wahrheitstabelle laden verdeutlicht den Zusammenhang zwischen der kompakten Formelzeile und der vollständigen 4-Zeilen-Matrix. Die Lernenden sehen unmittelbar, wie eine einzige Rechenregel denselben Zweck erfüllt wie das manuelle Pflegen mehrerer Tabellenzeilen.
+### Phase 4 – Unterschiedliche Formeln vergleichen
 
-### Phase 3 - Übungsaufgabe - Die Kreuzungs-Steuerung (Situation 3 / 3 Spuren & Feedback)
+**Ziel der Phase:**  
+Die Lernenden erkennen, dass unterschiedlich aussehende Formeln dieselbe logische Funktion beschreiben können.
 
-Phase: Übung & Anwendung | Modus: Pair Learning oder Einzelarbeit am PC | Zeit: ca. 30 Min. | Situation: Situation 3
+Die Lehrperson sammelt verschiedene Lösungen der Gruppen.
 
-Didaktische Absicht:
+Besonders geeignet sind:
 
-* Selbstständiges Modellieren einer mehrspurigen Kreuzung mit mehreren Konfliktpunkten mittels aussagenlogischer Formeln.  
-* Zusammensetzen mehrerer Teilbedingungen über Konjunktionen (∧) und Klammern.  
-* Nutzung des formativen Polizisten-Feedbacks (Not safe, Safe, Optimal) zur eigenständigen Fehlerdiagnose und schrittweisen Lösungsoptimierung (Trial and Error mit unmittelbarer Verstärkung).  
+`¬(A ∧ C)`
 
-**Kontext:**  
-Ihr übernehmt als Verkehrsingenieure die Steuerung von **Situation 3** (3 Spuren: $A, B, C$).  
-*Spur $A$ und Spur $B$ verlaufen nebeneinander und können gefahrlos gleichzeitig fahren. Spur $C$ biegt links ab und kreuzt dabei beide Spuren ($A$ und $B$)*.
-
-!!! quote "Arbeitsauftrag 1"
-    1. Öffnet in *LogicTraffic* die **Situation 3**
-    2. Analysiert die Kreuzung gemeinsam im Tandem:
-        *Welche Spuren dürfen gleichzeitig fahren?
-        * Zwischen welchen Spuren droht ein Unfall, wenn beide Grün haben?
-    3. Formuliert im Formeleditor eine logische Formel, welche die Kreuzung unfallfrei und flüssig steuert, und klickt auf **In Wahrheitstabelle laden** (oder **prüfen**)
-    4. Lest die Rückmeldung des Polizisten ab und verbessert eure Formel schrittweise:
-        ***nicht sicher:** Klickt auf *simulieren* – bei welchen Autos kracht es? Ergänzt die fehlende Sicherheitsbedingung!
-        * **nicht optimal:** Eure Kreuzung ist zwar unfallsicher, aber ihr sperrt Spuren unnötig auf Rot. Prüft, ob ihr Spuren verriegelt habt, die sich gar nicht behindern
-        * **optimal:** Voller Verkehrsfluss bei 100 % garantierter Kollisionsfreiheit!
-    5. Tragt eure finale, optimale Formel in euer Begleitportfolio ein.
+und
 
-??? tip "Denkhilfe: Konfliktstellen einzeln sichern"
+`¬A ∨ ¬C`
 
-    Spur $C$ hat **zwei** unabhängige Konfliktgegner: Spur $A$ und Spur $B$ 
-    * Formuliert zuerst die Regel für Spur $A$ und $C$  
-    * Formuliert danach die Regel für Spur $B$ und $C$ 
-    * Verknüpft beide Bedingungen mit einem logischen UND (`∧`) und setzt zur Übersicht Klammern: `(...) ∧ (...)`.
+Die Lernenden geben beide Formeln nacheinander in LogicTraffic ein und laden sie in die Wahrheitstabelle.
 
-??? success "Musterlösungen & didaktischer Erwartungshorizont"
+!!! quote "Lernauftrag 3 – Zwei Formeln, eine Bedeutung?"
 
-    In *LogicTraffic* führen mehrere unterschiedliche Modellierungsansätze zum Status **Optimal**:
-    * **Schaltregeln mit Implikation:**  
-      `(A → ¬C) ∧ (B → ¬C)`  
-      *Oder kompakter zusammengefasst:*  
-      `C → (¬A ∧ ¬B)` bzw. `C → ¬(A ∨ B)`[cite: 1, 2]
-    * **Kollisionsverbote (UND-Ansatz):**  
-      `¬(A ∧ C) ∧ ¬(B ∧ C)`[cite: 1, 3]
-    * **ODER-Bedingungen (Klauselform / De Morgan):**  
-      `(¬A ∨ ¬C) ∧ (¬B ∨ ¬C)`[cite: 1, 2, 3]
-    * **Tabellenergebnis:** Exakt die 5 sicheren Zustände ($000, 001, 010, 100, 110$) erhalten eine $1$, während die 3 Kollisionen ($011, 101, 111$) zuverlässig gesperrt werden ($0$)
+    Vergleicht:
 
-??? warning "Klammerregeln"
+    `¬(A ∧ C)`
 
-    Sobald mehrere logische Bedingungen mit ∧ zusammengefügt werden, wird die korrekte Klammerung bedeutsam[cite: 1, 2]. Ohne Klammern bindet das logische UND stärker als die Implikation ($\land \succ \rightarrow$). Die Schreibweise A → ¬C ∧ B → ¬C führt daher zu syntaktischen Fehlinterpretationen. Die Lehrperson erinnert die Gruppen bei Bedarf an die Faustregel: „Jede Einzelregel kommt in ihre eigene Klammer.“
+    und
 
-??? info "Pair Learning und Kooperativer Diskurs"
+    `¬A ∨ ¬C`
 
-    Obwohl die Erarbeitung im Schüler-Tandem (Pair Learning) empfohlen wird, ist eine Bearbeitung in Einzelarbeit problemlos möglich. Den Lernenden kann hierbei bewusst die Wahlfreiheit überlassen werden. Dies entspricht dem Prinzip des personalisierten Lernens und kommt Schülerinnen und Schülern entgegen, die Aufgaben lieber im eigenen Tempo ohne sozialen Abstimmungsdruck bearbeiten möchten. Fachdidaktische Befunde zur gendersensiblen Informatikdidaktik zeigen, dass insbesondere Mädchen von sozialen, kooperativen Lernformen wie Pair Learning oder Teamarbeit profitieren. Kollaborative Settings schaffen ein unterstützendes, sicheres Lernumfeld mit reduzierten Wettbewerbsaspekten, stärken das Zugehörigkeitsgefühl und bauen Hemmschwellen sowie stereotype Barrieren im Umgang mit formal-abstrakten Themen ab.
+    1. Erzeugen beide Formeln dieselben Werte in der Wahrheitstabelle?
+    2. Beschreibt beide Formeln in Alltagssprache.
+    3. Warum passen beide Beschreibungen zur gleichen Verkehrssituation?
 
-### Phase 4 - Abschluss in der Basislektion
+Mögliche sprachliche Übersetzungen:
 
-**Kontext:**  
-Beim Steuern von *Situation 3* (Spur $A$ und $B$ parallel, Spur $C$ kreuzt beide) haben verschiedene Teams ganz unterschiedliche Formeln eingereicht. Im ersten Schritt vergleichen wir eure Ergebnisse. Im zweiten Schritt haltet ihr die universellen Regeln der Logik auf eurem Merkblatt fest.
+> `¬(A ∧ C)`: A und C dürfen nicht beide gleichzeitig Grün haben.
 
-!!! quote "Arbeitsauftrag 1"
-    **Teil A: Der Lösungsvergleich im Plenum (5 Min.)**
-    Betrachtet die gesammelten Formeln an der Tafel:
+> `¬A ∨ ¬C`: Mindestens eine der beiden Spuren muss Rot haben.
 
-    * **Team Rot:** `(A → ¬C) ∧ (B → ¬C)` *(„Wenn A fährt, muss C halten UND wenn B fährt, muss C halten“)*
-    * **Team Blau:** `C → (¬A ∧ ¬B)` *(„Wenn C fährt, müssen A und B gleichzeitig halten“)*
-    * **Team Gelb:** `¬(A ∧ C) ∧ ¬(B ∧ C)` *(„Kein Crash zwischen A und C UND kein Crash zwischen B und C“)*
-    * **Team Schwarz:** `¬A ∧ ¬B ∧ ¬C` *(„Alle Spuren haben dauerhaft Rot“)*
+Wenn beide Formeln für jede mögliche Belegung denselben Wahrheitswert ergeben, sind sie **logisch äquivalent**.
 
-    1. Diskutiert: Warum stuft *LogicTraffic* die Teams **Rot, Blau und Gelb** alle als 🫡 **Optimal** ein, obwohl die Formeln völlig unterschiedlich aussehen?
-    2. Welchen Status erhält **Team Schwarz** und warum ist diese Lösung für eine echte Kreuzung unbrauchbar?
+Man schreibt:
 
----
+$$
+\neg(A \land C) \equiv \neg A \lor \neg C
+$$
 
-!!! quote "Arbeitsauftrag 2"
+??? info "De Morgan"
 
-    Füllt auf eurem Merkblatt (Begleitportfolio) die folgenden drei Abschnitte aus:
+    Das beobachtete Muster ist ein Beispiel für ein De-Morgan-Gesetz:
 
-    1. **Das Logik-Lexikon:** Ordnet den vier Verkehrsbedeutungen das korrekte Rechenzeichen zu (`¬`, `∧`, `∨`, `→`).
-    2. **Die Rangfolge der Operatoren:** Welche Operation bindet am stärksten, wenn keine Klammern gesetzt sind?
-    3. **Beispiel für Formelgleichheit (Äquivalenz):** Notiert zwei verschiedene Formeln aus dem Unterricht, die genau dieselbe Ampelschaltung bewirken.
+    $$
+    \neg(A \land B) \equiv \neg A \lor \neg B
+    $$
 
-??? tip "Hinweis zu Teil A (Warum verschiedene Formeln klappen)"
+    Das zweite De-Morgan-Gesetz lautet:
 
-    Denkt an die Wahrheitstabelle aus Baustein 3: Entscheidend für den Computer ist nur, was am Ende in der Spalte `sicher` steht. Wenn zwei Formeln bei allen 8 Zeilen exakt dieselben Einsen und Nullen erzeugen, sind sie für die Ampelsteuerung **vollkommen gleichwertig** (logisch äquivalent).
+    $$
+    \neg(A \lor B) \equiv \neg A \land \neg B
+    $$
 
-??? success "Musterlösung & Tafelbild (Inhalt des Merkblatts)"
+    Im Basisteil muss nicht zwingend mit beiden Regeln formal gearbeitet werden.
 
-    Merkblatt: Aussagenlogische Formeln & Regeln
+### Phase 5 – Ergebnisse sichern
 
-    1. Die Grundoperatoren (Junktoren):
-    ┌──────────────┬─────────┬──────────────────────┬───────────────────────────────────────────┐
-    │ Operator     │ Symbol  │ Logischer Name       │ Verkehrsbedeutung                         │
-    ├──────────────┼─────────┼──────────────────────┼───────────────────────────────────────────┤
-    │ NICHT        │    ¬    │ Negation             │ Halt / Rotlicht auf dieser Spur           │
-    │ UND          │    ∧    │ Konjunktion          │ Gleichzeitiges Grün (Kollisionszustand)   │
-    │ ODER         │    ∨    │ Disjunktion          │ Mindestens eine Bedingung ist erfüllt     │
-    │ WENN..., DANN│    →    │ Materiale Implikation│ Schaltungsregel (Wenn Spur A, dann ...)   │
-    └──────────────┴─────────┴──────────────────────┴───────────────────────────────────────────┘
+**Ziel der Phase:**  
+Die Lernenden sichern die zentralen logischen Operatoren und den Zusammenhang zwischen den verschiedenen Darstellungen.
 
-    2. Rangfolge der Operatoren (Priorität ohne Klammern):
-       1. ¬ (bindet am stärksten)
-       2. ∧
-       3. ∨
-       4. → (bindet am schwächsten)
-       Faustregel: Setze bei zusammengesetzten Regeln immer Klammern: (...) ∧ (...)!
+??? example "Mögliche Ergebnissicherung"
 
-    3. Semantische Äquivalenz (Formelgleichheit):
-       Zwei Formeln sind logisch äquivalent (≡), wenn sie bei jeder Belegung 
-       denselben Wahrheitswertverlauf (dieselben Zeilen in der Tabelle) erzeugen.
-       
-       Beispiel Situation 3:
-       (A → ¬C) ∧ (B → ¬C)   ≡   C → (¬A ∧ ¬B)   ≡   ¬(A ∧ C) ∧ ¬(B ∧ C)
-       (Alle drei Schaltungen sind sicher UND lassen den Verkehr optimal fliessen = 🫡 Optimal)
+    **Logische Operatoren**
 
-    4. "Safe" ist nicht gleich "Optimal":
-       • Safe: Verhindert Unfälle (kann aber auch bedeuten: alle Ampeln bleiben ewig Rot).
-       • Optimal: Maximale Sicherheit bei maximalem Verkehrsfluss (kein unnötiges Warten).
+    | Symbol | Bedeutung | Beispiel |
+    | :---: | --- | --- |
+    | `¬` | NICHT | `¬A` |
+    | `∧` | UND | `A ∧ B` |
+    | `∨` | ODER | `A ∨ B` |
+    | `→` | WENN … DANN | `A → ¬B` |
 
-## Erweiterungsaufgaben für die vertiefte Versions
+    **Eine Sicherheitsregel kann unterschiedlich dargestellt werden:**
 
-### Phase 5 - Erarbeitung 2 - Äquivalenzen & Kanonische Normalformen
+    **Verkehrssituation**
 
-**Sozialform / Medien:** Gelenktes Unterrichtsgespräch mit Demonstration an der Beamer-Projektion, anschliessend entdeckende Partnerarbeit im Tandem (*Pair Learning*); Schüler-PCs mit *LogicTraffic* (*Situation 3*), Begleitportfolio / Notizen.
+    → A und C dürfen nicht gleichzeitig Grün haben.
 
-**Didaktische Absicht:**  
+    **Alltagssprache**
 
-* Verständnis der **semantischen Äquivalenz** über De Morgans Gesetze ($\neg(A \land C) \equiv \neg A \lor \neg C$).
-* Didaktischer Brückenschlag zwischen Baustein 3 (Wahrheitstabelle) und Baustein 4 (Formeln): Erkennen, wie ein Algorithmus aus Tabellenzeilen vollautomatisch formale Ausdrücke ableitet.
-* Dekonstruktion der **Kanonisch Disjunktiven Normalform (CDNF)** als Summe aller erlaubten Zustände (Minterme) und der **Kanonisch Konjunktiven Normalform (CCNF)** als Produkt aller verbotenen Kollisionen (Maxterme).
-* Erkennen des Skalierungsproblems von Normalformen als Motivation für logische Minimierungsverfahren (*Simplest Form*).
+    → Mindestens eine der beiden Spuren muss Rot haben.
 
-??? note "Ablauf und Unterrichtsgeschehen"
+    **Formel**
 
-    1. **Problemimpuls & De Morgan (ca. 10'):**
-        Die Lehrperson projiziert zwei optimale Lösungen aus Phase 3 an die Wand: `¬(A ∧ C)` und `¬A ∨ ¬C`. *Leitfrage:* „Warum führen diese beiden völlig unterschiedlich aussehenden Formeln im Strassenverkehr zum exakt identischen Ampelverhalten?“ Die Klasse stellt fest: *„Es darf nicht sein, dass beide fahren“* ist logisch identisch mit *„Mindestens einer muss anhalten“*.
-    2. **Werkzeugdemonstration: Die Formelmaschine in *LogicTraffic* (ca. 5'):**  
-        Die Lehrperson lenkt den Blick auf das Dropdown-Menü oberhalb des Formelfeldes (standardmässig auf `scrollen` eingestellt). Sie wählt `CDNF` und danach `CCNF` aus: Riesige Formelketten erscheinen automatisch im Textfeld.  
-        *Impuls:* „Woher kennt der Computer diese Formeln, ohne dass wir eine einzige Taste getippt haben?“
-    3. **Entdeckende Tandemarbeit (ca. 10'):**  
-        Die Schülerpaare bearbeiten **Aufgabe 4** an ihren Geräten. Sie zählen die Klammern in der CDNF und CCNF und vergleichen die Anzahl gezielt mit den Zeilen mit `sicher = 1` bzw. `sicher = 0` in ihrer Wahrheitstabelle.
-    4. **Kurze Zwischensynthese im Plenum (ca. 2'):**  
-        Zusammenfassung an der Tafel:  
+    → `¬(A ∧ C)`
 
-        * Jede Zeile mit `sicher = 1` erzeugt einen **Minterm** (UND-Klammer mit allen Variablen). Alle sicheren Zustände werden mit ODER (`∨`) verknüpft $\rightarrow$ **CDNF**  
-        * Jede Zeile mit `sicher = 0` erzeugt einen **Maxterm** (ODER-Klammer, die den Crash verbietet). Alle Verbote werden mit UND (`∧`) verknüpft $\rightarrow$ **CCNF**
+    oder
 
-!!! quote "Einstieg" 
+    → `¬A ∨ ¬C`
 
-    **Kontext:**  
-    Ihr habt gesehen, dass es mehrere Wege gibt, eine Kreuzung fehlerfrei zu steuern[cite: 3, 4]. Doch was macht ein Computer, wenn kein Mensch da ist, um eine schlaue Regel zu erfinden? Er nutzt ein rein mechanisches Verfahren, um direkt aus der Wahrheitstabelle eine Formel zu bauen: sogenannte **kanonische Normalformen**.
+    **Wahrheitstabelle**
 
-!!! quote "Teil A: De Morgan & Formelgleichheit"
-    1. Gebt in *LogicTraffic* bei **Situation 3** nacheinander folgende zwei Formeln ein und klickt jeweils auf **In Wahrheitstabelle laden**:
+    → Beide Formeln erzeugen dieselben Wahrheitswerte.
 
-       * Formel 1: `¬(A ∧ C)`
-       * Formel 2: `¬A ∨ ¬C`
+!!! success "Ich kann …"
 
-    2. Prüft die Spalte `sicher`: Unterscheiden sich die beiden Tabellen in einer einzigen Zeile?
-    3. Formuliert den Bedeutungsunterschied im Alltag: *Warum bedeutet „Es dürfen nicht beide fahren“ dasselbe wie „Mindestens einer muss stehen“*?
+    - die Operatoren `¬`, `∧`, `∨` und `→` erklären;
+    - eine einfache Verkehrsregel in eine Formel übersetzen;
+    - eine Formel wieder in Alltagssprache übersetzen;
+    - mit der Wahrheitstabelle überprüfen, was eine Formel bewirkt;
+    - erklären, warum zwei unterschiedlich aussehende Formeln logisch gleichwertig sein können.
 
-!!! quote "Teil B: Das Geheimnis des Dropdown-Menüs (KDNF & KKNF)
+# Optionale Vertiefung – DNF und KNF
 
-    1. Stellt sicher, dass bei Situation 3 die Spalte `sicher` korrekt ausgefüllt ist (5 sichere Zeilen mit `1`, 3 Kollisionszeilen mit `0`).
-    2. Öffnet das Dropdown-Menü oberhalb des Formelfeldes und wählt **KDNF** aus:
+Die folgende Vertiefung kann direkt an den Basisteil angeschlossen oder in einer zusätzlichen Lektion durchgeführt werden.
 
-       * Wie viele grosse Klammerblöcke (durch `∨` getrennt) wurden erzeugt?
-       * Vergleicht diese Zahl mit den Zeilen mit `sicher = 1` in der Wahrheitstabelle. Was fällt euch auf?
-       * Schaut euch einen Block genau an (z. B. `A ∧ B ∧ ¬C`). Welcher Tabellenzeile entspricht dieser Zustand?
+## Vertiefungsziele
 
-    3. Wählt nun im Menü **KKNF** aus:
+Die Lernenden …
 
-       * Wie viele Klammern (durch `∧` verbunden) seht ihr jetzt?
-       * Welcher Zeilenart in der Tabelle (`sicher = 1` oder `sicher = 0`) entspricht diese Anzahl?
+- untersuchen verschiedene strukturierte Darstellungen derselben logischen Funktion;
+- erkennen den Aufbau von DNF und KNF;
+- vergleichen lange und kurze äquivalente Formeln;
+- nutzen die Wahrheitstabelle weiterhin als Referenz für semantische Äquivalenz.
 
-    4. Klickt auf **Simplest**: Was macht *LogicTraffic* mit dem Bandwurm-Ausdruck?
+### Vertiefung 1 – DNF und KNF entdecken
 
-??? tip "Hinweis zum Lesen der Normalformen"
+Eine Formel in **disjunktiver Normalform (DNF)** besteht aus UND-Termen, die mit ODER verbunden werden.
 
-    * **KDNF (Disjunktive Normalform):** Listet alle *erlaubten Kombinationen* auf.  
-          *Übersetzung:* „Die Ampel schaltet grün, WENN Zustand 1 vorliegt ODER Zustand 2 ODER Zustand 3 ...“
-    * **KKNF (Konjunktive Normalform):** Listet alle *verbotenen Unfälle* auf.  
-          *Übersetzung:* „Die Ampel schaltet grün, WENN Crash 1 nicht auftritt UND Crash 2 nicht auftritt ...“
+Beispiel:
 
-??? success "Musterlösungen und Fachbegriffe"
+`(A ∧ ¬B) ∨ (¬A ∧ C)`
 
-    * **Teil A (De Morgan):** Beide Formeln erzeugen eine identische Belegung in der Spalte `sicher` (Status 🫡 `Optimal`)[cite: 4]. Die Gesetze von De Morgan besagen: $\neg(X \land Y) \equiv \neg X \lor \neg Y$[cite: 4].
-    * **Teil B (Normalformen bei Situation 3):**
-        * **KDNF:** Besteht aus genau **5 Konjunktionen (Mintermen)**, verbunden durch `∨`. Jede Klammer beschreibt exakt eine der 5 grünen Zeilen (`sicher = 1`), z. B. `(¬A ∧ ¬B ∧ ¬C) ∨ ... ∨ (A ∧ B ∧ ¬C)`.
-        * **KKNF:** Besteht aus genau **3 Disjunktionen (Maxtermen)**, verbunden durch `∧`. Jede Klammer sperrt exakt eine der 3 roten Zeilen (`sicher = 0`), an denen $A$ und $C$ kollidieren.
-        * **Simplest:** LogicTraffic wendet Minimierungsalgorithmen an (z. B. Quine-McCluskey / Karnaugh-Veitch) und kürzt den langen Normalform-Ausdruck automatisch auf die kompakte Form `¬A ∨ ¬C` bzw. `A → ¬C` zusammen.
+Struktur:
 
-??? info "Didaktischer Kommentar"
+> UND-Term **ODER** UND-Term **ODER** …
 
-    Diese Phase bildet den methodischen Kern des gymnasialen Informatikunterrichts: Sie verknüpft die tabellarische Zustandserfassung (ikonisch-strukturell) direkt mit der algebraischen Logik (symbolisch-formal). Die Schülerinnen und Schüler begreifen, dass eine aussagenlogische Formel nicht erraten werden muss, sondern dass eine mathematisch deterministische Beziehung zwischen Tabelle und Normalform existiert.
+Eine Formel in **konjunktiver Normalform (KNF)** besteht aus ODER-Klauseln, die mit UND verbunden werden.
 
-    **KDNF vs. KKNF aus verkehrstechnischer Sicht:**  
-    
-    * Die **KDNF** entspricht dem *Zulassungsprinzip* (Positivliste): Man zählt alle erlaubten Fahrzustände auf. Bei wenigen Spuren ist dies anschaulich, skaliert bei grossen Netzen mit vielen sicheren Zuständen jedoch extrem schlecht.
-    * Die **KKNF** entspricht dem *Sicherheitsprinzip* (Verbotsliste): Man identifiziert lediglich die Schnittpunkte der Fahrspuren und formuliert für jeden potenziellen Unfall ein Ausschlusskriterium. Dies entspricht der intuitiven Denkweise von Verkehrsingenieuren und führt in der Praxis meist zu deutlich kompakteren Regelwerken.
-    
-??? info "Vorbereitung auf den Transfer (Phase 5 & 6):"
+Beispiel:
 
-    Das Verständnis der softwaregestützten Minimierung (`Simplest Form`) entlastet die Lernenden für die nachfolgende Transferphase an der komplexen 5-Spuren-Kreuzung (*Situation 10*): Sie haben verstanden, dass der Computer selbst riesige Tabellen über Normalformen formalisieren und anschliessend auf winzige Schaltterme reduzieren kann.
+`(¬A ∨ ¬C) ∧ (¬B ∨ ¬C)`
 
-### Phase 5 - Übungs- und Sicherungsaufgabe 
+Struktur:
 
-**Sozialform / Medien:** Vertiefendes Arbeiten im Schüler-Tandem (*Pair Learning* am Rechner, offene Wahl für Einzelarbeit); Schüler-PCs mit *LogicTraffic* (*Situation 10*), Begleitportfolio / Arbeitsblatt.
+> ODER-Klausel **UND** ODER-Klausel **UND** …
 
-**Didaktische Absicht:**
+!!! quote "Lernauftrag 4 – Welche Struktur erkennt ihr?"
 
-* **Komplexer Transfer:** Anwendung der Modellierungskompetenz und des Normalform-Verständnisses auf eine Grosskreuzung mit 5 Spuren ($A, B, C, D, E$) und einem Zustandsraum von $2^5 = 32$ Zeilen.
-* **Repräsentationsvergleich:** Direkter Vergleich zwischen algorithmisch erzeugten Normalformen (CDNF, CCNF), automatischer Minimierung (*Simplest Form*) und menschlich konstruierter Implikationslogik.
-* **Effizienzerlebnis:** Erkennen des enormen praktischen Nutzens von Minimierungsverfahren in der Informatik (von einer 32-Zeilen-Matrix über meterlange Normalform-Bandwürmer hin zu 3–4 kompakten Schalttermen).
+    Betrachtet:
 
----
+    `¬(A ∧ C) ∧ ¬(B ∧ C)`
 
-#### Ablauf & Unterrichtsgeschehen
+    und
 
-1. **Auftragserteilung & Zielklarheit (ca. 10'):** Die Lehrperson verweist auf den Einstieg der Doppelstunde: *„Zu Beginn schien Situation 10 mit 32 Zeilen unbezwingbar. Jetzt besitzt ihr das mathematische und werkzeugbasierte Rüstzeug, um diese Grosskreuzung vollständig zu steuern.“* Der Arbeitsauftrag für Übung II wird freigegeben.
-2. **Exploration & Analyse im Tandem (ca. 30'):** Die Schülerpaare bearbeiten **Aufgabe 5**. Sie erforschen zunächst das Verhalten von *LogicTraffic* bei der automatischen Generierung von KDNF und KKNF an 16 resp. 32 Zeilen. Anschliessend nutzen sie die Funktion *Simplest* und versuchen im Team, eine eigene kompakte Implikationsformel (`→`) zu konstruieren, die vom Polizisten mit 🫡 `Optimal` bewertet wird.
-3. **Didaktische Zwischenbegleitung:** Die Lehrperson unterstützt leistungsschwächere Gruppen bei der Identifikation der Konfliktachsen in *Situation 10* (Spur $E$ kollidiert mit $A, B, C$; Spur $A$ kollidiert mit $C, D$). Schnellere Tandems werden herausgefordert, ihre eigene Implikationsformel zeichenweise mit der *Simplest Form* der Software zu messen.
-4. **Ergebnissicherung im Tandem (ca. 15'):**  
-    Die Schülerpaare tragen ihre finalen Formelausdrücke und die Erkenntnisse zum Unterschied zwischen CDNF, CCNF und minimierter Form in ihr Portfolio ein.
+    `(¬A ∨ ¬C) ∧ (¬B ∨ ¬C)`
 
----
+    1. Prüft mit LogicTraffic, ob beide Formeln dieselbe Wahrheitstabelle erzeugen.
+    2. Welche der beiden Formeln besitzt bereits die typische Struktur einer KNF?
+    3. Wie ist diese Formel aufgebaut?
+    4. Welche Darstellung findet ihr leichter zu lesen? Begründet.
 
-!!! quote "Einstieg"
+Die Lernenden erkennen:
 
-    Nun kehren wir zu den grossen Kreuzungen zurück: **Situation 10** besitzt 5 Fahrspuren ($A, B, C, D, E$) und eine Wahrheitstabelle mit $2^5 = 32$ Zeilen. Die manuelle Eingabe jeder Zeile wäre fehleranfällig und zeitraubend. Ihr nutzt nun die kanonischen Normalformen und logische Minimierungsverfahren, um die Signalanlage fehlerfrei und optimal zu programmieren.
+`(¬A ∨ ¬C) ∧ (¬B ∨ ¬C)`
 
-!!! quote "Aufgabe 1"
+ist eine KNF.
 
-    1. Öffnet in *LogicTraffic* die **Situation 10**.
-    2. Stellt sicher, dass die Spalte `sicher` vollständig ausgefüllt ist.
-    3. Erkundung der Normalformen: Öffnet das Dropdown-Menü oberhalb des Formelfeldes und vergleicht die Formeln:
+??? info "DNF und KNF als Form – nicht als neue Funktion"
 
-       * Wählt **KDNF**: Wie viele Konjunktions-Klammern (`∧`) werden mit ODER (`∨`) aneinandergereiht? Welcher Anzahl an Tabellenzeilen entspricht dies?
-       * Wählt **KKNF**: Wie viele Disjunktions-Klammern (`∨`) werden mit UND (`∧`) verknüpft? Warum ist die KKNF bei Situation 10 deutlich kürzer als die KDNF?
-       * Klickt auf **In Wahrheitstabelle laden**: Welchen Status zeigt der Polizist bei beiden Formen an?
+    DNF und KNF beschreiben keine grundsätzlich anderen logischen Funktionen.
 
-!!! quote "Aufgabe 2"
+    Sie sind bestimmte **Strukturen**, in denen eine Formel geschrieben werden kann.
 
-    Die Minimierungs-Maschine: Wählt im Menü die Option **Simplest**:
-       
-       * Wie drastisch verkürzt *LogicTraffic* den Ausdruck?
-       * Testet die Formel mit einem Klick auf **prüfen**.
+    Dieselbe Funktion kann deshalb häufig
 
-!!! quote "Aufgabe 3"
+    - als freie logische Formel,
+    - als DNF,
+    - als KNF
+    - oder in einer anderen äquivalenten Form
 
-    Versucht nun, selbst eine kurze, lesbare Formel mit Implikationen (`→`) zu verfassen, die Situation 10 steuert:
-       * *Schritt 1:* Welche Spuren schneidet die Querspur $E$? Schreibt die Bedingung: `E → (...)`
-       * *Schritt 2:* Welche Spuren schneidet Spur $A$? Schreibt die Bedingung: `A → (...)`
-       * *Schritt 3:* Verknüpft beide Bedingungen mit `∧` und klammert sauber: `(...) ∧ (...)`
-       * Erreicht eure eigene Formel ebenfalls den Status 🫡 **Optimal**?
+    dargestellt werden.
 
-??? tip "Hinweis zu den Konflikten in Situation 10"
+### Vertiefung 2 – Von der Wahrheitstabelle zur Formel
 
-    Analysiert die Geometrie der Kreuzung genau:
+!!! important "Kanonische Formen als möglicher Zwischenschritt"
 
-    * Spur $E$ kreuzt die Spuren $A$, $B$ und $C$. Wenn $E$ fährt, müssen also alle drei stehen: `E → (¬A ∧ ¬B ∧ ¬C)`.
-    * Spur $A$ kreuzt neben $E$ auch die Spur $C$ und die Spur $D$: `A → (¬C ∧ ¬D)`.
-    * Prüft, ob damit bereits alle Konfliktpunkte der Kreuzung abgesichert sind!
+    Eine Wahrheitstabelle lässt sich immer nach einem festen Verfahren in eine Formel übertragen.
 
-??? success "Musterlösung & didaktischer Erwartungshorizont"
+    Dafür können die **kanonische disjunktive Normalform (KDNF)** und die **kanonische konjunktive Normalform (KKNF)** verwendet werden.
 
-    * Vergleich CDNF vs. CCNF bei Situation 10:  
+    **KDNF**
 
-        * Die **KDNF** besteht aus vielen Mintermen (erlaubte Kombinationen), was zu einem extrem langen Bandwurm-Ausdruck führt.  
-        * Die **KKNF** ist deutlich kompakter, da es auf dieser Kreuzung verhältnismässig wenige verbotene Kollisionspaare gibt.  
-        * Beide Normalformen führen nach dem Laden zum Status Optimal.
+    Für jede Zeile mit `sicher = 1` wird ein UND-Term gebildet, der die Belegung dieser Zeile vollständig beschreibt.
 
-    * Simplest Form: *LogicTraffic* reduziert den Ausdruck auf wenige verknüpfte Terme (oft in Form optimierter Disjunktionen nach dem Quine-McCluskey-Verfahren), z. B.: `¬E ∧ ¬A ∨ ¬E ∧ ¬C ∨ ...`
-    * Selbst erstellte Implikationsformel (Musterlösung): `(E → ¬A ∧ ¬B ∧ ¬C) ∧ (A → ¬C ∧ ¬D)`
-        *Ergebnis:* Der Polizist salutiert (Optimal).  
-        *Fazit:* Mit nur zwei überschaubaren Implikations-Klammern lässt sich die gesamte 32-Zeilen-Kreuzung mathematisch perfekt und ohne Sicherheitslücken beherrschen.
+    Diese Terme werden anschliessend mit ODER (`∨`) verbunden.
 
-??? info "Didaktischer Kommentar"
+    **KKNF**
 
-    In dieser Übungsphase schliesst sich der motivationale Kreis der Unterrichtseinheit. Die Schülerinnen und Schüler erleben die Überlegenheit der formalen Logik gegenüber der Datenmatrix: Wo eine Wahrheitstabelle 32 Zeilen verlangt und eine CDNF unlesbar lang wird, genügt eine präzise formulierte Implikationsregel aus zwei geklammerten Bedingungen. Dies vermittelt ein tiefes Verständnis für Abstraktion als Problemlösewerkzeug der Informatik.
+    Für jede Zeile mit `sicher = 0` wird eine ODER-Klausel gebildet, die genau diese Belegung ausschliesst.
 
-    * CDNF vs. CCNF als Entwurfsentscheidung: An *Situation 10* erkennen die Lernenden, warum Ingenieure Sicherheitsanforderungen fast immer als **CCNF (Verbotsliste / Maxterme)** oder als **Implikationen** modellieren: In sicherheitskritischen Systemen gibt es meist wesentlich weniger verbotene Ausnahmezustände (Crashes) als erlaubte Betriebszustände. Die Verbotslogik skaliert im Strassenverkehr daher um ein Vielfaches besser als die Aufzählung aller erlaubten Kombinationen.
+    Diese Klauseln werden anschliessend mit UND (`∧`) verbunden.
 
-??? info "Differenzierung in der Transferphase:"
+    Der grosse Vorteil:
 
-    * *Basisanforderung:* Nutzung der Dropdown-Werkzeuge (CDNF, CCNF, Simplest), Laden in die Tabelle und Interpretation der Statusmeldung des Polizisten.  
-    * *Erweiterte Anforderung:* Eigenständiges Aufstellen der Implikationsformel `(E → ¬A ∧ ¬B ∧ ¬C) ∧ (A → ¬C ∧ ¬D)` und Verifikation der Vollständigkeit über das Simulations-Feedback.
+    > Die Formel muss nicht erraten werden. Sie kann **systematisch direkt aus der Wahrheitstabelle konstruiert werden**.
 
-### Phase 6: Sicherung, Bilanzierung & Abschlussaufgabe
+    Dadurch können die kanonischen Formen für einige Lernende eine hilfreiche **Brücke zwischen Wahrheitstabelle und Formel** darstellen.
 
-**Sozialform / Medien:** Moderierte Bilanzierung im Plenum, anschliessend Einzelarbeit zur individuellen Portfolio-Sicherung; Beamer / Tafel, Begleitportfolio / Merkheft.
+    Der Nachteil:
 
-**Didaktische Absicht:**
+    > Da jede relevante Tabellenzeile einzeln berücksichtigt wird, entstehen häufig sehr lange Formeln.
 
-* **Gesamtsynthese** Reflexion des Weges vom ikonischen Handeln über die Wahrheitstabelle (Stufe *Strukturieren*) bis zur formalen Aussagenlogik und den Normalformen (Stufe *Formalisieren*).
-* **Repräsentationsvergleich:** Systematische Gegenüberstellung von *Wahrheitstabelle*, *KDNF*, *KKNF* und *minimierter Form* hinsichtlich Skalierung, Lesbarkeit und Maschinentauglichkeit.
-*  **Festigung von Konzeptwissen:** Verbindliche Dokumentation von De Morgans Gesetzen, der Normalformen-Definitionen und der Rangfolge der Junktoren als überdauerndes Informatikwissen.
+    Die kanonische Form ist deshalb nicht unbedingt die Form, mit der man am Ende arbeiten möchte. Sie bietet aber einen sicheren Ausgangspunkt, der anschliessend vereinfacht werden kann.
 
----
+    Für Lernende, die bereits selbstständig eine kompakte Formel aus der Verkehrssituation entwickeln können, ist dieser Zwischenschritt nicht zwingend erforderlich.
 
-#### Ablauf & Unterrichtsgeschehen
+    In LogicTraffic können die kanonischen Formen über die entsprechende Auswahl automatisch erzeugt werden. Je nach Bezeichnung der Oberfläche werden sie als `CDNF` bzw. `CCNF` angezeigt.
 
-1. **Plenumsbilanzierung & Repräsentationsvergleich (ca. 10'):**  
-    Die Lehrperson projiziert nebeneinander die drei Lösungsformen für *Situation 10* an die Wand:  
+!!! tip "Differenzierung mit den kanonischen Formen"
 
-    * Die 32-Zeilen-Wahrheitstabelle.  
-    * Die automatisch generierte CDNF / CCNF (Bandwurm-Ausdrücke).  
-    * Die handoptimierte Implikationsregel `(E → ¬A ∧ ¬B ∧ ¬C) ∧ (A → ¬C ∧ ¬D)`.
+    Die kanonischen Formen eignen sich gut für eine natürliche Differenzierung.
 
-    *Impulsfrage:* „Wenn ihr Chef-Entwickler/in für ein autonomes Verkehrsleitsystem wärt: Welche dieser Darstellungen baut ihr in den Steuerungs-Chip ein – und warum?“
+    **Möglicher Weg 1**
 
-2. **Fachlicher Diskurs im Plenum (ca. 3'):**  
-    Die Klasse arbeitet die Stärken und Schwächen der Repräsentationen heraus: Tabellen sind lückenlos, explodieren aber speichertechnisch ($2^n$); Normalformen lassen sich mechanisch vom Computer erzeugen, sind aber unlesbar; optimierte logische Regeln benötigen minimalen Speicher und sind in Echtzeit berechenbar.
+    Verkehrssituation  
+    → eigene kompakte Formel
 
-3. **Individuelle Abschlussaufgabe & Portfolio-Eintrag (ca. 15'):**  
-    Die Lernenden bearbeiten die abschliessende Experten-Synthese (Aufgabe 6) in Einzelarbeit und vervollständigen ihr erweitertes Merkblatt im Begleitportfolio.
+    **Möglicher Weg 2**
 
----
+    Wahrheitstabelle  
+    → KDNF oder KKNF  
+    → Struktur untersuchen  
+    → Formel vereinfachen
 
-**Phase:** Abschluss & Synthese | **Modus:** Einzelarbeit / Portfolio | **Zeit:** ca. 10 Min. | **Fokus:** Konzeptwissen & Repräsentationsvergleich[cite: 3, 5]
-!!! quote "Kontext:"
+    Beide Wege führen zur gleichen logischen Funktion.
 
-    Ihr habt den gesamten Weg gemeistert: Von der visuellen Simulation über die Wahrheitstabelle bis hin zu den mathematischen Normalformen und kompakten Schaltregeln. Zum Abschluss vergleichen wir die Werkzeuge der Informatik und sichern das Gelernte für euer Portfolio.
+    Entscheidend ist nicht, welcher Weg benutzt wird, sondern ob die Lernenden erklären können, warum die resultierende Formel dieselbe Wahrheitstabelle erzeugt.
 
-!!! quote "Teil A: Der Grosse Repräsentationsvergleich"
+### Vertiefung 3 – KDNF untersuchen
 
-    Vergleicht die vier Darstellungsformen, die ihr in *LogicTraffic* kennengelernt habt, und füllt die Tabelle in euren Notizen aus:
+Für Situation 3 wird zunächst die vollständige Wahrheitstabelle betrachtet.
 
-    | Darstellungsform | Wie entsteht sie? | Vorteil | Nachteil / Grenze |
-    | :--- | :--- | :--- | :--- |
-    | **Wahrheitstabelle** | Manuelles Durchtesten aller Zustände[cite: 5]. | Lückenlos und sehr übersichtlich bei 2–3 Spuren. | ... *(Tipp: Zeilen bei 10 Spuren?)* |
-    | **CDNF** (Disjunktive Normalform) | Automatisch aus allen Zeilen mit `sicher = 1`. | Vollautomatisch erzeugbar (Positivliste aller Fahrzustände). | ... *(Tipp: Länge des Ausdrucks?)* |
-    | **CCNF** (Konjunktive Normalform) | Automatisch aus allen Zeilen mit `sicher = 0`. | ... *(Tipp: Anzahl der Crashes im Verkehr)* | Für Menschen schwer zu lesen; benötigt Klammern. |
-    | **Optimierte Regel** (Implikationen `→`) | Logisches Zerlegen der Konfliktachsen im Kopf. | Extrem kompakt, schnell auf dem Chip berechenbar[cite: 5]. | Erfordert Denkaufwand beim Menschen (nicht rein mechanisch). |
+!!! quote "Lernauftrag 5 – Von den Einsen zur Formel"
 
+    Lasst euch in LogicTraffic die kanonische DNF anzeigen.
 
-!!! quote "Teil B: Das Experten-Merkblatt (Portfolio)"
+    Untersucht die Formel.
 
-    Ergänzt euer Merkblatt im Begleitportfolio um die formalen Gesetze der Logik:
-    
-    1. **De Morgan'sche Gesetze:** Notiert die beiden Umformungsregeln für die Verkehrslogik:
-       
-       * `¬(A ∧ B) ≡ ...` *(„Beide dürfen nicht gleichzeitig fahren ist identisch mit ...“)*
-       * `¬(A ∨ B) ≡ ...` *(„Weder A noch B dürfen fahren ist identisch mit ...“)*
-    
-    2. **Normalformen auf den Punkt gebracht:**
-       
-       * Was ist ein **Minterm** (CDNF) und wofür steht er im Strassenverkehr?
-       * Was ist ein **Maxterm** (CCNF) und wovor schützt er im Strassenverkehr?
-    
-    3. **Abschlussreflexion:** Warum sind logische Formeln die universelle Grundlage für jede spätere Computerprogrammierung (z. B. in Python, Java oder C)?
+    1. Wie viele grosse UND-Terme enthält sie?
+    2. Wie viele Zeilen besitzen in der Wahrheitstabelle `sicher = 1`?
+    3. Wählt einen UND-Term aus.
+    4. Findet die Tabellenzeile, die genau diesem Term entspricht.
+    5. Warum werden die einzelnen Terme mit `∨` verbunden?
 
+??? info "Grundidee der KDNF"
 
-??? tip "Denkhilfe zu Teil B"
-    
-    * Denkt an die Bausteine: Ein Minterm verknüpft Variablen mit UND (`A ∧ B ∧ ¬C`) und beschreibt eine exakte Schaltung.
-    * Maxterme verknüpfen negierte Variablen mit ODER (`¬A ∨ ¬C`) und schliessen eine konkrete Crash-Gefahr aus.
+    Ein vollständiger UND-Term beschreibt genau **eine** Belegung.
 
-??? success "Musterlösung & Tafelbild (Inhalt des erweiterten Merkblatts)"
+    Beispiel:
 
-        1. Repräsentationsvergleich:
+    `A ∧ ¬B ∧ C`
 
-           * Wahrheitstabelle: Vollständig, aber skaliert exponentiell (2^n Zeilen; unbrauchbar ab ca. 5–6 Spuren).
-           * KDNF (Disjunktive Normalform): ODER-Verknüpfung aller erlaubten Minterme (Positivliste; oft extrem lang).
-           * KKNF (Konjunktive Normalform): UND-Verknüpfung aller verbotenen Maxterme (Sicherheitsliste; im Verkehr oft kompakter als CDNF).
-           * Minimierte Regel: Logische Vereinfachung (z. B. via Implikation A → ¬B); ideal für Steuerungs-Chips.
+    bedeutet:
 
-        2. Die Gesetze von De Morgan:
-           
-           * `¬(A ∧ B) ≡ ¬A ∨ ¬B` („Es dürfen nicht beide grün haben“ ≡ „Mindestens einer muss rot haben“)
-           * `¬(A ∨ B) ≡ ¬A ∧ ¬B`  („Weder A noch B dürfen grün haben“ ≡ „Sowohl A als auch B müssen rot haben“)
+    - `A = 1`
+    - `B = 0`
+    - `C = 1`
 
-        3. Normalformen im Verkehrskontext:
-           
-           * Minterm (in KDNF): Eine UND-Klammer über alle Spuren, die genau eine sichere Verkehrskombination freigibt.
-           * Maxterm (in KKNF): Eine ODER-Klammer über alle Spuren, die genau eine tödliche Kollision zuverlässig sperrt.
+    Werden alle Belegungen mit `sicher = 1` durch ODER miteinander verbunden, entsteht eine Formel, die genau diese sicheren Zustände zulässt.
 
-        4. Fazit für die Informatik:
-           Aussagenlogische Bedingungen steuern jeden Algorithmus: Jede if-Abfrage in Programmiersprachen (Python, Java) und jedes Transistor-Schaltnetz in Computerprozessoren basiert exakt auf diesen Gesetzmässigkeiten.
+### Vertiefung 4 – KKNF untersuchen
 
-#### Fachdidaktischer Kommentar für Lehrpersonen
+!!! quote "Lernauftrag 6 – Von den Nullen zur Formel"
 
-* **Synthese und 'Kollation' nach Zendler:**  
-    Der Phasenabschluss folgt dem didaktischen Prinzip der Kollation und Erweiterung der Wissensbasis nach Zendler: Die Schülerinnen und Schüler vergleichen ihre handlungsorientierten Teillösungen systematisch mit den idealtypischen, standardisierten Strukturen der Fachwissenschaft (Kanonische Normalformen, De Morgan).
-* **Förderung von Selbsterklärungen (*Self-Explanation-Effekt* nach Chi et al.):**  
-    Das synoptische Gegenüberstellen von Wahrheitstabelle, CDNF, CCNF und Implikationsformel regt gezielte Selbsterklärungen an. Die Lernenden begreifen nicht nur rein rezeptiv *wie* man umformt, sondern *warum* unterschiedliche Repräsentationen existieren und wann welche Form informatikpraktisch überlegen ist (Trade-Off zwischen Rechenaufwand, Speicherbedarf und Wartbarkeit).
-* **Nachhaltige Sicherung von 'Konzeptwissen':**  
-    Die Erarbeitung der Normalformen und der De Morgan'schen Gesetze verhindert, dass die Doppelstunde als reine „Software-Schulung“ für *LogicTraffic* wahrgenommen wird. Der Ausblick auf Programmiersprachen (Verzweigungen, Boolean Logic) und Hardware-Entwurf (Schaltnetze) schlägt die Brücke zu den Kernkompetenzen gymnasialer und sekundarer Informatiklehrpläne.
+    Lasst euch nun die kanonische KNF anzeigen.
+
+    1. Wie viele ODER-Klauseln enthält die Formel?
+    2. Wie viele Zeilen besitzen `sicher = 0`?
+    3. Wählt eine Klausel aus.
+    4. Findet die Tabellenzeile, die dadurch ausgeschlossen wird.
+    5. Warum werden die Klauseln mit `∧` verbunden?
+
+??? info "Grundidee der KKNF"
+
+    Während die KDNF die Belegungen mit `sicher = 1` einzeln auflistet, konstruiert die KKNF Bedingungen aus den Belegungen mit `sicher = 0`.
+
+    Beide Verfahren liefern eine Formel, die exakt dieselbe Wahrheitstabelle beschreibt.
+
+### Vertiefung 5 – Lang oder kurz?
+
+Die Lernenden vergleichen nun mehrere Darstellungen derselben Funktion:
+
+- KDNF;
+- KKNF;
+- eine gewöhnliche DNF oder KNF;
+- eine selbst entwickelte kompakte Formel;
+- die automatisch vereinfachte Darstellung von LogicTraffic.
+
+!!! quote "Lernauftrag 7 – Welche Formel ist die beste?"
+
+    Vergleicht verschiedene Formeln für dieselbe Kreuzung.
+
+    Beurteilt sie nach folgenden Kriterien:
+
+    - Ist die Formel korrekt?
+    - Wie lang ist sie?
+    - Kann man ihre Bedeutung noch gut erkennen?
+    - Lässt sie sich direkt aus der Wahrheitstabelle erzeugen?
+    - Wie leicht lässt sie sich erklären?
+
+    Gibt es überhaupt **eine** beste Darstellung?
+
+Die zentrale Erkenntnis lautet:
+
+> Logisch äquivalente Formeln können sehr unterschiedlich aussehen.
+
+> Welche Darstellung besonders geeignet ist, hängt davon ab, wofür sie verwendet wird.
+
+## Optionaler Transfer – Situation 10
+
+**Ziel:**  
+Die Lernenden wenden ihre Kenntnisse auf eine Kreuzung an, deren Wahrheitstabelle bereits $32$ Zeilen besitzt.
+
+!!! quote "Transferauftrag"
+
+    Öffnet Situation 10.
+
+    Die Kreuzung besitzt fünf Variablen:
+
+    `A`, `B`, `C`, `D` und `E`.
+
+    Die vollständige Wahrheitstabelle enthält:
+
+    $$
+    2^5 = 32
+    $$
+
+    Zeilen.
+
+    1. Analysiert die Konflikte zwischen den Fahrspuren.
+    2. Formuliert zunächst einzelne Sicherheitsregeln in Alltagssprache.
+    3. Übersetzt sie in logische Formeln.
+    4. Verknüpft die Einzelregeln zu einer Gesamtregel.
+    5. Prüft eure Formel mit LogicTraffic.
+    6. Vergleicht eure Formel anschliessend mit einer automatisch erzeugten bzw. vereinfachten Darstellung.
+
+??? tip "Alternative mit kanonischer Form"
+
+    Falls der direkte Weg zur kompakten Formel schwierig ist:
+
+    1. Ausgangspunkt ist die vollständige Wahrheitstabelle.
+    2. Lasst eine KDNF oder KKNF erzeugen.
+    3. Prüft, wie die Tabellenzeilen in der Formel wiederzufinden sind.
+    4. Vergleicht die lange kanonische Formel anschliessend mit einer vereinfachten Darstellung.
+
+    Die kanonische Form dient hier bewusst als **Zwischenschritt**, nicht als Endprodukt.
+
+## Typische Lernschwierigkeiten
+
+??? warning "Alltagssprache und formale Logik werden gleichgesetzt"
+
+    Besonders `oder` und `wenn … dann …` können in der Alltagssprache anders verwendet werden als in der formalen Aussagenlogik.
+
+    Übersetzen Sie deshalb konsequent in beide Richtungen:
+
+    **Sprache → Formel**
+
+    und
+
+    **Formel → Sprache**.
+
+??? warning "Die Negation wird auf den falschen Ausdruck angewendet"
+
+    Vergleichen Sie beispielsweise:
+
+    `¬A ∧ B`
+
+    mit
+
+    `¬(A ∧ B)`.
+
+    Die Klammer entscheidet darüber, welcher Ausdruck negiert wird.
+
+??? warning "Implikation wird als zeitlicher Ablauf verstanden"
+
+    `A → ¬B` bedeutet nicht:
+
+    > Erst wird A grün und danach B rot.
+
+    Sondern:
+
+    > Für jede zulässige Belegung gilt: Wenn A grün ist, darf B nicht grün sein.
+
+??? warning "Eine richtige Formel wird nur am Status erkannt"
+
+    LogicTraffic liefert hilfreiches Feedback.
+
+    Die Lernenden sollten jedoch erklären können, **welche Belegungen ihre Formel erlaubt bzw. verbietet und warum**.
+
+??? warning "Lange Formeln werden automatisch für schlechter gehalten"
+
+    Eine lange Formel kann logisch vollkommen korrekt sein.
+
+    KDNF und KKNF zeigen dies besonders deutlich.
+
+    Die Länge einer Formel und ihre logische Korrektheit sind zwei unterschiedliche Kriterien.
+
+## Differenzierung
+
+=== "Unterstützende Massnahmen"
+
+    - zunächst nur mit `¬`, `∧` und `∨` arbeiten;
+    - die Implikation erst später ergänzen;
+    - Verkehrsregeln zuerst vollständig in Alltagssprache formulieren lassen;
+    - Satzstarter verwenden:
+
+        > `¬A` bedeutet …
+
+        > `A ∧ B` bedeutet …
+
+        > Diese Formel verhindert die Kollision, weil …
+
+    - einzelne Konfliktpaare markieren;
+    - Formeln aus vorgegebenen Bausteinen zusammensetzen;
+    - die Wahrheitstabelle zur Überprüfung nutzen;
+    - KDNF oder KKNF als systematischen Zwischenschritt von der Tabelle zur Formel verwenden.
+
+=== "Weiterführende Aufgaben"
+
+    - mehrere logisch äquivalente Formeln für dieselbe Kreuzung finden;
+    - Äquivalenz ohne LogicTraffic begründen;
+    - De-Morgan-Regeln auf weitere Formeln anwenden;
+    - eine Formel gezielt in DNF bzw. KNF umformen;
+    - kanonische und nicht-kanonische Normalformen vergleichen;
+    - eine möglichst kurze Formel für Situation 10 entwickeln;
+    - erklären, warum zwei sehr unterschiedlich lange Formeln dieselbe Wahrheitstabelle erzeugen.
+
+!!! tip "Kooperative Durchführung"
+
+    Eine mögliche Rollenverteilung im Tandem:
+
+    - **Person 1:** formuliert die Verkehrsregel bzw. Formel;
+    - **Person 2:** übersetzt sie zurück in Alltagssprache und überprüft sie an der Wahrheitstabelle.
+
+    Danach werden die Rollen gewechselt.
+
+    Dadurch steht nicht ausschliesslich die Bedienung der Software im Zentrum, sondern das gegenseitige Erklären der logischen Bedeutung.
+
+## Didaktische Hinweise
+
+LogicTraffic wurde gezielt dafür entwickelt, abstrakte Inhalte der Aussagenlogik über das konkrete Szenario einer Verkehrssteuerung zugänglich zu machen. Unterschiedliche Repräsentationen und eine hohe Interaktivität gehören zu den zentralen didaktischen Ideen der Lernumgebung. :contentReference[oaicite:3]{index=3}
+
+Der vierte Baustein führt diese Progression konsequent weiter:
+
+**Verkehrssituation → Alltagssprache → Wahrheitstabelle → Formel**
+
+Dabei ist wichtig, die Formel nicht lediglich als syntaktische Zeichenfolge zu behandeln. Schwierigkeiten beim Lernen boolescher Logik entstehen unter anderem gerade beim Übersetzen zwischen sprachlichen Anforderungen und formalen Ausdrücken. :contentReference[oaicite:4]{index=4} Auch Negation und Implikation gelten als besonders anspruchsvolle Bereiche. :contentReference[oaicite:5]{index=5}
+
+Die kanonischen Normalformen können dabei als Scaffold dienen. Ihr Wert liegt nicht in ihrer Kürze, sondern in der eindeutigen und mechanischen Beziehung zur Wahrheitstabelle. Lernende erhalten damit einen sicheren Weg von einer bereits verstandenen Repräsentation zu einer zunächst möglicherweise langen Formel.
+
+Für den gymnasialen Anspruch sollte die Arbeit jedoch nicht bei diesem Verfahren enden. Anspruchsvollere Denkprozesse entstehen insbesondere beim Vergleichen, Begründen und Vereinfachen verschiedener äquivalenter Darstellungen.
+
+## Abschluss des Bausteins
+
+Am Ende der Unterrichtsreihe haben die Lernenden dieselbe grundlegende Sicherheitsregel auf mehreren Abstraktionsebenen betrachtet:
+
+1. **handelnd** mit Fahrzeugen und Ampeln;
+2. **digital und visuell** in LogicTraffic;
+3. **tabellarisch** als Wahrheitstabelle;
+4. **symbolisch** als aussagenlogische Formel.
+
+!!! success "Von der Kreuzung zur Logik"
+
+    Eine reale Problemsituation kann schrittweise abstrahiert und formal beschrieben werden.
+
+    Dabei geht keine Information über die Sicherheitsregel verloren – lediglich ihre Darstellung verändert sich.
