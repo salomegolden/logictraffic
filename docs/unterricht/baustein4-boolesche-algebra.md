@@ -180,13 +180,13 @@ Die Lehrperson zeigt anschliessend eine einfache Kreuzung mit zwei Fahrspuren.
 
 Die Lernenden formulieren zunächst in Alltagssprache, was gelten muss.
 
-Mögliche Aussagen:
+??? example "Mögliche Aussagen:"
 
-> A und B dürfen nicht gleichzeitig Grün haben.
+    > A und B dürfen nicht gleichzeitig Grün haben.
+    > Wenn A Grün hat, muss B Rot haben.
+    > Mindestens eine der beiden Ampeln muss Rot zeigen.
 
-> Wenn A Grün hat, muss B Rot haben.
 
-> Mindestens eine der beiden Ampeln muss Rot zeigen.
 
 Die verschiedenen Formulierungen werden zunächst gesammelt, ohne sie sofort formal zu bewerten.
 
