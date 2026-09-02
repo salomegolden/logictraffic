@@ -451,11 +451,11 @@ Die Lernenden sichern die zentralen logischen Operatoren und den Zusammenhang zw
     - mit der Wahrheitstabelle überprüfen, was eine Formel bewirkt;
     - erklären, warum zwei unterschiedlich aussehende Formeln logisch gleichwertig sein können.
 
-# Optionale Vertiefung – DNF und KNF
+## Optionale Vertiefung – DNF und KNF
 
 Die folgende Vertiefung kann direkt an den Basisteil angeschlossen oder in einer zusätzlichen Lektion durchgeführt werden.
 
-## Vertiefungsziele
+### Vertiefungsziele
 
 Die Lernenden …
 
@@ -790,13 +790,13 @@ Die Lernenden wenden ihre Kenntnisse auf eine Kreuzung an, deren Wahrheitstabell
 
 ## Didaktische Hinweise
 
-LogicTraffic wurde gezielt dafür entwickelt, abstrakte Inhalte der Aussagenlogik über das konkrete Szenario einer Verkehrssteuerung zugänglich zu machen. Unterschiedliche Repräsentationen und eine hohe Interaktivität gehören zu den zentralen didaktischen Ideen der Lernumgebung. :contentReference[oaicite:3]{index=3}
+LogicTraffic wurde gezielt dafür entwickelt, abstrakte Inhalte der Aussagenlogik über das konkrete Szenario einer Verkehrssteuerung zugänglich zu machen. Unterschiedliche Repräsentationen und eine hohe Interaktivität gehören zu den zentralen didaktischen Ideen der Lernumgebung.
 
 Der vierte Baustein führt diese Progression konsequent weiter:
 
 **Verkehrssituation → Alltagssprache → Wahrheitstabelle → Formel**
 
-Dabei ist wichtig, die Formel nicht lediglich als syntaktische Zeichenfolge zu behandeln. Schwierigkeiten beim Lernen boolescher Logik entstehen unter anderem gerade beim Übersetzen zwischen sprachlichen Anforderungen und formalen Ausdrücken. :contentReference[oaicite:4]{index=4} Auch Negation und Implikation gelten als besonders anspruchsvolle Bereiche. :contentReference[oaicite:5]{index=5}
+Dabei ist wichtig, die Formel nicht lediglich als syntaktische Zeichenfolge zu behandeln. Schwierigkeiten beim Lernen boolescher Logik entstehen unter anderem gerade beim Übersetzen zwischen sprachlichen Anforderungen und formalen Ausdrücken. Auch Negation und Implikation gelten als besonders anspruchsvolle Bereiche.
 
 Die kanonischen Normalformen können dabei als Scaffold dienen. Ihr Wert liegt nicht in ihrer Kürze, sondern in der eindeutigen und mechanischen Beziehung zur Wahrheitstabelle. Lernende erhalten damit einen sicheren Weg von einer bereits verstandenen Repräsentation zu einer zunächst möglicherweise langen Formel.
 
