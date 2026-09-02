@@ -77,14 +77,6 @@ Zentrale Darstellung: formal und symbolisch
 
 <div class="grid cards" markdown>
 
--   :material-tune:{ .lg .middle } **Differenzierung**
-
-    ---
-
-    Möglichkeiten zur Unterstützung, Vertiefung und Anpassung an unterschiedliche Lerngruppen.
-
-    [:material-arrow-right: Differenzierung und Unterstützung](differenzierung.md)
-
 -   :material-check-circle-outline:{ .lg .middle } **Beurteilung**
 
     ---
