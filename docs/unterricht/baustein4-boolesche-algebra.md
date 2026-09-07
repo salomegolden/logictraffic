@@ -31,9 +31,18 @@ Dabei wechseln sie zwischen Alltagssprache, Verkehrssituation, Wahrheitstabelle 
 
 !!! note "Downloads zu Baustein 4"
 
-    - [:memo: Arbeitsblatt zu logischen Formeln](LINK_ERGÄNZEN)
-    - [:material-image-outline: Übersicht zu den logischen Operatoren](LINK_ERGÄNZEN)
-    - [:material-image-outline: Merkblatt zu DNF und KNF](LINK_ERGÄNZEN)
+    - [:memo: 4a - Logische Operatoren](https://github.com/salomegolden/logictraffic/releases/download/arbeitsbl%C3%A4tter/4a_logische_operatoren.pdf)
+    - [:memo: 4b - Einführung Formelzeichen](https://github.com/salomegolden/logictraffic/releases/download/arbeitsbl%C3%A4tter/4b_einfuhrung_formelzeichen.pdf)
+    - [:memo: 4c - Kruezung logisch steuern](https://github.com/salomegolden/logictraffic/releases/download/arbeitsbl%C3%A4tter/4c_kreuzung_logisch_steuern.pdf)
+    - [:material-image-outline: 4d - Übersicht zu den logischen Operatoren](https://github.com/salomegolden/logictraffic/releases/download/arbeitsbl%C3%A4tter/4d_merkblatt.pdf)
+
+    
+    Zum erweiterten Baustein: 
+    
+    - [:memo: 4e - KNF und DNF](https://github.com/salomegolden/logictraffic/releases/download/arbeitsbl%C3%A4tter/4e_knf_dnf.pdf)
+    - [:memo: 4f - KKNF und KDNF](https://github.com/salomegolden/logictraffic/releases/download/arbeitsbl%C3%A4tter/4g_vergleich_gleichwertigkeit.pdf)
+    - [:memo: 4g - Formen vergleichen und Gleichwertigkeit](https://github.com/salomegolden/logictraffic/releases/download/arbeitsbl%C3%A4tter/4g_vergleich_gleichwertigkeit.pdf)
+    - [:memo: 4h - Transferaufgabe](https://github.com/salomegolden/logictraffic/releases/download/arbeitsbl%C3%A4tter/4h_transfer.pdf)
 
 ## Lernziele
 
@@ -186,8 +195,6 @@ Die Lernenden formulieren zunächst in Alltagssprache, was gelten muss.
     > Wenn A Grün hat, muss B Rot haben.
     > Mindestens eine der beiden Ampeln muss Rot zeigen.
 
-
-
 Die verschiedenen Formulierungen werden zunächst gesammelt, ohne sie sofort formal zu bewerten.
 
 ??? note "Didaktische Absicht"
@@ -201,7 +208,9 @@ Die verschiedenen Formulierungen werden zunächst gesammelt, ohne sie sofort for
 **Ziel der Phase:**  
 Die Lernenden ordnen sprachlichen Verknüpfungen logische Operatoren zu und bilden erste einfache Formeln.
 
-Die Lehrperson führt die Operatoren schrittweise ein.
+
+
+Die Lehrperson führt die Operatoren schrittweise ein (siehe [AB4b](https://github.com/salomegolden/logictraffic/releases/download/arbeitsbl%C3%A4tter/4b_einfuhrung_formelzeichen.pdf)).
 
 !!! quote "Lernauftrag 1 – Von der Sprache zur Formel"
 
@@ -276,7 +285,7 @@ Die Lernenden laden die Formel in die Wahrheitstabelle und beobachten, welche Be
 **Ziel der Phase:**  
 Die Lernenden entwickeln für eine komplexere Verkehrssituation selbstständig aussagenlogische Formeln.
 
-Die Lernenden öffnen Situation 3.
+Die Lernenden öffnen Situation 3. 
 
 Die Fahrspuren `A` und `B` verlaufen parallel, während `C` beide kreuzt.
 
@@ -290,6 +299,10 @@ Die Fahrspuren `A` und `B` verlaufen parallel, während `C` beide kreuzt.
     4. Gebt die Formel in LogicTraffic ein.
     5. Vergleicht die erzeugte Spalte `sicher` mit eurer Erwartung.
     6. Verbessert eure Formel, falls nötig.
+
+!!! quote "AB4c" 
+
+    Danach kann selbstständig das Arbeitsblatt [4c](https://github.com/salomegolden/logictraffic/releases/download/arbeitsbl%C3%A4tter/4c_kreuzung_logisch_steuern.pdf) gelöst werden. Evt. kann als Hilfestellung schon das Merkblatt [4d](https://github.com/salomegolden/logictraffic/releases/download/arbeitsbl%C3%A4tter/4d_merkblatt.pdf) verteilt und besprochen werden. 
 
 ??? tip "Denkhilfe"
 
@@ -347,7 +360,7 @@ Die Fahrspuren `A` und `B` verlaufen parallel, während `C` beide kreuzt.
 ### Phase 4 – Unterschiedliche Formeln vergleichen
 
 **Ziel der Phase:**  
-Die Lernenden erkennen, dass unterschiedlich aussehende Formeln dieselbe logische Funktion beschreiben können.
+Die Lernenden erkennen, dass unterschiedlich aussehende Formeln dieselbe logische Funktion beschreiben können [siehe Merkblatt 4d](https://github.com/salomegolden/logictraffic/releases/download/arbeitsbl%C3%A4tter/4d_merkblatt.pdf)
 
 Die Lehrperson sammelt verschiedene Lösungen der Gruppen.
 
@@ -501,11 +514,15 @@ Struktur:
     3. Wie ist diese Formel aufgebaut?
     4. Welche Darstellung findet ihr leichter zu lesen? Begründet.
 
-Die Lernenden erkennen:
+    Die Lernenden erkennen:
 
-`(¬A ∨ ¬C) ∧ (¬B ∨ ¬C)`
+    `(¬A ∨ ¬C) ∧ (¬B ∨ ¬C)`
 
-ist eine KNF.
+    ist eine KNF.
+
+!!! quote "AB4e"
+
+    Danach kann selbstständig oder in Teams das Arbeitsblatt [4e](https://github.com/salomegolden/logictraffic/releases/download/arbeitsbl%C3%A4tter/4e_knf_dnf.pdf) gelöst werden. 
 
 ??? info "DNF und KNF als Form – nicht als neue Funktion"
 
