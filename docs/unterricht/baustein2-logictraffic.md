@@ -1,230 +1,339 @@
 # Baustein 2 – LogicTraffic kennenlernen
 
-In diesem Baustein lernen die Lernenden die digitale Lernumgebung LogicTraffic kennen. Sie untersuchen, wie eine Verkehrssituation in der Lernumgebung dargestellt wird und wie Fahrspuren, Ampelzustände und die Wahrheitstabelle miteinander verbunden sind.
+In diesem Baustein übertragen die Lernenden die bereits bekannte Idee einer sicheren Verkehrskreuzung in die digitale Lernumgebung **LogicTraffic**. Sie lernen die Oberfläche kennen und untersuchen schrittweise, wie Fahrspuren, Ampelzustände, Variablen, die Werte `0` und `1` sowie die Wahrheitstabelle miteinander zusammenhängen.
 
-Im Zentrum steht zunächst nicht das formale Arbeiten mit Wahrheitstabellen oder booleschen Formeln. Die Lernenden sollen sich in der Lernumgebung orientieren und verstehen, wie dieselbe Verkehrssituation in unterschiedlichen Darstellungen sichtbar wird. Die Wahrheitstabelle wird dabei zunächst als Bestandteil von LogicTraffic kennengelernt. Ihr systematischer Aufbau wird erst in Baustein 3 vertieft.
+Im Zentrum steht noch **nicht** das systematische Erstellen von Wahrheitstabellen und auch noch **nicht** das Arbeiten mit logischen Formeln. Entscheidend ist zunächst der Darstellungswechsel: Die Lernenden sollen verstehen, wie eine konkrete Verkehrssituation in LogicTraffic digital und symbolisch dargestellt wird.
+
+Die Progression des Bausteins lautet:
+
+**reale bzw. enaktive Kreuzung → digitale Kreuzung → Fahrspur und Variable → Rot/Grün und `0`/`1` → Tabellenzeile → Sicherheit → Darstellungen zusammenführen**
+
+Die Formel wird am Ende lediglich als weitere Darstellung der **Sicherheitsregel** sichtbar gemacht. Wie vollständige Wahrheitstabellen selbstständig aufgebaut werden, folgt in [Baustein 3 – Wahrheitstabellen](baustein3-wahrheitstabellen.md). Das eigentliche Arbeiten mit logischen Formeln folgt erst in [Baustein 4 – Logische Formeln](baustein4-boolesche-algebra.md).
 
 !!! abstract "Auf einen Blick"
 
     **:stopwatch: Dauer:**  
-    45–60 Minuten
+    nach Baustein 1: ca. **45–55 Minuten**  
+    ohne Baustein 1: zusätzlich ca. **5–10 Minuten** für den Einstieg mit [2d](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2d_prasentation_lp_kreuzungen.pdf)
 
     **:busts_in_silhouette: Sozialform:**  
-    Klassenunterricht, Partnerarbeit und kurze Einzelphasen
+    Plenum, Partnerarbeit und kurze Einzelphasen
 
     **:computer: Computer:**  
-    Ein Computer oder Tablet pro Zweiergruppe
+    Ein Computer oder Tablet mit LogicTraffic pro Zweiergruppe
 
     **:brain: Vorwissen:**  
-    Die Lernenden können sichere und unsichere Verkehrssituationen unterscheiden.  
-    Idealerweise wurde zuvor Baustein 1 durchgeführt.
+    - Die Lernenden können grundsätzlich zwischen sicheren und unsicheren Verkehrssituationen unterscheiden.
+    - Idealerweise wurde zuvor [Baustein 1 – Enaktiver Einstieg](baustein1-enaktiv.md) durchgeführt.
+    - Falls Baustein 1 ausgelassen wird, übernimmt die Präsentation **[2d](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2d_prasentation_lp_kreuzungen.pdf)** die Aktivierung einer realen Verkehrssituation.
+    - Begriffe wie Wahrheitstabelle, Variable oder Formel müssen noch nicht formal beherrscht werden.
 
     **:package: Material:**  
-    LogicTraffic, Computer oder Tablets, Beamer oder Präsentationsbildschirm, Notizpapier bzw. Heft und Arbeitsblatt
+    LogicTraffic, Computer oder Tablets, Beamer oder Präsentationsbildschirm sowie die Materialien [2a](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2a_orientierung_logictraffic.pdf)–[2e](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2e_tafelbild_ergebnissicherung.pdf)
 
-!!! note "Downloads zu Baustein 2"
+??? note "Downloads zu Baustein 2"
 
-    - [:material-image-outline: Bild: Aufbau der Webseite und ihre Bereiche](https://github.com/salomegolden/logictraffic/releases/download/images-v1/logictraffic_anleitung.png)
-    - [:material-image-outline: Bild: Teilbereiche der Webseite](https://github.com/salomegolden/logictraffic/releases/download/images-v1/losungBeschriftungProgramm.png)
-    - [:material-image-outline: Tafelbild: Beispiel für die Ergebnissicherung](https://github.com/salomegolden/logictraffic/releases/download/images-v1/b2_tafelbild.png)
-    - [:memo: AB2.1 – Ergebnissicherung zur Orientierung auf der Webseite](https://github.com/salomegolden/logictraffic/releases/download/material-v1/b2_einfuhrung_logictraffic_AB.pdf)
-    - [:film_projector: Präsentation mit Bildern von Kreuzungen](https://github.com/salomegolden/logictraffic/releases/download/material-v1/b2_prasentation_kreuzungen.pdf)
+    **Für die Lernenden**
+
+    - [:memo: 2a – Orientierung in LogicTraffic](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2a_orientierung_logictraffic.pdf)
+    - [:material-image-outline: 2b – Merkblatt Orientierung](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2b_merkblatt_orientierung.pdf)
+    - [:memo: 2c – Ergebnissicherung LogicTraffic](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2c_ergebnissicherungLT.pdf)
+
+    **Für die Lehrperson**
+
+    - [:film_projector: 2d – Präsentation: Kreuzungen](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2d_prasentation_lp_kreuzungen.pdf) – **optional**, wenn Baustein 1 nicht durchgeführt wurde
+    - [:material-image-outline: 2e – Tafelbild zur Ergebnissicherung](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2e_tafelbild_ergebnissicherung.pdf)
 
 ## Lernziele
 
 Die Lernenden können …
 
-- die zentralen Bereiche von LogicTraffic benennen;
-- die Variablen `A`, `B`, `C` den entsprechenden Fahrspuren zuordnen;
+- sich in den zentralen Bereichen von LogicTraffic orientieren;
+- erklären, dass die bereits mit `A`, `B`, `C` usw. bezeichneten Fahrspuren als Variablen in weiteren Darstellungen wieder auftauchen;
 - erklären, wie die Ampelzustände Rot und Grün mit `0` und `1` dargestellt werden;
-- zu einer konkreten Ampelstellung die entsprechende Tabellenzeile finden;
-- sichere und unsichere Ampelkombinationen unterscheiden und ihre Entscheidung begründen;
-- erklären, dass die Kreuzung jeweils einen konkreten Zustand zeigt, während die Wahrheitstabelle verschiedene mögliche Zustände darstellt;
-- beschreiben, dass Kreuzung, Wahrheitstabelle und Formel unterschiedliche Darstellungen derselben Verkehrssituation bzw. Sicherheitsregel sind.
+- zwischen `0` und `1` bei einer Fahrspur und `0` und `1` in der Spalte `sicher` unterscheiden;
+- zu einer konkreten Ampelstellung die passende Tabellenzeile finden und eine vorgegebene Tabellenzeile wieder als Ampelstellung lesen;
+- sichere und unsichere Ampelkombinationen anhand der Fahrwege begründen;
+- erklären, dass die Kreuzung jeweils einen konkreten Zustand zeigt, während die Wahrheitstabelle verschiedene mögliche Zustände umfasst;
+- die Bereiche Kreuzung, Variablen bzw. `0`/`1`, Wahrheitstabelle, `sicher` und Formel in ihrer jeweiligen Funktion unterscheiden;
+- beschreiben, dass diese Darstellungen unterschiedliche Aspekte derselben modellierten Kreuzung bzw. Sicherheitsregel sichtbar machen;
+- die Frage formulieren, wie eine vollständige Wahrheitstabelle auch ohne Vorgabe durch LogicTraffic systematisch erstellt werden könnte.
+
+??? note "Einordnung zwischen Baustein 1 und Baustein 3"
+
+    **Baustein 1** arbeitet vor allem mit der konkreten Verkehrssituation:
+
+    > Welche Ampelstellungen sind sicher und warum?
+
+    **Baustein 2** führt dieselbe Grundidee in die digitale Lernumgebung über:
+
+    > Wie stellt LogicTraffic Fahrspuren, Ampelzustände und Sicherheit dar?
+
+    **Baustein 3** verschiebt den Schwerpunkt anschliessend auf die Systematik:
+
+    > Wie können wir selbst alle möglichen Zustände vollständig aufschreiben, ohne einen zu vergessen?
+
+    Dadurch erhält jeder Baustein eine eigene Funktion und die Wahrheitstabelle wird in Baustein 2 bewusst **nur gelesen und gedeutet**, noch nicht systematisch konstruiert.
 
 ## Vorbereitung
 
-- LogicTraffic auf den Geräten öffnen und die Funktionsfähigkeit prüfen.
-- Eine einfache Situation mit zwei Fahrspuren auswählen.
-- Dieselbe Situation für die gemeinsame Einführung über den Beamer bereitstellen.
-- Falls Baustein 1 durchgeführt wurde, möglichst eine vergleichbare Verkehrssituation verwenden.
-- Den Formelbereich zu Beginn noch nicht vertiefen.
-- Das Arbeitsblatt AB2.1 bzw. Notizmaterial bereitlegen.
+- [LogicTraffic](https://logictraffic.ch/) auf allen Geräten öffnen und die Funktionsfähigkeit prüfen.
+- Für die gemeinsame Einführung vorzugsweise **Situation 2** bereithalten. Sie besitzt zwei Variablen und ermöglicht einen überschaubaren Einstieg.
+- Dieselbe Situation über den Beamer öffnen, damit alle Lernenden dieselben Veränderungen beobachten können.
+- Falls Baustein 1 durchgeführt wurde, zu Beginn kurz an die dort untersuchten sicheren und unsicheren Ampelstellungen anknüpfen.
+- Falls Baustein 1 **nicht** durchgeführt wurde, die Präsentation **[2d](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2d_prasentation_lp_kreuzungen.pdf)** als alternativen Einstieg bereithalten.
+- **[2a](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2a_orientierung_logictraffic.pdf)** als zentrales Arbeitsblatt für die Erkundung bereitstellen.
+- **[2b](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2b_merkblatt_orientierung.pdf)** noch nicht zu Beginn austeilen: Das Merkblatt enthält bereits zentrale Orientierungsinformationen und eignet sich besser als Nachschlagehilfe **nach der ersten eigenen Erkundung**.
+- **[2c](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2c_ergebnissicherungLT.pdf)** für die abschliessende Ergebnissicherung bereitstellen.
+- **[2e](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2e_tafelbild_ergebnissicherung.pdf)** für die gemeinsame Auswertung von [2c](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2c_ergebnissicherungLT.pdf) projizieren oder ausdrucken.
+- Den Formelbereich in LogicTraffic sichtbar lassen, aber noch nicht fachlich vertiefen.
 
-??? tip "Vorbereitung der Lernumgebung"
+??? info "Fachlicher Hintergrund – was zeigt LogicTraffic?"
 
-    Wählen Sie zunächst eine Situation mit zwei Variablen. Besonders geeignet sind die Situationen 1 oder 2.
+    LogicTraffic verbindet mehrere Repräsentationen miteinander. Für Baustein 2 ist wichtig, diese Darstellungen **nicht vorschnell gleichzusetzen**, sondern ihre jeweilige Funktion zu unterscheiden.
 
-    Dadurch gibt es nur vier mögliche Ampelkombinationen und der Zusammenhang zwischen Kreuzung und Wahrheitstabelle bleibt überschaubar.
-
-    Situation 11 kann ebenfalls verwendet werden, stellt jedoch einen Spezialfall dar und eignet sich weniger gut für die erste Einführung.
-
-## Programmaufbau
-
-![Aufbau der Webseite und ihre Bereiche](https://github.com/salomegolden/logictraffic/releases/download/images-v1/logictraffic_anleitung.png)
-
-| Bereich | Bedeutung |
-| --- | --- |
-| Kreuzung | Zeigt die Verkehrssituation, die Fahrspuren und die Ampeln. |
-| Variablen | Bezeichnen die Fahrspuren mit `A`, `B`, `C` usw. |
-| Wahrheitstabelle | Stellt die möglichen Kombinationen der Ampelzustände dar. |
-| Spalte «sicher» | Zeigt, welche Kombinationen durch die Steuerung erlaubt werden. |
-| Statusanzeige | Gibt eine Rückmeldung zur eingestellten Lösung. |
-| Formelbereich | Beschreibt die Sicherheitsregel in formaler Form. |
-
-!!! info "Von der Kreuzung zur Tabelle"
-
-    Die Kreuzung zeigt jeweils eine konkrete Ampelstellung.
-
-    Die Werte in der Wahrheitstabelle beschreiben dieselbe Ampelstellung in symbolischer Form:
-
-    - `0` bedeutet: Die Ampel ist rot.
-    - `1` bedeutet: Die Ampel ist grün.
-
-    Bei zwei Fahrspuren können beispielsweise folgende Zustände auftreten:
-
-    | `A` | `B` |
+    | Bereich | Bedeutung in diesem Baustein |
     | --- | --- |
-    | `0` | `0` |
-    | `0` | `1` |
-    | `1` | `0` |
-    | `1` | `1` |
+    | **Kreuzung** | Zeigt die Fahrwege und jeweils eine konkrete Ampelstellung. |
+    | **Fahrspuren / Variablen** | Die bereits beschrifteten Fahrspuren `A`, `B`, `C` … werden als Variablen verwendet. |
+    | **`0` und `1` bei den Variablen** | Beschreiben den Zustand einer Ampel: `0 = Rot`, `1 = Grün`. |
+    | **Wahrheitstabelle** | Enthält verschiedene mögliche Kombinationen der Variablenwerte. |
+    | **Spalte `sicher`** | Bewertet, ob die jeweilige Ampelkombination kollisionsfrei ist. |
+    | **Formel** | Beschreibt die Sicherheitsregel kompakt und gilt für alle möglichen Belegungen. Sie wird in Baustein 2 nur als Ausblick betrachtet. |
 
-    Wie solche Tabellen systematisch aufgebaut werden und weshalb bei zwei Variablen genau vier Kombinationen entstehen, wird in **Baustein 3** vertieft.
+    Für den Darstellungswechsel ist besonders hilfreich, zwischen **einer einzelnen Tabellenzeile** und der **gesamten Wahrheitstabelle** zu unterscheiden:
+
+    **konkrete Ampelstellung** ↔ **eine Tabellenzeile**
+
+    **alle möglichen Ampelstellungen** ↔ **gesamte Wahrheitstabelle**
+
+??? warning "Zwei verschiedene Bedeutungen von 0 und 1"
+
+    In LogicTraffic begegnen den Lernenden `0` und `1` auf zwei Ebenen.
+
+    **Bei einer Fahrspur:**
+
+    - `0` = Ampel Rot
+    - `1` = Ampel Grün
+
+    **In der Spalte `sicher`:**
+
+    - `0` = Kombination unsicher
+    - `1` = Kombination sicher
+
+    Deshalb sollte im Unterricht möglichst präzise gesprochen werden:
+
+    > „Bei `A = 1` ist die Ampel der Spur A grün.“
+
+    bzw.
+
+    > „Bei dieser Tabellenzeile ist `sicher = 0`, weil sich die grünen Fahrwege kreuzen.“
 
 ## Unterrichtsablauf – Überblick
 
-| Phase | Inhalt | Sozialform / Medien | Richtwert |
-| --- | --- | --- | --- |
-| [1. Anknüpfen](#phase-1--an-den-enaktiven-einstieg-anknüpfen) | Verkehrssituation aus Baustein 1 aufgreifen und Übertragung auf den Computer vorbereiten | Plenum, enaktives Material / Präsentation | ca. 5 Min. |
-| [2. Orientierung](#phase-2--logictraffic-gemeinsam-erkunden) | Oberfläche kennenlernen und zentrale Bereiche identifizieren | Plenum, Beamer, LogicTraffic | ca. 10 Min. |
-| [3. Darstellungen verbinden](#phase-3--ampelzustände-und-tabellenzeilen-verbinden) | Ampelstellungen verändern und Zusammenhang zwischen Kreuzung, Variablen und Tabellenzeile untersuchen | Partnerarbeit, LogicTraffic, AB2.1 | ca. 15 Min. |
-| [4. Sicherheit untersuchen](#phase-4--sichere-und-unsichere-zustände-untersuchen) | Ampelkombinationen anhand der Fahrwege beurteilen | Partnerarbeit, LogicTraffic | ca. 10–15 Min. |
-| [5. Darstellungswechsel sichern](#phase-5--die-darstellungen-zusammenführen) | Kreuzung, Wahrheitstabelle und Formel als unterschiedliche Darstellungen vergleichen | Plenum, Beamer, Tafelbild | ca. 10 Min. |
+| Phase | Schwerpunkt | Material | Richtwert |
+| --- | --- | --- | ---: |
+| **1. Von der Kreuzung zur digitalen Darstellung** | Vorwissen aktivieren und die Frage vorbereiten, wie eine Kreuzung am Computer dargestellt werden kann | Rückbezug auf Baustein 1; alternativ **[2d](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2d_prasentation_lp_kreuzungen.pdf)** | ca. 5 Min.; ohne Baustein 1 ca. 10–15 Min. |
+| **2. LogicTraffic erkunden und Zustände lesen** | Oberfläche, Variablen, `0`/`1`, Tabellenzeilen sowie sichere und unsichere Zustände untersuchen | **[AB 2a](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2a_orientierung_logictraffic.pdf)**, anschliessend **[MB 2b](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2b_merkblatt_orientierung.pdf)**, LogicTraffic | ca. 25–30 Min. |
+| **3. Darstellungen zusammenführen und sichern** | Funktionen der verschiedenen Darstellungen ordnen und den Übergang zu Baustein 3 vorbereiten | **[AB 2c](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2c_ergebnissicherungLT.pdf)**, **[Tafelbild 2e](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2e_tafelbild_ergebnissicherung.pdf)** | ca. 15–20 Min. |
+
+Die Materialien sind damit eindeutig zugeordnet: **[2a](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2a_orientierung_logictraffic.pdf)** trägt die eigentliche Erkundung, **[2b](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2b_merkblatt_orientierung.pdf)** dient danach als Nachschlagehilfe, **[2c](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2c_ergebnissicherungLT.pdf)** sichert die Ergebnisse, **[2e](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2e_tafelbild_ergebnissicherung.pdf)** unterstützt die gemeinsame Auswertung und **[2d](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2d_prasentation_lp_kreuzungen.pdf)** ersetzt nur dann den realen bzw. enaktiven Rückbezug, wenn Baustein 1 nicht stattgefunden hat.
 
 ## Durchführung
 
-### Phase 1 – An den enaktiven Einstieg anknüpfen
+### Phase 1 - Von der Kreuzung zur digitalen Darstellung
 
-**Ziel der Phase:**  
-Die Lernenden übertragen ihre bisherigen Vorstellungen von Fahrspuren, Ampeln und Sicherheit auf eine digitale Darstellung.
+??? success "Ziele der Einheit"
 
-Falls Baustein 1 durchgeführt wurde, greift die Lehrperson die dort untersuchte Kreuzung nochmals auf. Die Lernenden erinnern sich daran, wie sie mit Fahrzeugen und Ampelplättchen verschiedene Zustände dargestellt und auf ihre Sicherheit überprüft haben.
+    Die Lernenden aktivieren ihr Verständnis von Fahrspuren, Ampeln und Verkehrssicherheit und entwickeln die Frage, wie eine reale Kreuzung in einer digitalen Lernumgebung dargestellt werden kann.
 
-!!! quote "Einstiegsauftrag"
+    Dabei werden die späteren Begriffe `Variable`, `Wahrheitstabelle` und `Formel` noch nicht vorausgesetzt oder erklärt.
 
-    Erinnert euch an die Kreuzung aus dem letzten Baustein.
+??? example "Material"
 
-    Überlegt:
+    **Wenn Baustein 1 durchgeführt wurde:**
 
-    - Welche Informationen müsste ein Computer über diese Kreuzung kennen?
-    - Wie könnte ein Computer darstellen, ob eine Ampel rot oder grün ist?
-    - Wie könnte er verschiedene Ampelstellungen festhalten?
+    - die dort verwendete oder eine vergleichbare Verkehrssituation
+    - Beamer oder Präsentationsbildschirm
 
-Die Vermutungen werden gesammelt, ohne bereits die formalen Grundlagen der Wahrheitstabelle zu erklären.
+    **Wenn Baustein 1 nicht durchgeführt wurde:**
 
-??? note "Alternative mit realen Kreuzungen"
+    - [:film_projector: 2d – Präsentation: Kreuzungen](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2d_prasentation_lp_kreuzungen.pdf)
+    - Beamer oder Präsentationsbildschirm
 
-    Falls Baustein 1 nicht durchgeführt wurde, können Bilder aus der  
-    [:film_projector: **Präsentation mit Kreuzungen**](https://github.com/salomegolden/logictraffic/releases/download/material-v1/b2_prasentation_kreuzungen.pdf)  
-    verwendet werden.
+??? info "Sozialformen"
 
-    Mögliche Leitfrage:
+    Kurzes **Plenumsgespräch**. Die Lernenden beobachten eine bekannte bzw. reale Kreuzung und formulieren zunächst in Alltagssprache, welche Informationen für eine sichere Ampelsteuerung relevant sind.
+
+??? tip "benötigte Zeit"
+
+    nach Baustein 1: ca. **5 Minuten**  
+    ohne Baustein 1 mit [Präsentation 2d](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2d_prasentation_lp_kreuzungen.pdf): ca. **10–15 Minuten**
+
+??? abstract "Verlaufsplanung"
+
+    **1. Rückbezug herstellen**
+
+    Wenn Baustein 1 durchgeführt wurde, greift die Lehrperson eine bekannte Kreuzung bzw. eine bereits untersuchte Ampelstellung auf.
+
+    **Inputfragen:**
+
+    > Woran habt ihr erkannt, ob eine Ampelstellung sicher oder unsicher ist?
+
+    **Erwartete Antworten:**
+
+    - Man muss betrachten, welche Fahrspuren gleichzeitig Grün haben.
+    - Entscheidend ist, ob sich die Fahrwege dieser Spuren kreuzen.
+    - Nicht die einzelne Ampel, sondern die Kombination der Ampelstellungen ist relevant.
+
+    **2. Alternative ohne Baustein 1**
+
+    Wurde Baustein 1 ausgelassen, verwendet die Lehrperson **[2d](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2d_prasentation_lp_kreuzungen.pdf)**. Die Präsentation dient bewusst nur dazu, eine reale Kreuzung zu beobachten und das Sicherheitsproblem zu aktivieren. Sie ist **keine Einführung in die Oberfläche von LogicTraffic**.
+
+    Die Lernenden beschreiben beispielsweise:
+
+    - welche Fahrwege sie erkennen;
+    - welche Bewegungen gleichzeitig möglich erscheinen;
+    - wo mögliche Konflikte entstehen;
+    - welche Informationen eine Ampelsteuerung berücksichtigen muss.
+
+    **Leitfrage:**
 
     > Welche Informationen braucht eine Ampelsteuerung, damit eine Kreuzung sicher funktioniert?
 
-### Phase 2 – LogicTraffic gemeinsam erkunden
+    **3. Übergang zu LogicTraffic**
 
-**Ziel der Phase:**  
-Die Lernenden orientieren sich in der Lernumgebung und ordnen die Elemente der digitalen Darstellung den bereits bekannten Elementen der Verkehrssituation zu.
+    Die Lehrperson schliesst mit der Frage:
 
-Die Lehrperson öffnet eine einfache Situation mit zwei Fahrspuren in [LogicTraffic](https://logictraffic.ch/) und zeigt die Oberfläche über den Beamer.
+    > Wie könnte ein Computer eine solche Kreuzung so darstellen, dass wir verschiedene Ampelstellungen untersuchen können?
 
-Zunächst stehen insbesondere folgende Bereiche im Zentrum:
+    Die Vermutungen werden kurz gesammelt. Erst danach wird LogicTraffic geöffnet.
 
-1. Kreuzung;
-2. Fahrspuren und Variablen;
-3. Ampeln;
-4. Wahrheitstabelle;
-5. Spalte «sicher».
+??? note "Didaktische Hinweise"
 
-Der Formelbereich wird zunächst lediglich als weiterer Bereich der Lernumgebung benannt.
+    Diese Phase soll **kein zweiter Theorieeinstieg** werden. Ihr Zweck ist ausschliesslich, einen verständlichen Ausgangspunkt für die digitale Darstellung zu schaffen.
 
-![Teilbereiche von LogicTraffic mit Beschriftungen](https://github.com/salomegolden/logictraffic/releases/download/images-v1/losungBeschriftungProgramm.png)
+    Wenn Baustein 1 bereits stattgefunden hat, ist die [Präsentation 2d](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2d_prasentation_lp_kreuzungen.pdf) nicht zusätzlich nötig. Dadurch werden Wiederholungen vermieden und der Baustein bleibt kompakt.
 
-!!! quote "Beobachtungsauftrag"
+    Ohne Baustein 1 ersetzt [2d](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2d_prasentation_lp_kreuzungen.pdf) nicht den enaktiven Zugang vollständig, schafft aber einen konkreten Alltagsbezug, bevor mit der digitalen Lernumgebung gearbeitet wird.
 
-    Beobachtet genau, was passiert, wenn eine Ampel verändert wird.
+    Fachbegriffe sollten in dieser Phase noch nicht vorweggenommen werden. Besonders `0`, `1` und Wahrheitstabelle werden erst an beobachtbaren Veränderungen in LogicTraffic aufgebaut.
 
-    Achtet dabei auf:
+??? bug "Differenzierung"
 
-    - die Farbe der Ampel;
-    - die zugehörige Variable;
-    - die Werte `0` und `1`;
-    - die entsprechende Zeile in der Wahrheitstabelle.
+    === "Vereinfachungen"
 
-Gemeinsam wird festgehalten:
+        - Nur eine übersichtliche Kreuzung betrachten.
+        - Mit konkreten Fragen arbeiten:  
+          > „Welche beiden Fahrwege könnten sich schneiden?“  
+          > „Was könnte passieren, wenn beide gleichzeitig Grün haben?“
+        - Bei Baustein-1-Erfahrungen direkt auf eine bekannte Ampelstellung zurückgreifen.
 
-- Jede Fahrspur wird mit einer Variable bezeichnet.
-- Jede Ampel kann rot oder grün sein.
-- In LogicTraffic werden diese beiden Zustände mit `0` und `1` dargestellt.
-- Eine konkrete Ampelstellung lässt sich auch als Zeile in der Tabelle darstellen.
+    === "Erweiterungen"
 
-??? warning "Typische Lernschwierigkeit: 0 und 1"
+        - Mehrere mögliche Ampelstellungen gedanklich vergleichen lassen.
+        - Begründen lassen, welche Informationen eine digitale Darstellung mindestens enthalten müsste.
+        - Zwischen Informationen über die **Geometrie der Kreuzung** und Informationen über den **aktuellen Ampelzustand** unterscheiden lassen.
 
-    Lernende können `0` als «falsch» und `1` als «richtig» interpretieren.
+### Phase 2 - LogicTraffic erkunden und Zustände lesen
 
-    Stellen Sie deshalb konsequent den Bezug zur Verkehrssituation her:
+??? success "Ziele der Einheit"
 
-    - `0` = Ampel rot
-    - `1` = Ampel grün
+    Die Lernenden orientieren sich in LogicTraffic und können Fahrspuren, Variablen und Ampelzustände miteinander verknüpfen.
 
-    Ob die gesamte Ampelkombination sicher ist, ist eine andere Frage.
+    Sie übersetzen zwischen Rot/Grün und `0`/`1`, ordnen eine konkrete Ampelstellung einer Tabellenzeile zu und begründen anhand der Fahrwege, ob eine Kombination sicher oder unsicher ist.
 
-### Phase 3 – Ampelzustände und Tabellenzeilen verbinden
+??? example "Material"
 
-**Ziel der Phase:**  
-Die Lernenden wechseln selbstständig zwischen konkreter Verkehrssituation und symbolischer Darstellung.
+    - [:memo: AB 2a – Orientierung in LogicTraffic](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2a_orientierung_logictraffic.pdf)
+    - [:material-image-outline: MB 2b – Merkblatt Orientierung](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2b_merkblatt_orientierung.pdf)
+    - [LogicTraffic](https://logictraffic.ch/), vorzugsweise **Situation 2**
+    - Computer oder Tablet pro Zweiergruppe
+    - Beamer oder Präsentationsbildschirm
 
-Die Lernenden arbeiten in Zweiergruppen mit LogicTraffic.
+??? info "Sozialformen"
 
-Eine Person bedient zunächst die Lernumgebung, während die andere beobachtet, beschreibt und notiert. Anschliessend werden die Rollen gewechselt.
+    Kurze gemeinsame Orientierung im **Plenum**, danach **Partnerarbeit** mit [AB 2a](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2a_orientierung_logictraffic.pdf).
 
-!!! quote "Lernauftrag 1 – Darstellungen untersuchen"
+    Im Tandem übernimmt eine Person die Bedienung von LogicTraffic, während die andere Person beobachtet, liest und begründet. Spätestens beim Wechsel von Seite 1 zu Seite 2 des Arbeitsblatts werden die Rollen getauscht.
 
-    Öffnet eine Situation mit zwei Fahrspuren.
+??? tip "benötigte Zeit"
 
-    Untersucht:
+    ca. **25–30 Minuten**
 
-    1. Welche Variable gehört zu welcher Fahrspur?
-    2. Was verändert sich, wenn ihr eine Ampel anklickt?
-    3. Welcher Wert gehört zu einer roten Ampel?
-    4. Welcher Wert gehört zu einer grünen Ampel?
-    5. Welche Tabellenzeile beschreibt die aktuelle Ampelstellung?
+??? abstract "Verlaufsplanung"
 
-Zur Ergebnissicherung kann AB2.1 eingesetzt werden.
+    **1. Oberfläche gemeinsam öffnen**
 
-???+ quote "Einträge ins Heft oder Notizbuch"
+    Die Lehrperson öffnet Situation 2 über den Beamer und gibt zunächst einen kurzen Orientierungsauftrag:
 
-    | Ampel `A` | Ampel `B` | Darstellung mit `0` und `1` |
-    | --- | --- | --- |
-    | rot | rot | |
-    | rot | grün | |
-    | grün | rot | |
-    | grün | grün | |
+    > Schaut euch LogicTraffic an. Welche Teile der Darstellung kennt ihr bereits von einer echten Kreuzung – und welche Teile sind neu?
 
-??? example "Mögliches Ergebnis"
+    Im Plenum werden nur die für diesen Baustein relevanten Bereiche lokalisiert:
 
-    | Ampel `A` | Ampel `B` | Darstellung mit `0` und `1` |
-    | --- | --- | --- |
-    | rot | rot | `0`, `0` |
-    | rot | grün | `0`, `1` |
-    | grün | rot | `1`, `0` |
-    | grün | grün | `1`, `1` |
+    - Kreuzung und Fahrwege;
+    - die bereits beschrifteten Fahrspuren `A`, `B` usw.;
+    - Ampeln;
+    - Wahrheitstabelle;
+    - Spalte `sicher`;
+    - Formelbereich als sichtbarer, aber noch nicht zu erklärender Bereich.
 
-!!! tip "Zentraler Darstellungswechsel"
+    **Wichtig:** Die Fahrspuren werden **nicht nochmals beschriftet**. Die Bezeichnungen `A`, `B`, `C` … sind in LogicTraffic bereits vorhanden. Die Aufgabe besteht darin, zu erkennen, dass dieselben Variablen in anderen Bereichen der Lernumgebung wieder auftauchen.
 
-    Lassen Sie die Lernenden möglichst häufig in beide Richtungen übersetzen:
+    **2. [AB 2a](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2a_orientierung_logictraffic.pdf) – Aufgabe 1: Wo ist was?**
+
+    Die Lernenden orientieren sich direkt in der Lernumgebung und identifizieren die zentralen Bereiche.
+
+    Die Lehrperson verzichtet auf eine lange Vorführung. Die Orientierung soll möglichst durch eigenes Beobachten und Anklicken erfolgen.
+
+    **3. [AB 2a](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2a_orientierung_logictraffic.pdf) – Aufgabe 2: Fahrspur und Variable gehören zusammen**
+
+    Die Lernenden verfolgen beispielsweise die bereits beschriftete Spur `A` und suchen, wo `A` in der Wahrheitstabelle wieder auftaucht.
+
+    **Inputfrage:**
+
+    > Was bleibt gleich, obwohl die Fahrspur einmal in der Kreuzung und einmal in der Tabelle dargestellt wird?
+
+    **Erwartete Antwort:**
+
+    > Die Bezeichnung bzw. Variable `A` steht in beiden Darstellungen für dieselbe Fahrspur.
+
+    **4. [AB 2a](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2a_orientierung_logictraffic.pdf) – Aufgabe 3: Rot und Grün werden zu 0 und 1**
+
+    Die Lernenden verändern eine Ampel und beobachten gleichzeitig die zugehörige Variable bzw. Tabellenzeile.
+
+    Gemeinsam wird gesichert:
+
+    - Rot → `0`
+    - Grün → `1`
+
+    **Inputfragen:**
+
+    > Was bedeutet `A = 1` in dieser Verkehrssituation?
+
+    **Erwartete Antwort:** Die Ampel der Spur `A` zeigt Grün.
+
+    > Was bedeutet `A = 0`?
+
+    **Erwartete Antwort:** Die Ampel der Spur `A` zeigt Rot.
+
+    **5. [Merkblatt 2b](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2b_merkblatt_orientierung.pdf) gezielt einführen**
+
+    Erst **nach diesen ersten eigenen Beobachtungen** wird das [Merkblatt 2b](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2b_merkblatt_orientierung.pdf) ausgeteilt bzw. geöffnet.
+
+    Es dient ab diesem Zeitpunkt als Nachschlagehilfe zu:
+
+    - den Bereichen der Oberfläche;
+    - der Bedeutung von `0` und `1`;
+    - dem Zusammenhang der verschiedenen Darstellungen.
+
+    Das Merkblatt ist **kein zusätzliches Arbeitsblatt** und wird nicht mit weiteren Aufgaben versehen.
+
+    **6. [AB 2a](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2a_orientierung_logictraffic.pdf) – Aufgabe 4: Von der Kreuzung zur Tabellenzeile**
+
+    Die Lernenden stellen unterschiedliche Ampelstellungen ein und suchen jeweils die entsprechende Zeile.
+
+    Der Darstellungswechsel soll bewusst in beide Richtungen erfolgen:
 
     **Kreuzung → Tabellenzeile**
 
@@ -232,206 +341,228 @@ Zur Ergebnissicherung kann AB2.1 eingesetzt werden.
 
     **Tabellenzeile → Kreuzung**
 
-    So wird die Wahrheitstabelle zunächst als symbolische Darstellung einer bereits verstandenen Verkehrssituation kennengelernt.
+    **Inputfrage:**
 
-??? warning "Typische Lernschwierigkeit: Kreuzung und Tabelle"
+    > Zeigt die Wahrheitstabelle nur die Ampelstellung, die wir gerade sehen?
 
-    Die Kreuzung zeigt immer nur **einen konkreten Zustand**.
+    **Erwartete Antwort:** Nein. Die Kreuzung zeigt gerade einen Zustand; die Tabelle enthält verschiedene mögliche Zustände.
 
-    Die Wahrheitstabelle enthält dagegen **verschiedene mögliche Zustände**.
+    Wie diese vollständige Tabelle systematisch entsteht, wird noch nicht thematisiert.
 
-    Der systematische Aufbau der vollständigen Wahrheitstabelle wird erst in Baustein 3 thematisiert.
+    **7. [AB 2a](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2a_orientierung_logictraffic.pdf) – Aufgabe 5: Sicher oder unsicher?**
 
-### Phase 4 – Sichere und unsichere Zustände untersuchen
+    Für mehrere Ampelkombinationen entscheiden die Lernenden zuerst anhand der Fahrwege:
 
-**Ziel der Phase:**  
-Die Lernenden verbinden die symbolisch dargestellten Ampelzustände wieder mit der Bedeutung der Verkehrssituation.
+    - Welche Spuren haben Grün?
+    - Schneiden sich diese Fahrwege?
+    - Kann eine Kollision entstehen?
 
-Nun untersuchen die Lernenden verschiedene Ampelkombinationen und beurteilen diese anhand der Fahrwege.
+    Erst danach wird der Wert in der Spalte `sicher` betrachtet bzw. zur Kontrolle verwendet.
 
-!!! quote "Lernauftrag 2 – Sicherheit untersuchen"
+    **Inputfrage:**
 
-    Stellt verschiedene Ampelkombinationen ein.
+    > Was bewertet die Spalte `sicher`: eine einzelne Ampel oder die ganze Kombination?
 
-    Entscheidet jeweils:
+    **Erwartete Antwort:** Die gesamte Kombination der Ampelzustände.
 
-    1. Welche Ampeln sind rot und welche grün?
-    2. Wie wird diese Ampelstellung in der Tabelle dargestellt?
-    3. Ist die Verkehrssituation sicher oder unsicher?
-    4. Warum?
+    **8. [AB 2a](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2a_orientierung_logictraffic.pdf) – Aufgaben 6 und 7: Darstellungen unterscheiden**
 
-    Haltet eure Begründung fest.
+    Zum Abschluss des Arbeitsblatts wird bewusst zwischen den Darstellungen unterschieden:
 
-Die Lernenden markieren anschliessend die entsprechenden Werte in der Spalte «sicher».
+    - Die **Kreuzung** zeigt Fahrwege und eine konkrete Ampelstellung.
+    - Eine **Tabellenzeile** beschreibt diese Ampelstellung mit `0` und `1`.
+    - Die **gesamte Wahrheitstabelle** enthält verschiedene mögliche Ampelstellungen.
+    - Die Spalte **`sicher`** bewertet die jeweiligen Kombinationen.
+    - Die **Formel** wird nur als kompakte Darstellung der Sicherheitsregel benannt; sie muss noch nicht gelesen oder gebildet werden.
 
-Die Rückmeldung von LogicTraffic kann zur Kontrolle verwendet werden, steht jedoch nicht im Zentrum der Aufgabe.
+??? note "Didaktische Hinweise"
 
-!!! tip "Erst begründen, dann überprüfen"
+    Der Baustein soll nicht zu einer technischen Bedienungsanleitung für LogicTraffic werden. Die Oberfläche ist nur dann didaktisch relevant, wenn ein sichtbares Element mit einer fachlichen Bedeutung verknüpft wird.
 
-    Die Lernenden sollten ihre Entscheidung zunächst anhand der Fahrwege begründen.
+    Besonders wichtig sind drei Abgrenzungen:
 
-    Erst danach wird die Rückmeldung der Lernumgebung betrachtet.
+    **1. Fahrspurbezeichnungen nicht doppelt erzeugen**  
+    `A`, `B`, `C` … sind in LogicTraffic bereits eingetragen. Ein erneutes Beschriften würde eher Verwirrung erzeugen. Die Lernleistung besteht im **Zuordnen derselben Variable über mehrere Darstellungen hinweg**.
 
-    Statt:
+    **2. `0` und `1` nicht als „falsch“ und „richtig“ einführen**  
+    In dieser Phase werden sie konkret als Ampelzustände gelesen: `0 = Rot`, `1 = Grün`.
 
-    > LogicTraffic sagt, dass die Lösung falsch ist.
+    **3. Formel nicht vorwegnehmen**  
+    Der Formelbereich darf sichtbar sein und auf dem Merkblatt vorkommen. Inhaltlich genügt jedoch die Aussage, dass die Formel später die Sicherheitsregel kompakt beschreiben wird.
 
-    sollte die Begründung beispielsweise lauten:
+    Das [Merkblatt 2b](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2b_merkblatt_orientierung.pdf) wird bewusst **nach** der ersten Erkundung eingesetzt. Würde es vor [AB 2a](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2a_orientierung_logictraffic.pdf) ausgeteilt, nähme es einen Teil der Beobachtungsleistung vorweg.
 
-    > Diese Kombination ist unsicher, weil sich die Fahrwege von `A` und `B` kreuzen und beide Ampeln grün sind.
+??? bug "Differenzierung"
 
-??? warning "Typische Lernschwierigkeit: Sicherheit einer einzelnen Ampel"
+    === "Vereinfachungen"
 
-    Eine einzelne Ampel ist nicht «sicher» oder «unsicher».
+        - Ausschliesslich mit Situation 2 und zwei Variablen arbeiten.
+        - Das [Merkblatt 2b](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2b_merkblatt_orientierung.pdf) nach Aufgabe 3 offen verwenden lassen.
+        - Immer nur **eine** Veränderung an der Kreuzung vornehmen und danach beschreiben lassen, was sich an anderer Stelle mitverändert.
+        - Satzstarter anbieten:  
+          > „`A = 1` bedeutet …“  
+          > „Diese Tabellenzeile passt, weil …“  
+          > „Die Kombination ist unsicher, weil …“
+        - Bei der Suche nach einer Tabellenzeile zuerst nur die Variablenspalten betrachten und die Spalte `sicher` danach ergänzen.
 
-    Beurteilt wird immer die **gesamte Kombination der Ampelzustände im Zusammenhang mit den Fahrwegen**.
+    === "Erweiterungen"
 
-### Phase 5 – Die Darstellungen zusammenführen
+        - Eine Tabellenzeile vorgeben und die zugehörige Ampelstellung ohne Ausprobieren einstellen lassen.
+        - Eine Ampelstellung kurz zeigen, wieder verändern und die ursprüngliche Tabellenzeile aus dem Gedächtnis notieren lassen.
+        - Begründen lassen, weshalb zwei gleichzeitig grüne Ampeln nicht automatisch eine unsichere Situation bedeuten.
+        - Bereits eine Situation mit drei Variablen erkunden, ohne die vollständige Tabelle systematisch aufzubauen.
+        - Beobachten lassen, dass der Formelbereich auf Änderungen reagiert, ohne die Formel bereits fachlich zu analysieren.
 
-**Ziel der Phase:**  
-Die Lernenden erkennen, dass dieselbe Verkehrssituation bzw. Sicherheitsregel in LogicTraffic unterschiedlich dargestellt werden kann.
+### Phase 3 - Darstellungen zusammenführen und sichern
 
-Gemeinsam werden nun die verschiedenen Bereiche der Lernumgebung miteinander verglichen.
+??? success "Ziele der Einheit"
 
-!!! quote "Lernauftrag 3 – Dieselbe Situation, verschiedene Darstellungen"
+    Die Lernenden ordnen die verschiedenen Darstellungen in LogicTraffic nach ihrer Funktion und sichern die zentralen Erkenntnisse des Bausteins.
 
-    Betrachtet dieselbe Sicherheitsregel in LogicTraffic.
+    Sie unterscheiden insbesondere zwischen einer konkreten Ampelstellung, ihrer symbolischen Beschreibung, der vollständigen Menge möglicher Zustände und der Sicherheitsregel. Daraus entwickeln sie die Anschlussfrage für Baustein 3.
 
-    Was zeigt …
+??? example "Material"
 
-    1. die Kreuzung?
-    2. die Wahrheitstabelle?
-    3. die Spalte «sicher»?
-    4. die Formel?
+    - [:memo: AB 2c – Ergebnissicherung LogicTraffic](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2c_ergebnissicherungLT.pdf)
+    - [:material-image-outline: 2e – Tafelbild zur Ergebnissicherung](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2e_tafelbild_ergebnissicherung.pdf)
+    - [:material-image-outline: MB 2b – Merkblatt Orientierung](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2b_merkblatt_orientierung.pdf) als Nachschlagehilfe
+    - LogicTraffic und Beamer
 
-Die Formel wird dabei bewusst nur auf einer grundlegenden Ebene betrachtet.
+??? info "Sozialformen"
 
-![Tafelbild B2, generiert mit ChatGPT, GPT5.6](https://github.com/salomegolden/logictraffic/releases/download/images-v1/b2_tafelbild.png)
+    Zunächst kurze **Einzelarbeit** mit [2c](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2c_ergebnissicherungLT.pdf), danach **Partnervergleich**. Die gemeinsame Sicherung erfolgt im **Plenum** mit [Tafelbild 2e](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2e_tafelbild_ergebnissicherung.pdf).
 
-Gemeinsam wird festgehalten:
+??? tip "benötigte Zeit"
 
-| Darstellung | Was zeigt sie? |
-| --- | --- |
-| Kreuzung | eine konkrete Verkehrssituation |
-| Variablen und `0`/`1` | die Ampelzustände in symbolischer Form |
-| Wahrheitstabelle | verschiedene mögliche Kombinationen der Ampelzustände |
-| Spalte «sicher» | welche Kombinationen zugelassen werden |
-| Formel | beschreibt die Sicherheitsregel in kompakter formaler Form |
+    ca. **15–20 Minuten**
 
-!!! tip "Die Formel nur als Ausblick"
+??? abstract "Verlaufsplanung"
 
-    Die Lernenden müssen die Formel an dieser Stelle noch nicht lesen oder selbst bilden können.
+    **1. [AB 2c](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2c_ergebnissicherungLT.pdf) zunächst individuell bearbeiten**
 
-    Entscheidend ist lediglich die Erkenntnis:
+    Die Lernenden sichern die Ergebnisse der Erkundung auf dem Blatt **„Dieselbe Situation – verschiedene Darstellungen“**.
 
-    **Auch die Formel beschreibt dieselbe Sicherheitsregel – nur in einer anderen Darstellung.**
+    Die Aufgaben bündeln die zuvor untersuchten Zusammenhänge:
 
-    Das eigentliche Arbeiten mit booleschen Formeln folgt in Baustein 4.
+    - **Was zeigt welche Darstellung?**
+    - **Kreuzung oder Wahrheitstabelle?**
+    - **Was bedeutet `sicher`?**
+    - **Welche Idee verbindet die verschiedenen Darstellungen?**
 
-## Ergebnissicherung
+    Das [Merkblatt 2b](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2b_merkblatt_orientierung.pdf) darf bei Bedarf als Nachschlagehilfe verwendet werden.
 
-Zur Ergebnissicherung kann das Arbeitsblatt **AB2.1** oder das vorbereitete Tafelbild verwendet werden.
+    **2. Ergebnisse im Tandem vergleichen**
 
-Am Ende des Bausteins sollten insbesondere folgende Zusammenhänge gesichert sein:
+    Die Lernenden vergleichen ihre Zuordnungen und korrigieren Unterschiede nicht nur formal, sondern mit einer kurzen Begründung.
 
-??? example "Mögliche Ergebnissicherung"
+    **Leitfragen:**
 
-    **LogicTraffic stellt dieselbe Situation auf unterschiedliche Arten dar.**
+    > Welche Darstellung zeigt nur eine aktuelle Ampelstellung?
 
-    | Darstellung | Bedeutung |
-    | --- | --- |
-    | Fahrspur `A`, `B`, `C` … | Die Fahrspuren werden mit Variablen bezeichnet. |
-    | `0` | Die zugehörige Ampel ist rot. |
-    | `1` | Die zugehörige Ampel ist grün. |
-    | Kreuzung | Zeigt eine konkrete Ampelstellung und die Fahrwege. |
-    | Wahrheitstabelle | Stellt verschiedene mögliche Ampelstellungen symbolisch dar. |
-    | «sicher» | Bewertet eine Kombination hinsichtlich der Sicherheit. |
-    | Formel | Ist eine weitere, formale Darstellung der Sicherheitsregel. |
+    **Erwartete Antwort:** Die Kreuzung.
 
-    **Merksatz**
+    > Wo finden wir dieselbe aktuelle Ampelstellung mit `0` und `1` wieder?
 
-    > Kreuzung, Wahrheitstabelle und Formel beschreiben dieselbe Situation bzw. Sicherheitsregel auf unterschiedliche Weise.
+    **Erwartete Antwort:** In einer passenden Zeile der Wahrheitstabelle.
 
-## Erwartete Ergebnisse
+    > Was umfasst die gesamte Wahrheitstabelle darüber hinaus?
 
-Die Lernenden sollten am Ende beispielsweise erklären können:
+    **Erwartete Antwort:** Verschiedene bzw. alle möglichen Kombinationen der Variablenwerte.
 
-> Die Fahrspur `A` gehört zur Variable `A`.
+    > Was sagt `sicher` aus?
 
-> Wenn `A = 1` ist, zeigt die Ampel der Spur `A` grün.
+    **Erwartete Antwort:** Ob die jeweilige Kombination der Ampelzustände kollisionsfrei ist.
 
-> Wenn `A = 0` ist, zeigt die Ampel der Spur `A` rot.
+    **3. [Tafelbild 2e](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2e_tafelbild_ergebnissicherung.pdf) zur gemeinsamen Sicherung einsetzen**
 
-> Die Kreuzung zeigt jeweils eine konkrete Ampelstellung.
+    Die Lehrperson projiziert [2e](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2e_tafelbild_ergebnissicherung.pdf) und ordnet die Begriffe gemeinsam mit der Klasse.
 
-> Dieselbe Ampelstellung kann mit `0` und `1` in der Tabelle dargestellt werden.
+    Fachlich präzise kann die Beziehung so gesichert werden:
 
-> Ob eine Kombination sicher ist, hängt davon ab, welche Fahrwege sich kreuzen.
+    **Kreuzung**  
+    → zeigt Fahrwege und einen konkreten Ampelzustand
 
-> Die Formel ist eine weitere Möglichkeit, dieselbe Sicherheitsregel darzustellen.
+    **Variablen und `0`/`1`**  
+    → beschreiben den Ampelzustand symbolisch
 
-## Differenzierung
+    **eine Tabellenzeile**  
+    → beschreibt genau eine mögliche Belegung
 
-=== "Unterstützende Massnahmen"
+    **Wahrheitstabelle**  
+    → umfasst die möglichen Belegungen und ihre Sicherheitsbewertung
 
-    - zunächst ausschliesslich mit zwei Fahrspuren arbeiten;
-    - Variablen direkt an den entsprechenden Fahrspuren zeigen;
-    - `0` zusätzlich mit einem roten und `1` mit einem grünen Ampelsymbol verbinden;
-    - konkrete Ampelstellungen vorgeben und die passende Tabellenzeile suchen lassen;
-    - Tabellenzeilen vorgeben und die entsprechende Ampelstellung einstellen lassen;
-    - Satzstarter verwenden:
+    **`sicher`**  
+    → bewertet die jeweilige Belegung
 
-        > `A = 1` bedeutet …
+    **Formel**  
+    → beschreibt die Sicherheitsregel kompakt für alle Belegungen; dies ist zunächst nur ein Ausblick
 
-        > Diese Tabellenzeile gehört zur Kreuzung, weil …
+    **4. Gemeinsamen Merksatz formulieren**
 
-        > Die Kombination ist unsicher, weil …
+    Ein geeigneter Merksatz lautet:
 
-=== "Weiterführende Aufgaben"
+    > LogicTraffic zeigt dasselbe Kreuzungsproblem auf verschiedenen Ebenen: anschaulich in der Kreuzung, symbolisch mit Variablen und `0`/`1`, vollständig in der Wahrheitstabelle und später kompakt als Formel.
 
-    - eine Situation mit drei Variablen untersuchen;
-    - zu einer vorgegebenen Tabellenzeile die entsprechende Kreuzung einstellen;
-    - eine konkrete Ampelstellung zunächst ohne Computer mit `0` und `1` notieren;
-    - verschiedene sichere und unsichere Kombinationen begründen;
-    - beobachten, wie sich der Formelbereich verändert, wenn andere Kombinationen als sicher festgelegt werden.
+    Dadurch wird vermieden, Kreuzung, einzelne Tabellenzeile, gesamte Wahrheitstabelle und Formel als völlig identische Darstellungen zu behandeln.
 
-!!! tip "Kooperative Durchführung"
+    **5. Übergang zu Baustein 3 erzeugen**
 
-    Achten Sie darauf, dass nicht dauerhaft dieselbe Person das Gerät bedient.
+    Die Lehrperson zeigt nochmals die Wahrheitstabelle und fragt:
 
-    Eine mögliche Rollenverteilung:
+    > Bisher liefert LogicTraffic uns die möglichen Kombinationen bereits. Wie könnten wir diese Tabelle selbst erstellen und sicher sein, dass keine Kombination fehlt oder doppelt vorkommt?
 
-    - **Person 1:** bedient LogicTraffic;
-    - **Person 2:** beobachtet, beschreibt und begründet.
+    Diese Frage bildet den direkten Ausgangspunkt für [Baustein 3 – Wahrheitstabellen](baustein3-wahrheitstabellen.md).
 
-    Anschliessend werden die Rollen gewechselt.
+??? note "Didaktische Hinweise"
 
-## Didaktische Hinweise
+    [2c](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2c_ergebnissicherungLT.pdf) und [2e](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2e_tafelbild_ergebnissicherung.pdf) erfüllen bewusst **verschiedene Rollen**:
 
-LogicTraffic wurde gezielt dafür entwickelt, abstrakte Konzepte der Aussagenlogik über eine anschauliche Verkehrssituation zugänglich zu machen. Die ursprüngliche Konzeption verbindet dabei unterschiedliche Repräsentationsformen und einen hohen Grad an Interaktivität.
+    - **[2c](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2c_ergebnissicherungLT.pdf)** ist die aktive Ergebnissicherung der Lernenden.
+    - **[2e](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2e_tafelbild_ergebnissicherung.pdf)** unterstützt die gemeinsame Auswertung durch die Lehrperson.
 
-Für diesen Baustein steht deshalb insbesondere der **Darstellungswechsel** im Zentrum. Die Lernenden gehen von der bekannten Verkehrssituation aus und begegnen schrittweise abstrakteren Darstellungen:
+    Dadurch sollte [2e](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2e_tafelbild_ergebnissicherung.pdf) nicht vor der Bearbeitung von [2c](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2c_ergebnissicherungLT.pdf) gezeigt werden, da es sonst die eigentliche Sicherungsleistung vorwegnimmt.
 
-**Verkehrssituation → Variablen und `0`/`1` → Wahrheitstabelle → Formel**
+    Fachlich ist zudem eine kleine Präzisierung wichtig: Eine konkrete Ampelstellung und eine gesamte Wahrheitstabelle sind nicht einfach „dieselbe Darstellung in anderer Form“. Eine **Tabellenzeile** entspricht einer konkreten Belegung; die **gesamte Tabelle** umfasst mehrere bzw. alle Belegungen. Die **Formel** beschreibt wiederum die übergeordnete Sicherheitsregel. Gerade diese Unterscheidung erleichtert später den Übergang zu Baustein 3 und 4.
 
-Die formalen Darstellungen werden dabei noch nicht vollständig erklärt. Vielmehr sollen die Lernenden erkennen, dass unterschiedliche Darstellungen auf dieselbe zugrunde liegende Situation bzw. Sicherheitsregel verweisen. Dieser Zugang entspricht der ursprünglichen Idee von InfoTraffic, abstrakte Inhalte über konkrete Beispiele sowie symbolische, ikonische und virtuell-enaktive Repräsentationen zu erschliessen.
+    Die Formel bleibt hier ein **Ausblick**. Lernende müssen weder Operatoren kennen noch die angezeigte Formel erklären können.
 
-## Übergang zum nächsten Baustein
+??? bug "Differenzierung"
 
-Die Lernenden kennen die Wahrheitstabelle nun als eine Möglichkeit, Ampelzustände symbolisch darzustellen. Sie können zwischen einer konkreten Ampelstellung und der entsprechenden Tabellenzeile wechseln.
+    === "Vereinfachungen"
 
-Bisher wurde die Tabelle jedoch von LogicTraffic vorgegeben.
+        - [2b](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2b_merkblatt_orientierung.pdf) beim Ausfüllen von [2c](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2c_ergebnissicherungLT.pdf) offen verwenden lassen.
+        - Nur die vier Kernbereiche Kreuzung, Variablen/`0`–`1`, Wahrheitstabelle und `sicher` sichern; die Formel anschliessend gemeinsam ergänzen.
+        - Satzstarter anbieten:  
+          > „Die Kreuzung zeigt …“  
+          > „Eine Tabellenzeile zeigt …“  
+          > „Die ganze Wahrheitstabelle zeigt …“  
+          > „`sicher = 1` bedeutet …“
+        - Das Tafelbild Schritt für Schritt aufdecken bzw. besprechen.
 
-Damit entsteht die nächste Frage:
+    === "Erweiterungen"
 
-!!! question "Wie entsteht eine vollständige Wahrheitstabelle?"
+        - Den Unterschied zwischen **einer Tabellenzeile** und der **gesamten Wahrheitstabelle** in eigenen Worten erklären lassen.
+        - Begründen lassen, weshalb die Formel eher zur ganzen Sicherheitsregel als zu einer einzelnen Ampelstellung gehört.
+        - Eine eigene grafische Darstellung der Repräsentationswechsel entwickeln lassen.
+        - Bereits vermuten lassen, wie viele Zeilen eine vollständige Wahrheitstabelle mit drei Fahrspuren enthalten könnte, ohne die allgemeine Regel vorwegzunehmen.
 
-    Wenn wir die Tabelle nicht von LogicTraffic bekommen würden:
+## Abschluss des Bausteins
 
-    **Wie könnten wir selbst alle möglichen Ampelkombinationen systematisch aufschreiben, ohne eine zu vergessen?**
+Am Ende von Baustein 2 können die Lernenden die digitale Lernumgebung nicht nur bedienen, sondern zentrale Elemente **fachlich deuten**:
 
-Diese Frage bildet den Ausgangspunkt für:
+1. Fahrspuren werden als Variablen `A`, `B`, `C` … bezeichnet.
+2. `0` und `1` beschreiben bei den Variablen die Ampelzustände Rot und Grün.
+3. Eine Tabellenzeile kann eine konkrete Ampelstellung symbolisch beschreiben.
+4. Die Wahrheitstabelle umfasst verschiedene mögliche Ampelstellungen.
+5. Die Spalte `sicher` bewertet, ob eine Kombination kollisionsfrei ist.
+6. Die Formel ist eine weitere, kompakte Darstellung der Sicherheitsregel und wird erst später vertieft.
 
-[Baustein 3 – Wahrheitstabellen](baustein3-wahrheitstabellen.md)
+!!! success "Von der konkreten Kreuzung zur symbolischen Darstellung"
 
-Dort wird untersucht, wie Wahrheitstabellen systematisch aufgebaut werden, weshalb ihre Anzahl an Zeilen von der Anzahl der Variablen abhängt und wie damit alle möglichen Zustände vollständig erfasst werden können.
+    Baustein 2 schafft die Brücke von der anschaulichen Verkehrssituation zur symbolischen Darstellung in LogicTraffic.
+
+    Die nächste offene Frage lautet:
+
+    > **Wie können wir selbst eine vollständige Wahrheitstabelle erstellen, ohne eine Kombination zu vergessen?**
+
+    Genau diese Frage wird in [Baustein 3 – Wahrheitstabellen](baustein3-wahrheitstabellen.md) bearbeitet.
