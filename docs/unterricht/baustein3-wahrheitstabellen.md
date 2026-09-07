@@ -2,14 +2,20 @@
 
 In diesem Baustein lernen die Lernenden, Wahrheitstabellen nicht nur in LogicTraffic zu lesen, sondern selbstständig und systematisch aufzubauen.
 
-Ausgehend von einer einfachen Kreuzung mit zwei Fahrspuren untersuchen sie, wie alle möglichen Ampelzustände vollständig erfasst werden können. Anschliessend übertragen sie die Systematik auf drei und mehr Variablen und erkennen, dass sich die Anzahl möglicher Zustände mit jeder zusätzlichen Variable verdoppelt.
+Ausgangspunkt ist eine einfache Kreuzung mit zwei Fahrspuren. Die Lernenden klären zunächst, was eine Wahrheitstabelle überhaupt darstellt und wie die Werte `0` und `1` in den Variablenspalten sowie in der Spalte `sicher` zu lesen sind. Anschliessend entwickeln sie für drei Variablen ein systematisches Verfahren, mit dem alle möglichen Belegungen vollständig und ohne Wiederholungen erzeugt werden können.
 
-Am Ende des Bausteins wird deutlich, dass Wahrheitstabellen zwar eine vollständige Beschreibung ermöglichen, bei vielen Variablen jedoch schnell sehr umfangreich werden. Diese Erkenntnis bereitet den Übergang zu kompakten logischen Formeln in Baustein 4 vor.
+Zum Abschluss prüfen sie ihr Verständnis an einer fehlerhaften Wahrheitstabelle. Dabei unterscheiden sie zwischen **strukturellen Fehlern** – etwa fehlenden oder doppelten Kombinationen – und **inhaltlichen Fehlern** bei der Beurteilung der Sicherheit.
+
+Die Progression des Bausteins lautet:
+
+**Verkehrssituation → einzelne Ampelstellung → Tabellenzeile → vollständige Wahrheitstabelle → Systematik $2^n$ → Fehleranalyse → Skalierungsproblem**
+
+Damit bereitet Baustein 3 den Übergang zu [Baustein 4 – Logische Formeln](baustein4-boolesche-algebra.md) vor: Wahrheitstabellen bilden alle Zustände vollständig ab, werden mit wachsender Variablenzahl jedoch schnell sehr umfangreich.
 
 !!! abstract "Auf einen Blick"
 
     **:stopwatch: Dauer:**  
-    ca. 45–60 Minuten
+    ca. **50–60 Minuten**
 
     **:busts_in_silhouette: Sozialform:**  
     Plenum, Partnerarbeit und kurze Einzelphasen
@@ -18,81 +24,89 @@ Am Ende des Bausteins wird deutlich, dass Wahrheitstabellen zwar eine vollständ
     Ein Computer oder Tablet mit LogicTraffic pro Zweiergruppe
 
     **:brain: Vorwissen:**  
-    - Die Lernenden kennen LogicTraffic.
+    - [Baustein 2 – LogicTraffic kennenlernen](baustein2-logictraffic.md) wurde idealerweise abgeschlossen.
     - Die Lernenden kennen Variablen als Bezeichnungen für Fahrspuren.
-    - `0 = Rot` und `1 = Grün` sind bekannt.
-    - Die Lernenden können eine konkrete Ampelstellung einer Tabellenzeile zuordnen.
+    - `0 = Rot` und `1 = Grün` sind bei den Fahrspuren bekannt.
+    - Die Lernenden können eine konkrete Ampelstellung einer Darstellung in LogicTraffic zuordnen.
     - Die Bedeutung der Spalte `sicher` ist grundsätzlich bekannt.
-    - Idealerweise wurde zuvor Baustein 2 durchgeführt.
 
     **:package: Material:**  
-    LogicTraffic, Computer oder Tablets, Beamer oder Präsentationsbildschirm, Arbeitsblatt bzw. Heft oder Begleitportfolio
+    LogicTraffic, Computer oder Tablets, Beamer oder Präsentationsbildschirm sowie die Arbeitsblätter zu Baustein 3
 
-!!! note "Downloads zu Baustein 3"
+??? note "Downloads zu Baustein 3"
 
-    - [:memo: Arbeitsblatt zu Wahrheitstabellen](LINK_ERGÄNZEN)
-    - [:material-image-outline: Tafelbild / Merkhilfe zu Wahrheitstabellen](LINK_ERGÄNZEN)
+    - [:memo: 3a – Wahrheitstabellen verstehen](https://github.com/salomegolden/logictraffic/releases/download/ab3_v1/3a_wahrheitstabellen_verstehen.pdf)
+    - [:memo: 3b – Wahrheitstabellen systematisch erstellen](https://github.com/salomegolden/logictraffic/releases/download/ab3_v1/3b_wahrheitstabellen_systematisch_erstellen.pdf)
+    - [:memo: 3c – Herausforderung: Fehler finden](https://github.com/salomegolden/logictraffic/releases/download/ab3_v1/3c_herausforderung_fehler.pdf)
 
 ## Lernziele
 
 Die Lernenden können …
 
 - eine Wahrheitstabelle als vollständige Darstellung aller möglichen Kombinationen von Variablenwerten erklären;
+- eine konkrete Ampelstellung einer Tabellenzeile zuordnen und umgekehrt;
+- zwischen den Werten der Fahrspuren (`0 = Rot`, `1 = Grün`) und den Werten der Spalte `sicher` unterscheiden;
 - für zwei und drei Variablen alle möglichen Belegungen systematisch und lückenlos aufschreiben;
+- ein Ordnungsmuster zum Erzeugen aller Kombinationen beschreiben;
 - erklären, warum bei $n$ Variablen $2^n$ mögliche Belegungen entstehen;
 - für jede Ampelkombination begründet entscheiden, ob die Verkehrssituation sicher oder unsicher ist;
-- zwischen den Werten der Fahrspuren (`0` und `1`) und dem Wert der Spalte `sicher` unterscheiden;
-- von einer konkreten Verkehrssituation zur symbolischen Darstellung in einer Wahrheitstabelle wechseln;
+- fehlende, doppelte und inhaltlich falsch bewertete Zeilen in einer Wahrheitstabelle erkennen und korrigieren;
 - erkennen, dass Wahrheitstabellen bei zunehmender Anzahl von Variablen schnell sehr umfangreich werden;
 - daraus die Notwendigkeit einer kompakteren Darstellung ableiten.
 
 ## Vorbereitung
 
-- LogicTraffic auf den Geräten öffnen und die Funktionsfähigkeit prüfen.
-- Für den Einstieg eine einfache Situation mit zwei Fahrspuren vorbereiten.
-- Eine Situation mit drei Fahrspuren für die Vertiefung vorbereiten.
-- Für den abschliessenden Skalierungsvergleich eine Situation mit fünf Fahrspuren bereitstellen.
-- Arbeitsblatt oder Heft für das eigenständige Erstellen von Wahrheitstabellen bereitlegen.
-- Falls möglich, die Tabellen zunächst ausserhalb von LogicTraffic erstellen lassen und die Lernumgebung erst anschliessend zur Überprüfung verwenden.
+- LogicTraffic auf allen Geräten öffnen und die Funktionsfähigkeit prüfen.
+- **Situation 2** für Phase 1 bereithalten.
+- **Situation 3** für Phase 2 bereithalten.
+- **Situation 4** für Phase 3 bereithalten.
+- Die Arbeitsblätter 3a, 3b und 3c ausdrucken oder digital bereitstellen.
+- Wenn möglich, Wahrheitstabellen zunächst **ausserhalb von LogicTraffic** bearbeiten lassen. Die Lernumgebung wird anschliessend als Kontroll- und Rückmeldewerkzeug eingesetzt.
+- Für den Abschluss eine Situation mit fünf Variablen oder die entsprechende Zeilenanzahl `32` bereithalten.
 
 ??? tip "Abgrenzung zu Baustein 2"
 
-    In Baustein 2 haben die Lernenden die Wahrheitstabelle bereits als Darstellung kennengelernt.
+    In Baustein 2 haben die Lernenden die Wahrheitstabelle bereits als Darstellung in LogicTraffic kennengelernt.
 
-    In diesem Baustein steht eine neue Frage im Zentrum:
+    In Baustein 3 steht eine neue Frage im Zentrum:
 
-    > **Wie können wir selbst eine vollständige Wahrheitstabelle erstellen, ohne eine Kombination zu vergessen?**
+    > **Wie können wir selbst alle möglichen Ampelzustände vollständig und systematisch aufschreiben, ohne eine Kombination zu vergessen?**
 
-    Der Schwerpunkt liegt deshalb nicht mehr auf der Orientierung in LogicTraffic, sondern auf der **Systematik und Vollständigkeit einer Wahrheitstabelle**.
+    Der Schwerpunkt liegt deshalb nicht mehr auf der Bedienung der Lernumgebung, sondern auf der **Struktur, Vollständigkeit und Bedeutung einer Wahrheitstabelle**.
 
-## Fachlicher Hintergrund
+??? info "Fachlicher Hintergrund – Wahrheitstabellen"
 
-Eine Wahrheitstabelle enthält alle möglichen Belegungen der verwendeten Variablen.
+    Eine Wahrheitstabelle enthält alle möglichen Belegungen der verwendeten Variablen.
 
-Da jede Variable in LogicTraffic genau zwei Zustände annehmen kann,
+    In LogicTraffic besitzt jede Fahrspur genau zwei Zustände:
 
-- `0` = Rot
-- `1` = Grün,
+    - `0` = Rot
+    - `1` = Grün
 
-verdoppelt jede zusätzliche Variable die Anzahl der möglichen Kombinationen.
+    Bei $n$ Variablen entstehen deshalb:
 
-| Anzahl Variablen | Anzahl möglicher Zustände |
-| ---: | ---: |
-| 1 | $2^1 = 2$ |
-| 2 | $2^2 = 4$ |
-| 3 | $2^3 = 8$ |
-| 4 | $2^4 = 16$ |
-| 5 | $2^5 = 32$ |
+    $$
+    2^n
+    $$
 
-Allgemein gilt:
+    verschiedene Belegungen.
 
-$$
-\text{Anzahl der möglichen Belegungen} = 2^n
-$$
+    | Anzahl Variablen | Anzahl möglicher Zustände |
+    | ---: | ---: |
+    | 1 | $2^1 = 2$ |
+    | 2 | $2^2 = 4$ |
+    | 3 | $2^3 = 8$ |
+    | 4 | $2^4 = 16$ |
+    | 5 | $2^5 = 32$ |
+    | 10 | $2^{10} = 1024$ |
 
-Dabei bezeichnet $n$ die Anzahl der Variablen.
+    Eine systematische Reihenfolge kann wie beim binären Zählen aufgebaut werden.
 
-!!! warning "Zwei verschiedene Bedeutungen von 0 und 1"
+    Für drei Variablen lautet eine mögliche Reihenfolge:
+
+    `000`, `001`, `010`, `011`, `100`, `101`, `110`, `111`
+
+??? warning "Zwei verschiedene Bedeutungen von 0 und 1"
 
     In LogicTraffic werden `0` und `1` auf zwei verschiedenen Ebenen verwendet.
 
@@ -106,178 +120,269 @@ Dabei bezeichnet $n$ die Anzahl der Variablen.
     - `0` = Die Kombination ist unsicher.
     - `1` = Die Kombination ist sicher.
 
-    Diese beiden Bedeutungen sollten im Unterricht konsequent voneinander unterschieden werden.
+    Diese Bedeutungen sollten sprachlich konsequent getrennt werden.
+
+    Statt nur zu sagen
+
+    > „Hier steht eine Eins.“
+
+    sollte möglichst präzisiert werden:
+
+    > „Bei Spur A bedeutet `1`, dass die Ampel Grün zeigt.“
+
+    bzw.
+
+    > „In der Spalte `sicher` bedeutet `1`, dass diese Kombination kollisionsfrei ist.“
 
 ## Unterrichtsablauf – Überblick
 
-| Phase | Inhalt | Sozialform / Medien | Richtwert |
-| --- | --- | --- | --- |
-| **1. Problemstellung** | Vorwissen aktivieren und nach einer vollständigen Darstellung aller Zustände fragen | Plenum, LogicTraffic / Beamer | ca. 5–7 Min. |
-| **2. Systematisierung** | Wahrheitstabelle mit zwei Variablen selbstständig erstellen | Partnerarbeit, Arbeitsblatt / Heft, LogicTraffic | ca. 10–12 Min. |
-| **3. Verallgemeinerung** | Vorgehen auf drei Variablen übertragen und die Regel $2^n$ entwickeln | Partnerarbeit, Arbeitsblatt, LogicTraffic | ca. 15 Min. |
-| **4. Skalierungsproblem** | Wachstum der Wahrheitstabelle bei mehr Variablen untersuchen | Plenum, Beamer | ca. 8–10 Min. |
-| **5. Sicherung und Ausblick** | Kernregeln sichern und zur Darstellung mit Formeln überleiten | Plenum / Einzelarbeit | ca. 5–10 Min. |
+| Phase | Schwerpunkt | Material | Richtwert |
+| --- | --- | --- | ---: |
+| **1. Wahrheitstabellen verstehen** | Einzelne Ampelstellungen lesen, Tabellenzeilen deuten und die vollständige Tabelle für zwei Variablen verstehen | **AB 3a**, Situation 2 | ca. 15 Min. |
+| **2. Wahrheitstabellen systematisch erstellen** | Drei Variablen vollständig erfassen, Ordnungsmuster erkennen und $2^n$ herleiten | **AB 3b**, Situation 3 | ca. 25 Min. |
+| **3. Herausforderung – Fehler finden** | Fehlende, doppelte und falsch bewertete Zeilen diagnostizieren; Wissen sichern und Skalierungsproblem reflektieren | **AB 3c**, Situation 4 | ca. 15–20 Min. |
+
+Die drei Phasen bilden gemeinsam den vollständigen Baustein. Bei knappem Zeitbudget kann Phase 3 als Vertiefung eingesetzt werden; die inhaltliche Brücke zu Baustein 4 sollte jedoch in jedem Fall am Ende kurz gesichert werden.
 
 ## Durchführung
 
-### Phase 1 – Wie finden wir wirklich alle Zustände?
+### Phase 1 - Wahrheitstabellen verstehen
 
-**Ziel der Phase:**  
-Die Lernenden erkennen, dass zufälliges Ausprobieren nicht genügt, wenn alle möglichen Zustände vollständig erfasst werden sollen.
+??? success "Ziele der Einheit"
 
-Die Lehrperson greift eine einfache Situation mit zwei Fahrspuren auf.
+    Die Lernenden verstehen, dass **jede Tabellenzeile genau eine mögliche Ampelstellung** beschreibt.
 
-Falls Baustein 2 durchgeführt wurde, ist die Wahrheitstabelle in LogicTraffic bereits bekannt. Nun wird die Tabelle jedoch zunächst nicht als fertige Lösung verwendet.
+    Sie können die Werte der Fahrspuren korrekt als Rot bzw. Grün lesen, den Wert der Spalte `sicher` davon unterscheiden und erklären, weshalb eine Wahrheitstabelle alle möglichen Zustände enthalten muss.
 
-!!! quote "Einstiegsfrage"
+??? example "Material"
 
-    Wir wissen:
+    - [:memo: AB 3a – Wahrheitstabellen verstehen](https://github.com/salomegolden/logictraffic/releases/download/ab3_v1/3a_wahrheitstabellen_verstehen.pdf)
+    - LogicTraffic, **Situation 2**
+    - Computer oder Tablet pro Zweiergruppe
+    - Beamer oder Präsentationsbildschirm
 
-    Jede Ampel kann entweder rot oder grün sein.
+??? info "Sozialformen"
 
-    **Wie können wir alle möglichen Ampelstellungen aufschreiben und sicher sein, dass wir keine vergessen?**
+    Kurzer Einstieg im **Plenum**, anschliessend **Partnerarbeit** mit AB 3a. Die Ergebnisse werden am Ende gemeinsam gesichert.
 
-Die Lernenden sammeln mögliche Vorgehensweisen.
+    Im Tandem kann jeweils eine Person eine Tabellenzeile lesen, während die andere Person die entsprechende Ampelstellung beschreibt oder in LogicTraffic einstellt. Danach werden die Rollen gewechselt.
 
-Dabei können unterschiedliche Strategien entstehen:
+??? tip "benötigte Zeit"
 
-- zufälliges Ausprobieren;
-- Kombinationen notieren;
-- immer nur eine Ampel verändern;
-- bereits untersuchte Kombinationen markieren;
-- nach einem festen Muster vorgehen.
+    ca. **15 Minuten**
 
-Die Lehrperson greift insbesondere die Frage nach der **Vollständigkeit** auf.
+??? abstract "Verlaufsplanung"
 
-!!! question "Zentrale Leitfrage"
+    **1. Eine konkrete Ampelstellung als Ausgangspunkt**
 
-    Woran können wir erkennen, dass unsere Liste wirklich vollständig ist?
+    Die Lehrperson öffnet Situation 2 und stellt eine konkrete Ampelkombination ein.
 
-??? note "Didaktische Absicht"
+    **Inputfragen:**
 
-    Die Wahrheitstabelle soll an dieser Stelle nicht einfach als fertige Konvention präsentiert werden.
+    > Welche Spur ist Grün, welche ist Rot?
 
-    Die Lernenden sollen zunächst selbst das Problem erleben, alle möglichen Zustände vollständig und ohne Wiederholungen zu erfassen.
+    > Wie könnten wir genau diese Ampelstellung mit `0` und `1` aufschreiben?
 
-    Dadurch wird die tabellarische Systematik als Lösung eines konkreten Problems verständlich.
+    Die Lernenden ordnen die konkrete Situation einer Tabellenzeile zu.
 
-### Phase 2 – Eine Wahrheitstabelle mit zwei Variablen erstellen
+    Dabei wird nochmals gesichert:
 
-**Ziel der Phase:**  
-Die Lernenden erstellen für zwei Variablen selbstständig eine vollständige Wahrheitstabelle und erkennen ein systematisches Ordnungsmuster.
+    - `0` bei einer Fahrspur bedeutet **Rot**.
+    - `1` bei einer Fahrspur bedeutet **Grün**.
 
-Die Lernenden arbeiten zunächst ohne die bereits ausgefüllte Wahrheitstabelle von LogicTraffic.
+    **2. Von einer Zeile zur Tabelle**
 
-!!! quote "Lernauftrag 1 – Alle Kombinationen finden"
+    Die Lehrperson zeigt bzw. thematisiert eine zweite Ampelstellung.
 
-    Die Kreuzung besitzt zwei Fahrspuren `A` und `B`.
+    **Leitfrage:**
 
-    Beide Ampeln können entweder rot (`0`) oder grün (`1`) sein.
+    > Reichen diese beiden Zustände schon aus, um alle Möglichkeiten zu beschreiben?
 
-    1. Notiert alle möglichen Kombinationen.
-    2. Ordnet sie so, dass ihr sicher sein könnt, keine Kombination vergessen zu haben.
-    3. Überlegt, wie viele Kombinationen es insgesamt geben muss.
-    4. Prüft anschliessend eure Tabelle mit LogicTraffic.
+    **Erwartete Antwort:** Nein. Beide Ampeln können jeweils Rot oder Grün sein.
 
-Ein mögliches Ergebnis ist:
+    Bei zwei Variablen `A` und `B` gibt es insgesamt:
 
-| `A` | `B` |
-| --- | --- |
-| `0` | `0` |
-| `0` | `1` |
-| `1` | `0` |
-| `1` | `1` |
+    $$
+    2 \cdot 2 = 4 = 2^2
+    $$
 
-Gemeinsam wird herausgearbeitet:
+    Kombinationen.
 
-$$
-2 \cdot 2 = 4 = 2^2
-$$
+    Eine vollständige Tabelle enthält:
 
-Beide Variablen können jeweils zwei mögliche Zustände annehmen. Deshalb entstehen insgesamt vier Kombinationen.
+    | `A` | `B` |
+    | :---: | :---: |
+    | `0` | `0` |
+    | `0` | `1` |
+    | `1` | `0` |
+    | `1` | `1` |
 
-Anschliessend wird die Tabelle um die Spalte `sicher` ergänzt.
+    **3. AB 3a bearbeiten**
 
-| `A` | `B` | `sicher` |
-| --- | --- | --- |
-| `0` | `0` | |
-| `0` | `1` | |
-| `1` | `0` | |
-| `1` | `1` | |
+    Die Lernenden lesen und ergänzen die Tabelle auf AB 3a.
 
-!!! quote "Lernauftrag 2 – Sicherheit beurteilen"
+    Dabei sollen sie wiederholt zwischen drei Darstellungen wechseln:
 
-    Prüft jede Tabellenzeile an der Kreuzung.
+    **Verkehrssituation**
 
-    Entscheidet:
+    ↔ **Ampelstellung mit Rot/Grün**
 
-    - Welche Ampeln sind grün?
-    - Welche Ampeln sind rot?
-    - Schneiden sich die Fahrwege der grünen Spuren?
-    - Ist die Kombination sicher oder unsicher?
-    - Welchen Wert erhält die Spalte `sicher`?
+    ↔ **Tabellenzeile mit `0` und `1`**
 
-Die Lernenden begründen ihre Entscheidung zunächst anhand der Verkehrssituation und überprüfen sie anschliessend mit LogicTraffic.
+    Anschliessend wird die Spalte `sicher` betrachtet.
 
-??? warning "Typischer Stolperstein: Alle Ampeln sind rot"
+    **Inputfrage:**
 
-    Manche Lernende beurteilen die Kombination `00` als unsicher, weil kein Verkehr fliessen kann.
+    > Bedeutet `1` in der Spalte `sicher` ebenfalls, dass eine Ampel Grün ist?
 
-    Hier sollte zwischen **Sicherheit** und **Effizienz** unterschieden werden.
+    **Erwartete Antwort:** Nein.
 
-    `sicher = 1` bedeutet:
+    Gemeinsam wird unterschieden:
 
-    > Es kann bei dieser Ampelstellung zu keiner Kollision kommen.
+    **Variablenspalten:**
 
-    Eine Ampelstellung kann deshalb sicher sein, obwohl kein Fahrzeug fahren darf.
+    - `0` = Rot
+    - `1` = Grün
 
-### Phase 3 – Von zwei zu drei Variablen
+    **Spalte `sicher`:**
 
-**Ziel der Phase:**  
-Die Lernenden übertragen das Vorgehen auf drei Variablen und entwickeln eine allgemeine Strategie zur vollständigen Erfassung aller Kombinationen.
+    - `0` = unsicher
+    - `1` = sicher
 
-Nun wird eine Situation mit drei Fahrspuren verwendet.
+    **4. Sicherheit beurteilen**
 
-!!! quote "Lernauftrag 3 – Drei Fahrspuren"
+    Die Lernenden beurteilen die Kombinationen zunächst anhand der Kreuzung.
 
-    Die Kreuzung besitzt nun drei Variablen:
+    Hilfsfragen:
+
+    - Welche Spuren sind gleichzeitig Grün?
+    - Schneiden sich deren Fahrwege?
+    - Kann eine Kollision entstehen?
+    - Welchen Wert erhält deshalb `sicher`?
+
+    Erst danach wird mit LogicTraffic kontrolliert.
+
+    **5. Zentrale Erkenntnis sichern**
+
+    **Abschlussfrage:**
+
+    > Was muss eine Wahrheitstabelle enthalten, damit sie wirklich vollständig ist?
+
+    **Erwartete Antwort:**
+
+    > Jede mögliche Kombination der Variablenwerte muss genau einmal vorkommen.
+
+??? note "Didaktische Hinweise"
+
+    Die zentrale Herausforderung dieser Phase ist weniger das Erstellen der Tabelle als das **Verstehen der Repräsentation**.
+
+    Besonders wichtig ist die konsequente Trennung der beiden Bedeutungen von `0` und `1`. Lernende können sonst fälschlicherweise annehmen, dass `sicher = 0` bedeute, eine bestimmte Ampel sei Rot.
+
+    Ein weiterer typischer Stolperstein ist die Kombination, bei der **alle Ampeln Rot** sind. Diese ist möglicherweise ineffizient, aber nicht automatisch unsicher. In diesem Baustein bedeutet `sicher` ausschliesslich:
+
+    > Bei dieser Ampelstellung kann keine Kollision entstehen.
+
+    LogicTraffic sollte auch hier erst **nach einer eigenen Begründung** verwendet werden.
+
+??? bug "Differenzierung"
+
+    === "Vereinfachungen"
+
+        - Nur zwei Variablen verwenden.
+        - Rot und Grün zusätzlich mit farbigen Punkten oder Ampelsymbolen markieren.
+        - Satzstarter anbieten:  
+          > „Bei `A = 1` ist …“  
+          > „Die Zeile `01` bedeutet …“  
+          > „`sicher = 1` bedeutet …“
+        - Eine Tabellenzeile gemeinsam vollständig deuten.
+        - Die Lernenden die Ampelstellung zuerst in LogicTraffic einstellen und erst danach die Zeile notieren lassen.
+
+    === "Erweiterungen"
+
+        - Die Lernenden selbst eine Tabellenzeile vorgeben und vom Partner in LogicTraffic darstellen lassen.
+        - Begründen lassen, weshalb bei zwei Variablen genau vier und nicht beispielsweise sechs Kombinationen möglich sind.
+        - Eine unvollständige Zweivariablen-Tabelle vorgeben und die fehlende Kombination ohne Ausprobieren bestimmen lassen.
+        - Bereits eine Vermutung formulieren lassen, wie viele Kombinationen bei drei Variablen entstehen müssten.
+
+### Phase 2 - Wahrheitstabellen systematisch erstellen
+
+??? success "Ziele der Einheit"
+
+    Die Lernenden können eine vollständige Wahrheitstabelle mit drei Variablen **selbstständig und nach einem erkennbaren Muster** aufbauen.
+
+    Sie erklären, weshalb bei drei Variablen acht Kombinationen entstehen, leiten daraus die allgemeine Regel $2^n$ ab und erkennen, dass die Zeilenzahl mit jeder zusätzlichen Variable stark wächst.
+
+??? example "Material"
+
+    - [:memo: AB 3b – Wahrheitstabellen systematisch erstellen](https://github.com/salomegolden/logictraffic/releases/download/ab3_v1/3b_wahrheitstabellen_systematisch_erstellen.pdf)
+    - LogicTraffic, **Situation 3**
+    - Computer oder Tablet pro Zweiergruppe
+    - Beamer oder Präsentationsbildschirm
+    - optional: Notizpapier für einen ersten eigenen Tabellenentwurf
+
+??? info "Sozialformen"
+
+    Überwiegend **Partnerarbeit**. Der Einstieg und die Herleitung von $2^n$ werden kurz im **Plenum** gesichert.
+
+    Die Lernenden sollen zuerst selbst eine Ordnungsidee entwickeln. Erst danach werden verschiedene Strategien verglichen und das binär geordnete Muster als zuverlässige Möglichkeit festgehalten.
+
+??? tip "benötigte Zeit"
+
+    ca. **25 Minuten**
+
+??? abstract "Verlaufsplanung"
+
+    **1. Problem erweitern**
+
+    Situation 3 besitzt drei Variablen:
 
     `A`, `B` und `C`.
 
-    Überlegt zuerst:
+    Bevor eine Tabelle gezeichnet wird, fragt die Lehrperson:
 
-    1. Wie viele verschiedene Kombinationen erwartet ihr?
-    2. Wie könnt ihr diese Anzahl berechnen?
-    3. Wie könnt ihr die Kombinationen so ordnen, dass keine fehlt und keine doppelt vorkommt?
+    > Wie viele verschiedene Ampelstellungen müsste es jetzt insgesamt geben?
 
-Gemeinsam wird hergeleitet:
+    Die Lernenden können zunächst schätzen oder aus der Zweivariablen-Situation argumentieren.
 
-$$
-2 \cdot 2 \cdot 2 = 8 = 2^3
-$$
+    Gemeinsam wird hergeleitet:
 
-Anschliessend erstellen die Lernenden eine vollständige Wahrheitstabelle.
+    $$
+    2 \cdot 2 \cdot 2 = 8 = 2^3
+    $$
 
-| `A` | `B` | `C` | `sicher` |
-| --- | --- | --- | --- |
-| `0` | `0` | `0` | |
-| `0` | `0` | `1` | |
-| `0` | `1` | `0` | |
-| `0` | `1` | `1` | |
-| `1` | `0` | `0` | |
-| `1` | `0` | `1` | |
-| `1` | `1` | `0` | |
-| `1` | `1` | `1` | |
+    **2. Vollständigkeit als Problem formulieren**
 
-Die Lernenden können dabei das geordnete Muster erkennen:
+    **Leitfrage:**
 
-`000`, `001`, `010`, `011`, `100`, `101`, `110`, `111`
+    > Wie können wir acht Kombinationen so aufschreiben, dass garantiert keine fehlt und keine doppelt vorkommt?
 
-!!! info "Systematisches Muster"
+    Zunächst dürfen eigene Strategien entstehen.
 
-    Die Kombinationen können ähnlich wie beim binären Zählen geordnet werden.
+    Mögliche Ideen:
 
-    Bei drei Variablen sieht das Muster beispielsweise so aus:
+    - bereits verwendete Kombinationen abhaken;
+    - immer nur einen Wert verändern;
+    - nach einem regelmässigen Wechselmuster vorgehen;
+    - die Kombinationen wie Binärzahlen ordnen.
+
+    **3. AB 3b bearbeiten**
+
+    Die Lernenden erstellen die vollständige Tabelle selbstständig.
+
+    Ein mögliches systematisches Ergebnis ist:
+
+    | `A` | `B` | `C` |
+    | :---: | :---: | :---: |
+    | `0` | `0` | `0` |
+    | `0` | `0` | `1` |
+    | `0` | `1` | `0` |
+    | `0` | `1` | `1` |
+    | `1` | `0` | `0` |
+    | `1` | `0` | `1` |
+    | `1` | `1` | `0` |
+    | `1` | `1` | `1` |
+
+    Die Lernenden untersuchen das Wechselmuster:
 
     **Variable `C`:**
 
@@ -291,323 +396,332 @@ Die Lernenden können dabei das geordnete Muster erkennen:
 
     `0, 0, 0, 0, 1, 1, 1, 1`
 
-    Dadurch kann jede mögliche Kombination genau einmal aufgeschrieben werden.
+    **Inputfrage:**
 
-Anschliessend beurteilen die Lernenden auch bei dieser Kreuzung die einzelnen Kombinationen als sicher oder unsicher.
+    > Warum können wir mit diesem Muster sicher sein, dass jede Kombination genau einmal vorkommt?
 
-LogicTraffic dient dabei zur Überprüfung der selbst erstellten Tabelle.
+    **Erwartete Antwort:**
 
-!!! tip "LogicTraffic als Kontrollwerkzeug"
+    Die Werte wechseln nach einem festen System. Dadurch werden nacheinander alle unterschiedlichen Dreierkombinationen erzeugt, ohne dass eine wiederholt oder übersprungen wird.
 
-    Lassen Sie die Lernenden die Wahrheitstabelle möglichst zuerst selbst erstellen.
+    **4. Spalte `sicher` ergänzen**
 
-    Erst danach werden die Kombinationen in LogicTraffic überprüft.
+    Die Lernenden untersuchen Situation 3 und bewerten jede Zeile.
 
-    Dadurch bleibt die Lernumgebung ein Werkzeug zur Exploration und Rückmeldung, ohne den eigentlichen Denkprozess vorwegzunehmen.
+    Da `A` und `B` parallel verlaufen und `C` beide kreuzt, sind diejenigen Kombinationen unsicher, bei denen `C` gleichzeitig mit `A` oder `B` Grün hat.
 
-??? tip "Aufgabe für schnellere Lernende"
+    Eine korrekte Tabelle lautet:
 
-    Geben Sie eine Wahrheitstabelle mit eingebauten Fehlern vor.
+    | `A` | `B` | `C` | `sicher` |
+    | :---: | :---: | :---: | :---: |
+    | `0` | `0` | `0` | `1` |
+    | `0` | `0` | `1` | `1` |
+    | `0` | `1` | `0` | `1` |
+    | `0` | `1` | `1` | `0` |
+    | `1` | `0` | `0` | `1` |
+    | `1` | `0` | `1` | `0` |
+    | `1` | `1` | `0` | `1` |
+    | `1` | `1` | `1` | `0` |
 
-    Mögliche Fehler:
+    Die Tabelle wird anschliessend mit LogicTraffic kontrolliert.
 
-    - eine Kombination kommt doppelt vor;
-    - eine Kombination fehlt;
-    - eine sichere Kombination ist als `sicher = 0` markiert;
-    - eine unsichere Kombination ist als `sicher = 1` markiert.
+    **5. Von drei Variablen zu $2^n$**
 
-    Auftrag:
+    Die bisherigen Ergebnisse werden verglichen:
 
-    > Findet die Fehler, begründet eure Entscheidung und überprüft die Korrektur mit LogicTraffic.
+    | Variablen | Kombinationen |
+    | ---: | ---: |
+    | 1 | $2$ |
+    | 2 | $4$ |
+    | 3 | $8$ |
+    | 4 | $16$ |
+    | 5 | $32$ |
 
-### Phase 4 – Grenzen von Wahrheitstabellen
+    **Inputfrage:**
 
-**Ziel der Phase:**  
-Die Lernenden erkennen das exponentielle Wachstum von Wahrheitstabellen und entwickeln ein Bedürfnis nach einer kompakteren Darstellung.
+    > Was passiert jedes Mal, wenn eine weitere Variable hinzukommt?
 
-Die bisherigen Ergebnisse werden gemeinsam gesammelt.
+    **Erwartete Antwort:** Die Zahl der möglichen Kombinationen verdoppelt sich.
 
-| Anzahl Variablen | Anzahl Tabellenzeilen |
-| ---: | ---: |
-| 1 | $2^1 = 2$ |
-| 2 | $2^2 = 4$ |
-| 3 | $2^3 = 8$ |
-| 4 | $2^4 = 16$ |
-| 5 | $2^5 = 32$ |
+    Daraus wird die Regel gesichert:
 
-Die Lernenden formulieren daraus die allgemeine Regel:
+    $$
+    \text{Anzahl der möglichen Belegungen} = 2^n
+    $$
 
-$$
-\text{Bei } n \text{ Variablen gibt es } 2^n \text{ mögliche Belegungen.}
-$$
+    **6. Skalierungsproblem erzeugen**
 
-Nun wird eine Kreuzung mit fünf Fahrspuren gezeigt.
+    Abschliessend wird gemeinsam berechnet:
 
-!!! quote "Impuls"
+    Bei fünf Variablen:
 
-    Stellt euch vor, wir müssten für diese Kreuzung jede einzelne Ampelkombination von Hand untersuchen.
+    $$
+    2^5 = 32
+    $$
 
-    - Wie viele Tabellenzeilen benötigen wir?
-    - Wie übersichtlich ist diese Tabelle noch?
-    - Was würde bei zehn Ampeln passieren?
+    Bei zehn Variablen:
 
-Bei fünf Variablen entstehen:
+    $$
+    2^{10} = 1024
+    $$
 
-$$
-2^5 = 32
-$$
+    **Leitfrage:**
 
-mögliche Kombinationen.
+    > Wahrheitstabellen sind vollständig – aber sind sie bei sehr vielen Variablen noch eine praktische Darstellung?
 
-Bei zehn Variablen wären es bereits:
+    Die Lernenden halten erste Vor- und Nachteile fest.
 
-$$
-2^{10} = 1024
-$$
+??? note "Didaktische Hinweise"
 
-mögliche Kombinationen.
+    Die entscheidende Leistung besteht nicht darin, die Reihenfolge `000` bis `111` auswendig zu lernen. Die Lernenden sollen verstehen, **weshalb ein systematisches Muster Vollständigkeit garantiert**.
 
-!!! question "Zentrale Leitfrage"
+    Unterschiedliche korrekte Reihenfolgen der Zeilen sind grundsätzlich zulässig. Entscheidend ist, dass:
 
-    Wahrheitstabellen können alle möglichen Fälle vollständig darstellen.
+    - jede mögliche Kombination genau einmal vorkommt;
+    - keine Kombination fehlt;
+    - keine Kombination doppelt vorkommt.
 
-    **Können wir dieselbe Sicherheitsregel auch kürzer beschreiben, ohne jede einzelne Kombination aufzuschreiben?**
+    Das binäre Zählmuster ist deshalb als besonders gut überprüfbare Strategie zu vermitteln, nicht als einzig erlaubte Reihenfolge.
 
-??? info "Stärke und Grenze von Wahrheitstabellen"
+    Die Regel $2^n$ sollte aus der konkreten Situation heraus entwickelt werden:
 
-    Wahrheitstabellen besitzen einen wichtigen Vorteil:
+    Jede weitere Variable besitzt zwei mögliche Werte und verdoppelt deshalb die Zahl der Kombinationen.
 
-    > Sie zeigen **vollständig und eindeutig alle möglichen Zustände**.
+    LogicTraffic bleibt ein **Kontrollwerkzeug**. Die Tabelle sollte möglichst zuerst von den Lernenden selbst konstruiert werden.
 
-    Gleichzeitig zeigt sich eine Grenze:
+??? bug "Differenzierung"
 
-    > Mit jeder zusätzlichen Variable verdoppelt sich die Anzahl der möglichen Belegungen.
+    === "Vereinfachungen"
 
-    Dadurch werden Wahrheitstabellen bei vielen Variablen schnell sehr umfangreich.
+        - Die acht Tabellenzeilen bereits vorzeichnen und nur die Werte eintragen lassen.
+        - Das Wechselmuster für `C` vorgeben und `B` sowie `A` ergänzen lassen.
+        - Die Zweivariablen-Tabelle daneben sichtbar lassen.
+        - Mit der Frage unterstützen:  
+          > „Wie oft muss sich der Wert in dieser Spalte ändern?“
+        - Die Spalte `sicher` erst nach einer vollständigen Variablentabelle ergänzen.
+        - Die Herleitung zunächst als `2 · 2 · 2 = 8` notieren und erst danach `2^3` einführen.
 
-    Diese Erkenntnis motiviert die Suche nach einer kompakteren symbolischen Darstellung.
+    === "Erweiterungen"
 
-### Phase 5 – Ergebnisse sichern und zur Formel überleiten
+        - Eine vollständige Tabelle für vier Variablen ohne Vorlage beginnen lassen.
+        - Vorhersagen lassen, welches Wechselmuster eine vierte Variable besitzt.
+        - Für `n = 6`, `8`, `10` oder `12` die Zeilenzahl berechnen lassen.
+        - Verschiedene korrekte Ordnungssysteme vergleichen und hinsichtlich Fehlersicherheit beurteilen.
+        - Erklären lassen, weshalb das binäre Zählmuster auch bei beliebig vielen Variablen funktioniert.
 
-**Ziel der Phase:**  
-Die Lernenden sichern die grundlegende Systematik von Wahrheitstabellen und formulieren erste Sicherheitsregeln in Alltagssprache.
+### Phase 3 - Herausforderung – Fehler finden
 
-Gemeinsam werden die wichtigsten Erkenntnisse festgehalten.
+??? success "Ziele der Einheit"
 
-??? example "Mögliche Ergebnissicherung"
+    Die Lernenden wenden ihr Wissen über Vollständigkeit, Ordnung und Sicherheit auf eine fehlerhafte Wahrheitstabelle an.
 
-    **Wahrheitstabellen**
+    Sie können zwischen **strukturellen Fehlern** und **inhaltlichen Fehlern** unterscheiden, eine Tabelle korrigieren und ihre Korrekturen fachlich begründen.
 
-    - Jede Variable besitzt zwei mögliche Werte: `0` und `1`.
-    - Bei $n$ Variablen gibt es $2^n$ mögliche Kombinationen.
-    - Eine vollständige Wahrheitstabelle enthält jede mögliche Kombination genau einmal.
-    - In LogicTraffic bedeutet:
-        - `0` bei einer Fahrspur = Rot
-        - `1` bei einer Fahrspur = Grün
-    - Die Spalte `sicher` bewertet die gesamte Ampelkombination:
-        - `0` = unsicher
-        - `1` = sicher
-    - Wahrheitstabellen sind vollständig und eindeutig, werden bei vielen Variablen aber sehr umfangreich.
+    Zum Abschluss erkennen sie die Wahrheitstabelle als zuverlässiges, aber bei vielen Variablen umfangreiches Werkzeug und formulieren damit die Ausgangsfrage für Baustein 4.
 
-Anschliessend formulieren die Lernenden für eine einfache Kreuzung eine Sicherheitsregel zunächst in Alltagssprache.
+??? example "Material"
 
-Beispiele:
+    - [:memo: AB 3c – Herausforderung: Fehler finden](https://github.com/salomegolden/logictraffic/releases/download/ab3_v1/3c_herausforderung_fehler.pdf)
+    - LogicTraffic, **Situation 4**
+    - Computer oder Tablet pro Zweiergruppe
+    - Ergebnisse bzw. Merksätze aus Phase 2
 
-> Wenn Spur `C` grün ist, müssen die kreuzenden Spuren rot sein.
+??? info "Sozialformen"
 
-> `A` und `C` dürfen nicht gleichzeitig grün sein.
+    Zunächst kurze **Einzelarbeit**, damit jede Person die Tabelle selbst untersucht. Anschliessend **Partnervergleich** und gemeinsame Sicherung im **Plenum**.
 
-> Wenn `A` grün ist, muss `B` rot sein.
+    Die Kontrolle mit LogicTraffic erfolgt erst nach der eigenen Fehlersuche.
 
-Die Regeln werden an dieser Stelle noch nicht formalisiert.
+??? tip "benötigte Zeit"
 
-!!! question "Ausblick"
+    ca. **15–20 Minuten**
 
-    Wie könnten wir eine solche Regel so aufschreiben, dass sie eindeutig und gleichzeitig viel kürzer als eine vollständige Wahrheitstabelle ist?
+??? abstract "Verlaufsplanung"
 
-Damit ist der Übergang zu Baustein 4 vorbereitet.
+    **1. Situation 4 analysieren**
 
-## Ergebnissicherung
+    Situation 4 besitzt die Variablen:
 
-Am Ende des Bausteins sollten die Lernenden eine einfache Wahrheitstabelle selbstständig aufbauen und die grundlegende Regel $2^n$ erklären können.
+    `B`, `C` und `D`.
 
-Eine mögliche Merkhilfe:
+    `B` und `C` verlaufen parallel, während `D` beide Fahrwege kreuzt.
 
-| Begriff | Bedeutung |
-| --- | --- |
-| Variable | bezeichnet eine Fahrspur |
-| `0` | Ampel ist rot |
-| `1` | Ampel ist grün |
-| Belegung | eine bestimmte Kombination der Variablenwerte |
-| Wahrheitstabelle | vollständige Sammlung aller möglichen Belegungen |
-| `sicher = 1` | Kombination ist kollisionsfrei |
-| `sicher = 0` | Kombination ist nicht kollisionsfrei |
-| $2^n$ | Anzahl möglicher Belegungen bei $n$ Variablen |
+    Vor der Fehlersuche wird kurz geklärt:
 
-!!! success "Ich kann …"
+    - `B` und `C` dürfen grundsätzlich gleichzeitig Grün haben.
+    - `D` darf nicht gleichzeitig mit `B` oder `C` Grün haben.
 
-    - für zwei Variablen alle vier Kombinationen aufschreiben;
-    - für drei Variablen alle acht Kombinationen aufschreiben;
-    - erklären, warum die Anzahl der Kombinationen $2^n$ beträgt;
-    - eine Tabellenzeile an der Kreuzung darstellen;
-    - entscheiden und begründen, ob eine Kombination sicher ist;
-    - erklären, warum Wahrheitstabellen bei vielen Variablen sehr umfangreich werden.
+    **2. Fehlerhafte Tabelle auf AB 3c untersuchen**
 
-## Erwartete Ergebnisse
+    Die Tabelle enthält bewusst verschiedene Fehlertypen.
 
-Die Lernenden sollten am Ende beispielsweise erklären können:
+    Die Lernenden erhalten den Auftrag, nicht einfach nur „falsche Zeilen“ zu markieren, sondern systematisch zwei Fragen zu prüfen:
 
-> Bei drei Variablen gibt es acht mögliche Kombinationen, weil jede Variable zwei Werte haben kann:
+    **Vollständigkeit**
 
-$$
-2 \cdot 2 \cdot 2 = 8
-$$
+    > Kommt jede mögliche Kombination genau einmal vor?
 
-> Eine Wahrheitstabelle ist vollständig, wenn jede mögliche Kombination genau einmal vorkommt.
+    **Sicherheit**
 
-> `A = 1` bedeutet, dass die Ampel der Spur `A` grün ist. Das bedeutet aber noch nicht, dass die gesamte Verkehrssituation sicher ist.
+    > Ist der Wert in der Spalte `sicher` fachlich korrekt?
 
-> Ob eine Kombination sicher ist, hängt davon ab, welche Fahrspuren gleichzeitig grün sind und ob sich ihre Fahrwege kreuzen.
+    In der vorbereiteten Fehlertabelle sind insbesondere folgende Probleme enthalten:
 
-> Bei fünf Variablen benötigt eine vollständige Wahrheitstabelle bereits $32$ Zeilen.
+    - die Kombination `101` kommt doppelt vor;
+    - die Kombination `110` fehlt;
+    - `011` ist fälschlicherweise als sicher markiert;
+    - `111` ist fälschlicherweise als sicher markiert.
 
-## Typische Lernschwierigkeiten
+    **3. Fehler kategorisieren**
 
-??? warning "0 und 1 werden auf beiden Ebenen verwechselt"
+    Die Lernenden ordnen die Fehler zwei Kategorien zu.
 
-    Wiederholen Sie die Unterscheidung:
+    **Strukturelle Fehler:**
 
-    **Variablenspalten:**
+    - doppelte Kombination;
+    - fehlende Kombination.
 
-    - `0` = Rot
-    - `1` = Grün
+    **Inhaltliche Fehler:**
 
-    **Spalte `sicher`:**
+    - falscher Wert in der Spalte `sicher`.
 
-    - `0` = unsicher
-    - `1` = sicher
+    **Inputfrage:**
 
-??? warning "Kombinationen werden zufällig aufgeschrieben"
+    > Warum reicht es nicht, nur zu zählen, ob die Tabelle acht Zeilen besitzt?
 
-    Lernende finden möglicherweise verschiedene Kombinationen, können aber nicht begründen, warum ihre Liste vollständig ist.
+    **Erwartete Antwort:**
 
-    Fordern Sie deshalb ein erkennbares Ordnungsmuster ein.
+    Auch eine Tabelle mit acht Zeilen kann unvollständig sein, wenn eine Kombination doppelt vorkommt und dafür eine andere fehlt.
 
-    Die entscheidende Frage lautet:
+    **4. Tabelle korrigieren**
 
-    > Woher weisst du, dass keine Kombination mehr fehlt?
+    Die korrekte Wahrheitstabelle für Situation 4 lautet:
 
-??? warning "Kombinationen werden vergessen oder doppelt notiert"
+    | `B` | `C` | `D` | `sicher` |
+    | :---: | :---: | :---: | :---: |
+    | `0` | `0` | `0` | `1` |
+    | `0` | `0` | `1` | `1` |
+    | `0` | `1` | `0` | `1` |
+    | `0` | `1` | `1` | `0` |
+    | `1` | `0` | `0` | `1` |
+    | `1` | `0` | `1` | `0` |
+    | `1` | `1` | `0` | `1` |
+    | `1` | `1` | `1` | `0` |
 
-    Lassen Sie die Lernenden ihre Tabelle anhand des systematischen Musters überprüfen.
+    Die Lernenden begründen mindestens zwei ihrer Korrekturen.
 
-    Bei drei Variablen kann zusätzlich kontrolliert werden:
+    **Mögliche Begründung für `011`:**
 
-    > Enthält die Tabelle genau acht unterschiedliche Zeilen?
+    > `C = 1` und `D = 1`. Beide Spuren haben Grün und ihre Fahrwege kreuzen sich. Deshalb ist die Kombination unsicher und `sicher = 0`.
 
-??? warning "Alle Ampeln auf Rot wird als unsicher interpretiert"
+    **Mögliche Begründung für `110`:**
 
-    Wenn alle Ampeln rot sind, fliesst zwar kein Verkehr, es kann aber auch keine Kollision entstehen.
+    > Diese Kombination fehlte. Sie muss enthalten sein, weil bei drei Variablen alle acht möglichen Belegungen genau einmal in der Tabelle vorkommen müssen.
 
-    Sicherheit und Effizienz müssen deshalb getrennt beurteilt werden.
+    **5. Mit LogicTraffic überprüfen**
 
-??? warning "Die Formel $2^n$ wird nur auswendig gelernt"
+    Erst nach der Korrektur wird Situation 4 in LogicTraffic verwendet.
 
-    Entwickeln Sie die Regel möglichst aus konkreten Beispielen:
+    Die Lernenden vergleichen:
 
-    - eine Variable: $2$
-    - zwei Variablen: $2 \cdot 2 = 4$
-    - drei Variablen: $2 \cdot 2 \cdot 2 = 8$
-    - vier Variablen: $2 \cdot 2 \cdot 2 \cdot 2 = 16$
+    - Sind alle acht Kombinationen vorhanden?
+    - Stimmen die Werte der Spalte `sicher`?
+    - Falls noch eine Abweichung besteht: Handelt es sich um einen Struktur- oder einen Sicherheitsfehler?
 
-    Erst danach wird zu $2^n$ verallgemeinert.
+    **6. Baustein sichern**
 
-## Differenzierung
+    Gemeinsam werden drei Kernregeln formuliert:
 
-=== "Unterstützende Massnahmen"
+    **1. Vollständigkeit**
 
-    - zunächst nur mit zwei Variablen arbeiten;
-    - Ampelzustände zusätzlich mit roten und grünen Symbolen darstellen;
-    - eine Wahrheitstabelle teilweise vorausfüllen;
-    - Karten mit allen möglichen Kombinationen zum Sortieren bereitstellen;
-    - das Wechselmuster der einzelnen Spalten visuell hervorheben;
-    - die Anzahl der Zustände zunächst als Produkt berechnen, bevor $2^n$ eingeführt wird;
-    - konkrete Ampelstellungen mit dem enaktiven Material aus Baustein 1 nachstellen;
-    - Satzstarter anbieten:
+    Bei $n$ Variablen gibt es $2^n$ mögliche Belegungen.
 
-        > Diese Kombination ist sicher, weil …
+    **2. Systematik**
 
-        > Diese Kombination ist unsicher, weil …
+    Jede mögliche Belegung muss genau einmal vorkommen.
 
-        > Die Tabelle ist vollständig, weil …
+    **3. Bedeutung**
 
-        > Bei drei Variablen gibt es … Kombinationen, weil …
+    Die Spalte `sicher` bewertet die gesamte Ampelkombination und nicht eine einzelne Fahrspur.
 
-=== "Weiterführende Aufgaben"
+    **7. Ausblick auf Baustein 4**
 
-    - eine Wahrheitstabelle für vier Variablen erstellen;
-    - eine fehlerhafte Wahrheitstabelle korrigieren;
-    - eine allgemeine Regel für das Wechselmuster der einzelnen Spalten formulieren;
-    - für eine unbekannte Anzahl Variablen die Anzahl der Tabellenzeilen vorhersagen;
-    - untersuchen, ab welcher Anzahl Variablen eine Wahrheitstabelle mehr als 100 Zeilen besitzt;
-    - untersuchen, ab welcher Anzahl Variablen eine Wahrheitstabelle mehr als 1000 Zeilen besitzt;
-    - zu einer Wahrheitstabelle Sicherheitsregeln in Alltagssprache formulieren.
+    Die Lehrperson greift nochmals das Wachstum auf:
 
-!!! tip "Kooperative Durchführung"
+    $$
+    2^5 = 32
+    $$
 
-    Auch in diesem Baustein können Rollen innerhalb der Partnerarbeit bewusst gewechselt werden.
+    und
 
-    Eine mögliche Rollenverteilung:
+    $$
+    2^{10} = 1024
+    $$
 
-    - **Person 1:** erstellt bzw. ergänzt die Wahrheitstabelle;
-    - **Person 2:** kontrolliert Vollständigkeit und Begründungen.
+    **Abschlussfrage:**
 
-    Anschliessend werden die Rollen gewechselt.
+    > Können wir dieselbe Sicherheitsregel vielleicht ausdrücken, ohne dafür jede mögliche Kombination einzeln aufzuschreiben?
 
-## Didaktische Hinweise
+    Diese Frage bildet den direkten Übergang zu [Baustein 4 – Logische Formeln](baustein4-boolesche-algebra.md).
 
-Dieser Baustein bildet innerhalb der Unterrichtsreihe den Übergang von der Nutzung einer bereits vorhandenen Darstellung zur **eigenständigen systematischen Modellierung**.
+??? note "Didaktische Hinweise"
 
-In Baustein 2 haben die Lernenden die Wahrheitstabelle bereits als symbolische Darstellung einer Verkehrssituation kennengelernt. Nun steht die Frage im Zentrum, wie eine solche Darstellung vollständig und systematisch konstruiert werden kann.
+    AB 3c ist besonders geeignet, um sichtbar zu machen, ob die Lernenden eine Wahrheitstabelle **verstanden** haben oder lediglich ein Muster reproduzieren können.
 
-Wichtig ist deshalb, die fertige Wahrheitstabelle in LogicTraffic nicht zu früh als Lösung vorzugeben. Die Lernenden sollen zunächst selbst eine Strategie entwickeln, mit der alle möglichen Belegungen vollständig und ohne Wiederholungen erfasst werden können.
+    Die Fehlersuche sollte deshalb nicht mit LogicTraffic beginnen. Sonst reduziert sich die Aufgabe auf einen blossen Abgleich mit einer fertigen Tabelle.
 
-Die Regel $2^n$ sollte ebenfalls möglichst nicht als fertige Formel präsentiert werden. Sie entsteht aus den konkreten Fällen mit zwei und drei Variablen und wird anschliessend verallgemeinert.
+    Die Unterscheidung zwischen Struktur- und Inhaltsfehlern ist didaktisch besonders wertvoll:
 
-Der abschliessende Vergleich verschiedener Variablenzahlen erzeugt einen gezielten kognitiven Konflikt: Wahrheitstabellen ermöglichen eine vollständige Beschreibung aller möglichen Fälle, werden mit zunehmender Anzahl von Variablen jedoch schnell sehr umfangreich. Dadurch entsteht aus dem Problem heraus die Motivation für eine kompaktere formale Darstellung.
+    - Ein **Strukturfehler** betrifft die vollständige Erfassung des Zustandsraums.
+    - Ein **Inhaltsfehler** betrifft die Bewertung einer konkreten Verkehrssituation.
 
-## Übergang zum nächsten Baustein
+    Bei Situation 4 ist zudem darauf zu achten, dass `B` und `C` parallel verlaufen. Die Kombination `110` ist deshalb **sicher**. Entscheidend ist nicht, wie viele Ampeln gleichzeitig Grün zeigen, sondern ob sich die grünen Fahrwege tatsächlich kreuzen.
 
-Wahrheitstabellen besitzen einen grossen Vorteil:
+    Der Ausblick auf Baustein 4 sollte die Wahrheitstabelle nicht abwerten. Sie bleibt ein sehr wichtiges Werkzeug zur vollständigen Beschreibung und später zur Überprüfung logischer Formeln. Das Problem ist ausschliesslich ihre mangelnde Kompaktheit bei vielen Variablen.
 
-> Sie zeigen vollständig und eindeutig, was bei jeder möglichen Kombination passiert.
+??? bug "Differenzierung"
 
-Bei vielen Variablen werden sie jedoch sehr umfangreich.
+    === "Vereinfachungen"
 
-Eine Kreuzung mit fünf Fahrspuren benötigt bereits:
+        - Die Fehlersuche in zwei Schritte trennen: zuerst nur die Variablenspalten, danach die Spalte `sicher`.
+        - Eine Checkliste bereitstellen:  
+          1. Gibt es acht Zeilen?  
+          2. Kommt jede Kombination genau einmal vor?  
+          3. Stimmen die Sicherheitswerte?
+        - Die Kombinationen `000` bis `111` als Referenz danebenlegen.
+        - Nur zwei der vier eingebauten Fehler suchen lassen und die übrigen gemeinsam besprechen.
+        - Die Kreuzung von Situation 4 während der Sicherheitsprüfung sichtbar lassen.
 
-$$
-2^5 = 32
-$$
+    === "Erweiterungen"
 
-Tabellenzeilen.
+        - Eine eigene fehlerhafte Wahrheitstabelle erstellen und mit einem anderen Tandem austauschen.
+        - Die Fehler so wählen, dass die Tabelle weiterhin acht Zeilen besitzt und der Strukturfehler deshalb nicht durch blosses Zählen auffällt.
+        - Ohne LogicTraffic begründen, welche Zeilen in Situation 4 zwingend `sicher = 0` sein müssen.
+        - Erklären, weshalb `110` trotz zweier grüner Ampeln sicher ist.
+        - Eine Strategie formulieren, mit der eine beliebige Wahrheitstabelle systematisch auf Vollständigkeit geprüft werden kann.
 
-Bei zehn Fahrspuren wären es sogar:
+## Abschluss des Bausteins
 
-$$
-2^{10} = 1024
-$$
+Am Ende des Bausteins haben die Lernenden Wahrheitstabellen auf drei Ebenen untersucht:
 
-Tabellenzeilen.
+1. **lesen und deuten** – Was beschreibt eine Tabellenzeile?
+2. **systematisch erzeugen** – Wie erfassen wir alle möglichen Zustände vollständig?
+3. **prüfen und korrigieren** – Wie erkennen wir strukturelle und inhaltliche Fehler?
 
-Damit entsteht die zentrale Frage:
+!!! success "Von einzelnen Zuständen zur vollständigen Darstellung"
 
-!!! question "Übergang zu Baustein 4"
+    Eine Wahrheitstabelle ist eine systematische Methode, um den vollständigen Zustandsraum eines Problems darzustellen.
 
-    Müssen wir wirklich jede einzelne mögliche Ampelstellung aufschreiben?
+    Für $n$ Variablen mit jeweils zwei möglichen Werten enthält sie:
 
-    **Oder können wir die Sicherheitsregel mit einer kurzen und eindeutigen Formel beschreiben?**
+    $$
+    2^n
+    $$
 
-Diese Frage bildet den Ausgangspunkt für:
+    Zeilen.
 
-[Baustein 4 – Boolesche Formeln](baustein4-boolesche-algebra.md)
+    Diese Vollständigkeit ist ihre grosse Stärke. Gleichzeitig führt genau sie bei vielen Variablen zu sehr grossen Tabellen.
+
+    Daraus entsteht die Anschlussfrage für Baustein 4:
+
+    > **Wie können wir dieselbe logische Funktion kompakter beschreiben?**
