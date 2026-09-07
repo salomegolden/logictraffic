@@ -41,13 +41,9 @@ Dabei wechseln sie zwischen Alltagssprache, Verkehrssituation, Wahrheitstabelle 
     **Erweiterter Baustein**
 
     - [:memo: 4e – Anders gebaut, gleich gemeint](https://github.com/salomegolden/logictraffic/releases/download/arbeitsbl%C3%A4tter/4e_knf_dnf.pdf)
-    - [:memo: 4f – Von der Wahrheitstabelle zur Formel](LINK_4F_ERGÄNZEN)
+    - [:memo: 4f – Von der Wahrheitstabelle zur Formel](https://github.com/salomegolden/logictraffic/releases/download/arbeitsbl%C3%A4tter/4f_kknf_kdnf.pdf)
     - [:memo: 4g – Lang, kurz, gleichwertig?](https://github.com/salomegolden/logictraffic/releases/download/arbeitsbl%C3%A4tter/4g_vergleich_gleichwertigkeit.pdf)
     - [:memo: 4h – Transferaufgabe](https://github.com/salomegolden/logictraffic/releases/download/arbeitsbl%C3%A4tter/4h_transfer.pdf)
-
-    !!! warning "Link zu 4f prüfen"
-
-        Im bisherigen Code zeigte der Link zu **4f** auf dieselbe Datei wie **4g**. Deshalb ist hier bewusst ein Platzhalter gesetzt. Nach dem Upload von 4f muss nur noch `LINK_4F_ERGÄNZEN` ersetzt werden.
 
 ## Lernziele
 
@@ -425,7 +421,7 @@ Die Vertiefung kann direkt an den Basisteil angeschlossen oder in einer zusätzl
     **Ziele:** Die Lernenden erkennen, wie KDNF und KKNF nach einem festen Verfahren direkt aus einer Wahrheitstabelle entstehen.
 
     **Material:**  
-    [:memo: AB 4f – Von der Wahrheitstabelle zur Formel](LINK_4F_ERGÄNZEN)
+    [:memo: AB 4f – Von der Wahrheitstabelle zur Formel](https://github.com/salomegolden/logictraffic/releases/download/arbeitsbl%C3%A4tter/4f_kknf_kdnf.pdf)
 
     Die kanonischen Formen dienen hier als **Brücke zwischen Wahrheitstabelle und Formel**.
 
