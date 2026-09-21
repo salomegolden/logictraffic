@@ -19,12 +19,17 @@ Ausgehend von einzelnen konkreten Situationen entsteht schrittweise das Bedürfn
     kein Vorwissen erforderlich
 
     **:package: Material:**  
-    Kreuzungsfeld, Fahrzeuge, Richtungskarten, wendbare Ampelplättchen und Arbeitsblatt
+    Kreuzungsfeld, Fahrzeuge, Richtungskarten, wendbare Ampelplättchen und Arbeitsblätter
 
 !!! note "Downloads zu Baustein 1"
 
-    - [:package: Druckvorlage für das enaktive Material](https://github.com/salomegolden/logictraffic/releases/download/material-v1/b1_druckvorlage_enaktives_material.pdf)
-    - [:memo: AB1.1 „Kreuzung beschreiben“](https://github.com/salomegolden/logictraffic/releases/download/material-v1/b1_kreuzungen_beschreiben_AB.pdf)
+    - [:package: 3D-Druckmodelle für das enaktive Material](https://github.com/salomegolden/logictraffic/releases/tag/3d_v1)
+    - [:package: M1.1 – Autos, Ampeln und Pfeile (PDF)](https://github.com/salomegolden/logictraffic/releases/download/material-v2/M1_1_Autos_Ampeln_Pfeile.pdf)
+    - [:memo: M1.2 – Aufgabenkarten (PDF)](https://github.com/salomegolden/logictraffic/releases/download/material-v2/M1_2_Aufgabenkarten.pdf)
+    - [:package: M1.3 – Kreuzungen (PDF)](https://github.com/salomegolden/logictraffic/releases/download/material-v2/M1_3_Kreuzungen.pdf)
+    - [:memo: 1a – Kreuzungen legen (PDF)](https://github.com/salomegolden/logictraffic/releases/download/ab1_v2/1a_Kreuzungen_legen.pdf)
+    - [:memo: 1b – Sichere Ampelstellungen finden (PDF)](https://github.com/salomegolden/logictraffic/releases/download/ab1_v2/1b_sichere_Ampelstellungen_finden.pdf)
+    - [:memo: 1c – Alle Möglichkeiten erfassen (PDF)](https://github.com/salomegolden/logictraffic/releases/download/ab1_v2/1c_Alle_Moglichkeiten_erfassen.pdf)
     - [:material-image-outline: Bild vom enaktiven Material](https://github.com/salomegolden/logictraffic/releases/download/images-v1/enaktivesmaterial.jpeg)
 
 ## Lernziele
@@ -48,10 +53,12 @@ Die Lernenden können …
     - Richtungskarten für die vorgesehenen Fahrwege;
     - pro verwendeter Spur ein wendbares Ampelplättchen;
     - eine leere Tabelle zum Festhalten der Ampelzustände;
-    - die [Druckvorlage für das enaktive Material](https://github.com/salomegolden/logictraffic/releases/download/material-v1/b1_druckvorlage_enaktives_material.pdf);
-    - optional das Arbeitsblatt [AB1.1 „Kreuzung beschreiben“](https://github.com/salomegolden/logictraffic/releases/download/material-v1/b1_kreuzungen_beschreiben_AB.pdf) zur Ergebnissicherung.
+    - die Druckvorlagen [M1.1 – Autos, Ampeln und Pfeile](https://github.com/salomegolden/logictraffic/releases/download/material-v2/M1_1_Autos_Ampeln_Pfeile.pdf), [M1.2 – Aufgabenkarten](https://github.com/salomegolden/logictraffic/releases/download/material-v2/M1_2_Aufgabenkarten.pdf) und [M1.3 – Kreuzungen](https://github.com/salomegolden/logictraffic/releases/download/material-v2/M1_3_Kreuzungen.pdf);
+    - die Arbeitsblätter [1a – Kreuzungen legen](https://github.com/salomegolden/logictraffic/releases/download/ab1_v2/1a_Kreuzungen_legen.pdf), [1b – Sichere Ampelstellungen finden](https://github.com/salomegolden/logictraffic/releases/download/ab1_v2/1b_sichere_Ampelstellungen_finden.pdf) und [1c – Alle Möglichkeiten erfassen](https://github.com/salomegolden/logictraffic/releases/download/ab1_v2/1c_Alle_Moglichkeiten_erfassen.pdf).
 
 ??? tip "Tipps zum enaktiven Material"
+
+    Das enaktive Material kann auch mit dem 3D-Drucker hergestellt werden. Die [3D-Druckmodelle sind auf GitHub verfügbar](https://github.com/salomegolden/logictraffic/releases/tag/3d_v1). Zusätzlich zu den gedruckten Teilen werden nur noch die Aufgabenkarten aus M1.2 und die Autobilder aus M1.1 benötigt. Die Autobilder werden ausgedruckt, ausgeschnitten und auf die Buttons geklebt.
 
     Die Ampelplättchen bestehen aus kleinen Holzstücken oder gefaltetem Papier. Auf einer Seite zeigen sie eine grüne Ampel, auf der Rückseite eine rote Ampel. Der Zustand einer Ampel wird verändert, indem das Plättchen umgedreht wird.
 
@@ -166,7 +173,7 @@ Die Lernenden können erste Ampelzustände in einer Tabelle festhalten.
 
 ## Ergebnissicherung
 
-Zur Ergebnissicherung eignet sich das Arbeitsblatt **AB1.1 „Kreuzung beschreiben“** oder eine gemeinsame Darstellung an der Tafel.
+Zur Ergebnissicherung eignen sich die Arbeitsblätter [1a – Kreuzungen legen](https://github.com/salomegolden/logictraffic/releases/download/ab1_v2/1a_Kreuzungen_legen.pdf), [1b – Sichere Ampelstellungen finden](https://github.com/salomegolden/logictraffic/releases/download/ab1_v2/1b_sichere_Ampelstellungen_finden.pdf) und [1c – Alle Möglichkeiten erfassen](https://github.com/salomegolden/logictraffic/releases/download/ab1_v2/1c_Alle_Moglichkeiten_erfassen.pdf) oder eine gemeinsame Darstellung an der Tafel.
 
 Am Ende des Bausteins sollten die Lernenden insbesondere folgende Zusammenhänge festhalten können:
 

@@ -10,13 +10,13 @@ Im weiteren Verlauf wechseln die Lernenden von der konkreten Verkehrssituation z
 
     **:jigsaw: Umfang:** vier thematische Unterrichtsbausteine  
 
-    **:stopwatch: Dauer:** je nach Vertiefung etwa 4–6 Lektionen  
+    **:stopwatch: Dauer:** ca. 215–265 Minuten (5–6 Lektionen à 45 Minuten); mit optionaler Vertiefung und Transfer ca. 280–340 Minuten (7–8 Lektionen)
 
     **:brain: Vorwissen:** keine Vorkenntnisse in Aussagenlogik erforderlich  
     
     **:busts_in_silhouette: Sozialformen:** Einzel-, Partner- und Gruppenarbeit  
 
-    **:computer: Computer:** ab Lektion 2 erforderlich  
+    **:computer: Computer:** ab Baustein 2 erforderlich  
 
     **:globe_with_meridians: Lernumgebung:** LogicTraffic
 
@@ -103,14 +103,14 @@ Zentrale Darstellung: formal und symbolisch
 
 | Baustein | Schwerpunkt | :material-timer-sand: Richtzeit | :computer: Computer |
 | ------- | --------------------------------------------- | ---------: | :------: |
-| 1 | Sichere Ampelschaltungen handelnd untersuchen | 45–90 Min. | Nein |
-| 2 | LogicTraffic kennenlernen und bedienen | 45 Min. | Ja |
-| 3 | Zustände in Wahrheitstabellen darstellen | 45–90 Min. | Ja |
-| 4 | Sicherheitsregeln formal beschreiben | 45–90 Min. | Ja |
+| 1 | Sichere Ampelschaltungen handelnd untersuchen | 60–90 Min. | Nein |
+| 2 | LogicTraffic kennenlernen und bedienen | ca. 45–55 Min.; ohne Baustein 1 zusätzlich 5–10 Min. | Ja |
+| 3 | Zustände in Wahrheitstabellen darstellen | ca. 50–60 Min. | Ja |
+| 4 | Sicherheitsregeln formal beschreiben | Basisteil ca. 60 Min.; Vertiefung zusätzlich 45 Min.; Transfer zusätzlich 20–30 Min. | Ja |
 
 !!! info "Flexibler Einsatz"
 
-    Die vier Lektionen bilden eine zusammenhängende Unterrichtseinheit. Je nach Vorwissen, verfügbarer Zeit und Schwerpunkt können einzelne Phasen gekürzt, erweitert oder mit bestehenden Materialien kombiniert werden.
+    Die vier Bausteine bilden eine zusammenhängende Unterrichtseinheit. Vertiefung und Transfer in Baustein 4 sind optional. Je nach Vorwissen, verfügbarer Zeit und Schwerpunkt können einzelne Phasen gekürzt, erweitert oder mit bestehenden Materialien kombiniert werden. Hinweise zur Materialherstellung und zur Zeitplanung finden sich unter [Vorbereitung](vorbereitung.md).
 
 
 

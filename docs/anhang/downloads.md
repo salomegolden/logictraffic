@@ -1,9 +1,19 @@
 ## Downloads B1
 Hier finden sich alle Downloads zum Baustein 1, insbesondere Anleitung und Vorlagen zum Herstellen des enaktiven Materials. 
 
-[:package: Druckvorlage für enaktives Material - auf Tonpapier drucken, damit die Stabilität gegeben ist](https://github.com/salomegolden/logictraffic/releases/download/material-v1/b1_druckvorlage_enaktives_material.pdf)
+[:package: 3D-Druckmodelle für das enaktive Material](https://github.com/salomegolden/logictraffic/releases/tag/3d_v1)
 
-[:memo: AB1.1 Kreuzung beschreiben - Möglichkeit zur Ergebnissicherung](https://github.com/salomegolden/logictraffic/releases/download/material-v1/b1_kreuzungen_beschreiben_AB.pdf)
+Zusätzlich zu den 3D-gedruckten Teilen werden nur noch die Aufgabenkarten aus M1.2 und die Autobilder aus M1.1 benötigt. Die Autobilder ausdrucken, ausschneiden und auf die Buttons kleben.
+
+- [:package: M1.1 – Autos, Ampeln und Pfeile (PDF)](https://github.com/salomegolden/logictraffic/releases/download/material-v2/M1_1_Autos_Ampeln_Pfeile.pdf)
+- [:memo: M1.2 – Aufgabenkarten (PDF)](https://github.com/salomegolden/logictraffic/releases/download/material-v2/M1_2_Aufgabenkarten.pdf)
+- [:package: M1.3 – Kreuzungen (PDF)](https://github.com/salomegolden/logictraffic/releases/download/material-v2/M1_3_Kreuzungen.pdf)
+
+Für die Herstellung aus Papier die Vorlagen auf Tonpapier drucken, damit das Material stabil ist.
+
+- [:memo: 1a – Kreuzungen legen (PDF)](https://github.com/salomegolden/logictraffic/releases/download/ab1_v2/1a_Kreuzungen_legen.pdf)
+- [:memo: 1b – Sichere Ampelstellungen finden (PDF)](https://github.com/salomegolden/logictraffic/releases/download/ab1_v2/1b_sichere_Ampelstellungen_finden.pdf)
+- [:memo: 1c – Alle Möglichkeiten erfassen (PDF)](https://github.com/salomegolden/logictraffic/releases/download/ab1_v2/1c_Alle_Moglichkeiten_erfassen.pdf)
 
 ## Downloads B2
 
