@@ -21,11 +21,11 @@ Ausgehend von einzelnen konkreten Situationen entsteht schrittweise das Bedürfn
     **:package: Material:**  
     Kreuzungsfeld, Fahrzeuge, Richtungskarten, wendbare Ampelplättchen und Arbeitsblätter
 
-!!! note "Downloads zu Baustein 1"
+??? note "Downloads zu Baustein 1"
 
     - [:package: 3D-Druckmodelle für das enaktive Material](https://github.com/salomegolden/logictraffic/releases/tag/3d_v1)
     - [:package: M1.1 – Autos, Ampeln und Pfeile (PDF)](https://github.com/salomegolden/logictraffic/releases/download/material-v2/M1_1_Autos_Ampeln_Pfeile.pdf)
-    - [:memo: M1.2 – Aufgabenkarten (PDF)](https://github.com/salomegolden/logictraffic/releases/download/material-v2/M1_2_Aufgabenkarten.pdf)
+    - [:memo: M1.2 – Situationskarten (PDF)](https://github.com/salomegolden/logictraffic/releases/download/material-v2/M1_2_Situationskarten.pdf)
     - [:package: M1.3 – Kreuzungen (PDF)](https://github.com/salomegolden/logictraffic/releases/download/material-v2/M1_3_Kreuzungen.pdf)
     - [:memo: 1a – Kreuzungen legen (PDF)](https://github.com/salomegolden/logictraffic/releases/download/ab1_v2/1a_Kreuzungen_legen.pdf)
     - [:memo: 1b – Sichere Ampelstellungen finden (PDF)](https://github.com/salomegolden/logictraffic/releases/download/ab1_v2/1b_sichere_Ampelstellungen_finden.pdf)
@@ -53,12 +53,12 @@ Die Lernenden können …
     - Richtungskarten für die vorgesehenen Fahrwege;
     - pro verwendeter Spur ein wendbares Ampelplättchen;
     - eine leere Tabelle zum Festhalten der Ampelzustände;
-    - die Druckvorlagen [M1.1 – Autos, Ampeln und Pfeile](https://github.com/salomegolden/logictraffic/releases/download/material-v2/M1_1_Autos_Ampeln_Pfeile.pdf), [M1.2 – Aufgabenkarten](https://github.com/salomegolden/logictraffic/releases/download/material-v2/M1_2_Aufgabenkarten.pdf) und [M1.3 – Kreuzungen](https://github.com/salomegolden/logictraffic/releases/download/material-v2/M1_3_Kreuzungen.pdf);
+    - die Druckvorlagen [M1.1 – Autos, Ampeln und Pfeile](https://github.com/salomegolden/logictraffic/releases/download/material-v2/M1_1_Autos_Ampeln_Pfeile.pdf), [M1.2 – Situationskarten](https://github.com/salomegolden/logictraffic/releases/download/material-v2/M1_2_Situationskarten.pdf) und [M1.3 – Kreuzungen](https://github.com/salomegolden/logictraffic/releases/download/material-v2/M1_3_Kreuzungen.pdf);
     - die Arbeitsblätter [1a – Kreuzungen legen](https://github.com/salomegolden/logictraffic/releases/download/ab1_v2/1a_Kreuzungen_legen.pdf), [1b – Sichere Ampelstellungen finden](https://github.com/salomegolden/logictraffic/releases/download/ab1_v2/1b_sichere_Ampelstellungen_finden.pdf) und [1c – Alle Möglichkeiten erfassen](https://github.com/salomegolden/logictraffic/releases/download/ab1_v2/1c_Alle_Moglichkeiten_erfassen.pdf).
 
 ??? tip "Tipps zum enaktiven Material"
 
-    Das enaktive Material kann auch mit dem 3D-Drucker hergestellt werden. Die [3D-Druckmodelle sind auf GitHub verfügbar](https://github.com/salomegolden/logictraffic/releases/tag/3d_v1). Zusätzlich zu den gedruckten Teilen werden nur noch die Aufgabenkarten aus M1.2 und die Autobilder aus M1.1 benötigt. Die Autobilder werden ausgedruckt, ausgeschnitten und auf die Buttons geklebt.
+    Das enaktive Material kann auch mit dem 3D-Drucker hergestellt werden. Die [3D-Druckmodelle sind auf GitHub verfügbar](https://github.com/salomegolden/logictraffic/releases/tag/3d_v1). Zusätzlich zu den gedruckten Teilen werden nur noch die Situationskarten aus M1.2 und die Autobilder aus M1.1 benötigt. Die Autobilder werden ausgedruckt, ausgeschnitten und auf die Buttons geklebt.
 
     Die Ampelplättchen bestehen aus kleinen Holzstücken oder gefaltetem Papier. Auf einer Seite zeigen sie eine grüne Ampel, auf der Rückseite eine rote Ampel. Der Zustand einer Ampel wird verändert, indem das Plättchen umgedreht wird.
 
@@ -84,92 +84,169 @@ Die Lernenden können …
 
 ### Phase 1 – Verkehrssituation nachspielen
 
-**Ziel der Phase:**  
-Die Lernenden erschliessen die Verkehrssituation handelnd und entwickeln eine erste Vorstellung davon, welche Fahrwege sich gegenseitig beeinflussen.
+??? success "Ziele der Einheit"
 
-Die Lernenden erhalten ein Kreuzungsfeld, Fahrzeuge und Richtungskarten. Sie legen die vorgegebene Verkehrssituation nach und verfolgen die Fahrwege der einzelnen Fahrzeuge.
+    Die Lernenden erschliessen die Verkehrssituation handelnd und entwickeln eine erste Vorstellung davon, welche Fahrwege sich gegenseitig beeinflussen.
 
-Anschliessend beurteilen sie spontan:
+??? example "Material"
 
-- Welche Fahrzeuge können gleichzeitig fahren?
-- Wo überschneiden sich Fahrwege?
-- In welchen Situationen könnte es zu einer Kollision kommen?
-- Welche Ampeln müssten Rot bzw. Grün zeigen?
+    - Kreuzungsfeld, Fahrzeuge und Richtungskarten
 
-!!! tip "Hinweis für die Lehrperson"
+??? info "Sozialformen"
+
+    Gruppenarbeit
+
+??? tip "benötigte Zeit"
+
+    ca. **10 Minuten**
+
+??? abstract "Verlaufsplanung"
+
+    Die Lernenden erhalten ein Kreuzungsfeld, Fahrzeuge und Richtungskarten. Sie legen die vorgegebene Verkehrssituation nach und verfolgen die Fahrwege der einzelnen Fahrzeuge.
+
+    Anschliessend beurteilen sie spontan:
+
+    - Welche Fahrzeuge können gleichzeitig fahren?
+    - Wo überschneiden sich Fahrwege?
+    - In welchen Situationen könnte es zu einer Kollision kommen?
+    - Welche Ampeln müssten Rot bzw. Grün zeigen?
+
+??? note "Didaktische Hinweise"
 
     In dieser Phase steht noch nicht die formale Beschreibung im Vordergrund. Die Lernenden sollen die Verkehrssituation zunächst möglichst konkret untersuchen und ihre Beobachtungen in Alltagssprache ausdrücken.
 
 ### Phase 2 – Sichere Ampelstellungen finden
 
-**Ziel der Phase:**  
-Die Lernenden untersuchen verschiedene Kombinationen von Rot und Grün und begründen, welche davon sicher bzw. unsicher sind.
+??? success "Ziele der Einheit"
 
-Nun werden die Ampelplättchen eingesetzt. Die Lernenden stellen verschiedene Kombinationen ein und überprüfen jeweils, ob die Fahrzeuge gleichzeitig fahren könnten, ohne dass es zu einer Kollision kommt.
+    Die Lernenden untersuchen verschiedene Kombinationen von Rot und Grün und begründen, welche davon sicher bzw. unsicher sind.
 
-Dabei sollen sie ihre Entscheidung begründen.
+??? example "Material"
 
-Mögliche Leitfragen:
+    - Enaktives Material mit wendbaren Ampelplättchen
+    - Arbeitsblatt zum Festhalten der Ergebnisse
 
-- Welche Ampeln dürfen gleichzeitig Grün zeigen?
-- Welche Kombinationen führen zu einer Kollision?
-- Gibt es mehrere sichere Lösungen?
-- Woran erkennt ihr, ob eine Kombination sicher ist?
+??? info "Sozialformen"
 
-Die Lernenden können ihre Ergebnisse zunächst mündlich oder auf dem Arbeitsblatt festhalten.
+    Gruppenarbeit
+
+??? tip "benötigte Zeit"
+
+    ca. **15–20 Minuten**
+
+??? abstract "Verlaufsplanung"
+
+    Nun werden die Ampelplättchen eingesetzt. Die Lernenden stellen verschiedene Kombinationen ein und überprüfen jeweils, ob die Fahrzeuge gleichzeitig fahren könnten, ohne dass es zu einer Kollision kommt.
+
+    Dabei sollen sie ihre Entscheidung begründen.
+
+    Mögliche Leitfragen:
+
+    - Welche Ampeln dürfen gleichzeitig Grün zeigen?
+    - Welche Kombinationen führen zu einer Kollision?
+    - Gibt es mehrere sichere Lösungen?
+    - Woran erkennt ihr, ob eine Kombination sicher ist?
+
+    Die Lernenden können ihre Ergebnisse zunächst mündlich oder auf dem Arbeitsblatt festhalten.
 
 ### Phase 3 – Situation verändern
 
-**Ziel der Phase:**  
-Die Lernenden erkennen, dass sich mit zunehmender Anzahl von Fahrspuren auch die Zahl möglicher Ampelkombinationen erhöht.
+??? success "Ziele der Einheit"
 
-Die Verkehrssituation wird erweitert oder verändert. Beispielsweise kann eine weitere Spur ergänzt oder ein anderer Fahrweg verwendet werden.
+    Die Lernenden erkennen, dass sich mit zunehmender Anzahl von Fahrspuren auch die Zahl möglicher Ampelkombinationen erhöht.
 
-Die Lernenden untersuchen erneut mögliche Ampelstellungen und vergleichen die neue Situation mit der vorherigen.
+??? example "Material"
 
-Mögliche Fragen:
+    - Enaktives Material mit wendbaren Ampelplättchen
 
-- Gibt es jetzt mehr Möglichkeiten als zuvor?
-- Wie könnt ihr sicherstellen, dass ihr keine Kombination vergesst?
-- Welche Kombinationen habt ihr bereits ausprobiert?
-- Gibt es eine sinnvolle Reihenfolge?
+??? info "Sozialformen"
+
+    Gruppenarbeit
+
+??? tip "benötigte Zeit"
+
+    ca. **15–20 Minuten**
+
+??? abstract "Verlaufsplanung"
+
+    Die Verkehrssituation wird erweitert oder verändert. Beispielsweise kann eine weitere Spur ergänzt oder ein anderer Fahrweg verwendet werden.
+
+    Die Lernenden untersuchen erneut mögliche Ampelstellungen und vergleichen die neue Situation mit der vorherigen.
+
+    Mögliche Fragen:
+
+    - Gibt es jetzt mehr Möglichkeiten als zuvor?
+    - Wie könnt ihr sicherstellen, dass ihr keine Kombination vergesst?
+    - Welche Kombinationen habt ihr bereits ausprobiert?
+    - Gibt es eine sinnvolle Reihenfolge?
 
 ### Phase 4 – Alle Möglichkeiten erfassen
 
-**Ziel der Phase:**  
-Die Lernenden entwickeln das Bedürfnis nach einer systematischen Darstellung aller möglichen Zustände.
+??? success "Ziele der Einheit"
 
-Die Gruppen erhalten den Auftrag, möglichst alle möglichen Ampelstellungen zu finden.
+    Die Lernenden entwickeln das Bedürfnis nach einer systematischen Darstellung aller möglichen Zustände.
 
-Dabei soll zunächst bewusst offengelassen werden, wie sie vorgehen.
+??? example "Material"
 
-Im anschliessenden Austausch werden unterschiedliche Strategien gesammelt:
+    - Enaktives Material mit wendbaren Ampelplättchen
+    - Leere Tabelle zum Festhalten der Ampelzustände
 
-- zufälliges Ausprobieren;
-- systematisches Verändern jeweils einer Ampel;
-- schriftliches Festhalten bereits untersuchter Kombinationen;
-- tabellarisches Ordnen.
+??? info "Sozialformen"
 
-Die zentrale Frage lautet:
+    Gruppenarbeit / Plenum
 
-> Wie können wir sicher sein, dass wir wirklich alle möglichen Ampelstellungen untersucht haben?
+??? tip "benötigte Zeit"
 
-An dieser Stelle kann erstmals eine einfache Tabelle eingeführt oder von den Lernenden selbst entwickelt werden.
+    ca. **15 Minuten**
+
+??? abstract "Verlaufsplanung"
+
+    Die Gruppen erhalten den Auftrag, möglichst alle möglichen Ampelstellungen zu finden.
+
+    Dabei soll zunächst bewusst offengelassen werden, wie sie vorgehen.
+
+    Im anschliessenden Austausch werden unterschiedliche Strategien gesammelt:
+
+    - zufälliges Ausprobieren;
+    - systematisches Verändern jeweils einer Ampel;
+    - schriftliches Festhalten bereits untersuchter Kombinationen;
+    - tabellarisches Ordnen.
+
+    Die zentrale Frage lautet:
+
+    > Wie können wir sicher sein, dass wir wirklich alle möglichen Ampelstellungen untersucht haben?
+
+    An dieser Stelle kann erstmals eine einfache Tabelle eingeführt oder von den Lernenden selbst entwickelt werden.
 
 ### Phase 5 – Ergebnisse sichern und Ausblick
 
-**Ziel der Phase:**  
-Die zentralen Erkenntnisse des Bausteins werden gesichert und der Übergang zur Wahrheitstabelle vorbereitet.
+??? success "Ziele der Einheit"
 
-Gemeinsam werden die wichtigsten Erkenntnisse festgehalten:
+    Die zentralen Erkenntnisse des Bausteins werden gesichert und der Übergang zur Wahrheitstabelle vorbereitet.
 
-- Jede Spur kann zwei Zustände haben: Rot oder Grün.
-- Nicht jede Kombination ist sicher.
-- Bei mehreren Ampeln entstehen viele verschiedene Kombinationen.
-- Zufälliges Ausprobieren reicht nicht aus, wenn wirklich alle Möglichkeiten untersucht werden sollen.
-- Eine systematische Darstellung hilft dabei, keine Möglichkeit zu vergessen.
+??? example "Material"
 
-Die Lernenden können erste Ampelzustände in einer Tabelle festhalten.
+    - Arbeitsblätter oder gemeinsame Darstellung an der Tafel
+
+??? info "Sozialformen"
+
+    Plenum / Einzelarbeit
+
+??? tip "benötigte Zeit"
+
+    ca. **10–15 Minuten**
+
+??? abstract "Verlaufsplanung"
+
+    Gemeinsam werden die wichtigsten Erkenntnisse festgehalten:
+
+    - Jede Spur kann zwei Zustände haben: Rot oder Grün.
+    - Nicht jede Kombination ist sicher.
+    - Bei mehreren Ampeln entstehen viele verschiedene Kombinationen.
+    - Zufälliges Ausprobieren reicht nicht aus, wenn wirklich alle Möglichkeiten untersucht werden sollen.
+    - Eine systematische Darstellung hilft dabei, keine Möglichkeit zu vergessen.
+
+    Die Lernenden können erste Ampelzustände in einer Tabelle festhalten.
 
 ## Ergebnissicherung
 
@@ -189,28 +266,32 @@ Eine vollständige formale Zuordnung zu `0` und `1` muss an dieser Stelle noch n
 
 ## Differenzierung
 
-=== "Unterstützen"
+??? bug "Differenzierung"
 
-    - zunächst nur mit zwei oder drei Spuren arbeiten;
-    - mögliche Ampelstellungen teilweise vorgeben;
-    - bereits untersuchte Kombinationen mit Karten oder Plättchen sichtbar sammeln;
-    - die Lernenden Fahrwege mit dem Finger oder einem Fahrzeug tatsächlich nachfahren lassen;
-    - sprachliche Satzstarter verwenden, z. B. „Diese Kombination ist sicher, weil …“.
+    === "Vereinfachungen"
 
-=== "Erweitern"
+        - zunächst nur mit zwei oder drei Spuren arbeiten;
+        - mögliche Ampelstellungen teilweise vorgeben;
+        - bereits untersuchte Kombinationen mit Karten oder Plättchen sichtbar sammeln;
+        - die Lernenden Fahrwege mit dem Finger oder einem Fahrzeug tatsächlich nachfahren lassen;
+        - sprachliche Satzstarter verwenden, z. B. „Diese Kombination ist sicher, weil …“.
 
-    - zusätzliche Fahrspuren oder Fahrtrichtungen einführen;
-    - die Lernenden selbst eine Verkehrssituation entwickeln lassen;
-    - untersuchen lassen, wie viele verschiedene Ampelstellungen bei zwei, drei oder vier Ampeln möglich sind;
-    - eine eigene Strategie entwickeln lassen, mit der alle Kombinationen systematisch gefunden werden können.
+    === "Erweiterungen"
+
+        - zusätzliche Fahrspuren oder Fahrtrichtungen einführen;
+        - die Lernenden selbst eine Verkehrssituation entwickeln lassen;
+        - untersuchen lassen, wie viele verschiedene Ampelstellungen bei zwei, drei oder vier Ampeln möglich sind;
+        - eine eigene Strategie entwickeln lassen, mit der alle Kombinationen systematisch gefunden werden können.
 
 ## Didaktische Hinweise
 
-Der Baustein beginnt bewusst mit einer konkreten, handelnden Problemsituation. Die Lernenden beschäftigen sich zunächst mit Fahrwegen, Ampeln und möglichen Kollisionen und nicht mit aussagenlogischen Symbolen.
+??? note "Didaktische Hinweise"
 
-Dieser Zugang entspricht der Grundidee von LogicTraffic, abstrakte Konzepte der Aussagenlogik über eine lebensweltnahe Verkehrssituation und verschiedene Repräsentationsformen zugänglich zu machen.
+    Der Baustein beginnt bewusst mit einer konkreten, handelnden Problemsituation. Die Lernenden beschäftigen sich zunächst mit Fahrwegen, Ampeln und möglichen Kollisionen und nicht mit aussagenlogischen Symbolen.
 
-Der Übergang von der handelnden zur späteren symbolischen Darstellung ist dabei besonders relevant: Die Lernenden sollen nicht lediglich formale Regeln übernehmen, sondern aus der konkreten Problemsituation heraus schrittweise ein Bedürfnis nach einer systematischeren Darstellung entwickeln. Auch die ursprüngliche Konzeption von InfoTraffic betont den Einsatz konkreter Beispiele sowie symbolischer, ikonischer und virtuell-enaktiver Repräsentationen.
+    Dieser Zugang entspricht der Grundidee von LogicTraffic, abstrakte Konzepte der Aussagenlogik über eine lebensweltnahe Verkehrssituation und verschiedene Repräsentationsformen zugänglich zu machen.
+
+    Der Übergang von der handelnden zur späteren symbolischen Darstellung ist dabei besonders relevant: Die Lernenden sollen nicht lediglich formale Regeln übernehmen, sondern aus der konkreten Problemsituation heraus schrittweise ein Bedürfnis nach einer systematischeren Darstellung entwickeln. Auch die ursprüngliche Konzeption von InfoTraffic betont den Einsatz konkreter Beispiele sowie symbolischer, ikonischer und virtuell-enaktiver Repräsentationen.
 
 ## Übergang zum nächsten Baustein
 

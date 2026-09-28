@@ -3,10 +3,10 @@ Hier finden sich alle Downloads zum Baustein 1, insbesondere Anleitung und Vorla
 
 [:package: 3D-Druckmodelle für das enaktive Material](https://github.com/salomegolden/logictraffic/releases/tag/3d_v1)
 
-Zusätzlich zu den 3D-gedruckten Teilen werden nur noch die Aufgabenkarten aus M1.2 und die Autobilder aus M1.1 benötigt. Die Autobilder ausdrucken, ausschneiden und auf die Buttons kleben.
+Zusätzlich zu den 3D-gedruckten Teilen werden nur noch die Situationskarten aus M1.2 und die Autobilder aus M1.1 benötigt. Die Autobilder ausdrucken, ausschneiden und auf die Buttons kleben.
 
 - [:package: M1.1 – Autos, Ampeln und Pfeile (PDF)](https://github.com/salomegolden/logictraffic/releases/download/material-v2/M1_1_Autos_Ampeln_Pfeile.pdf)
-- [:memo: M1.2 – Aufgabenkarten (PDF)](https://github.com/salomegolden/logictraffic/releases/download/material-v2/M1_2_Aufgabenkarten.pdf)
+- [:memo: M1.2 – Situationskarten (PDF)](https://github.com/salomegolden/logictraffic/releases/download/material-v2/M1_2_Situationskarten.pdf)
 - [:package: M1.3 – Kreuzungen (PDF)](https://github.com/salomegolden/logictraffic/releases/download/material-v2/M1_3_Kreuzungen.pdf)
 
 Für die Herstellung aus Papier die Vorlagen auf Tonpapier drucken, damit das Material stabil ist.
