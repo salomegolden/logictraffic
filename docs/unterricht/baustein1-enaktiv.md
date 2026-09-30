@@ -73,6 +73,15 @@ Die Lernenden können …
 
     Das Kreuzungsfeld kann ausgedruckt oder mit Klebeband direkt auf einem Tisch markiert werden. Wichtig ist weniger eine detailgetreue Darstellung als vielmehr, dass die Fahrspuren und mögliche Überschneidungen der Fahrwege klar erkennbar sind.
 
+??? note "Modellannahmen für beide Einstiege"
+
+    - Die vorgegebenen Fahrwege bleiben unverändert.
+    - Bei Grün darf ein Fahrzeug fahren, bei Rot muss es halten.
+    - Zwei gleichzeitig freigegebene Fahrwege stehen im Konflikt, wenn die vorgegebene Situation eine Kollision ermöglicht. Die Konfliktpaare werden vor dem Unterricht eindeutig festgelegt.
+    - Die Klasse beurteilt mögliche Kollisionen, nicht die zufällige Anwesenheit einzelner Autos.
+    - Zusätzliche Vortrittsregeln, zeitliche Abstände oder Ausweichmanöver werden nicht als Lösung eingesetzt.
+    - Sind alle Ampeln rot, ist die Kombination kollisionsfrei. Dass dabei niemand fährt, ist eine andere Frage als die Sicherheit.
+
 ## Unterrichtsablauf – Überblick
 
 | Phase | Inhalt | Sozialform / Medien | Richtwert |

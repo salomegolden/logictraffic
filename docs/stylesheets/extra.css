@@ -1,3 +1,134 @@
+.lt-unit-hero {
+  padding: clamp(1rem, 3vw, 1.8rem);
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-top: 4px solid #0c1ee7;
+  border-radius: 12px;
+  background: linear-gradient(135deg, rgba(12, 30, 231, .07), transparent 75%);
+}
+
+.md-typeset .lt-unit-hero h2 {
+  margin-top: .5rem;
+  font-weight: 700;
+}
+
+.lt-unit-eyebrow,
+.lt-unit-meta {
+  color: var(--md-default-fg-color--light);
+  font-size: .72rem;
+}
+
+.lt-unit-eyebrow {
+  margin-top: 0;
+  font-weight: 700;
+  letter-spacing: .04em;
+}
+
+.md-typeset .lt-unit-facts ul,
+.md-typeset ol.lt-unit-route {
+  display: grid;
+  gap: .6rem;
+  margin: 1rem 0;
+  padding: 0;
+  list-style: none;
+}
+
+.lt-unit-facts ul {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.md-typeset .lt-unit-facts li,
+.md-typeset .lt-unit-route li {
+  margin: 0;
+}
+
+.lt-unit-facts li {
+  padding: .7rem;
+  border-radius: 6px;
+  background: var(--md-default-bg-color);
+  font-size: .72rem;
+}
+
+.lt-unit-facts strong {
+  display: block;
+}
+
+.md-typeset .lt-unit-hero .md-button {
+  margin: .3rem .3rem 0 0;
+  font-size: .72rem;
+}
+
+.lt-unit-route {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.lt-unit-route a {
+  display: block;
+  height: 100%;
+  padding: .8rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-bottom: 3px solid #0c1ee7;
+  border-radius: 6px;
+}
+
+.lt-unit-route a:hover,
+.lt-unit-route a:focus-visible {
+  background: rgba(12, 30, 231, .07);
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
+
+.lt-unit-route span {
+  display: block;
+  margin-bottom: .4rem;
+  font-size: .65rem;
+}
+
+.lt-unit-route strong {
+  display: block;
+  color: var(--md-default-fg-color);
+  font-size: .75rem;
+  line-height: 1.5;
+}
+
+.lt-unit-stages {
+  display: grid;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.lt-unit-stage {
+  padding: 1rem 1.2rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-left: 4px solid #0c1ee7;
+  border-radius: 0 10px 10px 0;
+}
+
+.md-typeset .lt-unit-stage h3 {
+  margin-top: 0;
+  font-weight: 700;
+}
+
+.lt-unit-stage > :last-child {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 60em) {
+  .lt-unit-route {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media screen and (max-width: 30em) {
+  .lt-unit-facts ul,
+  .lt-unit-route {
+    grid-template-columns: 1fr;
+  }
+
+  .lt-unit-stage {
+    padding: .8rem;
+  }
+}
+
 .lt-tool-example {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(180px, 260px);
