@@ -56,6 +56,8 @@ In der optionalen Vertiefung untersuchen die Lernenden logisch äquivalente Form
 
 ### Basisteil
 
+**Bezug zur Unterrichtseinheit:** [LZ1c – Operatoren erklären](../didaktik/lernziele.md#lz1c), [LZ2 – Sicherheitsregeln in Formeln übersetzen](../didaktik/lernziele.md#lernziel-2-boolesche-formeln-aus-textbeschreibungen-ableiten) und [LZ3b – Formeln vollständig prüfen](../didaktik/lernziele.md#lz3b).
+
 Die Lernenden können …
 
 - den Vorteil kompakter Formeln gegenüber umfangreichen Wahrheitstabellen beschreiben;
@@ -63,11 +65,16 @@ Die Lernenden können …
 - einfache Verkehrs- und Sicherheitsregeln in aussagenlogische Formeln übersetzen;
 - einfache logische Formeln wieder in Alltagssprache übersetzen;
 - logische Formeln in LogicTraffic syntaktisch korrekt eingeben;
-- eine Formel anhand der zugehörigen Wahrheitstabelle überprüfen;
+- eine Formel für zwei bis drei Variablen anhand aller Tabellenzeilen mit der begründeten Sicherheitsbewertung der Kreuzung vergleichen;
+- eine abweichende Belegung finden und erklären, ob die Formel einen gefährlichen Zustand zulässt oder einen sicheren Zustand unnötig ausschliesst, und die betreffende Teilregel korrigieren;
 - zwischen einer konkreten Verkehrssituation, einer sprachlichen Regel, einer Wahrheitstabelle und einer Formel wechseln;
 - erklären, dass unterschiedliche Formeln dieselbe Sicherheitsregel beschreiben können.
 
+**Lernnachweis:** Die Lernenden entwickeln mit 4c eine Formel, lesen sie in Worten und prüfen sie vollständig. Bei einer vorgegebenen fehlerhaften Variante zeigen und korrigieren sie eine Abweichung. NICHT, UND und ODER bilden die Grundlage; die Implikation wird an einfachen Konfliktregeln wie $A \rightarrow \neg B$ gedeutet. Eine eigene korrekte Formel muss nicht alle vier Operatoren enthalten.
+
 ### Optionale Vertiefung
+
+**Bezug zur Unterrichtseinheit:** [LZ4 – gleichwertige Formeln und Normalformen vergleichen](../didaktik/lernziele.md#lernziel-4-normalformen-und-minimierung-boolescher-ausdruecke). Diese Ziele kommen zu den Basiszielen hinzu.
 
 Die Lernenden können zusätzlich …
 
@@ -78,7 +85,11 @@ Die Lernenden können zusätzlich …
 - erklären, wie eine KDNF bzw. KKNF systematisch aus einer Wahrheitstabelle erzeugt werden kann;
 - kanonische, freie und vereinfachte Formeln hinsichtlich Länge, Verständlichkeit und Verwendungszweck vergleichen.
 
+**Lernnachweis:** Mit 4e–4g erklären die Lernenden an kleinen Beispielen Äquivalenz und Formelstruktur, ordnen Tabellenzeilen vollständigen Termen bzw. Klauseln zu und begründen die Wahl einer Darstellung. Ein allgemeines Minimierungsverfahren und der Nachweis der kürzesten Formel sind nicht verlangt; weitere Umformungen bleiben eine Erweiterung.
+
 ### Optionaler Transfer
+
+**Bezug zur Unterrichtseinheit:** Anwendung von [LZ2 – modellieren und formalisieren](../didaktik/lernziele.md#lernziel-2-boolesche-formeln-aus-textbeschreibungen-ableiten) und [LZ3b – vollständig prüfen](../didaktik/lernziele.md#lz3b) auf eine komplexere Situation. Für den direkten Weg über Konfliktpaare ist LZ4 keine Voraussetzung.
 
 Die Lernenden können zusätzlich …
 
@@ -86,6 +97,8 @@ Die Lernenden können zusätzlich …
 - mehrere Konfliktbedingungen zu einer Gesamtformel verbinden;
 - ihre Lösung mit LogicTraffic fachlich begründet überprüfen;
 - verschiedene Lösungswege vergleichen und die Rolle der Wahrheitstabelle als Kontrollinstrument erklären.
+
+**Lernnachweis:** Mit 4h entwickeln die Lernenden für fünf Variablen eine Gesamtformel, überprüfen alle 32 Belegungen mit LogicTraffic und begründen ihre Lösung. Das handschriftliche Abschreiben aller Zeilen ist dafür nicht erforderlich.
 
 ??? note "Abgrenzung zu Baustein 3"
 
@@ -505,6 +518,10 @@ Die **Phasen 1–3 bilden den Basisteil**. Die **Phasen 4–6 sind eine optional
     - Welche Kombinationen sollten erlaubt bleiben?
 
     Erst danach wird die Formel eingegeben.
+
+    Die Lernenden vergleichen anschliessend **alle acht Belegungen** mit der zuvor anhand der Fahrwege begründeten Sicherheitsbewertung. Einzelne Testfälle dienen der Orientierung; für die vollständige Kontrolle müssen alle Zeilen übereinstimmen.
+
+    Für einen kurzen Nachweis von [LZ3b](../didaktik/lernziele.md#lz3b) gibt die Lehrperson eine fehlerhafte Variante vor: `¬(A ∧ C)` vergisst den Konflikt zwischen B und C. Bei `A = 0`, `B = 1`, `C = 1` liefert sie fälschlich `1`. Die Lernenden erklären das Gegenbeispiel, ergänzen die fehlende Bedingung mit UND und prüfen erneut die ganze Tabelle. Als Gegenfall kann `¬A ∧ ¬B ∧ ¬C` untersucht werden: Diese Formel verhindert Kollisionen, schliesst aber sichere Belegungen unnötig aus.
 
     Bei einer Abweichung wird nicht sofort eine neue Formel geraten. Stattdessen wird geprüft:
 

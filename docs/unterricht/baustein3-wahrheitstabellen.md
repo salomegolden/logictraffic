@@ -43,6 +43,8 @@ Damit bereitet Baustein 3 den Übergang zu [Baustein 4 – Logische Formeln](bau
 
 ## Lernziele
 
+**Bezug zur Unterrichtseinheit:** [LZ1b – alle möglichen Zustände systematisch erfassen](../didaktik/lernziele.md#lz1b) und [LZ3a – Fehler in Wahrheitstabellen finden](../didaktik/lernziele.md#lz3a). [LZ1a – Darstellungen deuten](../didaktik/lernziele.md#lz1a) wird weiter gefestigt.
+
 Die Lernenden können …
 
 - eine Wahrheitstabelle als vollständige Darstellung aller möglichen Kombinationen von Variablenwerten erklären;
@@ -55,6 +57,10 @@ Die Lernenden können …
 - fehlende, doppelte und inhaltlich falsch bewertete Zeilen in einer Wahrheitstabelle erkennen und korrigieren;
 - erkennen, dass Wahrheitstabellen bei zunehmender Anzahl von Variablen schnell sehr umfangreich werden;
 - daraus die Notwendigkeit einer kompakteren Darstellung ableiten.
+
+**Lernnachweis:** Mit 3b erstellen die Lernenden selbstständig eine Tabelle für drei Variablen mit acht unterschiedlichen Belegungen und begründeter Sicherheitsbewertung. Mit 3c benennen und korrigieren sie strukturelle sowie inhaltliche Fehler.
+
+**Anspruch für die 8.–9. Klasse:** Die Regel $2^n$ wird über das Verdoppeln der Kombinationen erklärt. Fünf Variablen dienen hier zur Veranschaulichung des Wachstums; eine selbstständig ausgefüllte 32-zeilige Tabelle wird im Basisteil nicht als Abschlussleistung verlangt.
 
 ## Vorbereitung
 

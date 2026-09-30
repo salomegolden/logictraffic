@@ -63,7 +63,7 @@ Die Unterrichtsmaterialien folgen einer schrittweisen Progression:
 
 ## :material-account-school-outline: Für wen sind die Materialien gedacht?
 
-Die Materialien richten sich an Informatiklehrpersonen auf der Sekundarstufe II, insbesondere an gymnasialen Maturitätsschulen.
+Die Materialien richten sich an Informatiklehrpersonen gymnasialer Klassen der **8.–9. Schulstufe**. Die [Lernziele und Anforderungen](didaktik/lernziele.md) sind auf einen Einstieg ohne Vorkenntnisse in Aussagenlogik abgestimmt. Für spätere Jahrgänge kann die Einheit ebenfalls als Einführung oder Wiederholung eingesetzt werden.
 
 Sie eignen sich für Klassen,
 

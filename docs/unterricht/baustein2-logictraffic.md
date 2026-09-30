@@ -48,6 +48,8 @@ Die Formel wird am Ende lediglich als weitere Darstellung der **Sicherheitsregel
 
 ## Lernziele
 
+**Bezug zur Unterrichtseinheit:** [LZ1a – Verkehrssituationen und Darstellungen deuten](../didaktik/lernziele.md#lz1a). Der Schwerpunkt liegt auf dem Lesen und Zuordnen; das selbstständige Erstellen vollständiger Tabellen folgt in Baustein 3, die Arbeit mit Operatoren in Baustein 4.
+
 Die Lernenden können …
 
 - sich in den zentralen Bereichen von LogicTraffic orientieren;
@@ -60,6 +62,8 @@ Die Lernenden können …
 - die Bereiche Kreuzung, Variablen bzw. `0`/`1`, Wahrheitstabelle, `sicher` und Formel in ihrer jeweiligen Funktion unterscheiden;
 - beschreiben, dass diese Darstellungen unterschiedliche Aspekte derselben modellierten Kreuzung bzw. Sicherheitsregel sichtbar machen;
 - die Frage formulieren, wie eine vollständige Wahrheitstabelle auch ohne Vorgabe durch LogicTraffic systematisch erstellt werden könnte.
+
+**Lernnachweis:** Mit 2c ordnen die Lernenden die Darstellungen ihren Funktionen zu. Sie stellen eine vorgegebene Tabellenzeile an der Kreuzung ein und erklären getrennt die Ampelzustände und die Sicherheitsbewertung.
 
 ??? note "Einordnung zwischen Baustein 1 und Baustein 3"
 

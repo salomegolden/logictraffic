@@ -1,12 +1,12 @@
 # Unterricht durchführen
 
-Die Unterrichtseinheit ermöglicht einen schrittweisen Einstieg in die boolesche Aussagenlogik. Ausgangspunkt sind konkrete Verkehrssituationen, die zunächst mit physischen Materialien untersucht und anschliessend in der digitalen Lernumgebung LogicTraffic dargestellt werden.
+Die Unterrichtseinheit ermöglicht einen schrittweisen Einstieg in die boolesche Aussagenlogik. Ausgangspunkt sind konkrete Verkehrssituationen, die zunächst mit physischen Materialien oder im [lehrpersonenzentrierten Einstieg](baustein1-lehrpersonenzentriert.md) anhand statischer Bilder untersucht und anschliessend in der digitalen Lernumgebung LogicTraffic dargestellt werden.
 
 Im weiteren Verlauf wechseln die Lernenden von der konkreten Verkehrssituation zu Wahrheitstabellen und booleschen Formeln. Dadurch werden unterschiedliche Darstellungen miteinander verbunden und die Abstraktion schrittweise aufgebaut.
 
 !!! abstract "Unterrichtseinheit auf einen Blick"
 
-    **:busts_in_silhouette: Zielgruppe:** Gymnasialer Informatikunterricht  
+    **:busts_in_silhouette: Zielgruppe:** Gymnasiale Klassen der 8.–9. Schulstufe ohne Vorkenntnisse in Aussagenlogik
 
     **:jigsaw: Umfang:** vier thematische Unterrichtsbausteine  
 
@@ -32,7 +32,7 @@ Die Unterrichtseinheit folgt einer Progression vom konkreten Handeln zur formale
 
     ??? success "Ziele der Einheit" 
         
-        Hier werden die Ziele jeder Einheit kurz erklärt. Dies muss nicht umbedingt den Lernzielen entsprechen sondern soll lediglich einen Überblick über die Leistungserwartung bieten. 
+        Die Ziele jeder Phase konkretisieren die [übergeordneten Lernziele LZ1–LZ4](../didaktik/lernziele.md). Die Lernzielabschnitte der Bausteine verlinken die passenden Teilziele und nennen beobachtbare Lernnachweise. LZ1–LZ3 bilden den gemeinsamen Kern; LZ4 gehört zur optionalen Vertiefung.
 
     ??? example "Material" 
 

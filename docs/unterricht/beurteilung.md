@@ -2,6 +2,8 @@
 
 Die Beurteilungsaufgaben knüpfen an die Unterrichtssequenz an und trennen bewusst zwischen Lernstand sichtbar machen und Leistung bilanzieren.
 
+Für die **8.–9. Klasse am Gymnasium** beziehen sich die gemeinsamen Leistungserwartungen auf [LZ1–LZ3](../didaktik/lernziele.md): Zustände und Tabellen verstehen, Sicherheitsformeln entwickeln und Lösungen prüfen. Die beiden Einstiegsvarianten werden an denselben fachlichen Kriterien beurteilt. [LZ4](../didaktik/lernziele.md#lernziel-4-normalformen-und-minimierung-boolescher-ausdruecke) und der Transfer auf fünf Variablen werden nur dann zusätzlich beurteilt, wenn sie unterrichtet und vorher als Leistungserwartung angekündigt wurden.
+
 ## Überblick
 
 | Form | Zweck | Geeignet für |
@@ -50,13 +52,18 @@ Summative Aufgaben prüfen, ob Lernende zentrale Kompetenzen der Unterrichtssequ
 
 Die Lernenden erhalten eine neue Verkehrssituation mit zwei oder drei Fahrspuren.
 
-| Schritt | Auftrag | Erwartete Leistung |
+| Schritt | Auftrag | Erwartete Leistung / Lernziel |
 | --- | --- | --- |
-| 1 | Spuren benennen und Ampelzustände als Variablen festlegen | Variablen sinnvoll zuordnen |
-| 2 | Wahrheitstabelle erstellen oder vervollständigen | alle Kombinationen systematisch erfassen |
-| 3 | sichere und unsichere Zeilen markieren | Kollisionen fachlich begründen |
-| 4 | passende Formel angeben oder aus LogicTraffic interpretieren | Formel mit Tabelle verbinden |
-| 5 | Lösung in Worten erklären | Darstellungswechsel verständlich vollziehen |
+| 1 | Spuren benennen und Ampelzustände als Variablen festlegen | Variablen sinnvoll zuordnen; Ampelzustand und Sicherheitsbewertung unterscheiden – [LZ1a](../didaktik/lernziele.md#lz1a) |
+| 2 | Wahrheitstabelle selbstständig erstellen und das Ordnungsmuster erläutern | Alle vier bzw. acht Belegungen ohne Wiederholungen erfassen; $2^n$ erklären – [LZ1b](../didaktik/lernziele.md#lz1b) |
+| 3 | Sichere und unsichere Zeilen markieren | Kollisionen anhand der Fahrwege begründen – [LZ1a](../didaktik/lernziele.md#lz1a) |
+| 4 | Eine passende Formel entwickeln und in Worten erklären | Teilregeln sinnvoll verbinden und Operatoren deuten – [LZ1c](../didaktik/lernziele.md#lz1c) und [LZ2](../didaktik/lernziele.md#lernziel-2-boolesche-formeln-aus-textbeschreibungen-ableiten) |
+| 5 | Formel mit der vollständigen, begründet bewerteten Tabelle vergleichen | Alle sicheren und nur die sicheren Belegungen zulassen – [LZ3b](../didaktik/lernziele.md#lz3b) |
+| 6 | Eine zusätzlich vorgegebene fehlerhafte Tabelle und eine fehlerhafte Formel untersuchen | Fehlende, doppelte oder falsch bewertete Zeilen sowie eine abweichende Formelbelegung benennen und korrigieren – [LZ3a](../didaktik/lernziele.md#lz3a) und [LZ3b](../didaktik/lernziele.md#lz3b) |
+
+Für Schritt 6 genügen kurze Beispiele mit jeweils einem gezielten Fehler. Die Operatoren werden an konkreten Belegungen geprüft; eine einfache Implikation kann als Leseaufgabe ergänzt werden. Die selbst entwickelte Formel muss nicht alle Operatoren verwenden. Eine vorgegebene Formel nur zu interpretieren weist das selbstständige Entwickeln einer Formel (LZ2) noch nicht nach.
+
+Wer eine teilweise ausgefüllte Tabelle oder vorgegebene Teilformeln benötigt, kann damit dieselben Zusammenhänge bearbeiten. Bei der Rückmeldung wird ausgewiesen, welche Schritte selbstständig und welche mit Unterstützung gelungen sind.
 
 ## Bewertungskriterien
 

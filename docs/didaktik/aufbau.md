@@ -60,6 +60,8 @@ Mit Kreuzungsfeldern, Fahrzeugen und Ampelplättchen spielen die Lernenden Verke
 
     [Zum Ablauf des lehrpersonenzentrierten Bausteins 1](../unterricht/baustein1-lehrpersonenzentriert.md)
 
+    [:material-file-download-outline: Dossier zum lehrpersonenzentrierten Einstieg (PDF)](https://github.com/salomegolden/logictraffic/releases/download/ab1_v3/Baustein_1_lehrpersonenzentrierter_Einstieg_Dossier.pdf)
+
 </section>
 
 <section class="lt-unit-stage" markdown="1">
@@ -158,6 +160,8 @@ Der Basisteil endet mit dem Entwickeln und Überprüfen einfacher Sicherheitsfor
 
     [Fachlicher Hintergrund: Normalformen](../fachlicher-hintergrund/normalformen.md)
 
+    [LZ4: Gleichwertige Formeln und Normalformen vergleichen](lernziele.md#lernziel-4-normalformen-und-minimierung-boolescher-ausdruecke)
+
 -   :material-transit-connection-variant:{ .lg .middle } **Transfer · zusätzlich ca. 20–30 Minuten**
 
     ---
@@ -166,7 +170,7 @@ Der Basisteil endet mit dem Entwickeln und Überprüfen einfacher Sicherheitsfor
 
     [:material-arrow-right: Transfer in Phase 7](../unterricht/baustein4-boolesche-algebra.md#phase-7-transfer-situation-10)
 
-    [Lernziel 4: Normalformen und Vereinfachung](lernziele.md#lernziel-4-normalformen-und-minimierung-boolescher-ausdruecke)
+    [LZ2: Sicherheitsregeln entwickeln](lernziele.md#lernziel-2-boolesche-formeln-aus-textbeschreibungen-ableiten) · [LZ3b: Formeln vollständig prüfen](lernziele.md#lz3b)
 
 </div>
 
@@ -191,10 +195,10 @@ Die Übergänge zwischen den Bausteinen eignen sich für kurze formative Lernkon
 
 | Zeitpunkt | Kurzer Prüfimpuls | Bezug zu den Lernzielen |
 | --- | --- | --- |
-| Nach Baustein 1 | „Zeige eine sichere und eine unsichere Stellung und begründe den Unterschied.“ | Vorbereitung auf das Modellieren |
-| Nach Baustein 2 | „Stelle diese Tabellenzeile an der Kreuzung ein. Was bedeutet jede `1`?“ | [LZ1: Zustände und Wahrheitswerte](lernziele.md#lernziel-1-logische-operatoren-und-wahrheitstabellen) |
-| Nach Baustein 3 | „Wo fehlt eine Belegung, wo ist eine doppelt und wo ist die Sicherheitsbewertung falsch?“ | [LZ3: Fehler systematisch untersuchen](lernziele.md#lernziel-3-fehlerhafte-ampelsteuerungen-untersuchen) |
-| Nach dem Basisteil von Baustein 4 | „Lies deine Formel in Worten und zeige, wie du sie mit der Tabelle geprüft hast.“ | [LZ2: Regeln in Formeln übersetzen](lernziele.md#lernziel-2-boolesche-formeln-aus-textbeschreibungen-ableiten) |
-| Nach der Vertiefung | „Warum sind diese Formeln gleichwertig, und welche lässt sich leichter erklären?“ | [LZ4: Normalformen und Vereinfachung](lernziele.md#lernziel-4-normalformen-und-minimierung-boolescher-ausdruecke) |
+| Nach Baustein 1 (beide Varianten) | „Zeige eine sichere und eine unsichere Stellung und begründe den Unterschied.“ | [LZ1a: Verkehrssituationen deuten](lernziele.md#lz1a) |
+| Nach Baustein 2 | „Stelle diese Tabellenzeile an der Kreuzung ein. Was bedeutet jede `1`?“ | [LZ1a: Darstellungen verbinden](lernziele.md#lz1a) |
+| Nach Baustein 3 | „Erstelle eine vollständige Tabelle. Wo fehlt in der Vergleichstabelle eine Belegung, wo ist eine doppelt und wo ist die Bewertung falsch?“ | [LZ1b: Alle Zustände erfassen](lernziele.md#lz1b) und [LZ3a: Tabellenfehler finden](lernziele.md#lz3a) |
+| Nach dem Basisteil von Baustein 4 | „Lies deine Formel in Worten und zeige, wie du sie mit der vollständigen Tabelle geprüft hast.“ | [LZ2: Regeln in Formeln übersetzen](lernziele.md#lernziel-2-boolesche-formeln-aus-textbeschreibungen-ableiten) und [LZ3b: Formeln prüfen](lernziele.md#lz3b) |
+| Nach der Vertiefung | „Warum sind diese Formeln gleichwertig, und welche lässt sich leichter erklären?“ | [LZ4: Gleichwertige Formeln und Normalformen vergleichen](lernziele.md#lernziel-4-normalformen-und-minimierung-boolescher-ausdruecke) |
 
 Für die weitere Planung: [Beurteilungsaufgaben und Kriterien](../unterricht/beurteilung.md), [typische Lernschwierigkeiten](lernschwierigkeiten.md) und [alle Materialien zum Herunterladen](../anhang/downloads.md).

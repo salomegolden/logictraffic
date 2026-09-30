@@ -37,14 +37,28 @@ Ausgehend von einzelnen konkreten Situationen entsteht schrittweise das Bedürfn
 
 ## Lernziele
 
+**Bezug zur Unterrichtseinheit:** [LZ1a – Verkehrssituationen deuten](../didaktik/lernziele.md#lz1a); Vorbereitung auf [LZ1b – alle Zustände erfassen](../didaktik/lernziele.md#lz1b) und [LZ2 – Sicherheitsregeln formulieren](../didaktik/lernziele.md#lernziel-2-boolesche-formeln-aus-textbeschreibungen-ableiten).
+
+Die gemeinsamen verkehrsbezogenen Ziele entsprechen denen des [lehrpersonenzentrierten Einstiegs](baustein1-lehrpersonenzentriert.md#lernziele). Hier werden sie mit physischem Material erarbeitet. Die Codierung mit `0`/`1`, die Regel $2^n$ und formale Operatoren folgen in späteren Bausteinen.
+
 Die Lernenden können …
 
 - eine vorgegebene Verkehrssituation mit physischem Material darstellen;
 - mögliche Fahrwege und Konfliktstellen untersuchen;
 - für einzelne Spuren zwischen den Zuständen Rot und Grün unterscheiden;
 - sichere und unsichere Ampelkombinationen begründet beurteilen;
-- erkennen, dass bei mehreren Ampeln alle möglichen Kombinationen systematisch betrachtet werden müssen;
-- erste Zustände in einer Tabelle festhalten.
+- erklären, weshalb mehrere grüne Ampeln nicht automatisch unsicher sind und „alle Rot“ kollisionsfrei ist;
+- eine einfache Sicherheitsregel in eigenen Worten ausdrücken;
+- erklären, weshalb alle möglichen Kombinationen systematisch betrachtet werden müssen;
+- erste Ampelzustände in einer einfachen Tabelle mit Rot und Grün geordnet festhalten.
+
+**Lernnachweis:** Die Lernenden zeigen und begründen eine sichere und eine unsichere Stellung, formulieren eine Regel und ordnen Rot-Grün-Kombinationen. Die vollständige, selbstständige Konstruktion einer Wahrheitstabelle ist Ziel von Baustein 3.
+
+??? note "Gemeinsamer Hintergrund bei vergleichender Durchführung"
+
+    Der [zehnminütige Logikblock des alternativen Einstiegs](baustein1-lehrpersonenzentriert.md#phase-1-logik-einordnen-und-aussagen-verstehen) wird bei einem Vergleich der beiden Unterrichtsformen auch hier eingeplant, beispielsweise nach der Erkundung. Die Lernenden unterscheiden Aussagen von Fragen und Aufforderungen und erklären, weshalb auch ein falscher Satz eine Aussage sein kann. Historische Bezugspunkte dienen der Orientierung; Lebensdaten sind kein Prüfungsstoff.
+
+    Für beide Gruppen werden dieselben Inhalte und dieselbe Gesamtzeit festgelegt. Den Hintergrundteil in der konkreten Zeitplanung ausdrücklich berücksichtigen und die übrigen Phasen entsprechend gewichten. Die verkehrsbezogenen Lernnachweise bleiben gleich.
 
 ## Vorbereitung
 
@@ -86,11 +100,11 @@ Die Lernenden können …
 
 | Phase | Inhalt | Sozialform / Medien | Richtwert |
 | --- | --- | --- | --- |
-| [1. Konfrontation](#phase-1--verkehrssituation-nachspielen) | Verkehrssituation legen und spontan beurteilen | Gruppenarbeit, enaktives Material | ca. 10 Min. |
-| [2. Erkundung](#phase-2--sichere-ampelstellungen-finden) | Verschiedene Ampelstellungen ausprobieren und auf Sicherheit prüfen | Gruppenarbeit, enaktives Material | ca. 15–20 Min. |
-| [3. Erweiterung](#phase-3--situation-verändern) | Verkehrssituation bzw. Ampelstellungen variieren und weitere Kombinationen untersuchen | Gruppenarbeit | ca. 15–20 Min. |
-| [4. Systematisierung](#phase-4--alle-möglichkeiten-erfassen) | Überlegen, wie alle möglichen Ampelzustände vollständig erfasst werden können | Gruppenarbeit / Plenum | ca. 15 Min. |
-| [5. Sicherung und Ausblick](#phase-5--ergebnisse-sichern-und-ausblick) | Ergebnisse festhalten und Übergang zur tabellarischen Darstellung vorbereiten | Plenum / Einzelarbeit | ca. 10–15 Min. |
+| [1. Konfrontation](#phase-1-verkehrssituation-nachspielen) | Verkehrssituation legen und spontan beurteilen | Gruppenarbeit, enaktives Material | ca. 10 Min. |
+| [2. Erkundung](#phase-2-sichere-ampelstellungen-finden) | Verschiedene Ampelstellungen ausprobieren und auf Sicherheit prüfen | Gruppenarbeit, enaktives Material | ca. 15–20 Min. |
+| [3. Erweiterung](#phase-3-situation-verandern) | Verkehrssituation bzw. Ampelstellungen variieren und weitere Kombinationen untersuchen | Gruppenarbeit | ca. 15–20 Min. |
+| [4. Systematisierung](#phase-4-alle-moglichkeiten-erfassen) | Überlegen, wie alle möglichen Ampelzustände vollständig erfasst werden können | Gruppenarbeit / Plenum | ca. 15 Min. |
+| [5. Sicherung und Ausblick](#phase-5-ergebnisse-sichern-und-ausblick) | Ergebnisse festhalten und Übergang zur tabellarischen Darstellung vorbereiten | Plenum / Einzelarbeit | ca. 10–15 Min. |
 
 ## Durchführung
 
@@ -259,6 +273,8 @@ Die Lernenden können …
     - Eine systematische Darstellung hilft dabei, keine Möglichkeit zu vergessen.
 
     Die Lernenden können erste Ampelzustände in einer Tabelle festhalten.
+
+    Als sprachliche Vorbereitung auf [LZ2](../didaktik/lernziele.md#lernziel-2-boolesche-formeln-aus-textbeschreibungen-ableiten) formulieren sie zu einem erkannten Konflikt eine Regel: „Diese beiden Spuren dürfen nicht gleichzeitig Grün haben.“ Sie zeigen am Material, welche Fahrwege damit gemeint sind.
 
 ## Ergebnissicherung
 

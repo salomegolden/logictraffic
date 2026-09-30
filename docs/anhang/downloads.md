@@ -1,5 +1,7 @@
 ## Downloads B1
-Hier finden sich alle Downloads zum Baustein 1, insbesondere Anleitung und Vorlagen zum Herstellen des enaktiven Materials. 
+Hier finden sich die Dossiers für beide Einstiegsvarianten sowie die Vorlagen zum Herstellen des enaktiven Materials.
+
+### Enaktiver Einstieg
 
 - [:package: 3D-Druckdatei für Kleinteile (Ampeln etc.; 3MF)](https://github.com/salomegolden/logictraffic/releases/download/3d_v1/3D_Kleinteile_LogicTraffic.3mf)
 - [:package: 3D-Druckdatei für Behälter (Kistchen) für Kleinteile und Situationskarten (3MF)](https://github.com/salomegolden/logictraffic/releases/download/3d_v1/LT_Behalter.3mf)
@@ -17,6 +19,12 @@ Für die Herstellung aus Papier die Vorlagen auf Tonpapier drucken, damit das Ma
 - [:memo: 1a – Kreuzungen legen (PDF)](https://github.com/salomegolden/logictraffic/releases/download/ab1_v3/1a_kreuzungen_legen.pdf)
 - [:memo: 1b – Sichere Ampelstellungen finden (PDF)](https://github.com/salomegolden/logictraffic/releases/download/ab1_v3/1b_sichere_ampelstellungen_finden.pdf)
 - [:memo: 1c – Alle Möglichkeiten erfassen (PDF)](https://github.com/salomegolden/logictraffic/releases/download/ab1_v3/1c_alle_moglichkeiten_erfassen.pdf)
+
+### Lehrpersonenzentrierter Einstieg
+
+- [:memo: Dossier Baustein 1 – Lehrpersonenzentrierter Einstieg (PDF)](https://github.com/salomegolden/logictraffic/releases/download/ab1_v3/Baustein_1_lehrpersonenzentrierter_Einstieg_Dossier.pdf)
+
+[Zum Unterrichtsablauf und zur Präsentation](../unterricht/baustein1-lehrpersonenzentriert.md)
 
 ## Downloads B2
 
