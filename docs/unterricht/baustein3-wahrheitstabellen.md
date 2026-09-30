@@ -35,9 +35,11 @@ Damit bereitet Baustein 3 den Übergang zu [Baustein 4 – Logische Formeln](bau
 
 ??? note "Downloads zu Baustein 3"
 
-    - [:memo: 3a – Wahrheitstabellen verstehen](https://github.com/salomegolden/logictraffic/releases/download/ab3_v1/3a_wahrheitstabellen_verstehen.pdf)
-    - [:memo: 3b – Wahrheitstabellen systematisch erstellen](https://github.com/salomegolden/logictraffic/releases/download/ab3_v1/3b_wahrheitstabellen_systematisch_erstellen.pdf)
-    - [:memo: 3c – Herausforderung: Fehler finden](https://github.com/salomegolden/logictraffic/releases/download/ab3_v1/3c_herausforderung_fehler.pdf)
+    - [:memo: Gesamtdossier Baustein 3 – alle Arbeitsblätter 3a–3c (PDF)](https://github.com/salomegolden/logictraffic/releases/download/ab3_v2/Baustein3_Dossier.pdf)
+
+    - [:memo: 3a – Wahrheitstabellen verstehen](https://github.com/salomegolden/logictraffic/releases/download/ab3_v2/3a_wahrheitstabellen_verstehen.pdf)
+    - [:memo: 3b – Wahrheitstabellen systematisch erstellen](https://github.com/salomegolden/logictraffic/releases/download/ab3_v2/3b_wahrheitstabellen_systematisch_erstellen.pdf)
+    - [:memo: 3c – Herausforderung: Fehler finden](https://github.com/salomegolden/logictraffic/releases/download/ab3_v2/3c_Herausforderung_findest_du_die_Fehlererstellen.pdf)
 
 ## Lernziele
 
@@ -60,7 +62,7 @@ Die Lernenden können …
 - **Situation 2** für Phase 1 bereithalten.
 - **Situation 3** für Phase 2 bereithalten.
 - **Situation 4** für Phase 3 bereithalten.
-- Die Arbeitsblätter [3a](https://github.com/salomegolden/logictraffic/releases/download/ab3_v1/3a_wahrheitstabellen_verstehen.pdf), [3b](https://github.com/salomegolden/logictraffic/releases/download/ab3_v1/3b_wahrheitstabellen_systematisch_erstellen.pdf) und [3c](https://github.com/salomegolden/logictraffic/releases/download/ab3_v1/3c_herausforderung_fehler.pdf) ausdrucken oder digital bereitstellen.
+- Die Arbeitsblätter [3a](https://github.com/salomegolden/logictraffic/releases/download/ab3_v2/3a_wahrheitstabellen_verstehen.pdf), [3b](https://github.com/salomegolden/logictraffic/releases/download/ab3_v2/3b_wahrheitstabellen_systematisch_erstellen.pdf) und [3c](https://github.com/salomegolden/logictraffic/releases/download/ab3_v2/3c_Herausforderung_findest_du_die_Fehlererstellen.pdf) einzeln oder als [Gesamtdossier Baustein 3 (PDF)](https://github.com/salomegolden/logictraffic/releases/download/ab3_v2/Baustein3_Dossier.pdf) ausdrucken oder digital bereitstellen.
 - Wenn möglich, Wahrheitstabellen zunächst **ausserhalb von LogicTraffic** bearbeiten lassen. Die Lernumgebung wird anschliessend als Kontroll- und Rückmeldewerkzeug eingesetzt.
 - Für den Abschluss eine Situation mit fünf Variablen oder die entsprechende Zeilenanzahl `32` bereithalten.
 
@@ -138,9 +140,9 @@ Die Lernenden können …
 
 | Phase | Schwerpunkt | Material | Richtwert |
 | --- | --- | --- | ---: |
-| **1. Wahrheitstabellen verstehen** | Einzelne Ampelstellungen lesen, Tabellenzeilen deuten und die vollständige Tabelle für zwei Variablen verstehen | **[AB 3a](https://github.com/salomegolden/logictraffic/releases/download/ab3_v1/3a_wahrheitstabellen_verstehen.pdf)**, Situation 2 | ca. 15 Min. |
-| **2. Wahrheitstabellen systematisch erstellen** | Drei Variablen vollständig erfassen, Ordnungsmuster erkennen und $2^n$ herleiten | **[AB 3b](https://github.com/salomegolden/logictraffic/releases/download/ab3_v1/3b_wahrheitstabellen_systematisch_erstellen.pdf)**, Situation 3 | ca. 25 Min. |
-| **3. Herausforderung – Fehler finden** | Fehlende, doppelte und falsch bewertete Zeilen diagnostizieren; Wissen sichern und Skalierungsproblem reflektieren | **[AB 3c](https://github.com/salomegolden/logictraffic/releases/download/ab3_v1/3c_herausforderung_fehler.pdf)**, Situation 4 | ca. 15–20 Min. |
+| **1. Wahrheitstabellen verstehen** | Einzelne Ampelstellungen lesen, Tabellenzeilen deuten und die vollständige Tabelle für zwei Variablen verstehen | **[AB 3a](https://github.com/salomegolden/logictraffic/releases/download/ab3_v2/3a_wahrheitstabellen_verstehen.pdf)**, Situation 2 | ca. 15 Min. |
+| **2. Wahrheitstabellen systematisch erstellen** | Drei Variablen vollständig erfassen, Ordnungsmuster erkennen und $2^n$ herleiten | **[AB 3b](https://github.com/salomegolden/logictraffic/releases/download/ab3_v2/3b_wahrheitstabellen_systematisch_erstellen.pdf)**, Situation 3 | ca. 25 Min. |
+| **3. Herausforderung – Fehler finden** | Fehlende, doppelte und falsch bewertete Zeilen diagnostizieren; Wissen sichern und Skalierungsproblem reflektieren | **[AB 3c](https://github.com/salomegolden/logictraffic/releases/download/ab3_v2/3c_Herausforderung_findest_du_die_Fehlererstellen.pdf)**, Situation 4 | ca. 15–20 Min. |
 
 Die drei Phasen bilden gemeinsam den vollständigen Baustein. Bei knappem Zeitbudget kann Phase 3 als Vertiefung eingesetzt werden; die inhaltliche Brücke zu Baustein 4 sollte jedoch in jedem Fall am Ende kurz gesichert werden.
 
@@ -156,14 +158,14 @@ Die drei Phasen bilden gemeinsam den vollständigen Baustein. Bei knappem Zeitbu
 
 ??? example "Material"
 
-    - [:memo: AB 3a – Wahrheitstabellen verstehen](https://github.com/salomegolden/logictraffic/releases/download/ab3_v1/3a_wahrheitstabellen_verstehen.pdf)
+    - [:memo: AB 3a – Wahrheitstabellen verstehen](https://github.com/salomegolden/logictraffic/releases/download/ab3_v2/3a_wahrheitstabellen_verstehen.pdf)
     - LogicTraffic, **Situation 2**
     - Computer oder Tablet pro Zweiergruppe
     - Beamer oder Präsentationsbildschirm
 
 ??? info "Sozialformen"
 
-    Kurzer Einstieg im **Plenum**, anschliessend **Partnerarbeit** mit [AB 3a](https://github.com/salomegolden/logictraffic/releases/download/ab3_v1/3a_wahrheitstabellen_verstehen.pdf). Die Ergebnisse werden am Ende gemeinsam gesichert.
+    Kurzer Einstieg im **Plenum**, anschliessend **Partnerarbeit** mit [AB 3a](https://github.com/salomegolden/logictraffic/releases/download/ab3_v2/3a_wahrheitstabellen_verstehen.pdf). Die Ergebnisse werden am Ende gemeinsam gesichert.
 
     Im Tandem kann jeweils eine Person eine Tabellenzeile lesen, während die andere Person die entsprechende Ampelstellung beschreibt oder in LogicTraffic einstellt. Danach werden die Rollen gewechselt.
 
@@ -217,9 +219,9 @@ Die drei Phasen bilden gemeinsam den vollständigen Baustein. Bei knappem Zeitbu
     | `1` | `0` |
     | `1` | `1` |
 
-    **3. [AB 3a](https://github.com/salomegolden/logictraffic/releases/download/ab3_v1/3a_wahrheitstabellen_verstehen.pdf) bearbeiten**
+    **3. [AB 3a](https://github.com/salomegolden/logictraffic/releases/download/ab3_v2/3a_wahrheitstabellen_verstehen.pdf) bearbeiten**
 
-    Die Lernenden lesen und ergänzen die Tabelle auf [AB 3a](https://github.com/salomegolden/logictraffic/releases/download/ab3_v1/3a_wahrheitstabellen_verstehen.pdf).
+    Die Lernenden lesen und ergänzen die Tabelle auf [AB 3a](https://github.com/salomegolden/logictraffic/releases/download/ab3_v2/3a_wahrheitstabellen_verstehen.pdf).
 
     Dabei sollen sie wiederholt zwischen drei Darstellungen wechseln:
 
@@ -314,7 +316,7 @@ Die drei Phasen bilden gemeinsam den vollständigen Baustein. Bei knappem Zeitbu
 
 ??? example "Material"
 
-    - [:memo: AB 3b – Wahrheitstabellen systematisch erstellen](https://github.com/salomegolden/logictraffic/releases/download/ab3_v1/3b_wahrheitstabellen_systematisch_erstellen.pdf)
+    - [:memo: AB 3b – Wahrheitstabellen systematisch erstellen](https://github.com/salomegolden/logictraffic/releases/download/ab3_v2/3b_wahrheitstabellen_systematisch_erstellen.pdf)
     - LogicTraffic, **Situation 3**
     - Computer oder Tablet pro Zweiergruppe
     - Beamer oder Präsentationsbildschirm
@@ -365,7 +367,7 @@ Die drei Phasen bilden gemeinsam den vollständigen Baustein. Bei knappem Zeitbu
     - nach einem regelmässigen Wechselmuster vorgehen;
     - die Kombinationen wie Binärzahlen ordnen.
 
-    **3. [AB 3b](https://github.com/salomegolden/logictraffic/releases/download/ab3_v1/3b_wahrheitstabellen_systematisch_erstellen.pdf) bearbeiten**
+    **3. [AB 3b](https://github.com/salomegolden/logictraffic/releases/download/ab3_v2/3b_wahrheitstabellen_systematisch_erstellen.pdf) bearbeiten**
 
     Die Lernenden erstellen die vollständige Tabelle selbstständig.
 
@@ -521,7 +523,7 @@ Die drei Phasen bilden gemeinsam den vollständigen Baustein. Bei knappem Zeitbu
 
 ??? example "Material"
 
-    - [:memo: AB 3c – Herausforderung: Fehler finden](https://github.com/salomegolden/logictraffic/releases/download/ab3_v1/3c_herausforderung_fehler.pdf)
+    - [:memo: AB 3c – Herausforderung: Fehler finden](https://github.com/salomegolden/logictraffic/releases/download/ab3_v2/3c_Herausforderung_findest_du_die_Fehlererstellen.pdf)
     - LogicTraffic, **Situation 4**
     - Computer oder Tablet pro Zweiergruppe
     - Ergebnisse bzw. Merksätze aus Phase 2
@@ -551,7 +553,7 @@ Die drei Phasen bilden gemeinsam den vollständigen Baustein. Bei knappem Zeitbu
     - `B` und `C` dürfen grundsätzlich gleichzeitig Grün haben.
     - `D` darf nicht gleichzeitig mit `B` oder `C` Grün haben.
 
-    **2. Fehlerhafte Tabelle auf [AB 3c](https://github.com/salomegolden/logictraffic/releases/download/ab3_v1/3c_herausforderung_fehler.pdf) untersuchen**
+    **2. Fehlerhafte Tabelle auf [AB 3c](https://github.com/salomegolden/logictraffic/releases/download/ab3_v2/3c_Herausforderung_findest_du_die_Fehlererstellen.pdf) untersuchen**
 
     Die Tabelle enthält bewusst verschiedene Fehlertypen.
 
@@ -666,7 +668,7 @@ Die drei Phasen bilden gemeinsam den vollständigen Baustein. Bei knappem Zeitbu
 
 ??? note "Didaktische Hinweise"
 
-    [AB 3c](https://github.com/salomegolden/logictraffic/releases/download/ab3_v1/3c_herausforderung_fehler.pdf) ist besonders geeignet, um sichtbar zu machen, ob die Lernenden eine Wahrheitstabelle **verstanden** haben oder lediglich ein Muster reproduzieren können.
+    [AB 3c](https://github.com/salomegolden/logictraffic/releases/download/ab3_v2/3c_Herausforderung_findest_du_die_Fehlererstellen.pdf) ist besonders geeignet, um sichtbar zu machen, ob die Lernenden eine Wahrheitstabelle **verstanden** haben oder lediglich ein Muster reproduzieren können.
 
     Die Fehlersuche sollte deshalb nicht mit LogicTraffic beginnen. Sonst reduziert sich die Aufgabe auf einen blossen Abgleich mit einer fertigen Tabelle.
 

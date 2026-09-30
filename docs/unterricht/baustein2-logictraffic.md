@@ -29,15 +29,17 @@ Die Formel wird am Ende lediglich als weitere Darstellung der **Sicherheitsregel
     - Begriffe wie Wahrheitstabelle, Variable oder Formel müssen noch nicht formal beherrscht werden.
 
     **:package: Material:**  
-    LogicTraffic, Computer oder Tablets, Beamer oder Präsentationsbildschirm sowie die Materialien [2a](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2a_orientierung_logictraffic.pdf)–[2e](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2e_tafelbild_ergebnissicherung.pdf)
+    LogicTraffic, Computer oder Tablets, Beamer oder Präsentationsbildschirm sowie die Materialien [2a](https://github.com/salomegolden/logictraffic/releases/download/ab2_v2/2a_orientierung_logictraffic.pdf)–[2e](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2e_tafelbild_ergebnissicherung.pdf)
 
 ??? note "Downloads zu Baustein 2"
 
+    - [:memo: Gesamtdossier Baustein 2 – Materialien 2a–2c für die Lernenden (PDF)](https://github.com/salomegolden/logictraffic/releases/download/ab2_v2/Baustein_2_Dossier.pdf)
+
     **Für die Lernenden**
 
-    - [:memo: 2a – Orientierung in LogicTraffic](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2a_orientierung_logictraffic.pdf)
-    - [:material-image-outline: 2b – Merkblatt Orientierung](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2b_merkblatt_orientierung.pdf)
-    - [:memo: 2c – Ergebnissicherung LogicTraffic](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2c_ergebnissicherungLT.pdf)
+    - [:memo: 2a – Orientierung in LogicTraffic](https://github.com/salomegolden/logictraffic/releases/download/ab2_v2/2a_orientierung_logictraffic.pdf)
+    - [:material-image-outline: 2b – Merkblatt Orientierung](https://github.com/salomegolden/logictraffic/releases/download/ab2_v2/2b_merkblatt_orientierung.pdf)
+    - [:memo: 2c – Ergebnissicherung LogicTraffic](https://github.com/salomegolden/logictraffic/releases/download/ab2_v2/2c_ergebnissicherungLT.pdf)
 
     **Für die Lehrperson**
 
@@ -77,15 +79,17 @@ Die Lernenden können …
 
 ## Vorbereitung
 
+- Die Materialien 2a–2c einzeln oder als [Gesamtdossier Baustein 2 (PDF)](https://github.com/salomegolden/logictraffic/releases/download/ab2_v2/Baustein_2_Dossier.pdf) bereitstellen. Das Merkblatt 2b erst nach der ersten eigenen Erkundung zugänglich machen.
+
 - [LogicTraffic](https://logictraffic.ch/) auf allen Geräten öffnen und die Funktionsfähigkeit prüfen.
 - Für die gemeinsame Einführung vorzugsweise **Situation 2** bereithalten. Sie besitzt zwei Variablen und ermöglicht einen überschaubaren Einstieg.
 - Dieselbe Situation über den Beamer öffnen, damit alle Lernenden dieselben Veränderungen beobachten können.
 - Falls Baustein 1 durchgeführt wurde, zu Beginn kurz an die dort untersuchten sicheren und unsicheren Ampelstellungen anknüpfen.
 - Falls Baustein 1 **nicht** durchgeführt wurde, die Präsentation **[2d](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2d_prasentation_lp_kreuzungen.pdf)** als alternativen Einstieg bereithalten.
-- **[2a](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2a_orientierung_logictraffic.pdf)** als zentrales Arbeitsblatt für die Erkundung bereitstellen.
-- **[2b](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2b_merkblatt_orientierung.pdf)** noch nicht zu Beginn austeilen: Das Merkblatt enthält bereits zentrale Orientierungsinformationen und eignet sich besser als Nachschlagehilfe **nach der ersten eigenen Erkundung**.
-- **[2c](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2c_ergebnissicherungLT.pdf)** für die abschliessende Ergebnissicherung bereitstellen.
-- **[2e](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2e_tafelbild_ergebnissicherung.pdf)** für die gemeinsame Auswertung von [2c](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2c_ergebnissicherungLT.pdf) projizieren oder ausdrucken.
+- **[2a](https://github.com/salomegolden/logictraffic/releases/download/ab2_v2/2a_orientierung_logictraffic.pdf)** als zentrales Arbeitsblatt für die Erkundung bereitstellen.
+- **[2b](https://github.com/salomegolden/logictraffic/releases/download/ab2_v2/2b_merkblatt_orientierung.pdf)** noch nicht zu Beginn austeilen: Das Merkblatt enthält bereits zentrale Orientierungsinformationen und eignet sich besser als Nachschlagehilfe **nach der ersten eigenen Erkundung**.
+- **[2c](https://github.com/salomegolden/logictraffic/releases/download/ab2_v2/2c_ergebnissicherungLT.pdf)** für die abschliessende Ergebnissicherung bereitstellen.
+- **[2e](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2e_tafelbild_ergebnissicherung.pdf)** für die gemeinsame Auswertung von [2c](https://github.com/salomegolden/logictraffic/releases/download/ab2_v2/2c_ergebnissicherungLT.pdf) projizieren oder ausdrucken.
 - Den Formelbereich in LogicTraffic sichtbar lassen, aber noch nicht fachlich vertiefen.
 
 ??? info "Fachlicher Hintergrund – was zeigt LogicTraffic?"
@@ -134,10 +138,10 @@ Die Lernenden können …
 | Phase | Schwerpunkt | Material | Richtwert |
 | --- | --- | --- | ---: |
 | **1. Von der Kreuzung zur digitalen Darstellung** | Vorwissen aktivieren und die Frage vorbereiten, wie eine Kreuzung am Computer dargestellt werden kann | Rückbezug auf Baustein 1; alternativ **[2d](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2d_prasentation_lp_kreuzungen.pdf)** | ca. 5 Min.; ohne Baustein 1 ca. 10–15 Min. |
-| **2. LogicTraffic erkunden und Zustände lesen** | Oberfläche, Variablen, `0`/`1`, Tabellenzeilen sowie sichere und unsichere Zustände untersuchen | **[AB 2a](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2a_orientierung_logictraffic.pdf)**, anschliessend **[MB 2b](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2b_merkblatt_orientierung.pdf)**, LogicTraffic | ca. 25–30 Min. |
-| **3. Darstellungen zusammenführen und sichern** | Funktionen der verschiedenen Darstellungen ordnen und den Übergang zu Baustein 3 vorbereiten | **[AB 2c](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2c_ergebnissicherungLT.pdf)**, **[Tafelbild 2e](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2e_tafelbild_ergebnissicherung.pdf)** | ca. 15–20 Min. |
+| **2. LogicTraffic erkunden und Zustände lesen** | Oberfläche, Variablen, `0`/`1`, Tabellenzeilen sowie sichere und unsichere Zustände untersuchen | **[AB 2a](https://github.com/salomegolden/logictraffic/releases/download/ab2_v2/2a_orientierung_logictraffic.pdf)**, anschliessend **[MB 2b](https://github.com/salomegolden/logictraffic/releases/download/ab2_v2/2b_merkblatt_orientierung.pdf)**, LogicTraffic | ca. 25–30 Min. |
+| **3. Darstellungen zusammenführen und sichern** | Funktionen der verschiedenen Darstellungen ordnen und den Übergang zu Baustein 3 vorbereiten | **[AB 2c](https://github.com/salomegolden/logictraffic/releases/download/ab2_v2/2c_ergebnissicherungLT.pdf)**, **[Tafelbild 2e](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2e_tafelbild_ergebnissicherung.pdf)** | ca. 15–20 Min. |
 
-Die Materialien sind damit eindeutig zugeordnet: **[2a](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2a_orientierung_logictraffic.pdf)** trägt die eigentliche Erkundung, **[2b](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2b_merkblatt_orientierung.pdf)** dient danach als Nachschlagehilfe, **[2c](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2c_ergebnissicherungLT.pdf)** sichert die Ergebnisse, **[2e](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2e_tafelbild_ergebnissicherung.pdf)** unterstützt die gemeinsame Auswertung und **[2d](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2d_prasentation_lp_kreuzungen.pdf)** ersetzt nur dann den realen bzw. enaktiven Rückbezug, wenn Baustein 1 nicht stattgefunden hat.
+Die Materialien sind damit eindeutig zugeordnet: **[2a](https://github.com/salomegolden/logictraffic/releases/download/ab2_v2/2a_orientierung_logictraffic.pdf)** trägt die eigentliche Erkundung, **[2b](https://github.com/salomegolden/logictraffic/releases/download/ab2_v2/2b_merkblatt_orientierung.pdf)** dient danach als Nachschlagehilfe, **[2c](https://github.com/salomegolden/logictraffic/releases/download/ab2_v2/2c_ergebnissicherungLT.pdf)** sichert die Ergebnisse, **[2e](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2e_tafelbild_ergebnissicherung.pdf)** unterstützt die gemeinsame Auswertung und **[2d](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2d_prasentation_lp_kreuzungen.pdf)** ersetzt nur dann den realen bzw. enaktiven Rückbezug, wenn Baustein 1 nicht stattgefunden hat.
 
 ## Durchführung
 
@@ -245,15 +249,15 @@ Die Materialien sind damit eindeutig zugeordnet: **[2a](https://github.com/salom
 
 ??? example "Material"
 
-    - [:memo: AB 2a – Orientierung in LogicTraffic](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2a_orientierung_logictraffic.pdf)
-    - [:material-image-outline: MB 2b – Merkblatt Orientierung](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2b_merkblatt_orientierung.pdf)
+    - [:memo: AB 2a – Orientierung in LogicTraffic](https://github.com/salomegolden/logictraffic/releases/download/ab2_v2/2a_orientierung_logictraffic.pdf)
+    - [:material-image-outline: MB 2b – Merkblatt Orientierung](https://github.com/salomegolden/logictraffic/releases/download/ab2_v2/2b_merkblatt_orientierung.pdf)
     - [LogicTraffic](https://logictraffic.ch/), vorzugsweise **Situation 2**
     - Computer oder Tablet pro Zweiergruppe
     - Beamer oder Präsentationsbildschirm
 
 ??? info "Sozialformen"
 
-    Kurze gemeinsame Orientierung im **Plenum**, danach **Partnerarbeit** mit [AB 2a](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2a_orientierung_logictraffic.pdf).
+    Kurze gemeinsame Orientierung im **Plenum**, danach **Partnerarbeit** mit [AB 2a](https://github.com/salomegolden/logictraffic/releases/download/ab2_v2/2a_orientierung_logictraffic.pdf).
 
     Im Tandem übernimmt eine Person die Bedienung von LogicTraffic, während die andere Person beobachtet, liest und begründet. Spätestens beim Wechsel von Seite 1 zu Seite 2 des Arbeitsblatts werden die Rollen getauscht.
 
@@ -280,13 +284,13 @@ Die Materialien sind damit eindeutig zugeordnet: **[2a](https://github.com/salom
 
     **Wichtig:** Die Fahrspuren werden **nicht nochmals beschriftet**. Die Bezeichnungen `A`, `B`, `C` … sind in LogicTraffic bereits vorhanden. Die Aufgabe besteht darin, zu erkennen, dass dieselben Variablen in anderen Bereichen der Lernumgebung wieder auftauchen.
 
-    **2. [AB 2a](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2a_orientierung_logictraffic.pdf) – Aufgabe 1: Wo ist was?**
+    **2. [AB 2a](https://github.com/salomegolden/logictraffic/releases/download/ab2_v2/2a_orientierung_logictraffic.pdf) – Aufgabe 1: Wo ist was?**
 
     Die Lernenden orientieren sich direkt in der Lernumgebung und identifizieren die zentralen Bereiche.
 
     Die Lehrperson verzichtet auf eine lange Vorführung. Die Orientierung soll möglichst durch eigenes Beobachten und Anklicken erfolgen.
 
-    **3. [AB 2a](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2a_orientierung_logictraffic.pdf) – Aufgabe 2: Fahrspur und Variable gehören zusammen**
+    **3. [AB 2a](https://github.com/salomegolden/logictraffic/releases/download/ab2_v2/2a_orientierung_logictraffic.pdf) – Aufgabe 2: Fahrspur und Variable gehören zusammen**
 
     Die Lernenden verfolgen beispielsweise die bereits beschriftete Spur `A` und suchen, wo `A` in der Wahrheitstabelle wieder auftaucht.
 
@@ -298,7 +302,7 @@ Die Materialien sind damit eindeutig zugeordnet: **[2a](https://github.com/salom
 
     > Die Bezeichnung bzw. Variable `A` steht in beiden Darstellungen für dieselbe Fahrspur.
 
-    **4. [AB 2a](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2a_orientierung_logictraffic.pdf) – Aufgabe 3: Rot und Grün werden zu 0 und 1**
+    **4. [AB 2a](https://github.com/salomegolden/logictraffic/releases/download/ab2_v2/2a_orientierung_logictraffic.pdf) – Aufgabe 3: Rot und Grün werden zu 0 und 1**
 
     Die Lernenden verändern eine Ampel und beobachten gleichzeitig die zugehörige Variable bzw. Tabellenzeile.
 
@@ -317,9 +321,9 @@ Die Materialien sind damit eindeutig zugeordnet: **[2a](https://github.com/salom
 
     **Erwartete Antwort:** Die Ampel der Spur `A` zeigt Rot.
 
-    **5. [Merkblatt 2b](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2b_merkblatt_orientierung.pdf) gezielt einführen**
+    **5. [Merkblatt 2b](https://github.com/salomegolden/logictraffic/releases/download/ab2_v2/2b_merkblatt_orientierung.pdf) gezielt einführen**
 
-    Erst **nach diesen ersten eigenen Beobachtungen** wird das [Merkblatt 2b](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2b_merkblatt_orientierung.pdf) ausgeteilt bzw. geöffnet.
+    Erst **nach diesen ersten eigenen Beobachtungen** wird das [Merkblatt 2b](https://github.com/salomegolden/logictraffic/releases/download/ab2_v2/2b_merkblatt_orientierung.pdf) ausgeteilt bzw. geöffnet.
 
     Es dient ab diesem Zeitpunkt als Nachschlagehilfe zu:
 
@@ -329,7 +333,7 @@ Die Materialien sind damit eindeutig zugeordnet: **[2a](https://github.com/salom
 
     Das Merkblatt ist **kein zusätzliches Arbeitsblatt** und wird nicht mit weiteren Aufgaben versehen.
 
-    **6. [AB 2a](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2a_orientierung_logictraffic.pdf) – Aufgabe 4: Von der Kreuzung zur Tabellenzeile**
+    **6. [AB 2a](https://github.com/salomegolden/logictraffic/releases/download/ab2_v2/2a_orientierung_logictraffic.pdf) – Aufgabe 4: Von der Kreuzung zur Tabellenzeile**
 
     Die Lernenden stellen unterschiedliche Ampelstellungen ein und suchen jeweils die entsprechende Zeile.
 
@@ -349,7 +353,7 @@ Die Materialien sind damit eindeutig zugeordnet: **[2a](https://github.com/salom
 
     Wie diese vollständige Tabelle systematisch entsteht, wird noch nicht thematisiert.
 
-    **7. [AB 2a](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2a_orientierung_logictraffic.pdf) – Aufgabe 5: Sicher oder unsicher?**
+    **7. [AB 2a](https://github.com/salomegolden/logictraffic/releases/download/ab2_v2/2a_orientierung_logictraffic.pdf) – Aufgabe 5: Sicher oder unsicher?**
 
     Für mehrere Ampelkombinationen entscheiden die Lernenden zuerst anhand der Fahrwege:
 
@@ -365,7 +369,7 @@ Die Materialien sind damit eindeutig zugeordnet: **[2a](https://github.com/salom
 
     **Erwartete Antwort:** Die gesamte Kombination der Ampelzustände.
 
-    **8. [AB 2a](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2a_orientierung_logictraffic.pdf) – Aufgaben 6 und 7: Darstellungen unterscheiden**
+    **8. [AB 2a](https://github.com/salomegolden/logictraffic/releases/download/ab2_v2/2a_orientierung_logictraffic.pdf) – Aufgaben 6 und 7: Darstellungen unterscheiden**
 
     Zum Abschluss des Arbeitsblatts wird bewusst zwischen den Darstellungen unterschieden:
 
@@ -390,14 +394,14 @@ Die Materialien sind damit eindeutig zugeordnet: **[2a](https://github.com/salom
     **3. Formel nicht vorwegnehmen**  
     Der Formelbereich darf sichtbar sein und auf dem Merkblatt vorkommen. Inhaltlich genügt jedoch die Aussage, dass die Formel später die Sicherheitsregel kompakt beschreiben wird.
 
-    Das [Merkblatt 2b](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2b_merkblatt_orientierung.pdf) wird bewusst **nach** der ersten Erkundung eingesetzt. Würde es vor [AB 2a](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2a_orientierung_logictraffic.pdf) ausgeteilt, nähme es einen Teil der Beobachtungsleistung vorweg.
+    Das [Merkblatt 2b](https://github.com/salomegolden/logictraffic/releases/download/ab2_v2/2b_merkblatt_orientierung.pdf) wird bewusst **nach** der ersten Erkundung eingesetzt. Würde es vor [AB 2a](https://github.com/salomegolden/logictraffic/releases/download/ab2_v2/2a_orientierung_logictraffic.pdf) ausgeteilt, nähme es einen Teil der Beobachtungsleistung vorweg.
 
 ??? bug "Differenzierung"
 
     === "Vereinfachungen"
 
         - Ausschliesslich mit Situation 2 und zwei Variablen arbeiten.
-        - Das [Merkblatt 2b](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2b_merkblatt_orientierung.pdf) nach Aufgabe 3 offen verwenden lassen.
+        - Das [Merkblatt 2b](https://github.com/salomegolden/logictraffic/releases/download/ab2_v2/2b_merkblatt_orientierung.pdf) nach Aufgabe 3 offen verwenden lassen.
         - Immer nur **eine** Veränderung an der Kreuzung vornehmen und danach beschreiben lassen, was sich an anderer Stelle mitverändert.
         - Satzstarter anbieten:  
           > „`A = 1` bedeutet …“  
@@ -423,14 +427,14 @@ Die Materialien sind damit eindeutig zugeordnet: **[2a](https://github.com/salom
 
 ??? example "Material"
 
-    - [:memo: AB 2c – Ergebnissicherung LogicTraffic](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2c_ergebnissicherungLT.pdf)
+    - [:memo: AB 2c – Ergebnissicherung LogicTraffic](https://github.com/salomegolden/logictraffic/releases/download/ab2_v2/2c_ergebnissicherungLT.pdf)
     - [:material-image-outline: 2e – Tafelbild zur Ergebnissicherung](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2e_tafelbild_ergebnissicherung.pdf)
-    - [:material-image-outline: MB 2b – Merkblatt Orientierung](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2b_merkblatt_orientierung.pdf) als Nachschlagehilfe
+    - [:material-image-outline: MB 2b – Merkblatt Orientierung](https://github.com/salomegolden/logictraffic/releases/download/ab2_v2/2b_merkblatt_orientierung.pdf) als Nachschlagehilfe
     - LogicTraffic und Beamer
 
 ??? info "Sozialformen"
 
-    Zunächst kurze **Einzelarbeit** mit [2c](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2c_ergebnissicherungLT.pdf), danach **Partnervergleich**. Die gemeinsame Sicherung erfolgt im **Plenum** mit [Tafelbild 2e](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2e_tafelbild_ergebnissicherung.pdf).
+    Zunächst kurze **Einzelarbeit** mit [2c](https://github.com/salomegolden/logictraffic/releases/download/ab2_v2/2c_ergebnissicherungLT.pdf), danach **Partnervergleich**. Die gemeinsame Sicherung erfolgt im **Plenum** mit [Tafelbild 2e](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2e_tafelbild_ergebnissicherung.pdf).
 
 ??? tip "benötigte Zeit"
 
@@ -438,7 +442,7 @@ Die Materialien sind damit eindeutig zugeordnet: **[2a](https://github.com/salom
 
 ??? abstract "Verlaufsplanung"
 
-    **1. [AB 2c](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2c_ergebnissicherungLT.pdf) zunächst individuell bearbeiten**
+    **1. [AB 2c](https://github.com/salomegolden/logictraffic/releases/download/ab2_v2/2c_ergebnissicherungLT.pdf) zunächst individuell bearbeiten**
 
     Die Lernenden sichern die Ergebnisse der Erkundung auf dem Blatt **„Dieselbe Situation – verschiedene Darstellungen“**.
 
@@ -449,7 +453,7 @@ Die Materialien sind damit eindeutig zugeordnet: **[2a](https://github.com/salom
     - **Was bedeutet `sicher`?**
     - **Welche Idee verbindet die verschiedenen Darstellungen?**
 
-    Das [Merkblatt 2b](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2b_merkblatt_orientierung.pdf) darf bei Bedarf als Nachschlagehilfe verwendet werden.
+    Das [Merkblatt 2b](https://github.com/salomegolden/logictraffic/releases/download/ab2_v2/2b_merkblatt_orientierung.pdf) darf bei Bedarf als Nachschlagehilfe verwendet werden.
 
     **2. Ergebnisse im Tandem vergleichen**
 
@@ -515,12 +519,12 @@ Die Materialien sind damit eindeutig zugeordnet: **[2a](https://github.com/salom
 
 ??? note "Didaktische Hinweise"
 
-    [2c](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2c_ergebnissicherungLT.pdf) und [2e](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2e_tafelbild_ergebnissicherung.pdf) erfüllen bewusst **verschiedene Rollen**:
+    [2c](https://github.com/salomegolden/logictraffic/releases/download/ab2_v2/2c_ergebnissicherungLT.pdf) und [2e](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2e_tafelbild_ergebnissicherung.pdf) erfüllen bewusst **verschiedene Rollen**:
 
-    - **[2c](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2c_ergebnissicherungLT.pdf)** ist die aktive Ergebnissicherung der Lernenden.
+    - **[2c](https://github.com/salomegolden/logictraffic/releases/download/ab2_v2/2c_ergebnissicherungLT.pdf)** ist die aktive Ergebnissicherung der Lernenden.
     - **[2e](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2e_tafelbild_ergebnissicherung.pdf)** unterstützt die gemeinsame Auswertung durch die Lehrperson.
 
-    Dadurch sollte [2e](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2e_tafelbild_ergebnissicherung.pdf) nicht vor der Bearbeitung von [2c](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2c_ergebnissicherungLT.pdf) gezeigt werden, da es sonst die eigentliche Sicherungsleistung vorwegnimmt.
+    Dadurch sollte [2e](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2e_tafelbild_ergebnissicherung.pdf) nicht vor der Bearbeitung von [2c](https://github.com/salomegolden/logictraffic/releases/download/ab2_v2/2c_ergebnissicherungLT.pdf) gezeigt werden, da es sonst die eigentliche Sicherungsleistung vorwegnimmt.
 
     Fachlich ist zudem eine kleine Präzisierung wichtig: Eine konkrete Ampelstellung und eine gesamte Wahrheitstabelle sind nicht einfach „dieselbe Darstellung in anderer Form“. Eine **Tabellenzeile** entspricht einer konkreten Belegung; die **gesamte Tabelle** umfasst mehrere bzw. alle Belegungen. Die **Formel** beschreibt wiederum die übergeordnete Sicherheitsregel. Gerade diese Unterscheidung erleichtert später den Übergang zu Baustein 3 und 4.
 
@@ -530,7 +534,7 @@ Die Materialien sind damit eindeutig zugeordnet: **[2a](https://github.com/salom
 
     === "Vereinfachungen"
 
-        - [2b](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2b_merkblatt_orientierung.pdf) beim Ausfüllen von [2c](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2c_ergebnissicherungLT.pdf) offen verwenden lassen.
+        - [2b](https://github.com/salomegolden/logictraffic/releases/download/ab2_v2/2b_merkblatt_orientierung.pdf) beim Ausfüllen von [2c](https://github.com/salomegolden/logictraffic/releases/download/ab2_v2/2c_ergebnissicherungLT.pdf) offen verwenden lassen.
         - Nur die vier Kernbereiche Kreuzung, Variablen/`0`–`1`, Wahrheitstabelle und `sicher` sichern; die Formel anschliessend gemeinsam ergänzen.
         - Satzstarter anbieten:  
           > „Die Kreuzung zeigt …“  

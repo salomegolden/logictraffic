@@ -14,7 +14,7 @@ Vor dem Unterricht sollten insbesondere folgende Punkte geklärt werden:
 
 ## Enaktives Material vorbereiten
 
-Für [Baustein 1 – Enaktiver Einstieg](baustein1-enaktiv.md) ein Materialset pro Gruppe bereitstellen. Das Material kann mit den [3D-Druckmodellen](https://github.com/salomegolden/logictraffic/releases/tag/3d_v1) hergestellt werden. Zusätzlich zu den 3D-gedruckten Teilen werden nur noch die Situationskarten und die Autobilder benötigt. Die Autobilder ausdrucken, ausschneiden und auf die Buttons kleben.
+Für [Baustein 1 – Enaktiver Einstieg](baustein1-enaktiv.md) ein Materialset pro Gruppe bereitstellen. Für den 3D-Druck stehen die [3D-Druckdatei für Kleinteile (Ampeln etc.; 3MF)](https://github.com/salomegolden/logictraffic/releases/download/3d_v1/3D_Kleinteile_LogicTraffic.3mf) und die [3D-Druckdatei für Behälter (Kistchen) für Kleinteile und Situationskarten (3MF)](https://github.com/salomegolden/logictraffic/releases/download/3d_v1/LT_Behalter.3mf) zur Verfügung. Zusätzlich zu den 3D-gedruckten Teilen werden nur noch die Situationskarten und die Autobilder benötigt. Die Autobilder ausdrucken, ausschneiden und auf die Buttons kleben.
 
 - [M1.1 – Autos, Ampeln und Pfeile (PDF)](https://github.com/salomegolden/logictraffic/releases/download/material-v2/M1_1_Autos_Ampeln_Pfeile.pdf): enthält die Autobilder zum Aufkleben.
 - [M1.2 – Situationskarten (PDF)](https://github.com/salomegolden/logictraffic/releases/download/material-v2/M1_2_Situationskarten.pdf): für die Gruppen ausdrucken.

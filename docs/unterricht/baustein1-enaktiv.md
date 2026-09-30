@@ -23,13 +23,16 @@ Ausgehend von einzelnen konkreten Situationen entsteht schrittweise das Bedürfn
 
 ??? note "Downloads zu Baustein 1"
 
-    - [:package: 3D-Druckmodelle für das enaktive Material](https://github.com/salomegolden/logictraffic/releases/tag/3d_v1)
+    - [:memo: Gesamtdossier Baustein 1 – alle Arbeitsblätter 1a–1c (PDF)](https://github.com/salomegolden/logictraffic/releases/download/ab1_v3/Baustein_1_Dossier.pdf)
+
+    - [:package: 3D-Druckdatei für Kleinteile (Ampeln etc.; 3MF)](https://github.com/salomegolden/logictraffic/releases/download/3d_v1/3D_Kleinteile_LogicTraffic.3mf)
+    - [:package: 3D-Druckdatei für Behälter (Kistchen) für Kleinteile und Situationskarten (3MF)](https://github.com/salomegolden/logictraffic/releases/download/3d_v1/LT_Behalter.3mf)
     - [:package: M1.1 – Autos, Ampeln und Pfeile (PDF)](https://github.com/salomegolden/logictraffic/releases/download/material-v2/M1_1_Autos_Ampeln_Pfeile.pdf)
     - [:memo: M1.2 – Situationskarten (PDF)](https://github.com/salomegolden/logictraffic/releases/download/material-v2/M1_2_Situationskarten.pdf)
     - [:package: M1.3 – Kreuzungen (PDF)](https://github.com/salomegolden/logictraffic/releases/download/material-v2/M1_3_Kreuzungen.pdf)
-    - [:memo: 1a – Kreuzungen legen (PDF)](https://github.com/salomegolden/logictraffic/releases/download/ab1_v2/1a_Kreuzungen_legen.pdf)
-    - [:memo: 1b – Sichere Ampelstellungen finden (PDF)](https://github.com/salomegolden/logictraffic/releases/download/ab1_v2/1b_sichere_Ampelstellungen_finden.pdf)
-    - [:memo: 1c – Alle Möglichkeiten erfassen (PDF)](https://github.com/salomegolden/logictraffic/releases/download/ab1_v2/1c_Alle_Moglichkeiten_erfassen.pdf)
+    - [:memo: 1a – Kreuzungen legen (PDF)](https://github.com/salomegolden/logictraffic/releases/download/ab1_v3/1a_kreuzungen_legen.pdf)
+    - [:memo: 1b – Sichere Ampelstellungen finden (PDF)](https://github.com/salomegolden/logictraffic/releases/download/ab1_v3/1b_sichere_ampelstellungen_finden.pdf)
+    - [:memo: 1c – Alle Möglichkeiten erfassen (PDF)](https://github.com/salomegolden/logictraffic/releases/download/ab1_v3/1c_alle_moglichkeiten_erfassen.pdf)
     - [:material-image-outline: Bild vom enaktiven Material](https://github.com/salomegolden/logictraffic/releases/download/images-v1/enaktivesmaterial.jpeg)
 
 ## Lernziele
@@ -54,11 +57,11 @@ Die Lernenden können …
     - pro verwendeter Spur ein wendbares Ampelplättchen;
     - eine leere Tabelle zum Festhalten der Ampelzustände;
     - die Druckvorlagen [M1.1 – Autos, Ampeln und Pfeile](https://github.com/salomegolden/logictraffic/releases/download/material-v2/M1_1_Autos_Ampeln_Pfeile.pdf), [M1.2 – Situationskarten](https://github.com/salomegolden/logictraffic/releases/download/material-v2/M1_2_Situationskarten.pdf) und [M1.3 – Kreuzungen](https://github.com/salomegolden/logictraffic/releases/download/material-v2/M1_3_Kreuzungen.pdf);
-    - die Arbeitsblätter [1a – Kreuzungen legen](https://github.com/salomegolden/logictraffic/releases/download/ab1_v2/1a_Kreuzungen_legen.pdf), [1b – Sichere Ampelstellungen finden](https://github.com/salomegolden/logictraffic/releases/download/ab1_v2/1b_sichere_Ampelstellungen_finden.pdf) und [1c – Alle Möglichkeiten erfassen](https://github.com/salomegolden/logictraffic/releases/download/ab1_v2/1c_Alle_Moglichkeiten_erfassen.pdf).
+    - die Arbeitsblätter [1a – Kreuzungen legen](https://github.com/salomegolden/logictraffic/releases/download/ab1_v3/1a_kreuzungen_legen.pdf), [1b – Sichere Ampelstellungen finden](https://github.com/salomegolden/logictraffic/releases/download/ab1_v3/1b_sichere_ampelstellungen_finden.pdf) und [1c – Alle Möglichkeiten erfassen](https://github.com/salomegolden/logictraffic/releases/download/ab1_v3/1c_alle_moglichkeiten_erfassen.pdf), einzeln oder als [Gesamtdossier Baustein 1 (PDF)](https://github.com/salomegolden/logictraffic/releases/download/ab1_v3/Baustein_1_Dossier.pdf).
 
 ??? tip "Tipps zum enaktiven Material"
 
-    Das enaktive Material kann auch mit dem 3D-Drucker hergestellt werden. Die [3D-Druckmodelle sind auf GitHub verfügbar](https://github.com/salomegolden/logictraffic/releases/tag/3d_v1). Zusätzlich zu den gedruckten Teilen werden nur noch die Situationskarten aus M1.2 und die Autobilder aus M1.1 benötigt. Die Autobilder werden ausgedruckt, ausgeschnitten und auf die Buttons geklebt.
+    Das enaktive Material kann auch mit dem 3D-Drucker hergestellt werden. Dafür stehen die [3D-Druckdatei für Kleinteile (Ampeln etc.; 3MF)](https://github.com/salomegolden/logictraffic/releases/download/3d_v1/3D_Kleinteile_LogicTraffic.3mf) und die [3D-Druckdatei für Behälter (Kistchen) für Kleinteile und Situationskarten (3MF)](https://github.com/salomegolden/logictraffic/releases/download/3d_v1/LT_Behalter.3mf) zur Verfügung. Zusätzlich zu den gedruckten Teilen werden nur noch die Situationskarten aus M1.2 und die Autobilder aus M1.1 benötigt. Die Autobilder werden ausgedruckt, ausgeschnitten und auf die Buttons geklebt.
 
     Die Ampelplättchen bestehen aus kleinen Holzstücken oder gefaltetem Papier. Auf einer Seite zeigen sie eine grüne Ampel, auf der Rückseite eine rote Ampel. Der Zustand einer Ampel wird verändert, indem das Plättchen umgedreht wird.
 
@@ -250,7 +253,7 @@ Die Lernenden können …
 
 ## Ergebnissicherung
 
-Zur Ergebnissicherung eignen sich die Arbeitsblätter [1a – Kreuzungen legen](https://github.com/salomegolden/logictraffic/releases/download/ab1_v2/1a_Kreuzungen_legen.pdf), [1b – Sichere Ampelstellungen finden](https://github.com/salomegolden/logictraffic/releases/download/ab1_v2/1b_sichere_Ampelstellungen_finden.pdf) und [1c – Alle Möglichkeiten erfassen](https://github.com/salomegolden/logictraffic/releases/download/ab1_v2/1c_Alle_Moglichkeiten_erfassen.pdf) oder eine gemeinsame Darstellung an der Tafel.
+Zur Ergebnissicherung eignen sich die Arbeitsblätter [1a – Kreuzungen legen](https://github.com/salomegolden/logictraffic/releases/download/ab1_v3/1a_kreuzungen_legen.pdf), [1b – Sichere Ampelstellungen finden](https://github.com/salomegolden/logictraffic/releases/download/ab1_v3/1b_sichere_ampelstellungen_finden.pdf) und [1c – Alle Möglichkeiten erfassen](https://github.com/salomegolden/logictraffic/releases/download/ab1_v3/1c_alle_moglichkeiten_erfassen.pdf) oder eine gemeinsame Darstellung an der Tafel.
 
 Am Ende des Bausteins sollten die Lernenden insbesondere folgende Zusammenhänge festhalten können:
 

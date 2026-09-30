@@ -36,19 +36,21 @@ In der optionalen Vertiefung untersuchen die Lernenden logisch äquivalente Form
 
 ??? note "Downloads zu Baustein 4"
 
+    - [:memo: Gesamtdossier Baustein 4 – alle Arbeitsblätter 4a–4h inklusive Merkblatt (PDF)](https://github.com/salomegolden/logictraffic/releases/download/ab4_v2/Baustein_4_Dossier.pdf)
+
     **Basisteil**
 
-    - [:memo: 4a – Muss das wirklich so lang sein?](https://github.com/salomegolden/logictraffic/releases/download/arbeitsbl%C3%A4tter/4a_logische_operatoren.pdf)
-    - [:memo: 4b – Von Worten zu Zeichen](https://github.com/salomegolden/logictraffic/releases/download/arbeitsbl%C3%A4tter/4b_einfuhrung_formelzeichen.pdf)
-    - [:memo: 4c – Von Konflikten zur Formel](https://github.com/salomegolden/logictraffic/releases/download/arbeitsbl%C3%A4tter/4c_kreuzung_logisch_steuern.pdf)
-    - [:material-image-outline: 4d – Logik auf einen Blick](https://github.com/salomegolden/logictraffic/releases/download/arbeitsbl%C3%A4tter/4d_merkblatt.pdf)
+    - [:memo: 4a – Muss das wirklich so lang sein?](https://github.com/salomegolden/logictraffic/releases/download/ab4_v2/4a_logische_operatoren.pdf)
+    - [:memo: 4b – Von Worten zu Zeichen](https://github.com/salomegolden/logictraffic/releases/download/ab4_v2/4b_einfuhrung_formelzeichen.pdf)
+    - [:memo: 4c – Von Konflikten zur Formel](https://github.com/salomegolden/logictraffic/releases/download/ab4_v2/4c_konflikt_formel.pdf)
+    - [:material-image-outline: 4d – Logik auf einen Blick](https://github.com/salomegolden/logictraffic/releases/download/ab4_v2/4d_uebersicht.pdf)
 
     **Erweiterter Baustein**
 
-    - [:memo: 4e – Anders gebaut, gleich gemeint](https://github.com/salomegolden/logictraffic/releases/download/arbeitsbl%C3%A4tter/4e_knf_dnf.pdf)
-    - [:memo: 4f – Von der Wahrheitstabelle zur Formel](https://github.com/salomegolden/logictraffic/releases/download/arbeitsbl%C3%A4tter/4f_kknf_kdnf.pdf)
-    - [:memo: 4g – Lang, kurz, gleichwertig?](https://github.com/salomegolden/logictraffic/releases/download/arbeitsbl%C3%A4tter/4g_vergleich_gleichwertigkeit.pdf)
-    - [:memo: 4h – Transferaufgabe](https://github.com/salomegolden/logictraffic/releases/download/arbeitsbl%C3%A4tter/4h_transfer.pdf)
+    - [:memo: 4e – Anders gebaut, gleich gemeint](https://github.com/salomegolden/logictraffic/releases/download/ab4_v2/4e_KNF_DNF.pdf)
+    - [:memo: 4f – Von der Wahrheitstabelle zur Formel](https://github.com/salomegolden/logictraffic/releases/download/ab4_v2/4f_Von_Wahrheitstabelle_zur_Formel.pdf)
+    - [:memo: 4g – Lang, kurz, gleichwertig?](https://github.com/salomegolden/logictraffic/releases/download/ab4_v2/4g_lang_kurz_gleichwertig.pdf)
+    - [:memo: 4h – Transferaufgabe](https://github.com/salomegolden/logictraffic/releases/download/ab4_v2/4h_transfer.pdf)
 
 ## Lernziele
 
@@ -106,8 +108,8 @@ Die Lernenden können zusätzlich …
 - Situation 4 für die optionale Vertiefung vorbereiten.
 - Situation 10 für den abschliessenden Transfer bereithalten.
 - Falls die Vertiefung durchgeführt wird, die Anzeige bzw. Erzeugung verschiedener Normalformen in LogicTraffic vorab prüfen.
-- Die benötigten Arbeitsblätter ausdrucken oder digital bereitstellen.
-- Das [Merkblatt 4d](https://github.com/salomegolden/logictraffic/releases/download/arbeitsbl%C3%A4tter/4d_merkblatt.pdf) so bereithalten, dass es ab Phase 2 bei Bedarf als Nachschlagehilfe eingesetzt werden kann.
+- Die benötigten Arbeitsblätter einzeln oder als [Gesamtdossier Baustein 4 (PDF)](https://github.com/salomegolden/logictraffic/releases/download/ab4_v2/Baustein_4_Dossier.pdf) ausdrucken oder digital bereitstellen.
+- Das [Merkblatt 4d](https://github.com/salomegolden/logictraffic/releases/download/ab4_v2/4d_uebersicht.pdf) so bereithalten, dass es ab Phase 2 bei Bedarf als Nachschlagehilfe eingesetzt werden kann.
 
 ??? info "Fachlicher Hintergrund – logische Operatoren"
 
@@ -155,13 +157,13 @@ Die Lernenden können zusätzlich …
 
 | Phase | Schwerpunkt | Material | Richtwert |
 | --- | --- | --- | ---: |
-| **1. Von der Tabelle zur Regel** | Skalierungsproblem reaktivieren und Bedarf nach einer kompakten Darstellung erzeugen | **[AB 4a](https://github.com/salomegolden/logictraffic/releases/download/arbeitsbl%C3%A4tter/4a_logische_operatoren.pdf)** | ca. 10 Min. |
-| **2. Von Worten zu Zeichen** | Operatoren kennenlernen, Formeln lesen und erste Regeln formal ausdrücken | **[AB 4b](https://github.com/salomegolden/logictraffic/releases/download/arbeitsbl%C3%A4tter/4b_einfuhrung_formelzeichen.pdf)**, **[MB 4d](https://github.com/salomegolden/logictraffic/releases/download/arbeitsbl%C3%A4tter/4d_merkblatt.pdf)** | ca. 20 Min. |
-| **3. Von Konflikten zur Formel** | Situation 3 modellieren, Teilregeln verbinden und Lösung überprüfen | **[AB 4c](https://github.com/salomegolden/logictraffic/releases/download/arbeitsbl%C3%A4tter/4c_kreuzung_logisch_steuern.pdf)**, **[MB 4d](https://github.com/salomegolden/logictraffic/releases/download/arbeitsbl%C3%A4tter/4d_merkblatt.pdf)** | ca. 30 Min. |
-| **4. Anders gebaut, gleich gemeint** | Äquivalenz, De Morgan sowie DNF und KNF entdecken | **[AB 4e](https://github.com/salomegolden/logictraffic/releases/download/arbeitsbl%C3%A4tter/4e_knf_dnf.pdf)** | ca. 15 Min. |
-| **5. Von der Wahrheitstabelle zur Formel** | KDNF/KKNF als systematischen Zwischenschritt kennenlernen | **[AB 4f](https://github.com/salomegolden/logictraffic/releases/download/arbeitsbl%C3%A4tter/4f_kknf_kdnf.pdf)** | ca. 15 Min. |
-| **6. Lang, kurz, gleichwertig?** | Verschiedene äquivalente Darstellungen vergleichen und beurteilen | **[AB 4g](https://github.com/salomegolden/logictraffic/releases/download/arbeitsbl%C3%A4tter/4g_vergleich_gleichwertigkeit.pdf)** | ca. 15 Min. |
-| **7. Transfer – Situation 10** | Vorgehen auf eine komplexe Kreuzung mit fünf Variablen übertragen | **[AB 4h](https://github.com/salomegolden/logictraffic/releases/download/arbeitsbl%C3%A4tter/4h_transfer.pdf)** | ca. 20–30 Min. |
+| **1. Von der Tabelle zur Regel** | Skalierungsproblem reaktivieren und Bedarf nach einer kompakten Darstellung erzeugen | **[AB 4a](https://github.com/salomegolden/logictraffic/releases/download/ab4_v2/4a_logische_operatoren.pdf)** | ca. 10 Min. |
+| **2. Von Worten zu Zeichen** | Operatoren kennenlernen, Formeln lesen und erste Regeln formal ausdrücken | **[AB 4b](https://github.com/salomegolden/logictraffic/releases/download/ab4_v2/4b_einfuhrung_formelzeichen.pdf)**, **[MB 4d](https://github.com/salomegolden/logictraffic/releases/download/ab4_v2/4d_uebersicht.pdf)** | ca. 20 Min. |
+| **3. Von Konflikten zur Formel** | Situation 3 modellieren, Teilregeln verbinden und Lösung überprüfen | **[AB 4c](https://github.com/salomegolden/logictraffic/releases/download/ab4_v2/4c_konflikt_formel.pdf)**, **[MB 4d](https://github.com/salomegolden/logictraffic/releases/download/ab4_v2/4d_uebersicht.pdf)** | ca. 30 Min. |
+| **4. Anders gebaut, gleich gemeint** | Äquivalenz, De Morgan sowie DNF und KNF entdecken | **[AB 4e](https://github.com/salomegolden/logictraffic/releases/download/ab4_v2/4e_KNF_DNF.pdf)** | ca. 15 Min. |
+| **5. Von der Wahrheitstabelle zur Formel** | KDNF/KKNF als systematischen Zwischenschritt kennenlernen | **[AB 4f](https://github.com/salomegolden/logictraffic/releases/download/ab4_v2/4f_Von_Wahrheitstabelle_zur_Formel.pdf)** | ca. 15 Min. |
+| **6. Lang, kurz, gleichwertig?** | Verschiedene äquivalente Darstellungen vergleichen und beurteilen | **[AB 4g](https://github.com/salomegolden/logictraffic/releases/download/ab4_v2/4g_lang_kurz_gleichwertig.pdf)** | ca. 15 Min. |
+| **7. Transfer – Situation 10** | Vorgehen auf eine komplexe Kreuzung mit fünf Variablen übertragen | **[AB 4h](https://github.com/salomegolden/logictraffic/releases/download/ab4_v2/4h_transfer.pdf)** | ca. 20–30 Min. |
 
 Die **Phasen 1–3 bilden den Basisteil**. Die **Phasen 4–6 sind eine optionale Vertiefung** und können in einer zusätzlichen Lektion durchgeführt werden. **Phase 7 ist ein zusätzlicher Transfer** und kann je nach verfügbarem Zeitgefäss angeschlossen oder später eingesetzt werden.
 
@@ -177,7 +179,7 @@ Die **Phasen 1–3 bilden den Basisteil**. Die **Phasen 4–6 sind eine optional
 
 ??? example "Material"
 
-    - [:memo: AB 4a – Muss das wirklich so lang sein?](https://github.com/salomegolden/logictraffic/releases/download/arbeitsbl%C3%A4tter/4a_logische_operatoren.pdf)
+    - [:memo: AB 4a – Muss das wirklich so lang sein?](https://github.com/salomegolden/logictraffic/releases/download/ab4_v2/4a_logische_operatoren.pdf)
     - Beamer oder Präsentationsbildschirm
     - LogicTraffic mit Situation 10 oder die entsprechende Darstellung aus Baustein 3
     - optional: Notizpapier oder Begleitportfolio
@@ -221,9 +223,9 @@ Die **Phasen 1–3 bilden den Basisteil**. Die **Phasen 4–6 sind eine optional
     - Die Tabelle wird schnell sehr lang und unübersichtlich.
     - Das manuelle Erstellen und Prüfen wird zeitaufwendig und fehleranfällig.
 
-    **2. Bearbeitung von [AB 4a](https://github.com/salomegolden/logictraffic/releases/download/arbeitsbl%C3%A4tter/4a_logische_operatoren.pdf)**
+    **2. Bearbeitung von [AB 4a](https://github.com/salomegolden/logictraffic/releases/download/ab4_v2/4a_logische_operatoren.pdf)**
 
-    Die Lernenden bearbeiten den Einstieg auf [AB 4a](https://github.com/salomegolden/logictraffic/releases/download/arbeitsbl%C3%A4tter/4a_logische_operatoren.pdf). Im Zentrum steht die Frage, ob eine bekannte Sicherheitsbedingung auch **ohne vollständige Auflistung aller Zustände** beschrieben werden kann.
+    Die Lernenden bearbeiten den Einstieg auf [AB 4a](https://github.com/salomegolden/logictraffic/releases/download/ab4_v2/4a_logische_operatoren.pdf). Im Zentrum steht die Frage, ob eine bekannte Sicherheitsbedingung auch **ohne vollständige Auflistung aller Zustände** beschrieben werden kann.
 
     **Zentrale Leitfrage:**
 
@@ -282,15 +284,15 @@ Die **Phasen 1–3 bilden den Basisteil**. Die **Phasen 4–6 sind eine optional
 
 ??? example "Material"
 
-    - [:memo: AB 4b – Von Worten zu Zeichen](https://github.com/salomegolden/logictraffic/releases/download/arbeitsbl%C3%A4tter/4b_einfuhrung_formelzeichen.pdf)
-    - [:material-image-outline: MB 4d – Logik auf einen Blick](https://github.com/salomegolden/logictraffic/releases/download/arbeitsbl%C3%A4tter/4d_merkblatt.pdf)
+    - [:memo: AB 4b – Von Worten zu Zeichen](https://github.com/salomegolden/logictraffic/releases/download/ab4_v2/4b_einfuhrung_formelzeichen.pdf)
+    - [:material-image-outline: MB 4d – Logik auf einen Blick](https://github.com/salomegolden/logictraffic/releases/download/ab4_v2/4d_uebersicht.pdf)
     - LogicTraffic
     - Computer oder Tablet pro Zweiergruppe
     - Beamer oder Präsentationsbildschirm
 
 ??? info "Sozialformen"
 
-    Kurzer **fragend-entwickelnder Input im Plenum**, anschliessend **Partnerarbeit** mit [AB 4b](https://github.com/salomegolden/logictraffic/releases/download/arbeitsbl%C3%A4tter/4b_einfuhrung_formelzeichen.pdf). Die erste Überprüfung in LogicTraffic erfolgt ebenfalls im Tandem. Abschliessend kurze gemeinsame Sicherung.
+    Kurzer **fragend-entwickelnder Input im Plenum**, anschliessend **Partnerarbeit** mit [AB 4b](https://github.com/salomegolden/logictraffic/releases/download/ab4_v2/4b_einfuhrung_formelzeichen.pdf). Die erste Überprüfung in LogicTraffic erfolgt ebenfalls im Tandem. Abschliessend kurze gemeinsame Sicherung.
 
 ??? tip "benötigte Zeit"
 
@@ -325,7 +327,7 @@ Die **Phasen 1–3 bilden den Basisteil**. Die **Phasen 4–6 sind eine optional
     | ODER | `∨` | `A ∨ B` |
     | WENN … DANN | `→` | `A → ¬B` |
 
-    **2. [AB 4b](https://github.com/salomegolden/logictraffic/releases/download/arbeitsbl%C3%A4tter/4b_einfuhrung_formelzeichen.pdf) bearbeiten**
+    **2. [AB 4b](https://github.com/salomegolden/logictraffic/releases/download/ab4_v2/4b_einfuhrung_formelzeichen.pdf) bearbeiten**
 
     Die Lernenden übersetzen bewusst in **beide Richtungen**:
 
@@ -385,7 +387,7 @@ Die **Phasen 1–3 bilden den Basisteil**. Die **Phasen 4–6 sind eine optional
     - Bei `¬(A ∧ B)` wird die gesamte UND-Verknüpfung negiert.
     - Bei `¬A ∧ B` wird nur `A` negiert.
 
-    Das [Merkblatt 4d](https://github.com/salomegolden/logictraffic/releases/download/arbeitsbl%C3%A4tter/4d_merkblatt.pdf) kann ab jetzt als Nachschlagehilfe verwendet werden.
+    Das [Merkblatt 4d](https://github.com/salomegolden/logictraffic/releases/download/ab4_v2/4d_uebersicht.pdf) kann ab jetzt als Nachschlagehilfe verwendet werden.
 
 ??? note "Didaktische Hinweise"
 
@@ -402,7 +404,7 @@ Die **Phasen 1–3 bilden den Basisteil**. Die **Phasen 4–6 sind eine optional
     === "Vereinfachungen"
 
         - Zunächst nur mit `¬`, `∧` und `∨` arbeiten; `→` erst am Schluss ergänzen.
-        - Das [Merkblatt 4d](https://github.com/salomegolden/logictraffic/releases/download/arbeitsbl%C3%A4tter/4d_merkblatt.pdf) von Beginn der Partnerarbeit an offen verwenden.
+        - Das [Merkblatt 4d](https://github.com/salomegolden/logictraffic/releases/download/ab4_v2/4d_uebersicht.pdf) von Beginn der Partnerarbeit an offen verwenden.
         - Formeln aus vorgegebenen Bausteinen zusammensetzen lassen.
         - Satzstarter anbieten:  
           > „`¬A` bedeutet …“  
@@ -427,8 +429,8 @@ Die **Phasen 1–3 bilden den Basisteil**. Die **Phasen 4–6 sind eine optional
 
 ??? example "Material"
 
-    - [:memo: AB 4c – Von Konflikten zur Formel](https://github.com/salomegolden/logictraffic/releases/download/arbeitsbl%C3%A4tter/4c_kreuzung_logisch_steuern.pdf)
-    - [:material-image-outline: MB 4d – Logik auf einen Blick](https://github.com/salomegolden/logictraffic/releases/download/arbeitsbl%C3%A4tter/4d_merkblatt.pdf)
+    - [:memo: AB 4c – Von Konflikten zur Formel](https://github.com/salomegolden/logictraffic/releases/download/ab4_v2/4c_konflikt_formel.pdf)
+    - [:material-image-outline: MB 4d – Logik auf einen Blick](https://github.com/salomegolden/logictraffic/releases/download/ab4_v2/4d_uebersicht.pdf)
     - LogicTraffic, **Situation 3**
     - Computer oder Tablet pro Zweiergruppe
 
@@ -450,7 +452,7 @@ Die **Phasen 1–3 bilden den Basisteil**. Die **Phasen 4–6 sind eine optional
 
     **Kreuzung → Konflikte → Regeln in Worten → Teilformeln → Gesamtformel → Prüfung**
 
-    Die Lernenden öffnen Situation 3 und bearbeiten [AB 4c](https://github.com/salomegolden/logictraffic/releases/download/arbeitsbl%C3%A4tter/4c_kreuzung_logisch_steuern.pdf) möglichst selbstständig.
+    Die Lernenden öffnen Situation 3 und bearbeiten [AB 4c](https://github.com/salomegolden/logictraffic/releases/download/ab4_v2/4c_konflikt_formel.pdf) möglichst selbstständig.
 
     **2. Konflikte identifizieren**
 
@@ -551,7 +553,7 @@ Die **Phasen 1–3 bilden den Basisteil**. Die **Phasen 4–6 sind eine optional
 
     → Die Formel ist genau dann `0`, wenn `A` und `C` gleichzeitig Grün haben.
 
-    Das [Merkblatt 4d](https://github.com/salomegolden/logictraffic/releases/download/arbeitsbl%C3%A4tter/4d_merkblatt.pdf) dient anschliessend als Nachschlagehilfe.
+    Das [Merkblatt 4d](https://github.com/salomegolden/logictraffic/releases/download/ab4_v2/4d_uebersicht.pdf) dient anschliessend als Nachschlagehilfe.
 
 ??? note "Didaktische Hinweise"
 
@@ -575,7 +577,7 @@ Die **Phasen 1–3 bilden den Basisteil**. Die **Phasen 4–6 sind eine optional
         - Ein Schema vorgeben:  
           `¬(___ ∧ ___)`
         - Die erste Teilformel gemeinsam entwickeln und nur die zweite selbstständig ergänzen lassen.
-        - Das [Merkblatt 4d](https://github.com/salomegolden/logictraffic/releases/download/arbeitsbl%C3%A4tter/4d_merkblatt.pdf) offen verwenden.
+        - Das [Merkblatt 4d](https://github.com/salomegolden/logictraffic/releases/download/ab4_v2/4d_uebersicht.pdf) offen verwenden.
         - Die Gesamtformel aus zwei vorgegebenen Teilformeln zusammensetzen lassen.
 
     === "Erweiterungen"
@@ -596,8 +598,8 @@ Die **Phasen 1–3 bilden den Basisteil**. Die **Phasen 4–6 sind eine optional
 
 ??? example "Material"
 
-    - [:memo: AB 4e – Anders gebaut, gleich gemeint](https://github.com/salomegolden/logictraffic/releases/download/arbeitsbl%C3%A4tter/4e_knf_dnf.pdf)
-    - [:material-image-outline: MB 4d – Logik auf einen Blick](https://github.com/salomegolden/logictraffic/releases/download/arbeitsbl%C3%A4tter/4d_merkblatt.pdf)
+    - [:memo: AB 4e – Anders gebaut, gleich gemeint](https://github.com/salomegolden/logictraffic/releases/download/ab4_v2/4e_KNF_DNF.pdf)
+    - [:material-image-outline: MB 4d – Logik auf einen Blick](https://github.com/salomegolden/logictraffic/releases/download/ab4_v2/4d_uebersicht.pdf)
     - LogicTraffic, **Situation 4**
     - Computer oder Tablet pro Zweiergruppe
 
@@ -654,7 +656,7 @@ Die **Phasen 1–3 bilden den Basisteil**. Die **Phasen 4–6 sind eine optional
     \neg(A \lor B) \equiv \neg A \land \neg B
     $$
 
-    **3. Mit [AB 4e](https://github.com/salomegolden/logictraffic/releases/download/arbeitsbl%C3%A4tter/4e_knf_dnf.pdf) DNF und KNF entdecken**
+    **3. Mit [AB 4e](https://github.com/salomegolden/logictraffic/releases/download/ab4_v2/4e_KNF_DNF.pdf) DNF und KNF entdecken**
 
     Für die weiteren Aufgaben wird Situation 4 verwendet.
 
@@ -727,10 +729,10 @@ Die **Phasen 1–3 bilden den Basisteil**. Die **Phasen 4–6 sind eine optional
 
 ??? example "Material"
 
-    - [:memo: AB 4f – Von der Wahrheitstabelle zur Formel](https://github.com/salomegolden/logictraffic/releases/download/arbeitsbl%C3%A4tter/4f_kknf_kdnf.pdf)
+    - [:memo: AB 4f – Von der Wahrheitstabelle zur Formel](https://github.com/salomegolden/logictraffic/releases/download/ab4_v2/4f_Von_Wahrheitstabelle_zur_Formel.pdf)
     - LogicTraffic, **Situation 4**
     - Computer oder Tablet pro Zweiergruppe
-    - optional: [:material-image-outline: MB 4d – Logik auf einen Blick](https://github.com/salomegolden/logictraffic/releases/download/arbeitsbl%C3%A4tter/4d_merkblatt.pdf)
+    - optional: [:material-image-outline: MB 4d – Logik auf einen Blick](https://github.com/salomegolden/logictraffic/releases/download/ab4_v2/4d_uebersicht.pdf)
 
 ??? info "Sozialformen"
 
@@ -794,7 +796,7 @@ Die **Phasen 1–3 bilden den Basisteil**. Die **Phasen 4–6 sind eine optional
 
     **Erwartete Antwort:** Damit die Klausel genau bei dieser einen unerwünschten Belegung falsch wird.
 
-    **4. [AB 4f](https://github.com/salomegolden/logictraffic/releases/download/arbeitsbl%C3%A4tter/4f_kknf_kdnf.pdf) bearbeiten**
+    **4. [AB 4f](https://github.com/salomegolden/logictraffic/releases/download/ab4_v2/4f_Von_Wahrheitstabelle_zur_Formel.pdf) bearbeiten**
 
     Die Lernenden ordnen Tabellenzeilen zu Termen bzw. Klauseln und verfolgen in LogicTraffic, wie eine kanonische Form aus der Tabelle entsteht.
 
@@ -855,10 +857,10 @@ Die **Phasen 1–3 bilden den Basisteil**. Die **Phasen 4–6 sind eine optional
 
 ??? example "Material"
 
-    - [:memo: AB 4g – Lang, kurz, gleichwertig?](https://github.com/salomegolden/logictraffic/releases/download/arbeitsbl%C3%A4tter/4g_vergleich_gleichwertigkeit.pdf)
+    - [:memo: AB 4g – Lang, kurz, gleichwertig?](https://github.com/salomegolden/logictraffic/releases/download/ab4_v2/4g_lang_kurz_gleichwertig.pdf)
     - LogicTraffic, **Situation 4**
     - Computer oder Tablet pro Zweiergruppe
-    - Ergebnisse aus [AB 4e](https://github.com/salomegolden/logictraffic/releases/download/arbeitsbl%C3%A4tter/4e_knf_dnf.pdf) und [AB 4f](https://github.com/salomegolden/logictraffic/releases/download/arbeitsbl%C3%A4tter/4f_kknf_kdnf.pdf)
+    - Ergebnisse aus [AB 4e](https://github.com/salomegolden/logictraffic/releases/download/ab4_v2/4e_KNF_DNF.pdf) und [AB 4f](https://github.com/salomegolden/logictraffic/releases/download/ab4_v2/4f_Von_Wahrheitstabelle_zur_Formel.pdf)
 
 ??? info "Sozialformen"
 
@@ -892,7 +894,7 @@ Die **Phasen 1–3 bilden den Basisteil**. Die **Phasen 4–6 sind eine optional
 
     Die Wahrheitstabelle dient als Prüfinstrument.
 
-    **3. [AB 4g](https://github.com/salomegolden/logictraffic/releases/download/arbeitsbl%C3%A4tter/4g_vergleich_gleichwertigkeit.pdf) bearbeiten**
+    **3. [AB 4g](https://github.com/salomegolden/logictraffic/releases/download/ab4_v2/4g_lang_kurz_gleichwertig.pdf) bearbeiten**
 
     Die Formeln werden nach mehreren Kriterien beurteilt:
 
@@ -959,11 +961,11 @@ Die **Phasen 1–3 bilden den Basisteil**. Die **Phasen 4–6 sind eine optional
 
 ??? example "Material"
 
-    - [:memo: AB 4h – Transferaufgabe](https://github.com/salomegolden/logictraffic/releases/download/arbeitsbl%C3%A4tter/4h_transfer.pdf)
+    - [:memo: AB 4h – Transferaufgabe](https://github.com/salomegolden/logictraffic/releases/download/ab4_v2/4h_transfer.pdf)
     - LogicTraffic, **Situation 10**
     - Computer oder Tablet pro Zweiergruppe
-    - [:material-image-outline: MB 4d – Logik auf einen Blick](https://github.com/salomegolden/logictraffic/releases/download/arbeitsbl%C3%A4tter/4d_merkblatt.pdf)
-    - bei Bedarf [AB 4f](https://github.com/salomegolden/logictraffic/releases/download/arbeitsbl%C3%A4tter/4f_kknf_kdnf.pdf) als Hilfestellung für den systematischen Weg über die Wahrheitstabelle
+    - [:material-image-outline: MB 4d – Logik auf einen Blick](https://github.com/salomegolden/logictraffic/releases/download/ab4_v2/4d_uebersicht.pdf)
+    - bei Bedarf [AB 4f](https://github.com/salomegolden/logictraffic/releases/download/ab4_v2/4f_Von_Wahrheitstabelle_zur_Formel.pdf) als Hilfestellung für den systematischen Weg über die Wahrheitstabelle
 
 ??? info "Sozialformen"
 
@@ -1086,8 +1088,8 @@ Die **Phasen 1–3 bilden den Basisteil**. Die **Phasen 4–6 sind eine optional
         - Die Kreuzung schrittweise untersuchen: zuerst nur drei, danach alle fünf Variablen berücksichtigen.
         - Die Struktur der Gesamtformel vorgeben:  
           `Teilregel 1 ∧ Teilregel 2 ∧ …`
-        - Das [Merkblatt 4d](https://github.com/salomegolden/logictraffic/releases/download/arbeitsbl%C3%A4tter/4d_merkblatt.pdf) offen verwenden.
-        - Bei Bedarf über [AB 4f](https://github.com/salomegolden/logictraffic/releases/download/arbeitsbl%C3%A4tter/4f_kknf_kdnf.pdf) und eine kanonische Form von der Wahrheitstabelle zur Formel gelangen.
+        - Das [Merkblatt 4d](https://github.com/salomegolden/logictraffic/releases/download/ab4_v2/4d_uebersicht.pdf) offen verwenden.
+        - Bei Bedarf über [AB 4f](https://github.com/salomegolden/logictraffic/releases/download/ab4_v2/4f_Von_Wahrheitstabelle_zur_Formel.pdf) und eine kanonische Form von der Wahrheitstabelle zur Formel gelangen.
 
     === "Erweiterungen"
 
