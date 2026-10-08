@@ -83,9 +83,8 @@ Die gemeinsamen Ziele entsprechen denen des [enaktiven Einstiegs](baustein1-enak
 | 1 | Logik einordnen und Aussagen verstehen | Kurzinput und Einordnungsaufgabe | 10 Min. |
 | 2 | Kreuzung und Sicherheitsproblem verstehen | Bild erläutern, Problem und Modellannahmen vorgeben | 10 Min. |
 | 3 | Sichere Ampelstellungen beurteilen | Beurteilung an Beispielen vormachen und anleiten | 15 Min. |
-| 4 | Eine veränderte Situation verstehen | Erweiterung auf vier Spuren erklären und Beispiele vergleichen | 20 Min. |
-| 5 | Alle Möglichkeiten erfassen | Systematisches Verfahren vorführen, Tabelle gemeinsam ergänzen | 15 Min. |
-| 6 | Ergebnisse sichern und Ausblick | Kurze schriftliche Sicherung auswerten | 15 Min. |
+| 4 | Alle Möglichkeiten erfassen | Systematisches Verfahren vorführen, Tabelle gemeinsam ergänzen | 15 Min. |
+| 5 | Ergebnisse sichern und Ausblick | Kurze schriftliche Sicherung auswerten | 15 Min. |
 | **Gesamt** | | | **85 Min.** |
 
 ## Durchführung
@@ -98,8 +97,7 @@ Die gemeinsamen Ziele entsprechen denen des [enaktiven Einstiegs](baustein1-enak
 
 ??? example "Material"
 
-    - Fünf zusätzliche Folien: Bedeutung der Logik, Geschichte, Widerspruch, Aussagenbegriff und Einordnungsaufgabe
-    - Statisches Bild einer eindeutig bezeichneten Ampel
+    - Folien: Bedeutung der Logik, Geschichte, Widerspruch, Aussagenbegriff und Einordnungsaufgabe
 
 ??? info "Sozialformen"
 
@@ -304,71 +302,7 @@ Die gemeinsamen Ziele entsprechen denen des [enaktiven Einstiegs](baustein1-enak
         - Eine falsche Begründung zu einem vorgegebenen Beispiel korrigieren lassen.
         - Eine Entscheidung ausführlicher begründen, ohne ein zusätzliches Problem zu bearbeiten.
 
-### Phase 4 – Eine veränderte Situation verstehen
-
-??? success "Ziele der Einheit"
-
-    Die Lernenden erkennen, wie eine vorgegebene Erweiterung der Kreuzung die Sicherheitsbeurteilung verändert und zusätzliche Ampelkombinationen erzeugt.
-
-??? example "Material"
-
-    - Vorher-nachher-Bilder der Kreuzung mit drei und vier Spuren
-    - Zwei vorbereitete Ampelkombinationen der erweiterten Kreuzung
-    - Papier und Schreibzeug
-
-??? info "Sozialformen"
-
-    Lehrpersoneninput und gelenktes Unterrichtsgespräch, kurze angeleitete Einzelarbeit.
-
-??? tip "benötigte Zeit"
-
-    **20 Minuten**
-
-??? abstract "Verlaufsplanung"
-
-    **1. Erweiterung erklären – 6 Minuten**
-
-    Die Lehrperson zeigt die für beide Einstiege vorgesehene vierte Spur. Sie erläutert deren Fahrweg und die daraus entstehenden Konfliktpaare. Die Lernenden verändern die Kreuzung nicht selbst.
-
-    **2. Ein Beispiel vorführen – 4 Minuten**
-
-    Die Lehrperson zeigt, wie eine bekannte Kombination bei zusätzlicher Spur beurteilt wird. Sie berücksichtigt zuerst die bisherigen Grünfreigaben und anschliessend die neue Spur.
-
-    **3. Zwei Beispiele schriftlich beurteilen – 5 Minuten**
-
-    > Welche Spuren haben Grün? Welche davon stehen im Konflikt? Begründe, ob die gesamte Kombination sicher ist.
-
-    **4. Vergleich sichern – 5 Minuten**
-
-    > Müssen mit einer zusätzlichen Ampel mehr Kombinationen berücksichtigt werden?
-
-    **Erwartete Antwort:** Ja. Zu jeder bisherigen Kombination kommen zwei Fälle hinzu: Die zusätzliche Ampel ist rot oder grün.
-
-    > Ist jede Kombination mit mehreren grünen Ampeln unsicher?
-
-    **Erwartete Antwort:** Nein. Die Konflikte zwischen den freigegebenen Fahrwegen entscheiden.
-
-    Die genaue Zeilenzahl und eine allgemeine Berechnungsformel sind hier kein Lernziel.
-
-??? note "Didaktische Hinweise"
-
-    Für die Untersuchung ist dieselbe Erweiterung wie im enaktiven Einstieg zu verwenden. Unterschiedliche Konfliktstrukturen könnten sonst zusätzlich zur Unterrichtsform die Schwierigkeit verändern.
-
-    Die Lehrperson behandelt nicht alle Kombinationen der vier Spuren. Der systematische Aufbau wird anschliessend am übersichtlicheren Beispiel mit drei Spuren erläutert.
-
-??? bug "Differenzierung"
-
-    === "Vereinfachungen"
-
-        - Unveränderte und neue Fahrwege optisch unterscheiden.
-        - Die vorgegebenen Konfliktpaare neben dem Bild auflisten.
-
-    === "Erweiterungen"
-
-        - Erklären lassen, weshalb eine zusätzliche Spur die Sicherheit einer zuvor sicheren Freigabe verändern kann.
-        - Eine vorgegebene Begründung prüfen und präzisieren lassen.
-
-### Phase 5 – Alle Möglichkeiten systematisch erfassen
+### Phase 4 – Alle Möglichkeiten systematisch erfassen
 
 ??? success "Ziele der Einheit"
 
@@ -445,7 +379,7 @@ Die gemeinsamen Ziele entsprechen denen des [enaktiven Einstiegs](baustein1-enak
         - Erklären lassen, wie das gezeigte Verfahren bei einer vierten Ampel fortgeführt würde.
         - Keine allgemeine Formel oder formale Wahrheitstabelle verlangen.
 
-### Phase 6 – Ergebnisse sichern und Ausblick
+### Phase 5 – Ergebnisse sichern und Ausblick
 
 ??? success "Ziele der Einheit"
 
@@ -491,48 +425,7 @@ Die gemeinsamen Ziele entsprechen denen des [enaktiven Einstiegs](baustein1-enak
 
     > Im nächsten Baustein lernen wir LogicTraffic kennen. Dort sehen wir die Kreuzung und die Ampelzustände am Computer und untersuchen, wie diese Darstellungen zusammenhängen.
 
-??? note "Didaktische Hinweise"
-
-    Die schriftliche Sicherung dient dem Unterricht und ist kein zusätzliches Forschungsinstrument. Eine standardisierte Leistungserhebung wäre gesondert zu entwickeln.
-
-    Für beide Bedingungen eignet sich dieselbe kurze Sicherung, sofern dieselben Situationen und Kernziele bearbeitet wurden. Rückmeldungen beziehen sich auf nachvollziehbare Begründungen und nächste Lernschritte.
-
-??? bug "Differenzierung"
-
-    === "Vereinfachungen"
-
-        - Satzstarter anbieten: „Sicher ist eine Kombination, wenn …“ und „Die Tabelle hilft, weil …“.
-        - Antworten stichwortartig zulassen.
-
-    === "Erweiterungen"
-
-        - Den Unterschied zwischen einer einzelnen Tabellenzeile und der gesamten Übersicht erklären lassen.
-        - Den Unterschied zwischen kollisionsfreiem Verkehr und einer günstigen Verkehrsfreigabe in eigenen Worten beschreiben lassen.
-
-## Abstimmung mit der aktuellen Präsentation
-
-??? note "Prüfstand und Ergänzungen"
-
-    Die am 30. September 2026 geprüfte Canva-Fassung hat 20 Seiten. Die folgenden Seitenangaben beziehen sich auf diese Fassung und verschieben sich nach dem Einfügen neuer Folien. Die Textinhalte wurden geprüft; eine vollständige visuelle Kontrolle der Kreuzungsbilder war nicht möglich.
-
-    | Aktuelle Seiten | Anpassung |
-    | --- | --- |
-    | 1–5 | Den fünfseitigen Logikblock nach dem Alltagsbild auf Seite 3 einfügen. Der bisherige Phase-1-Trenner kann „Logik und Verkehrssituation verstehen“ heissen; die ersten beiden Planungsphasen liegen dann in einem Präsentationsabschnitt. |
-    | 7–8 | Beide Titel lauten „Eine sichere Ampelstellung“. Für das unsichere Beispiel den Titel nach Prüfung des Kreuzungsbildes entsprechend ändern. |
-    | 12–14 | Zahl der Spuren, Fahrwege und Erweiterung mit dem enaktiven Einstieg abgleichen. |
-    | 16 | Tabelle nennt C/D, Anleitung nennt A/B. Ersetzen durch: „Zuerst bleibt C rot. D ist einmal rot und einmal grün. Danach bleibt C grün. D ist wieder einmal rot und einmal grün.“ |
-    | 17–19 | C/D/E in Tabelle, Kreuzungsbild und Aufgaben durchgehend verwenden. Rot-Grün-Belegungen und Sicherheitsbewertungen anhand der konkreten Fahrwege prüfen. |
-    | 20 | Nach dem Trenner die drei Sicherungsaufgaben aus Phase 6, eine Lösungs-/Merksatzfolie und den Ausblick ergänzen. |
-    | Mehrere Inhaltsseiten | „Baustein 4 – Thema 1a“ durch „Baustein 1 – Lehrpersonenzentrierter Einstieg“ ersetzen. Platzhalter „NR“ ersetzen oder entfernen. |
-
-    Bei der Sicherung zusätzlich mündlich fragen: „Ist ein falscher Satz auch eine Aussage?“ Im Fazit ergänzen: Aussagen können unter festgelegten Bedingungen wahr oder falsch sein; auch falsche Aussagen sind Aussagen.
 
 ## Übergang zum gemeinsamen Unterricht
 
 Nach dem alternativen Baustein bearbeiten beide Gruppen [Baustein 2 – LogicTraffic](baustein2-logictraffic.md) und die weiteren gemeinsamen Bausteine. Die Codierung mit `0` und `1`, formale Wahrheitstabellen und Operatoren werden dort eingeführt.
-
-??? note "Vergleichbarkeit der Bedingungen"
-
-    Der Logikblock ergänzt zehn Minuten. Insgesamt sind **85 Minuten** vorgesehen. Derselbe kurze Hintergrundteil zu Geschichte und Aussagen wird auch im enaktiven Einstieg eingeplant, beispielsweise nach der Erkundung. Für beide Bedingungen dieselbe Dauer, dieselben Kernziele und Verkehrssituationen festlegen.
-
-    Die Bedingungen unterscheiden sich neben dem Material in Steuerung und Sozialform. Unterschiede in Selbstwirksamkeit können deshalb nicht ausschliesslich dem physischen Material zugeschrieben werden. Eingesetzte Hilfen und Abweichungen bei Aufgaben oder Dauer dokumentieren.

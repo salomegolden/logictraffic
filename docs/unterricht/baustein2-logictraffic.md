@@ -12,24 +12,16 @@ Die Formel wird am Ende lediglich als weitere Darstellung der **Sicherheitsregel
 
 !!! abstract "Auf einen Blick"
 
-    **:stopwatch: Dauer:**  
-    nach Baustein 1: ca. **45–55 Minuten**  
-    ohne Baustein 1: zusätzlich ca. **5–10 Minuten** für den Einstieg mit [2d](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2d_prasentation_lp_kreuzungen.pdf)
+    **:stopwatch: Dauer:** ca. **45–55 Minuten**  
 
-    **:busts_in_silhouette: Sozialform:**  
-    Plenum, Partnerarbeit und kurze Einzelphasen
+    **:computer: Computer:**  Ein Computer oder Tablet mit LogicTraffic pro Zweiergruppe
 
-    **:computer: Computer:**  
-    Ein Computer oder Tablet mit LogicTraffic pro Zweiergruppe
+    **:brain: Vorwissen:** 
 
-    **:brain: Vorwissen:**  
     - Die Lernenden können grundsätzlich zwischen sicheren und unsicheren Verkehrssituationen unterscheiden.
-    - Idealerweise wurde zuvor [Baustein 1 – Enaktiver Einstieg](baustein1-enaktiv.md) durchgeführt.
-    - Falls Baustein 1 ausgelassen wird, übernimmt die Präsentation **[2d](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2d_prasentation_lp_kreuzungen.pdf)** die Aktivierung einer realen Verkehrssituation.
     - Begriffe wie Wahrheitstabelle, Variable oder Formel müssen noch nicht formal beherrscht werden.
 
-    **:package: Material:**  
-    LogicTraffic, Computer oder Tablets, Beamer oder Präsentationsbildschirm sowie die Materialien [2a](https://github.com/salomegolden/logictraffic/releases/download/ab2_v2/2a_orientierung_logictraffic.pdf)–[2e](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2e_tafelbild_ergebnissicherung.pdf)
+    **:package: Material:** LogicTraffic, Computer oder Tablets, Beamer oder Präsentationsbildschirm sowie die Materialien [2a](https://github.com/salomegolden/logictraffic/releases/download/ab2_v2/2a_orientierung_logictraffic.pdf)–[2e](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2e_tafelbild_ergebnissicherung.pdf)
 
 ??? note "Downloads zu Baustein 2"
 
@@ -43,7 +35,6 @@ Die Formel wird am Ende lediglich als weitere Darstellung der **Sicherheitsregel
 
     **Für die Lehrperson**
 
-    - [:film_projector: 2d – Präsentation: Kreuzungen](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2d_prasentation_lp_kreuzungen.pdf) – **optional**, wenn Baustein 1 nicht durchgeführt wurde
     - [:material-image-outline: 2e – Tafelbild zur Ergebnissicherung](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2e_tafelbild_ergebnissicherung.pdf)
 
 ## Lernziele
@@ -63,7 +54,7 @@ Die Lernenden können …
 - beschreiben, dass diese Darstellungen unterschiedliche Aspekte derselben modellierten Kreuzung bzw. Sicherheitsregel sichtbar machen;
 - die Frage formulieren, wie eine vollständige Wahrheitstabelle auch ohne Vorgabe durch LogicTraffic systematisch erstellt werden könnte.
 
-**Lernnachweis:** Mit 2c ordnen die Lernenden die Darstellungen ihren Funktionen zu. Sie stellen eine vorgegebene Tabellenzeile an der Kreuzung ein und erklären getrennt die Ampelzustände und die Sicherheitsbewertung.
+**Lernnachweis:** Mit AB2c ordnen die Lernenden die Darstellungen ihren Funktionen zu. Sie stellen eine vorgegebene Tabellenzeile an der Kreuzung ein und erklären getrennt die Ampelzustände und die Sicherheitsbewertung.
 
 ??? note "Einordnung zwischen Baustein 1 und Baustein 3"
 
@@ -83,16 +74,12 @@ Die Lernenden können …
 
 ## Vorbereitung
 
-- Die Materialien 2a–2c einzeln oder als [Gesamtdossier Baustein 2 (PDF)](https://github.com/salomegolden/logictraffic/releases/download/ab2_v2/Baustein_2_Dossier.pdf) bereitstellen. Das Merkblatt 2b erst nach der ersten eigenen Erkundung zugänglich machen.
+- Die Materialien 2a–2c einzeln oder als [Gesamtdossier Baustein 2 (PDF)](https://github.com/salomegolden/logictraffic/releases/download/ab2_v2/Baustein_2_Dossier.pdf) bereitstellen.
 
 - [LogicTraffic](https://logictraffic.ch/) auf allen Geräten öffnen und die Funktionsfähigkeit prüfen.
 - Für die gemeinsame Einführung vorzugsweise **Situation 2** bereithalten. Sie besitzt zwei Variablen und ermöglicht einen überschaubaren Einstieg.
 - Dieselbe Situation über den Beamer öffnen, damit alle Lernenden dieselben Veränderungen beobachten können.
 - Falls Baustein 1 durchgeführt wurde, zu Beginn kurz an die dort untersuchten sicheren und unsicheren Ampelstellungen anknüpfen.
-- Falls Baustein 1 **nicht** durchgeführt wurde, die Präsentation **[2d](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2d_prasentation_lp_kreuzungen.pdf)** als alternativen Einstieg bereithalten.
-- **[2a](https://github.com/salomegolden/logictraffic/releases/download/ab2_v2/2a_orientierung_logictraffic.pdf)** als zentrales Arbeitsblatt für die Erkundung bereitstellen.
-- **[2b](https://github.com/salomegolden/logictraffic/releases/download/ab2_v2/2b_merkblatt_orientierung.pdf)** noch nicht zu Beginn austeilen: Das Merkblatt enthält bereits zentrale Orientierungsinformationen und eignet sich besser als Nachschlagehilfe **nach der ersten eigenen Erkundung**.
-- **[2c](https://github.com/salomegolden/logictraffic/releases/download/ab2_v2/2c_ergebnissicherungLT.pdf)** für die abschliessende Ergebnissicherung bereitstellen.
 - **[2e](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2e_tafelbild_ergebnissicherung.pdf)** für die gemeinsame Auswertung von [2c](https://github.com/salomegolden/logictraffic/releases/download/ab2_v2/2c_ergebnissicherungLT.pdf) projizieren oder ausdrucken.
 - Den Formelbereich in LogicTraffic sichtbar lassen, aber noch nicht fachlich vertiefen.
 
@@ -141,11 +128,10 @@ Die Lernenden können …
 
 | Phase | Schwerpunkt | Material | Richtwert |
 | --- | --- | --- | ---: |
-| **1. Von der Kreuzung zur digitalen Darstellung** | Vorwissen aktivieren und die Frage vorbereiten, wie eine Kreuzung am Computer dargestellt werden kann | Rückbezug auf Baustein 1; alternativ **[2d](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2d_prasentation_lp_kreuzungen.pdf)** | ca. 5 Min.; ohne Baustein 1 ca. 10–15 Min. |
-| **2. LogicTraffic erkunden und Zustände lesen** | Oberfläche, Variablen, `0`/`1`, Tabellenzeilen sowie sichere und unsichere Zustände untersuchen | **[AB 2a](https://github.com/salomegolden/logictraffic/releases/download/ab2_v2/2a_orientierung_logictraffic.pdf)**, anschliessend **[MB 2b](https://github.com/salomegolden/logictraffic/releases/download/ab2_v2/2b_merkblatt_orientierung.pdf)**, LogicTraffic | ca. 25–30 Min. |
-| **3. Darstellungen zusammenführen und sichern** | Funktionen der verschiedenen Darstellungen ordnen und den Übergang zu Baustein 3 vorbereiten | **[AB 2c](https://github.com/salomegolden/logictraffic/releases/download/ab2_v2/2c_ergebnissicherungLT.pdf)**, **[Tafelbild 2e](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2e_tafelbild_ergebnissicherung.pdf)** | ca. 15–20 Min. |
+| **1. Von der Kreuzung zur digitalen Darstellung** | Vorwissen aktivieren und die Frage vorbereiten, wie eine Kreuzung am Computer dargestellt werden kann | Rückbezug auf Baustein 1 | ca. 5' |
+| **2. LogicTraffic erkunden und Zustände lesen** | Oberfläche, Variablen, `0`/`1`, Tabellenzeilen sowie sichere und unsichere Zustände untersuchen | **[AB 2a](https://github.com/salomegolden/logictraffic/releases/download/ab2_v2/2a_orientierung_logictraffic.pdf)**, anschliessend **[MB 2b](https://github.com/salomegolden/logictraffic/releases/download/ab2_v2/2b_merkblatt_orientierung.pdf)**, LogicTraffic | ca. 25–30' |
+| **3. Darstellungen zusammenführen und sichern** | Funktionen der verschiedenen Darstellungen ordnen und den Übergang zu Baustein 3 vorbereiten | **[AB 2c](https://github.com/salomegolden/logictraffic/releases/download/ab2_v2/2c_ergebnissicherungLT.pdf)**, **[Tafelbild 2e](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2e_tafelbild_ergebnissicherung.pdf)** | ca. 15–20' |
 
-Die Materialien sind damit eindeutig zugeordnet: **[2a](https://github.com/salomegolden/logictraffic/releases/download/ab2_v2/2a_orientierung_logictraffic.pdf)** trägt die eigentliche Erkundung, **[2b](https://github.com/salomegolden/logictraffic/releases/download/ab2_v2/2b_merkblatt_orientierung.pdf)** dient danach als Nachschlagehilfe, **[2c](https://github.com/salomegolden/logictraffic/releases/download/ab2_v2/2c_ergebnissicherungLT.pdf)** sichert die Ergebnisse, **[2e](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2e_tafelbild_ergebnissicherung.pdf)** unterstützt die gemeinsame Auswertung und **[2d](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2d_prasentation_lp_kreuzungen.pdf)** ersetzt nur dann den realen bzw. enaktiven Rückbezug, wenn Baustein 1 nicht stattgefunden hat.
 
 ## Durchführung
 
@@ -164,11 +150,6 @@ Die Materialien sind damit eindeutig zugeordnet: **[2a](https://github.com/salom
     - die dort verwendete oder eine vergleichbare Verkehrssituation
     - Beamer oder Präsentationsbildschirm
 
-    **Wenn Baustein 1 nicht durchgeführt wurde:**
-
-    - [:film_projector: 2d – Präsentation: Kreuzungen](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2d_prasentation_lp_kreuzungen.pdf)
-    - Beamer oder Präsentationsbildschirm
-
 ??? info "Sozialformen"
 
     Kurzes **Plenumsgespräch**. Die Lernenden beobachten eine bekannte bzw. reale Kreuzung und formulieren zunächst in Alltagssprache, welche Informationen für eine sichere Ampelsteuerung relevant sind.
@@ -176,7 +157,6 @@ Die Materialien sind damit eindeutig zugeordnet: **[2a](https://github.com/salom
 ??? tip "benötigte Zeit"
 
     nach Baustein 1: ca. **5 Minuten**  
-    ohne Baustein 1 mit [Präsentation 2d](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2d_prasentation_lp_kreuzungen.pdf): ca. **10–15 Minuten**
 
 ??? abstract "Verlaufsplanung"
 
