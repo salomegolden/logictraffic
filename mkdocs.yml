@@ -24,14 +24,16 @@ theme:
     - content.action.view
   icon:
     admonition: 
-      abstract: material/file-eye-outline
+      abstract: material/clipboard-flow-outline
       quote: material/clipboard-text-outline
       tip: material/lightbulb-on-outline
       warning: material/alert-circle-outline
-      example: material/check-decagram-outline
-      info: material/book-education-outline
+      example: material/target
+      info: material/calendar-clock
       question: material/chat-question-outline
-      note: material/package-variant-closed
+      note: material/school-outline
+      success: material/check-circle-outline
+      bug: material/tune-variant
     annotation: material/arrow-right-circle-outline
 
 nav:

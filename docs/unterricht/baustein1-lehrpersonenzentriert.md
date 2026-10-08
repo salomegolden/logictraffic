@@ -10,13 +10,13 @@ Operatoren, aussagenlogische Formeln, die Zuordnung zu `0` und `1` sowie die for
 
 !!! abstract "Auf einen Blick"
 
-    **Dauer:** 85 Minuten als Planungsrichtwert; für die Untersuchung in beiden Bedingungen dieselbe Dauer festlegen.
+    **Dauer:** 60 - 90 Minuten, je nach Vorwissen und Vertiefung
 
     **Sozialformen:** Lehrpersoneninput und gelenktes Unterrichtsgespräch im Plenum, kurze angeleitete Einzelarbeit.
 
     **Computer:** Nur für die Präsentation durch die Lehrperson; keine Bedienung von LogicTraffic durch die Lernenden.
 
-    **Vorwissen:** Kein fachliches Vorwissen erforderlich.
+    **Vorwissen:** Kein Vorwissen erforderlich.
 
     **Material:** Präsentation mit statischen Kreuzungsbildern, [Dossier zum lehrpersonenzentrierten Einstieg (PDF)](https://github.com/salomegolden/logictraffic/releases/download/ab1_v3/Baustein_1_lehrpersonenzentrierter_Einstieg_Dossier.pdf), Tafel oder Visualizer und Schreibzeug.
 
@@ -36,7 +36,7 @@ Operatoren, aussagenlogische Formeln, die Zuordnung zu `0` und `1` sowie die for
 
 **Bezug zur Unterrichtseinheit:** [LZ1a – Verkehrssituationen deuten](../didaktik/lernziele.md#lz1a); Vorbereitung auf [LZ1b – alle Zustände erfassen](../didaktik/lernziele.md#lz1b) und [LZ2 – Sicherheitsregeln formulieren](../didaktik/lernziele.md#lernziel-2-boolesche-formeln-aus-textbeschreibungen-ableiten).
 
-Die gemeinsamen verkehrsbezogenen Ziele entsprechen denen des [enaktiven Einstiegs](baustein1-enaktiv.md#lernziele). Hier werden sie anhand statischer Bilder und angeleiteter Aufgaben erarbeitet. Die Codierung mit `0`/`1`, die Regel $2^n$ und formale Operatoren folgen in späteren Bausteinen.
+Die gemeinsamen Ziele entsprechen denen des [enaktiven Einstiegs](baustein1-enaktiv.md#lernziele). Hier werden sie anhand statischer Bilder und angeleiteter Aufgaben erarbeitet. Die Codierung mit `0`/`1`, die Regel $2^n$ und formale Operatoren folgen in späteren Bausteinen.
 
 **Ergänzender Logikblock:** Die Lernenden können …
 
@@ -45,7 +45,7 @@ Die gemeinsamen verkehrsbezogenen Ziele entsprechen denen des [enaktiven Einstie
 - Aussagen von Fragen und Aufforderungen unterscheiden;
 - erklären, dass auch ein falscher Satz eine Aussage sein kann;
 
-**Gemeinsame verkehrsbezogene Ziele:** Die Lernenden können …
+**Gemeinsame Ziele:** Die Lernenden können …
 
 - vorgegebene Fahrwege und mögliche Konfliktstellen in einem Kreuzungsbild erkennen;
 - für jede Spur die Zustände Rot und Grün unterscheiden;
@@ -61,17 +61,9 @@ Die gemeinsamen verkehrsbezogenen Ziele entsprechen denen des [enaktiven Einstie
 
 ???+ example "Präsentation und Unterrichtsmaterial vorbereiten"
 
-    Die [aktuelle Präsentation](https://canva.link/kbim94xa3bwatco) vor dem Unterricht öffnen. Den Logikblock nach dem Alltagsbild ergänzen und die Sicherungs- und Abschlussfolien hinzufügen.
+    Die [aktuelle Präsentation](https://canva.link/kbim94xa3bwatco) vor dem Unterricht öffnen. 
 
     Für den Hauptteil werden **dieselben Kreuzungen und Fahrwege wie im enaktiven Einstieg** als statische Bilder verwendet. So beziehen sich beide Bedingungen auf dieselben Verkehrsprobleme. Die Kreuzungsvorlagen können aus [M1.3 – Kreuzungen](https://github.com/salomegolden/logictraffic/releases/download/material-v2/M1_3_Kreuzungen.pdf) stammen; die fest vorgegebenen Fahrwege müssen zusätzlich sichtbar sein. Die Lernenden erhalten keine beweglichen Teile.
-
-    Benötigt werden:
-
-    - ein Übersichtbild der ausgewählten Kreuzung mit drei eindeutig benannten Spuren;
-    - vorbereitete Bilder einzelner Ampelstellungen derselben Kreuzung;
-    - eine fest vorgegebene Erweiterung auf vier Spuren, entsprechend dem enaktiven Einstieg;
-    - eine einfache Tabelle mit den Spalten Spur C, Spur D, Spur E und sicher / unsicher;
-    - die Aufgaben aus den Verlaufsplanungen, auf Folien oder als schriftliche Aufträge.
 
     Das [Dossier zum lehrpersonenzentrierten Einstieg (PDF)](https://github.com/salomegolden/logictraffic/releases/download/ab1_v3/Baustein_1_lehrpersonenzentrierter_Einstieg_Dossier.pdf) für die Lernenden ausdrucken. Für ergänzende schriftliche Aufträge kann zusätzlich normales Papier bereitgelegt werden.
 
