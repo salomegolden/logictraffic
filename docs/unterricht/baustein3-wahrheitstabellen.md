@@ -307,7 +307,7 @@ Die drei Phasen bilden gemeinsam den vollständigen Baustein. Bei knappem Zeitbu
 
     === "Erweiterungen"
 
-        - Die Lernenden selbst eine Tabellenzeile vorgeben und vom Partner in LogicTraffic darstellen lassen.
+        - Die Lernenden selbst eine Tabellenzeile vorgeben und vom Partner in mit Material oder zeichnend darstellen lassen.
         - Begründen lassen, weshalb bei zwei Variablen genau vier und nicht beispielsweise sechs Kombinationen möglich sind.
         - Eine unvollständige Zweivariablen-Tabelle vorgeben und die fehlende Kombination ohne Ausprobieren bestimmen lassen.
         - Bereits eine Vermutung formulieren lassen, wie viele Kombinationen bei drei Variablen entstehen müssten.
@@ -336,7 +336,7 @@ Die drei Phasen bilden gemeinsam den vollständigen Baustein. Bei knappem Zeitbu
 
 ??? tip "benötigte Zeit"
 
-    ca. **25 Minuten**
+    **25-30 Minuten**
 
 ??? abstract "Verlaufsplanung"
 
@@ -501,17 +501,13 @@ Die drei Phasen bilden gemeinsam den vollständigen Baustein. Bei knappem Zeitbu
 
     === "Vereinfachungen"
 
-        - Die acht Tabellenzeilen bereits vorzeichnen und nur die Werte eintragen lassen.
         - Das Wechselmuster für `C` vorgeben und `B` sowie `A` ergänzen lassen.
         - Die Zweivariablen-Tabelle daneben sichtbar lassen.
-        - Mit der Frage unterstützen:  
-          > „Wie oft muss sich der Wert in dieser Spalte ändern?“
-        - Die Spalte `sicher` erst nach einer vollständigen Variablentabelle ergänzen.
+        - Mit der Frage unterstützen: > „Wie oft muss sich der Wert in dieser Spalte ändern?“
         - Die Herleitung zunächst als `2 · 2 · 2 = 8` notieren und erst danach `2^3` einführen.
 
     === "Erweiterungen"
 
-        - Eine vollständige Tabelle für vier Variablen ohne Vorlage beginnen lassen.
         - Vorhersagen lassen, welches Wechselmuster eine vierte Variable besitzt.
         - Für `n = 6`, `8`, `10` oder `12` die Zeilenzahl berechnen lassen.
         - Verschiedene korrekte Ordnungssysteme vergleichen und hinsichtlich Fehlersicherheit beurteilen.
@@ -550,14 +546,14 @@ Die drei Phasen bilden gemeinsam den vollständigen Baustein. Bei knappem Zeitbu
 
     Situation 4 besitzt die Variablen:
 
-    `B`, `C` und `D`.
+    `C`, `D` und `E`.
 
-    `B` und `C` verlaufen parallel, während `D` beide Fahrwege kreuzt.
+    `C` und `E` verlaufen parallel, während `D` beide Fahrwege kreuzt.
 
     Vor der Fehlersuche wird kurz geklärt:
 
-    - `B` und `C` dürfen grundsätzlich gleichzeitig Grün haben.
-    - `D` darf nicht gleichzeitig mit `B` oder `C` Grün haben.
+    - `C` und `E` dürfen grundsätzlich gleichzeitig Grün haben.
+    - `D` darf nicht gleichzeitig mit `C` oder `E` Grün haben.
 
     **2. Fehlerhafte Tabelle auf [AB 3c](https://github.com/salomegolden/logictraffic/releases/download/ab3_v2/3c_Herausforderung_findest_du_die_Fehlererstellen.pdf) untersuchen**
 

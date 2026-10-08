@@ -171,22 +171,7 @@ Die Lernenden können …
 
     - Man muss betrachten, welche Fahrspuren gleichzeitig Grün haben.
     - Entscheidend ist, ob sich die Fahrwege dieser Spuren kreuzen.
-    - Nicht die einzelne Ampel, sondern die Kombination der Ampelstellungen ist relevant.
-
-    **2. Alternative ohne Baustein 1**
-
-    Wurde Baustein 1 ausgelassen, verwendet die Lehrperson **[2d](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2d_prasentation_lp_kreuzungen.pdf)**. Die Präsentation dient bewusst nur dazu, eine reale Kreuzung zu beobachten und das Sicherheitsproblem zu aktivieren. Sie ist **keine Einführung in die Oberfläche von LogicTraffic**.
-
-    Die Lernenden beschreiben beispielsweise:
-
-    - welche Fahrwege sie erkennen;
-    - welche Bewegungen gleichzeitig möglich erscheinen;
-    - wo mögliche Konflikte entstehen;
-    - welche Informationen eine Ampelsteuerung berücksichtigen muss.
-
-    **Leitfrage:**
-
-    > Welche Informationen braucht eine Ampelsteuerung, damit eine Kreuzung sicher funktioniert?
+    - Nicht die einzelne Ampel, sondern die Kombination der Ampelstellungen ist relevant. 
 
     **3. Übergang zu LogicTraffic**
 
@@ -200,10 +185,6 @@ Die Lernenden können …
 
     Diese Phase soll **kein zweiter Theorieeinstieg** werden. Ihr Zweck ist ausschliesslich, einen verständlichen Ausgangspunkt für die digitale Darstellung zu schaffen.
 
-    Wenn Baustein 1 bereits stattgefunden hat, ist die [Präsentation 2d](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2d_prasentation_lp_kreuzungen.pdf) nicht zusätzlich nötig. Dadurch werden Wiederholungen vermieden und der Baustein bleibt kompakt.
-
-    Ohne Baustein 1 ersetzt [2d](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2d_prasentation_lp_kreuzungen.pdf) nicht den enaktiven Zugang vollständig, schafft aber einen konkreten Alltagsbezug, bevor mit der digitalen Lernumgebung gearbeitet wird.
-
     Fachbegriffe sollten in dieser Phase noch nicht vorweggenommen werden. Besonders `0`, `1` und Wahrheitstabelle werden erst an beobachtbaren Veränderungen in LogicTraffic aufgebaut.
 
 ??? bug "Differenzierung"
@@ -214,7 +195,6 @@ Die Lernenden können …
         - Mit konkreten Fragen arbeiten:  
           > „Welche beiden Fahrwege könnten sich schneiden?“  
           > „Was könnte passieren, wenn beide gleichzeitig Grün haben?“
-        - Bei Baustein-1-Erfahrungen direkt auf eine bekannte Ampelstellung zurückgreifen.
 
     === "Erweiterungen"
 
