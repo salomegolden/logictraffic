@@ -53,7 +53,7 @@ Die Lernenden können NICHT (`¬`), UND (`∧`) und das einschliessende ODER (`�
 
 ## LZ2: Sicherheitsregeln entwickeln und in Formeln übersetzen {#lernziel-2-boolesche-formeln-aus-textbeschreibungen-ableiten}
 
-Die Lernenden können die Konflikte einer einfachen Kreuzung mit zwei bis drei Variablen in eigenen Worten beschreiben und daraus eine Formel entwickeln, die genau die sicheren Belegungen zulässt. Sie übersetzen auch zurück von der Formel zur Verkehrsbedeutung.
+Die Lernenden können die Konflikte einer einfachen Kreuzung mit zwei bis drei Variablen in eigenen Worten beschreiben und daraus eine Formel entwickeln, die genau die sicheren Belegungen zulässt. Sie übersetzen auch zurück von der Formel zur Verkehrssituation.
 
 | Teilkompetenz | Beobachtbarer Nachweis |
 | --- | --- |

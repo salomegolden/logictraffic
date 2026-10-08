@@ -39,7 +39,7 @@ Ausgehend von einzelnen konkreten Situationen entsteht schrittweise das Bedürfn
 
 **Bezug zur Unterrichtseinheit:** [LZ1a – Verkehrssituationen deuten](../didaktik/lernziele.md#lz1a); Vorbereitung auf [LZ1b – alle Zustände erfassen](../didaktik/lernziele.md#lz1b) und [LZ2 – Sicherheitsregeln formulieren](../didaktik/lernziele.md#lernziel-2-boolesche-formeln-aus-textbeschreibungen-ableiten).
 
-Die gemeinsamen verkehrsbezogenen Ziele entsprechen denen des [lehrpersonenzentrierten Einstiegs](baustein1-lehrpersonenzentriert.md#lernziele). Hier werden sie mit physischem Material erarbeitet. Die Codierung mit `0`/`1`, die Regel $2^n$ und formale Operatoren folgen in späteren Bausteinen.
+Die gemeinsamen Ziele entsprechen denen des [lehrpersonenzentrierten Einstiegs](baustein1-lehrpersonenzentriert.md#lernziele). Hier werden sie mit physischem Material erarbeitet. Die Codierung mit `0`/`1`, die Regel $2^n$ und formale Operatoren folgen in späteren Bausteinen.
 
 Die Lernenden können …
 
@@ -54,40 +54,35 @@ Die Lernenden können …
 
 **Lernnachweis:** Die Lernenden zeigen und begründen eine sichere und eine unsichere Stellung, formulieren eine Regel und ordnen Rot-Grün-Kombinationen. Die vollständige, selbstständige Konstruktion einer Wahrheitstabelle ist Ziel von Baustein 3.
 
-??? note "Gemeinsamer Hintergrund bei vergleichender Durchführung"
-
-    Der [zehnminütige Logikblock des alternativen Einstiegs](baustein1-lehrpersonenzentriert.md#phase-1-logik-einordnen-und-aussagen-verstehen) wird bei einem Vergleich der beiden Unterrichtsformen auch hier eingeplant, beispielsweise nach der Erkundung. Die Lernenden unterscheiden Aussagen von Fragen und Aufforderungen und erklären, weshalb auch ein falscher Satz eine Aussage sein kann. Historische Bezugspunkte dienen der Orientierung; Lebensdaten sind kein Prüfungsstoff.
-
-    Für beide Gruppen werden dieselben Inhalte und dieselbe Gesamtzeit festgelegt. Den Hintergrundteil in der konkreten Zeitplanung ausdrücklich berücksichtigen und die übrigen Phasen entsprechend gewichten. Die verkehrsbezogenen Lernnachweise bleiben gleich.
-
 ## Vorbereitung
 
 ???+ note "Ein Materialset pro Gruppe umfasst:"
 
     - ein Kreuzungsfeld mit 3 Spuren;
     - ein Kreuzungsfeld mit 4 Spuren;
-    - drei Fahrzeuge in unterschiedlichen Farben;
+    - fünf Fahrzeuge in unterschiedlichen Farben;
     - Richtungskarten für die vorgesehenen Fahrwege;
     - pro verwendeter Spur ein wendbares Ampelplättchen;
-    - eine leere Tabelle zum Festhalten der Ampelzustände;
     - die Druckvorlagen [M1.1 – Autos, Ampeln und Pfeile](https://github.com/salomegolden/logictraffic/releases/download/material-v2/M1_1_Autos_Ampeln_Pfeile.pdf), [M1.2 – Situationskarten](https://github.com/salomegolden/logictraffic/releases/download/material-v2/M1_2_Situationskarten.pdf) und [M1.3 – Kreuzungen](https://github.com/salomegolden/logictraffic/releases/download/material-v2/M1_3_Kreuzungen.pdf);
     - die Arbeitsblätter [1a – Kreuzungen legen](https://github.com/salomegolden/logictraffic/releases/download/ab1_v3/1a_kreuzungen_legen.pdf), [1b – Sichere Ampelstellungen finden](https://github.com/salomegolden/logictraffic/releases/download/ab1_v3/1b_sichere_ampelstellungen_finden.pdf) und [1c – Alle Möglichkeiten erfassen](https://github.com/salomegolden/logictraffic/releases/download/ab1_v3/1c_alle_moglichkeiten_erfassen.pdf), einzeln oder als [Gesamtdossier Baustein 1 (PDF)](https://github.com/salomegolden/logictraffic/releases/download/ab1_v3/Baustein_1_Dossier.pdf).
 
+    ![Bild vom enaktiven Material](https://github.com/salomegolden/logictraffic/releases/download/bilder/enaktivesMaterial.png){ width="300" }
+
 ??? tip "Tipps zum enaktiven Material"
 
-    Das enaktive Material kann auch mit dem 3D-Drucker hergestellt werden. Dafür stehen die [3D-Druckdatei für Kleinteile (Ampeln etc.; 3MF)](https://github.com/salomegolden/logictraffic/releases/download/3d_v1/3D_Kleinteile_LogicTraffic.3mf) und die [3D-Druckdatei für Behälter (Kistchen) für Kleinteile und Situationskarten (3MF)](https://github.com/salomegolden/logictraffic/releases/download/3d_v1/LT_Behalter.3mf) zur Verfügung. Zusätzlich zu den gedruckten Teilen werden nur noch die Situationskarten aus M1.2 und die Autobilder aus M1.1 benötigt. Die Autobilder werden ausgedruckt, ausgeschnitten und auf die Buttons geklebt.
+    Das enaktive Material kann auch mit dem 3D-Drucker hergestellt werden. Dafür stehen die [3D-Druckdatei für Kleinteile (Ampeln etc.; 3MF)](https://github.com/salomegolden/logictraffic/releases/download/3d_v1/3D.Kleinteile.LogicTraffic.3mf) und die [3D-Druckdatei für Behälter (Kistchen) für Kleinteile und Situationskarten (3MF)](https://github.com/salomegolden/logictraffic/releases/download/3d_v1/LT.Behalter.3mf) zur Verfügung. Zusätzlich zu den gedruckten Teilen werden nur noch die Situationskarten aus M1.2 und die Autobilder aus M1.1 benötigt. Die Autobilder werden ausgedruckt, ausgeschnitten und auf die Buttons geklebt.
 
-    Die Ampelplättchen bestehen aus kleinen Holzstücken oder gefaltetem Papier. Auf einer Seite zeigen sie eine grüne Ampel, auf der Rückseite eine rote Ampel. Der Zustand einer Ampel wird verändert, indem das Plättchen umgedreht wird.
+    Falls kein 3D Drucker zur Verfügung steht können die Ampeln auf kleine Holzplättchen geklebt werden, damit sie besser in der Hand liegen und gedreht werden können. 
 
-    Die Fahrzeuge sollten eindeutig den entsprechenden Spuren zugeordnet werden können. Die Fahrtrichtung jedes Fahrzeugs wird mit einer Richtungskarte dargestellt.
+    Die Fahrzeuge sollten eindeutig den entsprechenden Spuren zugeordnet werden können. Die Fahrtrichtung jedes Fahrzeugs wird mit einem Pfeil dargestellt.
 
-    ![Bild vom enaktiven Material](https://github.com/salomegolden/logictraffic/releases/download/images-v1/enaktivesmaterial.jpeg){ width="300" }
+    ![Bild vom enaktiven Material](https://github.com/salomegolden/logictraffic/releases/download/bilder/enaktivesMaterial.png){ width="300" }
 
 ??? tip "Vorbereitung des Kreuzungsfeldes"
 
     Das Kreuzungsfeld kann ausgedruckt oder mit Klebeband direkt auf einem Tisch markiert werden. Wichtig ist weniger eine detailgetreue Darstellung als vielmehr, dass die Fahrspuren und mögliche Überschneidungen der Fahrwege klar erkennbar sind.
 
-??? note "Modellannahmen für beide Einstiege"
+??? note "Modellannahmen"
 
     - Die vorgegebenen Fahrwege bleiben unverändert.
     - Bei Grün darf ein Fahrzeug fahren, bei Rot muss es halten.
