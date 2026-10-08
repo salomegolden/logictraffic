@@ -79,7 +79,6 @@ Die Lernenden können …
 - [LogicTraffic](https://logictraffic.ch/) auf allen Geräten öffnen und die Funktionsfähigkeit prüfen.
 - Für die gemeinsame Einführung vorzugsweise **Situation 2** bereithalten. Sie besitzt zwei Variablen und ermöglicht einen überschaubaren Einstieg.
 - Dieselbe Situation über den Beamer öffnen, damit alle Lernenden dieselben Veränderungen beobachten können.
-- Falls Baustein 1 durchgeführt wurde, zu Beginn kurz an die dort untersuchten sicheren und unsicheren Ampelstellungen anknüpfen.
 - **[2e](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2e_tafelbild_ergebnissicherung.pdf)** für die gemeinsame Auswertung von [2c](https://github.com/salomegolden/logictraffic/releases/download/ab2_v2/2c_ergebnissicherungLT.pdf) projizieren oder ausdrucken.
 - Den Formelbereich in LogicTraffic sichtbar lassen, aber noch nicht fachlich vertiefen.
 
