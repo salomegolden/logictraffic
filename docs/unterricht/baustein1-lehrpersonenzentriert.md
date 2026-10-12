@@ -20,23 +20,15 @@ Operatoren, aussagenlogische Formeln, die Zuordnung zu `0` und `1` sowie die for
 
     **Material:** Präsentation mit statischen Kreuzungsbildern, [Dossier zum lehrpersonenzentrierten Einstieg (PDF)](https://github.com/salomegolden/logictraffic/releases/download/ab1_v3/Baustein_1_lehrpersonenzentrierter_Einstieg_Dossier.pdf), Tafel oder Visualizer und Schreibzeug.
 
-!!! example "Präsentation für die Lehrperson"
+??? note "Downloads zu Baustein 1 – Lehrpersonenzentrierter Einstieg"
 
-    [:material-presentation-play: Präsentation in Canva öffnen](https://canva.link/kbim94xa3bwatco){ .md-button .md-button--primary target="_blank" rel="noopener noreferrer" }
+    - [:material-presentation-play: Präsentation in Canva öffnen](https://canva.link/kbim94xa3bwatco){ target="_blank" rel="noopener noreferrer" }
+    - [:material-file-download-outline: Dossier herunterladen (PDF)](https://github.com/salomegolden/logictraffic/releases/download/ab1_v3/Baustein_1_lehrpersonenzentrierter_Einstieg_Dossier.pdf)
+    - [:file: Baustein 1 – Lehrpersonenzentrierter Einstieg: Lehrerkommentar (PDF)](https://github.com/salomegolden/logictraffic/releases/download/lpk_v1/Baustein.LP-zentriert.Kommentar.fur.die.Lehrperson.pdf)
+
+    In den PDFs steht das Gleiche wie auf der Webseite – nur als druckbare Version für die Lehrperson.
 
     Der Logikblock und die Abschlussfolien sind in der geprüften Fassung noch zu ergänzen.
-
-!!! example "Dossier für die Lernenden"
-
-    Das Dossier zum lehrpersonenzentrierten Einstieg vor dem Unterricht ausdrucken und für die Lernenden bereitlegen.
-
-    [:material-file-download-outline: Dossier herunterladen (PDF)](https://github.com/salomegolden/logictraffic/releases/download/ab1_v3/Baustein_1_lehrpersonenzentrierter_Einstieg_Dossier.pdf){ .md-button .md-button--primary }
-
-<div align="center">
-<p><strong>Lehrerkommentar für die Lehrperson</strong></p>
-<p>In den PDFs steht das Gleiche wie auf der Webseite – nur als druckbare Version für die Lehrperson.</p>
-<p><a href="https://github.com/salomegolden/logictraffic/releases/download/lpk_v1/Baustein.LP-zentriert.Kommentar.fur.die.Lehrperson.pdf" target="_blank" rel="noopener noreferrer">📄 Baustein 1 – Lehrpersonenzentrierter Einstieg: Lehrerkommentar (PDF)</a></p>
-</div>
 
 ## Lernziele
 

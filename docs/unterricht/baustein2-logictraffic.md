@@ -36,12 +36,9 @@ Die Formel wird am Ende lediglich als weitere Darstellung der **Sicherheitsregel
     **Für die Lehrperson**
 
     - [:material-image-outline: 2e – Tafelbild zur Ergebnissicherung](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2e_tafelbild_ergebnissicherung.pdf)
+    - [:file: Baustein 2 – LogicTraffic: Lehrerkommentar (PDF)](https://github.com/salomegolden/logictraffic/releases/download/lpk_v1/Baustein.2.-.Lehrpersonenkommentar.pdf)
 
-<div align="center">
-<p><strong>Lehrerkommentar für die Lehrperson</strong></p>
-<p>In den PDFs steht das Gleiche wie auf der Webseite – nur als druckbare Version für die Lehrperson.</p>
-<p><a href="https://github.com/salomegolden/logictraffic/releases/download/lpk_v1/Baustein.2.-.Lehrpersonenkommentar.pdf" target="_blank" rel="noopener noreferrer">📄 Baustein 2 – LogicTraffic: Lehrerkommentar (PDF)</a></p>
-</div>
+    In den PDFs steht das Gleiche wie auf der Webseite – nur als druckbare Version für die Lehrperson.
 
 ## Lernziele
 

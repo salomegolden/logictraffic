@@ -40,12 +40,9 @@ Damit bereitet Baustein 3 den Übergang zu [Baustein 4 – Logische Formeln](bau
     - [:memo: 3a – Wahrheitstabellen verstehen](https://github.com/salomegolden/logictraffic/releases/download/ab3_v2/3a_wahrheitstabellen_verstehen.pdf)
     - [:memo: 3b – Wahrheitstabellen systematisch erstellen](https://github.com/salomegolden/logictraffic/releases/download/ab3_v2/3b_wahrheitstabellen_systematisch_erstellen.pdf)
     - [:memo: 3c – Herausforderung: Fehler finden](https://github.com/salomegolden/logictraffic/releases/download/ab3_v2/3c_Herausforderung_findest_du_die_Fehlererstellen.pdf)
+    - [:file: Baustein 3 – Wahrheitstabellen: Lehrerkommentar (PDF)](https://github.com/salomegolden/logictraffic/releases/download/lpk_v1/Baustein.3.Lehrpersonenkommentar.pdf)
 
-<div align="center">
-<p><strong>Lehrerkommentar für die Lehrperson</strong></p>
-<p>In den PDFs steht das Gleiche wie auf der Webseite – nur als druckbare Version für die Lehrperson.</p>
-<p><a href="https://github.com/salomegolden/logictraffic/releases/download/lpk_v1/Baustein.3.Lehrpersonenkommentar.pdf" target="_blank" rel="noopener noreferrer">📄 Baustein 3 – Wahrheitstabellen: Lehrerkommentar (PDF)</a></p>
-</div>
+    In den PDFs steht das Gleiche wie auf der Webseite – nur als druckbare Version für die Lehrperson.
 
 ## Lernziele
 
