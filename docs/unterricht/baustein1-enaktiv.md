@@ -29,6 +29,12 @@ Ausgehend von einzelnen konkreten Situationen entsteht schrittweise das Bedürfn
     - [:memo: 1c – Alle Möglichkeiten erfassen (PDF)](https://github.com/salomegolden/logictraffic/releases/download/ab1_v3/1c_alle_moglichkeiten_erfassen.pdf)
     - [:material-image-outline: Bild vom enaktiven Material](https://github.com/salomegolden/logictraffic/releases/download/images-v1/enaktivesmaterial.jpeg)
 
+<div align="center">
+<p><strong>Lehrerkommentar für die Lehrperson</strong></p>
+<p>In den PDFs steht das Gleiche wie auf der Webseite – nur als druckbare Version für die Lehrperson.</p>
+<p><a href="https://github.com/salomegolden/logictraffic/releases/download/lpk_v1/Baustein.1enaktiv.Kommentar.fur.die.Lehrperson.pdf" target="_blank" rel="noopener noreferrer">📄 Baustein 1 – Enaktiver Einstieg: Lehrerkommentar (PDF)</a></p>
+</div>
+
 ## Lernziele
 
 !!! info "Bezug zur Unterrichtseinheit"

@@ -32,6 +32,12 @@ Operatoren, aussagenlogische Formeln, die Zuordnung zu `0` und `1` sowie die for
 
     [:material-file-download-outline: Dossier herunterladen (PDF)](https://github.com/salomegolden/logictraffic/releases/download/ab1_v3/Baustein_1_lehrpersonenzentrierter_Einstieg_Dossier.pdf){ .md-button .md-button--primary }
 
+<div align="center">
+<p><strong>Lehrerkommentar für die Lehrperson</strong></p>
+<p>In den PDFs steht das Gleiche wie auf der Webseite – nur als druckbare Version für die Lehrperson.</p>
+<p><a href="https://github.com/salomegolden/logictraffic/releases/download/lpk_v1/Baustein.LP-zentriert.Kommentar.fur.die.Lehrperson.pdf" target="_blank" rel="noopener noreferrer">📄 Baustein 1 – Lehrpersonenzentrierter Einstieg: Lehrerkommentar (PDF)</a></p>
+</div>
+
 ## Lernziele
 
 **Bezug zur Unterrichtseinheit:** [LZ1a – Verkehrssituationen deuten](../didaktik/lernziele.md#lz1a); Vorbereitung auf [LZ1b – alle Zustände erfassen](../didaktik/lernziele.md#lz1b) und [LZ2 – Sicherheitsregeln formulieren](../didaktik/lernziele.md#lernziel-2-boolesche-formeln-aus-textbeschreibungen-ableiten).

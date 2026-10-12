@@ -37,6 +37,12 @@ Die Formel wird am Ende lediglich als weitere Darstellung der **Sicherheitsregel
 
     - [:material-image-outline: 2e – Tafelbild zur Ergebnissicherung](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2e_tafelbild_ergebnissicherung.pdf)
 
+<div align="center">
+<p><strong>Lehrerkommentar für die Lehrperson</strong></p>
+<p>In den PDFs steht das Gleiche wie auf der Webseite – nur als druckbare Version für die Lehrperson.</p>
+<p><a href="https://github.com/salomegolden/logictraffic/releases/download/lpk_v1/Baustein.2.-.Lehrpersonenkommentar.pdf" target="_blank" rel="noopener noreferrer">📄 Baustein 2 – LogicTraffic: Lehrerkommentar (PDF)</a></p>
+</div>
+
 ## Lernziele
 
 **Bezug zur Unterrichtseinheit:** [LZ1a – Verkehrssituationen und Darstellungen deuten](../didaktik/lernziele.md#lz1a). Der Schwerpunkt liegt auf dem Lesen und Zuordnen; das selbstständige Erstellen vollständiger Tabellen folgt in Baustein 3, die Arbeit mit Operatoren in Baustein 4.
