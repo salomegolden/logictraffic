@@ -115,16 +115,12 @@ Die Lernenden können zusätzlich …
 ## Vorbereitung
 
 - LogicTraffic auf allen Geräten öffnen und den Formeleditor kurz testen.
-- Für Phase 1 Situation 10 oder das entsprechende Abschlussbild aus Baustein 3 bereithalten.
-- Für Phase 2 eine einfache Situation mit zwei Fahrspuren vorbereiten.
-- Situation 3 für Phase 3 bereithalten.
-- Situation 4 für die optionale Vertiefung vorbereiten.
-- Situation 10 für den abschliessenden Transfer bereithalten.
+- Falls vorhanden können für die einzelnen Situationen das enaktive Material und die Situationskarten verwendet werden. 
 - Falls die Vertiefung durchgeführt wird, die Anzeige bzw. Erzeugung verschiedener Normalformen in LogicTraffic vorab prüfen.
 - Die benötigten Arbeitsblätter einzeln oder als [Gesamtdossier Baustein 4 (PDF)](https://github.com/salomegolden/logictraffic/releases/download/ab4_v2/Baustein_4_Dossier.pdf) ausdrucken oder digital bereitstellen.
 - Das [Merkblatt 4d](https://github.com/salomegolden/logictraffic/releases/download/ab4_v2/4d_uebersicht.pdf) so bereithalten, dass es ab Phase 2 bei Bedarf als Nachschlagehilfe eingesetzt werden kann.
 
-??? info "Fachlicher Hintergrund – logische Operatoren"
+???+ info "Fachlicher Hintergrund – logische Operatoren"
 
     In LogicTraffic werden Aussagen über Fahrspuren mit logischen Operatoren miteinander verbunden.
 
@@ -148,7 +144,7 @@ Die Lernenden können zusätzlich …
     und  
     **Formel → Sprache**
 
-??? info "Fachlicher Hintergrund – Normalformen"
+???+ info "Fachlicher Hintergrund – Normalformen"
 
     Eine Formel in **disjunktiver Normalform (DNF)** besteht aus UND-Termen, die mit ODER verbunden werden.
 
@@ -278,7 +274,6 @@ Die **Phasen 1–3 bilden den Basisteil**. Die **Phasen 4–6 sind eine optional
         - Satzstarter anbieten:  
           > „A und B dürfen nicht …“  
           > „Wenn A Grün hat, dann …“
-        - Die Zahlen $2^5$ und $2^{10}$ bereits vorgeben und nur die Bedeutung diskutieren lassen.
         - Die Lernenden zunächst nur eine einzige Sicherheitsregel formulieren lassen.
 
     === "Erweiterungen"
@@ -427,7 +422,6 @@ Die **Phasen 1–3 bilden den Basisteil**. Die **Phasen 4–6 sind eine optional
 
     === "Erweiterungen"
 
-        - Mehrere sprachliche Formulierungen für dieselbe Formel finden lassen.
         - `¬(A ∧ B)` und `A → ¬B` in LogicTraffic vergleichen lassen, ohne die Äquivalenz bereits formal zu benennen.
         - Eigene Beispiele für korrekt geklammerte und falsch interpretierte Formeln entwickeln lassen.
         - Begründen lassen, weshalb `A ∨ B` auch dann wahr ist, wenn beide Variablen wahr sind.

@@ -85,7 +85,7 @@ Die Lernenden können …
 - **[2e](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2e_tafelbild_ergebnissicherung.pdf)** für die gemeinsame Auswertung von [2c](https://github.com/salomegolden/logictraffic/releases/download/ab2_v2/2c_ergebnissicherungLT.pdf) projizieren oder ausdrucken.
 - Den Formelbereich in LogicTraffic sichtbar lassen, aber noch nicht fachlich vertiefen.
 
-??? info "Fachlicher Hintergrund – was zeigt LogicTraffic?"
+???+ info "Fachlicher Hintergrund – was zeigt LogicTraffic?"
 
     LogicTraffic verbindet mehrere Repräsentationen miteinander. Für Baustein 2 ist wichtig, diese Darstellungen **nicht vorschnell gleichzusetzen**, sondern ihre jeweilige Funktion zu unterscheiden.
 

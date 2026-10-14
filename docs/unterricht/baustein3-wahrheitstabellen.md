@@ -85,7 +85,7 @@ Die Lernenden können …
 
     Der Schwerpunkt liegt deshalb nicht mehr auf der Bedienung der Lernumgebung, sondern auf der **Struktur, Vollständigkeit und Bedeutung einer Wahrheitstabelle**.
 
-??? info "Fachlicher Hintergrund – Wahrheitstabellen"
+???+ info "Fachlicher Hintergrund – Wahrheitstabellen"
 
     Eine Wahrheitstabelle enthält alle möglichen Belegungen der verwendeten Variablen.
 
