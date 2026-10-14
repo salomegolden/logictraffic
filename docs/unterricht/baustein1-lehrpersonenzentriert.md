@@ -1,5 +1,9 @@
 # Baustein 1 – Lehrpersonenzentrierter Einstieg
 
+??? example "Lehrpersonenkommentar als Download"
+
+    [Lehrpersonenkommentar Modul 1 - Lehrpersonenzentrierter Einstieg als Download](https://canva.link/hh95uvquaybbm27)
+
 Die Lernenden untersuchen anhand projizierter Kreuzungsbilder, welche Ampelstellungen sicher sind. Die Lehrperson erläutert die Fahrwege, modelliert die Beurteilung einzelner Kombinationen und zeigt eine systematische Vorgehensweise zum Erfassen aller Möglichkeiten. Kurze Verständnisfragen und angeleitete schriftliche Aufgaben begleiten den Input.
 
 Dieser Baustein ist eine **Alternative zum enaktiven Baustein 1**. Beide Einstiege bereiten die anschliessende Arbeit mit LogicTraffic vor. Hier werden keine Fahrzeuge bewegt, Ampelkarten umgedreht oder Verkehrssituationen nachgespielt. Die Darstellung erfolgt anhand statischer Bilder, sprachlicher Erklärungen und einfacher Tabellen mit den Einträgen **Rot** und **Grün**.
@@ -8,7 +12,7 @@ Ein kurzer Hintergrundteil führt in die Bedeutung und Geschichte der Logik sowi
 
 Operatoren, aussagenlogische Formeln, die Zuordnung zu `0` und `1` sowie die formale Wahrheitstabelle werden erst in den anschliessenden gemeinsamen Bausteinen eingeführt.
 
-!!! abstract "Auf einen Blick"
+??? abstract "Auf einen Blick"
 
     **Dauer:** 60 - 90 Minuten, je nach Vorwissen und Vertiefung
 
@@ -20,11 +24,10 @@ Operatoren, aussagenlogische Formeln, die Zuordnung zu `0` und `1` sowie die for
 
     **Material:** Präsentation mit statischen Kreuzungsbildern, [Dossier zum lehrpersonenzentrierten Einstieg (PDF)](https://github.com/salomegolden/logictraffic/releases/download/ab1_v3/Baustein_1_lehrpersonenzentrierter_Einstieg_Dossier.pdf), Tafel oder Visualizer und Schreibzeug.
 
-??? note "Downloads zu Baustein 1 – Lehrpersonenzentrierter Einstieg"
+??? example "Materialhinweise und Downloads"
 
     - [:material-presentation-play: Präsentation in Canva öffnen](https://canva.link/kbim94xa3bwatco){ target="_blank" rel="noopener noreferrer" }
     - [:material-file-download-outline: Dossier herunterladen (PDF)](https://github.com/salomegolden/logictraffic/releases/download/ab1_v3/Baustein_1_lehrpersonenzentrierter_Einstieg_Dossier.pdf)
-    - [:file: Baustein 1 – Lehrpersonenzentrierter Einstieg: Lehrerkommentar (PDF)](https://github.com/salomegolden/logictraffic/releases/download/lpk_v1/Baustein.LP-zentriert.Kommentar.fur.die.Lehrperson.pdf)
 
     In den PDFs steht das Gleiche wie auf der Webseite – nur als druckbare Version für die Lehrperson.
 
@@ -32,32 +35,34 @@ Operatoren, aussagenlogische Formeln, die Zuordnung zu `0` und `1` sowie die for
 
 ## Lernziele
 
-**Bezug zur Unterrichtseinheit:** [LZ1a – Verkehrssituationen deuten](../didaktik/lernziele.md#lz1a); Vorbereitung auf [LZ1b – alle Zustände erfassen](../didaktik/lernziele.md#lz1b) und [LZ2 – Sicherheitsregeln formulieren](../didaktik/lernziele.md#lernziel-2-boolesche-formeln-aus-textbeschreibungen-ableiten).
+??? success "Lernziele"
 
-Die gemeinsamen Ziele entsprechen denen des [enaktiven Einstiegs](baustein1-enaktiv.md#lernziele). Hier werden sie anhand statischer Bilder und angeleiteter Aufgaben erarbeitet. Die Codierung mit `0`/`1`, die Regel $2^n$ und formale Operatoren folgen in späteren Bausteinen.
+    **Bezug zur Unterrichtseinheit:** [LZ1a – Verkehrssituationen deuten](../didaktik/lernziele.md#lz1a); Vorbereitung auf [LZ1b – alle Zustände erfassen](../didaktik/lernziele.md#lz1b) und [LZ2 – Sicherheitsregeln formulieren](../didaktik/lernziele.md#lernziel-2-boolesche-formeln-aus-textbeschreibungen-ableiten).
 
-**Ergänzender Logikblock:** Die Lernenden können …
+    Die gemeinsamen Ziele entsprechen denen des [enaktiven Einstiegs](baustein1-enaktiv.md#lernziele). Hier werden sie anhand statischer Bilder und angeleiteter Aufgaben erarbeitet. Die Codierung mit `0`/`1`, die Regel $2^n$ und formale Operatoren folgen in späteren Bausteinen.
 
-- den Zweck logischen Denkens an einem Beispiel erläutern;
-- Aristoteles und George Boole als historische Bezugspunkte einordnen;
-- Aussagen von Fragen und Aufforderungen unterscheiden;
-- erklären, dass auch ein falscher Satz eine Aussage sein kann;
+    **Ergänzender Logikblock:** Die Lernenden können …
 
-**Gemeinsame Ziele:** Die Lernenden können …
+    - den Zweck logischen Denkens an einem Beispiel erläutern;
+    - Aristoteles und George Boole als historische Bezugspunkte einordnen;
+    - Aussagen von Fragen und Aufforderungen unterscheiden;
+    - erklären, dass auch ein falscher Satz eine Aussage sein kann;
 
-- vorgegebene Fahrwege und mögliche Konfliktstellen in einem Kreuzungsbild erkennen;
-- für jede Spur die Zustände Rot und Grün unterscheiden;
-- sichere und unsichere Ampelkombinationen begründet beurteilen;
-- erklären, weshalb mehrere grüne Ampeln nicht automatisch unsicher sind und „alle Rot“ kollisionsfrei ist;
-- eine einfache Sicherheitsregel in eigenen Worten ausdrücken;
-- erklären, weshalb alle möglichen Kombinationen systematisch betrachtet werden müssen;
-- erste Ampelzustände in einer einfachen Tabelle mit Rot und Grün geordnet festhalten.
+    **Gemeinsame Ziele:** Die Lernenden können …
 
-**Lernnachweis:** Die Lernenden zeigen und begründen eine sichere und eine unsichere Stellung, formulieren eine Regel und ordnen Rot-Grün-Kombinationen. Die vollständige, selbstständige Konstruktion einer Wahrheitstabelle ist Ziel von Baustein 3.
+    - vorgegebene Fahrwege und mögliche Konfliktstellen in einem Kreuzungsbild erkennen;
+    - für jede Spur die Zustände Rot und Grün unterscheiden;
+    - sichere und unsichere Ampelkombinationen begründet beurteilen;
+    - erklären, weshalb mehrere grüne Ampeln nicht automatisch unsicher sind und „alle Rot“ kollisionsfrei ist;
+    - eine einfache Sicherheitsregel in eigenen Worten ausdrücken;
+    - erklären, weshalb alle möglichen Kombinationen systematisch betrachtet werden müssen;
+    - erste Ampelzustände in einer einfachen Tabelle mit Rot und Grün geordnet festhalten.
+
+    **Lernnachweis:** Die Lernenden zeigen und begründen eine sichere und eine unsichere Stellung, formulieren eine Regel und ordnen Rot-Grün-Kombinationen. Die vollständige, selbstständige Konstruktion einer Wahrheitstabelle ist Ziel von Baustein 3.
 
 ## Vorbereitung
 
-???+ example "Präsentation und Unterrichtsmaterial vorbereiten"
+??? example "Präsentation und Unterrichtsmaterial vorbereiten"
 
     Die [aktuelle Präsentation](https://canva.link/kbim94xa3bwatco) vor dem Unterricht öffnen. 
 
@@ -65,7 +70,7 @@ Die gemeinsamen Ziele entsprechen denen des [enaktiven Einstiegs](baustein1-enak
 
     Das [Dossier zum lehrpersonenzentrierten Einstieg (PDF)](https://github.com/salomegolden/logictraffic/releases/download/ab1_v3/Baustein_1_lehrpersonenzentrierter_Einstieg_Dossier.pdf) für die Lernenden ausdrucken. Für ergänzende schriftliche Aufträge kann zusätzlich normales Papier bereitgelegt werden.
 
-??? note "Modellannahmen für beide Einstiege"
+??? tip "Modellannahmen für beide Einstiege"
 
     - Die vorgegebenen Fahrwege bleiben unverändert.
     - Bei Grün darf ein Fahrzeug fahren, bei Rot muss es halten.
@@ -97,13 +102,11 @@ Die gemeinsamen Ziele entsprechen denen des [enaktiven Einstiegs](baustein1-enak
 
     - Folien: Bedeutung der Logik, Geschichte, Widerspruch, Aussagenbegriff und Einordnungsaufgabe
 
-??? info "Sozialformen"
+??? info "Organisation"
 
-    Lehrpersoneninput und gelenktes Unterrichtsgespräch im Plenum.
+    **Sozialform:** Lehrpersoneninput und gelenktes Unterrichtsgespräch im Plenum.
 
-??? tip "benötigte Zeit"
-
-    **10 Minuten**
+    **Benötigte Zeit:** **10 Minuten**
 
 ??? abstract "Verlaufsplanung"
 
@@ -148,7 +151,7 @@ Die gemeinsamen Ziele entsprechen denen des [enaktiven Einstiegs](baustein1-enak
 
     **Überleitung:** Wir beschreiben, welche Ampeln Rot oder Grün zeigen, und prüfen danach, ob die gesamte Kombination sicher ist.
 
-??? note "Didaktische Hinweise"
+??? tip "Didaktische Hinweise"
 
     Grundlage sind Arnolds Folien zur Bedeutung der Logik, zu Aristoteles und dem Satz vom Widerspruch, zum Aussagenbegriff und zu George Boole (ADP-Präsentation, Folien 20, 21, 23 und 26). Die Inhalte werden vereinfacht und neu angeordnet.
 
@@ -156,7 +159,7 @@ Die gemeinsamen Ziele entsprechen denen des [enaktiven Einstiegs](baustein1-enak
 
     „Die Ampel zeigt Grün“ beschreibt einen Zustand. „Die Ampelstellung ist sicher“ bewertet die gesamte Kombination. Beide Ebenen werden auseinandergehalten.
 
-??? bug "Differenzierung"
+??? question "Differenzierung"
 
     === "Vereinfachungen"
 
@@ -180,13 +183,11 @@ Die gemeinsamen Ziele entsprechen denen des [enaktiven Einstiegs](baustein1-enak
     - Statisches Bild der ausgewählten Kreuzung mit drei Spuren und fest eingezeichneten Fahrwegen
     - Beamer oder Präsentationsbildschirm
 
-??? info "Sozialformen"
+??? info "Organisation"
 
-    Lehrpersoneninput und gelenktes Unterrichtsgespräch im Plenum.
+    **Sozialform:** Lehrpersoneninput und gelenktes Unterrichtsgespräch im Plenum.
 
-??? tip "benötigte Zeit"
-
-    **10 Minuten**
+    **Benötigte Zeit:** **10 Minuten**
 
 ??? abstract "Verlaufsplanung"
 
@@ -214,13 +215,13 @@ Die gemeinsamen Ziele entsprechen denen des [enaktiven Einstiegs](baustein1-enak
 
     **Erwartete Antwort:** Nein. Auch die Zustände der anderen Ampeln müssen bekannt sein.
 
-??? note "Didaktische Hinweise"
+??? tip "Didaktische Hinweise"
 
     Die Lehrperson gibt die Erklärung und die Struktur vor. Die Lernenden müssen die Kreuzung nicht selbst konstruieren oder deren Funktionsweise durch Ausprobieren entdecken. Rückfragen und kurze begründete Antworten sind ausdrücklich vorgesehen.
 
     Fahrwege werden mit eindeutigen Spurbezeichnungen und Pfeilen dargestellt. Farbe allein genügt nicht zur Unterscheidung.
 
-??? bug "Differenzierung"
+??? question "Differenzierung"
 
     === "Vereinfachungen"
 
@@ -243,13 +244,11 @@ Die gemeinsamen Ziele entsprechen denen des [enaktiven Einstiegs](baustein1-enak
     - Statische Bilder von vier ausgewählten Ampelstellungen derselben Kreuzung
     - Papier und Schreibzeug
 
-??? info "Sozialformen"
+??? info "Organisation"
 
-    Lehrpersoneninput im Plenum, anschliessend kurze angeleitete Einzelarbeit und gemeinsame Auswertung.
+    **Sozialform:** Lehrpersoneninput im Plenum, anschliessend kurze angeleitete Einzelarbeit und gemeinsame Auswertung.
 
-??? tip "benötigte Zeit"
-
-    **15 Minuten**
+    **Benötigte Zeit:** **15 Minuten**
 
 ??? abstract "Verlaufsplanung"
 
@@ -282,13 +281,13 @@ Die gemeinsamen Ziele entsprechen denen des [enaktiven Einstiegs](baustein1-enak
 
     **Erwartete Antwort:** Ja, weil niemand fahren darf. Sicher bedeutet hier kollisionsfrei und nicht, dass möglichst viele Fahrzeuge fahren.
 
-??? note "Didaktische Hinweise"
+??? tip "Didaktische Hinweise"
 
     Die Beispiele werden vorab anhand der tatsächlich verwendeten Kreuzung geprüft. Mindestens eine Kombination soll eine verbreitete Fehlvorstellung aufgreifen, etwa „Alle Ampeln rot ist unsicher, weil niemand fährt“.
 
     Falls die gewählte Kreuzung keine zwei konfliktfreien Fahrwege enthält, wird das Beispiel mit zwei sicheren Grünfreigaben erst in der passenden erweiterten Situation behandelt.
 
-??? bug "Differenzierung"
+??? question "Differenzierung"
 
     === "Vereinfachungen"
 
@@ -312,13 +311,11 @@ Die gemeinsamen Ziele entsprechen denen des [enaktiven Einstiegs](baustein1-enak
     - Tafel, Visualizer oder schrittweise aufgedeckte Folien
     - Papier und Schreibzeug
 
-??? info "Sozialformen"
+??? info "Organisation"
 
-    Lehrpersoneninput mit gelenkten Ergänzungen aus dem Plenum; kurze Einzelarbeit.
+    **Sozialform:** Lehrpersoneninput mit gelenkten Ergänzungen aus dem Plenum; kurze Einzelarbeit.
 
-??? tip "benötigte Zeit"
-
-    **15 Minuten**
+    **Benötigte Zeit:** **15 Minuten**
 
 ??? abstract "Verlaufsplanung"
 
@@ -359,13 +356,13 @@ Die gemeinsamen Ziele entsprechen denen des [enaktiven Einstiegs](baustein1-enak
 
     Die Lehrperson ergänzt an ausgewählten Zeilen die Bewertung sicher / unsicher für die tatsächlich verwendete Kreuzung. Die Klasse begründet die Zuordnung.
 
-??? note "Didaktische Hinweise"
+??? tip "Didaktische Hinweise"
 
     Die Kombinationen und ihre Sicherheitsbewertung sind zwei getrennte Schritte. Zuerst werden mögliche Zustände erfasst, danach werden diese anhand der Fahrwege beurteilt.
 
     Es werden die Wörter Rot und Grün verwendet. Die Codierung mit `0` und `1` sowie Operatoren bleiben dem gemeinsamen Unterricht vorbehalten. Die Wörter wahr und falsch sind aus Phase 1 bekannt; hier wird weiterhin mit Rot und Grün gearbeitet.
 
-??? bug "Differenzierung"
+??? question "Differenzierung"
 
     === "Vereinfachungen"
 
@@ -389,13 +386,11 @@ Die gemeinsamen Ziele entsprechen denen des [enaktiven Einstiegs](baustein1-enak
     - Kreuzungsbild aus Phase 3
     - Papier und Schreibzeug
 
-??? info "Sozialformen"
+??? info "Organisation"
 
-    Einzelarbeit und gemeinsame, durch die Lehrperson geleitete Auswertung im Plenum.
+    **Sozialform:** Einzelarbeit und gemeinsame, durch die Lehrperson geleitete Auswertung im Plenum.
 
-??? tip "benötigte Zeit"
-
-    **15 Minuten**
+    **Benötigte Zeit:** **15 Minuten**
 
 ??? abstract "Verlaufsplanung"
 
