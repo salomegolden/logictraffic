@@ -6,11 +6,11 @@ Ein zentrales Lernziel bei LogicTraffic ist der Wechsel zwischen verschiedenen D
 
 | Darstellung | Beispiel | Lernchance |
 | --- | --- | --- |
-| enaktiv | Kreuzung mit Autos oder Karten nachspielen | Sicherheit körperlich und anschaulich erfahren |
-| ikonisch | Kreuzung im Tool betrachten | Spuren, Wege und mögliche Kollisionen erkennen |
+| enaktiv | Kreuzung mit Autos oder Karten nachspielen | Sicherheit physisch und anschaulich erfahren |
+| ikonisch | Kreuzung in LogicTraffic betrachten | Spuren, Wege und mögliche Kollisionen erkennen |
 | verbal | "A darf fahren, wenn B rot ist" | Bedingungen in Alltagssprache formulieren |
 | tabellarisch | Wahrheitstabelle ausfüllen | alle Fälle systematisch erfassen |
-| symbolisch | `A ∧ ¬B` | Regeln präzise und knapp ausdrücken |
+| symbolisch | `A ∧ ¬B` | Bedingungen präzise und knapp ausdrücken |
 
 ## Warum der Wechsel wichtig ist
 
@@ -21,6 +21,6 @@ Viele Schwierigkeiten entstehen nicht, weil einzelne Begriffe fehlen, sondern we
 | Beobachtung | Möglicher Impuls |
 | --- | --- |
 | Lernende verstehen die Formel isoliert nicht | Zurück zur Kreuzung: Welche Spur ist gemeint? |
-| Eine Tabellenzeile wirkt abstrakt | Ampeln im Tool passend einstellen und die Zeile markieren |
+| Eine Tabellenzeile wirkt abstrakt | Ampeln in LogicTraffic passend einstellen und die Zeile in der Wahrheitstabelle markieren |
 | Die Sprache bleibt ungenau | Satzbausteine anbieten: "Die Situation ist sicher, wenn ..." |
 | Formeln werden geraten | zuerst sichere Zeilen sammeln, dann Formel ableiten |

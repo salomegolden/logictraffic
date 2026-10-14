@@ -10,11 +10,11 @@ In der klassischen Aussagenlogik ist jede Aussage entweder wahr ($1$) oder falsc
 
 | Element in LogicTraffic | Logische Bedeutung | Verkehrsbedeutung im Unterricht |
 | ---- | ---- | ---- |
-| Spur $A, B, C, \dots$ | Aussagenvariable | Repräsentiert die jeweilige Fahrspur bzw. deren Signalgeber. |
+| Spur $A, B, C, \dots$ | Variable | Repräsentiert die jeweilige Fahrspur bzw. deren Ampel. |
 | Wahrheitswert $1$ (true) | Aussage ist wahr | Grüne Ampel: Fahrzeuge dürfen fahren (Freie Fahrt). |
 | Wahrheitswert $0$ (false) | Aussage ist falsch | Rote Ampel: Fahrzeuge müssen anhalten (Halt). |
 | Tabellenzeile (Belegung) | Variablenbelegung | Ein konkreter Gesamtzustand aller Ampeln an der Kreuzung. |
-| Spalte sicher | Gesamtwahrheitswert $f(\beta)$ | $1 =$ kollisionsfrei (sicher) $0 =$ Kollisionsgefahr (Crash). |
+| Spalte sicher | Gesamtwahrheitswert $f(\beta)$ (Was ist damit gemeint? Woher kommt $f(\beta)$ und was bedeuten f und $\beta?$ | $1 =$ kollisionsfrei (sicher) $0 =$ Kollisionsgefahr (Crash). |
 
 ??? warning "Didaktische Modellreduktion"
 
@@ -24,9 +24,9 @@ In der klassischen Aussagenlogik ist jede Aussage entweder wahr ($1$) oder falsc
 
 Für jede Fahrspur gibt es genau zwei Möglichkeiten: Rot ($0$) oder Grün ($1$). Bei $n$ Fahrspuren ergeben sich daher mathematisch genau $2^n$ verschiedene Ampelkombinationen [^1], [^6]:
 
-* 2 Spuren ($n=2$): $2^2 = 4$ Kombinationen.
-* 3 Spuren ($n=3$): $2^3 = 8$ Kombinationen.
-* 5 Spuren ($n=5$): $2^5 = 32$ Kombinationen.
+* 2 Spuren ($n=2$): $2 * 2$ = $2^2 = 4$ Kombinationen.
+* 3 Spuren ($n=3$): $2 * 2 * 2$ = $2^3 = 8$ Kombinationen.
+* 5 Spuren ($n=5$): $2 * 2 * 2 * 2 * 2$ = $2^5 = 32$ Kombinationen.
 
 ### Synchrone Repräsentation (Darstellungswechsel)
 
@@ -45,7 +45,7 @@ LogicTraffic verknüpft die visuelle Simulation und die symbolische Tabelle sync
 | Visualisierung | Lernende sehen Ampelzustände und Sicherheitsstatus nebeneinander. |
 | Systematisierung | Keine Kombination wird vergessen. |
 | Interaktion | Klicks auf Ampeln oder Tabellenwerte verändern die Situation. |
-| Formelbrücke | Aus sicheren Zeilen kann eine boolesche Formel entstehen. |
+| Formelbrücke (Was soll das sein?) | Aus sicheren Zeilen kann eine boolesche Formel entstehen. |
 
 ## Typische Situationen & Sicherheitsbewertung
 
@@ -74,7 +74,7 @@ LogicTraffic verknüpft die visuelle Simulation und die symbolische Tabelle sync
 ??? warning "Häufiges Fehlkonzept bei Zustand $00$ (Alle Rot)"
 
     * Schüleraussage: „Wenn alle Rot haben ($00$), ist das unsicher ($0$), weil nichts vorangeht und Stau entsteht!“    
-    * Klärung im Unterricht: Die Spalte sicher prüft ausschliesslich die Unfallfreiheit, nicht den Verkehrsfluss oder die Effizienz der Ampel. Wenn alle Fahrzeuge stehen, kann physikalisch keine Kollision geschehen.
+    * Klärung im Unterricht: Die Spalte sicher prüft ausschliesslich die Unfallfreiheit, nicht den Verkehrsfluss oder die Effizienz der Ampel. Wenn alle Fahrzeuge stehen, kann physikalisch keine Kollision geschehen. Hier ggf. der Hinweis, dass LogicTraffic durch "nicht optimal" bzw. den kritischen Polizisten darauf hinweist. :-)
 
 ### Die 3-Spuren-Kreuzung (Situation 3, $n=3 \rightarrow 8$ Zeilen)
 
@@ -106,13 +106,13 @@ Spur $A$ und Spur $B$ verlaufen parallel (vertragen sich), während Spur $C$ als
 
 ## Das Polizisten-Feedback als formative Diagnose
 
-Das Polizisten-Icon in LogicTraffic gibt unmittelbare Rückmeldung über die Vollständigkeit und Korrektheit der Sicherheitsbewertung in der Tabelle [^1]:
+Das Polizisten-Icon in LogicTraffic gibt unmittelbare Rückmeldung über die Korrektheit der Sicherheitsbewertung der aktuellen Tabellezeile [^1]:
 
 | Status / Feedback | Polizist | Fachliche Bedeutung | Verkehrssemantik in LogicTraffic |
 | :--- | :---: | :--- | :--- |
-| **Unsicher**<br>*(Kollision möglich)* | ![Polizist Unsicher](https://github.com/salomegolden/logictraffic/releases/download/images-v1/lt_polizist_unsicher.png){ width="50" } | **Kollisionsgefahr:** Mindestens eine gefährliche Ampelkombination wurde fälschlicherweise als sicher (`1`) markiert. | Autos kollidieren im Kreuzungsbereich (Crash-Gefahr). |
-| **Nicht ideal**<br>*(Zu vorsichtig)* | ![Polizist Safe](https://github.com/salomegolden/logictraffic/releases/download/images-v1/lt_polizist_nicht_ideal.png){ width="50" } | **Kollisionsfrei, aber restriktiv:** Keine Unfälle möglich, aber gefahrlose Kombinationen wurden unnötig auf `0` gesperrt. | Sicher, aber ineffizient. |
-| **Optimal**<br>*(Perfekt gelöst)* | ![Polizist Optimal](https://github.com/salomegolden/logictraffic/releases/download/images-v1/lt_polizist_sicher.png){ width="50" } | **Sicher & vollständig:** Exakte Übereinstimmung; alle sicheren Zustände sind `1`, alle gefährlichen `0`. | Maximaler Verkehrsfluss bei 100% Kollisionsfreiheit. |
+| **Unsicher**<br>*(Kollision möglich)* | ![Polizist Unsicher](https://github.com/salomegolden/logictraffic/releases/download/images-v1/lt_polizist_unsicher.png){ width="50" } | **Kollisionsgefahr:** Die aktuelle Ampelkombination wurde fälschlicherweise als sicher (`1`) markiert. | Autos kollidieren im Kreuzungsbereich (Crash-Gefahr). |
+| **Nicht ideal**<br>*(Zu vorsichtig)* | ![Polizist Safe](https://github.com/salomegolden/logictraffic/releases/download/images-v1/lt_polizist_nicht_ideal.png){ width="50" } | **Kollisionsfrei, aber restriktiv:** Keine Unfälle möglich, aber die aktuelle Kombinationen wurden unnötig auf `0` gesperrt. | Sicher, aber ineffizient. |
+| **Optimal**<br>*(Perfekt gelöst)* | ![Polizist Optimal](https://github.com/salomegolden/logictraffic/releases/download/images-v1/lt_polizist_sicher.png){ width="50" } | **Sicher & vollständig:** Die aktuelle Zeile ist sicher | TODO! |
 
 
 [^1]: Arnold, R., & Hartmann, W. (2007). LogicTraffic - Logik in der Allgemeinbildung. Informatik-Spektrum, 30(1), 19-26. https://doi.org/10.1007/s00287-006-0123-7

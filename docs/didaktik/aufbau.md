@@ -90,7 +90,7 @@ Die Lernenden übertragen die bekannte Verkehrssituation in [LogicTraffic](https
 
 **Leitfrage: Wie wissen wir, dass wirklich alle Fälle erfasst sind?**
 
-Aus einer Ampelstellung wird eine Tabellenzeile, aus allen möglichen Stellungen eine vollständige Wahrheitstabelle. Mit **3a** lesen die Lernenden die Tabelle für zwei Variablen, mit **3b** entwickeln sie eine Systematik für drei Variablen. **3c** fordert dazu auf, fehlende, doppelte und falsch bewertete Zeilen zu finden. Tabellen werden möglichst zuerst auf Papier erstellt und anschliessend im Tool kontrolliert.
+Aus einer Ampelstellung wird eine Tabellenzeile, aus allen möglichen Ampelstellungen eine vollständige Wahrheitstabelle. Mit **3a** lesen die Lernenden die Tabelle für zwei Variablen, mit **3b** entwickeln sie eine Systematik für drei Variablen. **3c** fordert dazu auf, fehlende, doppelte und falsch bewertete Zeilen zu finden. Tabellen werden möglichst zuerst auf Papier erstellt und anschliessend im Tool kontrolliert.
 
 **Ergebnis:** eine vollständige und begründet bewertete Tabelle sowie die Einsicht, dass bei $n$ Variablen genau $2^n$ Belegungen entstehen.
 
@@ -134,7 +134,7 @@ Bei **zwei sich kreuzenden Spuren** beschreiben Handlung, Sprache, Tabelle und F
 | **Sprachliche Regel** | A und B dürfen nicht gleichzeitig Grün haben. |
 | **Vollständige Tabelle** | Von den vier Belegungen sind `00`, `01` und `10` sicher; `11` ist unsicher. |
 | **Logische Formel** | $\neg(A \land B)$ ist genau für die drei sicheren Belegungen wahr. |
-| **Vergleich in der Vertiefung** | $\neg A \lor \neg B$ und $A \rightarrow \neg B$ beschreiben dieselbe Funktion. |
+| **Vergleich in der Vertiefung** | $\neg A \lor \neg B$ und $A \rightarrow \neg B$ beschreiben dieselbe Funktion, diese beiden Formeln sind also äquivalent. |
 
 Die [Wahrheitstabelle zur Zwei-Spuren-Kreuzung](../fachlicher-hintergrund/wahrheitstabellen.md) und die [Erläuterungen zu den Operatoren](../fachlicher-hintergrund/boolesche-algebra.md) führen dieses Beispiel fachlich aus.
 
@@ -195,10 +195,10 @@ Die Übergänge zwischen den Bausteinen eignen sich für kurze formative Lernkon
 
 | Zeitpunkt | Kurzer Prüfimpuls | Bezug zu den Lernzielen |
 | --- | --- | --- |
-| Nach Baustein 1 (beide Varianten) | „Zeige eine sichere und eine unsichere Stellung und begründe den Unterschied.“ | [LZ1a: Verkehrssituationen deuten](lernziele.md#lz1a) |
+| Nach Baustein 1 (beide Varianten) | „Zeige eine sichere und eine unsichere Ampelstellung und begründe den Unterschied.“ | [LZ1a: Verkehrssituationen deuten](lernziele.md#lz1a) |
 | Nach Baustein 2 | „Stelle diese Tabellenzeile an der Kreuzung ein. Was bedeutet jede `1`?“ | [LZ1a: Darstellungen verbinden](lernziele.md#lz1a) |
 | Nach Baustein 3 | „Erstelle eine vollständige Tabelle. Wo fehlt in der Vergleichstabelle eine Belegung, wo ist eine doppelt und wo ist die Bewertung falsch?“ | [LZ1b: Alle Zustände erfassen](lernziele.md#lz1b) und [LZ3a: Tabellenfehler finden](lernziele.md#lz3a) |
-| Nach dem Basisteil von Baustein 4 | „Lies deine Formel in Worten und zeige, wie du sie mit der vollständigen Tabelle geprüft hast.“ | [LZ2: Regeln in Formeln übersetzen](lernziele.md#lernziel-2-boolesche-formeln-aus-textbeschreibungen-ableiten) und [LZ3b: Formeln prüfen](lernziele.md#lz3b) |
+| Nach dem Basisteil von Baustein 4 | „Erläutere deine Formel natürlichsprachlich und zeige, wie du sie mit der vollständigen Tabelle geprüft hast.“ | [LZ2: Regeln in Formeln übersetzen](lernziele.md#lernziel-2-boolesche-formeln-aus-textbeschreibungen-ableiten) und [LZ3b: Formeln prüfen](lernziele.md#lz3b) |
 | Nach der Vertiefung | „Warum sind diese Formeln gleichwertig, und welche lässt sich leichter erklären?“ | [LZ4: Gleichwertige Formeln und Normalformen vergleichen](lernziele.md#lernziel-4-normalformen-und-minimierung-boolescher-ausdruecke) |
 
 Für die weitere Planung: [Beurteilungsaufgaben und Kriterien](../unterricht/beurteilung.md), [typische Lernschwierigkeiten](lernschwierigkeiten.md) und [alle Materialien zum Herunterladen](../anhang/downloads.md).

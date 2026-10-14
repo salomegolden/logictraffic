@@ -16,7 +16,7 @@ Im Formeleditor von LogicTraffic stehen ausschliesslich die folgenden Symbole un
 
 | Symbol | Bezeichnung | Verkehrsbedeutung in LogicTraffic |
 | --- | --- | --- |
-| $A, B, C, D, E$ | Fahrspuren (Variablen) | Repräsentieren die einzelnen Spuren bzw. Signalgeber der Kreuzung. |
+| $A, B, C, D, E$ | Variablen (Fahrspuren) | Repräsentieren die einzelnen Spuren bzw. Signalgeber der Kreuzung. |
 | $1$ | Wahrheitswert 1 (true) | Grün: Freie Fahrt für die entsprechende Spur. |
 | $0$ | Wahrheitswert 0 (false) | Rot: Haltegebot für die entsprechende Spur. |
 | $\neg$ | Negation (NICHT) | $\neg A$ bedeutet: „Spur $A$ hat Rot (kein Grün)“. |

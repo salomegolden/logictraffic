@@ -26,7 +26,7 @@ Lernende glauben häufig, dass eine Aussage der Form `A -> B` nur wahr ist, wenn
 | 0 | 1 | 1 |
 | 0 | 0 | 1 |
 
-Hilfreicher Merksatz: Eine Implikation beschreibt keine Kausalität, sondern eine logische Bedingung.
+Auf den Punkt gebracht: Eine Implikation beschreibt keine Kausalität, sondern eine logische Bedingung.
 
 ## Fehlvorstellung: ODER als exklusives Oder
 
@@ -39,7 +39,7 @@ Im Alltag meint "oder" oft: entweder das eine oder das andere. In der Aussagenlo
 | 0 | 1 | 1 |
 | 0 | 0 | 0 |
 
-Hilfreicher Merksatz: OR bedeutet mindestens eine Bedingung, nicht genau eine Bedingung.
+Auf den Punkt gebracht: OR bedeutet mindestens eine Bedingung, nicht genau eine Bedingung.
 
 ## Fehlvorstellung: Unvollständige Fälle
 

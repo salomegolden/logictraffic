@@ -2,11 +2,11 @@
 
 ## Boolesche Logik anschaulich, handelnd und alltagsnah vermitteln
 
-LogicTraffic nutzt Verkehrskreuzungen, Ampeln und Fahrtrichtungen, um einen anschaulichen Zugang zur booleschen Aussagenlogik zu schaffen.
+LogicTraffic nutzt Verkehrskreuzungen mit Ampeln und Fahrtrichtungen, um einen anschaulichen Zugang zur booleschen Aussagenlogik zu schaffen.
 
 Die Lernenden untersuchen zunächst konkrete Verkehrssituationen, beschreiben sichere Ampelschaltungen und übertragen ihre Erkenntnisse anschliessend in Wahrheitstabellen und boolesche Formeln.
 
-Die ganze Unterrichtsreihe basiert auf der online Lernumgebung LogicTraffic (1). 
+Die ganze Unterrichtsreihe basiert auf der online Lernumgebung LogicTraffic (1).
 { .annotate }
 
 1.      :link: Link zur Webseite: [:vertical_traffic_light: LogicTraffic](https://logictraffic.ch)
@@ -19,17 +19,17 @@ Die Unterrichtsmaterialien folgen einer schrittweisen Progression:
 
     Die Lernenden stellen Verkehrssituationen mit Fahrzeugen, Kreuzungsfeldern und drehbaren Ampeln nach.
 
-=== ":octicons-browser-24: Darstellen:"  
+=== ":octicons-browser-24: Darstellen:"
 
     Die Situationen werden in der digitalen Lernumgebung LogicTraffic untersucht.
 
-=== ":material-table-edit: Strukturieren:"  
+=== ":material-table-edit: Strukturieren:"
 
     Alle möglichen Ampelzustände werden systematisch in einer Wahrheitstabelle erfasst und hinsichtlich ihrer Sicherheit beurteilt.
 
-=== ":material-invoice-text-edit-outline: Formalisieren:"  
+=== ":material-invoice-text-edit-outline: Formalisieren:"
 
-    Sichere Verkehrssituationen werden mithilfe boolescher Operatoren beschrieben.
+    Sichere Verkehrssituationen werden mithilfe von aussagenlogischen Formeln beschrieben.
 
 ## :material-package-variant-closed: Was bietet diese Webseite?
 
@@ -65,12 +65,12 @@ Die Unterrichtsmaterialien folgen einer schrittweisen Progression:
 
 Die Materialien richten sich an Informatiklehrpersonen gymnasialer Klassen der **8.–9. Schulstufe**. Die [Lernziele und Anforderungen](didaktik/lernziele.md) sind auf einen Einstieg ohne Vorkenntnisse in Aussagenlogik abgestimmt. Für spätere Jahrgänge kann die Einheit ebenfalls als Einführung oder Wiederholung eingesetzt werden.
 
-Sie eignen sich für Klassen,
+Diese Materialien eignen sich für Klassen,
 
 - die noch keine oder nur geringe Vorkenntnisse in Aussagenlogik besitzen,
-- die Wahrheitstabellen und boolesche Operatoren kennenlernen sollen,
-- die logisches Modellieren an einem alltagsnahen Beispiel üben sollen,
-- oder die den Übergang von einer konkreten Situation zu einer formalen
-  Darstellung nachvollziehen sollen.
+- zum Wahrheitstabellen und boolesche Operatoren Kennenlernen,
+- zum logisches Modellieren an einem alltagsnahen Beispiel Üben,
+- oder zum den Übergang von einer konkreten Situation zu einer formalen
+  Darstellung Nachzuvollziehen.
 
 Programmierkenntnisse sind nicht erforderlich.

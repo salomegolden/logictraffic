@@ -75,7 +75,7 @@ Die Lernenden erkennen fehlende, doppelte und falsch bewertete Belegungen. Sie b
 
 **Erarbeitung:** [Baustein 3 – Lernziele](../unterricht/baustein3-wahrheitstabellen.md#lernziele), besonders die Fehleranalyse mit 3c.
 
-### LZ3b · Formeln an allen Belegungen prüfen {#lz3b}
+### LZ3b · Formeln mit allen Belegungen prüfen {#lz3b}
 
 Die Lernenden vergleichen die Ausgabewerte einer Formel mit der unabhängig begründeten Sicherheitsbewertung aller Tabellenzeilen. Sie finden sowohl gefährliche Belegungen, die fälschlich zugelassen werden, als auch sichere Belegungen, die die Formel unnötig ausschliesst. Ein Gegenbeispiel widerlegt eine Formel; einzelne erfolgreiche Tests allein bestätigen noch nicht ihre vollständige Korrektheit.
 
@@ -85,13 +85,13 @@ Die Lernenden vergleichen die Ausgabewerte einer Formel mit der unabhängig begr
 
 ## LZ4: Gleichwertige Formeln und Normalformen vergleichen {#lernziel-4-normalformen-und-minimierung-boolescher-ausdruecke}
 
-**Optionales Vertiefungsziel:** Die Lernenden können an kleinen Beispielen erklären, weshalb verschieden aufgebaute Formeln dieselbe Sicherheitsfunktion beschreiben. Sie unterscheiden DNF und KNF, verfolgen den Weg von Tabellenzeilen zu kanonischen Formen und beurteilen einfache Vereinfachungen.
+**Optionales Vertiefungsziel:** Die Lernenden können an kleinen Beispielen erklären, weshalb verschiedene Formeln dieselbe Verkehrssituation sicher machen können. Sie unterscheiden DNF und KNF, verfolgen den Weg von Tabellenzeilen zu kanonischen Formen und beurteilen einfache Vereinfachungen.
 
 | Teilkompetenz | Beobachtbarer Nachweis | Material |
 | --- | --- | --- |
 | Äquivalenz überprüfen | Zwei Formeln ergeben bei jeder Belegung denselben Wahrheitswert; eine einfache De-Morgan-Umformung wird erklärt. | 4e |
-| DNF und KNF unterscheiden | Die Lernenden erkennen eine ODER-Verknüpfung von UND-Termen bzw. eine UND-Verknüpfung von ODER-Klauseln. | 4e |
-| Kanonische Formen nachvollziehen | Eine sichere Zeile wird einem vollständigen UND-Term der KDNF zugeordnet; eine unsichere Zeile einer ODER-Klausel der KKNF, die genau diese Belegung ausschliesst. | 4f |
+| DNF und KNF unterscheiden | Die Lernenden erkennen eine ODER-Verknüpfung von UND-Klauseln bzw. eine UND-Verknüpfung von ODER-Klauseln. | 4e |
+| Kanonische Formen nachvollziehen | Eine sichere Zeile wird einer vollständigen UND-Klausel der KDNF zugeordnet; eine unsichere Zeile einer ODER-Klausel der KKNF, die genau diese Belegung ausschliesst. | 4f |
 | Darstellungen begründet vergleichen | Die Lernenden vergleichen gleichwertige Formeln nach Lesbarkeit, Länge und Bezug zur Kreuzung; einfache Vereinfachungen werden auf Äquivalenz geprüft. | 4g |
 
 **Erarbeitung:** [Baustein 4 – optionale Vertiefung](../unterricht/baustein4-boolesche-algebra.md#optionale-vertiefung). [Fachlicher Hintergrund: Normalformen](../fachlicher-hintergrund/normalformen.md).
@@ -119,7 +119,7 @@ Die [Beurteilungsaufgaben](../unterricht/beurteilung.md) greifen diese Nachweise
 
 ## Lehrplanbezug und Einordnung
 
-Für die 8.–9. Klasse dient der **Lehrplan 21** als Bezug zur obligatorischen Schulzeit; der **Rahmenlehrplan für gymnasiale Maturitätsschulen** beschreibt den weiterführenden Bildungsrahmen. Die konkrete Zuordnung zu Jahrgang und Fach richtet sich nach dem kantonalen bzw. schulischen Lehrplan. Die hier gewählte Progression ist eine didaktische Ausgestaltung für diese Unterrichtseinheit und keine schweizweit verbindliche Stoffverteilung für die 8.–9. Klasse.[^edk]
+Für die 8.–9. Klasse dient der [**Lehrplan 21**](http://LinkDarauf?) als Bezug zur obligatorischen Schulzeit; der [**Rahmenlehrplan für gymnasiale Maturitätsschulen**](http://LinkDarauf?) beschreibt den weiterführenden Bildungsrahmen. Die konkrete Zuordnung zu Jahrgang und Fach richtet sich nach dem kantonalen bzw. schulischen Lehrplan. Die hier gewählte Progression ist eine didaktische Ausgestaltung für diese Unterrichtseinheit und keine schweizweit verbindliche Stoffverteilung für die 8.–9. Klasse.[^edk]
 
 | Bezug | Beitrag dieser Unterrichtseinheit |
 | --- | --- |
