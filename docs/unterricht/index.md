@@ -24,8 +24,6 @@ Im weiteren Verlauf wechseln die Lernenden von der konkreten Verkehrssituation z
 
 Die Unterrichtseinheit folgt einer Progression vom konkreten Handeln zur formalen Darstellung:
 
-![Darstellungswechsel in der Unterrichtseinheit (generiert mit GPT5.6 (OpenAI))](https://github.com/salomegolden/logictraffic/releases/download/images-v1/entwicklung_darstellungswechsel.png)
-
 ??? abstract "Informationen zur Darstellung auf der Webseite"
 
     Jede Einheit ist in klar erkennbare Infokästen gegliedert. Diese zeigen Ziele, Material, Sozialformen, Zeit, Ablauf, didaktische Hinweise und Differenzierungsmöglichkeiten auf einen Blick. Hier eine kurze Übersicht zur Orientierung: 
