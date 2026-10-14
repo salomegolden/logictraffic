@@ -1,5 +1,10 @@
 # Baustein 1 – Enaktiver Einstieg
 
+??? example "Lehrpersonenkommentar als Download"
+
+    [Lehrpersonenkommentar Baustein 1 - enaktiver Einstieg als Download](https://canva.link/4rf0bebnvekm9aj)
+
+
 In diesem Baustein setzen sich die Lernenden zunächst handelnd mit einer Verkehrssituation auseinander. Sie legen Fahrzeuge und Fahrtrichtungen auf einem Kreuzungsfeld aus, steuern die einzelnen Spuren mit Ampelkarten und untersuchen, welche Ampelkombinationen sicher sind.
 
 Ausgehend von einzelnen konkreten Situationen entsteht schrittweise das Bedürfnis nach einer eindeutigen und vollständigen Darstellung aller möglichen Zustände. Der Baustein bereitet damit den Übergang von der enaktiven Darstellung zur Wahrheitstabelle vor.

@@ -1,5 +1,10 @@
 # Baustein 2 – LogicTraffic kennenlernen
 
+??? example "Lehrpersonenkommentar als Download"
+
+    [Lehrpersonenkommentar Baustein 2 - Einführung LogicTraffic](https://canva.link/mos333l78usz4xj)
+
+
 In diesem Baustein übertragen die Lernenden die bereits bekannte Idee einer sicheren Verkehrskreuzung in die digitale Lernumgebung **LogicTraffic**. Sie lernen die Oberfläche kennen und untersuchen schrittweise, wie Fahrspuren, Ampelzustände, Variablen, die Werte `0` und `1` sowie die Wahrheitstabelle miteinander zusammenhängen.
 
 Im Zentrum steht noch **nicht** das systematische Erstellen von Wahrheitstabellen und auch noch **nicht** das Arbeiten mit logischen Formeln. Entscheidend ist zunächst der Darstellungswechsel: Die Lernenden sollen verstehen, wie eine konkrete Verkehrssituation in LogicTraffic digital und symbolisch dargestellt wird.

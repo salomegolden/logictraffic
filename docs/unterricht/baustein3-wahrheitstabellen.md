@@ -1,5 +1,9 @@
 # Baustein 3 – Wahrheitstabellen
 
+??? example "Lehrpersonenkommentar als Download"
+
+    [Lehrpersonenkommentar Baustein 3 - Wahrheitstabellen](https://canva.link/dwq8vsjij84id4b)
+
 In diesem Baustein lernen die Lernenden, Wahrheitstabellen nicht nur in LogicTraffic zu lesen, sondern selbstständig und systematisch aufzubauen.
 
 Ausgangspunkt ist eine einfache Kreuzung mit zwei Fahrspuren. Die Lernenden klären zunächst, was eine Wahrheitstabelle überhaupt darstellt und wie die Werte `0` und `1` in den Variablenspalten sowie in der Spalte `sicher` zu lesen sind. Anschliessend entwickeln sie für drei Variablen ein systematisches Verfahren, mit dem alle möglichen Belegungen vollständig und ohne Wiederholungen erzeugt werden können.

@@ -2,7 +2,7 @@
 
 ??? example "Lehrpersonenkommentar als Download"
 
-    [Lehrpersonenkommentar Modul 1 - Lehrpersonenzentrierter Einstieg als Download](https://canva.link/hh95uvquaybbm27)
+    [Lehrpersonenkommentar Baustein 1 - Lehrpersonenzentrierter Einstieg als Download](https://canva.link/hh95uvquaybbm27)
 
 Die Lernenden untersuchen anhand projizierter Kreuzungsbilder, welche Ampelstellungen sicher sind. Die Lehrperson erläutert die Fahrwege, modelliert die Beurteilung einzelner Kombinationen und zeigt eine systematische Vorgehensweise zum Erfassen aller Möglichkeiten. Kurze Verständnisfragen und angeleitete schriftliche Aufgaben begleiten den Input.
 
