@@ -13,6 +13,6 @@ Die Verkehrskreuzung macht logische Abhängigkeiten sichtbar und überprüfbar. 
 | --- | --- |
 | Verkehrskreuzung | Was geschieht in dieser Situation? |
 | Wahrheitstabelle | Welche Kombinationen sind möglich und sicher? |
-| Boolesche Formel | Wie lässt sich die Sicherheitsbedingung formal ausdrücken? |
+| Aussagenlogische Formel | Wie lässt sich die Sicherheitsbedingung formal ausdrücken? |
 
 Mehr zum Wechsel zwischen diesen Darstellungen findet sich im Abschnitt [Darstellungswechsel](darstellungswechsel.md).

@@ -8,7 +8,7 @@ Für die **8.–9. Klasse am Gymnasium** beziehen sich die gemeinsamen Leistungs
 
 | Form | Zweck | Geeignet für |
 | --- | --- | --- |
-| Formative Beurteilung | Lernstand erkennen, Rückmeldung geben, nächste Schritte planen | kurze Diagnose, Partnergespräch, Lernjournal, Tool-Demonstration |
+| Formative Beurteilung | Lernstand erkennen, Rückmeldung geben, nächste Schritte planen | kurze Diagnose, Partnergespräch, Lernjournal, Demonstration in LogicTraffic |
 | Summative Beurteilung | erreichte Kompetenzen nachweisen und bewerten | Test, Abgabe, mündliche Erklärung, kombinierte Anwendung |
 
 # Formative Beurteilungsaufgaben
@@ -42,7 +42,7 @@ Formative Aufgaben müssen nicht benotet werden. Hilfreich ist eine kurze Einord
 | Werte `0` und `1` werden verwechselt | Noch einmal mit Ampelkarten oder Simulation arbeiten |
 | Nur einzelne Fälle werden geprüft | Wahrheitstabelle als systematische Liste aller Fälle betonen |
 | Formel wird nicht sprachlich verstanden | Formel in kurze Satzbausteine zerlegen |
-| OR wird exklusiv verstanden | Beispiele mit `A = 1` und `B = 1` gezielt prüfen |
+| ODER wird exklusiv verstanden | Beispiele mit `A = 1` und `B = 1` gezielt prüfen |
 
 # Summative Beurteilungsaufgaben
 

@@ -4,6 +4,14 @@
 
 ## A
 
+--8<-- [start:aussagenlogische_formel]
+<span id="aussagenlogische-formel"></span>
+
+??? info "Aussagenlogische Formel"
+    * **Fachlich:** Formale Darstellung einer Regel mit Aussagenvariablen und logischen Operatoren (Junktoren).
+    * **In LogicTraffic:** Beschreibt kompakt eine Sicherheitsregel, zum Beispiel $\neg(A \land B)$: Zwei kreuzende Spuren dürfen nicht gleichzeitig Grün haben.
+--8<-- [end:aussagenlogische_formel]
+
 --8<-- [start:absorption]
 <span id="absorption"></span>
 
@@ -37,6 +45,14 @@
 --8<-- [end:aussagenvariable]
 
 ## B
+
+--8<-- [start:boolesche_funktion]
+<span id="boolesche-funktion"></span>
+
+??? info "Boolesche Funktion"
+    * **Fachlich:** Ordnet jeder möglichen Belegung von Aussagenvariablen genau einen Ausgabewert zu.
+    * **In LogicTraffic:** Ordnet jeder Ampelkombination den Wert `1` (sicher) oder `0` (unsicher) zu. Den Begriff verwenden, wenn diese Zuordnung als fachliche Ebene erklärt wird.
+--8<-- [end:boolesche_funktion]
 
 --8<-- [start:boolesche_algebra]
 <span id="boolesche-algebra"></span>
@@ -105,7 +121,7 @@
 
 ??? info "EIS-Prinzip & Virtuell-enaktive Repräsentation"
     * **Didaktisch:** Nach Jerome Bruner erfolgt Wissenserwerb über drei Ebenen: *enaktiv* (handelnd), *ikonisch* (bildhaft) und *symbolisch* (formalsprachlich). Für die Informatikdidaktik erweitern Hartmann & Arnold dies um den *virtuell-enaktiven Modus*.
-    * **Im LogicTraffic-Unterricht:** Lernende erproben Kreuzungen zuerst haptisch mit Modellautos (*enaktiv*), schalten anschliessend virtuell Ampeln per Klick mit direkter Kollisionsüberprüfung (*virtuell-enaktiv*), analysieren statische Verkehrsbilder und Tabellen (*ikonisch*) und leiten Boolesche Formeln ab (*symbolisch*).
+    * **Im LogicTraffic-Unterricht:** Lernende erproben Kreuzungen zuerst haptisch mit Modellautos (*enaktiv*), schalten anschliessend virtuell Ampeln per Klick mit direkter Kollisionsüberprüfung (*virtuell-enaktiv*), analysieren statische Verkehrsbilder und Tabellen (*ikonisch*) und leiten aussagenlogische Formeln ab (*symbolisch*).
 --8<-- [end:eis_prinzip]
 
 --8<-- [start:enaktiv]
@@ -241,21 +257,40 @@
 <span id="polizisten-status"></span>
 
 ??? info "Polizisten-Status (Feedback in LogicTraffic)"
-    * **Fachlich:** Semantische Korrektheitsprüfung des logischen Gesamtausdrucks gegenüber der modellierten Sicherheitsmatrix.
-    * **In LogicTraffic:** Visuelle Rückmeldung über das Polizisten-Icon in drei Stufen:
-        * **Not safe (Stopp-Geste):** Die Formel erlaubt mindestens eine Kollision (eine unsichere Konfiguration ist als $1$ deklariert).
-        * **Safe (nachdenklich):** Keine Kollision möglich, aber gefahrlose Ampelkonstellationen werden unnötig blockiert (mindestens eine sichere Konfiguration hat den Wert $0$).
-        * **Optimal (salutierend):** Exakte Übereinstimmung; alle sicheren Zustände sind freigegeben ($1$) und alle unsicheren gesperrt ($0$).
+    * **Fachlich**: LogicTraffic unterscheidet zwischen der Sicherheitsbeurteilung einer einzelnen Ampelstellung und der Gesamtbewertung der Freigaben für alle möglichen Ampelstellungen.
+    * **In LogicTraffic**: Der Polizist gibt Rückmeldung zur aktuell ausgewählten Ampelstellung: Ist bei dieser Belegung eine Kollision möglich? Die Gesamtbewertung bezieht sich dagegen auf die gesamte Wahrheitstabelle beziehungsweise die eingegebene Formel:
+        
+        - Unsicher: Mindestens eine Ampelstellung mit Kollisionsgefahr wird zugelassen.
+        - Nicht ideal: Es werden nur kollisionsfreie Ampelstellungen zugelassen, aber mindestens eine weitere kollisionsfreie Ampelstellung wird unnötig ausgeschlossen.
+        - Optimal: Alle kollisionsfreien Ampelstellungen werden zugelassen und alle Ampelstellungen mit Kollisionsgefahr ausgeschlossen.
+
+    * **Didaktisch**: Die Rückmeldungen unterstützen das Überprüfen und Verbessern eigener Lösungen. Lernende sollen sie anhand der Fahrwege und konkreter Tabellenzeilen begründen. Eine einzelne kollisionsfreie Ampelstellung bestätigt noch nicht die Korrektheit der gesamten Formel.
 --8<-- [end:polizisten_status]
 
 ## S
+
+--8<-- [start:sicherheitsregel]
+<span id="sicherheitsregel"></span>
+
+??? info "Sicherheitsregel"
+    * **Verwendung:** Sprachliche Beschreibung, welche Ampelstellungen sicher sind.
+    * **In LogicTraffic:** Zum Beispiel: Zwei Spuren mit sich kreuzenden Fahrwegen dürfen nicht gleichzeitig Grün haben.
+--8<-- [end:sicherheitsregel]
+
+--8<-- [start:sicherheitsfunktion]
+<span id="sicherheitsfunktion"></span>
+
+??? info "Sicherheitsfunktion"
+    * **Verwendung:** Möglichst vermeiden, solange dieser Begriff nicht eigens eingeführt ist.
+    * **Stattdessen:** Für die sprachliche Beschreibung „Sicherheitsregel“, für die formale Darstellung „aussagenlogische Formel“ und für die Zuordnung von Ausgabewerten zu allen Belegungen „Boolesche Funktion“ verwenden.
+--8<-- [end:sicherheitsfunktion]
 
 --8<-- [start:symbolisch]
 <span id="symbolisch"></span>
 
 ??? info "Symbolische Repräsentation (formal-abstrakt)"
     * **Didaktisch:** Höchste Abstraktionsstufe zur Erfassung von Sachverhalten mittels formaler Zeichen, Text, mathematischer Notationen oder Codes (nach Jerome Bruner). Bietet den didaktischen Vorteil, komplexe Zusammenhänge äusserst kompakt und präzise zu beschreiben.
-    * **Im LogicTraffic-Unterricht:** Beschreibung von Sicherheitsbedingungen durch formal-logische Notationen (z. B. Boolesche Formeln mit $\land, \lor, \neg, \rightarrow$, Normalformen KDNF/KKNF) sowie tabellarische Codierungen in der Wahrheitstabelle ($0$ und $1$).
+    * **Im LogicTraffic-Unterricht:** Beschreibung von Sicherheitsbedingungen durch aussagenlogische Formeln mit $\land, \lor, \neg, \rightarrow$ und Normalformen (KDNF/KKNF) sowie tabellarische Codierungen in der Wahrheitstabelle ($0$ und $1$).
 --8<-- [end:symbolisch]
 
 ## V

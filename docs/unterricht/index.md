@@ -2,7 +2,7 @@
 
 Die Unterrichtseinheit ermöglicht einen schrittweisen Einstieg in die boolesche Aussagenlogik. Ausgangspunkt sind konkrete Verkehrssituationen, die zunächst mit physischen Materialien oder im [lehrpersonenzentrierten Einstieg](baustein1-lehrpersonenzentriert.md) anhand statischer Bilder untersucht und anschliessend in der digitalen Lernumgebung LogicTraffic dargestellt werden.
 
-Im weiteren Verlauf wechseln die Lernenden von der konkreten Verkehrssituation zu Wahrheitstabellen und booleschen Formeln. Dadurch werden unterschiedliche Darstellungen miteinander verbunden und die Abstraktion schrittweise aufgebaut.
+Im weiteren Verlauf wechseln die Lernenden von der konkreten Verkehrssituation zu Wahrheitstabellen und aussagenlogischen Formeln. Dadurch werden unterschiedliche Darstellungen miteinander verbunden und die Abstraktion schrittweise aufgebaut.
 
 !!! abstract "Unterrichtseinheit auf einen Blick"
 

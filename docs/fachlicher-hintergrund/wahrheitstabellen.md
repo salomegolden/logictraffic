@@ -2,7 +2,7 @@
 
 Wahrheitstabellen (auch Wahrheitstafeln, engl. truth tables) bilden das zentrale semantische Instrument der klassischen zweiwertigen Aussagenlogik. Sie erfassen den Wahrheitswertverlauf einer aussagenlogischen Formel für sämtliche möglichen Kombinationen von Eingangsbelegungen vollständig und deterministisch [^1], [^2], [^3].  
 
-Wahrheitstabellen bilden im Unterricht die Brücke zwischen der spielerischen Verkehrssimulation und der formalen Aussagenlogik. Sie verorten sich in der auf der Stufe Strukturieren: Lernende verlassen das rein intuitive Ausprobieren und erfassen alle möglichen Signalzustände einer Kreuzung systematisch und lückenlos [^5].  
+Wahrheitstabellen bilden im Unterricht die Brücke zwischen der spielerischen Verkehrssimulation und der formalen Aussagenlogik. Sie verorten sich in der auf der Stufe Strukturieren: Lernende verlassen das rein intuitive Ausprobieren und erfassen alle möglichen Ampelstellungen einer Kreuzung systematisch und lückenlos [^5].  
 
 ## Semantik: Wie die Kreuzung in Nullen und Einsen übersetzt wird
 
@@ -30,22 +30,22 @@ Für jede Fahrspur gibt es genau zwei Möglichkeiten: Rot ($0$) oder Grün ($1$)
 
 ### Synchrone Repräsentation (Darstellungswechsel)
 
-Mehr Informationen zum Konzept vom [Darstellungswechsel](../didaktik/darstellungswechsel.md). 
+Mehr Informationen zum Konzept vom [Darstellungswechsel](../didaktik/darstellungswechsel.md).
 
 LogicTraffic verknüpft die visuelle Simulation und die symbolische Tabelle synchron miteinander:  
 
-* Schaltet man eine Ampel an der Kreuzung per Mausklick um, springt in der Tabelle automatisch der Cursor auf die entsprechende Zeile. 
+* Schaltet man eine Ampel an der Kreuzung per Mausklick um, springt in der Tabelle automatisch der Cursor auf die entsprechende Zeile.
 * Umgekehrt visualisiert die Kreuzung sofort die Belegung, wenn eine Zeile in der Tabelle ausgewählt wird.  
-* Dieser synchrone Wechsel unterstützt den Übergang von der virtuell-enaktiven Ebene (Klicken/Fahren) zur symbolischen Ebene (Zahlenwerte $0$ und $1$). 
+* Dieser synchrone Wechsel unterstützt den Übergang von der virtuell-enaktiven Ebene (Klicken/Fahren) zur symbolischen Ebene (Zahlenwerte $0$ und $1$).
 
 ## Didaktischer Nutzen
 
-| Funktion | Nutzen im Unterricht |
+| Aufgabe | Nutzen im Unterricht |
 | --- | --- |
 | Visualisierung | Lernende sehen Ampelzustände und Sicherheitsstatus nebeneinander. |
 | Systematisierung | Keine Kombination wird vergessen. |
 | Interaktion | Klicks auf Ampeln oder Tabellenwerte verändern die Situation. |
-| Formelbrücke | Aus sicheren Zeilen kann eine boolesche Formel entstehen. |
+| Formelbrücke | Aus sicheren Zeilen kann eine aussagenlogische Formel entstehen. |
 
 ## Typische Situationen & Sicherheitsbewertung
 
@@ -62,7 +62,7 @@ LogicTraffic verknüpft die visuelle Simulation und die symbolische Tabelle sync
     </figure>
     </div>
 
-=== "Wahrheitstabelle" 
+=== "Wahrheitstabelle"
 
     | $A$ | $B$ | `sicher` | fachliche & didaktische Begründung |
     | --- | --- | --- | ------ |
@@ -104,16 +104,35 @@ Spur $A$ und Spur $B$ verlaufen parallel (vertragen sich), während Spur $C$ als
     | 1 | 1 | 0 | **1** | **Sicher:** $A$ und $B$ fahren parallel (kein Konflikt). |
     | 1 | 1 | 1 | **0** | **Kollision:** $C$ kollidiert mit $A$ und $B$. |
 
-## Das Polizisten-Feedback als formative Diagnose
+### Rückmeldungen in LogicTraffic als formative Diagnose
 
-Das Polizisten-Icon in LogicTraffic gibt unmittelbare Rückmeldung über die Vollständigkeit und Korrektheit der Sicherheitsbewertung in der Tabelle [^1]:
+LogicTraffic gibt Rückmeldungen auf zwei Ebenen: **zur aktuell ausgewählten Ampelstellung** und **zur gesamten Wahrheitstabelle**. Diese Unterscheidung ist für die Auswertung wichtig.
 
-| Status / Feedback | Polizist | Fachliche Bedeutung | Verkehrssemantik in LogicTraffic |
-| :--- | :---: | :--- | :--- |
-| **Unsicher**<br>*(Kollision möglich)* | ![Polizist Unsicher](https://github.com/salomegolden/logictraffic/releases/download/images-v1/lt_polizist_unsicher.png){ width="50" } | **Kollisionsgefahr:** Mindestens eine gefährliche Ampelkombination wurde fälschlicherweise als sicher (`1`) markiert. | Autos kollidieren im Kreuzungsbereich (Crash-Gefahr). |
-| **Nicht ideal**<br>*(Zu vorsichtig)* | ![Polizist Safe](https://github.com/salomegolden/logictraffic/releases/download/images-v1/lt_polizist_nicht_ideal.png){ width="50" } | **Kollisionsfrei, aber restriktiv:** Keine Unfälle möglich, aber gefahrlose Kombinationen wurden unnötig auf `0` gesperrt. | Sicher, aber ineffizient. |
-| **Optimal**<br>*(Perfekt gelöst)* | ![Polizist Optimal](https://github.com/salomegolden/logictraffic/releases/download/images-v1/lt_polizist_sicher.png){ width="50" } | **Sicher & vollständig:** Exakte Übereinstimmung; alle sicheren Zustände sind `1`, alle gefährlichen `0`. | Maximaler Verkehrsfluss bei 100% Kollisionsfreiheit. |
+#### Rückmeldung zur aktuellen Ampelstellung
 
+Der Polizist zeigt an, ob bei der **aktuell ausgewählten Ampelstellung** eine Kollision möglich ist. Seine Rückmeldung bezieht sich auf diese einzelne Belegung. Sie zeigt deshalb noch nicht, ob die gesamte Tabelle oder die eingegebene Formel korrekt ist.
+
+Für die formative Diagnose eignen sich folgende Fragen:
+
+- Welche Ampeln haben gerade Grün?
+- Welche freigegebenen Fahrwege stehen miteinander im Konflikt?
+- Wie lässt sich die Rückmeldung des Polizisten anhand der Kreuzung erklären?
+
+#### Rückmeldung zur gesamten Wahrheitstabelle
+
+Die Gesamtbewertung zeigt, ob die in der Tabelle festgelegten Freigaben zur Sicherheitsbewertung der Kreuzung passen. Wird eine Formel eingegeben, betrifft diese Prüfung alle durch die Formel zugelassenen Ampelstellungen.
+
+| Gesamtbewertung | Bedeutung |
+|---|---|
+| **Unsicher** | Mindestens eine Ampelstellung mit Kollisionsgefahr wird zugelassen. |
+| **Nicht ideal** | Alle zugelassenen Ampelstellungen sind kollisionsfrei. Mindestens eine weitere kollisionsfreie Ampelstellung wird jedoch unnötig ausgeschlossen. |
+| **Optimal** | Alle kollisionsfreien Ampelstellungen werden zugelassen und alle Ampelstellungen mit Kollisionsgefahr ausgeschlossen. |
+
+«Optimal» bedeutet hier, dass die Freigaben vollständig mit der Sicherheitsbewertung der modellierten Kreuzung übereinstimmen. Es bedeutet nicht, dass die Formel möglichst kurz ist oder der Verkehrsfluss einer realen Kreuzung optimiert wird.
+
+Im Unterricht sollten die Lernenden die Rückmeldung begründen: Bei **«unsicher»** suchen sie eine gefährliche Ampelstellung, die fälschlich zugelassen wird. Bei **«nicht ideal»** suchen sie eine kollisionsfreie Ampelstellung, die unnötig ausgeschlossen wird. Bei **«optimal»** erläutern sie, weshalb ihre Regel alle kollisionsfreien Ampelstellungen zulässt und sämtliche Konflikte ausschliesst.
+
+**Auf den Punkt gebracht:** Der Polizist beurteilt die aktuelle Ampelstellung. Die Gesamtbewertung beurteilt die Freigaben für alle möglichen Ampelstellungen.
 
 [^1]: Arnold, R., & Hartmann, W. (2007). LogicTraffic - Logik in der Allgemeinbildung. Informatik-Spektrum, 30(1), 19-26. https://doi.org/10.1007/s00287-006-0123-7
 [^2]: Junker, M. (2025). _Logik für die Informatik: Eine Einführung in die Aussagenlogik, Prädikatenlogik und Berechenbarkeitstheorie_. Springer Berlin Heidelberg. https://doi.org/10.1007/978-3-662-70825-5

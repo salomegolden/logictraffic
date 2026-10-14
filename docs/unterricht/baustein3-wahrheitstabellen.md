@@ -14,7 +14,7 @@ Die Progression des Bausteins lautet:
 
 **Verkehrssituation → einzelne Ampelstellung → Tabellenzeile → vollständige Wahrheitstabelle → Systematik $2^n$ → Fehleranalyse → Skalierungsproblem**
 
-Damit bereitet Baustein 3 den Übergang zu [Baustein 4 – Logische Formeln](baustein4-boolesche-algebra.md) vor: Wahrheitstabellen bilden alle Zustände vollständig ab, werden mit wachsender Variablenzahl jedoch schnell sehr umfangreich.
+Damit bereitet Baustein 3 den Übergang zu [Baustein 4 – Aussagenlogische Formeln](baustein4-boolesche-algebra.md) vor: Wahrheitstabellen bilden alle Ampelzustände vollständig ab, werden mit wachsender Variablenzahl jedoch schnell sehr umfangreich.
 
 ??? abstract "Auf einen Blick"
 
@@ -40,7 +40,6 @@ Damit bereitet Baustein 3 den Übergang zu [Baustein 4 – Logische Formeln](bau
 ??? example "Materialhinweise und Downloads"
 
     - [:memo: Gesamtdossier Baustein 3 – alle Arbeitsblätter 3a–3c (PDF)](https://github.com/salomegolden/logictraffic/releases/download/ab3_v2/Baustein3_Dossier.pdf)
-
     - [:memo: 3a – Wahrheitstabellen verstehen](https://github.com/salomegolden/logictraffic/releases/download/ab3_v2/3a_wahrheitstabellen_verstehen.pdf)
     - [:memo: 3b – Wahrheitstabellen systematisch erstellen](https://github.com/salomegolden/logictraffic/releases/download/ab3_v2/3b_wahrheitstabellen_systematisch_erstellen.pdf)
     - [:memo: 3c – Herausforderung: Fehler finden](https://github.com/salomegolden/logictraffic/releases/download/ab3_v2/3c_Herausforderung_findest_du_die_Fehlererstellen.pdf)
@@ -665,7 +664,7 @@ Die drei Phasen bilden gemeinsam den vollständigen Baustein. Bei knappem Zeitbu
 
     > Können wir dieselbe Sicherheitsregel vielleicht ausdrücken, ohne dafür jede mögliche Kombination einzeln aufzuschreiben?
 
-    Diese Frage bildet den direkten Übergang zu [Baustein 4 – Logische Formeln](baustein4-boolesche-algebra.md).
+    Diese Frage bildet den direkten Übergang zu [Baustein 4 – Aussagenlogische Formeln](baustein4-boolesche-algebra.md).
 
 ??? tip "Didaktische Hinweise"
 
@@ -728,4 +727,4 @@ Am Ende des Bausteins haben die Lernenden Wahrheitstabellen auf drei Ebenen unte
 
     Daraus entsteht die Anschlussfrage für Baustein 4:
 
-    > **Wie können wir dieselbe logische Funktion kompakter beschreiben?**
+    > **Wie können wir dieselbe Sicherheitsregel kompakter beschreiben?**

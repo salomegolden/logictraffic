@@ -58,7 +58,7 @@ Operatoren, aussagenlogische Formeln, die Zuordnung zu `0` und `1` sowie die for
     - erklären, weshalb alle möglichen Kombinationen systematisch betrachtet werden müssen;
     - erste Ampelzustände in einer einfachen Tabelle mit Rot und Grün geordnet festhalten.
 
-    **Lernnachweis:** Die Lernenden zeigen und begründen eine sichere und eine unsichere Stellung, formulieren eine Regel und ordnen Rot-Grün-Kombinationen. Die vollständige, selbstständige Konstruktion einer Wahrheitstabelle ist Ziel von Baustein 3.
+    **Lernnachweis:** Die Lernenden zeigen und begründen eine sichere und eine unsichere Ampelstellung, formulieren eine Regel und ordnen Rot-Grün-Kombinationen. Die vollständige, selbstständige Konstruktion einer Wahrheitstabelle ist Ziel von Baustein 3.
 
 ## Vorbereitung
 

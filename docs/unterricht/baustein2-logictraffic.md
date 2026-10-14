@@ -7,13 +7,13 @@
 
 In diesem Baustein übertragen die Lernenden die bereits bekannte Idee einer sicheren Verkehrskreuzung in die digitale Lernumgebung **LogicTraffic**. Sie lernen die Oberfläche kennen und untersuchen schrittweise, wie Fahrspuren, Ampelzustände, Variablen, die Werte `0` und `1` sowie die Wahrheitstabelle miteinander zusammenhängen.
 
-Im Zentrum steht noch **nicht** das systematische Erstellen von Wahrheitstabellen und auch noch **nicht** das Arbeiten mit logischen Formeln. Entscheidend ist zunächst der Darstellungswechsel: Die Lernenden sollen verstehen, wie eine konkrete Verkehrssituation in LogicTraffic digital und symbolisch dargestellt wird.
+Im Zentrum steht noch **nicht** das systematische Erstellen von Wahrheitstabellen und auch noch **nicht** das Arbeiten mit aussagenlogischen Formeln. Entscheidend ist zunächst der Darstellungswechsel: Die Lernenden sollen verstehen, wie eine konkrete Verkehrssituation in LogicTraffic digital und symbolisch dargestellt wird.
 
 Die Progression des Bausteins lautet:
 
 **reale bzw. enaktive Kreuzung → digitale Kreuzung → Fahrspur und Variable → Rot/Grün und `0`/`1` → Tabellenzeile → Sicherheit → Darstellungen zusammenführen**
 
-Die Formel wird am Ende lediglich als weitere Darstellung der **Sicherheitsregel** sichtbar gemacht. Wie vollständige Wahrheitstabellen selbstständig aufgebaut werden, folgt in [Baustein 3 – Wahrheitstabellen](baustein3-wahrheitstabellen.md). Das eigentliche Arbeiten mit logischen Formeln folgt erst in [Baustein 4 – Logische Formeln](baustein4-boolesche-algebra.md).
+Die aussagenlogische Formel wird am Ende lediglich als weitere Darstellung der **Sicherheitsregel** sichtbar gemacht. Wie vollständige Wahrheitstabellen selbstständig aufgebaut werden, folgt in [Baustein 3 – Wahrheitstabellen](baustein3-wahrheitstabellen.md). Das eigentliche Arbeiten mit aussagenlogischen Formeln folgt erst in [Baustein 4 – Aussagenlogische Formeln](baustein4-boolesche-algebra.md).
 
 ??? abstract "Auf einen Blick"
 
@@ -103,6 +103,8 @@ Die Formel wird am Ende lediglich als weitere Darstellung der **Sicherheitsregel
     | **Wahrheitstabelle** | Enthält verschiedene mögliche Kombinationen der Variablenwerte. |
     | **Spalte `sicher`** | Bewertet, ob die jeweilige Ampelkombination kollisionsfrei ist. |
     | **Formel** | Beschreibt die Sicherheitsregel kompakt und gilt für alle möglichen Belegungen. Sie wird in Baustein 2 nur als Ausblick betrachtet. |
+    | **Ampelzustand** | Rot oder Grün einer einzelnen Ampel |
+    | **Ampelstellung** | Kombination der Zustände aller Ampeln einer Kreuzung |
 
     Für den Darstellungswechsel ist besonders hilfreich, zwischen **einer einzelnen Tabellenzeile** und der **gesamten Wahrheitstabelle** zu unterscheiden:
 
