@@ -9,15 +9,17 @@ In diesem Baustein setzen sich die Lernenden zunächst handelnd mit einer Verkeh
 
 Ausgehend von einzelnen konkreten Situationen entsteht schrittweise das Bedürfnis nach einer eindeutigen und vollständigen Darstellung aller möglichen Zustände. Der Baustein bereitet damit den Übergang von der enaktiven Darstellung zur Wahrheitstabelle vor.
 
-??? abstract "Baustein 1 auf einen Blick"
+??? abstract "Auf einen Blick"
 
-    | | |
-    | --- | --- |
-    | **Dauer** | 60–90 Minuten, je nach Vorwissen und Vertiefung |
-    | **Sozialform** | Gruppenarbeit, anschliessend Austausch im Plenum |
-    | **Computer** | nicht erforderlich |
-    | **Vorwissen** | kein Vorwissen erforderlich |
-    | **Material** | Kreuzungsfeld, Fahrzeuge, Richtungskarten, wendbare Ampelplättchen und Arbeitsblätter |
+    **:busts_in_silhouette: Zielgruppe:** Gymnasiale Klassen der 8.–9. Schulstufe ohne Vorkenntnisse in Aussagenlogik
+
+    **:stopwatch: Dauer:** 60–90 Minuten, je nach Vorwissen und Vertiefung
+
+    **:computer: Computer:** Nicht erforderlich
+
+    **:brain: Vorwissen:** Kein Vorwissen erforderlich
+
+    **:package: Material:** Kreuzungsfeld, Fahrzeuge, Richtungskarten, wendbare Ampelplättchen und Arbeitsblätter
 
 ??? example "Materialhinweise und Downloads"
 

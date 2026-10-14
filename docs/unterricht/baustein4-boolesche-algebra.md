@@ -16,13 +16,12 @@ In der optionalen Vertiefung untersuchen die Lernenden logisch äquivalente Form
 
 ??? abstract "Auf einen Blick"
 
+    **:busts_in_silhouette: Zielgruppe:** Gymnasiale Klassen der 8.–9. Schulstufe
+
     **:stopwatch: Dauer:**  
     Basisteil: ca. **60 Minuten**  
     optionale Vertiefung: zusätzlich ca. **45 Minuten**  
     optionaler Transfer: zusätzlich ca. **20–30 Minuten**
-
-    **:busts_in_silhouette: Sozialform:**  
-    Plenum, Partnerarbeit und kurze Einzelphasen
 
     **:computer: Computer:**  
     Ein Computer oder Tablet mit LogicTraffic pro Zweiergruppe

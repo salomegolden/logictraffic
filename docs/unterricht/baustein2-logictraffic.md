@@ -17,6 +17,8 @@ Die aussagenlogische Formel wird am Ende lediglich als weitere Darstellung der *
 
 ??? abstract "Auf einen Blick"
 
+    **:busts_in_silhouette: Zielgruppe:** Gymnasiale Klassen der 8.–9. Schulstufe
+
     **:stopwatch: Dauer:** ca. **45–55 Minuten**  
 
     **:computer: Computer:**  Ein Computer oder Tablet mit LogicTraffic pro Zweiergruppe

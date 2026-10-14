@@ -14,15 +14,15 @@ Operatoren, aussagenlogische Formeln, die Zuordnung zu `0` und `1` sowie die for
 
 ??? abstract "Auf einen Blick"
 
-    **Dauer:** 60 - 90 Minuten, je nach Vorwissen und Vertiefung
+    **:busts_in_silhouette: Zielgruppe:** Gymnasiale Klassen der 8.–9. Schulstufe ohne Vorkenntnisse in Aussagenlogik
 
-    **Sozialformen:** Lehrpersoneninput und gelenktes Unterrichtsgespräch im Plenum, kurze angeleitete Einzelarbeit.
+    **:stopwatch: Dauer:** 60–90 Minuten, je nach Vorwissen und Vertiefung
 
-    **Computer:** Nur für die Präsentation durch die Lehrperson; keine Bedienung von LogicTraffic durch die Lernenden.
+    **:computer: Computer:** Computer und Beamer oder Visualizer für die Präsentation durch die Lehrperson; Lernende benötigen kein Gerät.
 
-    **Vorwissen:** Kein Vorwissen erforderlich.
+    **:brain: Vorwissen:** Kein Vorwissen erforderlich.
 
-    **Material:** Präsentation mit statischen Kreuzungsbildern, [Dossier zum lehrpersonenzentrierten Einstieg (PDF)](https://github.com/salomegolden/logictraffic/releases/download/ab1_v3/Baustein_1_lehrpersonenzentrierter_Einstieg_Dossier.pdf), Tafel oder Visualizer und Schreibzeug.
+    **:package: Material:** Präsentation mit statischen Kreuzungsbildern, [Dossier zum lehrpersonenzentrierten Einstieg (PDF)](https://github.com/salomegolden/logictraffic/releases/download/ab1_v3/Baustein_1_lehrpersonenzentrierter_Einstieg_Dossier.pdf), Tafel oder Visualizer und Schreibzeug.
 
 ??? example "Materialhinweise und Downloads"
 

@@ -18,11 +18,10 @@ Damit bereitet Baustein 3 den Übergang zu [Baustein 4 – Aussagenlogische Form
 
 ??? abstract "Auf einen Blick"
 
+    **:busts_in_silhouette: Zielgruppe:** Gymnasiale Klassen der 8.–9. Schulstufe
+
     **:stopwatch: Dauer:**  
     ca. **50–60 Minuten**
-
-    **:busts_in_silhouette: Sozialform:**  
-    Plenum, Partnerarbeit und kurze Einzelphasen
 
     **:computer: Computer:**  
     Ein Computer oder Tablet mit LogicTraffic pro Zweiergruppe
