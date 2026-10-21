@@ -12,7 +12,7 @@ Logisches Denken verbindet Sprache, Erfahrung und Fachwissen. Es unterstützt Pr
 | --- | --- | --- |
 | Implikation wird als UND gelesen | Lernende deuten "Wenn A, dann B" als "A und B müssen beide gelten" | Wahrheitstabelle der Implikation gezielt prüfen |
 | ODER wird exklusiv verstanden | `A ∨ B` gilt für Lernende nur, wenn genau eine Aussage wahr ist | Fall `A = 1`, `B = 1` sichtbar machen |
-| Komplexe Operatoren werden vereinfacht | Implikation wird zu AND oder OR umgedeutet | vollständige Wahrheitsbedingungen vergleichen |
+| Komplexe Operatoren werden vereinfacht | Implikation wird zu UND oder ODER umgedeutet | vollständige Wahrheitsbedingungen vergleichen |
 | Negierte Variablen werden übersehen | Formeln enthalten nur positive Fälle | jede Tabellenzeile vollständig übersetzen |
 
 ## Fehlvorstellung: Implikation als UND
@@ -39,7 +39,7 @@ Im Alltag meint "oder" oft: entweder das eine oder das andere. In der Aussagenlo
 | 0 | 1 | 1 |
 | 0 | 0 | 0 |
 
-Auf den Punkt gebracht: OR bedeutet mindestens eine Bedingung, nicht genau eine Bedingung.
+Auf den Punkt gebracht: ODER bedeutet mindestens eine Bedingung, nicht genau eine Bedingung.
 
 ## Fehlvorstellung: Unvollständige Fälle
 

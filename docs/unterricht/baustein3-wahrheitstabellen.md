@@ -1,5 +1,9 @@
 # Baustein 3 – Wahrheitstabellen
 
+??? example "Lehrpersonenkommentar als Download"
+
+    [Lehrpersonenkommentar Baustein 3 - Wahrheitstabellen](https://canva.link/dwq8vsjij84id4b)
+
 In diesem Baustein lernen die Lernenden, Wahrheitstabellen nicht nur in LogicTraffic zu lesen, sondern selbstständig und systematisch aufzubauen.
 
 Ausgangspunkt ist eine einfache Kreuzung mit zwei Fahrspuren. Die Lernenden klären zunächst, was eine Wahrheitstabelle überhaupt darstellt und wie die Werte `0` und `1` in den Variablenspalten sowie in der Spalte `sicher` zu lesen sind. Anschliessend entwickeln sie für drei Variablen ein systematisches Verfahren, mit dem alle möglichen Belegungen vollständig und ohne Wiederholungen erzeugt werden können.
@@ -10,15 +14,14 @@ Die Progression des Bausteins lautet:
 
 **Verkehrssituation → einzelne Ampelstellung → Tabellenzeile → vollständige Wahrheitstabelle → Systematik $2^n$ → Fehleranalyse → Skalierungsproblem**
 
-Damit bereitet Baustein 3 den Übergang zu [Baustein 4 – Logische Formeln](baustein4-boolesche-algebra.md) vor: Wahrheitstabellen bilden alle Zustände vollständig ab, werden mit wachsender Variablenzahl jedoch schnell sehr umfangreich.
+Damit bereitet Baustein 3 den Übergang zu [Baustein 4 – Aussagenlogische Formeln](baustein4-boolesche-algebra.md) vor: Wahrheitstabellen bilden alle Ampelzustände vollständig ab, werden mit wachsender Variablenzahl jedoch schnell sehr umfangreich.
 
-!!! abstract "Auf einen Blick"
+??? abstract "Auf einen Blick"
+
+    **:busts_in_silhouette: Zielgruppe:** Gymnasiale Klassen der 8.–9. Schulstufe
 
     **:stopwatch: Dauer:**  
     ca. **50–60 Minuten**
-
-    **:busts_in_silhouette: Sozialform:**  
-    Plenum, Partnerarbeit und kurze Einzelphasen
 
     **:computer: Computer:**  
     Ein Computer oder Tablet mit LogicTraffic pro Zweiergruppe
@@ -33,37 +36,37 @@ Damit bereitet Baustein 3 den Übergang zu [Baustein 4 – Logische Formeln](bau
     **:package: Material:**  
     LogicTraffic, Computer oder Tablets, Beamer oder Präsentationsbildschirm sowie die Arbeitsblätter zu Baustein 3
 
-??? note "Downloads zu Baustein 3"
+??? example "Materialhinweise und Downloads"
 
     - [:memo: Gesamtdossier Baustein 3 – alle Arbeitsblätter 3a–3c (PDF)](https://github.com/salomegolden/logictraffic/releases/download/ab3_v2/Baustein3_Dossier.pdf)
-
     - [:memo: 3a – Wahrheitstabellen verstehen](https://github.com/salomegolden/logictraffic/releases/download/ab3_v2/3a_wahrheitstabellen_verstehen.pdf)
     - [:memo: 3b – Wahrheitstabellen systematisch erstellen](https://github.com/salomegolden/logictraffic/releases/download/ab3_v2/3b_wahrheitstabellen_systematisch_erstellen.pdf)
     - [:memo: 3c – Herausforderung: Fehler finden](https://github.com/salomegolden/logictraffic/releases/download/ab3_v2/3c_Herausforderung_findest_du_die_Fehlererstellen.pdf)
-    - [:file: Baustein 3 – Wahrheitstabellen: Lehrerkommentar (PDF)](https://github.com/salomegolden/logictraffic/releases/download/lpk_v1/Baustein.3.Lehrpersonenkommentar.pdf)
 
     In den PDFs steht das Gleiche wie auf der Webseite – nur als druckbare Version für die Lehrperson.
 
 ## Lernziele
 
-**Bezug zur Unterrichtseinheit:** [LZ1b – alle möglichen Zustände systematisch erfassen](../didaktik/lernziele.md#lz1b) und [LZ3a – Fehler in Wahrheitstabellen finden](../didaktik/lernziele.md#lz3a). [LZ1a – Darstellungen deuten](../didaktik/lernziele.md#lz1a) wird weiter gefestigt.
+??? success "Lernziele"
 
-Die Lernenden können …
+    **Bezug zur Unterrichtseinheit:** [LZ1b – alle möglichen Zustände systematisch erfassen](../didaktik/lernziele.md#lz1b) und [LZ3a – Fehler in Wahrheitstabellen finden](../didaktik/lernziele.md#lz3a). [LZ1a – Darstellungen deuten](../didaktik/lernziele.md#lz1a) wird weiter gefestigt.
 
-- eine Wahrheitstabelle als vollständige Darstellung aller möglichen Kombinationen von Variablenwerten erklären;
-- eine konkrete Ampelstellung einer Tabellenzeile zuordnen und umgekehrt;
-- zwischen den Werten der Fahrspuren (`0 = Rot`, `1 = Grün`) und den Werten der Spalte `sicher` unterscheiden;
-- für zwei und drei Variablen alle möglichen Belegungen systematisch und lückenlos aufschreiben;
-- ein Ordnungsmuster zum Erzeugen aller Kombinationen beschreiben;
-- erklären, warum bei $n$ Variablen $2^n$ mögliche Belegungen entstehen;
-- für jede Ampelkombination begründet entscheiden, ob die Verkehrssituation sicher oder unsicher ist;
-- fehlende, doppelte und inhaltlich falsch bewertete Zeilen in einer Wahrheitstabelle erkennen und korrigieren;
-- erkennen, dass Wahrheitstabellen bei zunehmender Anzahl von Variablen schnell sehr umfangreich werden;
-- daraus die Notwendigkeit einer kompakteren Darstellung ableiten.
+    Die Lernenden können …
 
-**Lernnachweis:** Mit 3b erstellen die Lernenden selbstständig eine Tabelle für drei Variablen mit acht unterschiedlichen Belegungen und begründeter Sicherheitsbewertung. Mit 3c benennen und korrigieren sie strukturelle sowie inhaltliche Fehler.
+    - eine Wahrheitstabelle als vollständige Darstellung aller möglichen Kombinationen von Variablenwerten erklären;
+    - eine konkrete Ampelstellung einer Tabellenzeile zuordnen und umgekehrt;
+    - zwischen den Werten der Fahrspuren (`0 = Rot`, `1 = Grün`) und den Werten der Spalte `sicher` unterscheiden;
+    - für zwei und drei Variablen alle möglichen Belegungen systematisch und lückenlos aufschreiben;
+    - ein Ordnungsmuster zum Erzeugen aller Kombinationen beschreiben;
+    - erklären, warum bei $n$ Variablen $2^n$ mögliche Belegungen entstehen;
+    - für jede Ampelkombination begründet entscheiden, ob die Verkehrssituation sicher oder unsicher ist;
+    - fehlende, doppelte und inhaltlich falsch bewertete Zeilen in einer Wahrheitstabelle erkennen und korrigieren;
+    - erkennen, dass Wahrheitstabellen bei zunehmender Anzahl von Variablen schnell sehr umfangreich werden;
+    - daraus die Notwendigkeit einer kompakteren Darstellung ableiten.
 
-**Anspruch für die 8.–9. Klasse:** Die Regel $2^n$ wird über das Verdoppeln der Kombinationen erklärt. Fünf Variablen dienen hier zur Veranschaulichung des Wachstums; eine selbstständig ausgefüllte 32-zeilige Tabelle wird im Basisteil nicht als Abschlussleistung verlangt.
+    **Lernnachweis:** Mit 3b erstellen die Lernenden selbstständig eine Tabelle für drei Variablen mit acht unterschiedlichen Belegungen und begründeter Sicherheitsbewertung. Mit 3c benennen und korrigieren sie strukturelle sowie inhaltliche Fehler.
+
+    **Anspruch für die 8.–9. Klasse:** Die Regel $2^n$ wird über das Verdoppeln der Kombinationen erklärt. Fünf Variablen dienen hier zur Veranschaulichung des Wachstums; eine selbstständig ausgefüllte 32-zeilige Tabelle wird im Basisteil nicht als Abschlussleistung verlangt.
 
 ## Vorbereitung
 
@@ -117,7 +120,7 @@ Die Lernenden können …
 
     `000`, `001`, `010`, `011`, `100`, `101`, `110`, `111`
 
-??? warning "Zwei verschiedene Bedeutungen von 0 und 1"
+??? tip "Zwei verschiedene Bedeutungen von 0 und 1"
 
     In LogicTraffic werden `0` und `1` auf zwei verschiedenen Ebenen verwendet.
 
@@ -157,7 +160,7 @@ Die drei Phasen bilden gemeinsam den vollständigen Baustein. Bei knappem Zeitbu
 
 ## Durchführung
 
-### Phase 1 - Wahrheitstabellen verstehen
+### Phase 1 – Wahrheitstabellen verstehen
 
 ??? success "Ziele der Einheit"
 
@@ -172,15 +175,12 @@ Die drei Phasen bilden gemeinsam den vollständigen Baustein. Bei knappem Zeitbu
     - Computer oder Tablet pro Zweiergruppe
     - Beamer oder Präsentationsbildschirm
 
-??? info "Sozialformen"
+??? info "Organisation"
 
-    Kurzer Einstieg im **Plenum**, anschliessend **Partnerarbeit** mit [AB 3a](https://github.com/salomegolden/logictraffic/releases/download/ab3_v2/3a_wahrheitstabellen_verstehen.pdf). Die Ergebnisse werden am Ende gemeinsam gesichert.
-
+    **Sozialform:** Kurzer Einstieg im **Plenum**, anschliessend **Partnerarbeit** mit [AB 3a](https://github.com/salomegolden/logictraffic/releases/download/ab3_v2/3a_wahrheitstabellen_verstehen.pdf). Die Ergebnisse werden am Ende gemeinsam gesichert.
     Im Tandem kann jeweils eine Person eine Tabellenzeile lesen, während die andere Person die entsprechende Ampelstellung beschreibt oder in LogicTraffic einstellt. Danach werden die Rollen gewechselt.
 
-??? tip "benötigte Zeit"
-
-    ca. **15 Minuten**
+    **Benötigte Zeit:** ca. **15 Minuten**
 
 ??? abstract "Verlaufsplanung"
 
@@ -283,7 +283,7 @@ Die drei Phasen bilden gemeinsam den vollständigen Baustein. Bei knappem Zeitbu
 
     > Jede mögliche Kombination der Variablenwerte muss genau einmal vorkommen.
 
-??? note "Didaktische Hinweise"
+??? tip "Didaktische Hinweise"
 
     Die zentrale Herausforderung dieser Phase ist weniger das Erstellen der Tabelle als das **Verstehen der Repräsentation**.
 
@@ -295,7 +295,7 @@ Die drei Phasen bilden gemeinsam den vollständigen Baustein. Bei knappem Zeitbu
 
     LogicTraffic sollte auch hier erst **nach einer eigenen Begründung** verwendet werden.
 
-??? bug "Differenzierung"
+??? question "Differenzierung"
 
     === "Vereinfachungen"
 
@@ -315,7 +315,7 @@ Die drei Phasen bilden gemeinsam den vollständigen Baustein. Bei knappem Zeitbu
         - Eine unvollständige Zweivariablen-Tabelle vorgeben und die fehlende Kombination ohne Ausprobieren bestimmen lassen.
         - Bereits eine Vermutung formulieren lassen, wie viele Kombinationen bei drei Variablen entstehen müssten.
 
-### Phase 2 - Wahrheitstabellen systematisch erstellen
+### Phase 2 – Wahrheitstabellen systematisch erstellen
 
 ??? success "Ziele der Einheit"
 
@@ -331,15 +331,12 @@ Die drei Phasen bilden gemeinsam den vollständigen Baustein. Bei knappem Zeitbu
     - Beamer oder Präsentationsbildschirm
     - optional: Notizpapier für einen ersten eigenen Tabellenentwurf
 
-??? info "Sozialformen"
+??? info "Organisation"
 
-    Überwiegend **Partnerarbeit**. Der Einstieg und die Herleitung von $2^n$ werden kurz im **Plenum** gesichert.
-
+    **Sozialform:** Überwiegend **Partnerarbeit**. Der Einstieg und die Herleitung von $2^n$ werden kurz im **Plenum** gesichert.
     Die Lernenden sollen zuerst selbst eine Ordnungsidee entwickeln. Erst danach werden verschiedene Strategien verglichen und das binär geordnete Muster als zuverlässige Möglichkeit festgehalten.
 
-??? tip "benötigte Zeit"
-
-    **25-30 Minuten**
+    **Benötigte Zeit:** **25-30 Minuten**
 
 ??? abstract "Verlaufsplanung"
 
@@ -482,7 +479,7 @@ Die drei Phasen bilden gemeinsam den vollständigen Baustein. Bei knappem Zeitbu
 
     Die Lernenden halten erste Vor- und Nachteile fest.
 
-??? note "Didaktische Hinweise"
+??? tip "Didaktische Hinweise"
 
     Die entscheidende Leistung besteht nicht darin, die Reihenfolge `000` bis `111` auswendig zu lernen. Die Lernenden sollen verstehen, **weshalb ein systematisches Muster Vollständigkeit garantiert**.
 
@@ -500,7 +497,7 @@ Die drei Phasen bilden gemeinsam den vollständigen Baustein. Bei knappem Zeitbu
 
     LogicTraffic bleibt ein **Kontrollwerkzeug**. Die Tabelle sollte möglichst zuerst von den Lernenden selbst konstruiert werden.
 
-??? bug "Differenzierung"
+??? question "Differenzierung"
 
     === "Vereinfachungen"
 
@@ -516,7 +513,7 @@ Die drei Phasen bilden gemeinsam den vollständigen Baustein. Bei knappem Zeitbu
         - Verschiedene korrekte Ordnungssysteme vergleichen und hinsichtlich Fehlersicherheit beurteilen.
         - Erklären lassen, weshalb das binäre Zählmuster auch bei beliebig vielen Variablen funktioniert.
 
-### Phase 3 - Herausforderung – Fehler finden
+### Phase 3 – Herausforderung – Fehler finden
 
 ??? success "Ziele der Einheit"
 
@@ -533,15 +530,12 @@ Die drei Phasen bilden gemeinsam den vollständigen Baustein. Bei knappem Zeitbu
     - Computer oder Tablet pro Zweiergruppe
     - Ergebnisse bzw. Merksätze aus Phase 2
 
-??? info "Sozialformen"
+??? info "Organisation"
 
-    Zunächst kurze **Einzelarbeit**, damit jede Person die Tabelle selbst untersucht. Anschliessend **Partnervergleich** und gemeinsame Sicherung im **Plenum**.
-
+    **Sozialform:** Zunächst kurze **Einzelarbeit**, damit jede Person die Tabelle selbst untersucht. Anschliessend **Partnervergleich** und gemeinsame Sicherung im **Plenum**.
     Die Kontrolle mit LogicTraffic erfolgt erst nach der eigenen Fehlersuche.
 
-??? tip "benötigte Zeit"
-
-    ca. **15–20 Minuten**
+    **Benötigte Zeit:** ca. **15–20 Minuten**
 
 ??? abstract "Verlaufsplanung"
 
@@ -669,9 +663,9 @@ Die drei Phasen bilden gemeinsam den vollständigen Baustein. Bei knappem Zeitbu
 
     > Können wir dieselbe Sicherheitsregel vielleicht ausdrücken, ohne dafür jede mögliche Kombination einzeln aufzuschreiben?
 
-    Diese Frage bildet den direkten Übergang zu [Baustein 4 – Logische Formeln](baustein4-boolesche-algebra.md).
+    Diese Frage bildet den direkten Übergang zu [Baustein 4 – Aussagenlogische Formeln](baustein4-boolesche-algebra.md).
 
-??? note "Didaktische Hinweise"
+??? tip "Didaktische Hinweise"
 
     [AB 3c](https://github.com/salomegolden/logictraffic/releases/download/ab3_v2/3c_Herausforderung_findest_du_die_Fehlererstellen.pdf) ist besonders geeignet, um sichtbar zu machen, ob die Lernenden eine Wahrheitstabelle **verstanden** haben oder lediglich ein Muster reproduzieren können.
 
@@ -686,7 +680,7 @@ Die drei Phasen bilden gemeinsam den vollständigen Baustein. Bei knappem Zeitbu
 
     Der Ausblick auf Baustein 4 sollte die Wahrheitstabelle nicht abwerten. Sie bleibt ein sehr wichtiges Werkzeug zur vollständigen Beschreibung und später zur Überprüfung logischer Formeln. Das Problem ist ausschliesslich ihre mangelnde Kompaktheit bei vielen Variablen.
 
-??? bug "Differenzierung"
+??? question "Differenzierung"
 
     === "Vereinfachungen"
 
@@ -707,6 +701,7 @@ Die drei Phasen bilden gemeinsam den vollständigen Baustein. Bei knappem Zeitbu
         - Erklären, weshalb `110` trotz zweier grüner Ampeln sicher ist.
         - Eine Strategie formulieren, mit der eine beliebige Wahrheitstabelle systematisch auf Vollständigkeit geprüft werden kann.
 
+
 ## Abschluss des Bausteins
 
 Am Ende des Bausteins haben die Lernenden Wahrheitstabellen auf drei Ebenen untersucht:
@@ -715,7 +710,7 @@ Am Ende des Bausteins haben die Lernenden Wahrheitstabellen auf drei Ebenen unte
 2. **systematisch erzeugen** – Wie erfassen wir alle möglichen Zustände vollständig?
 3. **prüfen und korrigieren** – Wie erkennen wir strukturelle und inhaltliche Fehler?
 
-!!! success "Von einzelnen Zuständen zur vollständigen Darstellung"
+??? success "Von einzelnen Zuständen zur vollständigen Darstellung"
 
     Eine Wahrheitstabelle ist eine systematische Methode, um den vollständigen Zustandsraum eines Problems darzustellen.
 
@@ -731,4 +726,4 @@ Am Ende des Bausteins haben die Lernenden Wahrheitstabellen auf drei Ebenen unte
 
     Daraus entsteht die Anschlussfrage für Baustein 4:
 
-    > **Wie können wir dieselbe logische Funktion kompakter beschreiben?**
+    > **Wie können wir dieselbe Sicherheitsregel kompakter beschreiben?**

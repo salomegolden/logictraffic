@@ -85,7 +85,7 @@ Die Lernenden vergleichen die Ausgabewerte einer Formel mit der unabhängig begr
 
 ## LZ4: Gleichwertige Formeln und Normalformen vergleichen {#lernziel-4-normalformen-und-minimierung-boolescher-ausdruecke}
 
-**Optionales Vertiefungsziel:** Die Lernenden können an kleinen Beispielen erklären, weshalb verschiedene Formeln dieselbe Verkehrssituation sicher machen können. Sie unterscheiden DNF und KNF, verfolgen den Weg von Tabellenzeilen zu kanonischen Formen und beurteilen einfache Vereinfachungen.
+**Optionales Vertiefungsziel:** Die Lernenden können an kleinen Beispielen erklären, weshalb unterschiedliche Formeln für jede mögliche Ampelbelegung denselben Wahrheitswert ergeben. Sie unterscheiden DNF und KNF, verfolgen den Weg von Tabellenzeilen zu kanonischen Formen und beurteilen einfache Vereinfachungen.
 
 | Teilkompetenz | Beobachtbarer Nachweis | Material |
 | --- | --- | --- |
@@ -108,7 +108,7 @@ Normalformen sind für diesen direkten Weg über die Konflikte keine Voraussetzu
 
 | Unterrichtsabschnitt | Fokus | Geeigneter Nachweis |
 | --- | --- | --- |
-| [Baustein 1 – enaktiv](../unterricht/baustein1-enaktiv.md#lernziele) **oder** [lehrpersonenzentriert](../unterricht/baustein1-lehrpersonenzentriert.md#lernziele) | LZ1a; Vorbereitung LZ1b und LZ2 | Sichere und unsichere Stellungen begründen, Rot-Grün-Kombinationen ordnen und eine Regel in Worten ausdrücken |
+| [Baustein 1 – enaktiv](../unterricht/baustein1-enaktiv.md#lernziele) **oder** [lehrpersonenzentriert](../unterricht/baustein1-lehrpersonenzentriert.md#lernziele) | LZ1a; Vorbereitung LZ1b und LZ2 | Sichere und unsichere Ampelstellungen begründen, Rot-Grün-Kombinationen ordnen und eine Regel in Worten ausdrücken |
 | [Baustein 2](../unterricht/baustein2-logictraffic.md#lernziele) | LZ1a | Eine Tabellenzeile an der Kreuzung zeigen und die beiden Bedeutungen von `0`/`1` erklären |
 | [Baustein 3](../unterricht/baustein3-wahrheitstabellen.md#lernziele) | LZ1b und LZ3a | Eine vollständige Tabelle erstellen und eine fehlerhafte Tabelle begründet korrigieren |
 | [Baustein 4 – Basisteil](../unterricht/baustein4-boolesche-algebra.md#basisteil) | LZ1c, LZ2 und LZ3b | Eine Formel entwickeln, erläutern und vollständig prüfen |

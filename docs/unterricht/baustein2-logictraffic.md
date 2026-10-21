@@ -1,16 +1,23 @@
 # Baustein 2 – LogicTraffic kennenlernen
 
+??? example "Lehrpersonenkommentar als Download"
+
+    [Lehrpersonenkommentar Baustein 2 - Einführung LogicTraffic](https://canva.link/mos333l78usz4xj)
+
+
 In diesem Baustein übertragen die Lernenden die bereits bekannte Idee einer sicheren Verkehrskreuzung in die digitale Lernumgebung **LogicTraffic**. Sie lernen die Oberfläche kennen und untersuchen schrittweise, wie Fahrspuren, Ampelzustände, Variablen, die Werte `0` und `1` sowie die Wahrheitstabelle miteinander zusammenhängen.
 
-Im Zentrum steht noch **nicht** das systematische Erstellen von Wahrheitstabellen und auch noch **nicht** das Arbeiten mit logischen Formeln. Entscheidend ist zunächst der Darstellungswechsel: Die Lernenden sollen verstehen, wie eine konkrete Verkehrssituation in LogicTraffic digital und symbolisch dargestellt wird.
+Im Zentrum steht noch **nicht** das systematische Erstellen von Wahrheitstabellen und auch noch **nicht** das Arbeiten mit aussagenlogischen Formeln. Entscheidend ist zunächst der Darstellungswechsel: Die Lernenden sollen verstehen, wie eine konkrete Verkehrssituation in LogicTraffic digital und symbolisch dargestellt wird.
 
 Die Progression des Bausteins lautet:
 
 **reale bzw. enaktive Kreuzung → digitale Kreuzung → Fahrspur und Variable → Rot/Grün und `0`/`1` → Tabellenzeile → Sicherheit → Darstellungen zusammenführen**
 
-Die Formel wird am Ende lediglich als weitere Darstellung der **Sicherheitsregel** sichtbar gemacht. Wie vollständige Wahrheitstabellen selbstständig aufgebaut werden, folgt in [Baustein 3 – Wahrheitstabellen](baustein3-wahrheitstabellen.md). Das eigentliche Arbeiten mit logischen Formeln folgt erst in [Baustein 4 – Logische Formeln](baustein4-boolesche-algebra.md).
+Die aussagenlogische Formel wird am Ende lediglich als weitere Darstellung der **Sicherheitsregel** sichtbar gemacht. Wie vollständige Wahrheitstabellen selbstständig aufgebaut werden, folgt in [Baustein 3 – Wahrheitstabellen](baustein3-wahrheitstabellen.md). Das eigentliche Arbeiten mit aussagenlogischen Formeln folgt erst in [Baustein 4 – Aussagenlogische Formeln](baustein4-boolesche-algebra.md).
 
-!!! abstract "Auf einen Blick"
+??? abstract "Auf einen Blick"
+
+    **:busts_in_silhouette: Zielgruppe:** Gymnasiale Klassen der 8.–9. Schulstufe
 
     **:stopwatch: Dauer:** ca. **45–55 Minuten**  
 
@@ -23,7 +30,7 @@ Die Formel wird am Ende lediglich als weitere Darstellung der **Sicherheitsregel
 
     **:package: Material:** LogicTraffic, Computer oder Tablets, Beamer oder Präsentationsbildschirm sowie die Materialien [2a](https://github.com/salomegolden/logictraffic/releases/download/ab2_v2/2a_orientierung_logictraffic.pdf)–[2e](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2e_tafelbild_ergebnissicherung.pdf)
 
-??? note "Downloads zu Baustein 2"
+??? example "Materialhinweise und Downloads"
 
     - [:memo: Gesamtdossier Baustein 2 – Materialien 2a–2c für die Lernenden (PDF)](https://github.com/salomegolden/logictraffic/releases/download/ab2_v2/Baustein_2_Dossier.pdf)
 
@@ -36,44 +43,45 @@ Die Formel wird am Ende lediglich als weitere Darstellung der **Sicherheitsregel
     **Für die Lehrperson**
 
     - [:material-image-outline: 2e – Tafelbild zur Ergebnissicherung](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2e_tafelbild_ergebnissicherung.pdf)
-    - [:file: Baustein 2 – LogicTraffic: Lehrerkommentar (PDF)](https://github.com/salomegolden/logictraffic/releases/download/lpk_v1/Baustein.2.-.Lehrpersonenkommentar.pdf)
 
     In den PDFs steht das Gleiche wie auf der Webseite – nur als druckbare Version für die Lehrperson.
 
 ## Lernziele
 
-**Bezug zur Unterrichtseinheit:** [LZ1a – Verkehrssituationen und Darstellungen deuten](../didaktik/lernziele.md#lz1a). Der Schwerpunkt liegt auf dem Lesen und Zuordnen; das selbstständige Erstellen vollständiger Tabellen folgt in Baustein 3, die Arbeit mit Operatoren in Baustein 4.
+??? success "Lernziele"
 
-Die Lernenden können …
+    **Bezug zur Unterrichtseinheit:** [LZ1a – Verkehrssituationen und Darstellungen deuten](../didaktik/lernziele.md#lz1a). Der Schwerpunkt liegt auf dem Lesen und Zuordnen; das selbstständige Erstellen vollständiger Tabellen folgt in Baustein 3, die Arbeit mit Operatoren in Baustein 4.
 
-- sich in den zentralen Bereichen von LogicTraffic orientieren;
-- erklären, dass die bereits mit `A`, `B`, `C` usw. bezeichneten Fahrspuren als Variablen in weiteren Darstellungen wieder auftauchen;
-- erklären, wie die Ampelzustände Rot und Grün mit `0` und `1` dargestellt werden;
-- zwischen `0` und `1` bei einer Fahrspur und `0` und `1` in der Spalte `sicher` unterscheiden;
-- zu einer konkreten Ampelstellung die passende Tabellenzeile finden und eine vorgegebene Tabellenzeile wieder als Ampelstellung lesen;
-- sichere und unsichere Ampelkombinationen anhand der Fahrwege begründen;
-- erklären, dass die Kreuzung jeweils einen konkreten Zustand zeigt, während die Wahrheitstabelle verschiedene mögliche Zustände umfasst;
-- die Bereiche Kreuzung, Variablen bzw. `0`/`1`, Wahrheitstabelle, `sicher` und Formel in ihrer jeweiligen Funktion unterscheiden;
-- beschreiben, dass diese Darstellungen unterschiedliche Aspekte derselben modellierten Kreuzung bzw. Sicherheitsregel sichtbar machen;
-- die Frage formulieren, wie eine vollständige Wahrheitstabelle auch ohne Vorgabe durch LogicTraffic systematisch erstellt werden könnte.
+    Die Lernenden können …
 
-**Lernnachweis:** Mit AB2c ordnen die Lernenden die Darstellungen ihren Funktionen zu. Sie stellen eine vorgegebene Tabellenzeile an der Kreuzung ein und erklären getrennt die Ampelzustände und die Sicherheitsbewertung.
+    - sich in den zentralen Bereichen von LogicTraffic orientieren;
+    - erklären, dass die bereits mit `A`, `B`, `C` usw. bezeichneten Fahrspuren als Variablen in weiteren Darstellungen wieder auftauchen;
+    - erklären, wie die Ampelzustände Rot und Grün mit `0` und `1` dargestellt werden;
+    - zwischen `0` und `1` bei einer Fahrspur und `0` und `1` in der Spalte `sicher` unterscheiden;
+    - zu einer konkreten Ampelstellung die passende Tabellenzeile finden und eine vorgegebene Tabellenzeile wieder als Ampelstellung lesen;
+    - sichere und unsichere Ampelkombinationen anhand der Fahrwege begründen;
+    - erklären, dass die Kreuzung jeweils einen konkreten Zustand zeigt, während die Wahrheitstabelle verschiedene mögliche Zustände umfasst;
+    - die Bereiche Kreuzung, Variablen bzw. `0`/`1`, Wahrheitstabelle, `sicher` und Formel in ihrer jeweiligen Funktion unterscheiden;
+    - beschreiben, dass diese Darstellungen unterschiedliche Aspekte derselben modellierten Kreuzung bzw. Sicherheitsregel sichtbar machen;
+    - die Frage formulieren, wie eine vollständige Wahrheitstabelle auch ohne Vorgabe durch LogicTraffic systematisch erstellt werden könnte.
 
-??? note "Einordnung zwischen Baustein 1 und Baustein 3"
+    **Lernnachweis:** Mit AB2c ordnen die Lernenden die Darstellungen ihren Funktionen zu. Sie stellen eine vorgegebene Tabellenzeile an der Kreuzung ein und erklären getrennt die Ampelzustände und die Sicherheitsbewertung.
 
-    **Baustein 1** arbeitet vor allem mit der konkreten Verkehrssituation:
+    ??? tip "Einordnung zwischen Baustein 1 und Baustein 3"
 
-    > Welche Ampelstellungen sind sicher und warum?
+        **Baustein 1** arbeitet vor allem mit der konkreten Verkehrssituation:
 
-    **Baustein 2** führt dieselbe Grundidee in die digitale Lernumgebung über:
+        > Welche Ampelstellungen sind sicher und warum?
 
-    > Wie stellt LogicTraffic Fahrspuren, Ampelzustände und Sicherheit dar?
+        **Baustein 2** führt dieselbe Grundidee in die digitale Lernumgebung über:
 
-    **Baustein 3** verschiebt den Schwerpunkt anschliessend auf die Systematik:
+        > Wie stellt LogicTraffic Fahrspuren, Ampelzustände und Sicherheit dar?
 
-    > Wie können wir selbst alle möglichen Zustände vollständig aufschreiben, ohne einen zu vergessen?
+        **Baustein 3** verschiebt den Schwerpunkt anschliessend auf die Systematik:
 
-    Dadurch erhält jeder Baustein eine eigene Funktion und die Wahrheitstabelle wird in Baustein 2 bewusst **nur gelesen und gedeutet**, noch nicht systematisch konstruiert.
+        > Wie können wir selbst alle möglichen Zustände vollständig aufschreiben, ohne einen zu vergessen?
+
+        Dadurch erhält jeder Baustein eine eigene Funktion und die Wahrheitstabelle wird in Baustein 2 bewusst **nur gelesen und gedeutet**, noch nicht systematisch konstruiert.
 
 ## Vorbereitung
 
@@ -97,6 +105,8 @@ Die Lernenden können …
     | **Wahrheitstabelle** | Enthält verschiedene mögliche Kombinationen der Variablenwerte. |
     | **Spalte `sicher`** | Bewertet, ob die jeweilige Ampelkombination kollisionsfrei ist. |
     | **Formel** | Beschreibt die Sicherheitsregel kompakt und gilt für alle möglichen Belegungen. Sie wird in Baustein 2 nur als Ausblick betrachtet. |
+    | **Ampelzustand** | Rot oder Grün einer einzelnen Ampel |
+    | **Ampelstellung** | Kombination der Zustände aller Ampeln einer Kreuzung |
 
     Für den Darstellungswechsel ist besonders hilfreich, zwischen **einer einzelnen Tabellenzeile** und der **gesamten Wahrheitstabelle** zu unterscheiden:
 
@@ -104,7 +114,7 @@ Die Lernenden können …
 
     **alle möglichen Ampelstellungen** ↔ **gesamte Wahrheitstabelle**
 
-??? warning "Zwei verschiedene Bedeutungen von 0 und 1"
+??? tip "Zwei verschiedene Bedeutungen von 0 und 1"
 
     In LogicTraffic begegnen den Lernenden `0` und `1` auf zwei Ebenen.
 
@@ -137,7 +147,7 @@ Die Lernenden können …
 
 ## Durchführung
 
-### Phase 1 - Von der Kreuzung zur digitalen Darstellung
+### Phase 1 – Von der Kreuzung zur digitalen Darstellung
 
 ??? success "Ziele der Einheit"
 
@@ -152,13 +162,11 @@ Die Lernenden können …
     - die dort verwendete oder eine vergleichbare Verkehrssituation
     - Beamer oder Präsentationsbildschirm
 
-??? info "Sozialformen"
+??? info "Organisation"
 
-    Kurzes **Plenumsgespräch**. Die Lernenden beobachten eine bekannte bzw. reale Kreuzung und formulieren zunächst in Alltagssprache, welche Informationen für eine sichere Ampelsteuerung relevant sind.
+    **Sozialform:** Kurzes **Plenumsgespräch**. Die Lernenden beobachten eine bekannte bzw. reale Kreuzung und formulieren zunächst in Alltagssprache, welche Informationen für eine sichere Ampelsteuerung relevant sind.
 
-??? tip "benötigte Zeit"
-
-    nach Baustein 1: ca. **5 Minuten**  
+    **Benötigte Zeit:** nach Baustein 1: ca. **5 Minuten**  
 
 ??? abstract "Verlaufsplanung"
 
@@ -184,13 +192,13 @@ Die Lernenden können …
 
     Die Vermutungen werden kurz gesammelt. Erst danach wird LogicTraffic geöffnet.
 
-??? note "Didaktische Hinweise"
+??? tip "Didaktische Hinweise"
 
     Diese Phase soll **kein zweiter Theorieeinstieg** werden. Ihr Zweck ist ausschliesslich, einen verständlichen Ausgangspunkt für die digitale Darstellung zu schaffen.
 
     Fachbegriffe sollten in dieser Phase noch nicht vorweggenommen werden. Besonders `0`, `1` und Wahrheitstabelle werden erst an beobachtbaren Veränderungen in LogicTraffic aufgebaut.
 
-??? bug "Differenzierung"
+??? question "Differenzierung"
 
     === "Vereinfachungen"
 
@@ -205,7 +213,7 @@ Die Lernenden können …
         - Begründen lassen, welche Informationen eine digitale Darstellung mindestens enthalten müsste.
         - Zwischen Informationen über die **Geometrie der Kreuzung** und Informationen über den **aktuellen Ampelzustand** unterscheiden lassen.
 
-### Phase 2 - LogicTraffic erkunden und Zustände lesen
+### Phase 2 – LogicTraffic erkunden und Zustände lesen
 
 ??? success "Ziele der Einheit"
 
@@ -221,15 +229,12 @@ Die Lernenden können …
     - Computer oder Tablet pro Zweiergruppe
     - Beamer oder Präsentationsbildschirm
 
-??? info "Sozialformen"
+??? info "Organisation"
 
-    Kurze gemeinsame Orientierung im **Plenum**, danach **Partnerarbeit** mit [AB 2a](https://github.com/salomegolden/logictraffic/releases/download/ab2_v2/2a_orientierung_logictraffic.pdf).
-
+    **Sozialform:** Kurze gemeinsame Orientierung im **Plenum**, danach **Partnerarbeit** mit [AB 2a](https://github.com/salomegolden/logictraffic/releases/download/ab2_v2/2a_orientierung_logictraffic.pdf).
     Im Tandem übernimmt eine Person die Bedienung von LogicTraffic, während die andere Person beobachtet, liest und begründet. Spätestens beim Wechsel von Seite 1 zu Seite 2 des Arbeitsblatts werden die Rollen getauscht.
 
-??? tip "benötigte Zeit"
-
-    ca. **25–30 Minuten**
+    **Benötigte Zeit:** ca. **25–30 Minuten**
 
 ??? abstract "Verlaufsplanung"
 
@@ -345,7 +350,7 @@ Die Lernenden können …
     - Die Spalte **`sicher`** bewertet die jeweiligen Kombinationen.
     - Die **Formel** wird nur als kompakte Darstellung der Sicherheitsregel benannt; sie muss noch nicht gelesen oder gebildet werden.
 
-??? note "Didaktische Hinweise"
+??? tip "Didaktische Hinweise"
 
     Der Baustein soll nicht zu einer technischen Bedienungsanleitung für LogicTraffic werden. Die Oberfläche ist nur dann didaktisch relevant, wenn ein sichtbares Element mit einer fachlichen Bedeutung verknüpft wird.
 
@@ -362,7 +367,7 @@ Die Lernenden können …
 
     Das [Merkblatt 2b](https://github.com/salomegolden/logictraffic/releases/download/ab2_v2/2b_merkblatt_orientierung.pdf) wird bewusst **nach** der ersten Erkundung eingesetzt. Würde es vor [AB 2a](https://github.com/salomegolden/logictraffic/releases/download/ab2_v2/2a_orientierung_logictraffic.pdf) ausgeteilt, nähme es einen Teil der Beobachtungsleistung vorweg.
 
-??? bug "Differenzierung"
+??? question "Differenzierung"
 
     === "Vereinfachungen"
 
@@ -383,7 +388,7 @@ Die Lernenden können …
         - Bereits eine Situation mit drei Variablen erkunden, ohne die vollständige Tabelle systematisch aufzubauen.
         - Beobachten lassen, dass der Formelbereich auf Änderungen reagiert, ohne die Formel bereits fachlich zu analysieren.
 
-### Phase 3 - Darstellungen zusammenführen und sichern
+### Phase 3 – Darstellungen zusammenführen und sichern
 
 ??? success "Ziele der Einheit"
 
@@ -398,13 +403,11 @@ Die Lernenden können …
     - [:material-image-outline: MB 2b – Merkblatt Orientierung](https://github.com/salomegolden/logictraffic/releases/download/ab2_v2/2b_merkblatt_orientierung.pdf) als Nachschlagehilfe
     - LogicTraffic und Beamer
 
-??? info "Sozialformen"
+??? info "Organisation"
 
-    Zunächst kurze **Einzelarbeit** mit [2c](https://github.com/salomegolden/logictraffic/releases/download/ab2_v2/2c_ergebnissicherungLT.pdf), danach **Partnervergleich**. Die gemeinsame Sicherung erfolgt im **Plenum** mit [Tafelbild 2e](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2e_tafelbild_ergebnissicherung.pdf).
+    **Sozialform:** Zunächst kurze **Einzelarbeit** mit [2c](https://github.com/salomegolden/logictraffic/releases/download/ab2_v2/2c_ergebnissicherungLT.pdf), danach **Partnervergleich**. Die gemeinsame Sicherung erfolgt im **Plenum** mit [Tafelbild 2e](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2e_tafelbild_ergebnissicherung.pdf).
 
-??? tip "benötigte Zeit"
-
-    ca. **15–20 Minuten**
+    **Benötigte Zeit:** ca. **15–20 Minuten**
 
 ??? abstract "Verlaufsplanung"
 
@@ -483,7 +486,7 @@ Die Lernenden können …
 
     Diese Frage bildet den direkten Ausgangspunkt für [Baustein 3 – Wahrheitstabellen](baustein3-wahrheitstabellen.md).
 
-??? note "Didaktische Hinweise"
+??? tip "Didaktische Hinweise"
 
     [2c](https://github.com/salomegolden/logictraffic/releases/download/ab2_v2/2c_ergebnissicherungLT.pdf) und [2e](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2e_tafelbild_ergebnissicherung.pdf) erfüllen bewusst **verschiedene Rollen**:
 
@@ -496,7 +499,7 @@ Die Lernenden können …
 
     Die Formel bleibt hier ein **Ausblick**. Lernende müssen weder Operatoren kennen noch die angezeigte Formel erklären können.
 
-??? bug "Differenzierung"
+??? question "Differenzierung"
 
     === "Vereinfachungen"
 
@@ -516,6 +519,7 @@ Die Lernenden können …
         - Eine eigene grafische Darstellung der Repräsentationswechsel entwickeln lassen.
         - Bereits vermuten lassen, wie viele Zeilen eine vollständige Wahrheitstabelle mit drei Fahrspuren enthalten könnte, ohne die allgemeine Regel vorwegzunehmen.
 
+
 ## Abschluss des Bausteins
 
 Am Ende von Baustein 2 können die Lernenden die digitale Lernumgebung nicht nur bedienen, sondern zentrale Elemente **fachlich deuten**:
@@ -527,7 +531,7 @@ Am Ende von Baustein 2 können die Lernenden die digitale Lernumgebung nicht nur
 5. Die Spalte `sicher` bewertet, ob eine Kombination kollisionsfrei ist.
 6. Die Formel ist eine weitere, kompakte Darstellung der Sicherheitsregel und wird erst später vertieft.
 
-!!! success "Von der konkreten Kreuzung zur symbolischen Darstellung"
+??? success "Von der konkreten Kreuzung zur symbolischen Darstellung"
 
     Baustein 2 schafft die Brücke von der anschaulichen Verkehrssituation zur symbolischen Darstellung in LogicTraffic.
 

@@ -4,7 +4,7 @@
 
 LogicTraffic nutzt Verkehrskreuzungen mit Ampeln und Fahrtrichtungen, um einen anschaulichen Zugang zur booleschen Aussagenlogik zu schaffen.
 
-Die Lernenden untersuchen zunächst konkrete Verkehrssituationen, beschreiben sichere Ampelschaltungen und übertragen ihre Erkenntnisse anschliessend in Wahrheitstabellen und boolesche Formeln.
+Die Lernenden untersuchen zunächst konkrete Verkehrssituationen, beschreiben sichere Ampelschaltungen und übertragen ihre Erkenntnisse anschliessend in Wahrheitstabellen und aussagenlogische Formeln.
 
 Die ganze Unterrichtsreihe basiert auf der online Lernumgebung LogicTraffic (1).
 { .annotate }

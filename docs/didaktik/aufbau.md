@@ -4,7 +4,7 @@
 
 <p class="lt-unit-eyebrow">Vier Bausteine · ein durchgehendes Problem</p>
 
-## Von der Kreuzung zur logischen Formel
+## Von der Kreuzung zur aussagenlogischen Formel
 
 **Welche Ampeln dürfen gleichzeitig Grün haben, ohne dass eine Kollision entsteht?** Diese Frage begleitet die gesamte Unterrichtseinheit. Die Lernenden untersuchen zunächst konkrete Verkehrssituationen, ordnen ihre Beobachtungen und entwickeln daraus eine präzise Sicherheitsregel.
 
@@ -44,7 +44,7 @@ Die Reihenfolge führt schrittweise zu abstrakteren Darstellungen. Der [Darstell
 
 **Leitfrage: Welche Fahrwege vertragen sich?**
 
-Mit Kreuzungsfeldern, Fahrzeugen und Ampelplättchen spielen die Lernenden Verkehrssituationen nach. Sie verändern Fahrtrichtungen und Ampelstellungen, erkennen Konflikte und begründen, welche Kombinationen sicher sind. Die Arbeitsblätter **1a–1c** führen vom Legen einer Kreuzung über das Prüfen sicherer Stellungen zum Sammeln aller Möglichkeiten.
+Mit Kreuzungsfeldern, Fahrzeugen und Ampelplättchen spielen die Lernenden Verkehrssituationen nach. Sie verändern Fahrtrichtungen und Ampelstellungen, erkennen Konflikte und begründen, welche Kombinationen sicher sind. Die Arbeitsblätter **1a–1c** führen vom Legen einer Kreuzung über das Prüfen sicherer Ampelstellungen zum Sammeln aller Möglichkeiten.
 
 **Ergebnis:** erste sprachliche Sicherheitsregeln und eine geordnete Sammlung von Ampelzuständen. Fachliches Vorwissen ist für diesen Einstieg nicht erforderlich.
 
@@ -90,7 +90,7 @@ Die Lernenden übertragen die bekannte Verkehrssituation in [LogicTraffic](https
 
 **Leitfrage: Wie wissen wir, dass wirklich alle Fälle erfasst sind?**
 
-Aus einer Ampelstellung wird eine Tabellenzeile, aus allen möglichen Ampelstellungen eine vollständige Wahrheitstabelle. Mit **3a** lesen die Lernenden die Tabelle für zwei Variablen, mit **3b** entwickeln sie eine Systematik für drei Variablen. **3c** fordert dazu auf, fehlende, doppelte und falsch bewertete Zeilen zu finden. Tabellen werden möglichst zuerst auf Papier erstellt und anschliessend im Tool kontrolliert.
+Aus einer Ampelstellung wird eine Tabellenzeile, aus allen möglichen Ampelstellungen eine vollständige Wahrheitstabelle. Mit **3a** lesen die Lernenden die Tabelle für zwei Variablen, mit **3b** entwickeln sie eine Systematik für drei Variablen. **3c** fordert dazu auf, fehlende, doppelte und falsch bewertete Zeilen zu finden. Tabellen werden möglichst zuerst auf Papier erstellt und anschliessend in LogicTraffic kontrolliert.
 
 **Ergebnis:** eine vollständige und begründet bewertete Tabelle sowie die Einsicht, dass bei $n$ Variablen genau $2^n$ Belegungen entstehen.
 

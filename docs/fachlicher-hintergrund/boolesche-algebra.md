@@ -1,8 +1,8 @@
-# Aussagenlogische Formeln und Boolsche Algebra
+# Aussagenlogische Formeln und Boolesche Algebra
 
 Die formale Logik bildet eine der zentralen Fundamentalen Ideen der Informatik (nach Schwill sowie Hartmann et al. [^1]): Sie spannt das Fundament von der mathematischen Modellierung realer Systeme über Algorithmen bis hin zum Hardware- und Datenbankentwurf.  
 
-In LogicTraffic repräsentieren Formeln das Formalisieren. Während [Wahrheitstabellen](../anhang/glossar.md#wahrheitstabelle) der vollständigen Erfassung aller Zustände dienen (Strukturieren), ermöglichen Formeln eine kompakte, deklarative und rechenbare Steuerung der Lichtsignalanlage. [^1], [^2].
+In LogicTraffic sind aussagenlogische Formeln die formale Darstellung einer Sicherheitsregel mit Variablen und logischen Operatoren. Während [Wahrheitstabellen](../anhang/glossar.md#wahrheitstabelle) der vollständigen Erfassung aller Zustände dienen (Strukturieren), ermöglichen Formeln eine kompakte, deklarative und rechenbare Steuerung der Lichtsignalanlage. [^1], [^2].
 
 ## Didaktischer Sinn: Vom Tabellenumweg zur Steuerungsregel
 

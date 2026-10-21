@@ -1,24 +1,27 @@
-# Baustein 4 – Logische Formeln
+# Baustein 4 – Aussagenlogische Formeln
+
+??? example "Lehrpersonenkommentar als Download" 
+
+    [Lehrerkommentar zu Baustein 4 als Download](https://canva.link/3wwhknt8r3obypr)
 
 In diesem Baustein lernen die Lernenden, Sicherheitsregeln einer Verkehrskreuzung mit aussagenlogischen Formeln zu beschreiben.
 
-Ausgangspunkt ist die Erkenntnis aus [Baustein 3 – Wahrheitstabellen](baustein3-wahrheitstabellen.md): Wahrheitstabellen können alle möglichen Zustände vollständig darstellen, werden mit zunehmender Anzahl von Variablen jedoch schnell sehr umfangreich. Baustein 4 greift genau dieses Problem auf. Die Lernenden entwickeln aus bereits verstandenen Verkehrssituationen schrittweise kompakte logische Regeln und überprüfen diese anschliessend wieder an der Wahrheitstabelle.
+Ausgangspunkt ist die Erkenntnis aus [Baustein 3 – Wahrheitstabellen](baustein3-wahrheitstabellen.md): Wahrheitstabellen können alle möglichen Zustände vollständig darstellen, werden mit zunehmender Anzahl von Variablen jedoch schnell sehr umfangreich. Baustein 4 greift genau dieses Problem auf. Die Lernenden entwickeln aus bereits verstandenen Verkehrssituationen schrittweise kompakte aussagenlogische Formeln für die Sicherheitsregeln und überprüfen diese anschliessend wieder an der Wahrheitstabelle.
 
 Die Progression des Bausteins lautet:
 
-**Verkehrssituation → sprachliche Regel → logische Formel → Wahrheitstabelle → Vergleich und Reflexion**
+**Verkehrssituation → Sicherheitsregel → aussagenlogische Formel → Wahrheitstabelle → Vergleich und Reflexion**
 
 In der optionalen Vertiefung untersuchen die Lernenden logisch äquivalente Formeln sowie DNF und KNF. KDNF und KKNF werden dabei nicht als eigentliches Lernziel in den Vordergrund gestellt, sondern als systematischer Zwischenschritt von der Wahrheitstabelle zur Formel genutzt.
 
-!!! abstract "Auf einen Blick"
+??? abstract "Auf einen Blick"
+
+    **:busts_in_silhouette: Zielgruppe:** Gymnasiale Klassen der 8.–9. Schulstufe
 
     **:stopwatch: Dauer:**  
     Basisteil: ca. **60 Minuten**  
     optionale Vertiefung: zusätzlich ca. **45 Minuten**  
     optionaler Transfer: zusätzlich ca. **20–30 Minuten**
-
-    **:busts_in_silhouette: Sozialform:**  
-    Plenum, Partnerarbeit und kurze Einzelphasen
 
     **:computer: Computer:**  
     Ein Computer oder Tablet mit LogicTraffic pro Zweiergruppe
@@ -34,7 +37,7 @@ In der optionalen Vertiefung untersuchen die Lernenden logisch äquivalente Form
     **:package: Material:**  
     LogicTraffic, Computer oder Tablets, Beamer oder Präsentationsbildschirm sowie die Arbeits- und Merkblätter zu Baustein 4
 
-??? note "Downloads zu Baustein 4"
+??? example "Materialhinweise und Downloads"
 
     - [:memo: Gesamtdossier Baustein 4 – alle Arbeitsblätter 4a–4h inklusive Merkblatt (PDF)](https://github.com/salomegolden/logictraffic/releases/download/ab4_v2/Baustein_4_Dossier.pdf)
 
@@ -54,72 +57,70 @@ In der optionalen Vertiefung untersuchen die Lernenden logisch äquivalente Form
 
 ## Lernziele
 
-### Basisteil
+??? success "Lernziele"
 
-**Bezug zur Unterrichtseinheit:** [LZ1c – Operatoren erklären](../didaktik/lernziele.md#lz1c), [LZ2 – Sicherheitsregeln in Formeln übersetzen](../didaktik/lernziele.md#lernziel-2-boolesche-formeln-aus-textbeschreibungen-ableiten) und [LZ3b – Formeln vollständig prüfen](../didaktik/lernziele.md#lz3b).
+    ### Basisteil
 
-Die Lernenden können …
+    **Bezug zur Unterrichtseinheit:** [LZ1c – Operatoren erklären](../didaktik/lernziele.md#lz1c), [LZ2 – Sicherheitsregeln in Formeln übersetzen](../didaktik/lernziele.md#lernziel-2-boolesche-formeln-aus-textbeschreibungen-ableiten) und [LZ3b – Formeln vollständig prüfen](../didaktik/lernziele.md#lz3b).
 
-- den Vorteil kompakter Formeln gegenüber umfangreichen Wahrheitstabellen beschreiben;
-- die Operatoren `¬`, `∧`, `∨` und `→` in ihrem Verkehrskontext erklären;
-- einfache Verkehrs- und Sicherheitsregeln in aussagenlogische Formeln übersetzen;
-- einfache logische Formeln wieder in Alltagssprache übersetzen;
-- logische Formeln in LogicTraffic syntaktisch korrekt eingeben;
-- eine Formel für zwei bis drei Variablen anhand aller Tabellenzeilen mit der begründeten Sicherheitsbewertung der Kreuzung vergleichen;
-- eine abweichende Belegung finden und erklären, ob die Formel einen gefährlichen Zustand zulässt oder einen sicheren Zustand unnötig ausschliesst, und die betreffende Teilregel korrigieren;
-- zwischen einer konkreten Verkehrssituation, einer sprachlichen Regel, einer Wahrheitstabelle und einer Formel wechseln;
-- erklären, dass unterschiedliche Formeln dieselbe Sicherheitsregel beschreiben können.
+    Die Lernenden können …
 
-**Lernnachweis:** Die Lernenden entwickeln mit 4c eine Formel, lesen sie in Worten und prüfen sie vollständig. Bei einer vorgegebenen fehlerhaften Variante zeigen und korrigieren sie eine Abweichung. NICHT, UND und ODER bilden die Grundlage; die Implikation wird an einfachen Konfliktregeln wie $A \rightarrow \neg B$ gedeutet. Eine eigene korrekte Formel muss nicht alle vier Operatoren enthalten.
+    - den Vorteil kompakter Formeln gegenüber umfangreichen Wahrheitstabellen beschreiben;
+    - die Operatoren `¬`, `∧`, `∨` und `→` in ihrem Verkehrskontext erklären;
+    - einfache Verkehrs- und Sicherheitsregeln in aussagenlogische Formeln übersetzen;
+    - einfache aussagenlogische Formeln wieder in Alltagssprache übersetzen;
+    - aussagenlogische Formeln in LogicTraffic syntaktisch korrekt eingeben;
+    - eine Formel für zwei bis drei Variablen anhand aller Tabellenzeilen mit der begründeten Sicherheitsbewertung der Kreuzung vergleichen;
+    - eine abweichende Belegung finden und erklären, ob die Formel einen gefährlichen Zustand zulässt oder einen sicheren Zustand unnötig ausschliesst, und die betreffende Teilregel korrigieren;
+    - zwischen einer konkreten Verkehrssituation, einer sprachlichen Regel, einer Wahrheitstabelle und einer Formel wechseln;
+    - erklären, dass unterschiedliche Formeln dieselbe Sicherheitsregel beschreiben können.
 
-### Optionale Vertiefung
+    **Lernnachweis:** Die Lernenden entwickeln mit 4c eine Formel, lesen sie in Worten und prüfen sie vollständig. Bei einer vorgegebenen fehlerhaften Variante zeigen und korrigieren sie eine Abweichung. NICHT, UND und ODER bilden die Grundlage; die Implikation wird an einfachen Konfliktregeln wie $A \rightarrow \neg B$ gedeutet. Eine eigene korrekte Formel muss nicht alle vier Operatoren enthalten.
 
-**Bezug zur Unterrichtseinheit:** [LZ4 – gleichwertige Formeln und Normalformen vergleichen](../didaktik/lernziele.md#lernziel-4-normalformen-und-minimierung-boolescher-ausdruecke). Diese Ziele kommen zu den Basiszielen hinzu.
+    ### Optionale Vertiefung
 
-Die Lernenden können zusätzlich …
+    **Bezug zur Unterrichtseinheit:** [LZ4 – gleichwertige Formeln und Normalformen vergleichen](../didaktik/lernziele.md#lernziel-4-normalformen-und-minimierung-boolescher-ausdruecke). Diese Ziele kommen zu den Basiszielen hinzu.
 
-- logisch äquivalente Formeln anhand ihrer Wahrheitstabellen erkennen;
-- einfache Anwendungen der De-Morgan-Regeln nachvollziehen;
-- DNF- und KNF-Formeln lesen und ihre Struktur beschreiben;
-- DNF und KNF in einfachen Beispielen erkennen;
-- erklären, wie eine KDNF bzw. KKNF systematisch aus einer Wahrheitstabelle erzeugt werden kann;
-- kanonische, freie und vereinfachte Formeln hinsichtlich Länge, Verständlichkeit und Verwendungszweck vergleichen.
+    Die Lernenden können zusätzlich …
 
-**Lernnachweis:** Mit 4e–4g erklären die Lernenden an kleinen Beispielen Äquivalenz und Formelstruktur, ordnen Tabellenzeilen vollständigen Termen bzw. Klauseln zu und begründen die Wahl einer Darstellung. Ein allgemeines Minimierungsverfahren und der Nachweis der kürzesten Formel sind nicht verlangt; weitere Umformungen bleiben eine Erweiterung.
+    - logisch äquivalente Formeln anhand ihrer Wahrheitstabellen erkennen;
+    - einfache Anwendungen der De-Morgan-Regeln nachvollziehen;
+    - DNF- und KNF-Formeln lesen und ihre Struktur beschreiben;
+    - DNF und KNF in einfachen Beispielen erkennen;
+    - erklären, wie eine KDNF bzw. KKNF systematisch aus einer Wahrheitstabelle erzeugt werden kann;
+    - kanonische, freie und vereinfachte Formeln hinsichtlich Länge, Verständlichkeit und Verwendungszweck vergleichen.
 
-### Optionaler Transfer
+    **Lernnachweis:** Mit 4e–4g erklären die Lernenden an kleinen Beispielen Äquivalenz und Formelstruktur, ordnen Tabellenzeilen vollständigen Termen bzw. Klauseln zu und begründen die Wahl einer Darstellung. Ein allgemeines Minimierungsverfahren und der Nachweis der kürzesten Formel sind nicht verlangt; weitere Umformungen bleiben eine Erweiterung.
 
-**Bezug zur Unterrichtseinheit:** Anwendung von [LZ2 – modellieren und formalisieren](../didaktik/lernziele.md#lernziel-2-boolesche-formeln-aus-textbeschreibungen-ableiten) und [LZ3b – vollständig prüfen](../didaktik/lernziele.md#lz3b) auf eine komplexere Situation. Für den direkten Weg über Konfliktpaare ist LZ4 keine Voraussetzung.
+    ### Optionaler Transfer
 
-Die Lernenden können zusätzlich …
+    **Bezug zur Unterrichtseinheit:** Anwendung von [LZ2 – modellieren und formalisieren](../didaktik/lernziele.md#lernziel-2-boolesche-formeln-aus-textbeschreibungen-ableiten) und [LZ3b – vollständig prüfen](../didaktik/lernziele.md#lz3b) auf eine komplexere Situation. Für den direkten Weg über Konfliktpaare ist LZ4 keine Voraussetzung.
 
-- eine komplexere Kreuzung systematisch in Teilprobleme zerlegen;
-- mehrere Konfliktbedingungen zu einer Gesamtformel verbinden;
-- ihre Lösung mit LogicTraffic fachlich begründet überprüfen;
-- verschiedene Lösungswege vergleichen und die Rolle der Wahrheitstabelle als Kontrollinstrument erklären.
+    Die Lernenden können zusätzlich …
 
-**Lernnachweis:** Mit 4h entwickeln die Lernenden für fünf Variablen eine Gesamtformel, überprüfen alle 32 Belegungen mit LogicTraffic und begründen ihre Lösung. Das handschriftliche Abschreiben aller Zeilen ist dafür nicht erforderlich.
+    - eine komplexere Kreuzung systematisch in Teilprobleme zerlegen;
+    - mehrere Konfliktbedingungen zu einer Gesamtformel verbinden;
+    - ihre Lösung mit LogicTraffic fachlich begründet überprüfen;
+    - verschiedene Lösungswege vergleichen und die Rolle der Wahrheitstabelle als Kontrollinstrument erklären.
 
-??? note "Abgrenzung zu Baustein 3"
+    **Lernnachweis:** Mit 4h entwickeln die Lernenden für fünf Variablen eine Gesamtformel, überprüfen alle 32 Belegungen mit LogicTraffic und begründen ihre Lösung. Das handschriftliche Abschreiben aller Zeilen ist dafür nicht erforderlich.
 
-    In Baustein 3 stand die Frage im Zentrum:
+    ??? tip "Abgrenzung zu Baustein 3"
 
-    > Wie können wir **alle möglichen Zustände vollständig** darstellen?
+        In Baustein 3 stand die Frage im Zentrum:
 
-    Baustein 4 verfolgt nun eine andere Frage:
+        > Wie können wir **alle möglichen Zustände vollständig** darstellen?
 
-    > Wie können wir **dieselbe Sicherheitsregel kompakt und eindeutig** beschreiben?
+        Baustein 4 verfolgt nun eine andere Frage:
 
-    Die Wahrheitstabelle verschwindet dabei nicht. Sie erhält eine neue Rolle: Sie dient vor allem dazu, Formeln zu **überprüfen und zu vergleichen**.
+        > Wie können wir **dieselbe Sicherheitsregel kompakt und eindeutig** beschreiben?
+
+        Die Wahrheitstabelle verschwindet dabei nicht. Sie erhält eine neue Rolle: Sie dient vor allem dazu, Formeln zu **überprüfen und zu vergleichen**.
 
 ## Vorbereitung
 
 - LogicTraffic auf allen Geräten öffnen und den Formeleditor kurz testen.
-- Für Phase 1 Situation 10 oder das entsprechende Abschlussbild aus Baustein 3 bereithalten.
-- Für Phase 2 eine einfache Situation mit zwei Fahrspuren vorbereiten.
-- Situation 3 für Phase 3 bereithalten.
-- Situation 4 für die optionale Vertiefung vorbereiten.
-- Situation 10 für den abschliessenden Transfer bereithalten.
+- Falls vorhanden können für die einzelnen Situationen das enaktive Material und die Situationskarten verwendet werden. 
 - Falls die Vertiefung durchgeführt wird, die Anzeige bzw. Erzeugung verschiedener Normalformen in LogicTraffic vorab prüfen.
 - Die benötigten Arbeitsblätter einzeln oder als [Gesamtdossier Baustein 4 (PDF)](https://github.com/salomegolden/logictraffic/releases/download/ab4_v2/Baustein_4_Dossier.pdf) ausdrucken oder digital bereitstellen.
 - Das [Merkblatt 4d](https://github.com/salomegolden/logictraffic/releases/download/ab4_v2/4d_uebersicht.pdf) so bereithalten, dass es ab Phase 2 bei Bedarf als Nachschlagehilfe eingesetzt werden kann.
@@ -162,7 +163,7 @@ Die Lernenden können zusätzlich …
 
     `(¬A ∨ ¬C) ∧ (¬B ∨ ¬C)`
 
-    DNF und KNF sind keine neuen logischen Funktionen, sondern bestimmte **Strukturen**, in denen eine Funktion dargestellt werden kann.
+    DNF und KNF sind keine neuen Sicherheitsregeln, sondern unterschiedliche **Strukturen** für aussagenlogische Formeln, die dieselbe Regel darstellen können.
 
     **KDNF und KKNF** sind kanonische Sonderformen. Ihr didaktischer Wert liegt vor allem darin, dass sie sich nach einem festen Verfahren direkt aus einer Wahrheitstabelle konstruieren lassen. Sie sind deshalb ein hilfreiches Scaffold, wenn der direkte Weg zu einer kompakten Formel schwierig ist.
 
@@ -182,7 +183,7 @@ Die **Phasen 1–3 bilden den Basisteil**. Die **Phasen 4–6 sind eine optional
 
 ## Durchführung
 
-### Phase 1 - Von der Tabelle zur Regel
+### Phase 1 – Von der Tabelle zur Regel
 
 ??? success "Ziele der Einheit"
 
@@ -197,13 +198,11 @@ Die **Phasen 1–3 bilden den Basisteil**. Die **Phasen 4–6 sind eine optional
     - LogicTraffic mit Situation 10 oder die entsprechende Darstellung aus Baustein 3
     - optional: Notizpapier oder Begleitportfolio
 
-??? info "Sozialformen"
+??? info "Organisation"
 
-    Kurzer Einstieg im **Plenum**, anschliessend eine kurze **Partnerphase** zur Formulierung einer Sicherheitsregel und gemeinsame Sicherung im **Plenum**.
+    **Sozialform:** Kurzer Einstieg im **Plenum**, anschliessend eine kurze **Partnerphase** zur Formulierung einer Sicherheitsregel und gemeinsame Sicherung im **Plenum**.
 
-??? tip "benötigte Zeit"
-
-    ca. **10 Minuten**
+    **Benötigte Zeit:** ca. **10 Minuten**
 
 ??? abstract "Verlaufsplanung"
 
@@ -262,7 +261,7 @@ Die **Phasen 1–3 bilden den Basisteil**. Die **Phasen 4–6 sind eine optional
 
     Diese Frage führt direkt zu Phase 2.
 
-??? note "Didaktische Hinweise"
+??? tip "Didaktische Hinweise"
 
     Die formale Schreibweise sollte hier noch **nicht vorweggenommen** werden. Entscheidend ist zunächst, dass die Lernenden selbst einen Bedarf für eine kompaktere Repräsentation erleben.
 
@@ -270,7 +269,7 @@ Die **Phasen 1–3 bilden den Basisteil**. Die **Phasen 4–6 sind eine optional
 
     Die sprachlichen Lösungen müssen an dieser Stelle noch nicht fachsprachlich perfekt sein. Sie bilden das Ausgangsmaterial für die Formalisierung in Phase 2.
 
-??? bug "Differenzierung"
+??? question "Differenzierung"
 
     === "Vereinfachungen"
 
@@ -278,7 +277,6 @@ Die **Phasen 1–3 bilden den Basisteil**. Die **Phasen 4–6 sind eine optional
         - Satzstarter anbieten:  
           > „A und B dürfen nicht …“  
           > „Wenn A Grün hat, dann …“
-        - Die Zahlen $2^5$ und $2^{10}$ bereits vorgeben und nur die Bedeutung diskutieren lassen.
         - Die Lernenden zunächst nur eine einzige Sicherheitsregel formulieren lassen.
 
     === "Erweiterungen"
@@ -287,7 +285,7 @@ Die **Phasen 1–3 bilden den Basisteil**. Die **Phasen 4–6 sind eine optional
         - Zwei Darstellungen vergleichen lassen: vollständige Tabelle versus kurze sprachliche Regel.
         - Diskutieren lassen, welche Eigenschaften eine gute formale Darstellung haben sollte: kurz, eindeutig, überprüfbar und maschinenlesbar.
 
-### Phase 2 - Von Worten zu Zeichen
+### Phase 2 – Von Worten zu Zeichen
 
 ??? success "Ziele der Einheit"
 
@@ -303,13 +301,11 @@ Die **Phasen 1–3 bilden den Basisteil**. Die **Phasen 4–6 sind eine optional
     - Computer oder Tablet pro Zweiergruppe
     - Beamer oder Präsentationsbildschirm
 
-??? info "Sozialformen"
+??? info "Organisation"
 
-    Kurzer **fragend-entwickelnder Input im Plenum**, anschliessend **Partnerarbeit** mit [AB 4b](https://github.com/salomegolden/logictraffic/releases/download/ab4_v2/4b_einfuhrung_formelzeichen.pdf). Die erste Überprüfung in LogicTraffic erfolgt ebenfalls im Tandem. Abschliessend kurze gemeinsame Sicherung.
+    **Sozialform:** Kurzer **fragend-entwickelnder Input im Plenum**, anschliessend **Partnerarbeit** mit [AB 4b](https://github.com/salomegolden/logictraffic/releases/download/ab4_v2/4b_einfuhrung_formelzeichen.pdf). Die erste Überprüfung in LogicTraffic erfolgt ebenfalls im Tandem. Abschliessend kurze gemeinsame Sicherung.
 
-??? tip "benötigte Zeit"
-
-    ca. **20 Minuten**
+    **Benötigte Zeit:** ca. **20 Minuten**
 
 ??? abstract "Verlaufsplanung"
 
@@ -402,7 +398,7 @@ Die **Phasen 1–3 bilden den Basisteil**. Die **Phasen 4–6 sind eine optional
 
     Das [Merkblatt 4d](https://github.com/salomegolden/logictraffic/releases/download/ab4_v2/4d_uebersicht.pdf) kann ab jetzt als Nachschlagehilfe verwendet werden.
 
-??? note "Didaktische Hinweise"
+??? tip "Didaktische Hinweise"
 
     Die Lernenden sollen die Operatoren nicht als isolierte Zeichentabelle auswendig lernen, sondern ihre Bedeutung jeweils an einer bekannten Verkehrssituation aufbauen.
 
@@ -412,7 +408,7 @@ Die **Phasen 1–3 bilden den Basisteil**. Die **Phasen 4–6 sind eine optional
 
     LogicTraffic dient zur **Überprüfung**, nicht als Ersatz für die Begründung. Eine Aussage wie „Die Formel stimmt, weil LogicTraffic `Optimal` anzeigt“ reicht fachlich nicht aus.
 
-??? bug "Differenzierung"
+??? question "Differenzierung"
 
     === "Vereinfachungen"
 
@@ -427,12 +423,11 @@ Die **Phasen 1–3 bilden den Basisteil**. Die **Phasen 4–6 sind eine optional
 
     === "Erweiterungen"
 
-        - Mehrere sprachliche Formulierungen für dieselbe Formel finden lassen.
         - `¬(A ∧ B)` und `A → ¬B` in LogicTraffic vergleichen lassen, ohne die Äquivalenz bereits formal zu benennen.
         - Eigene Beispiele für korrekt geklammerte und falsch interpretierte Formeln entwickeln lassen.
         - Begründen lassen, weshalb `A ∨ B` auch dann wahr ist, wenn beide Variablen wahr sind.
 
-### Phase 3 - Von Konflikten zur Formel
+### Phase 3 – Von Konflikten zur Formel
 
 ??? success "Ziele der Einheit"
 
@@ -447,15 +442,12 @@ Die **Phasen 1–3 bilden den Basisteil**. Die **Phasen 4–6 sind eine optional
     - LogicTraffic, **Situation 3**
     - Computer oder Tablet pro Zweiergruppe
 
-??? info "Sozialformen"
+??? info "Organisation"
 
-    Überwiegend **Partnerarbeit**. Kurzer gemeinsamer Start zur Klärung des Arbeitswegs und eine gemeinsame Ergebnissicherung am Schluss.
-
+    **Sozialform:** Überwiegend **Partnerarbeit**. Kurzer gemeinsamer Start zur Klärung des Arbeitswegs und eine gemeinsame Ergebnissicherung am Schluss.
     Im Tandem kann eine Person die Konflikte bzw. Formeln entwickeln, während die andere Person jede Teilformel in Alltagssprache zurückübersetzt und an der Wahrheitstabelle kontrolliert. Die Rollen werden zwischendurch gewechselt.
 
-??? tip "benötigte Zeit"
-
-    ca. **30 Minuten**
+    **Benötigte Zeit:** ca. **30 Minuten**
 
 ??? abstract "Verlaufsplanung"
 
@@ -548,7 +540,7 @@ Die **Phasen 1–3 bilden den Basisteil**. Die **Phasen 4–6 sind eine optional
 
     Die Formeln werden an dieser Stelle noch nicht formal umgeformt. Entscheidend ist zunächst die Beobachtung:
 
-    > Verschiedene Formeln können dieselben sicheren und unsicheren Zustände beschreiben.
+    > Verschiedene Formeln können dieselben sicheren und unsicheren Belegungen beschreiben.
 
     **7. Basisteil sichern**
 
@@ -572,20 +564,20 @@ Die **Phasen 1–3 bilden den Basisteil**. Die **Phasen 4–6 sind eine optional
 
     Das [Merkblatt 4d](https://github.com/salomegolden/logictraffic/releases/download/ab4_v2/4d_uebersicht.pdf) dient anschliessend als Nachschlagehilfe.
 
-??? note "Didaktische Hinweise"
+??? tip "Didaktische Hinweise"
 
-    Die wichtigste Strategie dieser Phase ist die **Zerlegung des Gesamtproblems in einzelne Konflikte**. Die Lernenden sollen nicht versuchen, sofort eine grosse Formel zu erraten.
+    Eine Formel kann Kollisionen verhindern und trotzdem kollisionsfreie Ampelstellungen unnötig ausschliessen. Deshalb werden bei der Überprüfung zwei Fragen unterschieden:
 
-    Ebenso wichtig ist die Unterscheidung zwischen **sicher** und **optimal**. Eine Formel kann Kollisionen verhindern und trotzdem unnötig viele sichere Zustände ausschliessen. Deshalb sollten immer beide Fragen gestellt werden:
+    - **Ist die Formel sicher?** Sie darf keine Ampelstellung mit Kollisionsgefahr zulassen.
+    - **Ist die Formel optimal?** Sie muss zusätzlich alle kollisionsfreien Ampelstellungen zulassen.
 
-    - Verhindert die Formel alle Kollisionen?
-    - Erlaubt sie gleichzeitig die eigentlich sicheren Kombinationen?
+    Dabei sind die Rückmeldungen in LogicTraffic auf zwei Ebenen zu unterscheiden: Der **Polizist** beurteilt die aktuell ausgewählte Ampelstellung. Die **Gesamtbewertung** prüft die Freigaben für alle möglichen Ampelstellungen. Eine einzelne kollisionsfreie Ampelstellung bestätigt deshalb noch nicht die Korrektheit der gesamten Formel.
 
-    Das Softwarefeedback ist formativ zu nutzen. Die Lernenden sollen erklären, **warum** eine Lösung stimmt oder nicht stimmt.
+    Zeigt LogicTraffic **«unsicher»**, suchen die Lernenden eine Ampelstellung mit Kollisionsgefahr, die von ihrer Formel fälschlich zugelassen wird. Bei **«nicht ideal»** suchen sie eine kollisionsfreie Ampelstellung, die unnötig ausgeschlossen wird. **«Optimal»** bedeutet, dass alle kollisionsfreien Ampelstellungen zugelassen und alle Ampelstellungen mit Kollisionsgefahr ausgeschlossen werden. Die Bewertung sagt nichts darüber aus, ob die Formel möglichst kurz ist.
 
-    Die kurze Gegenüberstellung verschiedener korrekter Formeln bereitet die optionale Vertiefung vor, ohne den Basisteil bereits mit Normalformen oder Umformungsregeln zu überladen.
+    Die Rückmeldung dient als Ausgangspunkt für die Begründung: Die Lernenden erklären die gefundene Abweichung anhand der Fahrwege und der zugehörigen Tabellenzeile und korrigieren anschliessend ihre Formel.
 
-??? bug "Differenzierung"
+??? question "Differenzierung"
 
     === "Vereinfachungen"
 
@@ -603,13 +595,13 @@ Die **Phasen 1–3 bilden den Basisteil**. Die **Phasen 4–6 sind eine optional
         - Jede alternative Formel vollständig in Alltagssprache zurückübersetzen lassen.
         - Ohne Software vorhersagen lassen, ob zwei Formeln dieselbe Wahrheitstabelle erzeugen.
         - Eine möglichst gut lesbare und eine möglichst kurze Formel entwickeln und die beiden Varianten vergleichen.
-        - Begründen lassen, weshalb eine lediglich „sichere“, aber zu restriktive Formel keine optimale Steuerung ist.
+        - Eine sichere, aber zu restriktive Formel untersuchen lassen: Welche kollisionsfreie Ampelstellung wird unnötig ausgeschlossen? Die Formel so anpassen, dass sie alle kollisionsfreien Ampelstellungen zulässt.
 
-### Phase 4 - Anders gebaut, gleich gemeint
+### Phase 4 – Anders gebaut, gleich gemeint
 
 ??? success "Ziele der Einheit"
 
-    Die Lernenden erkennen, dass unterschiedlich aussehende Formeln dieselbe logische Funktion beschreiben können.
+    Die Lernenden erkennen, dass unterschiedlich aussehende Formeln dieselbe Sicherheitsregel beschreiben können.
 
     Sie überprüfen logische Äquivalenz über Wahrheitstabellen, lernen ein De-Morgan-Muster kennen und können DNF und KNF anhand ihrer äusseren Struktur unterscheiden.
 
@@ -620,13 +612,11 @@ Die **Phasen 1–3 bilden den Basisteil**. Die **Phasen 4–6 sind eine optional
     - LogicTraffic, **Situation 4**
     - Computer oder Tablet pro Zweiergruppe
 
-??? info "Sozialformen"
+??? info "Organisation"
 
-    **Partnerarbeit** mit kurzen gemeinsamen Zwischenstopps. Die Begriffe Äquivalenz, DNF und KNF werden im **Plenum** gesichert.
+    **Sozialform:** **Partnerarbeit** mit kurzen gemeinsamen Zwischenstopps. Die Begriffe Äquivalenz, DNF und KNF werden im **Plenum** gesichert.
 
-??? tip "benötigte Zeit"
-
-    ca. **15 Minuten**
+    **Benötigte Zeit:** ca. **15 Minuten**
 
 ??? abstract "Verlaufsplanung"
 
@@ -705,11 +695,11 @@ Die **Phasen 1–3 bilden den Basisteil**. Die **Phasen 4–6 sind eine optional
 
     **Erwartete Antwort:** UND (`∧`).
 
-    > Beschreiben DNF und KNF grundsätzlich andere Sicherheitsfunktionen?
+    > Können eine DNF und eine KNF logisch äquivalent sein?
 
-    **Erwartete Antwort:** Nein. Es sind unterschiedliche Formen, in denen dieselbe logische Funktion dargestellt werden kann.
+    **Erwartete Antwort:** Nein. Es sind unterschiedliche Formen, in denen dieselbe Sicherheitsregel als aussagenlogische Formel dargestellt werden kann.
 
-??? note "Didaktische Hinweise"
+??? tip "Didaktische Hinweise"
 
     Äquivalenz sollte zunächst **beobachtet und überprüft** werden, bevor Umformungsregeln formalisiert werden. Dadurch bleibt der Zusammenhang mit der bereits bekannten Wahrheitstabelle erhalten.
 
@@ -717,7 +707,7 @@ Die **Phasen 1–3 bilden den Basisteil**. Die **Phasen 4–6 sind eine optional
 
     Die De-Morgan-Regeln sind hier eine Brücke zwischen zwei äquivalenten Schreibweisen. Sie sollen nicht zu einer isolierten Sammlung von Rechenregeln werden.
 
-??? bug "Differenzierung"
+??? question "Differenzierung"
 
     === "Vereinfachungen"
 
@@ -733,10 +723,10 @@ Die **Phasen 1–3 bilden den Basisteil**. Die **Phasen 4–6 sind eine optional
 
         - Das zweite De-Morgan-Gesetz selbstständig mit einer Wahrheitstabelle überprüfen lassen.
         - Eine einfache Formel gezielt in eine äquivalente Form umschreiben lassen.
-        - Eine DNF und eine KNF für dieselbe Funktion suchen und vergleichen lassen.
+        - Eine DNF und eine KNF für dieselbe Sicherheitsregel suchen und vergleichen lassen.
         - Äquivalenz zunächst ohne LogicTraffic begründen und danach erst kontrollieren.
 
-### Phase 5 - Von der Wahrheitstabelle zur Formel
+### Phase 5 – Von der Wahrheitstabelle zur Formel
 
 ??? success "Ziele der Einheit"
 
@@ -751,13 +741,11 @@ Die **Phasen 1–3 bilden den Basisteil**. Die **Phasen 4–6 sind eine optional
     - Computer oder Tablet pro Zweiergruppe
     - optional: [:material-image-outline: MB 4d – Logik auf einen Blick](https://github.com/salomegolden/logictraffic/releases/download/ab4_v2/4d_uebersicht.pdf)
 
-??? info "Sozialformen"
+??? info "Organisation"
 
-    **Partnerarbeit** mit einem kurzen gemeinsamen Beispiel zu Beginn. Die Lernenden ordnen einzelne Tabellenzeilen den zugehörigen Termen bzw. Klauseln zu.
+    **Sozialform:** **Partnerarbeit** mit einem kurzen gemeinsamen Beispiel zu Beginn. Die Lernenden ordnen einzelne Tabellenzeilen den zugehörigen Termen bzw. Klauseln zu.
 
-??? tip "benötigte Zeit"
-
-    ca. **15 Minuten**
+    **Benötigte Zeit:** ca. **15 Minuten**
 
 ??? abstract "Verlaufsplanung"
 
@@ -839,7 +827,7 @@ Die **Phasen 1–3 bilden den Basisteil**. Die **Phasen 4–6 sind eine optional
 
     **Wahrheitstabelle → KDNF/KKNF → vereinfachte bzw. gut lesbare Formel**
 
-??? note "Didaktische Hinweise"
+??? tip "Didaktische Hinweise"
 
     KDNF und KKNF sind in diesem Baustein bewusst **Scaffolds** und nicht das zentrale Endziel. Der Schwerpunkt der gesamten Reihe bleibt auf DNF/KNF, Äquivalenz, Modellierung und dem Wechsel zwischen Repräsentationen.
 
@@ -847,7 +835,7 @@ Die **Phasen 1–3 bilden den Basisteil**. Die **Phasen 4–6 sind eine optional
 
     Wichtig ist, dass die Lernenden den Zusammenhang zwischen **einer Tabellenzeile** und **einem vollständigen Term bzw. einer vollständigen Klausel** verstehen. Reines Kopieren einer automatisch erzeugten Formel reicht nicht aus.
 
-??? bug "Differenzierung"
+??? question "Differenzierung"
 
     === "Vereinfachungen"
 
@@ -861,14 +849,14 @@ Die **Phasen 1–3 bilden den Basisteil**. Die **Phasen 4–6 sind eine optional
 
         - KDNF und KKNF für dieselbe Wahrheitstabelle vollständig gegenüberstellen.
         - Für eine beliebige Tabellenzeile ohne Software den zugehörigen KDNF-Term und die KKNF-Klausel bilden.
-        - Begründen lassen, warum beide kanonischen Formen dieselbe Funktion beschreiben.
+        - Begründen lassen, warum beide kanonischen Formen jede Ampelstellung gleich als sicher oder unsicher bewerten.
         - Eine kanonische Formel schrittweise vereinfachen und jede Vereinfachung auf Äquivalenz prüfen.
 
-### Phase 6 - Lang, kurz, gleichwertig?
+### Phase 6 – Lang, kurz, gleichwertig?
 
 ??? success "Ziele der Einheit"
 
-    Die Lernenden vergleichen verschiedene Formeln, die dieselbe logische Funktion beschreiben, und beurteilen deren Eignung nach nachvollziehbaren Kriterien.
+    Die Lernenden vergleichen verschiedene Formeln, die dieselbe Sicherheitsregel beschreiben, und beurteilen deren Eignung nach nachvollziehbaren Kriterien.
 
     Sie unterscheiden dabei zwischen **logischer Korrektheit** und Eigenschaften wie Länge, Lesbarkeit, systematischer Erzeugbarkeit oder Nähe zur Verkehrssituation.
 
@@ -879,13 +867,11 @@ Die **Phasen 1–3 bilden den Basisteil**. Die **Phasen 4–6 sind eine optional
     - Computer oder Tablet pro Zweiergruppe
     - Ergebnisse aus [AB 4e](https://github.com/salomegolden/logictraffic/releases/download/ab4_v2/4e_KNF_DNF.pdf) und [AB 4f](https://github.com/salomegolden/logictraffic/releases/download/ab4_v2/4f_Von_Wahrheitstabelle_zur_Formel.pdf)
 
-??? info "Sozialformen"
+??? info "Organisation"
 
-    **Partnerarbeit** zum Vergleichen und Bewerten der Formeln, anschliessend kurze **Plenumsdiskussion** zur Frage, ob es eine „beste“ Darstellung gibt.
+    **Sozialform:** **Partnerarbeit** zum Vergleichen und Bewerten der Formeln, anschliessend kurze **Plenumsdiskussion** zur Frage, ob es eine „beste“ Darstellung gibt.
 
-??? tip "benötigte Zeit"
-
-    ca. **15 Minuten**
+    **Benötigte Zeit:** ca. **15 Minuten**
 
 ??? abstract "Verlaufsplanung"
 
@@ -903,7 +889,7 @@ Die **Phasen 1–3 bilden den Basisteil**. Die **Phasen 4–6 sind eine optional
 
     Bevor über Länge oder Schönheit gesprochen wird, klären die Lernenden:
 
-    > Beschreiben die Formeln tatsächlich dieselbe Funktion?
+    > Bewerten beide Formeln jede Ampelstellung gleich?
 
     Als Kriterium gilt:
 
@@ -938,20 +924,20 @@ Die **Phasen 1–3 bilden den Basisteil**. Die **Phasen 4–6 sind eine optional
 
     > Welche Darstellung besonders geeignet ist, hängt davon ab, wofür sie verwendet wird.
 
-??? note "Didaktische Hinweise"
+??? tip "Didaktische Hinweise"
 
     Diese Phase soll keine Suche nach einer vermeintlich einzig richtigen oder einzig „schönen“ Formel werden.
 
     Die Lernenden sollen zwei Ebenen konsequent trennen:
 
-    **1. Semantik:** Beschreibt die Formel die richtige Funktion?  
+    **1. Semantik:** Ordnet die Formel jeder Ampelstellung den passenden Sicherheitswert zu?  
     **2. Darstellung:** Wie geeignet ist diese Form für einen bestimmten Zweck?
 
     Gerade sehr lange KDNF- oder KKNF-Formeln sind didaktisch wertvoll, weil sichtbar wird, dass Länge kein Kriterium für logische Korrektheit ist.
 
     Gleichzeitig bietet der Vergleich Gelegenheit für anspruchsvollere Denkprozesse: erklären, begründen, beurteilen und zwischen Darstellungen wechseln.
 
-??? bug "Differenzierung"
+??? question "Differenzierung"
 
     === "Vereinfachungen"
 
@@ -968,7 +954,7 @@ Die **Phasen 1–3 bilden den Basisteil**. Die **Phasen 4–6 sind eine optional
         - Untersuchen, ob eine Vereinfachung die Verkehrsbedeutung leichter oder schwerer erkennbar macht.
         - Eine eigene Bewertungsdimension ergänzen und begründen.
 
-### Phase 7 - Transfer – Situation 10
+### Phase 7 – Transfer – Situation 10
 
 ??? success "Ziele der Einheit"
 
@@ -984,13 +970,11 @@ Die **Phasen 1–3 bilden den Basisteil**. Die **Phasen 4–6 sind eine optional
     - [:material-image-outline: MB 4d – Logik auf einen Blick](https://github.com/salomegolden/logictraffic/releases/download/ab4_v2/4d_uebersicht.pdf)
     - bei Bedarf [AB 4f](https://github.com/salomegolden/logictraffic/releases/download/ab4_v2/4f_Von_Wahrheitstabelle_zur_Formel.pdf) als Hilfestellung für den systematischen Weg über die Wahrheitstabelle
 
-??? info "Sozialformen"
+??? info "Organisation"
 
-    Überwiegend **Partnerarbeit**. Die Paare arbeiten möglichst selbstständig und vergleichen ihre Lösungsstrategien zum Schluss mit einem anderen Tandem oder im Plenum.
+    **Sozialform:** Überwiegend **Partnerarbeit**. Die Paare arbeiten möglichst selbstständig und vergleichen ihre Lösungsstrategien zum Schluss mit einem anderen Tandem oder im Plenum.
 
-??? tip "benötigte Zeit"
-
-    ca. **20–30 Minuten**
+    **Benötigte Zeit:** ca. **20–30 Minuten**
 
 ??? abstract "Verlaufsplanung"
 
@@ -1084,7 +1068,7 @@ Die **Phasen 1–3 bilden den Basisteil**. Die **Phasen 4–6 sind eine optional
     - Die Wahrheitstabelle bleibt nützlich, um die Formel zu kontrollieren.
     - Eine komplexe Aufgabe kann in kleinere Konfliktbedingungen zerlegt und anschliessend wieder zusammengesetzt werden.
 
-??? note "Didaktische Hinweise"
+??? tip "Didaktische Hinweise"
 
     Der Transfer sollte nicht zu einer repetitiven Aufgabe werden, in der für bereits vorgegebene Spurpaare nur immer wieder `¬(X ∧ Y)` eingesetzt wird. Der eigentliche Anspruch liegt in der **Modellierung des Gesamtsystems**:
 
@@ -1094,9 +1078,9 @@ Die **Phasen 1–3 bilden den Basisteil**. Die **Phasen 4–6 sind eine optional
 
     Die 32-zeilige Wahrheitstabelle erhält im Transfer eine wichtige neue Funktion: Sie ist nicht mehr der primäre Lösungsweg, sondern ein mächtiges Instrument zur **Verifikation**.
 
-    Für die Auswertung lohnt es sich, unterschiedliche korrekte Formeln nebeneinanderzustellen. Dadurch wird sichtbar, dass dieselbe Sicherheitsfunktion verschieden modelliert werden kann.
+    Für die Auswertung lohnt es sich, unterschiedliche korrekte Formeln nebeneinanderzustellen. Dadurch wird sichtbar, dass dieselbe Sicherheitsregel verschieden formal dargestellt werden kann.
 
-??? bug "Differenzierung"
+??? question "Differenzierung"
 
     === "Vereinfachungen"
 
@@ -1116,6 +1100,7 @@ Die **Phasen 1–3 bilden den Basisteil**. Die **Phasen 4–6 sind eine optional
         - Die Äquivalenz zweier Lösungen anhand ausgewählter Belegungen und anschliessend vollständig über die Wahrheitstabelle untersuchen.
         - Begründen, welche Darstellung sich für Menschen und welche sich für ein systematisches Erzeugungsverfahren besonders gut eignet.
 
+
 ## Abschluss des Bausteins
 
 Am Ende des Bausteins haben die Lernenden dieselbe grundlegende Sicherheitsidee auf mehreren Ebenen betrachtet:
@@ -1125,12 +1110,12 @@ Am Ende des Bausteins haben die Lernenden dieselbe grundlegende Sicherheitsidee 
 3. **tabellarisch** als Wahrheitstabelle;
 4. **symbolisch** als aussagenlogische Formel.
 
-!!! success "Von der Kreuzung zur Logik"
+??? success "Von der Kreuzung zur Logik"
 
     Eine reale Problemsituation kann schrittweise analysiert, abstrahiert und formal beschrieben werden.
 
     Wahrheitstabellen und Formeln stehen dabei nicht in Konkurrenz zueinander:
 
     - Die **Wahrheitstabelle** beschreibt alle möglichen Zustände vollständig.
-    - Die **Formel** beschreibt dieselbe logische Funktion kompakt.
+    - Die **aussagenlogische Formel** beschreibt dieselbe Sicherheitsregel kompakt.
     - Der Wechsel zwischen beiden Darstellungen ermöglicht es, Lösungen zu entwickeln, zu überprüfen und miteinander zu vergleichen.
