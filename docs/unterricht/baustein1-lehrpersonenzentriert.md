@@ -4,7 +4,9 @@
 
     [Lehrpersonenkommentar Baustein 1 - Lehrpersonenzentrierter Einstieg als Download](https://canva.link/hh95uvquaybbm27)
 
-Die Lernenden untersuchen anhand projizierter Kreuzungsbilder, welche Ampelstellungen sicher sind. Die Lehrperson erläutert die Fahrwege, modelliert die Beurteilung einzelner Kombinationen und zeigt eine systematische Vorgehensweise zum Erfassen aller Möglichkeiten. Kurze Verständnisfragen und angeleitete schriftliche Aufgaben begleiten den Input.
+Die Lernenden untersuchen anhand projizierter Kreuzungsbilder, welche Ampelbelegungen sicher sind. Die Lehrperson erläutert die Fahrwege, modelliert die Beurteilung einzelner Kombinationen und zeigt eine systematische Vorgehensweise zum Erfassen aller Möglichkeiten. Kurze Verständnisfragen und angeleitete schriftliche Aufgaben begleiten den Input.
+
+Eine **Ampelbelegung** legt für jede betrachtete Ampel Rot oder Grün fest. Ein **sicherer Kreuzungszustand** liegt vor, wenn keine zwei miteinander in Konflikt stehenden Verkehrsströme gleichzeitig Grün haben. Auch «alle Ampeln Rot» ist sicher. Entscheidend ist die Kollisionsfreiheit der freigegebenen Fahrbewegungen im Kreuzungsmodell; ein einzelner Versuch ohne beobachtete Kollision genügt als Begründung nicht.
 
 Dieser Baustein ist eine **Alternative zum enaktiven Baustein 1**. Beide Einstiege bereiten die anschliessende Arbeit mit LogicTraffic vor. Hier werden keine Fahrzeuge bewegt, Ampelkarten umgedreht oder Verkehrssituationen nachgespielt. Die Darstellung erfolgt anhand statischer Bilder, sprachlicher Erklärungen und einfacher Tabellen mit den Einträgen **Rot** und **Grün**.
 
@@ -37,7 +39,7 @@ Operatoren, aussagenlogische Formeln, die Zuordnung zu `0` und `1` sowie die for
 
 ??? success "Lernziele"
 
-    **Bezug zur Unterrichtseinheit:** [LZ1a – Verkehrssituationen deuten](../didaktik/lernziele.md#lz1a); Vorbereitung auf [LZ1b – alle Zustände erfassen](../didaktik/lernziele.md#lz1b) und [LZ2 – Sicherheitsregeln formulieren](../didaktik/lernziele.md#lernziel-2-boolesche-formeln-aus-textbeschreibungen-ableiten).
+    **Bezug zur Unterrichtseinheit:** [LZ1a – Verkehrssituationen deuten](../didaktik/lernziele.md#lz1a); Vorbereitung auf [LZ1b – alle Ampelbelegungen erfassen](../didaktik/lernziele.md#lz1b) und [LZ2 – Sicherheitsregeln formulieren](../didaktik/lernziele.md#lernziel-2-boolesche-formeln-aus-textbeschreibungen-ableiten).
 
     Die gemeinsamen Ziele entsprechen denen des [enaktiven Einstiegs](baustein1-enaktiv.md#lernziele). Hier werden sie anhand statischer Bilder und angeleiteter Aufgaben erarbeitet. Die Codierung mit `0`/`1`, die Regel $2^n$ und formale Operatoren folgen in späteren Bausteinen.
 
@@ -52,13 +54,13 @@ Operatoren, aussagenlogische Formeln, die Zuordnung zu `0` und `1` sowie die for
 
     - vorgegebene Fahrwege und mögliche Konfliktstellen in einem Kreuzungsbild erkennen;
     - für jede Spur die Zustände Rot und Grün unterscheiden;
-    - sichere und unsichere Ampelkombinationen begründet beurteilen;
+    - sichere und unsichere Ampelbelegungen begründet beurteilen;
     - erklären, weshalb mehrere grüne Ampeln nicht automatisch unsicher sind und „alle Rot“ kollisionsfrei ist;
     - eine einfache Sicherheitsregel in eigenen Worten ausdrücken;
     - erklären, weshalb alle möglichen Kombinationen systematisch betrachtet werden müssen;
-    - erste Ampelzustände in einer einfachen Tabelle mit Rot und Grün geordnet festhalten.
+    - erste Ampelbelegungen in einer einfachen Tabelle mit Rot und Grün geordnet festhalten.
 
-    **Lernnachweis:** Die Lernenden zeigen und begründen eine sichere und eine unsichere Ampelstellung, formulieren eine Regel und ordnen Rot-Grün-Kombinationen. Die vollständige, selbstständige Konstruktion einer Wahrheitstabelle ist Ziel von Baustein 3.
+    **Lernnachweis:** Die Lernenden zeigen und begründen eine sichere und eine unsichere Ampelbelegung, formulieren eine Regel und ordnen Rot-Grün-Kombinationen. Die vollständige, selbstständige Konstruktion einer Wahrheitstabelle ist Ziel von Baustein 3.
 
 ## Vorbereitung
 
@@ -85,7 +87,7 @@ Operatoren, aussagenlogische Formeln, die Zuordnung zu `0` und `1` sowie die for
 | --- | --- | --- | --- |
 | 1 | Logik einordnen und Aussagen verstehen | Kurzinput und Einordnungsaufgabe | 10 Min. |
 | 2 | Kreuzung und Sicherheitsproblem verstehen | Bild erläutern, Problem und Modellannahmen vorgeben | 10 Min. |
-| 3 | Sichere Ampelstellungen beurteilen | Beurteilung an Beispielen vormachen und anleiten | 15 Min. |
+| 3 | Sichere Ampelbelegungen beurteilen | Beurteilung an Beispielen vormachen und anleiten | 15 Min. |
 | 4 | Alle Möglichkeiten erfassen | Systematisches Verfahren vorführen, Tabelle gemeinsam ergänzen | 15 Min. |
 | 5 | Ergebnisse sichern und Ausblick | Kurze schriftliche Sicherung auswerten | 15 Min. |
 | **Gesamt** | | | **85 Min.** |
@@ -157,7 +159,7 @@ Operatoren, aussagenlogische Formeln, die Zuordnung zu `0` und `1` sowie die for
 
     Boole wird historisch eingeordnet. Boolesche Variablen, Datentypen, zusammengesetzte Aussagen und logische Folgerungen mit „wenn … dann …“ werden noch nicht eingeführt.
 
-    „Die Ampel zeigt Grün“ beschreibt einen Zustand. „Die Ampelstellung ist sicher“ bewertet die gesamte Kombination. Beide Ebenen werden auseinandergehalten.
+    „Die Ampel zeigt Grün“ beschreibt einen Zustand. „Die Ampelbelegung ist sicher“ bewertet die gesamte Kombination. Beide Ebenen werden auseinandergehalten.
 
 ??? question "Differenzierung"
 
@@ -195,7 +197,7 @@ Operatoren, aussagenlogische Formeln, die Zuordnung zu `0` und `1` sowie die for
 
     Die Lehrperson greift das bereits gezeigte Alltagsbild nochmals kurz auf und formuliert:
 
-    > Ampeln regeln, welche Fahrzeuge fahren dürfen. Heute untersuchen wir, welche Ampelstellungen in einem vereinfachten Kreuzungsmodell sicher sind.
+    > Ampeln regeln, welche Fahrzeuge fahren dürfen. Heute untersuchen wir, welche Ampelbelegungen in einem vereinfachten Kreuzungsmodell sicher sind.
 
     **2. Modell erklären – 5 Minuten**
 
@@ -233,7 +235,9 @@ Operatoren, aussagenlogische Formeln, die Zuordnung zu `0` und `1` sowie die for
         - Den Unterschied zwischen dem vereinfachten Modell und einer realen Kreuzung mündlich erklären lassen.
         - Das vorgegebene Modell beibehalten; keine zusätzlichen Verkehrssituationen einführen.
 
-### Phase 3 – Sichere Ampelstellungen beurteilen
+<span id="phase-3-sichere-ampelstellungen-beurteilen"></span>
+
+### Phase 3 – Sichere Ampelbelegungen beurteilen
 
 ??? success "Ziele der Einheit"
 
@@ -241,7 +245,7 @@ Operatoren, aussagenlogische Formeln, die Zuordnung zu `0` und `1` sowie die for
 
 ??? example "Material"
 
-    - Statische Bilder von vier ausgewählten Ampelstellungen derselben Kreuzung
+    - Statische Bilder von vier ausgewählten Ampelbelegungen derselben Kreuzung
     - Papier und Schreibzeug
 
 ??? info "Organisation"
@@ -261,13 +265,13 @@ Operatoren, aussagenlogische Formeln, die Zuordnung zu `0` und `1` sowie die for
     3. Stehen diese Fahrwege im Konflikt?
     4. Ist die gesamte Kombination sicher oder unsicher?
 
-    Die Beurteilung erfolgt am statischen Bild. Es werden keine Autos bewegt und keine Ampelzustände interaktiv verändert.
+    Die Beurteilung erfolgt am statischen Bild. Es werden keine Autos bewegt und keine Ampelbelegungen interaktiv verändert.
 
     **2. Vorgegebene Beispiele bearbeiten – 5 Minuten**
 
     Die Lernenden beurteilen zwei weitere Bilder schriftlich:
 
-    > Notiere, welche Spuren Grün haben. Entscheide, ob die Ampelstellung sicher ist, und begründe deine Antwort mit den Fahrwegen.
+    > Notiere, welche Spuren Grün haben. Entscheide, ob die Ampelbelegung sicher ist, und begründe deine Antwort mit den Fahrwegen.
 
     **3. Lösungen besprechen – 5 Minuten**
 
@@ -303,7 +307,7 @@ Operatoren, aussagenlogische Formeln, die Zuordnung zu `0` und `1` sowie die for
 
 ??? success "Ziele der Einheit"
 
-    Die Lernenden können ein vorgeführtes Ordnungsmuster für Rot-Grün-Kombinationen erklären und fehlende Kombinationen angeleitet ergänzen. Dies bereitet [LZ1b – alle Zustände erfassen](../didaktik/lernziele.md#lz1b) vor.
+    Die Lernenden können ein vorgeführtes Ordnungsmuster für Rot-Grün-Kombinationen erklären und fehlende Kombinationen angeleitet ergänzen. Dies bereitet [LZ1b – alle Ampelbelegungen erfassen](../didaktik/lernziele.md#lz1b) vor.
 
 ??? example "Material"
 
@@ -321,7 +325,7 @@ Operatoren, aussagenlogische Formeln, die Zuordnung zu `0` und `1` sowie die for
 
     **1. Vollständigkeit als Problem benennen – 3 Minuten**
 
-    > Einzelne Beispiele zeigen uns noch nicht, ob wir alle Ampelstellungen berücksichtigt haben. Wie können wir vermeiden, eine Kombination zu vergessen?
+    > Einzelne Beispiele zeigen uns noch nicht, ob wir alle Ampelbelegungen berücksichtigt haben. Wie können wir vermeiden, eine Kombination zu vergessen?
 
     Die Lehrperson erklärt, dass eine feste Reihenfolge hilft.
 
@@ -342,7 +346,7 @@ Operatoren, aussagenlogische Formeln, die Zuordnung zu `0` und `1` sowie die for
     | Grün | Grün | Rot |
     | Grün | Grün | Grün |
 
-    Diese Tabelle dient als anschauliche Übersicht der Ampelzustände. Sie wird noch nicht als formale Wahrheitstabelle eingeführt.
+    Diese Tabelle dient als anschauliche Übersicht der Ampelbelegungen. Sie wird noch nicht als formale Wahrheitstabelle eingeführt.
 
     **3. Schema ergänzen und verstehen – 3 Minuten**
 
@@ -350,7 +354,7 @@ Operatoren, aussagenlogische Formeln, die Zuordnung zu `0` und `1` sowie die for
 
     > Warum ist es hilfreich, jede Kombination der ersten beiden Ampeln einmal mit Rot und einmal mit Grün der dritten Ampel zu notieren?
 
-    **Erwartete Antwort:** So werden beide möglichen Zustände der dritten Ampel berücksichtigt; keine Kombination fehlt.
+    **Erwartete Antwort:** So wird für jede Kombination der ersten beiden Ampeln berücksichtigt, ob die dritte Ampel Rot oder Grün zeigt; keine Ampelbelegung fehlt.
 
     **4. Sicherheit zuordnen – 3 Minuten**
 
@@ -358,7 +362,7 @@ Operatoren, aussagenlogische Formeln, die Zuordnung zu `0` und `1` sowie die for
 
 ??? tip "Didaktische Hinweise"
 
-    Die Kombinationen und ihre Sicherheitsbewertung sind zwei getrennte Schritte. Zuerst werden mögliche Zustände erfasst, danach werden diese anhand der Fahrwege beurteilt.
+    Das Erfassen der Ampelbelegungen und ihre Sicherheitsbewertung sind zwei getrennte Schritte. Zuerst werden mögliche Ampelbelegungen erfasst, danach werden diese anhand der Fahrwege beurteilt.
 
     Es werden die Wörter Rot und Grün verwendet. Die Codierung mit `0` und `1` sowie Operatoren bleiben dem gemeinsamen Unterricht vorbehalten. Die Wörter wahr und falsch sind aus Phase 1 bekannt; hier wird weiterhin mit Rot und Grün gearbeitet.
 
@@ -398,8 +402,8 @@ Operatoren, aussagenlogische Formeln, die Zuordnung zu `0` und `1` sowie die for
 
     Die Lernenden bearbeiten:
 
-    1. Erkläre, wann eine Ampelkombination im vorgegebenen Modell sicher ist.
-    2. Beurteile die gezeigte Ampelstellung und begründe deine Antwort anhand der Fahrwege.
+    1. Erkläre, wann eine Ampelbelegung im vorgegebenen Modell sicher ist.
+    2. Beurteile die gezeigte Ampelbelegung und begründe deine Antwort anhand der Fahrwege.
     3. Erkläre, wie eine Tabelle helfen kann, keine Kombination zu vergessen.
 
     Zur Vorbereitung auf [LZ2](../didaktik/lernziele.md#lernziel-2-boolesche-formeln-aus-textbeschreibungen-ableiten) ergänzen die Lernenden bei der Begründung eine sprachliche Regel: „Diese beiden Spuren dürfen nicht gleichzeitig Grün haben.“ Sie benennen die zugehörigen Fahrwege im Bild.
@@ -416,7 +420,7 @@ Operatoren, aussagenlogische Formeln, die Zuordnung zu `0` und `1` sowie die for
 
     **3. Ausblick – 2 Minuten**
 
-    > Im nächsten Baustein lernen wir LogicTraffic kennen. Dort sehen wir die Kreuzung und die Ampelzustände am Computer und untersuchen, wie diese Darstellungen zusammenhängen.
+    > Im nächsten Baustein lernen wir LogicTraffic kennen. Dort sehen wir die Kreuzung und die Ampelbelegungen am Computer und untersuchen, wie diese Darstellungen zusammenhängen.
 
 
 ## Übergang zum gemeinsamen Unterricht

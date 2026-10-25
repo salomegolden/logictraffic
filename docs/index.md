@@ -4,7 +4,9 @@
 
 LogicTraffic nutzt Verkehrskreuzungen mit Ampeln und Fahrtrichtungen, um einen anschaulichen Zugang zur booleschen Aussagenlogik zu schaffen.
 
-Die Lernenden untersuchen zunächst konkrete Verkehrssituationen, beschreiben sichere Ampelschaltungen und übertragen ihre Erkenntnisse anschliessend in Wahrheitstabellen und aussagenlogische Formeln.
+Die Lernenden untersuchen zunächst konkrete Verkehrssituationen, beschreiben sichere Ampelbelegungen und übertragen ihre Erkenntnisse anschliessend in Wahrheitstabellen und aussagenlogische Formeln.
+
+Eine **Ampelbelegung** legt für jede betrachtete Ampel fest, ob sie Rot oder Grün zeigt. Ein **sicherer Kreuzungszustand** liegt vor, wenn keine miteinander in Konflikt stehenden Verkehrsströme gleichzeitig Grün haben. Auch «alle Ampeln Rot» ist sicher. Entscheidend ist, dass keine Kollision möglich ist; ein einzelner Versuch ohne beobachtete Kollision genügt als Begründung nicht.
 
 Die ganze Unterrichtsreihe basiert auf der online Lernumgebung LogicTraffic (1).
 { .annotate }
@@ -25,7 +27,7 @@ Die Unterrichtsmaterialien folgen einer schrittweisen Progression:
 
 === ":material-table-edit: Strukturieren:"
 
-    Alle möglichen Ampelzustände werden systematisch in einer Wahrheitstabelle erfasst und hinsichtlich ihrer Sicherheit beurteilt.
+    Alle möglichen Ampelbelegungen werden systematisch in einer Wahrheitstabelle erfasst und hinsichtlich ihrer Sicherheit beurteilt.
 
 === ":material-invoice-text-edit-outline: Formalisieren:"
 

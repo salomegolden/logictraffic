@@ -2,7 +2,7 @@
 
 Wahrheitstabellen (auch Wahrheitstafeln, engl. truth tables) bilden das zentrale semantische Instrument der klassischen zweiwertigen Aussagenlogik. Sie erfassen den Wahrheitswertverlauf einer aussagenlogischen Formel für sämtliche möglichen Kombinationen von Eingangsbelegungen vollständig und deterministisch [^1], [^2], [^3].  
 
-Wahrheitstabellen bilden im Unterricht die Brücke zwischen der spielerischen Verkehrssimulation und der formalen Aussagenlogik. Sie verorten sich in der auf der Stufe Strukturieren: Lernende verlassen das rein intuitive Ausprobieren und erfassen alle möglichen Ampelstellungen einer Kreuzung systematisch und lückenlos [^5].  
+Wahrheitstabellen bilden im Unterricht die Brücke zwischen der spielerischen Verkehrssimulation und der formalen Aussagenlogik. Sie verorten sich in der auf der Stufe Strukturieren: Lernende verlassen das rein intuitive Ausprobieren und erfassen alle möglichen Ampelbelegungen einer Kreuzung systematisch und lückenlos [^5].  
 
 ## Semantik: Wie die Kreuzung in Nullen und Einsen übersetzt wird
 
@@ -13,8 +13,9 @@ In der klassischen Aussagenlogik ist jede Aussage entweder wahr ($1$) oder falsc
 | Spur $A, B, C, \dots$ | Variable | Repräsentiert die jeweilige Fahrspur bzw. deren Ampel. |
 | Wahrheitswert $1$ (true) | Aussage ist wahr | Grüne Ampel: Fahrzeuge dürfen fahren (Freie Fahrt). |
 | Wahrheitswert $0$ (false) | Aussage ist falsch | Rote Ampel: Fahrzeuge müssen anhalten (Halt). |
-| Tabellenzeile (Belegung) | Variablenbelegung | Ein konkreter Gesamtzustand aller Ampeln an der Kreuzung. |
-| Spalte sicher | Gesamtwahrheitswert $f(\beta)$ (Was ist damit gemeint? Woher kommt $f(\beta)$ und was bedeuten f und $\beta?$ | $1 =$ kollisionsfrei (sicher) $0 =$ Kollisionsgefahr (Crash). |
+| Kombination in den Ampelspalten | Variablenbelegung | Eine Ampelbelegung legt für jede betrachtete Ampel Rot (`0`) oder Grün (`1`) fest. |
+| Spalte `sicher` | Ergebnis der Sicherheitsfunktion für die jeweilige Belegung | `1 = sicher`, `0 = unsicher`. Sicher bedeutet: Keine miteinander in Konflikt stehenden Verkehrsströme haben gleichzeitig Grün. |
+| Vollständige Tabellenzeile | Variablenbelegung und zugehöriger Funktionswert | Eine Ampelbelegung mit ihrer Sicherheitsbewertung. |
 
 ??? warning "Didaktische Modellreduktion"
 
@@ -22,7 +23,7 @@ In der klassischen Aussagenlogik ist jede Aussage entweder wahr ($1$) oder falsc
 
 ## Systematik statt Zufall: Der Zustandsraum ($2^n$)
 
-Für jede Fahrspur gibt es genau zwei Möglichkeiten: Rot ($0$) oder Grün ($1$). Bei $n$ Fahrspuren ergeben sich daher mathematisch genau $2^n$ verschiedene Ampelkombinationen [^1], [^6]:
+Für jede Fahrspur gibt es genau zwei Möglichkeiten: Rot ($0$) oder Grün ($1$). Bei $n$ Fahrspuren ergeben sich daher mathematisch genau $2^n$ verschiedene Ampelbelegungen [^1], [^6]:
 
 * 2 Spuren ($n=2$): $2 * 2$ = $2^2 = 4$ Kombinationen.
 * 3 Spuren ($n=3$): $2 * 2 * 2$ = $2^3 = 8$ Kombinationen.
@@ -42,7 +43,7 @@ LogicTraffic verknüpft die visuelle Simulation und die symbolische Tabelle sync
 
 | Aufgabe | Nutzen im Unterricht |
 | --- | --- |
-| Visualisierung | Lernende sehen Ampelzustände und Sicherheitsstatus nebeneinander. |
+| Visualisierung | Lernende sehen Ampelbelegungen und Sicherheitsstatus nebeneinander. |
 | Systematisierung | Keine Kombination wird vergessen. |
 | Interaktion | Klicks auf Ampeln oder Tabellenwerte verändern die Situation. |
 | Formelbrücke | Aus sicheren Zeilen kann eine aussagenlogische Formel entstehen. |
@@ -71,10 +72,10 @@ LogicTraffic verknüpft die visuelle Simulation und die symbolische Tabelle sync
     | $1$ | $0$ | $1$ | Nur Spur $A$ fährt, $B$ steht $\rightarrow$ Kollisionsfrei. |
     | $1$ | $1$ | $0$ | Kollision! Beide Spuren fahren gleichzeitig in die Kreuzung. |
 
-??? warning "Häufiges Fehlkonzept bei Zustand $00$ (Alle Rot)"
+??? warning "Häufiges Fehlkonzept bei Ampelbelegung $00$ (Alle Rot)"
 
     * Schüleraussage: „Wenn alle Rot haben ($00$), ist das unsicher ($0$), weil nichts vorangeht und Stau entsteht!“    
-    * Klärung im Unterricht: Die Spalte sicher prüft ausschliesslich die Unfallfreiheit, nicht den Verkehrsfluss oder die Effizienz der Ampel. Wenn alle Fahrzeuge stehen, kann physikalisch keine Kollision geschehen. Hier ggf. der Hinweis, dass LogicTraffic durch "nicht optimal" bzw. den kritischen Polizisten darauf hinweist. :-)
+    * Klärung im Unterricht: Die Spalte `sicher` prüft die Kollisionsfreiheit im Kreuzungsmodell. Auch «alle Ampeln Rot» ist eine sichere Ampelbelegung, weil keine Verkehrsströme freigegeben werden. Sicherheit verlangt weder maximalen Verkehrsfluss noch möglichst viele grüne Ampeln. Eine einzelne sichere Ampelbelegung sagt noch nichts über die Gesamtbewertung der Formel aus. Ein einzelner Versuch ohne beobachtete Kollision belegt ebenfalls noch keine Sicherheit; sie muss anhand der freigegebenen Fahrwege begründet werden.
 
 ### Die 3-Spuren-Kreuzung (Situation 3, $n=3 \rightarrow 8$ Zeilen)
 
@@ -106,11 +107,13 @@ Spur $A$ und Spur $B$ verlaufen parallel (vertragen sich), während Spur $C$ als
 
 ### Rückmeldungen in LogicTraffic als formative Diagnose
 
-LogicTraffic gibt Rückmeldungen auf zwei Ebenen: **zur aktuell ausgewählten Ampelstellung** und **zur gesamten Wahrheitstabelle**. Diese Unterscheidung ist für die Auswertung wichtig.
+LogicTraffic gibt Rückmeldungen auf zwei Ebenen: **zur aktuell ausgewählten Ampelbelegung** und **zur gesamten Wahrheitstabelle**. Diese Unterscheidung ist für die Auswertung wichtig.
 
-#### Rückmeldung zur aktuellen Ampelstellung
+<span id="ruckmeldung-zur-aktuellen-ampelstellung"></span>
 
-Der Polizist zeigt an, ob bei der **aktuell ausgewählten Ampelstellung** eine Kollision möglich ist. Seine Rückmeldung bezieht sich auf diese einzelne Belegung. Sie zeigt deshalb noch nicht, ob die gesamte Tabelle oder die eingegebene Formel korrekt ist.
+#### Rückmeldung zur aktuellen Ampelbelegung
+
+Der Polizist zeigt an, ob bei der **aktuell ausgewählten Ampelbelegung** eine Kollision möglich ist. Seine Rückmeldung bezieht sich auf diese einzelne Belegung. Sie zeigt deshalb noch nicht, ob die gesamte Tabelle oder die eingegebene Formel korrekt ist.
 
 Für die formative Diagnose eignen sich folgende Fragen:
 
@@ -120,19 +123,19 @@ Für die formative Diagnose eignen sich folgende Fragen:
 
 #### Rückmeldung zur gesamten Wahrheitstabelle
 
-Die Gesamtbewertung zeigt, ob die in der Tabelle festgelegten Freigaben zur Sicherheitsbewertung der Kreuzung passen. Wird eine Formel eingegeben, betrifft diese Prüfung alle durch die Formel zugelassenen Ampelstellungen.
+Die Gesamtbewertung zeigt, ob die in der Tabelle festgelegten Freigaben zur Sicherheitsbewertung der Kreuzung passen. Wird eine Formel eingegeben, betrifft diese Prüfung alle durch die Formel zugelassenen Ampelbelegungen.
 
 | Gesamtbewertung | Bedeutung |
 |---|---|
-| **Unsicher** | Mindestens eine Ampelstellung mit Kollisionsgefahr wird zugelassen. |
-| **Nicht ideal** | Alle zugelassenen Ampelstellungen sind kollisionsfrei. Mindestens eine weitere kollisionsfreie Ampelstellung wird jedoch unnötig ausgeschlossen. |
-| **Optimal** | Alle kollisionsfreien Ampelstellungen werden zugelassen und alle Ampelstellungen mit Kollisionsgefahr ausgeschlossen. |
+| **Unsicher** | Mindestens eine Ampelbelegung mit Kollisionsgefahr wird zugelassen. |
+| **Nicht ideal** | Alle zugelassenen Ampelbelegungen sind kollisionsfrei. Mindestens eine weitere kollisionsfreie Ampelbelegung wird jedoch unnötig ausgeschlossen. |
+| **Optimal** | Alle sicheren Ampelbelegungen werden zugelassen; alle unsicheren Ampelbelegungen werden ausgeschlossen. |
 
 «Optimal» bedeutet hier, dass die Freigaben vollständig mit der Sicherheitsbewertung der modellierten Kreuzung übereinstimmen. Es bedeutet nicht, dass die Formel möglichst kurz ist oder der Verkehrsfluss einer realen Kreuzung optimiert wird.
 
-Im Unterricht sollten die Lernenden die Rückmeldung begründen: Bei **«unsicher»** suchen sie eine gefährliche Ampelstellung, die fälschlich zugelassen wird. Bei **«nicht ideal»** suchen sie eine kollisionsfreie Ampelstellung, die unnötig ausgeschlossen wird. Bei **«optimal»** erläutern sie, weshalb ihre Regel alle kollisionsfreien Ampelstellungen zulässt und sämtliche Konflikte ausschliesst.
+Im Unterricht sollten die Lernenden die Rückmeldung begründen: Bei **«unsicher»** suchen sie eine gefährliche Ampelbelegung, die fälschlich zugelassen wird. Bei **«nicht ideal»** suchen sie eine kollisionsfreie Ampelbelegung, die unnötig ausgeschlossen wird. Bei **«optimal»** erläutern sie, weshalb ihre Regel alle kollisionsfreien Ampelbelegungen zulässt und sämtliche Konflikte ausschliesst.
 
-**Auf den Punkt gebracht:** Der Polizist beurteilt die aktuelle Ampelstellung. Die Gesamtbewertung beurteilt die Freigaben für alle möglichen Ampelstellungen.
+**Auf den Punkt gebracht:** Der Polizist beurteilt die aktuelle Ampelbelegung. Die Gesamtbewertung beurteilt die Freigaben für alle möglichen Ampelbelegungen.
 
 [^1]: Arnold, R., & Hartmann, W. (2007). LogicTraffic - Logik in der Allgemeinbildung. Informatik-Spektrum, 30(1), 19-26. https://doi.org/10.1007/s00287-006-0123-7
 [^2]: Junker, M. (2025). _Logik für die Informatik: Eine Einführung in die Aussagenlogik, Prädikatenlogik und Berechenbarkeitstheorie_. Springer Berlin Heidelberg. https://doi.org/10.1007/978-3-662-70825-5

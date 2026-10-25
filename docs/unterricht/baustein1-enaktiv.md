@@ -5,9 +5,9 @@
     [Lehrpersonenkommentar Baustein 1 - enaktiver Einstieg als Download](https://canva.link/4rf0bebnvekm9aj)
 
 
-In diesem Baustein setzen sich die Lernenden zunächst handelnd mit einer Verkehrssituation auseinander. Sie legen Fahrzeuge und Fahrtrichtungen auf einem Kreuzungsfeld aus, steuern die einzelnen Spuren mit Ampelkarten und untersuchen, welche Ampelkombinationen sicher sind.
+In diesem Baustein setzen sich die Lernenden zunächst handelnd mit einer Verkehrssituation auseinander. Sie legen Fahrzeuge und Fahrtrichtungen auf einem Kreuzungsfeld aus, steuern die einzelnen Spuren mit Ampelkarten und untersuchen, welche Ampelbelegungen sicher sind.
 
-Ausgehend von einzelnen konkreten Situationen entsteht schrittweise das Bedürfnis nach einer eindeutigen und vollständigen Darstellung aller möglichen Zustände. Der Baustein bereitet damit den Übergang von der enaktiven Darstellung zur Wahrheitstabelle vor.
+Ausgehend von einzelnen konkreten Situationen entsteht schrittweise das Bedürfnis nach einer eindeutigen und vollständigen Darstellung aller möglichen Ampelbelegungen. Der Baustein bereitet damit den Übergang von der enaktiven Darstellung zur Wahrheitstabelle vor.
 
 ??? abstract "Auf einen Blick"
 
@@ -32,7 +32,7 @@ Ausgehend von einzelnen konkreten Situationen entsteht schrittweise das Bedürfn
     - [:memo: M1.2 – Situationskarten (PDF)](https://github.com/salomegolden/logictraffic/releases/download/material-v2/M1_2_Situationskarten.pdf)
     - [:package: M1.3 – Kreuzungen (PDF)](https://github.com/salomegolden/logictraffic/releases/download/material-v2/M1_3_Kreuzungen.pdf)
     - [:memo: 1a – Kreuzungen legen (PDF)](https://github.com/salomegolden/logictraffic/releases/download/ab1_v3/1a_kreuzungen_legen.pdf)
-    - [:memo: 1b – Sichere Ampelstellungen finden (PDF)](https://github.com/salomegolden/logictraffic/releases/download/ab1_v3/1b_sichere_ampelstellungen_finden.pdf)
+    - [:memo: 1b – Sichere Ampelbelegungen finden (PDF)](https://github.com/salomegolden/logictraffic/releases/download/ab1_v3/1b_sichere_ampelstellungen_finden.pdf)
     - [:memo: 1c – Alle Möglichkeiten erfassen (PDF)](https://github.com/salomegolden/logictraffic/releases/download/ab1_v3/1c_alle_moglichkeiten_erfassen.pdf)
     - [:material-image-outline: Bild vom enaktiven Material](https://github.com/salomegolden/logictraffic/releases/download/images-v1/enaktivesmaterial.jpeg)
     - [:file: Baustein 1 – Enaktiver Einstieg: Lehrerkommentar (PDF)](https://github.com/salomegolden/logictraffic/releases/download/lpk_v1/Baustein.1enaktiv.Kommentar.fur.die.Lehrperson.pdf)
@@ -43,9 +43,9 @@ Ausgehend von einzelnen konkreten Situationen entsteht schrittweise das Bedürfn
 
 ??? success "Bezug zur Unterrichtseinheit"
 
-    **LZ1a · Verkehrssituationen und Darstellungen deuten:** Die Lernenden können Fahrwege und Konfliktpaare erkennen und sichere von unsicheren Ampelkombinationen begründet unterscheiden.
+    **LZ1a · Verkehrssituationen und Darstellungen deuten:** Die Lernenden können Fahrwege und Konfliktpaare erkennen und sichere von unsicheren Ampelbelegungen begründet unterscheiden.
 
-    **Vorbereitung auf LZ1b · Alle möglichen Zustände systematisch erfassen:** Die Lernenden können für zwei und drei Variablen alle Belegungen vollständig und ohne Wiederholungen aufschreiben, nach den Fahrwegen bewerten und ihr Ordnungsmuster erläutern.
+    **Vorbereitung auf LZ1b · Alle möglichen Ampelbelegungen systematisch erfassen:** Die Lernenden können für zwei und drei Variablen alle Belegungen vollständig und ohne Wiederholungen aufschreiben, nach den Fahrwegen bewerten und ihr Ordnungsmuster erläutern.
 
     **Vorbereitung auf LZ2 · Sicherheitsregeln entwickeln & in Formeln übersetzen:** Die Lernenden können die Konflikte einer einfachen Kreuzung mit zwei bis drei Variablen in eigenen Worten beschreiben.
 
@@ -54,11 +54,11 @@ Ausgehend von einzelnen konkreten Situationen entsteht schrittweise das Bedürfn
     - eine vorgegebene Verkehrssituation mit physischem Material darstellen;
     - mögliche Fahrwege und Konfliktstellen untersuchen;
     - für einzelne Spuren zwischen den Zuständen Rot und Grün unterscheiden;
-    - sichere und unsichere Ampelkombinationen begründet beurteilen;
+    - sichere und unsichere Ampelbelegungen begründet beurteilen;
     - erklären, weshalb mehrere grüne Ampeln nicht automatisch unsicher sind und „alle Rot“ kollisionsfrei ist;
     - eine einfache Sicherheitsregel in eigenen Worten ausdrücken;
     - erklären, weshalb alle möglichen Kombinationen systematisch betrachtet werden müssen;
-    - erste Ampelzustände in einer einfachen Tabelle mit Rot und Grün geordnet festhalten.
+    - erste Ampelbelegungen in einer einfachen Tabelle mit Rot und Grün geordnet festhalten.
 
 ## Vorbereitung des enaktiven Materials
 
@@ -100,9 +100,9 @@ Ausgehend von einzelnen konkreten Situationen entsteht schrittweise das Bedürfn
 | Phase | Inhalt | Sozialform / Medien | Richtwert |
 | --- | --- | --- | --- |
 | [1. Konfrontation](#phase-1-verkehrssituation-nachspielen) | Verkehrssituation legen und spontan beurteilen | Partnerarbeit, enaktives Material | ca. 10–15 Min. |
-| [2. Erkundung](#phase-2-sichere-ampelstellungen-finden) | Verschiedene Ampelstellungen ausprobieren und auf Sicherheit prüfen | Partnerarbeit, enaktives Material | ca. 15–20 Min. |
-| [3. Erweiterung](#phase-3-situation-verandern) | Verkehrssituation bzw. Ampelstellungen variieren und weitere Kombinationen untersuchen | Partnerarbeit | ca. 15–20 Min. |
-| [4. Systematisierung](#phase-4-alle-moglichkeiten-erfassen) | Überlegen, wie alle möglichen Ampelzustände vollständig erfasst werden können | Partnerarbeit / Plenum | ca. 15–20 Min. |
+| [2. Erkundung](#phase-2-sichere-ampelbelegungen-finden) | Verschiedene Ampelbelegungen ausprobieren und auf Sicherheit prüfen | Partnerarbeit, enaktives Material | ca. 15–20 Min. |
+| [3. Erweiterung](#phase-3-situation-verandern) | Verkehrssituation bzw. Ampelbelegungen variieren und weitere Kombinationen untersuchen | Partnerarbeit | ca. 15–20 Min. |
+| [4. Systematisierung](#phase-4-alle-moglichkeiten-erfassen) | Überlegen, wie alle möglichen Ampelbelegungen vollständig erfasst werden können | Partnerarbeit / Plenum | ca. 15–20 Min. |
 | [5. Sicherung und Ausblick](#phase-5-ergebnisse-sichern-und-ausblick) | Ergebnisse festhalten und Übergang zur tabellarischen Darstellung vorbereiten | Plenum / Einzelarbeit | ca. 10–15 Min. |
 
 ## Durchführung
@@ -140,7 +140,9 @@ Ausgehend von einzelnen konkreten Situationen entsteht schrittweise das Bedürfn
 
     In dieser Phase steht noch nicht die formale Beschreibung im Vordergrund. Die Lernenden sollen die Verkehrssituation zunächst möglichst konkret untersuchen und ihre Beobachtungen in Alltagssprache ausdrücken.
 
-### Phase 2 – Sichere Ampelstellungen finden
+<span id="phase-2-sichere-ampelstellungen-finden"></span>
+
+### Phase 2 – Sichere Ampelbelegungen finden
 
 ??? success "Ziel der Einheit"
 
@@ -160,6 +162,8 @@ Ausgehend von einzelnen konkreten Situationen entsteht schrittweise das Bedürfn
 
     Nun werden die Ampelplättchen eingesetzt. Die Lernenden stellen verschiedene Kombinationen ein und überprüfen jeweils, ob die Fahrzeuge gleichzeitig fahren könnten, ohne dass es zu einer Kollision kommt.
 
+    Eine **Ampelbelegung** legt für jede betrachtete Ampel Rot oder Grün fest. Ein **sicherer Kreuzungszustand** liegt vor, wenn keine zwei miteinander in Konflikt stehenden Verkehrsströme gleichzeitig Grün haben. Auch «alle Ampeln Rot» ist sicher. Ein einzelner Versuch ohne beobachtete Kollision genügt nicht: Die freigegebenen Fahrbewegungen müssen im Kreuzungsmodell ohne Kollision möglich sein.
+
     Dabei sollen sie ihre Entscheidung begründen.
 
     Mögliche Leitfragen:
@@ -175,7 +179,7 @@ Ausgehend von einzelnen konkreten Situationen entsteht schrittweise das Bedürfn
 
 ??? success "Ziel der Einheit"
 
-    Die Lernenden erkennen, dass sich mit zunehmender Anzahl von Fahrspuren auch die Zahl möglicher Ampelkombinationen erhöht.
+    Die Lernenden erkennen, dass sich mit zunehmender Anzahl von Fahrspuren auch die Zahl möglicher Ampelbelegungen erhöht.
 
 ??? example "Material"
 
@@ -191,7 +195,7 @@ Ausgehend von einzelnen konkreten Situationen entsteht schrittweise das Bedürfn
 
     Die Verkehrssituation wird erweitert oder verändert. Beispielsweise kann eine weitere Spur ergänzt oder ein anderer Fahrweg verwendet werden.
 
-    Die Lernenden untersuchen erneut mögliche Ampelstellungen und vergleichen die neue Situation mit der vorherigen.
+    Die Lernenden untersuchen erneut mögliche Ampelbelegungen und vergleichen die neue Situation mit der vorherigen.
 
     Mögliche Fragen:
 
@@ -206,7 +210,7 @@ Ausgehend von einzelnen konkreten Situationen entsteht schrittweise das Bedürfn
 
 ??? success "Ziel der Einheit"
 
-    Die Lernenden entwickeln das Bedürfnis nach einer systematischen Darstellung aller möglichen Zustände.
+    Die Lernenden entwickeln das Bedürfnis nach einer systematischen Darstellung aller möglichen Ampelbelegungen.
 
 ??? example "Material"
 
@@ -220,7 +224,7 @@ Ausgehend von einzelnen konkreten Situationen entsteht schrittweise das Bedürfn
 
 ??? abstract "Verlaufsplanung"
 
-    Die Gruppen erhalten den Auftrag, möglichst alle möglichen Ampelstellungen zu finden (AB1c Aufgabe 1). Dabei soll zunächst bewusst offengelassen werden, wie sie vorgehen.
+    Die Gruppen erhalten den Auftrag, möglichst alle möglichen Ampelbelegungen zu finden (AB1c Aufgabe 1). Dabei soll zunächst bewusst offengelassen werden, wie sie vorgehen.
 
     Im anschliessenden Austausch werden unterschiedliche Strategien gesammelt:
 
@@ -231,7 +235,7 @@ Ausgehend von einzelnen konkreten Situationen entsteht schrittweise das Bedürfn
 
     Die zentrale Frage lautet:
 
-    > Wie können wir sicher sein, dass wir wirklich alle möglichen Ampelstellungen untersucht haben?
+    > Wie können wir sicher sein, dass wir wirklich alle möglichen Ampelbelegungen untersucht haben?
 
     An dieser Stelle kann erstmals eine einfache Tabelle eingeführt oder von den Lernenden selbst entwickelt werden (AB1c Aufgaben 2–4).
 
@@ -265,7 +269,7 @@ Ausgehend von einzelnen konkreten Situationen entsteht schrittweise das Bedürfn
     - Zufälliges Ausprobieren reicht nicht aus, wenn wirklich alle Möglichkeiten untersucht werden sollen.
     - Eine systematische Darstellung hilft dabei, keine Möglichkeit zu vergessen.
 
-    Die Lernenden können erste Ampelzustände in einer Tabelle festhalten.
+    Die Lernenden können erste Ampelbelegungen in einer Tabelle festhalten.
 
     Als sprachliche Vorbereitung auf LZ2 formulieren sie zu einem erkannten Konflikt eine Regel: „Diese beiden Spuren dürfen nicht gleichzeitig Grün haben.“ Sie zeigen am Material, welche Fahrwege damit gemeint sind.
 
@@ -283,8 +287,8 @@ Ausgehend von einzelnen konkreten Situationen entsteht schrittweise das Bedürfn
     | Spur | einzelne Fahrmöglichkeit |
     | Ampel Grün | Fahrzeug darf fahren |
     | Ampel Rot | Fahrzeug muss halten |
-    | sicherer Zustand | kein Konflikt zwischen gleichzeitig fahrenden Fahrzeugen |
-    | unsicherer Zustand | mögliche Kollision |
+    | sicherer Kreuzungszustand | keine miteinander in Konflikt stehenden Verkehrsströme haben gleichzeitig Grün |
+    | unsichere Ampelbelegung | miteinander in Konflikt stehende Verkehrsströme haben gleichzeitig Grün; eine Kollision ist möglich |
 
     Eine vollständige formale Zuordnung zu `0` und `1` muss an dieser Stelle noch nicht eingeführt werden. Diese erfolgt im nächsten Schritt mit LogicTraffic bzw. der Wahrheitstabelle.
 
@@ -295,7 +299,7 @@ Ausgehend von einzelnen konkreten Situationen entsteht schrittweise das Bedürfn
     === "Vereinfachen"
 
         - zunächst nur mit zwei oder drei Spuren arbeiten;
-        - mögliche Ampelstellungen teilweise vorgeben;
+        - mögliche Ampelbelegungen teilweise vorgeben;
         - bereits untersuchte Kombinationen mit Karten oder Plättchen sichtbar sammeln;
         - die Lernenden Fahrwege mit dem Finger oder einem Fahrzeug tatsächlich nachfahren lassen;
         - sprachliche Satzstarter verwenden, z. B. „Diese Kombination ist sicher, weil …“.
@@ -304,7 +308,7 @@ Ausgehend von einzelnen konkreten Situationen entsteht schrittweise das Bedürfn
 
         - zusätzliche Fahrspuren oder Fahrtrichtungen einführen;
         - die Lernenden selbst eine Verkehrssituation entwickeln lassen;
-        - untersuchen lassen, wie viele verschiedene Ampelstellungen bei zwei, drei oder vier Ampeln möglich sind;
+        - untersuchen lassen, wie viele verschiedene Ampelbelegungen bei zwei, drei oder vier Ampeln möglich sind;
         - eine eigene Strategie entwickeln lassen, mit der alle Kombinationen systematisch gefunden werden können.
 
 ## Didaktische Hinweise
@@ -321,6 +325,6 @@ Ausgehend von einzelnen konkreten Situationen entsteht schrittweise das Bedürfn
 
 ??? abstract "Ausblick: LogicTraffic"
 
-    Im enaktiven Einstieg können einzelne Ampelstellungen gut ausprobiert werden. Je mehr Spuren beteiligt sind, desto schwieriger wird es jedoch, den Überblick zu behalten und sicherzustellen, dass tatsächlich alle Möglichkeiten untersucht wurden.
+    Im enaktiven Einstieg können einzelne Ampelbelegungen gut ausprobiert werden. Je mehr Spuren beteiligt sind, desto schwieriger wird es jedoch, den Überblick zu behalten und sicherzustellen, dass tatsächlich alle Möglichkeiten untersucht wurden.
 
-    Im nächsten Baustein wird die Verkehrssituation deshalb in **LogicTraffic** übertragen. Die Lernenden lernen dort eine digitale Darstellung kennen und untersuchen, wie Fahrspuren, Ampelzustände und eine tabellarische Darstellung miteinander verbunden sind.
+    Im nächsten Baustein wird die Verkehrssituation deshalb in **LogicTraffic** übertragen. Die Lernenden lernen dort eine digitale Darstellung kennen und untersuchen, wie Fahrspuren, Ampelbelegungen und eine tabellarische Darstellung miteinander verbunden sind.

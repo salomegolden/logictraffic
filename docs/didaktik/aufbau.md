@@ -28,7 +28,7 @@ Der Lernweg führt vom **Handeln** über das **Strukturieren** zum **Formalisier
 <ol class="lt-unit-route">
   <li><a href="#baustein-1"><span>01 · Handeln</span><strong>Kreuzung nachspielen</strong></a></li>
   <li><a href="#baustein-2"><span>02 · Erkunden</span><strong>Darstellungen verbinden</strong></a></li>
-  <li><a href="#baustein-3"><span>03 · Strukturieren</span><strong>Alle Zustände erfassen</strong></a></li>
+  <li><a href="#baustein-3"><span>03 · Strukturieren</span><strong>Alle Ampelbelegungen erfassen</strong></a></li>
   <li><a href="#baustein-4"><span>04 · Formalisieren</span><strong>Sicherheitsregeln ausdrücken</strong></a></li>
 </ol>
 
@@ -44,9 +44,9 @@ Die Reihenfolge führt schrittweise zu abstrakteren Darstellungen. Der [Darstell
 
 **Leitfrage: Welche Fahrwege vertragen sich?**
 
-Mit Kreuzungsfeldern, Fahrzeugen und Ampelplättchen spielen die Lernenden Verkehrssituationen nach. Sie verändern Fahrtrichtungen und Ampelstellungen, erkennen Konflikte und begründen, welche Kombinationen sicher sind. Die Arbeitsblätter **1a–1c** führen vom Legen einer Kreuzung über das Prüfen sicherer Ampelstellungen zum Sammeln aller Möglichkeiten.
+Mit Kreuzungsfeldern, Fahrzeugen und Ampelplättchen spielen die Lernenden Verkehrssituationen nach. Sie verändern Fahrtrichtungen und Ampelbelegungen, erkennen Konflikte und begründen, welche Kombinationen sicher sind. Die Arbeitsblätter **1a–1c** führen vom Legen einer Kreuzung über das Prüfen sicherer Ampelbelegungen zum Sammeln aller Möglichkeiten.
 
-**Ergebnis:** erste sprachliche Sicherheitsregeln und eine geordnete Sammlung von Ampelzuständen. Fachliches Vorwissen ist für diesen Einstieg nicht erforderlich.
+**Ergebnis:** erste sprachliche Sicherheitsregeln und eine geordnete Sammlung von Ampelbelegungen. Fachliches Vorwissen ist für diesen Einstieg nicht erforderlich.
 
 **Brücke zum nächsten Baustein:** Wie lassen sich unsere gelegten Situationen am Computer darstellen und überprüfen?
 
@@ -74,9 +74,9 @@ Mit Kreuzungsfeldern, Fahrzeugen und Ampelplättchen spielen die Lernenden Verke
 
 Die Lernenden übertragen die bekannte Verkehrssituation in [LogicTraffic](https://logictraffic.ch/). Sie schalten Ampeln um, lesen die zugehörigen Werte und unterscheiden den Zustand einer einzelnen Spur von der Sicherheit der gesamten Kombination. **2a** begleitet die Erkundung, **2b** dient anschliessend als Merkblatt und **2c** sichert die Erkenntnisse.
 
-**Ergebnis:** Die Lernenden können eine konkrete Ampelstellung einer Tabellenzeile zuordnen und die Bereiche der Lernumgebung erklären. Der Formelbereich bleibt zunächst ein Ausblick.
+**Ergebnis:** Die Lernenden können eine konkrete Ampelbelegung einer Tabellenzeile zuordnen und die Bereiche der Lernumgebung erklären. Der Formelbereich bleibt zunächst ein Ausblick.
 
-**Brücke zum nächsten Baustein:** Einzelne Zustände können wir lesen – wie erfassen wir selbst alle möglichen Kombinationen, ohne eine zu vergessen?
+**Brücke zum nächsten Baustein:** Einzelne Ampelbelegungen können wir lesen – wie erfassen wir selbst alle möglichen Kombinationen, ohne eine zu vergessen?
 
 [:material-arrow-right: Ablauf und Material zu Baustein 2](../unterricht/baustein2-logictraffic.md) · [Dossier 2a–2c (PDF)](https://github.com/salomegolden/logictraffic/releases/download/ab2_v2/Baustein_2_Dossier.pdf)
 
@@ -90,7 +90,7 @@ Die Lernenden übertragen die bekannte Verkehrssituation in [LogicTraffic](https
 
 **Leitfrage: Wie wissen wir, dass wirklich alle Fälle erfasst sind?**
 
-Aus einer Ampelstellung wird eine Tabellenzeile, aus allen möglichen Ampelstellungen eine vollständige Wahrheitstabelle. Mit **3a** lesen die Lernenden die Tabelle für zwei Variablen, mit **3b** entwickeln sie eine Systematik für drei Variablen. **3c** fordert dazu auf, fehlende, doppelte und falsch bewertete Zeilen zu finden. Tabellen werden möglichst zuerst auf Papier erstellt und anschliessend in LogicTraffic kontrolliert.
+Eine Tabellenzeile enthält eine Ampelbelegung und ihre Sicherheitsbewertung; eine vollständige Wahrheitstabelle erfasst alle möglichen Ampelbelegungen. Mit **3a** lesen die Lernenden die Tabelle für zwei Variablen, mit **3b** entwickeln sie eine Systematik für drei Variablen. **3c** fordert dazu auf, fehlende, doppelte und falsch bewertete Zeilen zu finden. Tabellen werden möglichst zuerst auf Papier erstellt und anschliessend in LogicTraffic kontrolliert.
 
 **Ergebnis:** eine vollständige und begründet bewertete Tabelle sowie die Einsicht, dass bei $n$ Variablen genau $2^n$ Belegungen entstehen.
 
@@ -142,7 +142,7 @@ Die [Wahrheitstabelle zur Zwei-Spuren-Kreuzung](../fachlicher-hintergrund/wahrhe
 
     Bei einer **Variablen** bedeutet `1` Grün und `0` Rot. In der Spalte **sicher** bedeutet `1` kollisionsfrei und `0` Kollisionsgefahr. Deshalb ist auch „alle Ampeln Rot“ sicher.
 
-    Ziel ist eine Formel, die **alle und nur die sicheren Belegungen** zulässt. LogicTraffic betrachtet statische Rot-Grün-Kombinationen; Gelbphasen, Räumzeiten und eine zeitliche Verkehrssteuerung sind nicht Gegenstand dieses Modells. Kollisionsfreiheit und Verkehrsfluss sind unterschiedliche Fragen.
+    Ziel ist eine Formel, die die vollständige Sicherheitsfunktion beschreibt: **Alle sicheren Ampelbelegungen werden zugelassen; alle unsicheren Ampelbelegungen werden ausgeschlossen.** LogicTraffic betrachtet statische Rot-Grün-Kombinationen; Gelbphasen, Räumzeiten und eine zeitliche Verkehrssteuerung sind nicht Gegenstand dieses Modells. Kollisionsfreiheit und Verkehrsfluss sind unterschiedliche Fragen.
 
 ## Vertiefung und Transfer bewusst wählen
 
@@ -185,7 +185,7 @@ Die Lektionen sind mit 45 Minuten gerechnet. Materialherstellung und Bereitstell
 
 ??? tip "Direkt mit Baustein 2 beginnen"
 
-    Wenn der enaktive Einstieg entfällt, aktiviert die [Präsentation 2d – Kreuzungen (PDF)](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2d_prasentation_lp_kreuzungen.pdf) die Verkehrssituation. Dafür sieht Baustein 2 zusätzlich **5–10 Minuten** vor. Vor der digitalen Erkundung sollten die Lernenden Fahrwege, Konflikte sowie sichere und unsichere Ampelstellungen sprachlich erklären können.
+    Wenn der enaktive Einstieg entfällt, aktiviert die [Präsentation 2d – Kreuzungen (PDF)](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2d_prasentation_lp_kreuzungen.pdf) die Verkehrssituation. Dafür sieht Baustein 2 zusätzlich **5–10 Minuten** vor. Vor der digitalen Erkundung sollten die Lernenden Fahrwege, Konflikte sowie sichere und unsichere Ampelbelegungen sprachlich erklären können.
 
     Auch bei vorhandenem Vorwissen lohnt sich vor dem Wechsel zu Baustein 3 oder 4 eine kurze Diagnose: Können die Lernenden die bisherige Darstellung erklären und in eine andere übersetzen?
 
@@ -195,9 +195,9 @@ Die Übergänge zwischen den Bausteinen eignen sich für kurze formative Lernkon
 
 | Zeitpunkt | Kurzer Prüfimpuls | Bezug zu den Lernzielen |
 | --- | --- | --- |
-| Nach Baustein 1 (beide Varianten) | „Zeige eine sichere und eine unsichere Ampelstellung und begründe den Unterschied.“ | [LZ1a: Verkehrssituationen deuten](lernziele.md#lz1a) |
+| Nach Baustein 1 (beide Varianten) | „Zeige eine sichere und eine unsichere Ampelbelegung und begründe den Unterschied.“ | [LZ1a: Verkehrssituationen deuten](lernziele.md#lz1a) |
 | Nach Baustein 2 | „Stelle diese Tabellenzeile an der Kreuzung ein. Was bedeutet jede `1`?“ | [LZ1a: Darstellungen verbinden](lernziele.md#lz1a) |
-| Nach Baustein 3 | „Erstelle eine vollständige Tabelle. Wo fehlt in der Vergleichstabelle eine Belegung, wo ist eine doppelt und wo ist die Bewertung falsch?“ | [LZ1b: Alle Zustände erfassen](lernziele.md#lz1b) und [LZ3a: Tabellenfehler finden](lernziele.md#lz3a) |
+| Nach Baustein 3 | „Erstelle eine vollständige Tabelle. Wo fehlt in der Vergleichstabelle eine Belegung, wo ist eine doppelt und wo ist die Bewertung falsch?“ | [LZ1b: Alle Ampelbelegungen erfassen](lernziele.md#lz1b) und [LZ3a: Tabellenfehler finden](lernziele.md#lz3a) |
 | Nach dem Basisteil von Baustein 4 | „Erläutere deine Formel natürlichsprachlich und zeige, wie du sie mit der vollständigen Tabelle geprüft hast.“ | [LZ2: Regeln in Formeln übersetzen](lernziele.md#lernziel-2-boolesche-formeln-aus-textbeschreibungen-ableiten) und [LZ3b: Formeln prüfen](lernziele.md#lz3b) |
 | Nach der Vertiefung | „Warum sind diese Formeln gleichwertig, und welche lässt sich leichter erklären?“ | [LZ4: Gleichwertige Formeln und Normalformen vergleichen](lernziele.md#lernziel-4-normalformen-und-minimierung-boolescher-ausdruecke) |
 

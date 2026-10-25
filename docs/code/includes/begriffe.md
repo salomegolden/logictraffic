@@ -4,6 +4,14 @@
 
 ## A
 
+--8<-- [start:ampelbelegung]
+<span id="ampelbelegung"></span>
+
+??? info "Ampelbelegung"
+    * **Fachlich:** Eine Ampelbelegung legt für jede betrachtete Ampel einer Kreuzung fest, ob sie Rot oder Grün zeigt. Sie kann sicher oder unsicher sein.
+    * **In der Wahrheitstabelle:** In den Ampelspalten bedeutet `0 = Rot` und `1 = Grün`. Jede Kombination der Werte in diesen Spalten entspricht einer Ampelbelegung. Die vollständige Tabellenzeile enthält zusätzlich das Ergebnis der Sicherheitsfunktion: `1 = sicher`, `0 = unsicher`.
+--8<-- [end:ampelbelegung]
+
 --8<-- [start:aussagenlogische_formel]
 <span id="aussagenlogische-formel"></span>
 
@@ -51,7 +59,7 @@
 
 ??? info "Boolesche Funktion"
     * **Fachlich:** Ordnet jeder möglichen Belegung von Aussagenvariablen genau einen Ausgabewert zu.
-    * **In LogicTraffic:** Ordnet jeder Ampelkombination den Wert `1` (sicher) oder `0` (unsicher) zu. Den Begriff verwenden, wenn diese Zuordnung als fachliche Ebene erklärt wird.
+    * **In LogicTraffic:** Ordnet jeder Ampelbelegung den Wert `1` (sicher) oder `0` (unsicher) zu. Den Begriff verwenden, wenn diese Zuordnung als fachliche Ebene erklärt wird.
 --8<-- [end:boolesche_funktion]
 
 --8<-- [start:boolesche_algebra]
@@ -103,7 +111,7 @@
 
 ??? info "Disjunktive Normalform (DNF / CDNF)"
     * **Fachlich:** Eine standardisierte Formelstruktur, bestehend aus einer Disjunktion (ODER-Verknüpfung) von Konjunktionstermen (UND-Verknüpfungen von Literalen) der Form $\bigvee_{i=1}^k \bigwedge_{j=1}^{n_i} L_{ij}$. Jede aussagenlogische Formel lässt sich in eine äquivalente DNF überführen. 
-    * **In LogicTraffic:** Beschreibt die Steuerung über alle *erlaubten, kollisionsfreien Verkehrszustände* (alle Zeilen mit `sicher = 1`). Über das Dropdown-Menü kann die vollständige *KDNF* generiert oder eine per Quine-McCluskey-Algorithmus minimierte, kompakte *DNF* ausgewählt werden.
+    * **In LogicTraffic:** Beschreibt die Steuerung über alle *zugelassenen sicheren Ampelbelegungen* (alle Zeilen mit `sicher = 1`). Über das Dropdown-Menü kann die vollständige *KDNF* generiert oder eine per Quine-McCluskey-Algorithmus minimierte, kompakte *DNF* ausgewählt werden.
 --8<-- [end:dnf]
 
 ## E
@@ -198,7 +206,7 @@
 
 ??? info "Kanonische Disjunktive Normalform (KDNF)"
     * **Fachlich:** Eine ODER-Verknüpfung aller Minterme (Vollkonjunktionen aller beteiligten Variablen für jede Zeile der Wahrheitstabelle mit dem Ausgangswert $1$).
-    * **In LogicTraffic:** Beschreibt die Steuerung als Summe aller erlaubten, kollisionsfreien Gesamtzustände der Kreuzung.
+    * **In LogicTraffic:** Beschreibt die Steuerung als Summe aller zugelassenen sicheren Ampelbelegungen.
 --8<-- [end:kdnf]
 
 --8<-- [start:kknf]
@@ -206,7 +214,7 @@
 
 ??? info "Kanonische Konjunktive Normalform (KKNF)"
     * **Fachlich:** Eine UND-Verknüpfung aller Maxterme (Volldisjunktionen zur gezielten Sperrung aller Zeilen der Wahrheitstabelle mit dem Ausgangswert $0$).
-    * **In LogicTraffic:** Beschreibt die Steuerung durch das explizite Verbot aller kollisionsgefährdeten Ampelkombinationen.
+    * **In LogicTraffic:** Beschreibt die Steuerung durch das explizite Verbot aller kollisionsgefährdeten Ampelbelegungen.
 --8<-- [end:kknf]
 
 --8<-- [start:knf]
@@ -257,23 +265,31 @@
 <span id="polizisten-status"></span>
 
 ??? info "Polizisten-Status (Feedback in LogicTraffic)"
-    * **Fachlich**: LogicTraffic unterscheidet zwischen der Sicherheitsbeurteilung einer einzelnen Ampelstellung und der Gesamtbewertung der Freigaben für alle möglichen Ampelstellungen.
-    * **In LogicTraffic**: Der Polizist gibt Rückmeldung zur aktuell ausgewählten Ampelstellung: Ist bei dieser Belegung eine Kollision möglich? Die Gesamtbewertung bezieht sich dagegen auf die gesamte Wahrheitstabelle beziehungsweise die eingegebene Formel:
+    * **Fachlich**: LogicTraffic unterscheidet zwischen der Sicherheitsbeurteilung einer einzelnen Ampelbelegung und der Gesamtbewertung der Freigaben für alle möglichen Ampelbelegungen.
+    * **In LogicTraffic**: Der Polizist gibt Rückmeldung zur aktuell ausgewählten Ampelbelegung: Ist bei dieser Belegung eine Kollision möglich? Die Gesamtbewertung bezieht sich dagegen auf die gesamte Wahrheitstabelle beziehungsweise die eingegebene Formel:
         
-        - Unsicher: Mindestens eine Ampelstellung mit Kollisionsgefahr wird zugelassen.
-        - Nicht ideal: Es werden nur kollisionsfreie Ampelstellungen zugelassen, aber mindestens eine weitere kollisionsfreie Ampelstellung wird unnötig ausgeschlossen.
-        - Optimal: Alle kollisionsfreien Ampelstellungen werden zugelassen und alle Ampelstellungen mit Kollisionsgefahr ausgeschlossen.
+        - Unsicher: Mindestens eine Ampelbelegung mit Kollisionsgefahr wird zugelassen.
+        - Nicht ideal: Es werden nur kollisionsfreie Ampelbelegungen zugelassen, aber mindestens eine weitere kollisionsfreie Ampelbelegung wird unnötig ausgeschlossen.
+        - Optimal: Alle sicheren Ampelbelegungen werden zugelassen; alle unsicheren Ampelbelegungen werden ausgeschlossen.
 
-    * **Didaktisch**: Die Rückmeldungen unterstützen das Überprüfen und Verbessern eigener Lösungen. Lernende sollen sie anhand der Fahrwege und konkreter Tabellenzeilen begründen. Eine einzelne kollisionsfreie Ampelstellung bestätigt noch nicht die Korrektheit der gesamten Formel.
+    * **Didaktisch**: Die Rückmeldungen unterstützen das Überprüfen und Verbessern eigener Lösungen. Lernende sollen sie anhand der Fahrwege und konkreter Tabellenzeilen begründen. Eine einzelne kollisionsfreie Ampelbelegung bestätigt noch nicht die Korrektheit der gesamten Formel.
 --8<-- [end:polizisten_status]
 
 ## S
+
+--8<-- [start:sicherer_kreuzungszustand]
+<span id="sicherer-kreuzungszustand"></span>
+
+??? info "Sicherer Kreuzungszustand"
+    * **Fachlich:** Ein sicherer Kreuzungszustand liegt vor, wenn bei einer Ampelbelegung keine zwei miteinander in Konflikt stehenden Verkehrsströme gleichzeitig Grün haben. Die freigegebenen Fahrbewegungen können somit im betrachteten Kreuzungsmodell ohne Kollision stattfinden.
+    * **Sicherheit:** Auch die Ampelbelegung «alle Ampeln Rot» ist sicher. Entscheidend ist, dass aufgrund der freigegebenen Verkehrsströme keine Kollision möglich ist. Dass bei einem einzelnen Versuch keine Kollision beobachtet wurde, reicht dafür nicht aus. Sicherheit bedeutet weder maximalen Verkehrsfluss noch möglichst viele grüne Ampeln.
+--8<-- [end:sicherer_kreuzungszustand]
 
 --8<-- [start:sicherheitsregel]
 <span id="sicherheitsregel"></span>
 
 ??? info "Sicherheitsregel"
-    * **Verwendung:** Sprachliche Beschreibung, welche Ampelstellungen sicher sind.
+    * **Verwendung:** Sprachliche Beschreibung, welche Ampelbelegungen sicher sind.
     * **In LogicTraffic:** Zum Beispiel: Zwei Spuren mit sich kreuzenden Fahrwegen dürfen nicht gleichzeitig Grün haben.
 --8<-- [end:sicherheitsregel]
 
@@ -281,8 +297,9 @@
 <span id="sicherheitsfunktion"></span>
 
 ??? info "Sicherheitsfunktion"
-    * **Verwendung:** Möglichst vermeiden, solange dieser Begriff nicht eigens eingeführt ist.
-    * **Stattdessen:** Für die sprachliche Beschreibung „Sicherheitsregel“, für die formale Darstellung „aussagenlogische Formel“ und für die Zuordnung von Ausgabewerten zu allen Belegungen „Boolesche Funktion“ verwenden.
+    * **Fachlich:** Boolesche Funktion, die jeder Ampelbelegung den Wert `1` (sicher) oder `0` (unsicher) zuordnet.
+    * **Vollständige Beschreibung:** Alle sicheren Ampelbelegungen werden zugelassen; alle unsicheren Ampelbelegungen werden ausgeschlossen. Eine sichere Formel darf keine unsichere Ampelbelegung zulassen; sie kann aber sichere Ampelbelegungen ausschliessen und damit die vollständige Sicherheitsfunktion noch nicht darstellen.
+    * **Im Unterricht:** Zunächst die sprachliche „Sicherheitsregel“ verwenden; ihre formale Darstellung ist eine „aussagenlogische Formel“. Eine einzelne sichere Ampelbelegung bestätigt noch nicht, dass eine Formel sicher ist.
 --8<-- [end:sicherheitsfunktion]
 
 --8<-- [start:symbolisch]
@@ -310,7 +327,7 @@
 
 ??? info "Wahrheitstabelle (Truth Table)"
     * **Fachlich:** Vollständige tabellarische Übersicht aller $2^n$ Belegungsmöglichkeiten für $n$ Variablen und dem resultierenden Gesamtwahrheitswert.
-    * **In LogicTraffic:** Tabelle aller Ampelkombinationen mit der Zielspalte `sicher` ($1$ = kollisionsfrei, $0$ = Kollisionsgefahr).
+    * **In LogicTraffic:** Tabelle aller Ampelbelegungen mit der Ergebnisspalte `sicher` (`1 = sicher`, `0 = unsicher`). Die Ampelspalten beschreiben jeweils eine Ampelbelegung; die vollständige Zeile enthält zusätzlich deren Sicherheitsbewertung.
 --8<-- [end:wahrheitstabelle]
 
 --8<-- [start:wahrheitswert]
@@ -318,6 +335,6 @@
 
 ??? info "Wahrheitswert ($0$ und $1$)"
     * **Fachlich:** Die beiden Werte der klassischen zweiwertigen Logik ($1 = \text{wahr}$, $0 = \text{falsch}$).
-    * **In LogicTraffic:** Repräsentiert die Ampelphasen: $1 = \text{Grün (Fahrt frei)}$, $0 = \text{Rot (Halt)}$.
+    * **In LogicTraffic:** In den Ampelspalten gilt `1 = Grün`, `0 = Rot`; in der Ergebnisspalte der Sicherheitsfunktion gilt `1 = sicher`, `0 = unsicher`.
 --8<-- [end:wahrheitswert]
 

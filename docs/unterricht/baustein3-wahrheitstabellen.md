@@ -12,9 +12,9 @@ Zum Abschluss prüfen sie ihr Verständnis an einer fehlerhaften Wahrheitstabell
 
 Die Progression des Bausteins lautet:
 
-**Verkehrssituation → einzelne Ampelstellung → Tabellenzeile → vollständige Wahrheitstabelle → Systematik $2^n$ → Fehleranalyse → Skalierungsproblem**
+**Verkehrssituation → einzelne Ampelbelegung → Tabellenzeile → vollständige Wahrheitstabelle → Systematik $2^n$ → Fehleranalyse → Skalierungsproblem**
 
-Damit bereitet Baustein 3 den Übergang zu [Baustein 4 – Aussagenlogische Formeln](baustein4-boolesche-algebra.md) vor: Wahrheitstabellen bilden alle Ampelzustände vollständig ab, werden mit wachsender Variablenzahl jedoch schnell sehr umfangreich.
+Damit bereitet Baustein 3 den Übergang zu [Baustein 4 – Aussagenlogische Formeln](baustein4-boolesche-algebra.md) vor: Wahrheitstabellen bilden alle Ampelbelegungen vollständig ab, werden mit wachsender Variablenzahl jedoch schnell sehr umfangreich.
 
 ??? abstract "Auf einen Blick"
 
@@ -30,7 +30,7 @@ Damit bereitet Baustein 3 den Übergang zu [Baustein 4 – Aussagenlogische Form
     - [Baustein 2 – LogicTraffic kennenlernen](baustein2-logictraffic.md) wurde idealerweise abgeschlossen.
     - Die Lernenden kennen Variablen als Bezeichnungen für Fahrspuren.
     - `0 = Rot` und `1 = Grün` sind bei den Fahrspuren bekannt.
-    - Die Lernenden können eine konkrete Ampelstellung einer Darstellung in LogicTraffic zuordnen.
+    - Die Lernenden können eine konkrete Ampelbelegung einer Darstellung in LogicTraffic zuordnen.
     - Die Bedeutung der Spalte `sicher` ist grundsätzlich bekannt.
 
     **:package: Material:**  
@@ -49,17 +49,17 @@ Damit bereitet Baustein 3 den Übergang zu [Baustein 4 – Aussagenlogische Form
 
 ??? success "Lernziele"
 
-    **Bezug zur Unterrichtseinheit:** [LZ1b – alle möglichen Zustände systematisch erfassen](../didaktik/lernziele.md#lz1b) und [LZ3a – Fehler in Wahrheitstabellen finden](../didaktik/lernziele.md#lz3a). [LZ1a – Darstellungen deuten](../didaktik/lernziele.md#lz1a) wird weiter gefestigt.
+    **Bezug zur Unterrichtseinheit:** [LZ1b – alle möglichen Ampelbelegungen systematisch erfassen](../didaktik/lernziele.md#lz1b) und [LZ3a – Fehler in Wahrheitstabellen finden](../didaktik/lernziele.md#lz3a). [LZ1a – Darstellungen deuten](../didaktik/lernziele.md#lz1a) wird weiter gefestigt.
 
     Die Lernenden können …
 
     - eine Wahrheitstabelle als vollständige Darstellung aller möglichen Kombinationen von Variablenwerten erklären;
-    - eine konkrete Ampelstellung einer Tabellenzeile zuordnen und umgekehrt;
+    - eine konkrete Ampelbelegung einer Tabellenzeile zuordnen und umgekehrt;
     - zwischen den Werten der Fahrspuren (`0 = Rot`, `1 = Grün`) und den Werten der Spalte `sicher` unterscheiden;
     - für zwei und drei Variablen alle möglichen Belegungen systematisch und lückenlos aufschreiben;
     - ein Ordnungsmuster zum Erzeugen aller Kombinationen beschreiben;
     - erklären, warum bei $n$ Variablen $2^n$ mögliche Belegungen entstehen;
-    - für jede Ampelkombination begründet entscheiden, ob die Verkehrssituation sicher oder unsicher ist;
+    - für jede Ampelbelegung begründet entscheiden, ob die Verkehrssituation sicher oder unsicher ist;
     - fehlende, doppelte und inhaltlich falsch bewertete Zeilen in einer Wahrheitstabelle erkennen und korrigieren;
     - erkennen, dass Wahrheitstabellen bei zunehmender Anzahl von Variablen schnell sehr umfangreich werden;
     - daraus die Notwendigkeit einer kompakteren Darstellung ableiten.
@@ -84,7 +84,7 @@ Damit bereitet Baustein 3 den Übergang zu [Baustein 4 – Aussagenlogische Form
 
     In Baustein 3 steht eine neue Frage im Zentrum:
 
-    > **Wie können wir selbst alle möglichen Ampelzustände vollständig und systematisch aufschreiben, ohne eine Kombination zu vergessen?**
+    > **Wie können wir selbst alle möglichen Ampelbelegungen vollständig und systematisch aufschreiben, ohne eine Kombination zu vergessen?**
 
     Der Schwerpunkt liegt deshalb nicht mehr auf der Bedienung der Lernumgebung, sondern auf der **Struktur, Vollständigkeit und Bedeutung einer Wahrheitstabelle**.
 
@@ -105,7 +105,7 @@ Damit bereitet Baustein 3 den Übergang zu [Baustein 4 – Aussagenlogische Form
 
     verschiedene Belegungen.
 
-    | Anzahl Variablen | Anzahl möglicher Zustände |
+    | Anzahl Variablen | Anzahl möglicher Ampelbelegungen |
     | ---: | ---: |
     | 1 | $2^1 = 2$ |
     | 2 | $2^2 = 4$ |
@@ -152,7 +152,7 @@ Damit bereitet Baustein 3 den Übergang zu [Baustein 4 – Aussagenlogische Form
 
 | Phase | Schwerpunkt | Material | Richtwert |
 | --- | --- | --- | ---: |
-| **1. Wahrheitstabellen verstehen** | Einzelne Ampelstellungen lesen, Tabellenzeilen deuten und die vollständige Tabelle für zwei Variablen verstehen | **[AB 3a](https://github.com/salomegolden/logictraffic/releases/download/ab3_v2/3a_wahrheitstabellen_verstehen.pdf)**, Situation 2 | ca. 15 Min. |
+| **1. Wahrheitstabellen verstehen** | Einzelne Ampelbelegungen lesen, Tabellenzeilen deuten und die vollständige Tabelle für zwei Variablen verstehen | **[AB 3a](https://github.com/salomegolden/logictraffic/releases/download/ab3_v2/3a_wahrheitstabellen_verstehen.pdf)**, Situation 2 | ca. 15 Min. |
 | **2. Wahrheitstabellen systematisch erstellen** | Drei Variablen vollständig erfassen, Ordnungsmuster erkennen und $2^n$ herleiten | **[AB 3b](https://github.com/salomegolden/logictraffic/releases/download/ab3_v2/3b_wahrheitstabellen_systematisch_erstellen.pdf)**, Situation 3 | ca. 25 Min. |
 | **3. Herausforderung – Fehler finden** | Fehlende, doppelte und falsch bewertete Zeilen diagnostizieren; Wissen sichern und Skalierungsproblem reflektieren | **[AB 3c](https://github.com/salomegolden/logictraffic/releases/download/ab3_v2/3c_Herausforderung_findest_du_die_Fehlererstellen.pdf)**, Situation 4 | ca. 15–20 Min. |
 
@@ -164,9 +164,9 @@ Die drei Phasen bilden gemeinsam den vollständigen Baustein. Bei knappem Zeitbu
 
 ??? success "Ziele der Einheit"
 
-    Die Lernenden verstehen, dass **jede Tabellenzeile genau eine mögliche Ampelstellung** beschreibt.
+    Die Lernenden verstehen, dass die **Ampelspalten einer Zeile genau eine mögliche Ampelbelegung** beschreiben. Die vollständige Tabellenzeile enthält zusätzlich das Ergebnis der Sicherheitsfunktion (`1 = sicher`, `0 = unsicher`).
 
-    Sie können die Werte der Fahrspuren korrekt als Rot bzw. Grün lesen, den Wert der Spalte `sicher` davon unterscheiden und erklären, weshalb eine Wahrheitstabelle alle möglichen Zustände enthalten muss.
+    Sie können die Werte der Fahrspuren korrekt als Rot bzw. Grün lesen, den Wert der Spalte `sicher` davon unterscheiden und erklären, weshalb eine Wahrheitstabelle alle möglichen Ampelbelegungen enthalten muss.
 
 ??? example "Material"
 
@@ -178,21 +178,21 @@ Die drei Phasen bilden gemeinsam den vollständigen Baustein. Bei knappem Zeitbu
 ??? info "Organisation"
 
     **Sozialform:** Kurzer Einstieg im **Plenum**, anschliessend **Partnerarbeit** mit [AB 3a](https://github.com/salomegolden/logictraffic/releases/download/ab3_v2/3a_wahrheitstabellen_verstehen.pdf). Die Ergebnisse werden am Ende gemeinsam gesichert.
-    Im Tandem kann jeweils eine Person eine Tabellenzeile lesen, während die andere Person die entsprechende Ampelstellung beschreibt oder in LogicTraffic einstellt. Danach werden die Rollen gewechselt.
+    Im Tandem kann jeweils eine Person eine Tabellenzeile lesen, während die andere Person die entsprechende Ampelbelegung beschreibt oder in LogicTraffic einstellt. Danach werden die Rollen gewechselt.
 
     **Benötigte Zeit:** ca. **15 Minuten**
 
 ??? abstract "Verlaufsplanung"
 
-    **1. Eine konkrete Ampelstellung als Ausgangspunkt**
+    **1. Eine konkrete Ampelbelegung als Ausgangspunkt**
 
-    Die Lehrperson öffnet Situation 2 und stellt eine konkrete Ampelkombination ein.
+    Die Lehrperson öffnet Situation 2 und stellt eine konkrete Ampelbelegung ein.
 
     **Inputfragen:**
 
     > Welche Spur ist Grün, welche ist Rot?
 
-    > Wie könnten wir genau diese Ampelstellung mit `0` und `1` aufschreiben?
+    > Wie könnten wir genau diese Ampelbelegung mit `0` und `1` aufschreiben?
 
     Die Lernenden ordnen die konkrete Situation einer Tabellenzeile zu.
 
@@ -203,11 +203,11 @@ Die drei Phasen bilden gemeinsam den vollständigen Baustein. Bei knappem Zeitbu
 
     **2. Von einer Zeile zur Tabelle**
 
-    Die Lehrperson zeigt bzw. thematisiert eine zweite Ampelstellung.
+    Die Lehrperson zeigt bzw. thematisiert eine zweite Ampelbelegung.
 
     **Leitfrage:**
 
-    > Reichen diese beiden Zustände schon aus, um alle Möglichkeiten zu beschreiben?
+    > Reichen diese beiden Ampelbelegungen schon aus, um alle Möglichkeiten zu beschreiben?
 
     **Erwartete Antwort:** Nein. Beide Ampeln können jeweils Rot oder Grün sein.
 
@@ -236,9 +236,9 @@ Die drei Phasen bilden gemeinsam den vollständigen Baustein. Bei knappem Zeitbu
 
     **Verkehrssituation**
 
-    ↔ **Ampelstellung mit Rot/Grün**
+    ↔ **Ampelbelegung mit Rot/Grün**
 
-    ↔ **Tabellenzeile mit `0` und `1`**
+    ↔ **Kombination von `0` und `1` in den Ampelspalten einer Zeile**
 
     Anschliessend wird die Spalte `sicher` betrachtet.
 
@@ -289,9 +289,9 @@ Die drei Phasen bilden gemeinsam den vollständigen Baustein. Bei knappem Zeitbu
 
     Besonders wichtig ist die konsequente Trennung der beiden Bedeutungen von `0` und `1`. Lernende können sonst fälschlicherweise annehmen, dass `sicher = 0` bedeute, eine bestimmte Ampel sei Rot.
 
-    Ein weiterer typischer Stolperstein ist die Kombination, bei der **alle Ampeln Rot** sind. Diese ist möglicherweise ineffizient, aber nicht automatisch unsicher. In diesem Baustein bedeutet `sicher` ausschliesslich:
+    Ein weiterer typischer Stolperstein ist die Ampelbelegung, bei der **alle Ampeln Rot** sind. Diese ist sicher, weil keine Verkehrsströme freigegeben werden. In diesem Baustein bedeutet `sicher` ausschliesslich:
 
-    > Bei dieser Ampelstellung kann keine Kollision entstehen.
+    > Bei dieser Ampelbelegung kann keine Kollision entstehen.
 
     LogicTraffic sollte auch hier erst **nach einer eigenen Begründung** verwendet werden.
 
@@ -303,10 +303,10 @@ Die drei Phasen bilden gemeinsam den vollständigen Baustein. Bei knappem Zeitbu
         - Rot und Grün zusätzlich mit farbigen Punkten oder Ampelsymbolen markieren.
         - Satzstarter anbieten:  
           > „Bei `A = 1` ist …“  
-          > „Die Zeile `01` bedeutet …“  
+          > „Die Ampelbelegung `01` bedeutet …“  
           > „`sicher = 1` bedeutet …“
         - Eine Tabellenzeile gemeinsam vollständig deuten.
-        - Die Lernenden die Ampelstellung zuerst in LogicTraffic einstellen und erst danach die Zeile notieren lassen.
+        - Die Lernenden die Ampelbelegung zuerst in LogicTraffic einstellen und erst danach die Zeile notieren lassen.
 
     === "Erweiterungen"
 
@@ -348,7 +348,7 @@ Die drei Phasen bilden gemeinsam den vollständigen Baustein. Bei knappem Zeitbu
 
     Bevor eine Tabelle gezeichnet wird, fragt die Lehrperson:
 
-    > Wie viele verschiedene Ampelstellungen müsste es jetzt insgesamt geben?
+    > Wie viele verschiedene Ampelbelegungen müsste es jetzt insgesamt geben?
 
     Die Lernenden können zunächst schätzen oder aus der Zweivariablen-Situation argumentieren.
 
@@ -643,7 +643,7 @@ Die drei Phasen bilden gemeinsam den vollständigen Baustein. Bei knappem Zeitbu
 
     **3. Bedeutung**
 
-    Die Spalte `sicher` bewertet die gesamte Ampelkombination und nicht eine einzelne Fahrspur.
+    Die Spalte `sicher` bewertet die gesamte Ampelbelegung und nicht eine einzelne Fahrspur.
 
     **7. Ausblick auf Baustein 4**
 
@@ -707,10 +707,10 @@ Die drei Phasen bilden gemeinsam den vollständigen Baustein. Bei knappem Zeitbu
 Am Ende des Bausteins haben die Lernenden Wahrheitstabellen auf drei Ebenen untersucht:
 
 1. **lesen und deuten** – Was beschreibt eine Tabellenzeile?
-2. **systematisch erzeugen** – Wie erfassen wir alle möglichen Zustände vollständig?
+2. **systematisch erzeugen** – Wie erfassen wir alle möglichen Ampelbelegungen vollständig?
 3. **prüfen und korrigieren** – Wie erkennen wir strukturelle und inhaltliche Fehler?
 
-??? success "Von einzelnen Zuständen zur vollständigen Darstellung"
+??? success "Von einzelnen Ampelbelegungen zur vollständigen Darstellung"
 
     Eine Wahrheitstabelle ist eine systematische Methode, um den vollständigen Zustandsraum eines Problems darzustellen.
 

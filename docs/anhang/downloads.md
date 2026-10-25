@@ -17,7 +17,7 @@ Für die Herstellung aus Papier die Vorlagen auf Tonpapier drucken, damit das Ma
 - [:memo: Gesamtdossier Baustein 1 – alle Arbeitsblätter 1a–1c (PDF)](https://github.com/salomegolden/logictraffic/releases/download/ab1_v3/Baustein_1_Dossier.pdf)
 
 - [:memo: 1a – Kreuzungen legen (PDF)](https://github.com/salomegolden/logictraffic/releases/download/ab1_v3/1a_kreuzungen_legen.pdf)
-- [:memo: 1b – Sichere Ampelstellungen finden (PDF)](https://github.com/salomegolden/logictraffic/releases/download/ab1_v3/1b_sichere_ampelstellungen_finden.pdf)
+- [:memo: 1b – Sichere Ampelbelegungen finden (PDF)](https://github.com/salomegolden/logictraffic/releases/download/ab1_v3/1b_sichere_ampelstellungen_finden.pdf)
 - [:memo: 1c – Alle Möglichkeiten erfassen (PDF)](https://github.com/salomegolden/logictraffic/releases/download/ab1_v3/1c_alle_moglichkeiten_erfassen.pdf)
 
 ### Lehrpersonenzentrierter Einstieg

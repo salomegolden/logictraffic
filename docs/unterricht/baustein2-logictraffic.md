@@ -5,7 +5,7 @@
     [Lehrpersonenkommentar Baustein 2 - Einführung LogicTraffic](https://canva.link/mos333l78usz4xj)
 
 
-In diesem Baustein übertragen die Lernenden die bereits bekannte Idee einer sicheren Verkehrskreuzung in die digitale Lernumgebung **LogicTraffic**. Sie lernen die Oberfläche kennen und untersuchen schrittweise, wie Fahrspuren, Ampelzustände, Variablen, die Werte `0` und `1` sowie die Wahrheitstabelle miteinander zusammenhängen.
+In diesem Baustein übertragen die Lernenden die bereits bekannte Idee einer sicheren Verkehrskreuzung in die digitale Lernumgebung **LogicTraffic**. Sie lernen die Oberfläche kennen und untersuchen schrittweise, wie Fahrspuren, Ampelbelegungen, Variablen, die Werte `0` und `1` sowie die Wahrheitstabelle miteinander zusammenhängen.
 
 Im Zentrum steht noch **nicht** das systematische Erstellen von Wahrheitstabellen und auch noch **nicht** das Arbeiten mit aussagenlogischen Formeln. Entscheidend ist zunächst der Darstellungswechsel: Die Lernenden sollen verstehen, wie eine konkrete Verkehrssituation in LogicTraffic digital und symbolisch dargestellt wird.
 
@@ -44,7 +44,7 @@ Die aussagenlogische Formel wird am Ende lediglich als weitere Darstellung der *
 
     - [:material-image-outline: 2e – Tafelbild zur Ergebnissicherung](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2e_tafelbild_ergebnissicherung.pdf)
 
-    In den PDFs steht das Gleiche wie auf der Webseite – nur als druckbare Version für die Lehrperson.
+    Die PDFs stellen die Materialien in druckbarer Form bereit.
 
 ## Lernziele
 
@@ -56,30 +56,30 @@ Die aussagenlogische Formel wird am Ende lediglich als weitere Darstellung der *
 
     - sich in den zentralen Bereichen von LogicTraffic orientieren;
     - erklären, dass die bereits mit `A`, `B`, `C` usw. bezeichneten Fahrspuren als Variablen in weiteren Darstellungen wieder auftauchen;
-    - erklären, wie die Ampelzustände Rot und Grün mit `0` und `1` dargestellt werden;
+    - erklären, wie die Ampelfarben Rot und Grün mit `0` und `1` dargestellt werden;
     - zwischen `0` und `1` bei einer Fahrspur und `0` und `1` in der Spalte `sicher` unterscheiden;
-    - zu einer konkreten Ampelstellung die passende Tabellenzeile finden und eine vorgegebene Tabellenzeile wieder als Ampelstellung lesen;
-    - sichere und unsichere Ampelkombinationen anhand der Fahrwege begründen;
-    - erklären, dass die Kreuzung jeweils einen konkreten Zustand zeigt, während die Wahrheitstabelle verschiedene mögliche Zustände umfasst;
+    - zu einer konkreten Ampelbelegung die passende Tabellenzeile finden und eine vorgegebene Tabellenzeile wieder als Ampelbelegung lesen;
+    - sichere und unsichere Ampelbelegungen anhand der Fahrwege begründen;
+    - erklären, dass die Kreuzung jeweils eine konkrete Ampelbelegung zeigt, während die Wahrheitstabelle alle möglichen Ampelbelegungen mit ihrer Sicherheitsbewertung umfasst;
     - die Bereiche Kreuzung, Variablen bzw. `0`/`1`, Wahrheitstabelle, `sicher` und Formel in ihrer jeweiligen Funktion unterscheiden;
     - beschreiben, dass diese Darstellungen unterschiedliche Aspekte derselben modellierten Kreuzung bzw. Sicherheitsregel sichtbar machen;
     - die Frage formulieren, wie eine vollständige Wahrheitstabelle auch ohne Vorgabe durch LogicTraffic systematisch erstellt werden könnte.
 
-    **Lernnachweis:** Mit AB2c ordnen die Lernenden die Darstellungen ihren Funktionen zu. Sie stellen eine vorgegebene Tabellenzeile an der Kreuzung ein und erklären getrennt die Ampelzustände und die Sicherheitsbewertung.
+    **Lernnachweis:** Mit AB2c ordnen die Lernenden die Darstellungen ihren Funktionen zu. Sie stellen eine vorgegebene Tabellenzeile an der Kreuzung ein und erklären getrennt die Ampelbelegungen und die Sicherheitsbewertung.
 
     ??? tip "Einordnung zwischen Baustein 1 und Baustein 3"
 
         **Baustein 1** arbeitet vor allem mit der konkreten Verkehrssituation:
 
-        > Welche Ampelstellungen sind sicher und warum?
+        > Welche Ampelbelegungen sind sicher und warum?
 
         **Baustein 2** führt dieselbe Grundidee in die digitale Lernumgebung über:
 
-        > Wie stellt LogicTraffic Fahrspuren, Ampelzustände und Sicherheit dar?
+        > Wie stellt LogicTraffic Fahrspuren, Ampelbelegungen und Sicherheit dar?
 
         **Baustein 3** verschiebt den Schwerpunkt anschliessend auf die Systematik:
 
-        > Wie können wir selbst alle möglichen Zustände vollständig aufschreiben, ohne einen zu vergessen?
+        > Wie können wir selbst alle möglichen Ampelbelegungen vollständig aufschreiben, ohne eine zu vergessen?
 
         Dadurch erhält jeder Baustein eine eigene Funktion und die Wahrheitstabelle wird in Baustein 2 bewusst **nur gelesen und gedeutet**, noch nicht systematisch konstruiert.
 
@@ -99,20 +99,22 @@ Die aussagenlogische Formel wird am Ende lediglich als weitere Darstellung der *
 
     | Bereich | Bedeutung in diesem Baustein |
     | --- | --- |
-    | **Kreuzung** | Zeigt die Fahrwege und jeweils eine konkrete Ampelstellung. |
+    | **Kreuzung** | Zeigt die Fahrwege und jeweils eine konkrete Ampelbelegung. |
     | **Fahrspuren / Variablen** | Die bereits beschrifteten Fahrspuren `A`, `B`, `C` … werden als Variablen verwendet. |
     | **`0` und `1` bei den Variablen** | Beschreiben den Zustand einer Ampel: `0 = Rot`, `1 = Grün`. |
-    | **Wahrheitstabelle** | Enthält verschiedene mögliche Kombinationen der Variablenwerte. |
-    | **Spalte `sicher`** | Bewertet, ob die jeweilige Ampelkombination kollisionsfrei ist. |
+    | **Wahrheitstabelle** | Enthält alle möglichen Ampelbelegungen mit ihrer Sicherheitsbewertung. |
+    | **Spalte `sicher`** | Bewertet, ob die jeweilige Ampelbelegung kollisionsfrei ist. |
     | **Formel** | Beschreibt die Sicherheitsregel kompakt und gilt für alle möglichen Belegungen. Sie wird in Baustein 2 nur als Ausblick betrachtet. |
-    | **Ampelzustand** | Rot oder Grün einer einzelnen Ampel |
-    | **Ampelstellung** | Kombination der Zustände aller Ampeln einer Kreuzung |
+    | **Einzelne Ampel** | Zeigt Rot oder Grün |
+    | **Ampelbelegung** | Legt für jede betrachtete Ampel Rot oder Grün fest. |
 
     Für den Darstellungswechsel ist besonders hilfreich, zwischen **einer einzelnen Tabellenzeile** und der **gesamten Wahrheitstabelle** zu unterscheiden:
 
-    **konkrete Ampelstellung** ↔ **eine Tabellenzeile**
+    **konkrete Ampelbelegung** ↔ **Kombination der Werte in den Ampelspalten einer Zeile**
 
-    **alle möglichen Ampelstellungen** ↔ **gesamte Wahrheitstabelle**
+    Die vollständige Tabellenzeile enthält zusätzlich die Sicherheitsbewertung in der Spalte `sicher`.
+
+    **alle möglichen Ampelbelegungen** ↔ **gesamte Wahrheitstabelle**
 
 ??? tip "Zwei verschiedene Bedeutungen von 0 und 1"
 
@@ -141,7 +143,7 @@ Die aussagenlogische Formel wird am Ende lediglich als weitere Darstellung der *
 | Phase | Schwerpunkt | Material | Richtwert |
 | --- | --- | --- | ---: |
 | **1. Von der Kreuzung zur digitalen Darstellung** | Vorwissen aktivieren und die Frage vorbereiten, wie eine Kreuzung am Computer dargestellt werden kann | Rückbezug auf Baustein 1 | ca. 5' |
-| **2. LogicTraffic erkunden und Zustände lesen** | Oberfläche, Variablen, `0`/`1`, Tabellenzeilen sowie sichere und unsichere Zustände untersuchen | **[AB 2a](https://github.com/salomegolden/logictraffic/releases/download/ab2_v2/2a_orientierung_logictraffic.pdf)**, anschliessend **[MB 2b](https://github.com/salomegolden/logictraffic/releases/download/ab2_v2/2b_merkblatt_orientierung.pdf)**, LogicTraffic | ca. 25–30' |
+| **2. LogicTraffic erkunden und Ampelbelegungen lesen** | Oberfläche, Variablen, `0`/`1`, Tabellenzeilen sowie sichere und unsichere Ampelbelegungen untersuchen | **[AB 2a](https://github.com/salomegolden/logictraffic/releases/download/ab2_v2/2a_orientierung_logictraffic.pdf)**, anschliessend **[MB 2b](https://github.com/salomegolden/logictraffic/releases/download/ab2_v2/2b_merkblatt_orientierung.pdf)**, LogicTraffic | ca. 25–30' |
 | **3. Darstellungen zusammenführen und sichern** | Funktionen der verschiedenen Darstellungen ordnen und den Übergang zu Baustein 3 vorbereiten | **[AB 2c](https://github.com/salomegolden/logictraffic/releases/download/ab2_v2/2c_ergebnissicherungLT.pdf)**, **[Tafelbild 2e](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2e_tafelbild_ergebnissicherung.pdf)** | ca. 15–20' |
 
 
@@ -172,23 +174,23 @@ Die aussagenlogische Formel wird am Ende lediglich als weitere Darstellung der *
 
     **1. Rückbezug herstellen**
 
-    Wenn Baustein 1 durchgeführt wurde, greift die Lehrperson eine bekannte Kreuzung bzw. eine bereits untersuchte Ampelstellung auf.
+    Wenn Baustein 1 durchgeführt wurde, greift die Lehrperson eine bekannte Kreuzung bzw. eine bereits untersuchte Ampelbelegung auf.
 
     **Inputfragen:**
 
-    > Woran habt ihr erkannt, ob eine Ampelstellung sicher oder unsicher ist?
+    > Woran habt ihr erkannt, ob eine Ampelbelegung sicher oder unsicher ist?
 
     **Erwartete Antworten:**
 
     - Man muss betrachten, welche Fahrspuren gleichzeitig Grün haben.
     - Entscheidend ist, ob sich die Fahrwege dieser Spuren kreuzen.
-    - Nicht die einzelne Ampel, sondern die Kombination der Ampelstellungen ist relevant. 
+    - Entscheidend ist die Ampelbelegung, also welche der betrachteten Ampeln gleichzeitig Grün zeigen.
 
     **3. Übergang zu LogicTraffic**
 
     Die Lehrperson schliesst mit der Frage:
 
-    > Wie könnte ein Computer eine solche Kreuzung so darstellen, dass wir verschiedene Ampelstellungen untersuchen können?
+    > Wie könnte ein Computer eine solche Kreuzung so darstellen, dass wir verschiedene Ampelbelegungen untersuchen können?
 
     Die Vermutungen werden kurz gesammelt. Erst danach wird LogicTraffic geöffnet.
 
@@ -209,17 +211,19 @@ Die aussagenlogische Formel wird am Ende lediglich als weitere Darstellung der *
 
     === "Erweiterungen"
 
-        - Mehrere mögliche Ampelstellungen gedanklich vergleichen lassen.
+        - Mehrere mögliche Ampelbelegungen gedanklich vergleichen lassen.
         - Begründen lassen, welche Informationen eine digitale Darstellung mindestens enthalten müsste.
-        - Zwischen Informationen über die **Geometrie der Kreuzung** und Informationen über den **aktuellen Ampelzustand** unterscheiden lassen.
+        - Zwischen Informationen über die **Geometrie der Kreuzung** und Informationen über die **aktuelle Ampelbelegung** unterscheiden lassen.
 
-### Phase 2 – LogicTraffic erkunden und Zustände lesen
+<span id="phase-2-logictraffic-erkunden-und-zustande-lesen"></span>
+
+### Phase 2 – LogicTraffic erkunden und Ampelbelegungen lesen
 
 ??? success "Ziele der Einheit"
 
-    Die Lernenden orientieren sich in LogicTraffic und können Fahrspuren, Variablen und Ampelzustände miteinander verknüpfen.
+    Die Lernenden orientieren sich in LogicTraffic und können Fahrspuren, Variablen und Ampelbelegungen miteinander verknüpfen.
 
-    Sie übersetzen zwischen Rot/Grün und `0`/`1`, ordnen eine konkrete Ampelstellung einer Tabellenzeile zu und begründen anhand der Fahrwege, ob eine Kombination sicher oder unsicher ist.
+    Sie übersetzen zwischen Rot/Grün und `0`/`1`, ordnen eine konkrete Ampelbelegung einer Tabellenzeile zu und begründen anhand der Fahrwege, ob eine Kombination sicher oder unsicher ist.
 
 ??? example "Material"
 
@@ -306,7 +310,7 @@ Die aussagenlogische Formel wird am Ende lediglich als weitere Darstellung der *
 
     **6. [AB 2a](https://github.com/salomegolden/logictraffic/releases/download/ab2_v2/2a_orientierung_logictraffic.pdf) – Aufgabe 4: Von der Kreuzung zur Tabellenzeile**
 
-    Die Lernenden stellen unterschiedliche Ampelstellungen ein und suchen jeweils die entsprechende Zeile.
+    Die Lernenden stellen unterschiedliche Ampelbelegungen ein und suchen jeweils die entsprechende Zeile.
 
     Der Darstellungswechsel soll bewusst in beide Richtungen erfolgen:
 
@@ -318,15 +322,15 @@ Die aussagenlogische Formel wird am Ende lediglich als weitere Darstellung der *
 
     **Inputfrage:**
 
-    > Zeigt die Wahrheitstabelle nur die Ampelstellung, die wir gerade sehen?
+    > Zeigt die Wahrheitstabelle nur die Ampelbelegung, die wir gerade sehen?
 
-    **Erwartete Antwort:** Nein. Die Kreuzung zeigt gerade einen Zustand; die Tabelle enthält verschiedene mögliche Zustände.
+    **Erwartete Antwort:** Nein. Die Kreuzung zeigt gerade eine Ampelbelegung; die Tabelle enthält alle möglichen Ampelbelegungen mit ihrer Sicherheitsbewertung.
 
     Wie diese vollständige Tabelle systematisch entsteht, wird noch nicht thematisiert.
 
     **7. [AB 2a](https://github.com/salomegolden/logictraffic/releases/download/ab2_v2/2a_orientierung_logictraffic.pdf) – Aufgabe 5: Sicher oder unsicher?**
 
-    Für mehrere Ampelkombinationen entscheiden die Lernenden zuerst anhand der Fahrwege:
+    Für mehrere Ampelbelegungen entscheiden die Lernenden zuerst anhand der Fahrwege:
 
     - Welche Spuren haben Grün?
     - Schneiden sich diese Fahrwege?
@@ -338,15 +342,15 @@ Die aussagenlogische Formel wird am Ende lediglich als weitere Darstellung der *
 
     > Was bewertet die Spalte `sicher`: eine einzelne Ampel oder die ganze Kombination?
 
-    **Erwartete Antwort:** Die gesamte Kombination der Ampelzustände.
+    **Erwartete Antwort:** Die gesamte Ampelbelegung.
 
     **8. [AB 2a](https://github.com/salomegolden/logictraffic/releases/download/ab2_v2/2a_orientierung_logictraffic.pdf) – Aufgaben 6 und 7: Darstellungen unterscheiden**
 
     Zum Abschluss des Arbeitsblatts wird bewusst zwischen den Darstellungen unterschieden:
 
-    - Die **Kreuzung** zeigt Fahrwege und eine konkrete Ampelstellung.
-    - Eine **Tabellenzeile** beschreibt diese Ampelstellung mit `0` und `1`.
-    - Die **gesamte Wahrheitstabelle** enthält verschiedene mögliche Ampelstellungen.
+    - Die **Kreuzung** zeigt Fahrwege und eine konkrete Ampelbelegung.
+    - Die **Ampelspalten einer Tabellenzeile** beschreiben diese Ampelbelegung mit `0` und `1`; die vollständige Zeile enthält zusätzlich die Sicherheitsbewertung.
+    - Die **gesamte Wahrheitstabelle** enthält verschiedene mögliche Ampelbelegungen.
     - Die Spalte **`sicher`** bewertet die jeweiligen Kombinationen.
     - Die **Formel** wird nur als kompakte Darstellung der Sicherheitsregel benannt; sie muss noch nicht gelesen oder gebildet werden.
 
@@ -360,7 +364,7 @@ Die aussagenlogische Formel wird am Ende lediglich als weitere Darstellung der *
     `A`, `B`, `C` … sind in LogicTraffic bereits eingetragen. Ein erneutes Beschriften würde eher Verwirrung erzeugen. Die Lernleistung besteht im **Zuordnen derselben Variable über mehrere Darstellungen hinweg**.
 
     **2. `0` und `1` nicht als „falsch“ und „richtig“ einführen**  
-    In dieser Phase werden sie konkret als Ampelzustände gelesen: `0 = Rot`, `1 = Grün`.
+    In dieser Phase werden sie konkret als Ampelfarben gelesen: `0 = Rot`, `1 = Grün`.
 
     **3. Formel nicht vorwegnehmen**  
     Der Formelbereich darf sichtbar sein und auf dem Merkblatt vorkommen. Inhaltlich genügt jedoch die Aussage, dass die Formel später die Sicherheitsregel kompakt beschreiben wird.
@@ -382,8 +386,8 @@ Die aussagenlogische Formel wird am Ende lediglich als weitere Darstellung der *
 
     === "Erweiterungen"
 
-        - Eine Tabellenzeile vorgeben und die zugehörige Ampelstellung ohne Ausprobieren einstellen lassen.
-        - Eine Ampelstellung kurz zeigen, wieder verändern und die ursprüngliche Tabellenzeile aus dem Gedächtnis notieren lassen.
+        - Eine Tabellenzeile vorgeben und die zugehörige Ampelbelegung ohne Ausprobieren einstellen lassen.
+        - Eine Ampelbelegung kurz zeigen, wieder verändern und die ursprüngliche Tabellenzeile aus dem Gedächtnis notieren lassen.
         - Begründen lassen, weshalb zwei gleichzeitig grüne Ampeln nicht automatisch eine unsichere Situation bedeuten.
         - Bereits eine Situation mit drei Variablen erkunden, ohne die vollständige Tabelle systematisch aufzubauen.
         - Beobachten lassen, dass der Formelbereich auf Änderungen reagiert, ohne die Formel bereits fachlich zu analysieren.
@@ -394,7 +398,7 @@ Die aussagenlogische Formel wird am Ende lediglich als weitere Darstellung der *
 
     Die Lernenden ordnen die verschiedenen Darstellungen in LogicTraffic nach ihrer Funktion und sichern die zentralen Erkenntnisse des Bausteins.
 
-    Sie unterscheiden insbesondere zwischen einer konkreten Ampelstellung, ihrer symbolischen Beschreibung, der vollständigen Menge möglicher Zustände und der Sicherheitsregel. Daraus entwickeln sie die Anschlussfrage für Baustein 3.
+    Sie unterscheiden insbesondere zwischen einer konkreten Ampelbelegung, ihrer symbolischen Beschreibung, der vollständigen Menge möglicher Ampelbelegungen und der Sicherheitsregel. Daraus entwickeln sie die Anschlussfrage für Baustein 3.
 
 ??? example "Material"
 
@@ -430,11 +434,11 @@ Die aussagenlogische Formel wird am Ende lediglich als weitere Darstellung der *
 
     **Leitfragen:**
 
-    > Welche Darstellung zeigt nur eine aktuelle Ampelstellung?
+    > Welche Darstellung zeigt nur eine aktuelle Ampelbelegung?
 
     **Erwartete Antwort:** Die Kreuzung.
 
-    > Wo finden wir dieselbe aktuelle Ampelstellung mit `0` und `1` wieder?
+    > Wo finden wir dieselbe aktuelle Ampelbelegung mit `0` und `1` wieder?
 
     **Erwartete Antwort:** In einer passenden Zeile der Wahrheitstabelle.
 
@@ -444,7 +448,7 @@ Die aussagenlogische Formel wird am Ende lediglich als weitere Darstellung der *
 
     > Was sagt `sicher` aus?
 
-    **Erwartete Antwort:** Ob die jeweilige Kombination der Ampelzustände kollisionsfrei ist.
+    **Erwartete Antwort:** Ob die jeweilige Ampelbelegung kollisionsfrei ist.
 
     **3. [Tafelbild 2e](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2e_tafelbild_ergebnissicherung.pdf) zur gemeinsamen Sicherung einsetzen**
 
@@ -453,13 +457,13 @@ Die aussagenlogische Formel wird am Ende lediglich als weitere Darstellung der *
     Fachlich präzise kann die Beziehung so gesichert werden:
 
     **Kreuzung**  
-    → zeigt Fahrwege und einen konkreten Ampelzustand
+    → zeigt Fahrwege und eine konkrete Ampelbelegung
 
     **Variablen und `0`/`1`**  
-    → beschreiben den Ampelzustand symbolisch
+    → beschreiben die Ampelbelegung symbolisch
 
     **eine Tabellenzeile**  
-    → beschreibt genau eine mögliche Belegung
+    → enthält genau eine Ampelbelegung und deren Sicherheitsbewertung
 
     **Wahrheitstabelle**  
     → umfasst die möglichen Belegungen und ihre Sicherheitsbewertung
@@ -495,7 +499,7 @@ Die aussagenlogische Formel wird am Ende lediglich als weitere Darstellung der *
 
     Dadurch sollte [2e](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2e_tafelbild_ergebnissicherung.pdf) nicht vor der Bearbeitung von [2c](https://github.com/salomegolden/logictraffic/releases/download/ab2_v2/2c_ergebnissicherungLT.pdf) gezeigt werden, da es sonst die eigentliche Sicherungsleistung vorwegnimmt.
 
-    Fachlich ist zudem eine kleine Präzisierung wichtig: Eine konkrete Ampelstellung und eine gesamte Wahrheitstabelle sind nicht einfach „dieselbe Darstellung in anderer Form“. Eine **Tabellenzeile** entspricht einer konkreten Belegung; die **gesamte Tabelle** umfasst mehrere bzw. alle Belegungen. Die **Formel** beschreibt wiederum die übergeordnete Sicherheitsregel. Gerade diese Unterscheidung erleichtert später den Übergang zu Baustein 3 und 4.
+    Fachlich ist zudem eine kleine Präzisierung wichtig: Eine konkrete Ampelbelegung und eine gesamte Wahrheitstabelle sind nicht einfach „dieselbe Darstellung in anderer Form“. Die **Ampelspalten einer Zeile** beschreiben eine konkrete Ampelbelegung; die **vollständige Zeile** enthält zusätzlich die Sicherheitsbewertung. Die **gesamte Tabelle** umfasst alle möglichen Ampelbelegungen mit ihrer Bewertung. Die **Formel** beschreibt wiederum die übergeordnete Sicherheitsregel. Gerade diese Unterscheidung erleichtert später den Übergang zu Baustein 3 und 4.
 
     Die Formel bleibt hier ein **Ausblick**. Lernende müssen weder Operatoren kennen noch die angezeigte Formel erklären können.
 
@@ -515,7 +519,7 @@ Die aussagenlogische Formel wird am Ende lediglich als weitere Darstellung der *
     === "Erweiterungen"
 
         - Den Unterschied zwischen **einer Tabellenzeile** und der **gesamten Wahrheitstabelle** in eigenen Worten erklären lassen.
-        - Begründen lassen, weshalb die Formel eher zur ganzen Sicherheitsregel als zu einer einzelnen Ampelstellung gehört.
+        - Begründen lassen, weshalb die Formel eher zur ganzen Sicherheitsregel als zu einer einzelnen Ampelbelegung gehört.
         - Eine eigene grafische Darstellung der Repräsentationswechsel entwickeln lassen.
         - Bereits vermuten lassen, wie viele Zeilen eine vollständige Wahrheitstabelle mit drei Fahrspuren enthalten könnte, ohne die allgemeine Regel vorwegzunehmen.
 
@@ -525,9 +529,9 @@ Die aussagenlogische Formel wird am Ende lediglich als weitere Darstellung der *
 Am Ende von Baustein 2 können die Lernenden die digitale Lernumgebung nicht nur bedienen, sondern zentrale Elemente **fachlich deuten**:
 
 1. Fahrspuren werden als Variablen `A`, `B`, `C` … bezeichnet.
-2. `0` und `1` beschreiben bei den Variablen die Ampelzustände Rot und Grün.
-3. Eine Tabellenzeile kann eine konkrete Ampelstellung symbolisch beschreiben.
-4. Die Wahrheitstabelle umfasst verschiedene mögliche Ampelstellungen.
+2. `0` und `1` beschreiben bei den Variablen die Ampelfarben Rot und Grün.
+3. Die Ampelspalten einer Zeile beschreiben eine konkrete Ampelbelegung; die vollständige Zeile enthält zusätzlich die Sicherheitsbewertung.
+4. Die Wahrheitstabelle umfasst verschiedene mögliche Ampelbelegungen.
 5. Die Spalte `sicher` bewertet, ob eine Kombination kollisionsfrei ist.
 6. Die Formel ist eine weitere, kompakte Darstellung der Sicherheitsregel und wird erst später vertieft.
 

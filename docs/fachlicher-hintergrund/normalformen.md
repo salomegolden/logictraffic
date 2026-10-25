@@ -1,6 +1,6 @@
 # Normalformen
 
-Eine **Boolesche Funktion** ordnet jeder möglichen Belegung der Aussagenvariablen genau einen Ausgabewert zu. In LogicTraffic ist das der Wert `1` für eine sichere und `0` für eine unsichere Ampelkombination. Normalformen sind standardisierte aussagenlogische Darstellungen dieser Zuordnung. Sie helfen, aus einer Wahrheitstabelle systematisch eine Formel zu erzeugen und verschiedene Formeln miteinander zu vergleichen.[^1]
+Eine **Boolesche Funktion** ordnet jeder möglichen Belegung der Aussagenvariablen genau einen Ausgabewert zu. In LogicTraffic ist das der Wert `1` für eine sichere und `0` für eine unsichere Ampelbelegung. Normalformen sind standardisierte aussagenlogische Darstellungen dieser Zuordnung. Sie helfen, aus einer Wahrheitstabelle systematisch eine Formel zu erzeugen und verschiedene Formeln miteinander zu vergleichen.[^1]
 
 ## Überblick
 

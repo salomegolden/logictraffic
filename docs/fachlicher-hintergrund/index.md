@@ -2,7 +2,7 @@
 
 LogicTraffic simuliert eine Strassenkreuzung mit Ampeln für verschiedene Fahrspuren. Ziel ist es, eine aussagenlogische Formel zu finden, die sicherstellt, dass kreuzende Spuren nie gleichzeitig grün haben. Dadurch wird sichtbar, wie Aussagenlogik in einem alltagsnahen Problem angewendet wird.
 
-In LogicTraffic wird jeder Fahrspur eine eigene boolsche Variable zugewiesen. Eine Ampel ist entweder rot (Variablenwert `0`) oder grün (Variablenwert `1`). Die Wahrheitstabelle listet alle möglichen Kombinationen dieser Ampelzustände auf. Die Formel beschreibt anschliessend, welche Kombinationen sicher sind.
+In LogicTraffic wird jeder Fahrspur eine eigene boolsche Variable zugewiesen. Eine Ampel zeigt entweder Rot (Variablenwert `0`) oder Grün (Variablenwert `1`). Eine **Ampelbelegung** legt diese Farbe für jede betrachtete Ampel fest. Die Wahrheitstabelle listet alle möglichen Ampelbelegungen mit ihrer Sicherheitsbewertung auf: In der Ergebnisspalte bedeutet `1 = sicher` und `0 = unsicher`. Ein **sicherer Kreuzungszustand** liegt vor, wenn keine miteinander in Konflikt stehenden Verkehrsströme gleichzeitig Grün haben. Die Formel beschreibt anschliessend diese Sicherheitsregel.
 
 ## Zentrale Begriffe
 
@@ -12,17 +12,17 @@ In LogicTraffic wird jeder Fahrspur eine eigene boolsche Variable zugewiesen. Ei
 | Wahrheitswert | Wert einer Aussage: wahr/`1` oder falsch/`0` | `A = 1` bedeutet: Spur A ist befahrbar. |
 | Aussagevariable | Platzhalter für eine Aussage oder einen Zustand | `A`, `B`, `C` stehen für Fahrspuren bzw. Ampeln. |
 | Operator | Rechenzeichen der booleschen Logik; erzeugt aus Wahrheitswerten neue Wahrheitswerte.| UND, ODER, NICHT |
-| Boolesche Funktion | Ordnet jeder möglichen Belegung genau einen Ausgabewert zu. | Die Zuordnung, ob eine Ampelkombination sicher (`1`) oder unsicher (`0`) ist |
-| Sicherheitsregel | Sprachliche Beschreibung, welche Ampelstellungen sicher sind. | Zwei kreuzende Spuren dürfen nicht gleichzeitig Grün haben. |
+| Boolesche Funktion | Ordnet jeder möglichen Belegung genau einen Ausgabewert zu. | Die Zuordnung, ob eine Ampelbelegung sicher (`1`) oder unsicher (`0`) ist |
+| Sicherheitsregel | Sprachliche Beschreibung, welche Ampelbelegungen sicher sind. | Zwei kreuzende Spuren dürfen nicht gleichzeitig Grün haben. |
 | Aussagenlogische Formel | Formale Darstellung einer Regel mit Variablen und logischen Operatoren. | `¬(A ∧ B)` |
-| Wahrheitstabelle | Tabelle mit allen `2^n` Kombinationen von `n` Variablen.| Alle Rot-Grün-Kombinationen einer Situation |
+| Wahrheitstabelle | Tabelle mit allen `2^n` Belegungen von `n` Variablen und dem jeweiligen Ergebnis. | Alle Ampelbelegungen einer Situation mit ihrer Sicherheitsbewertung |
 | Normalform | Standardisierte Form einer aussagenlogischen Formel | DNF, KNF, KDNF, KKNF |
 
 * Bewusst Junktor und Operator nicht 
 
 ## Aussagenlogik in LogicTraffic
 
-In der Aussagenlogik werden Aussagen mit genau zwei möglichen Wahrheitswerten betrachtet: wahr oder falsch. In LogicTraffic entspricht das dem Ampelzustand:
+In der Aussagenlogik werden Aussagen mit genau zwei möglichen Wahrheitswerten betrachtet: wahr oder falsch. In LogicTraffic entspricht das den Farben einer einzelnen Ampel:
 
 | Logischer Wert | Bedeutung in LogicTraffic | Praktische Bedeutung |
 | --- | --- | --- |

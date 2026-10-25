@@ -67,7 +67,7 @@ Die Unterrichtseinheit folgt einer Progression vom konkreten Handeln zur formale
 
 ### Baustein 1 - Enaktiver Einstieg
 
-Die Lernenden untersuchen mit physischen Materialien, welche Ampelschaltungen sicher oder unsicher sind. Sie begründen ihre Entscheidungen und formulieren erste Regeln in Alltagssprache.
+Die Lernenden untersuchen mit physischen Materialien, welche Ampelbelegungen sicher oder unsicher sind. Sie begründen ihre Entscheidungen und formulieren erste Regeln in Alltagssprache.
 
 Zentrale Darstellung: konkret und handelnd.
 
@@ -83,7 +83,7 @@ Zentrale Darstellung: virtuell-enaktiv und ikonisch
 
 ### Baustein 3 - Wahrheitstabellen
 
-Die Lernenden erfassen die möglichen Ampelzustände systematisch in einer Wahrheitstabelle. Dabei verbinden sie konkrete Situationen mit Variablen und Wahrheitswerten.
+Die Lernenden erfassen die möglichen Ampelbelegungen systematisch in einer Wahrheitstabelle. Dabei verbinden sie konkrete Situationen mit Variablen und Wahrheitswerten.
 
 Zentrale Darstellung: tabellarisch und symbolisch
 
@@ -101,9 +101,9 @@ Zentrale Darstellung: formal und symbolisch
 
 | Baustein | Schwerpunkt | :material-timer-sand: Richtzeit | :computer: Computer |
 | ------- | --------------------------------------------- | ---------: | :------: |
-| 1 | Sichere Ampelschaltungen handelnd untersuchen | 60–90 Min. | Nein |
+| 1 | Sichere Ampelbelegungen handelnd untersuchen | 60–90 Min. | Nein |
 | 2 | LogicTraffic kennenlernen und bedienen | ca. 45–55 Min.; ohne Baustein 1 zusätzlich 5–10 Min. | Ja |
-| 3 | Zustände in Wahrheitstabellen darstellen | ca. 50–60 Min. | Ja |
+| 3 | Ampelbelegungen in Wahrheitstabellen darstellen | ca. 50–60 Min. | Ja |
 | 4 | Sicherheitsregeln formal beschreiben | Basisteil ca. 60 Min.; Vertiefung zusätzlich 45 Min.; Transfer zusätzlich 20–30 Min. | Ja |
 
 !!! info "Flexibler Einsatz"

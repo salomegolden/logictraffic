@@ -2,7 +2,7 @@
 
 Die Beurteilungsaufgaben knüpfen an die Unterrichtssequenz an und trennen bewusst zwischen Lernstand sichtbar machen und Leistung bilanzieren.
 
-Für die **8.–9. Klasse am Gymnasium** beziehen sich die gemeinsamen Leistungserwartungen auf [LZ1–LZ3](../didaktik/lernziele.md): Zustände und Tabellen verstehen, Sicherheitsformeln entwickeln und Lösungen prüfen. Die beiden Einstiegsvarianten werden an denselben fachlichen Kriterien beurteilt. [LZ4](../didaktik/lernziele.md#lernziel-4-normalformen-und-minimierung-boolescher-ausdruecke) und der Transfer auf fünf Variablen werden nur dann zusätzlich beurteilt, wenn sie unterrichtet und vorher als Leistungserwartung angekündigt wurden.
+Für die **8.–9. Klasse am Gymnasium** beziehen sich die gemeinsamen Leistungserwartungen auf [LZ1–LZ3](../didaktik/lernziele.md): Ampelbelegungen und Tabellen verstehen, Sicherheitsformeln entwickeln und Lösungen prüfen. Die beiden Einstiegsvarianten werden an denselben fachlichen Kriterien beurteilt. [LZ4](../didaktik/lernziele.md#lernziel-4-normalformen-und-minimierung-boolescher-ausdruecke) und der Transfer auf fünf Variablen werden nur dann zusätzlich beurteilt, wenn sie unterrichtet und vorher als Leistungserwartung angekündigt wurden.
 
 ## Überblick
 
@@ -19,7 +19,7 @@ Formative Beurteilung soll während des Lernprozesses sichtbar machen, welche Vo
 
 | Aufgabe | Beobachtungsschwerpunkt | Durchführung |
 | --- | --- | --- |
-| Ampelzustand erklären | Verstehen von `0` und `1` im Kontext der Kreuzung | Lernende zeigen eine Situation in LogicTraffic und erklären die Werte in der Tabelle. |
+| Ampelbelegung erklären | Verstehen von `0` und `1` im Kontext der Kreuzung | Lernende zeigen eine Situation in LogicTraffic und erklären die Werte in der Tabelle. |
 | Sichere Zeile begründen | Zusammenhang zwischen Tabelle und Kollision | Eine Zeile wird ausgewählt; Lernende begründen, ob sie sicher ist. |
 | Formel laut lesen | Verbindung zwischen Formel und natürlicher Sprache | Lernende übersetzen z.B. `A ∧ ¬B` in einen Satz. |
 | Fehler finden | Debugging und systematisches Prüfen | Eine unsichere Tabelle wird vorgegeben; Lernende finden die problematische Zeile. |
@@ -46,7 +46,7 @@ Formative Aufgaben müssen nicht benotet werden. Hilfreich ist eine kurze Einord
 
 # Summative Beurteilungsaufgaben
 
-Summative Aufgaben prüfen, ob Lernende zentrale Kompetenzen der Unterrichtssequenz selbstständig anwenden können: Zustände deuten, Wahrheitstabellen nutzen, Formeln verstehen und Ergebnisse begründen.
+Summative Aufgaben prüfen, ob Lernende zentrale Kompetenzen der Unterrichtssequenz selbstständig anwenden können: Ampelbelegungen deuten, Wahrheitstabellen nutzen, Formeln verstehen und Ergebnisse begründen.
 
 ## Mögliche Abschlussaufgabe
 
@@ -54,7 +54,7 @@ Die Lernenden erhalten eine neue Verkehrssituation mit zwei oder drei Fahrspuren
 
 | Schritt | Auftrag | Erwartete Leistung / Lernziel |
 | --- | --- | --- |
-| 1 | Spuren benennen und Ampelzustände als Variablen festlegen | Variablen sinnvoll zuordnen; Ampelzustand und Sicherheitsbewertung unterscheiden – [LZ1a](../didaktik/lernziele.md#lz1a) |
+| 1 | Spuren benennen und jeder Ampel eine Variable zuordnen | Variablen sinnvoll zuordnen; Ampelfarbe und Sicherheitsbewertung unterscheiden – [LZ1a](../didaktik/lernziele.md#lz1a) |
 | 2 | Wahrheitstabelle selbstständig erstellen und das Ordnungsmuster erläutern | Alle vier bzw. acht Belegungen ohne Wiederholungen erfassen; $2^n$ erklären – [LZ1b](../didaktik/lernziele.md#lz1b) |
 | 3 | Sichere und unsichere Zeilen markieren | Kollisionen anhand der Fahrwege begründen – [LZ1a](../didaktik/lernziele.md#lz1a) |
 | 4 | Eine passende Formel entwickeln und in Worten erklären | Teilregeln sinnvoll verbinden und Operatoren deuten – [LZ1c](../didaktik/lernziele.md#lz1c) und [LZ2](../didaktik/lernziele.md#lernziel-2-boolesche-formeln-aus-textbeschreibungen-ableiten) |
@@ -71,7 +71,7 @@ Wer eine teilweise ausgefüllte Tabelle oder vorgegebene Teilformeln benötigt, 
 | --- | --- |
 | Fachbegriffe | Variablen, Wahrheitswerte und Operatoren werden korrekt verwendet. |
 | Systematik | Die Wahrheitstabelle ist vollständig und nachvollziehbar. |
-| Sicherheit | sichere und unsichere Zustände werden begründet. |
+| Sicherheit | sichere und unsichere Ampelbelegungen werden begründet. |
 | Formelverständnis | Formel, Tabelle und Situation werden sinnvoll aufeinander bezogen. |
 | Erklärung | Die Lösung ist sprachlich klar und fachlich präzise. |
 

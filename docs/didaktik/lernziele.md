@@ -1,12 +1,12 @@
 # Lehrplan und Lernziele
 
-Die Unterrichtseinheit richtet sich an **gymnasiale Klassen der 8.–9. Schulstufe ohne Vorkenntnisse in Aussagenlogik**. Am Ende des Basisteils können die Lernenden eine einfache Verkehrskreuzung untersuchen, ihre möglichen Ampelzustände vollständig erfassen und eine passende Sicherheitsformel entwickeln und überprüfen.
+Die Unterrichtseinheit richtet sich an **gymnasiale Klassen der 8.–9. Schulstufe ohne Vorkenntnisse in Aussagenlogik**. Am Ende des Basisteils können die Lernenden eine einfache Verkehrskreuzung untersuchen, ihre möglichen Ampelbelegungen vollständig erfassen und eine passende Sicherheitsformel entwickeln und überprüfen.
 
 Die vier übergeordneten Lernziele werden in den Bausteinen schrittweise aufgebaut. Die Kennzeichnungen **LZ1–LZ4** und ihre Teilziele verbinden diese Übersicht mit den konkreten Unterrichtszielen. Den zeitlichen und didaktischen Verlauf erläutert der [Aufbau der Unterrichtseinheit](aufbau.md).
 
 ## Anspruch für die 8.–9. Klasse
 
-**LZ1–LZ3 bilden den gemeinsamen Kern.** Selbstständige Tabellen und Formeln werden zunächst an zwei bis drei Variablen erarbeitet. Grössere Kreuzungen veranschaulichen den wachsenden Aufwand; ihre vollständige Bearbeitung ist kein allgemeines Abschlussziel des Basisteils. Das Verdoppeln der Anzahl möglicher Zustände führt anschaulich zu $2^n$; ein formaler kombinatorischer Beweis wird nicht vorausgesetzt.
+**LZ1–LZ3 bilden den gemeinsamen Kern.** Selbstständige Tabellen und Formeln werden zunächst an zwei bis drei Variablen erarbeitet. Grössere Kreuzungen veranschaulichen den wachsenden Aufwand; ihre vollständige Bearbeitung ist kein allgemeines Abschlussziel des Basisteils. Das Verdoppeln der Anzahl möglicher Ampelbelegungen führt anschaulich zu $2^n$; ein formaler kombinatorischer Beweis wird nicht vorausgesetzt.
 
 **LZ4 ist eine optionale Vertiefung.** Normalformen werden an kleinen Beispielen untersucht. Das systematische Erzeugen kanonischer Formen dient als Hilfe; ein allgemeines Minimierungsverfahren oder der Nachweis einer absolut kürzesten Formel wird nicht verlangt. Auch der Transfer auf fünf Variablen ist optional.
 
@@ -18,24 +18,24 @@ Der ergänzende [Logikblock zu Aussagen und historischen Bezugspunkten](../unter
 
 | Lernziel | Erwartete Kompetenz | Wo wird sie aufgebaut? | Umfang |
 | --- | --- | --- | --- |
-| [LZ1](#lernziel-1-logische-operatoren-und-wahrheitstabellen) | Zustände erklären, Darstellungen verbinden, vollständige Tabellen erstellen und Operatoren deuten | Bausteine 1–3; Operatoren in Baustein 4 | Basis |
+| [LZ1](#lernziel-1-logische-operatoren-und-wahrheitstabellen) | Ampelbelegungen erklären, Darstellungen verbinden, vollständige Tabellen erstellen und Operatoren deuten | Bausteine 1–3; Operatoren in Baustein 4 | Basis |
 | [LZ2](#lernziel-2-boolesche-formeln-aus-textbeschreibungen-ableiten) | Sicherheitsregeln formulieren, in Formeln übersetzen und erklären | Sprachliche Vorbereitung in Baustein 1; Formeln in Baustein 4 | Basis |
 | [LZ3](#lernziel-3-fehlerhafte-ampelsteuerungen-untersuchen) | Tabellen und Formeln systematisch prüfen, Fehler finden und korrigieren | Bausteine 3–4; Sicherheitsbeurteilung ab Baustein 1 | Basis |
 | [LZ4](#lernziel-4-normalformen-und-minimierung-boolescher-ausdruecke) | Gleichwertige Formeln, Normalformen und einfache Vereinfachungen begründet vergleichen | Baustein 4, Phasen 4–6 | Optional |
 
-## LZ1: Zustände, Wahrheitstabellen und Operatoren verstehen {#lernziel-1-logische-operatoren-und-wahrheitstabellen}
+## LZ1: Ampelbelegungen, Wahrheitstabellen und Operatoren verstehen {#lernziel-1-logische-operatoren-und-wahrheitstabellen}
 
-Die Lernenden können eine konkrete Ampelstellung sprachlich und tabellarisch beschreiben, alle Belegungen einer einfachen Kreuzung systematisch erfassen und logische Operatoren im Verkehrskontext erklären.
+Die Lernenden können eine konkrete Ampelbelegung sprachlich und tabellarisch beschreiben, alle Belegungen einer einfachen Kreuzung systematisch erfassen und logische Operatoren im Verkehrskontext erklären.
 
 ### LZ1a · Verkehrssituationen und Darstellungen deuten {#lz1a}
 
-Die Lernenden können Fahrwege und Konfliktpaare erkennen und sichere von unsicheren Ampelkombinationen begründet unterscheiden. Ab Baustein 2 ordnen sie Fahrspuren den Variablen und eine Ampelstellung einer Tabellenzeile zu – auch in umgekehrter Richtung. Dabei unterscheiden sie `0`/`1` als Ampelzustand von `0`/`1` als Sicherheitsbewertung.
+Die Lernenden können Fahrwege und Konfliktpaare erkennen und sichere von unsicheren Ampelbelegungen begründet unterscheiden. Ab Baustein 2 ordnen sie Fahrspuren den Variablen und eine Ampelbelegung einer Tabellenzeile zu – auch in umgekehrter Richtung. Dabei unterscheiden sie `0`/`1` als Angabe der Ampelfarbe von `0`/`1` als Sicherheitsbewertung.
 
 **Beobachtbarer Nachweis:** Eine vorgegebene Kombination wird dargestellt und begründet bewertet; die Lernenden erklären, weshalb auch „alle Rot“ kollisionsfrei ist. Sie unterscheiden eine einzelne Belegung von der gesamten Tabelle und von einer Regel für alle Belegungen.
 
 **Erarbeitung:** [Baustein 1 enaktiv – Lernziele](../unterricht/baustein1-enaktiv.md#lernziele) oder [Baustein 1 lehrpersonenzentriert – Lernziele](../unterricht/baustein1-lehrpersonenzentriert.md#lernziele), anschliessend [Baustein 2 – Lernziele](../unterricht/baustein2-logictraffic.md#lernziele), Sicherung mit 2c.
 
-### LZ1b · Alle möglichen Zustände systematisch erfassen {#lz1b}
+### LZ1b · Alle möglichen Ampelbelegungen systematisch erfassen {#lz1b}
 
 Die Lernenden können für zwei und drei Variablen alle Belegungen vollständig und ohne Wiederholungen aufschreiben, nach den Fahrwegen bewerten und ihr Ordnungsmuster erläutern. Sie erklären, dass jede zusätzliche Variable die Zeilenzahl verdoppelt, und wenden $2^n$ auf kleine Beispiele an. Am Beispiel von fünf Variablen begründen sie, weshalb eine kompaktere Darstellung nützlich wird.
 
@@ -65,7 +65,7 @@ Die Lernenden können die Konflikte einer einfachen Kreuzung mit zwei bis drei V
 
 ## LZ3: Tabellen und Sicherheitsformeln überprüfen {#lernziel-3-fehlerhafte-ampelsteuerungen-untersuchen}
 
-Die Lernenden können Fehler in Tabellen und Formeln anhand der modellierten Kreuzung lokalisieren, erklären und korrigieren. Sie unterscheiden eine unvollständige Auflistung der Zustände von einer falschen Sicherheitsbewertung.
+Die Lernenden können Fehler in Tabellen und Formeln anhand der modellierten Kreuzung lokalisieren, erklären und korrigieren. Sie unterscheiden eine unvollständige Auflistung der Ampelbelegungen von einer falschen Sicherheitsbewertung.
 
 ### LZ3a · Fehler in Wahrheitstabellen finden {#lz3a}
 
@@ -108,7 +108,7 @@ Normalformen sind für diesen direkten Weg über die Konflikte keine Voraussetzu
 
 | Unterrichtsabschnitt | Fokus | Geeigneter Nachweis |
 | --- | --- | --- |
-| [Baustein 1 – enaktiv](../unterricht/baustein1-enaktiv.md#lernziele) **oder** [lehrpersonenzentriert](../unterricht/baustein1-lehrpersonenzentriert.md#lernziele) | LZ1a; Vorbereitung LZ1b und LZ2 | Sichere und unsichere Ampelstellungen begründen, Rot-Grün-Kombinationen ordnen und eine Regel in Worten ausdrücken |
+| [Baustein 1 – enaktiv](../unterricht/baustein1-enaktiv.md#lernziele) **oder** [lehrpersonenzentriert](../unterricht/baustein1-lehrpersonenzentriert.md#lernziele) | LZ1a; Vorbereitung LZ1b und LZ2 | Sichere und unsichere Ampelbelegungen begründen, Rot-Grün-Kombinationen ordnen und eine Regel in Worten ausdrücken |
 | [Baustein 2](../unterricht/baustein2-logictraffic.md#lernziele) | LZ1a | Eine Tabellenzeile an der Kreuzung zeigen und die beiden Bedeutungen von `0`/`1` erklären |
 | [Baustein 3](../unterricht/baustein3-wahrheitstabellen.md#lernziele) | LZ1b und LZ3a | Eine vollständige Tabelle erstellen und eine fehlerhafte Tabelle begründet korrigieren |
 | [Baustein 4 – Basisteil](../unterricht/baustein4-boolesche-algebra.md#basisteil) | LZ1c, LZ2 und LZ3b | Eine Formel entwickeln, erläutern und vollständig prüfen |

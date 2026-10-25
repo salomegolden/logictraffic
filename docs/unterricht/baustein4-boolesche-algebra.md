@@ -6,7 +6,7 @@
 
 In diesem Baustein lernen die Lernenden, Sicherheitsregeln einer Verkehrskreuzung mit aussagenlogischen Formeln zu beschreiben.
 
-Ausgangspunkt ist die Erkenntnis aus [Baustein 3 – Wahrheitstabellen](baustein3-wahrheitstabellen.md): Wahrheitstabellen können alle möglichen Zustände vollständig darstellen, werden mit zunehmender Anzahl von Variablen jedoch schnell sehr umfangreich. Baustein 4 greift genau dieses Problem auf. Die Lernenden entwickeln aus bereits verstandenen Verkehrssituationen schrittweise kompakte aussagenlogische Formeln für die Sicherheitsregeln und überprüfen diese anschliessend wieder an der Wahrheitstabelle.
+Ausgangspunkt ist die Erkenntnis aus [Baustein 3 – Wahrheitstabellen](baustein3-wahrheitstabellen.md): Wahrheitstabellen können alle möglichen Ampelbelegungen vollständig darstellen, werden mit zunehmender Anzahl von Variablen jedoch schnell sehr umfangreich. Baustein 4 greift genau dieses Problem auf. Die Lernenden entwickeln aus bereits verstandenen Verkehrssituationen schrittweise kompakte aussagenlogische Formeln für die Sicherheitsregeln und überprüfen diese anschliessend wieder an der Wahrheitstabelle.
 
 Die Progression des Bausteins lautet:
 
@@ -71,7 +71,7 @@ In der optionalen Vertiefung untersuchen die Lernenden logisch äquivalente Form
     - einfache aussagenlogische Formeln wieder in Alltagssprache übersetzen;
     - aussagenlogische Formeln in LogicTraffic syntaktisch korrekt eingeben;
     - eine Formel für zwei bis drei Variablen anhand aller Tabellenzeilen mit der begründeten Sicherheitsbewertung der Kreuzung vergleichen;
-    - eine abweichende Belegung finden und erklären, ob die Formel einen gefährlichen Zustand zulässt oder einen sicheren Zustand unnötig ausschliesst, und die betreffende Teilregel korrigieren;
+    - eine abweichende Belegung finden und erklären, ob die Formel eine unsichere Ampelbelegung zulässt oder eine sichere Ampelbelegung unnötig ausschliesst, und die betreffende Teilregel korrigieren;
     - zwischen einer konkreten Verkehrssituation, einer sprachlichen Regel, einer Wahrheitstabelle und einer Formel wechseln;
     - erklären, dass unterschiedliche Formeln dieselbe Sicherheitsregel beschreiben können.
 
@@ -109,7 +109,7 @@ In der optionalen Vertiefung untersuchen die Lernenden logisch äquivalente Form
 
         In Baustein 3 stand die Frage im Zentrum:
 
-        > Wie können wir **alle möglichen Zustände vollständig** darstellen?
+        > Wie können wir **alle möglichen Ampelbelegungen vollständig** darstellen?
 
         Baustein 4 verfolgt nun eine andere Frage:
 
@@ -230,14 +230,14 @@ Die **Phasen 1–3 bilden den Basisteil**. Die **Phasen 4–6 sind eine optional
 
     **Erwartete Antworten:**
 
-    - Alle möglichen Zustände sind vollständig enthalten.
+    - Alle möglichen Ampelbelegungen sind vollständig enthalten.
     - Man kann nichts vergessen, wenn die Tabelle korrekt aufgebaut ist.
     - Die Tabelle wird schnell sehr lang und unübersichtlich.
     - Das manuelle Erstellen und Prüfen wird zeitaufwendig und fehleranfällig.
 
     **2. Bearbeitung von [AB 4a](https://github.com/salomegolden/logictraffic/releases/download/ab4_v2/4a_logische_operatoren.pdf)**
 
-    Die Lernenden bearbeiten den Einstieg auf [AB 4a](https://github.com/salomegolden/logictraffic/releases/download/ab4_v2/4a_logische_operatoren.pdf). Im Zentrum steht die Frage, ob eine bekannte Sicherheitsbedingung auch **ohne vollständige Auflistung aller Zustände** beschrieben werden kann.
+    Die Lernenden bearbeiten den Einstieg auf [AB 4a](https://github.com/salomegolden/logictraffic/releases/download/ab4_v2/4a_logische_operatoren.pdf). Im Zentrum steht die Frage, ob eine bekannte Sicherheitsbedingung auch **ohne vollständige Auflistung aller Ampelbelegungen** beschrieben werden kann.
 
     **Zentrale Leitfrage:**
 
@@ -566,14 +566,14 @@ Die **Phasen 1–3 bilden den Basisteil**. Die **Phasen 4–6 sind eine optional
 
 ??? tip "Didaktische Hinweise"
 
-    Eine Formel kann Kollisionen verhindern und trotzdem kollisionsfreie Ampelstellungen unnötig ausschliessen. Deshalb werden bei der Überprüfung zwei Fragen unterschieden:
+    Eine Formel kann Kollisionen verhindern und trotzdem kollisionsfreie Ampelbelegungen unnötig ausschliessen. Deshalb werden bei der Überprüfung zwei Fragen unterschieden:
 
-    - **Ist die Formel sicher?** Sie darf keine Ampelstellung mit Kollisionsgefahr zulassen.
-    - **Ist die Formel optimal?** Sie muss zusätzlich alle kollisionsfreien Ampelstellungen zulassen.
+    - **Ist die Formel sicher?** Sie darf keine Ampelbelegung mit Kollisionsgefahr zulassen.
+    - **Ist die Formel optimal?** Sie muss zusätzlich alle kollisionsfreien Ampelbelegungen zulassen.
 
-    Dabei sind die Rückmeldungen in LogicTraffic auf zwei Ebenen zu unterscheiden: Der **Polizist** beurteilt die aktuell ausgewählte Ampelstellung. Die **Gesamtbewertung** prüft die Freigaben für alle möglichen Ampelstellungen. Eine einzelne kollisionsfreie Ampelstellung bestätigt deshalb noch nicht die Korrektheit der gesamten Formel.
+    Dabei sind die Rückmeldungen in LogicTraffic auf zwei Ebenen zu unterscheiden: Der **Polizist** beurteilt die aktuell ausgewählte Ampelbelegung. Die **Gesamtbewertung** prüft die Freigaben für alle möglichen Ampelbelegungen. Eine einzelne kollisionsfreie Ampelbelegung bestätigt deshalb noch nicht die Korrektheit der gesamten Formel.
 
-    Zeigt LogicTraffic **«unsicher»**, suchen die Lernenden eine Ampelstellung mit Kollisionsgefahr, die von ihrer Formel fälschlich zugelassen wird. Bei **«nicht ideal»** suchen sie eine kollisionsfreie Ampelstellung, die unnötig ausgeschlossen wird. **«Optimal»** bedeutet, dass alle kollisionsfreien Ampelstellungen zugelassen und alle Ampelstellungen mit Kollisionsgefahr ausgeschlossen werden. Die Bewertung sagt nichts darüber aus, ob die Formel möglichst kurz ist.
+    Zeigt LogicTraffic **«unsicher»**, suchen die Lernenden eine Ampelbelegung mit Kollisionsgefahr, die von ihrer Formel fälschlich zugelassen wird. Bei **«nicht ideal»** suchen sie eine kollisionsfreie Ampelbelegung, die unnötig ausgeschlossen wird. **«Optimal»** bedeutet, dass alle kollisionsfreien Ampelbelegungen zugelassen und alle Ampelbelegungen mit Kollisionsgefahr ausgeschlossen werden. Die Bewertung sagt nichts darüber aus, ob die Formel möglichst kurz ist.
 
     Die Rückmeldung dient als Ausgangspunkt für die Begründung: Die Lernenden erklären die gefundene Abweichung anhand der Fahrwege und der zugehörigen Tabellenzeile und korrigieren anschliessend ihre Formel.
 
@@ -595,7 +595,7 @@ Die **Phasen 1–3 bilden den Basisteil**. Die **Phasen 4–6 sind eine optional
         - Jede alternative Formel vollständig in Alltagssprache zurückübersetzen lassen.
         - Ohne Software vorhersagen lassen, ob zwei Formeln dieselbe Wahrheitstabelle erzeugen.
         - Eine möglichst gut lesbare und eine möglichst kurze Formel entwickeln und die beiden Varianten vergleichen.
-        - Eine sichere, aber zu restriktive Formel untersuchen lassen: Welche kollisionsfreie Ampelstellung wird unnötig ausgeschlossen? Die Formel so anpassen, dass sie alle kollisionsfreien Ampelstellungen zulässt.
+        - Eine sichere, aber zu restriktive Formel untersuchen lassen: Welche kollisionsfreie Ampelbelegung wird unnötig ausgeschlossen? Die Formel so anpassen, dass sie alle kollisionsfreien Ampelbelegungen zulässt.
 
 ### Phase 4 – Anders gebaut, gleich gemeint
 
@@ -849,7 +849,7 @@ Die **Phasen 1–3 bilden den Basisteil**. Die **Phasen 4–6 sind eine optional
 
         - KDNF und KKNF für dieselbe Wahrheitstabelle vollständig gegenüberstellen.
         - Für eine beliebige Tabellenzeile ohne Software den zugehörigen KDNF-Term und die KKNF-Klausel bilden.
-        - Begründen lassen, warum beide kanonischen Formen jede Ampelstellung gleich als sicher oder unsicher bewerten.
+        - Begründen lassen, warum beide kanonischen Formen jede Ampelbelegung gleich als sicher oder unsicher bewerten.
         - Eine kanonische Formel schrittweise vereinfachen und jede Vereinfachung auf Äquivalenz prüfen.
 
 ### Phase 6 – Lang, kurz, gleichwertig?
@@ -889,7 +889,7 @@ Die **Phasen 1–3 bilden den Basisteil**. Die **Phasen 4–6 sind eine optional
 
     Bevor über Länge oder Schönheit gesprochen wird, klären die Lernenden:
 
-    > Bewerten beide Formeln jede Ampelstellung gleich?
+    > Bewerten beide Formeln jede Ampelbelegung gleich?
 
     Als Kriterium gilt:
 
@@ -930,7 +930,7 @@ Die **Phasen 1–3 bilden den Basisteil**. Die **Phasen 4–6 sind eine optional
 
     Die Lernenden sollen zwei Ebenen konsequent trennen:
 
-    **1. Semantik:** Ordnet die Formel jeder Ampelstellung den passenden Sicherheitswert zu?  
+    **1. Semantik:** Ordnet die Formel jeder Ampelbelegung den passenden Sicherheitswert zu?  
     **2. Darstellung:** Wie geeignet ist diese Form für einen bestimmten Zweck?
 
     Gerade sehr lange KDNF- oder KKNF-Formeln sind didaktisch wertvoll, weil sichtbar wird, dass Länge kein Kriterium für logische Korrektheit ist.
@@ -1116,6 +1116,6 @@ Am Ende des Bausteins haben die Lernenden dieselbe grundlegende Sicherheitsidee 
 
     Wahrheitstabellen und Formeln stehen dabei nicht in Konkurrenz zueinander:
 
-    - Die **Wahrheitstabelle** beschreibt alle möglichen Zustände vollständig.
+    - Die **Wahrheitstabelle** beschreibt alle möglichen Ampelbelegungen vollständig.
     - Die **aussagenlogische Formel** beschreibt dieselbe Sicherheitsregel kompakt.
     - Der Wechsel zwischen beiden Darstellungen ermöglicht es, Lösungen zu entwickeln, zu überprüfen und miteinander zu vergleichen.
