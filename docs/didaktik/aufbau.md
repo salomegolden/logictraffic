@@ -50,7 +50,7 @@ Mit Kreuzungsfeldern, Fahrzeugen und Ampelplättchen spielen die Lernenden Verke
 
 **Brücke zum nächsten Baustein:** Wie lassen sich unsere gelegten Situationen am Computer darstellen und überprüfen?
 
-[:material-arrow-right: Ablauf und Material zu Baustein 1](../unterricht/baustein1-enaktiv.md) · [Dossier 1a–1c (PDF)](https://github.com/salomegolden/logictraffic/releases/download/ab1_v3/Baustein_1_Dossier.pdf)
+[:material-arrow-right: Ablauf und Material zu Baustein 1](../unterricht/baustein1-enaktiv.md) · [Dossier 1a–1c (PDF)](../downloads/baustein1/v1/baustein1-enaktiv-dossier.pdf)
 
 !!! tip "Alternative: lehrpersonenzentrierter Einstieg"
 
