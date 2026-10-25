@@ -1,6 +1,6 @@
 ## :material-lightbulb-on-outline: Warum Verkehrskreuzungen?
 
-Formale Logik wird häufig über Symbole und Formeln eingeführt. Für Lernende kann dadurch schwer erkennbar sein, welches reale Problem mit einer Formel beschrieben wird.
+Formale Logik wird häufig über Symbole und Formeln eingeführt. Für Lernende kann dadurch schwer erkennbar sein, welches reale Problem mit einer Formel beschrieben bzw. gelöst wird.
 
 Bei LogicTraffic steht deshalb zunächst eine verständliche Frage im Zentrum:
 

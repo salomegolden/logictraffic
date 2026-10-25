@@ -165,7 +165,7 @@
 
 ??? info "Implikationsform"
     * **Fachlich:** Eine Formelgestalt, die logische Verknüpfungen gezielt unter Verwendung des Implikationsjunktors ($\rightarrow$) ausdrückt, basierend auf den algebraischen Ersetzungsregeln $\neg A \lor B \equiv A \rightarrow B$ bzw. $\neg(A \land B) \equiv A \rightarrow \neg B$.
-    * **In LogicTraffic:** Eine im Formel-Menü automatisch generierte, optimierte Formel, die Kollisionsverbote in handlungsorientierte Wenn-Dann-Schaltregeln übersetzt (z. B. $C \rightarrow \neg(A \lor B)$ bzw. $A \rightarrow \neg B$)[cite: 1, 2]. Sie bildet das intuitive menschliche Regelverständnis an einer Kreuzung («Wenn Spur $A$ Grün hat, dann muss Spur $B$ Rot sein») am unmittelbarsten ab.
+    * **In LogicTraffic:** Eine im Formel-Menü automatisch generierte, optimierte Formel, die Kollisionsverbote in handlungsorientierte Wenn-Dann-Schaltregeln übersetzt (z. B. $C \rightarrow \neg(A \lor B)$ bzw. $A \rightarrow \neg B$)[cite: 1, 2]. Sie bildet das intuitive menschliche Regelverständnis an einer Kreuzung («Wenn Spur $A$ Grün hat, dann muss Spur $B$ Rot sein») am unmittelbarsten ab. Hinweis: Formeln mit Implikation werden in LogicTraffic heuristisch erzeugt und es kann daher vorkommen, dass nicht die gewünschten bzw. erwartete Formel mit Implikation automatisch generiert wird.
 --8<-- [end:implikationsformel]
 
 --8<-- [start:informatische_modellierung]
@@ -213,8 +213,8 @@
 <a id="knf"></a>
 
 ??? info "Konjunktive Normalform (KNF)"
-    * **Fachlich:** Eine standardisierte Formelstruktur, bestehend aus einer Konjunktion (UND-Verknüpfung) von Disjunktionstermen bzw. Klauseln (ODER-Verknüpfungen von Literalen) der Form $\bigwedge_{i=1}^k \bigvee_{j=1}^{n_i} L_{ij}$. Jede aussagenlogische Formel lässt sich in eine äquivalente KNF überführen[cite: 1]. 
-    * **In LogicTraffic:** Beschreibt die Steuerung über das explizite *Verbot aller Unfall- und Kollisionskonstellationen* (alle Zeilen mit `sicher = 0`). LogicTraffic bietet im Formel-Menü sowohl die vollständige *CCNF* als auch die durch den Quine-McCluskey-Algorithmus optimierte *KNF / CNF* an.
+    * **Fachlich:** Eine standardisierte Formelstruktur, bestehend aus einer Konjunktion (UND-Verknüpfung) von Disjunktionstermen bzw. Klauseln (ODER-Verknüpfungen von Literalen) der Form $\bigwedge_{i=1}^k \bigvee_{j=1}^{n_i} L_{ij}$. Jede aussagenlogische Formel lässt sich in eine äquivalente KNF überführen [cite: 1]. (Warum ist das hier erwähnenswert? Und warum hier so formal wo bei den kanonischen Formen elegant einfach Min- bzw. Maxterme verwendet werden? Dort fände ich es gut, wenn die syntaktische Form ebenfalls formal erwähnt wird.) 
+    * **In LogicTraffic:** Beschreibt die Steuerung über das explizite *Verbot aller Unfall- und Kollisionskonstellationen* (alle Zeilen mit `sicher = 0`). LogicTraffic bietet im Formel-Menü sowohl die vollständige *KKNF* als auch die durch den Quine-McCluskey-Algorithmus optimierte *KNF* an.
 --8<-- [end:knf]
 
 --8<-- [start:konjunktion]

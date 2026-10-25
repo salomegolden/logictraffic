@@ -13,15 +13,15 @@ Eine **Boolesche Funktion** ordnet jeder möglichen Belegung der Aussagenvariabl
 
 ## Kanonische disjunktive Normalform
 
-Die kanonische disjunktive Normalform entsteht aus allen Zeilen, in denen die Funktion wahr ist. Jede dieser Zeilen wird zu einem vollständigen UND-Baustein. Alle Bausteine werden anschliessend mit ODER verbunden.[^1][^2]
+Die kanonische disjunktive Normalform entsteht aus allen Zeilen, in denen die Funktion wahr ist. Jede dieser Zeilen wird zu einer vollständigen UND-Klausel. Alle diese Klauseln werden anschliessend mit ODER verbunden.[^1][^2]
 
-Merksatz für Lernende:
+Ablauf zur Erzeugung einer Formel in KDNF zu einer gegebenen Wahrheitstabelle: (Hier wäre ggf. ein konkretes Bsp. hilfreich, bzw. ein Verweis auf ein derartiges das es wohl irgendwo in der Unterlagen gibt. :-)
 
 | Schritt | Beschreibung |
 | --- | --- |
-| 1 | Suche alle Zeilen mit Ergebnis `1`. |
-| 2 | Baue aus jeder dieser Zeilen einen vollständigen UND-Baustein. |
-| 3 | Verbinde alle Bausteine mit ODER. |
+| 1 | Suche in der Wahrheitstabelle alle Zeilen mit Ergebnis `1`. |
+| 2 | Baue aus jeder dieser Zeilen eine vollständige UND-Klausel. |
+| 3 | Verbinde alle Klauseln mit ODER. |
 
 Beispiel:
 
@@ -31,15 +31,15 @@ Diese Formel sagt: Die Funktion ist wahr, wenn eine der beschriebenen Zeilen ein
 
 ## Konjunktive Normalform
 
-Die konjunktive Normalform arbeitet mit den Zeilen, in denen die Funktion falsch ist. Jede dieser Zeilen wird zu einem ODER-Baustein. Alle Bausteine werden anschliessend mit UND verbunden.[^1][^3]
+Die konjunktive Normalform arbeitet mit den Zeilen, in denen die Funktion falsch ist. Jede dieser Zeilen wird zu einer ODER-Klausel. Alle Klauseln werden anschliessend mit UND verbunden.[^1][^3]
 
-Merksatz für Lernende:
+Merksatz für Lernende: (Hier wäre ggf. wieder ein konkretes Bsp. hilfreich, bzw. ein Verweis auf ein derartiges das es wohl irgendwo in der Unterlagen gibt. :-)
 
 | Schritt | Beschreibung |
 | --- | --- |
-| 1 | Suche alle Zeilen mit Ergebnis `0`. |
-| 2 | Baue aus jeder dieser Zeilen einen vollständigen ODER-Baustein. |
-| 3 | Verbinde alle Bausteine mit UND. |
+| 1 | Suche in der Wahrheitstabelle alle Zeilen mit Ergebnis `0`. |
+| 2 | Baue aus jeder dieser Zeilen eine vollständigen ODER-Klausel. |
+| 3 | Verbinde alle Klauseln mit UND. |
 
 Beispiel:
 
@@ -69,8 +69,8 @@ Diese Formel sagt: Alle Bedingungen müssen erfüllt sein, damit die ganze Forme
 | Ziel | Seite |
 | --- | --- |
 | Grundlagen zu Wahrheitstabellen auffrischen | [Wahrheitstabellen](wahrheitstabellen.md) |
-| typische Fehlvorstellungen vorbereiten |  |
-| Aufgaben mit LogicTraffic einsetzen | |
+| typische Fehlvorstellungen vorbereiten | ?? |
+| Aufgaben mit LogicTraffic einsetzen | ?? |
 
 [^1]: Boolesche Funktionen und ihre Normalformen. (2021, Juni 22). https://lehrerfortbildung-bw.de/u_matnatech/imp/gym/bp2016/fb2/m02_aug/1_hintergrund/4_grund/06_funktionen/
 [^2]: Inf-schule | Schaltnetze: Fachkonzept disjunktive Normalform. Abgerufen 17. März 2026, von https://inf-schule.de/rechner/digitaltechnik/Schaltnetze/Fachkonzept_Normalform
