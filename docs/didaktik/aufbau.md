@@ -1,206 +1,67 @@
 # Aufbau der Unterrichtseinheit
 
-<div class="lt-unit-hero" markdown="1">
-
-<p class="lt-unit-eyebrow">Vier Bausteine · ein durchgehendes Problem</p>
-
-## Von der Kreuzung zur aussagenlogischen Formel
-
-**Welche Ampeln dürfen gleichzeitig Grün haben, ohne dass eine Kollision entsteht?** Diese Frage begleitet die gesamte Unterrichtseinheit. Die Lernenden untersuchen zunächst konkrete Verkehrssituationen, ordnen ihre Beobachtungen und entwickeln daraus eine präzise Sicherheitsregel.
-
-Der Lernweg führt vom **Handeln** über das **Strukturieren** zum **Formalisieren**. Jede neue Darstellung beantwortet eine Frage, die im vorherigen Baustein entstanden ist.
-
-<div class="lt-unit-facts" markdown="1">
-
-- **4 Bausteine** mit aufeinander aufbauenden Lernschritten
-- **5–6 Lektionen** für die gesamte Reihe mit Basisteil
-- **Ab Baustein 2** ein Gerät pro Zweiergruppe
-
-</div>
-
-[Unterricht vorbereiten](../unterricht/vorbereitung.md){ .md-button .md-button--primary }
-[Lernziele nachlesen](lernziele.md){ .md-button }
-
-</div>
+Die Unterrichtseinheit führt von der Untersuchung vorgegebener Fahrwege über digitale und tabellarische Darstellungen zu aussagenlogischen Formeln. Eine Klasse wählt **einen von zwei aktiven Einstiegen** mit denselben fachlichen Lernzielen. Der gemeinsame Logikblock gehört zu beiden Varianten und wird pro Klasse einmal durchgeführt. Die Bausteine 2–4 bilden den gemeinsamen weiteren Lernweg.
 
 ## Der Lernweg auf einen Blick
 
-<ol class="lt-unit-route">
-  <li><a href="#baustein-1"><span>01 · Handeln</span><strong>Kreuzung nachspielen</strong></a></li>
-  <li><a href="#baustein-2"><span>02 · Erkunden</span><strong>Darstellungen verbinden</strong></a></li>
-  <li><a href="#baustein-3"><span>03 · Strukturieren</span><strong>Alle Ampelbelegungen erfassen</strong></a></li>
-  <li><a href="#baustein-4"><span>04 · Formalisieren</span><strong>Sicherheitsregeln ausdrücken</strong></a></li>
-</ol>
+| Abschnitt | Was machen die Lernenden? | Materialien und Hinweise |
+| --------- | ------------------------- | ------------------------ |
+| **Alternative A:** [Baustein 1a – Enaktiver Einstieg](../unterricht/baustein1-enaktiv.md) | Sie fahren Fahrwege mit Fahrzeugen nach, untersuchen Konfliktpaare und prüfen Ampelbelegungen. Für drei Ampeln ordnen und bewerten sie alle acht Belegungen. | AB1a–AB1c im [Dossier](../downloads/baustein1/v1/baustein1-enaktiv-dossier.pdf); Materialset pro Lernpaar. **65–85 Min.** |
+| **Alternative B:** [Baustein 1b – Kreuzungen anhand von Darstellungen untersuchen](../unterricht/baustein1-lehrpersonenzentriert.md) | Sie verfolgen Fahrwege in Kreuzungsbildern, bestimmen Konfliktpaare und beurteilen Ampelbelegungen. Sie erstellen eine vollständige Tabelle und formulieren eine sprachliche Sicherheitsregel. | AB1a–AB1d im [Dossier](../downloads/baustein1/v1/baustein1-darstellungen-dossier.pdf), Präsentation. **70–85 Min.**, aus den Einzelzeiten berechnet. |
+| [Gemeinsamer Logikblock](../unterricht/baustein1-logikblock.md) **zu beiden Einstiegen** | Sie unterscheiden Aussagen von Fragen und Aufforderungen und begründen, weshalb auch ein falscher Satz eine Aussage sein kann. | AB1X im jeweiligen Dossier: S. 12 bei 1a, S. 7 bei 1b; Präsentation «Erweiterung Logik». **Einmal pro Klasse, zusätzlich 10–15 Min.** |
+| [Baustein 2 – LogicTraffic kennenlernen](../unterricht/baustein2-logictraffic.md) | Sie verändern Ampelbelegungen in LogicTraffic und ordnen Kreuzungsbild, Variablen, `0`/`1` und Tabellenzeilen einander zu. Sie unterscheiden Ampelwerte von der Sicherheitsbewertung. | AB2a zur Erkundung, danach MB2b als Nachschlagehilfe; AB2c und Tafelbild 2e zur Sicherung. **55–65 Min.** |
+| [Baustein 3 – Wahrheitstabellen](../unterricht/baustein3-wahrheitstabellen.md) | Sie erstellen Tabellen für zwei und drei Variablen, erklären ihre Vollständigkeit und untersuchen fehlende, doppelte oder falsch bewertete Zeilen. | AB3a–AB3c; Tabellen zunächst auf Papier, danach mit LogicTraffic prüfen. **65–75 Min.** |
+| [Baustein 4 – Aussagenlogische Formeln](../unterricht/baustein4-boolesche-algebra.md) | Sie formulieren Konfliktregeln in Worten, übersetzen sie in Teilformeln und verbinden diese zu einer Gesamtformel. Diese prüfen sie anhand aller Ampelbelegungen. | Basisteil: AB4a–AB4c und MB4d. **70 Min.** Vertiefung und Transfer werden separat gewählt. |
 
-Die Reihenfolge führt schrittweise zu abstrakteren Darstellungen. Der [Darstellungswechsel](darstellungswechsel.md) bleibt aber in beide Richtungen wichtig: Eine Tabellenzeile wird wieder an der Kreuzung eingestellt, eine Formel in Alltagssprache zurückübersetzt und eine vermutete Regel an allen Belegungen überprüft.
+**Einordnung des Logikblocks:** Die beiden Kommentare ordnen ihn auf S. 9 dem **gemeinsamen weiteren Unterricht** zu. Seine genauere Position innerhalb dieses Unterrichts nach dem gewählten Einstieg ist nicht festgelegt. Für beide Varianten sind derselbe Zeitpunkt und dieselbe Bearbeitungszeit vorgesehen. Der Logikblock gehört zu beiden Einstiegen und ist kein fünfter Baustein.
 
-<div class="lt-unit-stages" markdown="1">
+[Unterricht vorbereiten](../unterricht/vorbereitung.md) · [Lernziele und Anforderungen](lernziele.md) · [Alle Unterrichtsmaterialien](../anhang/downloads.md)
 
-<section class="lt-unit-stage" markdown="1">
+## Darstellungen miteinander verbinden
 
-### 01 · Enaktiver Einstieg (Baustein 1a) {#baustein-1}
+Beide Einstiege führen zunächst zu begründeten Sicherheitsbeurteilungen und **sprachlichen Sicherheitsregeln**. Sie greifen auch schon die vollständige Sammlung von Ampelbelegungen auf. In Baustein 2 werden die Darstellungen in LogicTraffic gelesen und zugeordnet; Baustein 3 vertieft das selbstständige Erstellen und Prüfen vollständiger Wahrheitstabellen. Erst in Baustein 4 entwickeln die Lernenden selbst **aussagenlogische Formeln für die Sicherheitsbedingungen**.
 
-<p class="lt-unit-meta">65–85 Minuten · Partnerarbeit · ohne Computer</p>
+Der [Darstellungswechsel](darstellungswechsel.md) bleibt in beide Richtungen wichtig: Eine Tabellenzeile wird als Ampelbelegung an der Kreuzung eingestellt, eine Formel in Alltagssprache zurückübersetzt und ihre Bewertung mit den Fahrwegen verglichen.
 
-**Leitfrage: Welche Fahrwege vertragen sich?**
+Bei zwei sich kreuzenden Fahrwegen lässt sich dieser Zusammenhang knapp zeigen:
 
-Mit Kreuzungsfeldern, Fahrzeugen und Ampelplättchen spielen die Lernenden Verkehrssituationen nach. Sie verfolgen die vorgegebenen Fahrwege, prüfen Ampelbelegungen, erkennen Konflikte und begründen, welche Ampelbelegungen sicher sind. Die Arbeitsblätter **1a–1c** führen vom Legen einer Kreuzung über das Prüfen sicherer Ampelbelegungen zum Sammeln aller Möglichkeiten.
-
-**Ergebnis:** erste sprachliche Sicherheitsregeln und eine geordnete Sammlung von Ampelbelegungen. Fachliches Vorwissen ist für diesen Einstieg nicht erforderlich.
-
-**Brücke zum nächsten Baustein:** Wie lassen sich unsere gelegten Situationen am Computer darstellen und überprüfen?
-
-[:material-arrow-right: Ablauf und Material zu Baustein 1](../unterricht/baustein1-enaktiv.md) · [Dossier 1a–1c (PDF)](../downloads/baustein1/v1/baustein1-enaktiv-dossier.pdf)
-
-!!! tip "Alternative: Baustein 1b – Kreuzungen anhand von Darstellungen untersuchen"
-
-    Die Lehrperson führt anhand projizierter Kreuzungsbilder durch das Sicherheitsproblem. Gelenkte Gespräche und kurze schriftliche Aufgaben bereiten die anschliessende Arbeit mit LogicTraffic vor.
-
-    [:material-presentation-play: Präsentation (PDF)](../downloads/baustein1/v1/baustein1-darstellungen-praesentation.pdf){ .md-button target="_blank" rel="noopener noreferrer" }
-
-    [Zum Ablauf von Baustein 1b – Kreuzungen anhand von Darstellungen untersuchen](../unterricht/baustein1-lehrpersonenzentriert.md)
-
-    [:material-file-download-outline: Dossier für Baustein 1b (PDF)](../downloads/baustein1/v1/baustein1-darstellungen-dossier.pdf)
-
-    Beide Einstiegsvarianten können um den [gemeinsamen Logikblock](../unterricht/baustein1-logikblock.md) mit AB1X ergänzt werden; dafür fallen zusätzlich 10–15 Minuten an.
-
-</section>
-
-<section class="lt-unit-stage" markdown="1">
-
-### 02 · LogicTraffic kennenlernen {#baustein-2}
-
-<p class="lt-unit-meta">Ca. 45–55 Minuten · Plenum und Partnerarbeit · mit Computer</p>
-
-**Leitfrage: Wie hängen Kreuzungsbild, Variablen und Tabellenzeile zusammen?**
-
-Die Lernenden übertragen die bekannte Verkehrssituation in [LogicTraffic](https://logictraffic.ch/). Sie schalten Ampeln um, lesen die zugehörigen Werte und unterscheiden den Zustand einer einzelnen Spur von der Sicherheit der gesamten Kombination. **2a** begleitet die Erkundung, **2b** dient anschliessend als Merkblatt und **2c** sichert die Erkenntnisse.
-
-**Ergebnis:** Die Lernenden können eine konkrete Ampelbelegung einer Tabellenzeile zuordnen und die Bereiche der Lernumgebung erklären. Der Formelbereich bleibt zunächst ein Ausblick.
-
-**Brücke zum nächsten Baustein:** Einzelne Ampelbelegungen können wir lesen – wie erfassen wir selbst alle möglichen Kombinationen, ohne eine zu vergessen?
-
-[:material-arrow-right: Ablauf und Material zu Baustein 2](../unterricht/baustein2-logictraffic.md) · [Dossier 2a–2c (PDF)](https://github.com/salomegolden/logictraffic/releases/download/ab2_v2/Baustein_2_Dossier.pdf)
-
-</section>
-
-<section class="lt-unit-stage" markdown="1">
-
-### 03 · Wahrheitstabellen systematisch aufbauen {#baustein-3}
-
-<p class="lt-unit-meta">Ca. 50–60 Minuten · Plenum, Partner- und Einzelphasen · mit Computer</p>
-
-**Leitfrage: Wie wissen wir, dass wirklich alle Fälle erfasst sind?**
-
-Eine Tabellenzeile enthält eine Ampelbelegung und ihre Sicherheitsbewertung; eine vollständige Wahrheitstabelle erfasst alle möglichen Ampelbelegungen. Mit **3a** lesen die Lernenden die Tabelle für zwei Variablen, mit **3b** entwickeln sie eine Systematik für drei Variablen. **3c** fordert dazu auf, fehlende, doppelte und falsch bewertete Zeilen zu finden. Tabellen werden möglichst zuerst auf Papier erstellt und anschliessend in LogicTraffic kontrolliert.
-
-**Ergebnis:** eine vollständige und begründet bewertete Tabelle sowie die Einsicht, dass bei $n$ Variablen genau $2^n$ Belegungen entstehen.
-
-**Brücke zum nächsten Baustein:** Fünf Spuren ergeben bereits 32 Zeilen. Wie lässt sich dieselbe Sicherheitsbedingung kompakter beschreiben?
-
-[:material-arrow-right: Ablauf und Material zu Baustein 3](../unterricht/baustein3-wahrheitstabellen.md) · [Dossier 3a–3c (PDF)](https://github.com/salomegolden/logictraffic/releases/download/ab3_v2/Baustein3_Dossier.pdf)
-
-[Fachlicher Hintergrund: Wahrheitstabellen](../fachlicher-hintergrund/wahrheitstabellen.md)
-
-</section>
-
-<section class="lt-unit-stage" markdown="1">
-
-### 04 · Sicherheitsregeln formal ausdrücken {#baustein-4}
-
-<p class="lt-unit-meta">Basisteil ca. 60 Minuten · Plenum, Partner- und Einzelphasen · mit Computer</p>
-
-**Leitfrage: Wie wird aus einer sprachlichen Regel eine überprüfbare Formel?**
-
-Die Lernenden greifen das Grössenproblem der Tabelle auf (**4a**), übersetzen zwischen Worten und den Operatoren NICHT, UND, ODER und WENN … DANN (**4b**) und verbinden Konfliktbedingungen zu einer Gesamtformel (**4c**). Das Merkblatt **4d** unterstützt das Lesen und Schreiben der Formeln.
-
-**Ergebnis:** eine begründete Sicherheitsformel, die im Formeleditor eingegeben und anhand der vollständigen Wahrheitstabelle überprüft wird. Die Tabelle übernimmt damit eine neue Rolle als Kontrollinstrument.
-
-**Anschluss:** In der optionalen Vertiefung werden gleichwertige Formeln verglichen; der Transfer führt zu einer komplexeren Kreuzung.
-
-[:material-arrow-right: Ablauf und Material zu Baustein 4](../unterricht/baustein4-boolesche-algebra.md) · [Dossier 4a–4h mit Merkblatt (PDF)](https://github.com/salomegolden/logictraffic/releases/download/ab4_v2/Baustein_4_Dossier.pdf)
-
-[Fachlicher Hintergrund: Operatoren und Boolesche Algebra](../fachlicher-hintergrund/boolesche-algebra.md)
-
-</section>
-
-</div>
-
-## Der fachliche Zusammenhang an einem Beispiel
-
-Bei **zwei sich kreuzenden Spuren** beschreiben Handlung, Sprache, Tabelle und Formel dieselbe Sicherheitsbedingung. Das Beispiel zeigt den roten Faden der Reihe:
-
-| Darstellung | Was die Lernenden erkennen |
+| Darstellung | Sicherheitsbedingung |
 | --- | --- |
-| **Handlung / Kreuzungsbild** | Wenn beide Spuren gleichzeitig Grün haben, können Fahrzeuge kollidieren. |
-| **Sprachliche Regel** | A und B dürfen nicht gleichzeitig Grün haben. |
-| **Vollständige Tabelle** | Von den vier Belegungen sind `00`, `01` und `10` sicher; `11` ist unsicher. |
-| **Logische Formel** | $\neg(A \land B)$ ist genau für die drei sicheren Belegungen wahr. |
-| **Vergleich in der Vertiefung** | $\neg A \lor \neg B$ und $A \rightarrow \neg B$ beschreiben dieselbe Funktion, diese beiden Formeln sind also äquivalent. |
+| Fahrwege im Material oder Kreuzungsbild | Bei gleichzeitiger Freigabe ist eine Kollision möglich. |
+| Sprachliche Regel | Die Ampeln A und B dürfen nicht gleichzeitig Grün zeigen. |
+| Vollständige Wahrheitstabelle | `00`, `01` und `10` sind sicher; `11` ist unsicher. |
+| Aussagenlogische Formel | $\neg(A \land B)$ ist genau für die sicheren Ampelbelegungen wahr. |
 
-Die [Wahrheitstabelle zur Zwei-Spuren-Kreuzung](../fachlicher-hintergrund/wahrheitstabellen.md) und die [Erläuterungen zu den Operatoren](../fachlicher-hintergrund/boolesche-algebra.md) führen dieses Beispiel fachlich aus.
+Bei den Ampelvariablen bedeutet `0` Rot und `1` Grün. In der Spalte **sicher** bedeutet `1` dagegen kollisionsfrei und `0` Kollisionsgefahr. Auch «alle Rot» ist ein sicherer Kreuzungszustand. Eine unsichere Ampelbelegung ermöglicht eine Kollision; diese muss nicht tatsächlich eintreten.
 
-!!! important "Zustand, Sicherheit und Modellgrenze auseinanderhalten"
+Das Ziel der Formelarbeit ist, **alle sicheren Ampelbelegungen zuzulassen und alle unsicheren auszuschliessen**. LogicTraffic modelliert statische Rot-Grün-Belegungen. Gelbphasen, Räumzeiten und zeitliche Verkehrssteuerung gehören nicht zu diesem Modell; Sicherheit und Verkehrsfluss sind unterschiedliche Fragen.
 
-    Bei einer **Variablen** bedeutet `1` Grün und `0` Rot. In der Spalte **sicher** bedeutet `1` kollisionsfrei und `0` Kollisionsgefahr. Deshalb ist auch „alle Ampeln Rot“ sicher.
+## Vertiefung und Transfer in Baustein 4
 
-    Ziel ist eine Formel, die die vollständige Sicherheitsfunktion beschreibt: **Alle sicheren Ampelbelegungen werden zugelassen; alle unsicheren Ampelbelegungen werden ausgeschlossen.** LogicTraffic betrachtet statische Rot-Grün-Kombinationen; Gelbphasen, Räumzeiten und eine zeitliche Verkehrssteuerung sind nicht Gegenstand dieses Modells. Kollisionsfreiheit und Verkehrsfluss sind unterschiedliche Fragen.
+Der Basisteil endet mit dem Entwickeln und Überprüfen einfacher Sicherheitsformeln. Die folgenden Angebote bleiben Teile von Baustein 4 und benötigen zusätzliche Zeit:
 
-## Vertiefung und Transfer bewusst wählen
+- **Vertiefung, Phasen 4–6:** Mit AB4e–AB4g vergleichen die Lernenden gleichwertige Formeln, untersuchen De Morgan sowie DNF und KNF und nutzen KDNF/KKNF als systematischen Weg von der Tabelle zur Formel. **Zusätzlich 45 Minuten.** [Zur Vertiefung](../unterricht/baustein4-boolesche-algebra.md#phase-4-anders-gebaut-gleich-gemeint).
+- **Transfer, Phase 7:** Mit AB4h analysieren sie Situation 10 mit fünf Variablen, verbinden Konfliktbedingungen und überprüfen ihre Formel mit LogicTraffic an allen 32 Belegungen. **Zusätzlich 20–30 Minuten.** [Zum Transfer](../unterricht/baustein4-boolesche-algebra.md#phase-7-transfer-situation-10).
 
-Der Basisteil endet mit dem Entwickeln und Überprüfen einfacher Sicherheitsformeln. Die folgenden Phasen erweitern Baustein 4 und werden zusätzlich eingeplant.
+## Zeit und Geräte planen
 
-<div class="grid cards" markdown="1">
+Für die gesamte Reihe bis zum Ende des Basisteils von Baustein 4 ergeben sich aus den aktuellen Modulseiten:
 
--   :material-swap-horizontal:{ .lg .middle } **Vertiefung · zusätzlich ca. 45 Minuten**
+- **Mit Einstieg 1a:** 65–85 + 10–15 + 55–65 + 65–75 + 70 = **265–310 Minuten**.
+- **Mit Einstieg 1b:** 70–85 + 10–15 + 55–65 + 65–75 + 70 = **270–310 Minuten**.
 
-    ---
+Jede Summe enthält **eine Einstiegsvariante, den gemeinsamen Logikblock einmal sowie die Bausteine 2–4 mit Basisteil**. Einführung und Abschluss sind entsprechend den Modulseiten enthalten. Materialherstellung, optionale Erweiterungen, Vertiefung und Transfer kommen gegebenenfalls hinzu.
 
-    **Gleichwertige Formeln verstehen.** Die Phasen 4–6 mit **4e–4g** behandeln Äquivalenz, De Morgan sowie DNF und KNF. KDNF und KKNF dienen als systematische Brücke von der Tabelle zur Formel. Anschliessend werden Länge, Lesbarkeit und Verwendungszweck verschiedener Darstellungen verglichen.
+Beim Darstellungseinstieg nennt der Kommentar unterschiedliche Gesamtzeiten. Die hier verwendeten 70–85 Minuten sind die Summe seiner Einzelzeiten; die Abweichungen sind unter [Zeitplanung zu Baustein 1b](../unterricht/baustein1-lehrpersonenzentriert.md#zeitplanung) dokumentiert. Für Baustein 3 ist die vollständige Durchführung mit AB3c eingerechnet; bei einer Kürzung verändert sich die Gesamtdauer.
 
-    [:material-arrow-right: Vertiefung ab Phase 4](../unterricht/baustein4-boolesche-algebra.md#phase-4-anders-gebaut-gleich-gemeint)
+**Geräte:** Für Einstieg 1a benötigen die Lernenden keinen Computer. Einstieg 1b und der Logikblock benötigen einen Computer mit Beamer oder Präsentationsbildschirm für die Lehrperson. Für **Bausteine 2–4 ist ein Computer oder Tablet mit LogicTraffic pro Zweiergruppe** vorgesehen. In Baustein 3 werden die Tabellen zunächst möglichst auf Papier bearbeitet und anschliessend digital kontrolliert.
 
-    [Fachlicher Hintergrund: Normalformen](../fachlicher-hintergrund/normalformen.md)
+## Lernfortschritte sichtbar machen
 
-    [LZ4: Gleichwertige Formeln und Normalformen vergleichen](lernziele.md#lernziel-4-normalformen-und-minimierung-boolescher-ausdruecke)
+Kurze formative Lernkontrollen zeigen, ob eine Darstellung verstanden wurde oder eine Rückkehr zum Kreuzungsbild beziehungsweise Material hilfreich ist:
 
--   :material-transit-connection-variant:{ .lg .middle } **Transfer · zusätzlich ca. 20–30 Minuten**
+- **Nach dem gewählten Einstieg:** Eine sichere und eine unsichere Ampelbelegung anhand der Fahrwege begründen und eine sprachliche Sicherheitsregel formulieren.
+- **Nach Baustein 3:** Die Vollständigkeit einer Tabelle erklären und fehlende, doppelte oder falsch bewertete Zeilen korrigieren.
+- **Nach dem Basisteil von Baustein 4:** Eine Formel in Worten erläutern und zeigen, wie sie anhand aller Ampelbelegungen geprüft wurde.
 
-    ---
-
-    **Eine komplexe Kreuzung selbstständig modellieren.** In Phase 7 mit **4h** analysieren die Lernenden Situation 10 mit fünf Variablen, identifizieren Konfliktpaare und verbinden deren Bedingungen mit UND. Sie prüfen ihre Formel an den 32 möglichen Belegungen und begründen ihren Lösungsweg.
-
-    [:material-arrow-right: Transfer in Phase 7](../unterricht/baustein4-boolesche-algebra.md#phase-7-transfer-situation-10)
-
-    [LZ2: Sicherheitsregeln entwickeln](lernziele.md#lernziel-2-boolesche-formeln-aus-textbeschreibungen-ableiten) · [LZ3b: Formeln vollständig prüfen](lernziele.md#lz3b)
-
-</div>
-
-## Zeitrahmen und Einstieg planen
-
-| Durchführung | Umfang | Zeitbedarf |
-| --- | --- | --- |
-| **Gesamte Reihe mit Basisteil** | Bausteine 1–3 und Phasen 1–3 von Baustein 4 | ca. **215–265 Minuten**, etwa **5–6 Lektionen** |
-| **Mit Vertiefung und Transfer** | Gesamte Reihe einschliesslich Phasen 4–7 von Baustein 4 | ca. **280–340 Minuten**, etwa **7–8 Lektionen** |
-
-Die Lektionen sind mit 45 Minuten gerechnet. Materialherstellung und Bereitstellung erfolgen vor dem Unterricht. Die Richtwerte orientieren sich an der [Zeitplanung der Bausteine](../unterricht/vorbereitung.md#zeitplanung); Lerntempo, Austausch und zusätzliche Sicherung beeinflussen die konkrete Planung.
-
-??? tip "Direkt mit Baustein 2 beginnen"
-
-    Wenn der enaktive Einstieg entfällt, aktiviert die [Präsentation 2d – Kreuzungen (PDF)](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2d_prasentation_lp_kreuzungen.pdf) die Verkehrssituation. Dafür sieht Baustein 2 zusätzlich **5–10 Minuten** vor. Vor der digitalen Erkundung sollten die Lernenden Fahrwege, Konflikte sowie sichere und unsichere Ampelbelegungen sprachlich erklären können.
-
-    Auch bei vorhandenem Vorwissen lohnt sich vor dem Wechsel zu Baustein 3 oder 4 eine kurze Diagnose: Können die Lernenden die bisherige Darstellung erklären und in eine andere übersetzen?
-
-## Lernfortschritte unterwegs sichtbar machen
-
-Die Übergänge zwischen den Bausteinen eignen sich für kurze formative Lernkontrollen. So entscheidet die Lehrperson, ob der nächste Abstraktionsschritt bereits sinnvoll ist oder noch eine Rückkehr zum Material benötigt wird.
-
-| Zeitpunkt | Kurzer Prüfimpuls | Bezug zu den Lernzielen |
-| --- | --- | --- |
-| Nach Baustein 1 (beide Varianten) | „Zeige eine sichere und eine unsichere Ampelbelegung und begründe den Unterschied.“ | [LZ1a: Verkehrssituationen deuten](lernziele.md#lz1a) |
-| Nach Baustein 2 | „Stelle diese Tabellenzeile an der Kreuzung ein. Was bedeutet jede `1`?“ | [LZ1a: Darstellungen verbinden](lernziele.md#lz1a) |
-| Nach Baustein 3 | „Erstelle eine vollständige Tabelle. Wo fehlt in der Vergleichstabelle eine Belegung, wo ist eine doppelt und wo ist die Bewertung falsch?“ | [LZ1b: Alle Ampelbelegungen erfassen](lernziele.md#lz1b) und [LZ3a: Tabellenfehler finden](lernziele.md#lz3a) |
-| Nach dem Basisteil von Baustein 4 | „Erläutere deine Formel natürlichsprachlich und zeige, wie du sie mit der vollständigen Tabelle geprüft hast.“ | [LZ2: Regeln in Formeln übersetzen](lernziele.md#lernziel-2-boolesche-formeln-aus-textbeschreibungen-ableiten) und [LZ3b: Formeln prüfen](lernziele.md#lz3b) |
-| Nach der Vertiefung | „Warum sind diese Formeln gleichwertig, und welche lässt sich leichter erklären?“ | [LZ4: Gleichwertige Formeln und Normalformen vergleichen](lernziele.md#lernziel-4-normalformen-und-minimierung-boolescher-ausdruecke) |
-
-Für die weitere Planung: [Beurteilungsaufgaben und Kriterien](../unterricht/beurteilung.md), [typische Lernschwierigkeiten](lernschwierigkeiten.md) und [alle Materialien zum Herunterladen](../anhang/downloads.md).
+Weitere Hinweise: [Beurteilungsaufgaben und Kriterien](../unterricht/beurteilung.md), [typische Lernschwierigkeiten](lernschwierigkeiten.md) und [fachlicher Hintergrund zu Wahrheitstabellen](../fachlicher-hintergrund/wahrheitstabellen.md).

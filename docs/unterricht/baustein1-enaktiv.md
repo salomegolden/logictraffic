@@ -32,10 +32,6 @@ Ausgehend von einzelnen konkreten Situationen entsteht schrittweise das Bedürfn
     - [:memo: M1.2 – Situationskarten (PDF)](https://github.com/salomegolden/logictraffic/releases/download/material-v2/M1_2_Situationskarten.pdf)
     - [:package: M1.3 – Kreuzungen (PDF)](https://github.com/salomegolden/logictraffic/releases/download/material-v2/M1_3_Kreuzungen.pdf)
     - [:material-image-outline: Bild vom enaktiven Material](https://github.com/salomegolden/logictraffic/releases/download/images-v1/enaktivesmaterial.jpeg)
-<<<<<<< HEAD
-    - [:ledger: Baustein 1 – Enaktiver Einstieg: Lehrerkommentar (PDF)](https://github.com/salomegolden/logictraffic/releases/download/lpk_v1/Baustein.1enaktiv.Kommentar.fur.die.Lehrperson.pdf)
-=======
->>>>>>> 17d152025c0920c2f86efa39b7feb334ba191074
 
     Das Dossier enthält **AB1a auf S. 2–4**, **AB1b auf S. 5–8**, **AB1c auf S. 9–11** und **AB1X auf S. 12**. Jede Person erhält ein eigenes Exemplar. Die Präsentation für AB1X ist auf der [gemeinsamen Unterseite](baustein1-logikblock.md#material) verlinkt.
 
