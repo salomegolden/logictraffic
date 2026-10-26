@@ -26,7 +26,7 @@ Ausgehend von einzelnen konkreten Situationen entsteht schrittweise das Bedürfn
 
     - [:memo: Dossier für Lernende (PDF) – AB1a–AB1c und AB1X](../downloads/baustein1/v1/baustein1-enaktiv-dossier.pdf)
     - [:file: Kommentar für die Lehrperson (PDF)](../downloads/baustein1/v1/baustein1-enaktiv-lehrpersonenkommentar.pdf)
-    - [:package: 3D-Druckdatei für Kleinteile (Ampeln etc.; 3MF)](https://github.com/salomegolden/logictraffic/releases/download/3d_v1/3D_Kleinteile_LogicTraffic.3mf)
+    - [:package: Definitive Druckplatten für Kleinteile (3MF)](../downloads/baustein1/v1/baustein1-enaktiv-druckplatten-kleinteile.3mf)
     - [:package: 3D-Druckdatei für Behälter (Kistchen) für Kleinteile und Situationskarten (3MF)](https://github.com/salomegolden/logictraffic/releases/download/3d_v1/LT_Behalter.3mf)
     - [:package: M1.1 – Autos, Ampeln und Pfeile (PDF)](https://github.com/salomegolden/logictraffic/releases/download/material-v2/M1_1_Autos_Ampeln_Pfeile.pdf)
     - [:memo: M1.2 – Situationskarten (PDF)](https://github.com/salomegolden/logictraffic/releases/download/material-v2/M1_2_Situationskarten.pdf)
@@ -74,7 +74,7 @@ Ausgehend von einzelnen konkreten Situationen entsteht schrittweise das Bedürfn
 
 ??? tip "Das enaktive Material herstellen und vorbereiten"
 
-    Das enaktive Material kann auch mit dem 3D-Drucker hergestellt werden. Dafür stehen die [3D-Druckdatei für Kleinteile (Ampeln etc.; 3MF)](https://github.com/salomegolden/logictraffic/releases/download/3d_v1/3D_Kleinteile_LogicTraffic.3mf) und die [3D-Druckdatei für Behälter (Kistchen) für Kleinteile und Situationskarten (3MF)](https://github.com/salomegolden/logictraffic/releases/download/3d_v1/LT_Behalter.3mf) zur Verfügung. Zusätzlich zu den gedruckten Teilen werden nur noch die Situationskarten aus M1.2 und die Autobilder aus M1.1 benötigt. Die Autobilder werden ausgedruckt, ausgeschnitten und auf die Buttons geklebt.
+    Das enaktive Material kann auch mit dem 3D-Drucker hergestellt werden. Dafür stehen die [definitiven Druckplatten für Kleinteile (3MF)](../downloads/baustein1/v1/baustein1-enaktiv-druckplatten-kleinteile.3mf) und die [3D-Druckdatei für Behälter (Kistchen) für Kleinteile und Situationskarten (3MF)](https://github.com/salomegolden/logictraffic/releases/download/3d_v1/LT_Behalter.3mf) zur Verfügung. Zusätzlich zu den gedruckten Teilen werden nur noch die Situationskarten aus M1.2 und die Autobilder aus M1.1 benötigt. Die Autobilder werden ausgedruckt, ausgeschnitten und auf die Buttons geklebt.
 
     Falls kein 3D-Drucker zur Verfügung steht, können die Ampeln auf kleine Holzplättchen geklebt werden, damit sie besser in der Hand liegen und gedreht werden können.
 
