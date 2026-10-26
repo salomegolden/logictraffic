@@ -3,7 +3,7 @@ Hier finden sich die Dossiers für beide Einstiegsvarianten sowie die Vorlagen z
 
 ### Baustein 1a – Enaktiver Einstieg
 
-- [:package: 3D-Druckdatei für Kleinteile (Ampeln etc.; 3MF)](https://github.com/salomegolden/logictraffic/releases/download/3d_v1/3D_Kleinteile_LogicTraffic.3mf)
+- [:package: Definitive Druckplatten für Kleinteile (3MF)](../downloads/baustein1/v1/baustein1-enaktiv-druckplatten-kleinteile.3mf)
 - [:package: 3D-Druckdatei für Behälter (Kistchen) für Kleinteile und Situationskarten (3MF)](https://github.com/salomegolden/logictraffic/releases/download/3d_v1/LT_Behalter.3mf)
 
 Zusätzlich zu den 3D-gedruckten Teilen werden nur noch die Situationskarten aus M1.2 und die Autobilder aus M1.1 benötigt. Die Autobilder ausdrucken, ausschneiden und auf die Buttons kleben.
