@@ -1,9 +1,9 @@
 ## Downloads B1
 Hier finden sich die Dossiers für beide Einstiegsvarianten sowie die Vorlagen zum Herstellen des enaktiven Materials.
 
-### Enaktiver Einstieg
+### Baustein 1a – Enaktiver Einstieg
 
-- [:package: 3D-Druckdatei für Kleinteile (Ampeln etc.; 3MF)](https://github.com/salomegolden/logictraffic/releases/download/3d_v1/3D_Kleinteile_LogicTraffic.3mf)
+- [:package: Definitive Druckplatten für Kleinteile (3MF)](../downloads/baustein1/v1/baustein1-enaktiv-druckplatten-kleinteile.3mf)
 - [:package: 3D-Druckdatei für Behälter (Kistchen) für Kleinteile und Situationskarten (3MF)](https://github.com/salomegolden/logictraffic/releases/download/3d_v1/LT_Behalter.3mf)
 
 Zusätzlich zu den 3D-gedruckten Teilen werden nur noch die Situationskarten aus M1.2 und die Autobilder aus M1.1 benötigt. Die Autobilder ausdrucken, ausschneiden und auf die Buttons kleben.
@@ -14,17 +14,23 @@ Zusätzlich zu den 3D-gedruckten Teilen werden nur noch die Situationskarten aus
 
 Für die Herstellung aus Papier die Vorlagen auf Tonpapier drucken, damit das Material stabil ist.
 
-- [:memo: Gesamtdossier Baustein 1 – alle Arbeitsblätter 1a–1c (PDF)](https://github.com/salomegolden/logictraffic/releases/download/ab1_v3/Baustein_1_Dossier.pdf)
+- [:memo: Dossier für Lernende (PDF)](../downloads/baustein1/v1/baustein1-enaktiv-dossier.pdf) – AB1a–AB1c und AB1X
+- [:file: Kommentar für die Lehrperson (PDF)](../downloads/baustein1/v1/baustein1-enaktiv-lehrpersonenkommentar.pdf)
 
-- [:memo: 1a – Kreuzungen legen (PDF)](https://github.com/salomegolden/logictraffic/releases/download/ab1_v3/1a_kreuzungen_legen.pdf)
-- [:memo: 1b – Sichere Ampelbelegungen finden (PDF)](https://github.com/salomegolden/logictraffic/releases/download/ab1_v3/1b_sichere_ampelstellungen_finden.pdf)
-- [:memo: 1c – Alle Möglichkeiten erfassen (PDF)](https://github.com/salomegolden/logictraffic/releases/download/ab1_v3/1c_alle_moglichkeiten_erfassen.pdf)
+### Baustein 1b – Kreuzungen anhand von Darstellungen untersuchen
 
-### Lehrpersonenzentrierter Einstieg
-
-- [:memo: Dossier Baustein 1 – Lehrpersonenzentrierter Einstieg (PDF)](https://github.com/salomegolden/logictraffic/releases/download/ab1_v3/Baustein_1_lehrpersonenzentrierter_Einstieg_Dossier.pdf)
+- [:memo: Dossier für Lernende (PDF)](../downloads/baustein1/v1/baustein1-darstellungen-dossier.pdf) – AB1a–AB1d und AB1X
+- [:file: Kommentar für die Lehrperson (PDF)](../downloads/baustein1/v1/baustein1-darstellungen-lehrpersonenkommentar.pdf)
+- [:film_projector: Präsentation (PDF)](../downloads/baustein1/v1/baustein1-darstellungen-praesentation.pdf)
 
 [Zum Unterrichtsablauf und zur Präsentation](../unterricht/baustein1-lehrpersonenzentriert.md)
+
+### Gemeinsamer Logikblock
+
+- [:film_projector: Präsentation «Erweiterung Logik» (PDF)](../downloads/baustein1/v1/baustein1-gemeinsam-logik-praesentation.pdf) – PDF-S. 1–5
+- AB1X, Aufgabe 1: [Dossier Baustein 1a, S. 12 (PDF)](../downloads/baustein1/v1/baustein1-enaktiv-dossier.pdf#page=12) oder [Dossier Baustein 1b, S. 7 (PDF)](../downloads/baustein1/v1/baustein1-darstellungen-dossier.pdf#page=7)
+
+[Zum gemeinsamen Logikblock](../unterricht/baustein1-logikblock.md)
 
 ## Downloads B2
 

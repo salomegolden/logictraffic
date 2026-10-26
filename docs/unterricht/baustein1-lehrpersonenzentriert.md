@@ -1,428 +1,356 @@
-# Baustein 1 – Lehrpersonenzentrierter Einstieg
+# Baustein 1b – Kreuzungen anhand von Darstellungen untersuchen
 
 ??? example "Lehrpersonenkommentar als Download"
 
-    [Lehrpersonenkommentar Baustein 1 - Lehrpersonenzentrierter Einstieg als Download](https://canva.link/hh95uvquaybbm27)
+    [Kommentar für die Lehrperson (PDF)](../downloads/baustein1/v1/baustein1-darstellungen-lehrpersonenkommentar.pdf)
 
-Die Lernenden untersuchen anhand projizierter Kreuzungsbilder, welche Ampelbelegungen sicher sind. Die Lehrperson erläutert die Fahrwege, modelliert die Beurteilung einzelner Kombinationen und zeigt eine systematische Vorgehensweise zum Erfassen aller Möglichkeiten. Kurze Verständnisfragen und angeleitete schriftliche Aufgaben begleiten den Input.
+Die Lernenden untersuchen anhand statischer Kreuzungsbilder, welche Fahrwege miteinander im Konflikt stehen und welche Ampelbelegungen sicher sind. Die Lehrperson erläutert die Modellannahmen und führt ein Verfahren zur Sicherheitsbeurteilung vor. Anschliessend wenden die Lernenden dieses Verfahren selbst an, erfassen alle acht Ampelbelegungen einer Kreuzung mit drei Ampeln und begründen ihre Ergebnisse.
 
-Eine **Ampelbelegung** legt für jede betrachtete Ampel Rot oder Grün fest. Ein **sicherer Kreuzungszustand** liegt vor, wenn keine zwei miteinander in Konflikt stehenden Verkehrsströme gleichzeitig Grün haben. Auch «alle Ampeln Rot» ist sicher. Entscheidend ist die Kollisionsfreiheit der freigegebenen Fahrbewegungen im Kreuzungsmodell; ein einzelner Versuch ohne beobachtete Kollision genügt als Begründung nicht.
+Dieser Baustein ist eine Alternative zum [enaktiven Einstieg (Baustein 1a)](baustein1-enaktiv.md). Beide Einstiege verfolgen dieselben fachlichen Kernziele und bereiten die anschliessende Arbeit mit LogicTraffic vor. Hier arbeiten die Lernenden mit Bildern, sprachlichen Erklärungen und Tabellen. Fahrzeuge und Ampelplättchen werden nicht bewegt.
 
-Dieser Baustein ist eine **Alternative zum enaktiven Baustein 1**. Beide Einstiege bereiten die anschliessende Arbeit mit LogicTraffic vor. Hier werden keine Fahrzeuge bewegt, Ampelkarten umgedreht oder Verkehrssituationen nachgespielt. Die Darstellung erfolgt anhand statischer Bilder, sprachlicher Erklärungen und einfacher Tabellen mit den Einträgen **Rot** und **Grün**.
-
-Ein kurzer Hintergrundteil führt in die Bedeutung und Geschichte der Logik sowie den Begriff der Aussage ein. Dabei werden die Wörter wahr und falsch verwendet.
-
-Operatoren, aussagenlogische Formeln, die Zuordnung zu `0` und `1` sowie die formale Wahrheitstabelle werden erst in den anschliessenden gemeinsamen Bausteinen eingeführt.
+Die Einträge werden zunächst mit **Rot** und **Grün** bezeichnet. Die systematische Verwendung von `0` und `1`, formale Operatoren und aussagenlogische Formeln folgen in den gemeinsamen Folgebausteinen.
 
 ??? abstract "Auf einen Blick"
 
     **:busts_in_silhouette: Zielgruppe:** Gymnasiale Klassen der 8.–9. Schulstufe ohne Vorkenntnisse in Aussagenlogik
 
-    **:stopwatch: Dauer:** 60–90 Minuten, je nach Vorwissen und Vertiefung
+    **:stopwatch: Dauer:** Die Einzelzeiten des Kommentars ergeben **70–85 Minuten**, einschliesslich Einführung und Abschluss. Der Kommentar enthält abweichende Gesamtangaben; siehe [Zeitplanung](#zeitplanung). Der gemeinsame Logikblock benötigt zusätzlich 10–15 Minuten.
 
-    **:computer: Computer:** Computer und Beamer oder Visualizer für die Präsentation durch die Lehrperson; Lernende benötigen kein Gerät.
+    **:computer: Computer:** Nur für die Präsentation durch die Lehrperson; keine Bedienung von LogicTraffic durch die Lernenden
 
-    **:brain: Vorwissen:** Kein Vorwissen erforderlich.
+    **:brain: Vorwissen:** Kein Vorwissen erforderlich
 
-    **:package: Material:** Präsentation mit statischen Kreuzungsbildern, [Dossier zum lehrpersonenzentrierten Einstieg (PDF)](https://github.com/salomegolden/logictraffic/releases/download/ab1_v3/Baustein_1_lehrpersonenzentrierter_Einstieg_Dossier.pdf), Tafel oder Visualizer und Schreibzeug.
+    **:package: Material:** Präsentation mit statischen Kreuzungsbildern, ein Dossier pro Person, Schreibzeug sowie Tafel oder Visualizer
 
 ??? example "Materialhinweise und Downloads"
 
-    - [:material-presentation-play: Präsentation in Canva öffnen](https://canva.link/kbim94xa3bwatco){ target="_blank" rel="noopener noreferrer" }
-    - [:material-file-download-outline: Dossier herunterladen (PDF)](https://github.com/salomegolden/logictraffic/releases/download/ab1_v3/Baustein_1_lehrpersonenzentrierter_Einstieg_Dossier.pdf)
+    - [:memo: Dossier für Lernende (PDF)](../downloads/baustein1/v1/baustein1-darstellungen-dossier.pdf)
+    - [:file: Kommentar für die Lehrperson (PDF)](../downloads/baustein1/v1/baustein1-darstellungen-lehrpersonenkommentar.pdf)
+    - [:film_projector: Präsentation (PDF)](../downloads/baustein1/v1/baustein1-darstellungen-praesentation.pdf)
 
-    In den PDFs steht das Gleiche wie auf der Webseite – nur als druckbare Version für die Lehrperson.
+    Das Dossier enthält **AB1a auf S. 2**, **AB1b auf S. 3**, **AB1c auf S. 4–5**, **AB1d auf S. 6** und **AB1X auf S. 7**. Die Präsentation für AB1X ist auf der [gemeinsamen Unterseite](baustein1-logikblock.md#material) verlinkt.
 
-    Der Logikblock und die Abschlussfolien sind in der geprüften Fassung noch zu ergänzen.
+    **Baustein 1b** bezeichnet diese Einstiegsvariante. **AB1b** ist das Arbeitsblatt «Ampelbelegungen beurteilen» innerhalb dieses Dossiers. Die gleich nummerierten Arbeitsblätter des enaktiven Einstiegs gehören zu dessen eigener Materialvariante.
 
 ## Lernziele
 
-??? success "Lernziele"
+??? success "Bezug zur Unterrichtseinheit"
 
-    **Bezug zur Unterrichtseinheit:** [LZ1a – Verkehrssituationen deuten](../didaktik/lernziele.md#lz1a); Vorbereitung auf [LZ1b – alle Ampelbelegungen erfassen](../didaktik/lernziele.md#lz1b) und [LZ2 – Sicherheitsregeln formulieren](../didaktik/lernziele.md#lernziel-2-boolesche-formeln-aus-textbeschreibungen-ableiten).
+    **LZ1a · Verkehrssituationen und Darstellungen deuten:** Die Lernenden erkennen Fahrwege und Konfliktpaare und unterscheiden sichere von unsicheren Ampelbelegungen begründet.
 
-    Die gemeinsamen Ziele entsprechen denen des [enaktiven Einstiegs](baustein1-enaktiv.md#lernziele). Hier werden sie anhand statischer Bilder und angeleiteter Aufgaben erarbeitet. Die Codierung mit `0`/`1`, die Regel $2^n$ und formale Operatoren folgen in späteren Bausteinen.
+    **Vorbereitung auf LZ1b · Alle möglichen Ampelbelegungen systematisch erfassen:** Die Lernenden ordnen Belegungen für zwei und drei Ampeln vollständig und ohne Wiederholungen, bewerten sie anhand der Fahrwege und erläutern ihr Ordnungsmuster. Im Dossier erfassen sie alle acht Belegungen für drei Ampeln.
 
-    **Ergänzender Logikblock:** Die Lernenden können …
+    **Vorbereitung auf LZ2 · Sicherheitsregeln entwickeln & in Formeln übersetzen:** Die Lernenden beschreiben die Konflikte einer einfachen Kreuzung mit bis zu drei unabhängig schaltbaren Ampeln in eigenen Worten.
 
-    - den Zweck logischen Denkens an einem Beispiel erläutern;
-    - Aristoteles und George Boole als historische Bezugspunkte einordnen;
-    - Aussagen von Fragen und Aufforderungen unterscheiden;
-    - erklären, dass auch ein falscher Satz eine Aussage sein kann;
+??? success "Gemeinsame Lernziele beider Einstiege"
 
-    **Gemeinsame Ziele:** Die Lernenden können …
+    Die Lernenden können …
 
-    - vorgegebene Fahrwege und mögliche Konfliktstellen in einem Kreuzungsbild erkennen;
-    - für jede Spur die Zustände Rot und Grün unterscheiden;
-    - sichere und unsichere Ampelbelegungen begründet beurteilen;
-    - erklären, weshalb mehrere grüne Ampeln nicht automatisch unsicher sind und „alle Rot“ kollisionsfrei ist;
-    - eine einfache Sicherheitsregel in eigenen Worten ausdrücken;
-    - erklären, weshalb alle möglichen Kombinationen systematisch betrachtet werden müssen;
-    - erste Ampelbelegungen in einer einfachen Tabelle mit Rot und Grün geordnet festhalten.
+    - vorgegebene Fahrwege in einem Kreuzungsbild verfolgen und Konfliktpaare erkennen;
+    - erklären, dass eine Ampelbelegung für jede betrachtete Ampel Rot oder Grün festlegt;
+    - sichere und unsichere Ampelbelegungen anhand der gleichzeitig freigegebenen Fahrwege begründet unterscheiden;
+    - erklären, weshalb mehrere grüne Ampeln sicher sein können und weshalb «alle Rot» sicher ist;
+    - alle acht Ampelbelegungen einer Kreuzung mit drei unabhängig schaltbaren Ampeln vollständig und ohne Wiederholungen erfassen;
+    - jede dieser Ampelbelegungen als sicher oder unsicher beurteilen;
+    - erklären, wie ihre Ordnung das Vergessen und doppelte Erfassen von Belegungen verhindert;
+    - für ein Konfliktpaar eine Sicherheitsregel in eigenen Worten formulieren.
 
-    **Lernnachweis:** Die Lernenden zeigen und begründen eine sichere und eine unsichere Ampelbelegung, formulieren eine Regel und ordnen Rot-Grün-Kombinationen. Die vollständige, selbstständige Konstruktion einer Wahrheitstabelle ist Ziel von Baustein 3.
+    **Lernnachweis:** Jede Person hält die Konfliktpaare fest, beurteilt Ampelbelegungen mit Begründung, vervollständigt die Tabelle mit allen acht Belegungen und deren Sicherheitsbeurteilung und formuliert eine sprachliche Sicherheitsregel.
 
 ## Vorbereitung
 
 ??? example "Präsentation und Unterrichtsmaterial vorbereiten"
 
-    Die [aktuelle Präsentation](https://canva.link/kbim94xa3bwatco) vor dem Unterricht öffnen. 
+    Das [Dossier](../downloads/baustein1/v1/baustein1-darstellungen-dossier.pdf) für jede Person ausdrucken. Die [Präsentation](../downloads/baustein1/v1/baustein1-darstellungen-praesentation.pdf) öffnen und die Lesbarkeit der Ampelbezeichnungen vom hinteren Teil des Unterrichtsraums aus prüfen.
 
-    Für den Hauptteil werden **dieselben Kreuzungen und Fahrwege wie im enaktiven Einstieg** als statische Bilder verwendet. So beziehen sich beide Bedingungen auf dieselben Verkehrsprobleme. Die Kreuzungsvorlagen können aus [M1.3 – Kreuzungen](https://github.com/salomegolden/logictraffic/releases/download/material-v2/M1_3_Kreuzungen.pdf) stammen; die fest vorgegebenen Fahrwege müssen zusätzlich sichtbar sein. Die Lernenden erhalten keine beweglichen Teile.
+    Als Grundsituation dient die Kreuzung mit drei festgelegten Fahrwegen:
 
-    Das [Dossier zum lehrpersonenzentrierten Einstieg (PDF)](https://github.com/salomegolden/logictraffic/releases/download/ab1_v3/Baustein_1_lehrpersonenzentrierter_Einstieg_Dossier.pdf) für die Lernenden ausdrucken. Für ergänzende schriftliche Aufträge kann zusätzlich normales Papier bereitgelegt werden.
+    - **C:** von links geradeaus nach rechts;
+    - **D:** von unten geradeaus nach oben;
+    - **E:** von rechts geradeaus nach links.
+
+    C und E verlaufen auf getrennten Fahrspuren. D kreuzt die Fahrwege von C und E. Die Konfliktpaare sind **C–D** und **D–E**; **C–E ist konfliktfrei**. Diese Zuordnung bleibt in Dossier und Präsentation unverändert.
+
+    Die Fahrwegfarben unterscheiden die Fahrwege. Ob ein Fahrweg freigegeben ist, zeigt ausschliesslich die zugehörige Ampel. Die Lehrperson hält die [Lösungsvorlage](#losungen-und-ergebnissicherung) bereit und zeigt Lösungen erst nach der jeweiligen Bearbeitungszeit.
 
 ??? tip "Modellannahmen für beide Einstiege"
 
-    - Die vorgegebenen Fahrwege bleiben unverändert.
-    - Bei Grün darf ein Fahrzeug fahren, bei Rot muss es halten.
-    - Zwei gleichzeitig freigegebene Fahrwege stehen im Konflikt, wenn die vorgegebene Situation eine Kollision ermöglicht. Die Konfliktpaare werden vor dem Unterricht eindeutig festgelegt.
-    - Die Klasse beurteilt mögliche Kollisionen, nicht die zufällige Anwesenheit einzelner Autos.
-    - Zusätzliche Vortrittsregeln, zeitliche Abstände oder Ausweichmanöver werden nicht als Lösung eingesetzt.
-    - Sind alle Ampeln rot, ist die Kombination kollisionsfrei. Dass dabei niemand fährt, ist eine andere Frage als die Sicherheit.
+    - Jeder betrachtete Fahrweg besitzt eine eigene Ampel. Die drei Ampeln können unabhängig voneinander Rot oder Grün zeigen.
+    - Grün bedeutet: Der zugehörige Fahrweg ist freigegeben. Rot bedeutet: Der zugehörige Fahrweg ist gesperrt.
+    - Innerhalb einer untersuchten Situation bleiben die Fahrwege unverändert.
+    - Zwei Fahrwege stehen im Konflikt, wenn bei gleichzeitiger Freigabe eine Kollision möglich ist. Dazu können auch Fahrwege gehören, die in dieselbe Fahrspur zusammenführen.
+    - Die zufällige Anwesenheit von Fahrzeugen, zeitliche Abstände, zusätzliche Vortrittsregeln und Ausweichmanöver werden nicht berücksichtigt.
+    - Eine **Ampelbelegung** legt für jede betrachtete Ampel Rot oder Grün fest. Ein **sicherer Kreuzungszustand** liegt vor, wenn bei dieser Ampelbelegung zwischen den gleichzeitig freigegebenen Fahrwegen keine Kollision möglich ist.
+    - «Alle Rot» ist sicher, obwohl kein Fahrzeug fahren darf. Sicherheit und Verkehrsfluss sind unterschiedliche Fragen.
 
-## Unterrichtsablauf – Überblick
+## Unterrichtsablauf – Übersicht
 
-| Phase | Inhalt | Rolle der Lehrperson | Zeit |
-| --- | --- | --- | --- |
-| 1 | Logik einordnen und Aussagen verstehen | Kurzinput und Einordnungsaufgabe | 10 Min. |
-| 2 | Kreuzung und Sicherheitsproblem verstehen | Bild erläutern, Problem und Modellannahmen vorgeben | 10 Min. |
-| 3 | Sichere Ampelbelegungen beurteilen | Beurteilung an Beispielen vormachen und anleiten | 15 Min. |
-| 4 | Alle Möglichkeiten erfassen | Systematisches Verfahren vorführen, Tabelle gemeinsam ergänzen | 15 Min. |
-| 5 | Ergebnisse sichern und Ausblick | Kurze schriftliche Sicherung auswerten | 15 Min. |
-| **Gesamt** | | | **85 Min.** |
+Alle Verweise auf die Präsentation nennen die **PDF-Seite einschliesslich Titelseite**. So lassen sich die Inhalte trotz abweichender Folienverweise im Kommentar eindeutig finden.
+
+| Abschnitt | Inhalt | Richtzeit |
+| --- | --- | --- |
+| Einführung | Dossier ausgeben und Arbeitsweise erläutern; Präsentation S. 1–2 | 3 Min. |
+| 1. Fahrwege untersuchen | AB1a, Aufgaben 1–3, Dossier S. 2; Präsentation S. 3–6 | 15–20 Min. |
+| 2. Sichere Ampelbelegungen beurteilen | AB1b, Aufgabe 1, Beispiele 1 und 2, Dossier S. 3; Präsentation S. 7–13 | 20 Min. |
+| 3. Alle Möglichkeiten erfassen | AB1c, Aufgabe 1 auf S. 4, Aufgaben 2–4 auf S. 5; Präsentation S. 14–19 | 20–25 Min. |
+| 4. Ergebnisse sichern und Ausblick | AB1d, Aufgaben 1–4, Dossier S. 6; Präsentation S. 20–22 | 10–15 Min. |
+| Abschluss | Materialien versorgen | 2 Min. |
+| **Gesamt** | **Summe der Einzelzeiten; abweichende Angaben im Kommentar siehe unten** | **70–85 Min.** |
+
+Zusätzlich im gemeinsamen weiteren Unterricht:
+
+| Abschnitt | Inhalt | Richtzeit |
+| --- | --- | --- |
+| [Gemeinsamer Logikblock](baustein1-logikblock.md) | AB1X, Aufgabe 1, Dossier S. 7; Präsentation «Erweiterung Logik», S. 1–5 | zusätzlich 10–15 Min. |
+
+Der Logikblock und die optionalen Erweiterungen der Differenzierung sind nicht in der Gesamtzeit enthalten.
+
+### Zeitplanung
+
+??? info "Abweichende Gesamtangaben im Kommentar"
+
+    Die Einzelzeiten auf **S. 3** des [Kommentars](../downloads/baustein1/v1/baustein1-darstellungen-lehrpersonenkommentar.pdf#page=3) ergeben **70–85 Minuten**: 3 + (15–20) + 20 + (20–25) + (10–15) + 2.
+
+    Die dort gedruckte Gesamtzeile nennt **60–85 Minuten**, «Auf einen Blick» auf **S. 1** nennt **70–90 Minuten**, und die Abgrenzung zum Logikblock auf **S. 9** nennt **70–85 Minuten**. Die Tabelle dieser Seite weist die berechnete Summe ausdrücklich aus; die widersprüchlichen Gesamtangaben bleiben damit nachvollziehbar. Die einzelnen Phasenzeiten wurden nicht verändert.
 
 ## Durchführung
 
-### Phase 1 – Logik einordnen und Aussagen verstehen
-
-??? success "Ziele der Einheit"
-
-    Die Lernenden verstehen, wozu Logik dient, lernen zwei historische Bezugspunkte kennen und unterscheiden Aussagen von Fragen und Aufforderungen.
-
-??? example "Material"
-
-    - Folien: Bedeutung der Logik, Geschichte, Widerspruch, Aussagenbegriff und Einordnungsaufgabe
+### Einführung
 
 ??? info "Organisation"
 
-    **Sozialform:** Lehrpersoneninput und gelenktes Unterrichtsgespräch im Plenum.
+    **Sozialform:** Plenum
 
-    **Benötigte Zeit:** **10 Minuten**
+    **Benötigte Zeit:** 3 Minuten
+
+    Die Lehrperson gibt die Dossiers aus, erläutert die Arbeitsweise mit Bildern und Tabellen und öffnet die Präsentation auf **S. 1–2**. Die Frage nach der Aufgabe von Ampeln führt zum Kreuzungsproblem.
+
+### Phase 1 – Fahrwege untersuchen
+
+??? success "Ziele der Einheit"
+
+    Die Lernenden verfolgen die drei vorgegebenen Fahrwege und bestimmen, welche Fahrwegpaare miteinander im Konflikt stehen.
+
+??? example "Material"
+
+    - Präsentation, PDF-S. 3–6
+    - AB1a «Ampelbelegungen kennenlernen», Aufgaben 1–3, Dossier S. 2
+    - Schreibzeug
+
+??? info "Organisation"
+
+    **Sozialform:** Gemeinsame Einführung im Plenum, anschliessend Einzelarbeit mit kurzem Partnervergleich
+
+    **Benötigte Zeit:** 15–20 Minuten
 
 ??? abstract "Verlaufsplanung"
 
-    **1. Wozu brauchen wir Logik? – 1 Minute**
+    **1. Problem erläutern – 2 Minuten:** Das Kreuzungsbild auf **Präsentation S. 3** zeigen und fragen: «Welche Fahrwege dürfen gleichzeitig freigegeben sein, ohne dass eine Kollision möglich ist?»
 
-    Die Lehrperson zeigt zunächst das Alltagsbild der Kreuzung und erklärt: Logik hilft uns, Aussagen zu prüfen, Widersprüche zu erkennen und nachvollziehbar zu argumentieren. Für eine Ampelsteuerung brauchen wir eindeutige Beschreibungen und Regeln.
+    **2. Modell klären – 4 Minuten:** Mit **S. 4** die Ampeln und Modellannahmen erklären. Einen Fahrweg gemeinsam von der Zufahrt bis zur Ausfahrt verfolgen. Die Konfliktpaare noch nicht vorgeben.
 
-    **2. Ein Blick in die Geschichte – 2 Minuten**
+    **3. Fahrwege untersuchen – 6–9 Minuten:** Die Lernenden bearbeiten **AB1a, Aufgaben 1–3, Dossier S. 2**, zunächst allein. Sie beschreiben C, D und E, prüfen alle drei Fahrwegpaare, markieren Konfliktstellen und begründen ein Konfliktpaar. Danach kurzer Partnervergleich. **Präsentation S. 5** mit dem Arbeitsauftrag bleibt sichtbar.
 
-    Eine kurze Zeitleiste zeigt zwei ausgewählte Stationen:
-
-    - **Aristoteles (384–322 v. Chr.):** systematisierte Regeln des logischen Denkens und untersuchte gültige Schlussfolgerungen.
-    - **George Boole (1815–1864):** entwickelte eine algebraische Beschreibung logischer Zusammenhänge, die später für die Informatik wichtig wurde.
-
-    Lebensdaten müssen nicht auswendig gelernt werden. Dies ist keine vollständige Geschichte der Logik.
-
-    **3. Eine Aussage und ihr Gegenteil – 2 Minuten**
-
-    Zum selben Ampelbild werden die Sätze „Die Ampel C zeigt Grün“ und „Die Ampel C zeigt nicht Grün“ gezeigt.
-
-    **Inputfrage:** Können beide Sätze im selben Moment und bezogen auf dieselbe Ampel wahr sein?
-
-    **Erwartete Antwort:** Nein. Unter denselben Bedingungen widersprechen sie einander.
-
-    **4. Was ist eine Aussage? – 2 Minuten**
-
-    > Eine Aussage ist ein Satz, der unter eindeutig festgelegten Bedingungen entweder wahr oder falsch ist.
-
-    Die Lehrperson betont: Auch ein falscher Satz kann eine Aussage sein. Die Einordnung als Aussage hängt nicht davon ab, ob der Satz wahr ist.
-
-    **5. Aussage oder keine Aussage? – 3 Minuten**
-
-    | Beispiel | Erwartete Einordnung |
-    | --- | --- |
-    | Zwei plus vier ergibt sechs. | Aussage; wahr |
-    | Zürich ist die Hauptstadt der Schweiz. | Aussage; falsch |
-    | Zeigt die Ampel Grün? | Frage; keine Aussage |
-    | Halte an! | Aufforderung; keine Aussage |
-    | Die Ampel C zeigt auf diesem Bild Grün. | Aussage; anhand des Bildes beurteilbar |
-
-    Antworten erst nach der Einordnung aufdecken.
-
-    **Überleitung:** Wir beschreiben, welche Ampeln Rot oder Grün zeigen, und prüfen danach, ob die gesamte Kombination sicher ist.
+    **4. Ergebnisse besprechen – 3–5 Minuten:** Beurteilungen sammeln und mit **S. 6** auswerten. Die Konfliktstellen im Bild markieren: C–D und D–E stehen im Konflikt; C–E ist konfliktfrei.
 
 ??? tip "Didaktische Hinweise"
 
-    Grundlage sind Arnolds Folien zur Bedeutung der Logik, zu Aristoteles und dem Satz vom Widerspruch, zum Aussagenbegriff und zu George Boole (ADP-Präsentation, Folien 20, 21, 23 und 26). Die Inhalte werden vereinfacht und neu angeordnet.
-
-    Boole wird historisch eingeordnet. Boolesche Variablen, Datentypen, zusammengesetzte Aussagen und logische Folgerungen mit „wenn … dann …“ werden noch nicht eingeführt.
-
-    „Die Ampel zeigt Grün“ beschreibt einen Zustand. „Die Ampelbelegung ist sicher“ bewertet die gesamte Kombination. Beide Ebenen werden auseinandergehalten.
+    Die Lernenden sollen die Fahrwege selbst nachvollziehen. Die Lehrperson gibt das Modell vor, nimmt ihnen aber nicht die gesamte Sicherheitsanalyse ab. Ein geometrischer Schnittpunkt ist relevant, wenn sich die Fahrwege im Modell auf derselben Ebene begegnen.
 
 ??? question "Differenzierung"
 
     === "Vereinfachungen"
 
-        - Nur eine wahre Aussage, eine falsche Aussage und eine Frage einordnen lassen.
-        - Bezug und Zeitpunkt im Ampelbild eindeutig festlegen.
+        - Fahrwege einzeln hervorheben.
+        - Satzstarter anbieten: «Der Fahrweg C führt von … nach …».
 
     === "Erweiterungen"
 
-        - Begründen lassen, weshalb ein falscher Satz trotzdem eine Aussage sein kann.
-        - Einen unklaren Satz durch Ergänzung von Bezug oder Zeitpunkt eindeutig machen lassen.
+        - Begründen lassen, weshalb entgegengesetzte Fahrtrichtungen auf getrennten Spuren nicht automatisch einen Konflikt bilden.
 
-### Phase 2 – Verkehrssituation verstehen
+### Phase 2 – Sichere Ampelbelegungen beurteilen
 
 ??? success "Ziele der Einheit"
 
-    Die Lernenden verstehen die vorgegebene Kreuzung, ordnen die Fahrwege den Spuren zu und erkennen das Sicherheitsproblem.
+    Die Lernenden beurteilen vollständige Ampelbelegungen und begründen ihre Entscheidung anhand der freigegebenen Fahrwege.
 
 ??? example "Material"
 
-    - Alltagsbild einer Kreuzung aus der aktuellen Präsentation
-    - Statisches Bild der ausgewählten Kreuzung mit drei Spuren und fest eingezeichneten Fahrwegen
-    - Beamer oder Präsentationsbildschirm
+    - Präsentation, PDF-S. 7–13
+    - AB1b «Ampelbelegungen beurteilen», Aufgabe 1, Beispiele 1 und 2, Dossier S. 3
+    - Schreibzeug
 
 ??? info "Organisation"
 
-    **Sozialform:** Lehrpersoneninput und gelenktes Unterrichtsgespräch im Plenum.
+    **Sozialform:** Kurze Demonstration im Plenum, Einzelarbeit und gemeinsame Auswertung
 
-    **Benötigte Zeit:** **10 Minuten**
+    **Benötigte Zeit:** 20 Minuten
 
 ??? abstract "Verlaufsplanung"
 
-    **1. Problem vorgeben – 2 Minuten**
+    **1. Vorgehen vormachen – 5 Minuten:** Mit **Präsentation S. 7–9** den Begriff Ampelbelegung und vier Prüfschritte erläutern: Welche Ampeln zeigen Grün? Welche Fahrwege sind freigegeben? Stehen diese Fahrwege im Konflikt? Ist die Ampelbelegung sicher oder unsicher?
 
-    Die Lehrperson greift das bereits gezeigte Alltagsbild nochmals kurz auf und formuliert:
+    Auf **S. 8** ist nur C freigegeben: C = Grün, D = Rot, E = Rot. Auf **S. 9** sind **C und D** freigegeben: C = Grün, D = Grün, E = Rot. Diese Ampelbelegung ist unsicher, weil C und D im Konflikt stehen.
 
-    > Ampeln regeln, welche Fahrzeuge fahren dürfen. Heute untersuchen wir, welche Ampelbelegungen in einem vereinfachten Kreuzungsmodell sicher sind.
+    **2. Zwei Beispiele beurteilen – 7 Minuten:** Jede Person bearbeitet **AB1b, Aufgabe 1, Beispiele 1 und 2, Dossier S. 3**, selbstständig. Die Lehrperson unterstützt bei der Zuordnung von Ampeln und Fahrwegen. **Präsentation S. 10** zeigt den Arbeitsauftrag.
 
-    **2. Modell erklären – 5 Minuten**
+    **3. Lösungen vergleichen – 5 Minuten:** Mit **S. 11** die Begründungen besprechen. Beispiel 1: D und E zeigen Grün; eine Kollision ist möglich. Beispiel 2: Alle Ampeln zeigen Rot; kein Fahrweg ist freigegeben, die Ampelbelegung ist sicher.
 
-    Auf dem schematischen Bild erläutert die Lehrperson jeden Fahrweg sowie die Bedeutung von Rot und Grün. Sie kennzeichnet die relevanten Konfliktstellen und benennt die Modellannahmen.
-
-    **3. Verständnis prüfen – 3 Minuten**
-
-    > Was bedeutet Grün für die Spur C?
-
-    **Erwartete Antwort:** Fahrzeuge auf diesem Fahrweg dürfen fahren.
-
-    > Warum könnten zwei gleichzeitig freigegebene Fahrwege problematisch sein?
-
-    **Erwartete Antwort:** Wenn die Fahrwege im Konflikt stehen, können Fahrzeuge kollidieren.
-
-    > Ist eine einzelne grüne Ampel schon eine vollständige Beschreibung der Kreuzung?
-
-    **Erwartete Antwort:** Nein. Auch die Zustände der anderen Ampeln müssen bekannt sein.
+    **4. Mehrere grüne Ampeln prüfen – 3 Minuten:** Auf **S. 12** die Ampelbelegung C = Grün, D = Rot, E = Grün beurteilen lassen und mit **S. 13** auswerten. C und E verlaufen auf getrennten Spuren. Entscheidend sind die Konflikte, nicht allein die Anzahl grüner Ampeln.
 
 ??? tip "Didaktische Hinweise"
 
-    Die Lehrperson gibt die Erklärung und die Struktur vor. Die Lernenden müssen die Kreuzung nicht selbst konstruieren oder deren Funktionsweise durch Ausprobieren entdecken. Rückfragen und kurze begründete Antworten sind ausdrücklich vorgesehen.
+    Eine unsichere Ampelbelegung ermöglicht eine Kollision; sie bedeutet nicht, dass in jedem konkreten Moment eine Kollision stattfinden muss.
 
-    Fahrwege werden mit eindeutigen Spurbezeichnungen und Pfeilen dargestellt. Farbe allein genügt nicht zur Unterscheidung.
+    **Quellenhinweis zu Präsentation S. 9:** Der Satz «Nur der Fahrweg C ist freigegeben» widerspricht dort den Ampelwerten und der richtigen Erklärung rechts. Freigegeben sind **C und D**. Die Originaldatei bleibt unverändert; bei der Präsentation wird dieser Satz richtiggestellt.
 
 ??? question "Differenzierung"
 
     === "Vereinfachungen"
 
-        - Fahrwege nacheinander auf separaten Folien hervorheben.
-        - Satzstarter anbieten: „Spur C führt von … nach …“.
+        - Die vier Prüfschritte sichtbar lassen.
+        - Satzstarter anbieten: «Die Ampelbelegung ist …, weil …».
 
     === "Erweiterungen"
 
-        - Den Unterschied zwischen dem vereinfachten Modell und einer realen Kreuzung mündlich erklären lassen.
-        - Das vorgegebene Modell beibehalten; keine zusätzlichen Verkehrssituationen einführen.
+        - Die Behauptung «Zwei grüne Ampeln sind immer gefährlich» anhand eines Gegenbeispiels widerlegen.
 
-<span id="phase-3-sichere-ampelstellungen-beurteilen"></span>
-
-### Phase 3 – Sichere Ampelbelegungen beurteilen
+### Phase 3 – Alle Möglichkeiten erfassen
 
 ??? success "Ziele der Einheit"
 
-    Die Lernenden beurteilen vorgegebene Kombinationen mit einem erläuterten Verfahren und begründen ihre Entscheidungen anhand der Fahrwege.
+    Die Lernenden erfassen alle acht Ampelbelegungen vollständig und ohne Wiederholungen, beurteilen jede Belegung und erklären ihre Ordnung.
 
 ??? example "Material"
 
-    - Statische Bilder von vier ausgewählten Ampelbelegungen derselben Kreuzung
-    - Papier und Schreibzeug
+    - Präsentation, PDF-S. 14–19
+    - AB1c «Sichere Ampelbelegungen finden», Dossier S. 4–5
+    - Schreibzeug
 
 ??? info "Organisation"
 
-    **Sozialform:** Lehrpersoneninput im Plenum, anschliessend kurze angeleitete Einzelarbeit und gemeinsame Auswertung.
+    **Sozialform:** Kurzes Unterrichtsgespräch, Einzelarbeit mit Partnervergleich und gemeinsame Auswertung
 
-    **Benötigte Zeit:** **15 Minuten**
+    **Benötigte Zeit:** 20–25 Minuten
 
 ??? abstract "Verlaufsplanung"
 
-    **1. Vorgehen vormachen – 5 Minuten**
+    **1. Vollständigkeit als Problem aufgreifen – 5 Minuten:** Mit **Präsentation S. 14** nur **AB1c, Aufgabe 1, Dossier S. 4**, bearbeiten lassen. Die Lernenden vermuten die Anzahl möglicher Ampelbelegungen und begründen ihre Überlegung. **Dossier S. 5 bleibt geschlossen.** Anschliessend Vorschläge sammeln, wie sich Wiederholungen und Auslassungen vermeiden lassen.
 
-    Die Lehrperson beurteilt eine sichere und eine unsichere Kombination. Sie spricht ihre Schritte aus:
+    **2. Alle Belegungen eintragen – 5–10 Minuten:** Mit **Präsentation S. 15** Dossier S. 5 öffnen lassen. Jede Person trägt für **AB1c, Aufgabe 2**, alle acht Ampelbelegungen in die leere Tabelle ein. Eine nachvollziehbare eigene Ordnung ist zulässig. Bei Bedarf das Verfahren zunächst für zwei Ampeln erläutern und auf drei Ampeln übertragen lassen.
 
-    1. Welche Spuren haben Grün?
-    2. Welche Fahrwege sind dadurch gleichzeitig freigegeben?
-    3. Stehen diese Fahrwege im Konflikt?
-    4. Ist die gesamte Kombination sicher oder unsicher?
+    **3. Sicherheit beurteilen – 5 Minuten:** **AB1c, Aufgabe 3, Dossier S. 5**, mit **Präsentation S. 16** bearbeiten lassen. Jede Tabellenzeile prüfen und «sicher» oder «unsicher» ankreuzen. Bei unsicheren Belegungen mindestens ein gleichzeitig freigegebenes Konfliktpaar notieren; bei sicheren Belegungen einen Strich eintragen.
 
-    Die Beurteilung erfolgt am statischen Bild. Es werden keine Autos bewegt und keine Ampelbelegungen interaktiv verändert.
-
-    **2. Vorgegebene Beispiele bearbeiten – 5 Minuten**
-
-    Die Lernenden beurteilen zwei weitere Bilder schriftlich:
-
-    > Notiere, welche Spuren Grün haben. Entscheide, ob die Ampelbelegung sicher ist, und begründe deine Antwort mit den Fahrwegen.
-
-    **3. Lösungen besprechen – 5 Minuten**
-
-    Die Lehrperson erläutert die Lösungen anhand desselben Verfahrens.
-
-    > Bedeutet „zwei Ampeln sind grün“ immer, dass eine Kollision möglich ist?
-
-    **Erwartete Antwort:** Nein. Entscheidend ist, ob die gleichzeitig freigegebenen Fahrwege im Konflikt stehen.
-
-    > Sind alle roten Ampeln eine sichere Kombination?
-
-    **Erwartete Antwort:** Ja, weil niemand fahren darf. Sicher bedeutet hier kollisionsfrei und nicht, dass möglichst viele Fahrzeuge fahren.
+    **4. Vergleichen und begründen – 5 Minuten:** Mit **Präsentation S. 17** kurz zu zweit vergleichen und **AB1c, Aufgabe 4, Dossier S. 5**, bearbeiten. Erst danach die Lösungstabelle auf **S. 18** zeigen und Abweichungen am Kreuzungsbild klären. Mit **S. 19** erläutern lassen, weshalb die Ordnung vollständig ist.
 
 ??? tip "Didaktische Hinweise"
 
-    Die Beispiele werden vorab anhand der tatsächlich verwendeten Kreuzung geprüft. Mindestens eine Kombination soll eine verbreitete Fehlvorstellung aufgreifen, etwa „Alle Ampeln rot ist unsicher, weil niemand fährt“.
-
-    Falls die gewählte Kreuzung keine zwei konfliktfreien Fahrwege enthält, wird das Beispiel mit zwei sicheren Grünfreigaben erst in der passenden erweiterten Situation behandelt.
+    Zuerst werden die möglichen Ampelbelegungen erfasst, anschliessend wird deren Sicherheit beurteilt. Acht ausgefüllte Zeilen allein belegen keine Vollständigkeit: Es dürfen keine Belegungen doppelt vorkommen.
 
 ??? question "Differenzierung"
 
     === "Vereinfachungen"
 
-        - Die vier Prüfschritte sichtbar stehen lassen.
-        - Satzstarter verwenden: „Die Kombination ist …, weil die Fahrwege …“.
+        - Zunächst C auf Rot festhalten und alle vier Belegungen von D und E erfassen.
+        - Danach C auf Grün setzen und dieselben vier Belegungen wiederholen.
 
     === "Erweiterungen"
 
-        - Eine falsche Begründung zu einem vorgegebenen Beispiel korrigieren lassen.
-        - Eine Entscheidung ausführlicher begründen, ohne ein zusätzliches Problem zu bearbeiten.
+        - Erklären lassen, wie viele Belegungen bei einer vierten unabhängig schaltbaren Ampel hinzukommen und weshalb sich die Anzahl verdoppelt.
 
-### Phase 4 – Alle Möglichkeiten systematisch erfassen
+### Phase 4 – Ergebnisse sichern und Ausblick
 
 ??? success "Ziele der Einheit"
 
-    Die Lernenden können ein vorgeführtes Ordnungsmuster für Rot-Grün-Kombinationen erklären und fehlende Kombinationen angeleitet ergänzen. Dies bereitet [LZ1b – alle Ampelbelegungen erfassen](../didaktik/lernziele.md#lz1b) vor.
+    Die Lernenden erklären die Sicherheitsbeurteilung, formulieren eine Sicherheitsregel und erläutern den Nutzen einer systematischen Ordnung.
 
 ??? example "Material"
 
-    - Einfache Tabelle für die Kreuzung mit drei Spuren
-    - Tafel, Visualizer oder schrittweise aufgedeckte Folien
-    - Papier und Schreibzeug
+    - Präsentation, PDF-S. 20–22
+    - AB1d «Was hast du verstanden?», Aufgaben 1–4, Dossier S. 6
+    - Ausgefülltes AB1c auf Dossier S. 5
 
 ??? info "Organisation"
 
-    **Sozialform:** Lehrpersoneninput mit gelenkten Ergänzungen aus dem Plenum; kurze Einzelarbeit.
+    **Sozialform:** Einzelarbeit und gemeinsame Auswertung im Plenum
 
-    **Benötigte Zeit:** **15 Minuten**
+    **Benötigte Zeit:** 10–15 Minuten
 
 ??? abstract "Verlaufsplanung"
 
-    **1. Vollständigkeit als Problem benennen – 3 Minuten**
+    **1. Individuelle Sicherung – etwa 5 Minuten:** **Präsentation S. 20** zeigt den Arbeitsauftrag. Die Lernenden bearbeiten **AB1d, Aufgaben 1–4, Dossier S. 6**, zunächst allein. Sie dürfen das Kreuzungsbild und ihre Tabelle auf S. 5 verwenden. Sie erklären Sicherheit, begründen eine unsichere Ampelbelegung, formulieren eine Regel zu einem Konfliktpaar und erklären die Vollständigkeit ihrer Ordnung. Kurze, fachlich treffende Antworten genügen.
 
-    > Einzelne Beispiele zeigen uns noch nicht, ob wir alle Ampelbelegungen berücksichtigt haben. Wie können wir vermeiden, eine Kombination zu vergessen?
+    **2. Ergebnisse sichern – etwa 5 Minuten:** Mit **Präsentation S. 21** ausgewählte Antworten besprechen. Gesichert werden die acht Ampelbelegungen, die Konfliktpaare, die Sicherheit von «alle Rot», das Beispiel mit zwei sicheren Grünfreigaben und eine sprachliche Sicherheitsregel.
 
-    Die Lehrperson erklärt, dass eine feste Reihenfolge hilft.
-
-    **2. Geordnetes Verfahren erläutern – 6 Minuten**
-
-    Sie beginnt mit zwei Spuren: Rot–Rot, Rot–Grün, Grün–Rot, Grün–Grün. Für die dritte Spur wird jede dieser Kombinationen einmal mit Rot und einmal mit Grün ergänzt.
-
-    Die Reihenfolge wird an der Tafel aufgebaut:
-
-    | Spur C | Spur D | Spur E |
-    | --- | --- | --- |
-    | Rot | Rot | Rot |
-    | Rot | Rot | Grün |
-    | Rot | Grün | Rot |
-    | Rot | Grün | Grün |
-    | Grün | Rot | Rot |
-    | Grün | Rot | Grün |
-    | Grün | Grün | Rot |
-    | Grün | Grün | Grün |
-
-    Diese Tabelle dient als anschauliche Übersicht der Ampelbelegungen. Sie wird noch nicht als formale Wahrheitstabelle eingeführt.
-
-    **3. Schema ergänzen und verstehen – 3 Minuten**
-
-    Die Lernenden ergänzen zwei zuvor verdeckte Zeilen auf Papier.
-
-    > Warum ist es hilfreich, jede Kombination der ersten beiden Ampeln einmal mit Rot und einmal mit Grün der dritten Ampel zu notieren?
-
-    **Erwartete Antwort:** So wird für jede Kombination der ersten beiden Ampeln berücksichtigt, ob die dritte Ampel Rot oder Grün zeigt; keine Ampelbelegung fehlt.
-
-    **4. Sicherheit zuordnen – 3 Minuten**
-
-    Die Lehrperson ergänzt an ausgewählten Zeilen die Bewertung sicher / unsicher für die tatsächlich verwendete Kreuzung. Die Klasse begründet die Zuordnung.
+    **3. Ausblick – 1–2 Minuten:** Mit **Präsentation S. 22** erläutern, dass die Kreuzungen im nächsten Baustein mit LogicTraffic am Computer untersucht werden.
 
 ??? tip "Didaktische Hinweise"
 
-    Das Erfassen der Ampelbelegungen und ihre Sicherheitsbewertung sind zwei getrennte Schritte. Zuerst werden mögliche Ampelbelegungen erfasst, danach werden diese anhand der Fahrwege beurteilt.
-
-    Es werden die Wörter Rot und Grün verwendet. Die Codierung mit `0` und `1` sowie Operatoren bleiben dem gemeinsamen Unterricht vorbehalten. Die Wörter wahr und falsch sind aus Phase 1 bekannt; hier wird weiterhin mit Rot und Grün gearbeitet.
+    Die individuelle Bearbeitung erfolgt vor der gemeinsamen Besprechung, damit erkennbar wird, welche Zusammenhänge die Lernenden bereits selbst erklären können.
 
 ??? question "Differenzierung"
 
     === "Vereinfachungen"
 
-        - Zunächst das Vorgehen mit zwei Spuren erläutern.
-        - Zusammengehörige Zeilen optisch als Paare markieren.
+        - Satzstarter anbieten: «Die Ampeln … und … dürfen nicht gleichzeitig Grün zeigen, weil …».
 
     === "Erweiterungen"
 
-        - Erklären lassen, wie das gezeigte Verfahren bei einer vierten Ampel fortgeführt würde.
-        - Keine allgemeine Formel oder formale Wahrheitstabelle verlangen.
+        - Beide Konfliktpaare in einer gemeinsamen sprachlichen Regel berücksichtigen.
 
-### Phase 5 – Ergebnisse sichern und Ausblick
-
-??? success "Ziele der Einheit"
-
-    Die Lernenden halten die zentralen Erkenntnisse fest und erkennen, welche Fragen die anschliessende Arbeit mit LogicTraffic aufgreift.
-
-??? example "Material"
-
-    - Sicherungsfolie mit drei kurzen Aufträgen
-    - Kreuzungsbild aus Phase 3
-    - Papier und Schreibzeug
+### Abschluss
 
 ??? info "Organisation"
 
-    **Sozialform:** Einzelarbeit und gemeinsame, durch die Lehrperson geleitete Auswertung im Plenum.
+    **Benötigte Zeit:** 2 Minuten
 
-    **Benötigte Zeit:** **15 Minuten**
+    Die Lernenden versorgen die Materialien.
 
-??? abstract "Verlaufsplanung"
+## Gemeinsamer Logikblock
 
-    **1. Schriftliche Sicherung – 5 Minuten**
+!!! info "Gemeinsamer Logikblock – zusätzlich"
 
-    Die Lernenden bearbeiten:
+    Wird der Block eingesetzt, findet er nach dem jeweiligen Einstieg im gemeinsamen weiteren Unterricht statt; beide Varianten erhalten denselben Inhalt und dieselbe Bearbeitungszeit. Er benötigt **10–15 Minuten zusätzlich** und ist nicht in der Gesamtzeit des Einstiegs enthalten. Benötigt werden **AB1X im jeweiligen Dossier** und die **Präsentation «Erweiterung Logik»**. [Zum Ablauf, zu den Seitenangaben und Materialien](baustein1-logikblock.md).
 
-    1. Erkläre, wann eine Ampelbelegung im vorgegebenen Modell sicher ist.
-    2. Beurteile die gezeigte Ampelbelegung und begründe deine Antwort anhand der Fahrwege.
-    3. Erkläre, wie eine Tabelle helfen kann, keine Kombination zu vergessen.
+## Lösungen und Ergebnissicherung
 
-    Zur Vorbereitung auf [LZ2](../didaktik/lernziele.md#lernziel-2-boolesche-formeln-aus-textbeschreibungen-ableiten) ergänzen die Lernenden bei der Begründung eine sprachliche Regel: „Diese beiden Spuren dürfen nicht gleichzeitig Grün haben.“ Sie benennen die zugehörigen Fahrwege im Bild.
+??? success "Lösungen zu AB1a und AB1b"
 
-    **2. Auswertung und gemeinsames Fazit – 8 Minuten**
+    **AB1a, Aufgaben 1–3, Dossier S. 2:** C führt von links nach rechts, D von unten nach oben und E von rechts nach links. C–D und D–E sind Konfliktpaare; C–E ist konfliktfrei.
 
-    Die Lehrperson bespricht die Antworten und hält fest:
+    **AB1b, Aufgabe 1, Dossier S. 3:** Beispiel 1 ist unsicher, weil D und E Grün zeigen und ihre Fahrwege im Konflikt stehen. Beispiel 2 ist sicher, weil alle Ampeln Rot zeigen und kein Fahrweg freigegeben ist.
 
-    - Jede Ampel kann Rot oder Grün zeigen.
-    - Zur Beurteilung der Kreuzung muss die gesamte Kombination betrachtet werden.
-    - Eine Kombination ist unsicher, wenn gleichzeitig freigegebene Fahrwege eine Kollision ermöglichen.
-    - Mehrere grüne Ampeln können sicher sein, wenn ihre Fahrwege nicht im Konflikt stehen.
-    - Eine geordnete Tabelle hilft, alle möglichen Kombinationen zu berücksichtigen.
+??? success "Lösungstabelle zu AB1c"
 
-    **3. Ausblick – 2 Minuten**
+    Die Tabelle entspricht **Kommentar S. 8** und **Präsentation S. 18**; sie gehört zu **AB1c, Aufgaben 2–4, Dossier S. 5**.
 
-    > Im nächsten Baustein lernen wir LogicTraffic kennen. Dort sehen wir die Kreuzung und die Ampelbelegungen am Computer und untersuchen, wie diese Darstellungen zusammenhängen.
+    | C | D | E | Beurteilung | Gleichzeitig freigegebenes Konfliktpaar |
+    | --- | --- | --- | --- | --- |
+    | Rot | Rot | Rot | sicher | – |
+    | Rot | Rot | Grün | sicher | – |
+    | Rot | Grün | Rot | sicher | – |
+    | Rot | Grün | Grün | unsicher | D–E |
+    | Grün | Rot | Rot | sicher | – |
+    | Grün | Rot | Grün | sicher | – |
+    | Grün | Grün | Rot | unsicher | C–D |
+    | Grün | Grün | Grün | unsicher | C–D und D–E |
 
+    Es gibt **fünf sichere und drei unsichere Ampelbelegungen**. Mögliche Sicherheitsregel: «Wenn D Grün zeigt, müssen C und E Rot zeigen.» Diese Lösung gilt für die hier festgelegten geraden Fahrwege; bei einer anderen Kreuzung wird die Sicherheit erneut geprüft.
+
+??? success "Hinweise zur Sicherung mit AB1d"
+
+    Für **AB1d, Aufgabe 3, Dossier S. 6**, genügt eine Regel zu einem Konfliktpaar, beispielsweise: «C und D dürfen nicht gleichzeitig Grün zeigen, weil sich ihre Fahrwege kreuzen.» Die vollständige Regel für beide Konfliktpaare ist eine Erweiterung.
+
+## Didaktische Hinweise
+
+??? tip "Geprüfte Präsentationsverweise"
+
+    Der Kommentar nennt in der Übersicht auf **S. 3** und in den Phasen auf **S. 4–7** unterschiedliche Folienbereiche. Diese Seite verwendet deshalb ausschliesslich die tatsächlichen PDF-Seiten der aktuellen Präsentation. Die auf **Kommentar S. 6** erwähnte **Hilfefolie H1** ist darin nicht enthalten; die dort beschriebene Hilfe mit zunächst zwei Ampeln kann mündlich gegeben werden. Es wird kein fehlendes Material vorausgesetzt.
+
+    Die zusätzliche Abschlussübersicht auf **Präsentation S. 23** enthält bereits Begriffe aus dem gemeinsamen Logikblock. Dessen ausführlicher Ablauf wird ausschliesslich auf der [gemeinsamen Unterseite](baustein1-logikblock.md) beschrieben.
+
+    Die Erweiterungen der Differenzierung sind optional und haben keine eigenen Richtzeiten im Kommentar. Sie werden nicht zusätzlich in die Pflichtzeit eingerechnet.
 
 ## Übergang zum gemeinsamen Unterricht
 
-Nach dem alternativen Baustein bearbeiten beide Gruppen [Baustein 2 – LogicTraffic](baustein2-logictraffic.md) und die weiteren gemeinsamen Bausteine. Die Codierung mit `0` und `1`, formale Wahrheitstabellen und Operatoren werden dort eingeführt.
+Nach dem jeweiligen Einstieg bearbeiten beide Gruppen [Baustein 2 – LogicTraffic](baustein2-logictraffic.md) und die weiteren gemeinsamen Bausteine. Die Codierung mit `0` und `1`, formale Wahrheitstabellen und Operatoren werden dort eingeführt.

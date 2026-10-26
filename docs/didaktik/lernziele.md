@@ -10,9 +10,9 @@ Die vier übergeordneten Lernziele werden in den Bausteinen schrittweise aufgeba
 
 **LZ4 ist eine optionale Vertiefung.** Normalformen werden an kleinen Beispielen untersucht. Das systematische Erzeugen kanonischer Formen dient als Hilfe; ein allgemeines Minimierungsverfahren oder der Nachweis einer absolut kürzesten Formel wird nicht verlangt. Auch der Transfer auf fünf Variablen ist optional.
 
-Die fachlichen Erwartungen gelten für beide Varianten von Baustein 1. Beim [enaktiven Einstieg](../unterricht/baustein1-enaktiv.md#lernziele) werden sie handelnd, beim [lehrpersonenzentrierten Einstieg](../unterricht/baustein1-lehrpersonenzentriert.md#lernziele) anhand statischer Bilder und angeleiteter Aufgaben erarbeitet. Formale Operatoren und die Codierung mit `0` und `1` werden in diesem ersten Baustein noch nicht vorausgesetzt.
+Die fachlichen Erwartungen gelten für beide Varianten von Baustein 1. Beim [enaktiven Einstieg](../unterricht/baustein1-enaktiv.md#lernziele) werden sie handelnd, beim [Einstieg anhand von Darstellungen](../unterricht/baustein1-lehrpersonenzentriert.md#lernziele) anhand statischer Bilder und angeleiteter Aufgaben erarbeitet. Formale Operatoren und die Codierung mit `0` und `1` werden in diesem ersten Baustein noch nicht vorausgesetzt.
 
-Der ergänzende [Logikblock zu Aussagen und historischen Bezugspunkten](../unterricht/baustein1-lehrpersonenzentriert.md#phase-1-logik-einordnen-und-aussagen-verstehen) bereitet das Verständnis wahrer und falscher Aussagen vor. Die geschichtliche Einordnung dient der Orientierung und ist kein gemeinsames fachliches Prüfziel. Werden beide Einstiege in einer Untersuchung verglichen, wird dieser Hintergrundteil in beiden Gruppen mit demselben Inhalt und Zeitbudget berücksichtigt.
+Der ergänzende [Logikblock zu Aussagen und historischen Bezugspunkten](../unterricht/baustein1-logikblock.md) bereitet das Verständnis wahrer und falscher Aussagen vor. Die geschichtliche Einordnung dient der Orientierung und ist kein gemeinsames fachliches Prüfziel. Werden beide Einstiege in einer Untersuchung verglichen, wird dieser Hintergrundteil in beiden Gruppen mit demselben Inhalt und Zeitbudget berücksichtigt.
 
 ## Lernziele und Bausteine im Überblick
 
@@ -33,7 +33,7 @@ Die Lernenden können Fahrwege und Konfliktpaare erkennen und sichere von unsich
 
 **Beobachtbarer Nachweis:** Eine vorgegebene Kombination wird dargestellt und begründet bewertet; die Lernenden erklären, weshalb auch „alle Rot“ kollisionsfrei ist. Sie unterscheiden eine einzelne Belegung von der gesamten Tabelle und von einer Regel für alle Belegungen.
 
-**Erarbeitung:** [Baustein 1 enaktiv – Lernziele](../unterricht/baustein1-enaktiv.md#lernziele) oder [Baustein 1 lehrpersonenzentriert – Lernziele](../unterricht/baustein1-lehrpersonenzentriert.md#lernziele), anschliessend [Baustein 2 – Lernziele](../unterricht/baustein2-logictraffic.md#lernziele), Sicherung mit 2c.
+**Erarbeitung:** [Baustein 1 enaktiv – Lernziele](../unterricht/baustein1-enaktiv.md#lernziele) oder [Baustein 1b – Darstellungen – Lernziele](../unterricht/baustein1-lehrpersonenzentriert.md#lernziele), anschliessend [Baustein 2 – Lernziele](../unterricht/baustein2-logictraffic.md#lernziele), Sicherung mit 2c.
 
 ### LZ1b · Alle möglichen Ampelbelegungen systematisch erfassen {#lz1b}
 
@@ -61,7 +61,7 @@ Die Lernenden können die Konflikte einer einfachen Kreuzung mit zwei bis drei V
 | Sprache in eine Formel übersetzen | Für zwei kreuzende Spuren entsteht etwa $\neg(A \land B)$; mehrere notwendige Konfliktbedingungen werden mit UND verbunden. |
 | Formel erklären und eingeben | Die Lernenden erklären die Teilbedingungen und geben die Formel mit passenden Klammern in LogicTraffic ein. |
 
-**Erarbeitung:** sprachliche Vorbereitung in [Baustein 1 enaktiv](../unterricht/baustein1-enaktiv.md#lernziele) oder [Baustein 1 lehrpersonenzentriert](../unterricht/baustein1-lehrpersonenzentriert.md#lernziele); formale Umsetzung in [Baustein 4 – Basisteil](../unterricht/baustein4-boolesche-algebra.md#basisteil) mit 4a–4c. Die Überprüfung der Lösung gehört zu LZ3.
+**Erarbeitung:** sprachliche Vorbereitung in [Baustein 1 enaktiv](../unterricht/baustein1-enaktiv.md#lernziele) oder [Baustein 1b – Darstellungen](../unterricht/baustein1-lehrpersonenzentriert.md#lernziele); formale Umsetzung in [Baustein 4 – Basisteil](../unterricht/baustein4-boolesche-algebra.md#basisteil) mit 4a–4c. Die Überprüfung der Lösung gehört zu LZ3.
 
 ## LZ3: Tabellen und Sicherheitsformeln überprüfen {#lernziel-3-fehlerhafte-ampelsteuerungen-untersuchen}
 
@@ -108,7 +108,7 @@ Normalformen sind für diesen direkten Weg über die Konflikte keine Voraussetzu
 
 | Unterrichtsabschnitt | Fokus | Geeigneter Nachweis |
 | --- | --- | --- |
-| [Baustein 1 – enaktiv](../unterricht/baustein1-enaktiv.md#lernziele) **oder** [lehrpersonenzentriert](../unterricht/baustein1-lehrpersonenzentriert.md#lernziele) | LZ1a; Vorbereitung LZ1b und LZ2 | Sichere und unsichere Ampelbelegungen begründen, Rot-Grün-Kombinationen ordnen und eine Regel in Worten ausdrücken |
+| [Baustein 1 – enaktiv](../unterricht/baustein1-enaktiv.md#lernziele) **oder** [Baustein 1b – Darstellungen](../unterricht/baustein1-lehrpersonenzentriert.md#lernziele) | LZ1a; Vorbereitung LZ1b und LZ2 | Sichere und unsichere Ampelbelegungen begründen, Rot-Grün-Kombinationen ordnen und eine Regel in Worten ausdrücken |
 | [Baustein 2](../unterricht/baustein2-logictraffic.md#lernziele) | LZ1a | Eine Tabellenzeile an der Kreuzung zeigen und die beiden Bedeutungen von `0`/`1` erklären |
 | [Baustein 3](../unterricht/baustein3-wahrheitstabellen.md#lernziele) | LZ1b und LZ3a | Eine vollständige Tabelle erstellen und eine fehlerhafte Tabelle begründet korrigieren |
 | [Baustein 4 – Basisteil](../unterricht/baustein4-boolesche-algebra.md#basisteil) | LZ1c, LZ2 und LZ3b | Eine Formel entwickeln, erläutern und vollständig prüfen |
