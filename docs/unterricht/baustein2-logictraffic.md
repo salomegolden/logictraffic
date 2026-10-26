@@ -19,7 +19,7 @@ Die aussagenlogische Formel wird am Ende lediglich als weitere Darstellung der *
 
     **:busts_in_silhouette: Zielgruppe:** Gymnasiale Klassen der 8.–9. Schulstufe
 
-    **:stopwatch: Dauer:** ca. **45–55 Minuten**  
+    **:stopwatch: Dauer:** ca. **55–65 Minuten**, einschliesslich Einführung und Abschluss
 
     **:computer: Computer:**  Ein Computer oder Tablet mit LogicTraffic pro Zweiergruppe
 
@@ -140,11 +140,14 @@ Die aussagenlogische Formel wird am Ende lediglich als weitere Darstellung der *
 
 ## Unterrichtsablauf – Überblick
 
-| Phase | Schwerpunkt | Material | Richtwert |
-| --- | --- | --- | ---: |
-| **1. Von der Kreuzung zur digitalen Darstellung** | Vorwissen aktivieren und die Frage vorbereiten, wie eine Kreuzung am Computer dargestellt werden kann | Rückbezug auf Baustein 1 | ca. 5' |
-| **2. LogicTraffic erkunden und Ampelbelegungen lesen** | Oberfläche, Variablen, `0`/`1`, Tabellenzeilen sowie sichere und unsichere Ampelbelegungen untersuchen | **[AB 2a](https://github.com/salomegolden/logictraffic/releases/download/ab2_v2/2a_orientierung_logictraffic.pdf)**, anschliessend **[MB 2b](https://github.com/salomegolden/logictraffic/releases/download/ab2_v2/2b_merkblatt_orientierung.pdf)**, LogicTraffic | ca. 25–30' |
-| **3. Darstellungen zusammenführen und sichern** | Funktionen der verschiedenen Darstellungen ordnen und den Übergang zu Baustein 3 vorbereiten | **[AB 2c](https://github.com/salomegolden/logictraffic/releases/download/ab2_v2/2c_ergebnissicherungLT.pdf)**, **[Tafelbild 2e](https://github.com/salomegolden/logictraffic/releases/download/ab2_v1/2e_tafelbild_ergebnissicherung.pdf)** | ca. 15–20' |
+| Abschnitt | Inhalt | Richtzeit |
+| --- | --- | --- |
+| Einführung | Material ausgeben und LogicTraffic auf den Geräten öffnen | 5 Min. |
+| 1. Von der Kreuzung zur digitalen Darstellung | Vorwissen aus Baustein 1 aktivieren und digitale Darstellung vorbereiten | 5 Min. |
+| 2. LogicTraffic erkunden und Ampelbelegungen lesen | AB 2a, Aufgaben 1–7; MB 2b als Nachschlagehilfe | 25–30 Min. |
+| 3. Darstellungen zusammenführen und sichern | AB 2c; gemeinsame Sicherung mit Tafelbild 2e und Ausblick | 15–20 Min. |
+| Abschluss | Material aufräumen und Geräte versorgen | 5 Min. |
+| **Gesamt** | | **55–65 Min.** |
 
 
 ## Durchführung

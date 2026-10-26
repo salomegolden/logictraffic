@@ -21,7 +21,7 @@ Damit bereitet Baustein 3 den Übergang zu [Baustein 4 – Aussagenlogische Form
     **:busts_in_silhouette: Zielgruppe:** Gymnasiale Klassen der 8.–9. Schulstufe
 
     **:stopwatch: Dauer:**  
-    ca. **50–60 Minuten**
+    ca. **65–75 Minuten**, einschliesslich Einführung und Abschluss
 
     **:computer: Computer:**  
     Ein Computer oder Tablet mit LogicTraffic pro Zweiergruppe
@@ -150,11 +150,14 @@ Damit bereitet Baustein 3 den Übergang zu [Baustein 4 – Aussagenlogische Form
 
 ## Unterrichtsablauf – Überblick
 
-| Phase | Schwerpunkt | Material | Richtwert |
-| --- | --- | --- | ---: |
-| **1. Wahrheitstabellen verstehen** | Einzelne Ampelbelegungen lesen, Tabellenzeilen deuten und die vollständige Tabelle für zwei Variablen verstehen | **[AB 3a](https://github.com/salomegolden/logictraffic/releases/download/ab3_v2/3a_wahrheitstabellen_verstehen.pdf)**, Situation 2 | ca. 15 Min. |
-| **2. Wahrheitstabellen systematisch erstellen** | Drei Variablen vollständig erfassen, Ordnungsmuster erkennen und $2^n$ herleiten | **[AB 3b](https://github.com/salomegolden/logictraffic/releases/download/ab3_v2/3b_wahrheitstabellen_systematisch_erstellen.pdf)**, Situation 3 | ca. 25 Min. |
-| **3. Herausforderung – Fehler finden** | Fehlende, doppelte und falsch bewertete Zeilen diagnostizieren; Wissen sichern und Skalierungsproblem reflektieren | **[AB 3c](https://github.com/salomegolden/logictraffic/releases/download/ab3_v2/3c_Herausforderung_findest_du_die_Fehlererstellen.pdf)**, Situation 4 | ca. 15–20 Min. |
+| Abschnitt | Inhalt | Richtzeit |
+| --- | --- | --- |
+| Einführung | Material ausgeben und Vorwissen zu Ampelbelegungen aktivieren | 5 Min. |
+| 1. Wahrheitstabellen verstehen | AB 3a, Situation 2; Tabellenzeilen lesen und deuten | 15 Min. |
+| 2. Wahrheitstabellen systematisch erstellen | AB 3b, Situation 3; Ordnungsmuster erkennen und $2^n$ herleiten | 25–30 Min. |
+| 3. Herausforderung – Fehler finden | AB 3c, Situation 4; Fehler untersuchen, Ergebnisse sichern und Ausblick | 15–20 Min. |
+| Abschluss | Material aufräumen und Geräte versorgen | 5 Min. |
+| **Gesamt** | | **65–75 Min.** |
 
 Die drei Phasen bilden gemeinsam den vollständigen Baustein. Bei knappem Zeitbudget kann Phase 3 als Vertiefung eingesetzt werden; die inhaltliche Brücke zu Baustein 4 sollte jedoch in jedem Fall am Ende kurz gesichert werden.
 

@@ -1,6 +1,6 @@
 # Unterricht durchführen
 
-Die Unterrichtseinheit ermöglicht einen schrittweisen Einstieg in die boolesche Aussagenlogik. Ausgangspunkt sind konkrete Verkehrssituationen, die zunächst mit physischen Materialien oder im [lehrpersonenzentrierten Einstieg](baustein1-lehrpersonenzentriert.md) anhand statischer Bilder untersucht und anschliessend in der digitalen Lernumgebung LogicTraffic dargestellt werden.
+Die Unterrichtseinheit ermöglicht einen schrittweisen Einstieg in die boolesche Aussagenlogik. Ausgangspunkt sind konkrete Verkehrssituationen, die zunächst mit physischen Materialien oder im [Einstieg anhand von Darstellungen](baustein1-lehrpersonenzentriert.md) anhand statischer Bilder untersucht und anschliessend in der digitalen Lernumgebung LogicTraffic dargestellt werden.
 
 Im weiteren Verlauf wechseln die Lernenden von der konkreten Verkehrssituation zu Wahrheitstabellen und aussagenlogischen Formeln. Dadurch werden unterschiedliche Darstellungen miteinander verbunden und die Abstraktion schrittweise aufgebaut.
 
@@ -65,13 +65,13 @@ Die Unterrichtseinheit folgt einer Progression vom konkreten Handeln zur formale
             für Schülerinnen und Schüler, die vertieft oder selbstständiger arbeiten können.
 
 
-### Baustein 1 - Enaktiver Einstieg
+### Baustein 1a – Enaktiver Einstieg
 
 Die Lernenden untersuchen mit physischen Materialien, welche Ampelbelegungen sicher oder unsicher sind. Sie begründen ihre Entscheidungen und formulieren erste Regeln in Alltagssprache.
 
 Zentrale Darstellung: konkret und handelnd.
 
-[:link: zu Baustein 1](baustein1-enaktiv.md)
+[:link: zu Baustein 1a](baustein1-enaktiv.md) · [Alternative Baustein 1b: Kreuzungen anhand von Darstellungen untersuchen](baustein1-lehrpersonenzentriert.md) · [Gemeinsamer Logikblock](baustein1-logikblock.md)
 
 ### Baustein 2 - Lernumgebung LogicTraffic
 
@@ -101,7 +101,7 @@ Zentrale Darstellung: formal und symbolisch
 
 | Baustein | Schwerpunkt | :material-timer-sand: Richtzeit | :computer: Computer |
 | ------- | --------------------------------------------- | ---------: | :------: |
-| 1 | Sichere Ampelbelegungen handelnd untersuchen | 60–90 Min. | Nein |
+| 1a / 1b | Sichere Ampelbelegungen handelnd oder anhand von Darstellungen untersuchen | 1a: 65–85 Min.; 1b: Summe 70–85 Min. (abweichende Gesamtangaben im Kommentar); Logikblock zusätzlich 10–15 Min. | Nur Präsentation bei 1b |
 | 2 | LogicTraffic kennenlernen und bedienen | ca. 45–55 Min.; ohne Baustein 1 zusätzlich 5–10 Min. | Ja |
 | 3 | Ampelbelegungen in Wahrheitstabellen darstellen | ca. 50–60 Min. | Ja |
 | 4 | Sicherheitsregeln formal beschreiben | Basisteil ca. 60 Min.; Vertiefung zusätzlich 45 Min.; Transfer zusätzlich 20–30 Min. | Ja |

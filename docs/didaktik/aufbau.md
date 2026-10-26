@@ -38,29 +38,31 @@ Die Reihenfolge führt schrittweise zu abstrakteren Darstellungen. Der [Darstell
 
 <section class="lt-unit-stage" markdown="1">
 
-### 01 · Enaktiver Einstieg {#baustein-1}
+### 01 · Enaktiver Einstieg (Baustein 1a) {#baustein-1}
 
-<p class="lt-unit-meta">60–90 Minuten · Gruppenarbeit · ohne Computer</p>
+<p class="lt-unit-meta">65–85 Minuten · Partnerarbeit · ohne Computer</p>
 
 **Leitfrage: Welche Fahrwege vertragen sich?**
 
-Mit Kreuzungsfeldern, Fahrzeugen und Ampelplättchen spielen die Lernenden Verkehrssituationen nach. Sie verändern Fahrtrichtungen und Ampelbelegungen, erkennen Konflikte und begründen, welche Kombinationen sicher sind. Die Arbeitsblätter **1a–1c** führen vom Legen einer Kreuzung über das Prüfen sicherer Ampelbelegungen zum Sammeln aller Möglichkeiten.
+Mit Kreuzungsfeldern, Fahrzeugen und Ampelplättchen spielen die Lernenden Verkehrssituationen nach. Sie verfolgen die vorgegebenen Fahrwege, prüfen Ampelbelegungen, erkennen Konflikte und begründen, welche Ampelbelegungen sicher sind. Die Arbeitsblätter **1a–1c** führen vom Legen einer Kreuzung über das Prüfen sicherer Ampelbelegungen zum Sammeln aller Möglichkeiten.
 
 **Ergebnis:** erste sprachliche Sicherheitsregeln und eine geordnete Sammlung von Ampelbelegungen. Fachliches Vorwissen ist für diesen Einstieg nicht erforderlich.
 
 **Brücke zum nächsten Baustein:** Wie lassen sich unsere gelegten Situationen am Computer darstellen und überprüfen?
 
-[:material-arrow-right: Ablauf und Material zu Baustein 1](../unterricht/baustein1-enaktiv.md) · [Dossier 1a–1c (PDF)](https://github.com/salomegolden/logictraffic/releases/download/ab1_v3/Baustein_1_Dossier.pdf)
+[:material-arrow-right: Ablauf und Material zu Baustein 1](../unterricht/baustein1-enaktiv.md) · [Dossier 1a–1c (PDF)](../downloads/baustein1/v1/baustein1-enaktiv-dossier.pdf)
 
-!!! tip "Alternative: lehrpersonenzentrierter Einstieg"
+!!! tip "Alternative: Baustein 1b – Kreuzungen anhand von Darstellungen untersuchen"
 
     Die Lehrperson führt anhand projizierter Kreuzungsbilder durch das Sicherheitsproblem. Gelenkte Gespräche und kurze schriftliche Aufgaben bereiten die anschliessende Arbeit mit LogicTraffic vor.
 
-    [:material-presentation-play: Präsentation in Canva öffnen](https://canva.link/d2xykgge0szri20){ .md-button target="_blank" rel="noopener noreferrer" }
+    [:material-presentation-play: Präsentation (PDF)](../downloads/baustein1/v1/baustein1-darstellungen-praesentation.pdf){ .md-button target="_blank" rel="noopener noreferrer" }
 
-    [Zum Ablauf des lehrpersonenzentrierten Bausteins 1](../unterricht/baustein1-lehrpersonenzentriert.md)
+    [Zum Ablauf von Baustein 1b – Kreuzungen anhand von Darstellungen untersuchen](../unterricht/baustein1-lehrpersonenzentriert.md)
 
-    [:material-file-download-outline: Dossier zum lehrpersonenzentrierten Einstieg (PDF)](https://github.com/salomegolden/logictraffic/releases/download/ab1_v3/Baustein_1_lehrpersonenzentrierter_Einstieg_Dossier.pdf)
+    [:material-file-download-outline: Dossier für Baustein 1b (PDF)](../downloads/baustein1/v1/baustein1-darstellungen-dossier.pdf)
+
+    Beide Einstiegsvarianten können um den [gemeinsamen Logikblock](../unterricht/baustein1-logikblock.md) mit AB1X ergänzt werden; dafür fallen zusätzlich 10–15 Minuten an.
 
 </section>
 
