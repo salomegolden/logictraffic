@@ -15,12 +15,12 @@ Zusätzlich zu den 3D-gedruckten Teilen werden nur noch die Situationskarten aus
 Für die Herstellung aus Papier die Vorlagen auf Tonpapier drucken, damit das Material stabil ist.
 
 - [:memo: Dossier für Lernende (PDF)](../downloads/baustein1/v1/baustein1-enaktiv-dossier.pdf) – AB1a–AB1c und AB1X
-- [:file: Kommentar für die Lehrperson (PDF)](../downloads/baustein1/v1/baustein1-enaktiv-lehrpersonenkommentar.pdf)
+- [:ledger: Kommentar für die Lehrperson (PDF)](../downloads/baustein1/v1/baustein1-enaktiv-lehrpersonenkommentar.pdf)
 
 ### Baustein 1b – Kreuzungen anhand von Darstellungen untersuchen
 
 - [:memo: Dossier für Lernende (PDF)](../downloads/baustein1/v1/baustein1-darstellungen-dossier.pdf) – AB1a–AB1d und AB1X
-- [:file: Kommentar für die Lehrperson (PDF)](../downloads/baustein1/v1/baustein1-darstellungen-lehrpersonenkommentar.pdf)
+- [:ledger: Kommentar für die Lehrperson (PDF)](../downloads/baustein1/v1/baustein1-darstellungen-lehrpersonenkommentar.pdf)
 - [:film_projector: Präsentation (PDF)](../downloads/baustein1/v1/baustein1-darstellungen-praesentation.pdf)
 
 [Zum Unterrichtsablauf und zur Präsentation](../unterricht/baustein1-lehrpersonenzentriert.md)
