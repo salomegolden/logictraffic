@@ -19,7 +19,7 @@ In der optionalen Vertiefung untersuchen die Lernenden logisch äquivalente Form
     **:busts_in_silhouette: Zielgruppe:** Gymnasiale Klassen der 8.–9. Schulstufe
 
     **:stopwatch: Dauer:**  
-    Basisteil: ca. **60 Minuten**  
+    Basisteil: ca. **70 Minuten**, einschliesslich Einführung und Abschluss<br>
     optionale Vertiefung: zusätzlich ca. **45 Minuten**  
     optionaler Transfer: zusätzlich ca. **20–30 Minuten**
 
@@ -169,15 +169,19 @@ In der optionalen Vertiefung untersuchen die Lernenden logisch äquivalente Form
 
 ## Unterrichtsablauf – Überblick
 
-| Phase | Schwerpunkt | Material | Richtwert |
-| --- | --- | --- | ---: |
-| **1. Von der Tabelle zur Regel** | Skalierungsproblem reaktivieren und Bedarf nach einer kompakten Darstellung erzeugen | **[AB 4a](https://github.com/salomegolden/logictraffic/releases/download/ab4_v2/4a_logische_operatoren.pdf)** | ca. 10 Min. |
-| **2. Von Worten zu Zeichen** | Operatoren kennenlernen, Formeln lesen und erste Regeln formal ausdrücken | **[AB 4b](https://github.com/salomegolden/logictraffic/releases/download/ab4_v2/4b_einfuhrung_formelzeichen.pdf)**, **[MB 4d](https://github.com/salomegolden/logictraffic/releases/download/ab4_v2/4d_uebersicht.pdf)** | ca. 20 Min. |
-| **3. Von Konflikten zur Formel** | Situation 3 modellieren, Teilregeln verbinden und Lösung überprüfen | **[AB 4c](https://github.com/salomegolden/logictraffic/releases/download/ab4_v2/4c_konflikt_formel.pdf)**, **[MB 4d](https://github.com/salomegolden/logictraffic/releases/download/ab4_v2/4d_uebersicht.pdf)** | ca. 30 Min. |
-| **4. Anders gebaut, gleich gemeint** | Äquivalenz, De Morgan sowie DNF und KNF entdecken | **[AB 4e](https://github.com/salomegolden/logictraffic/releases/download/ab4_v2/4e_KNF_DNF.pdf)** | ca. 15 Min. |
-| **5. Von der Wahrheitstabelle zur Formel** | KDNF/KKNF als systematischen Zwischenschritt kennenlernen | **[AB 4f](https://github.com/salomegolden/logictraffic/releases/download/ab4_v2/4f_Von_Wahrheitstabelle_zur_Formel.pdf)** | ca. 15 Min. |
-| **6. Lang, kurz, gleichwertig?** | Verschiedene äquivalente Darstellungen vergleichen und beurteilen | **[AB 4g](https://github.com/salomegolden/logictraffic/releases/download/ab4_v2/4g_lang_kurz_gleichwertig.pdf)** | ca. 15 Min. |
-| **7. Transfer – Situation 10** | Vorgehen auf eine komplexe Kreuzung mit fünf Variablen übertragen | **[AB 4h](https://github.com/salomegolden/logictraffic/releases/download/ab4_v2/4h_transfer.pdf)** | ca. 20–30 Min. |
+| Abschnitt | Inhalt | Richtzeit |
+| --- | --- | --- |
+| Einführung | Material ausgeben und Vorwissen zu Wahrheitstabellen aktivieren | 5 Min. |
+| 1. Von der Tabelle zur Regel | AB 4a; Bedarf nach einer kompakten Sicherheitsregel erkennen | 10 Min. |
+| 2. Von Worten zu Zeichen | AB 4b, MB 4d; Operatoren kennenlernen und Formeln lesen | 20 Min. |
+| 3. Von Konflikten zur Formel | AB 4c, MB 4d; Situation 3 modellieren und Lösung überprüfen | 30 Min. |
+| 4. Anders gebaut, gleich gemeint (optional) | AB 4e; Äquivalenz, De Morgan sowie DNF und KNF entdecken | 15 Min. |
+| 5. Von der Wahrheitstabelle zur Formel (optional) | AB 4f; KDNF und KKNF als systematischen Zwischenschritt kennenlernen | 15 Min. |
+| 6. Lang, kurz, gleichwertig? (optional) | AB 4g; äquivalente Darstellungen vergleichen und beurteilen | 15 Min. |
+| 7. Transfer – Situation 10 (optional) | AB 4h; Vorgehen auf eine Kreuzung mit fünf Variablen übertragen | 20–30 Min. |
+| Abschluss | Material aufräumen und Geräte versorgen | 5 Min. |
+| **Gesamt** | **Basisteil (Einführung, Abschnitte 1–3 und Abschluss)** | **70 Min.** |
+| **Gesamt mit Vertiefung und Transfer** | **Alle Abschnitte** | **135–145 Min.** |
 
 Die **Phasen 1–3 bilden den Basisteil**. Die **Phasen 4–6 sind eine optionale Vertiefung** und können in einer zusätzlichen Lektion durchgeführt werden. **Phase 7 ist ein zusätzlicher Transfer** und kann je nach verfügbarem Zeitgefäss angeschlossen oder später eingesetzt werden.
 
