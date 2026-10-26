@@ -63,6 +63,14 @@ Die Unterrichtsmaterialien folgen einer schrittweisen Progression:
 
 </div>
 
+## Das Projekt hinter den Materialien
+
+Die Unterrichtsmaterialien entwickle ich im Rahmen meiner Masterarbeit im Studiengang **Fachdidaktik Medien und Informatik**. Ich vergleiche den [enaktiven Einstieg](unterricht/baustein1-enaktiv.md) mit dem Einstieg [«Kreuzungen anhand von Darstellungen untersuchen»](unterricht/baustein1-lehrpersonenzentriert.md). Beide Zugänge verlangen aktives Mitdenken und führen zu denselben fachlichen Lernzielen.
+
+Mich interessiert, wie sich die **informatikbezogene Selbstwirksamkeit** entwickelt – also das Zutrauen, informatische Aufgaben aus eigener Kraft bewältigen zu können. Besonders untersuche ich, ob sich die Veränderungen zwischen Mädchen und Jungen unterscheiden. Ob der enaktive Einstieg dieses Zutrauen stärker unterstützt, ist eine offene Forschungsfrage.
+
+[Mehr zum Forschungsprojekt](projekt.md){ .md-button }
+
 ## :material-account-school-outline: Für wen sind die Materialien gedacht?
 
 Die Materialien richten sich an Informatiklehrpersonen gymnasialer Klassen der **8.–9. Schulstufe**. Die [Lernziele und Anforderungen](didaktik/lernziele.md) sind auf einen Einstieg ohne Vorkenntnisse in Aussagenlogik abgestimmt. Für spätere Jahrgänge kann die Einheit ebenfalls als Einführung oder Wiederholung eingesetzt werden.

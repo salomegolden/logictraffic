@@ -32,7 +32,9 @@ theme:
       question: material/puzzle
 
 nav:
-  - Start: index.md
+  - Start:
+      - index.md
+      - Forschungsprojekt: projekt.md
   - Didaktische Hinweise:
       - Überblick: didaktik/index.md
       - Lehrplan und Lernziele: didaktik/lernziele.md
