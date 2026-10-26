@@ -35,7 +35,7 @@ Ausgehend von einzelnen konkreten Situationen entsteht schrittweise das Bedürfn
     - [:memo: 1b – Sichere Ampelbelegungen finden (PDF)](https://github.com/salomegolden/logictraffic/releases/download/ab1_v3/1b_sichere_ampelstellungen_finden.pdf)
     - [:memo: 1c – Alle Möglichkeiten erfassen (PDF)](https://github.com/salomegolden/logictraffic/releases/download/ab1_v3/1c_alle_moglichkeiten_erfassen.pdf)
     - [:material-image-outline: Bild vom enaktiven Material](https://github.com/salomegolden/logictraffic/releases/download/images-v1/enaktivesmaterial.jpeg)
-    - [:file: Baustein 1 – Enaktiver Einstieg: Lehrerkommentar (PDF)](https://github.com/salomegolden/logictraffic/releases/download/lpk_v1/Baustein.1enaktiv.Kommentar.fur.die.Lehrperson.pdf)
+    - [:ledger: Baustein 1 – Enaktiver Einstieg: Lehrerkommentar (PDF)](https://github.com/salomegolden/logictraffic/releases/download/lpk_v1/Baustein.1enaktiv.Kommentar.fur.die.Lehrperson.pdf)
 
     In den PDFs steht das Gleiche wie auf der Webseite – nur als druckbare Version für die Lehrperson.
 
