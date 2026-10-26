@@ -12,7 +12,7 @@ Die vier übergeordneten Lernziele werden in den Bausteinen schrittweise aufgeba
 
 Die fachlichen Erwartungen gelten für beide Varianten von Baustein 1. Beim [enaktiven Einstieg](../unterricht/baustein1-enaktiv.md#lernziele) werden sie handelnd, beim [Einstieg anhand von Darstellungen](../unterricht/baustein1-lehrpersonenzentriert.md#lernziele) anhand statischer Bilder und angeleiteter Aufgaben erarbeitet. Formale Operatoren und die Codierung mit `0` und `1` werden in diesem ersten Baustein noch nicht vorausgesetzt.
 
-Der ergänzende [Logikblock zu Aussagen und historischen Bezugspunkten](../unterricht/baustein1-logikblock.md) bereitet das Verständnis wahrer und falscher Aussagen vor. Die geschichtliche Einordnung dient der Orientierung und ist kein gemeinsames fachliches Prüfziel. Werden beide Einstiege in einer Untersuchung verglichen, wird dieser Hintergrundteil in beiden Gruppen mit demselben Inhalt und Zeitbudget berücksichtigt.
+Der freiwillige [Einstieg in die Logik zu Aussagen und historischen Bezugspunkten](../unterricht/baustein1-logikblock.md) bereitet das Verständnis wahrer und falscher Aussagen vor. Die geschichtliche Einordnung dient der Orientierung und ist kein gemeinsames fachliches Prüfziel. Wird dieser freiwillige Abschnitt bei einem Vergleich der Einstiegsvarianten eingesetzt, erhalten beide Gruppen denselben Inhalt und dasselbe Zeitbudget. Er ist keine Voraussetzung für Baustein 2.
 
 ## Lernziele und Bausteine im Überblick
 

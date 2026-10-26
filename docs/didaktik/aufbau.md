@@ -1,6 +1,6 @@
 # Aufbau der Unterrichtseinheit
 
-Die Unterrichtseinheit führt von der Untersuchung vorgegebener Fahrwege über digitale und tabellarische Darstellungen zu aussagenlogischen Formeln. Eine Klasse wählt **einen von zwei aktiven Einstiegen** mit denselben fachlichen Lernzielen. Der gemeinsame Logikblock gehört zu beiden Varianten und wird pro Klasse einmal durchgeführt. Die Bausteine 2–4 bilden den gemeinsamen weiteren Lernweg.
+Die Unterrichtseinheit führt von der Untersuchung vorgegebener Fahrwege über digitale und tabellarische Darstellungen zu aussagenlogischen Formeln. Eine Klasse wählt **einen von zwei aktiven Einstiegen** mit denselben fachlichen Lernzielen. Der gemeinsame Abschnitt [«Einstieg in die Logik»](../unterricht/baustein1-logikblock.md) ist eine freiwillige Ergänzung für beide Varianten ausserhalb der regulären Zeitplanung. Er ist keine Voraussetzung für Baustein 2. Die Bausteine 2–4 bilden den gemeinsamen weiteren Lernweg.
 
 ## Der Lernweg auf einen Blick
 
@@ -8,12 +8,11 @@ Die Unterrichtseinheit führt von der Untersuchung vorgegebener Fahrwege über d
 | --------- | ------------------------- | ------------------------ |
 | **Alternative A:** [Baustein 1a – Enaktiver Einstieg](../unterricht/baustein1-enaktiv.md) | Sie fahren Fahrwege mit Fahrzeugen nach, untersuchen Konfliktpaare und prüfen Ampelbelegungen. Für drei Ampeln ordnen und bewerten sie alle acht Belegungen. | AB1a–AB1c im [Dossier](../downloads/baustein1/v1/baustein1-enaktiv-dossier.pdf); Materialset pro Lernpaar. **65–85 Min.** |
 | **Alternative B:** [Baustein 1b – Kreuzungen anhand von Darstellungen untersuchen](../unterricht/baustein1-lehrpersonenzentriert.md) | Sie verfolgen Fahrwege in Kreuzungsbildern, bestimmen Konfliktpaare und beurteilen Ampelbelegungen. Sie erstellen eine vollständige Tabelle und formulieren eine sprachliche Sicherheitsregel. | AB1a–AB1d im [Dossier](../downloads/baustein1/v1/baustein1-darstellungen-dossier.pdf), Präsentation. **70–85 Min.**, aus den Einzelzeiten berechnet. |
-| [Gemeinsamer Logikblock](../unterricht/baustein1-logikblock.md) **zu beiden Einstiegen** | Sie unterscheiden Aussagen von Fragen und Aufforderungen und begründen, weshalb auch ein falscher Satz eine Aussage sein kann. | AB1X im jeweiligen Dossier: S. 12 bei 1a, S. 7 bei 1b; Präsentation «Erweiterung Logik». **Einmal pro Klasse, zusätzlich 10–15 Min.** |
 | [Baustein 2 – LogicTraffic kennenlernen](../unterricht/baustein2-logictraffic.md) | Sie verändern Ampelbelegungen in LogicTraffic und ordnen Kreuzungsbild, Variablen, `0`/`1` und Tabellenzeilen einander zu. Sie unterscheiden Ampelwerte von der Sicherheitsbewertung. | AB2a zur Erkundung, danach MB2b als Nachschlagehilfe; AB2c und Tafelbild 2e zur Sicherung. **55–65 Min.** |
 | [Baustein 3 – Wahrheitstabellen](../unterricht/baustein3-wahrheitstabellen.md) | Sie erstellen Tabellen für zwei und drei Variablen, erklären ihre Vollständigkeit und untersuchen fehlende, doppelte oder falsch bewertete Zeilen. | AB3a–AB3c; Tabellen zunächst auf Papier, danach mit LogicTraffic prüfen. **65–75 Min.** |
 | [Baustein 4 – Aussagenlogische Formeln](../unterricht/baustein4-boolesche-algebra.md) | Sie formulieren Konfliktregeln in Worten, übersetzen sie in Teilformeln und verbinden diese zu einer Gesamtformel. Diese prüfen sie anhand aller Ampelbelegungen. | Basisteil: AB4a–AB4c und MB4d. **70 Min.** Vertiefung und Transfer werden separat gewählt. |
 
-**Einordnung des Logikblocks:** Die beiden Kommentare ordnen ihn auf S. 9 dem **gemeinsamen weiteren Unterricht** zu. Seine genauere Position innerhalb dieses Unterrichts nach dem gewählten Einstieg ist nicht festgelegt. Für beide Varianten sind derselbe Zeitpunkt und dieselbe Bearbeitungszeit vorgesehen. Der Logikblock gehört zu beiden Einstiegen und ist kein fünfter Baustein.
+**Optional: [Einstieg in die Logik](../unterricht/baustein1-logikblock.md).** Mit AB1X unterscheiden die Lernenden Aussagen von Fragen und Aufforderungen. Der Abschnitt kann zu beiden Varianten ergänzt werden und ist weder eine dritte Einstiegsvariante noch ein verpflichtender nächster Schritt. Bei seinem Einsatz fallen einmal **10–15 Minuten zusätzlich** an. AB1X steht im Dossier zu 1a auf S. 12 und im Dossier zu 1b auf S. 7; hinzu kommt die Präsentation «Erweiterung Logik». Die Kommentare ordnen den Abschnitt dem gemeinsamen weiteren Unterricht nach dem gewählten Einstieg zu; die genauere Position ist nicht festgelegt. Wird er in beiden Varianten eingesetzt, sind derselbe Zeitpunkt und dieselbe Bearbeitungszeit vorgesehen.
 
 [Unterricht vorbereiten](../unterricht/vorbereitung.md) · [Lernziele und Anforderungen](lernziele.md) · [Alle Unterrichtsmaterialien](../anhang/downloads.md)
 
@@ -47,14 +46,14 @@ Der Basisteil endet mit dem Entwickeln und Überprüfen einfacher Sicherheitsfor
 
 Für die gesamte Reihe bis zum Ende des Basisteils von Baustein 4 ergeben sich aus den aktuellen Modulseiten:
 
-- **Mit Einstieg 1a:** 65–85 + 10–15 + 55–65 + 65–75 + 70 = **265–310 Minuten**.
-- **Mit Einstieg 1b:** 70–85 + 10–15 + 55–65 + 65–75 + 70 = **270–310 Minuten**.
+- **Mit Einstieg 1a:** 65–85 + 55–65 + 65–75 + 70 = **255–295 Minuten**.
+- **Mit Einstieg 1b:** 70–85 + 55–65 + 65–75 + 70 = **260–295 Minuten**.
 
-Jede Summe enthält **eine Einstiegsvariante, den gemeinsamen Logikblock einmal sowie die Bausteine 2–4 mit Basisteil**. Einführung und Abschluss sind entsprechend den Modulseiten enthalten. Materialherstellung, optionale Erweiterungen, Vertiefung und Transfer kommen gegebenenfalls hinzu.
+Jede reguläre Summe enthält **eine Einstiegsvariante sowie die Bausteine 2–4 mit Basisteil**. Der freiwillige Einstieg in die Logik ist nicht enthalten; bei seinem Einsatz werden separat 10–15 Minuten ergänzt. Einführung und Abschluss sind entsprechend den Modulseiten enthalten. Materialherstellung, optionale Erweiterungen, Vertiefung und Transfer kommen gegebenenfalls hinzu.
 
 Beim Darstellungseinstieg nennt der Kommentar unterschiedliche Gesamtzeiten. Die hier verwendeten 70–85 Minuten sind die Summe seiner Einzelzeiten; die Abweichungen sind unter [Zeitplanung zu Baustein 1b](../unterricht/baustein1-lehrpersonenzentriert.md#zeitplanung) dokumentiert. Für Baustein 3 ist die vollständige Durchführung mit AB3c eingerechnet; bei einer Kürzung verändert sich die Gesamtdauer.
 
-**Geräte:** Für Einstieg 1a benötigen die Lernenden keinen Computer. Einstieg 1b und der Logikblock benötigen einen Computer mit Beamer oder Präsentationsbildschirm für die Lehrperson. Für **Bausteine 2–4 ist ein Computer oder Tablet mit LogicTraffic pro Zweiergruppe** vorgesehen. In Baustein 3 werden die Tabellen zunächst möglichst auf Papier bearbeitet und anschliessend digital kontrolliert.
+**Geräte:** Für Einstieg 1a benötigen die Lernenden keinen Computer. Einstieg 1b und, bei seinem Einsatz, der optionale Logikteil benötigen einen Computer mit Beamer oder Präsentationsbildschirm für die Lehrperson. Für **Bausteine 2–4 ist ein Computer oder Tablet mit LogicTraffic pro Zweiergruppe** vorgesehen. In Baustein 3 werden die Tabellen zunächst möglichst auf Papier bearbeitet und anschliessend digital kontrolliert.
 
 ## Lernfortschritte sichtbar machen
 

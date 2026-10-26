@@ -10,19 +10,19 @@ Im weiteren Verlauf wechseln die Lernenden von der konkreten Verkehrssituation z
 
     **:jigsaw: Umfang:** vier thematische Unterrichtsbausteine  
 
-    **:stopwatch: Dauer:** ca. 215–265 Minuten (5–6 Lektionen à 45 Minuten); mit optionaler Vertiefung und Transfer ca. 280–340 Minuten (7–8 Lektionen)
+    **:stopwatch: Reguläre Dauer:** 255–295 Minuten mit Einstieg 1a oder 260–295 Minuten mit Einstieg 1b, jeweils bis zum Basisteil von Baustein 4. Der freiwillige Logikteil benötigt bei Bedarf separat 10–15 Minuten; Vertiefung und Transfer sind ebenfalls optional.
 
     **:brain: Vorwissen:** keine Vorkenntnisse in Aussagenlogik erforderlich  
     
     **:busts_in_silhouette: Sozialformen:** Einzel-, Partner- und Gruppenarbeit  
 
-    **:computer: Computer:** ab Baustein 2 erforderlich  
+    **:computer: Computer:** Lernendengeräte ab Baustein 2; für Einstieg 1b und den optionalen Logikteil ein Präsentationsgerät der Lehrperson
 
     **:globe_with_meridians: Lernumgebung:** LogicTraffic
 
 ## Aufbau der Unterrichtseinheit
 
-Die Unterrichtseinheit folgt einer Progression vom konkreten Handeln zur formalen Darstellung:
+Die Unterrichtseinheit führt vom gewählten Einstieg mit physischem Material oder Kreuzungsdarstellungen zu digitalen Darstellungen, Wahrheitstabellen und Formeln:
 
 ??? abstract "Informationen zur Darstellung auf der Webseite"
 
@@ -65,13 +65,13 @@ Die Unterrichtseinheit folgt einer Progression vom konkreten Handeln zur formale
             für Schülerinnen und Schüler, die vertieft oder selbstständiger arbeiten können.
 
 
-### Baustein 1a – Enaktiver Einstieg
+### Baustein 1 – Einstieg
 
-Die Lernenden untersuchen mit physischen Materialien, welche Ampelbelegungen sicher oder unsicher sind. Sie begründen ihre Entscheidungen und formulieren erste Regeln in Alltagssprache.
+Die Lehrperson wählt einen der beiden aktiven Einstiege: Verkehrssituationen mit physischem Material untersuchen oder anhand von Kreuzungsdarstellungen bearbeiten. Beide Varianten führen zu denselben fachlichen Lernzielen. Der gemeinsame Einstieg in die Logik ist eine freiwillige Ergänzung.
 
-Zentrale Darstellung: konkret und handelnd.
+Zentrale Darstellung: physisches Material oder Kreuzungsdarstellungen, je nach gewählter Variante.
 
-[:link: zu Baustein 1a](baustein1-enaktiv.md) · [Alternative Baustein 1b: Kreuzungen anhand von Darstellungen untersuchen](baustein1-lehrpersonenzentriert.md) · [Gemeinsamer Logikblock](baustein1-logikblock.md)
+[:link: Zur Übersicht Baustein 1 – Einstieg](baustein1/index.md) · [1a – Enaktiver Einstieg](baustein1-enaktiv.md) · [1b – Kreuzungen anhand von Darstellungen untersuchen](baustein1-lehrpersonenzentriert.md) · [Einstieg in die Logik (optional)](baustein1-logikblock.md)
 
 ### Baustein 2 - Lernumgebung LogicTraffic
 
@@ -101,10 +101,10 @@ Zentrale Darstellung: formal und symbolisch
 
 | Baustein | Schwerpunkt | :material-timer-sand: Richtzeit | :computer: Computer |
 | ------- | --------------------------------------------- | ---------: | :------: |
-| 1a / 1b | Sichere Ampelbelegungen handelnd oder anhand von Darstellungen untersuchen | 1a: 65–85 Min.; 1b: Summe 70–85 Min. (abweichende Gesamtangaben im Kommentar); Logikblock zusätzlich 10–15 Min. | Nur Präsentation bei 1b |
-| 2 | LogicTraffic kennenlernen und bedienen | ca. 45–55 Min.; ohne Baustein 1 zusätzlich 5–10 Min. | Ja |
-| 3 | Ampelbelegungen in Wahrheitstabellen darstellen | ca. 50–60 Min. | Ja |
-| 4 | Sicherheitsregeln formal beschreiben | Basisteil ca. 60 Min.; Vertiefung zusätzlich 45 Min.; Transfer zusätzlich 20–30 Min. | Ja |
+| 1a / 1b | Sichere Ampelbelegungen handelnd oder anhand von Darstellungen untersuchen | 1a: 65–85 Min.; 1b: Summe 70–85 Min. (abweichende Gesamtangaben im Kommentar); Logikteil optional, zusätzlich 10–15 Min. | Nur Präsentation bei 1b |
+| 2 | LogicTraffic kennenlernen und bedienen | ca. 55–65 Min. | Ja |
+| 3 | Ampelbelegungen in Wahrheitstabellen darstellen | ca. 65–75 Min. | Ja |
+| 4 | Sicherheitsregeln formal beschreiben | Basisteil ca. 70 Min.; Vertiefung zusätzlich 45 Min.; Transfer zusätzlich 20–30 Min. | Ja |
 
 !!! info "Flexibler Einsatz"
 

@@ -25,12 +25,12 @@ Für die Herstellung aus Papier die Vorlagen auf Tonpapier drucken, damit das Ma
 
 [Zum Unterrichtsablauf und zur Präsentation](../unterricht/baustein1-lehrpersonenzentriert.md)
 
-### Gemeinsamer Logikblock
+### Einstieg in die Logik (optional)
 
 - [:film_projector: Präsentation «Erweiterung Logik» (PDF)](../downloads/baustein1/v1/baustein1-gemeinsam-logik-praesentation.pdf) – PDF-S. 1–5
 - AB1X, Aufgabe 1: [Dossier Baustein 1a, S. 12 (PDF)](../downloads/baustein1/v1/baustein1-enaktiv-dossier.pdf#page=12) oder [Dossier Baustein 1b, S. 7 (PDF)](../downloads/baustein1/v1/baustein1-darstellungen-dossier.pdf#page=7)
 
-[Zum gemeinsamen Logikblock](../unterricht/baustein1-logikblock.md)
+[Zum optionalen Einstieg in die Logik](../unterricht/baustein1-logikblock.md)
 
 ## Downloads B2
 

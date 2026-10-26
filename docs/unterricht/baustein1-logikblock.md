@@ -1,6 +1,8 @@
-# Gemeinsamer Logikblock
+# Einstieg in die Logik (optional) {#gemeinsamer-logikblock}
 
-Dieser ergänzende Block gehört zu beiden Einstiegsvarianten: [Baustein 1a – Enaktiver Einstieg](baustein1-enaktiv.md) und [Baustein 1b – Kreuzungen anhand von Darstellungen untersuchen](baustein1-lehrpersonenzentriert.md). Wird er eingesetzt, erhalten beide Gruppen dieselben Inhalte und dieselbe Bearbeitungszeit an derselben Stelle im gemeinsamen weiteren Unterricht nach dem jeweiligen Einstieg.
+Dieser **freiwillige Abschnitt** kann beide Einstiegsvarianten ergänzen: [Baustein 1a – Enaktiver Einstieg](baustein1-enaktiv.md) und [Baustein 1b – Kreuzungen anhand von Darstellungen untersuchen](baustein1-lehrpersonenzentriert.md). Wird er eingesetzt, erhalten beide Gruppen dieselben Inhalte und dieselbe Bearbeitungszeit an derselben Stelle im gemeinsamen weiteren Unterricht nach dem jeweiligen Einstieg.
+
+Er gehört **nicht zur regulären Zeitplanung** der Einstiegsvarianten und ist **keine Voraussetzung für Baustein 2**. Nach dem gewählten Einstieg kann direkt mit [LogicTraffic](baustein2-logictraffic.md) weitergearbeitet werden.
 
 ## Lernziele
 
@@ -20,20 +22,20 @@ Dieser ergänzende Block gehört zu beiden Einstiegsvarianten: [Baustein 1a – 
 
 ## Organisation und Zeitbedarf
 
-??? info "Zusätzlicher gemeinsamer Unterricht"
+??? info "Freiwillige Ergänzung ausserhalb der regulären Zeitplanung"
 
     **Zeitpunkt:** Im gemeinsamen weiteren Unterricht nach dem jeweiligen Einstieg, bei beiden Varianten an derselben Stelle. Eine genauere Einordnung innerhalb dieses gemeinsamen Unterrichts ist im Kommentar nicht festgelegt.
 
     **Sozialformen:** Einführung und Gespräch im Plenum, Einzelarbeit mit AB1X, gemeinsame Auswertung.
 
-    **Richtzeit:** **10–15 Minuten zusätzlich**. Diese Zeit ist weder in den 65–85 Minuten des enaktiven Einstiegs noch in der aus den Einzelzeiten berechneten Dauer von 70–85 Minuten des Darstellungseinstiegs enthalten.
+    **Richtzeit bei Einsatz:** **10–15 Minuten zusätzlich**. Diese Zeit ist weder in den 65–85 Minuten des enaktiven Einstiegs noch in der aus den Einzelzeiten berechneten Dauer von 70–85 Minuten des Darstellungseinstiegs enthalten.
 
 | Abschnitt | Inhalt | Richtzeit |
 | --- | --- | --- |
 | Einführung und Gespräch | Nutzen der Logik, historische Orientierung, Aussage und Gegenteil, Aussagenbegriff; Präsentation S. 1–3 | 5–7 Min. |
 | Einzelarbeit | AB1X, Aufgabe 1, im jeweiligen Dossier; Präsentation S. 4 | 3–5 Min. |
 | Gemeinsame Auswertung | Einordnungen und Begründungsfrage besprechen; Ausblick mit Präsentation S. 5 | 2–3 Min. |
-| **Gesamt zusätzlich** | | **10–15 Min.** |
+| **Gesamt bei Einsatz (zusätzlich)** | | **10–15 Min.** |
 
 ## Durchführung
 
@@ -71,5 +73,7 @@ Dieser ergänzende Block gehört zu beiden Einstiegsvarianten: [Baustein 1a – 
     Beide Kommentare nennen auf **S. 9** die Folien **L1–L6**. Die nachgereichte Präsentation «Erweiterung Logik» enthält tatsächlich **fünf PDF-Seiten** ohne diese Foliennummern. Die Verweise dieser Seite beziehen sich auf diese vorhandenen Seiten; eine sechste Logikfolie wird nicht vorausgesetzt.
 
     Der Verweis auf **AB1X auf Dossier S. 7** gilt für Baustein 1b. Im aktuellen enaktiven Dossier steht AB1X auf **S. 12**. Die Arbeitsblattnummer **AB1X** bleibt in beiden Varianten erhalten. Es werden keine Einzeldownloads aus den Gesamtdossiers erzeugt.
+
+[Zur Übersicht: Baustein 1 – Einstieg](baustein1/index.md)
 
 [Zurück zu Baustein 1a – Enaktiver Einstieg](baustein1-enaktiv.md) · [Zurück zu Baustein 1b – Kreuzungen anhand von Darstellungen untersuchen](baustein1-lehrpersonenzentriert.md)

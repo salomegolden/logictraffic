@@ -14,7 +14,7 @@ Die Einträge werden zunächst mit **Rot** und **Grün** bezeichnet. Die systema
 
     **:busts_in_silhouette: Zielgruppe:** Gymnasiale Klassen der 8.–9. Schulstufe ohne Vorkenntnisse in Aussagenlogik
 
-    **:stopwatch: Dauer:** Die Einzelzeiten des Kommentars ergeben **70–85 Minuten**, einschliesslich Einführung und Abschluss. Der Kommentar enthält abweichende Gesamtangaben; siehe [Zeitplanung](#zeitplanung). Der gemeinsame Logikblock benötigt zusätzlich 10–15 Minuten.
+    **:stopwatch: Dauer:** Die Einzelzeiten des Kommentars ergeben **70–85 Minuten**, einschliesslich Einführung und Abschluss. Der Kommentar enthält abweichende Gesamtangaben; siehe [Zeitplanung](#zeitplanung). Der optionale Abschnitt «Einstieg in die Logik» benötigt bei Bedarf zusätzlich 10–15 Minuten.
 
     **:computer: Computer:** Nur für die Präsentation durch die Lehrperson; keine Bedienung von LogicTraffic durch die Lernenden
 
@@ -97,11 +97,11 @@ Alle Verweise auf die Präsentation nennen die **PDF-Seite einschliesslich Titel
 | Abschluss | Materialien versorgen | 2 Min. |
 | **Gesamt** | **Summe der Einzelzeiten; abweichende Angaben im Kommentar siehe unten** | **70–85 Min.** |
 
-Zusätzlich im gemeinsamen weiteren Unterricht:
+Optionale Ergänzung ausserhalb der regulären Zeitplanung:
 
 | Abschnitt | Inhalt | Richtzeit |
 | --- | --- | --- |
-| [Gemeinsamer Logikblock](baustein1-logikblock.md) | AB1X, Aufgabe 1, Dossier S. 7; Präsentation «Erweiterung Logik», S. 1–5 | zusätzlich 10–15 Min. |
+| [Einstieg in die Logik (optional)](baustein1-logikblock.md) | AB1X, Aufgabe 1, Dossier S. 7; Präsentation «Erweiterung Logik», S. 1–5 | zusätzlich 10–15 Min. |
 
 Der Logikblock und die optionalen Erweiterungen der Differenzierung sind nicht in der Gesamtzeit enthalten.
 
@@ -306,11 +306,11 @@ Der Logikblock und die optionalen Erweiterungen der Differenzierung sind nicht i
 
     Die Lernenden versorgen die Materialien.
 
-## Gemeinsamer Logikblock
+## Optional: Einstieg in die Logik {#gemeinsamer-logikblock}
 
-!!! info "Gemeinsamer Logikblock – zusätzlich"
+!!! info "Einstieg in die Logik – freiwillige Ergänzung"
 
-    Wird der Block eingesetzt, findet er nach dem jeweiligen Einstieg im gemeinsamen weiteren Unterricht statt; beide Varianten erhalten denselben Inhalt und dieselbe Bearbeitungszeit. Er benötigt **10–15 Minuten zusätzlich** und ist nicht in der Gesamtzeit des Einstiegs enthalten. Benötigt werden **AB1X im jeweiligen Dossier** und die **Präsentation «Erweiterung Logik»**. [Zum Ablauf, zu den Seitenangaben und Materialien](baustein1-logikblock.md).
+    Der gemeinsame Abschnitt ist **freiwillig und keine Voraussetzung für Baustein 2**. Bei seinem Einsatz ergänzt er den gewählten Einstieg im gemeinsamen weiteren Unterricht; beide Varianten erhalten denselben Inhalt und dieselbe Bearbeitungszeit. Dafür fallen **10–15 Minuten zusätzlich** an, ausserhalb der regulären Gesamtzeit. Benötigt werden **AB1X im jeweiligen Dossier** und die **Präsentation «Erweiterung Logik»**. [Zum optionalen Einstieg in die Logik](baustein1-logikblock.md).
 
 ## Lösungen und Ergebnissicherung
 
@@ -354,3 +354,5 @@ Der Logikblock und die optionalen Erweiterungen der Differenzierung sind nicht i
 ## Übergang zum gemeinsamen Unterricht
 
 Nach dem jeweiligen Einstieg bearbeiten beide Gruppen [Baustein 2 – LogicTraffic](baustein2-logictraffic.md) und die weiteren gemeinsamen Bausteine. Die Codierung mit `0` und `1`, formale Wahrheitstabellen und Operatoren werden dort eingeführt.
+
+[Zur Übersicht: Baustein 1 – Einstieg](baustein1/index.md)
