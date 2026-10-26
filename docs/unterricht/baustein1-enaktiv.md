@@ -25,7 +25,7 @@ Ausgehend von einzelnen konkreten Situationen entsteht schrittweise das Bedürfn
 ??? example "Materialhinweise und Downloads"
 
     - [:memo: Dossier für Lernende (PDF) – AB1a–AB1c und AB1X](../downloads/baustein1/v1/baustein1-enaktiv-dossier.pdf)
-    - [:file: Kommentar für die Lehrperson (PDF)](../downloads/baustein1/v1/baustein1-enaktiv-lehrpersonenkommentar.pdf)
+    - [:ledger: Kommentar für die Lehrperson (PDF)](../downloads/baustein1/v1/baustein1-enaktiv-lehrpersonenkommentar.pdf)
     - [:package: Definitive Druckplatten für Kleinteile (3MF)](../downloads/baustein1/v1/baustein1-enaktiv-druckplatten-kleinteile.3mf)
     - [:package: 3D-Druckdatei für Behälter (Kistchen) für Kleinteile und Situationskarten (3MF)](https://github.com/salomegolden/logictraffic/releases/download/3d_v1/LT_Behalter.3mf)
     - [:package: M1.1 – Autos, Ampeln und Pfeile (PDF)](https://github.com/salomegolden/logictraffic/releases/download/material-v2/M1_1_Autos_Ampeln_Pfeile.pdf)

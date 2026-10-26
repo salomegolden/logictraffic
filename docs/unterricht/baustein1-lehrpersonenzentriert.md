@@ -25,7 +25,7 @@ Die Einträge werden zunächst mit **Rot** und **Grün** bezeichnet. Die systema
 ??? example "Materialhinweise und Downloads"
 
     - [:memo: Dossier für Lernende (PDF)](../downloads/baustein1/v1/baustein1-darstellungen-dossier.pdf)
-    - [:file: Kommentar für die Lehrperson (PDF)](../downloads/baustein1/v1/baustein1-darstellungen-lehrpersonenkommentar.pdf)
+    - [:ledger: Kommentar für die Lehrperson (PDF)](../downloads/baustein1/v1/baustein1-darstellungen-lehrpersonenkommentar.pdf)
     - [:film_projector: Präsentation (PDF)](../downloads/baustein1/v1/baustein1-darstellungen-praesentation.pdf)
 
     Das Dossier enthält **AB1a auf S. 2**, **AB1b auf S. 3**, **AB1c auf S. 4–5**, **AB1d auf S. 6** und **AB1X auf S. 7**. Die Präsentation für AB1X ist auf der [gemeinsamen Unterseite](baustein1-logikblock.md#material) verlinkt.
