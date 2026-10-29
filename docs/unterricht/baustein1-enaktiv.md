@@ -4,7 +4,7 @@
 
     [Kommentar für die Lehrperson (PDF)](../downloads/baustein1/v1/baustein1-enaktiv-lehrpersonenkommentar.pdf)
 
-    Der Kommentar beschreibt den Unterricht; diese Seite ergänzt die geprüften Seitenverweise und den Zugang zum gemeinsamen Logikblock.
+    Der Kommentar und diese Onlinefassung beschreiben denselben Unterricht. Es genügt, eine der beiden Fassungen zu lesen. Diese Seite bietet zusätzlich direkte Materiallinks, die Seitenverweise im Dossier und den Zugang zum gemeinsamen Logikblock.
 
 In diesem Baustein setzen sich die Lernenden zunächst handelnd mit einer Verkehrssituation auseinander. Sie legen Fahrzeuge und Fahrtrichtungen auf einem Kreuzungsfeld aus, steuern die einzelnen Spuren mit Ampeln und untersuchen, welche Ampelbelegungen sicher sind.
 
@@ -66,7 +66,8 @@ Ausgehend von einzelnen konkreten Situationen entsteht schrittweise das Bedürfn
     - ein vierarmiges Kreuzungsfeld;
     - fünf Fahrzeuge in unterschiedlichen Farben;
     - Richtungskarten für die vorgesehenen Fahrwege;
-    - wendbare Ampeln für die verwendeten Spuren.
+    - wendbare Ampeln für die verwendeten Spuren;
+    - ausgedruckte und laminierte Situationskarten aus M1.2.
 
     Jedes Lernpaar erhält ein Materialset. Jede Person erhält ein eigenes [Dossier](../downloads/baustein1/v1/baustein1-enaktiv-dossier.pdf) und die benötigten Farbstifte. Die Fahrzeuge und Ampeln werden gemeinsam bewegt; die Ergebnisse hält jede Person im eigenen Dossier fest.
 
@@ -171,6 +172,7 @@ Der Logikblock und die optionalen [Erweiterungen](#differenzierung) sind nicht i
 
     - Materialsets mit wendbaren Ampeln
     - AB1b, Aufgaben 1–5, S. 5–8 im [Dossier](../downloads/baustein1/v1/baustein1-enaktiv-dossier.pdf)
+    - Situationskarten 7 und 3 aus [M1.2 – Situationskarten (PDF)](https://github.com/salomegolden/logictraffic/releases/download/material-v2/M1_2_Situationskarten.pdf)
     - Rote und grüne Farbstifte
 
 ??? info "Organisation"
@@ -183,11 +185,11 @@ Der Logikblock und die optionalen [Erweiterungen](#differenzierung) sind nicht i
 
     Eine **Ampelbelegung** legt für jede Ampel der betrachteten Kreuzung fest, ob sie Rot oder Grün zeigt.
 
-    1. **Aufgabe 1 (S. 5):** Die dargestellte Verkehrssituation nachbauen, jeder verwendeten Spur eine Ampel zuordnen und die Ampelpositionen mit Rechtecken in der Abbildung einzeichnen.
+    1. **Aufgabe 1 (S. 5):** Die Verkehrssituation auf **Situationskarte 7** nachbauen, jeder verwendeten Spur eine Ampel mit dem passenden Richtungspfeil zuordnen und die Ampelpositionen mit Rechtecken in der Abbildung einzeichnen.
     2. **Aufgabe 2 (S. 6):** Eine sichere Ampelbelegung finden und mit roten oder grünen Pfeilen einzeichnen. Festhalten, welche Fahrzeuge fahren dürfen, und die Sicherheit anhand der Fahrwege begründen.
     3. **Aufgabe 3 (S. 7):** Eine **weitere sichere Ampelbelegung** finden, die sich von derjenigen aus Aufgabe 2 unterscheidet. Mit dem Material prüfen, einzeichnen und begründen.
     4. **Aufgabe 4 (S. 7):** Eine unsichere Ampelbelegung einstellen und einzeichnen. Benennen, welche Fahrzeuge zusammenstossen könnten, und anhand der Fahrwege begründen, warum eine Kollision möglich wäre.
-    5. **Aufgabe 5 (S. 8):** Die dort abgebildete neue Verkehrssituation nachbauen. Sichere und unsichere Ampelbelegungen untersuchen und anhand der Fahrwege begründen, ob zwei grüne Ampeln immer gefährlich sind.
+    5. **Aufgabe 5 (S. 8):** Die dort abgebildete Verkehrssituation anhand der **Situationskarte 3** nachbauen. Sichere und unsichere Ampelbelegungen untersuchen und anhand der Fahrwege begründen, ob zwei grüne Ampeln immer gefährlich sind.
 
     Die Prüfung erfolgt gemeinsam; jede Person hält die Ergebnisse im eigenen Dossier fest. In den Aufgaben 2 und 3 sind somit **zwei unterschiedliche sichere Ampelbelegungen** zu dokumentieren.
 
@@ -203,6 +205,7 @@ Der Logikblock und die optionalen [Erweiterungen](#differenzierung) sind nicht i
 
     - Enaktives Material mit wendbaren Ampeln
     - AB1c, Aufgaben 1–4, S. 9–10 im [Dossier](../downloads/baustein1/v1/baustein1-enaktiv-dossier.pdf)
+    - Situationskarte 5 aus [M1.2 – Situationskarten (PDF)](https://github.com/salomegolden/logictraffic/releases/download/material-v2/M1_2_Situationskarten.pdf)
     - Rote und grüne Farbstifte
 
 ??? info "Organisation"
@@ -213,7 +216,7 @@ Der Logikblock und die optionalen [Erweiterungen](#differenzierung) sind nicht i
 
 ??? abstract "Verlaufsplanung"
 
-    Die Lernenden bauen die auf AB1c, S. 9, abgebildete **Situation 05** mit den Ampeln **C, D und E** auf. Diese Fahrwege bleiben für alle Aufgaben auf AB1c unverändert.
+    Die Lernenden bauen die auf AB1c, S. 9, abgebildete **Situation 05 anhand der Situationskarte 5** mit den Ampeln **C, D und E** auf. Diese Fahrwege bleiben für alle Aufgaben auf AB1c unverändert.
 
     1. **Aufgabe 1 (S. 9):** Zunächst nur vermuten, wie viele Ampelbelegungen möglich sind, und die Vermutung begründen. **Die Folgeseite mit der Tabelle bleibt geschlossen.** Anschliessend Ideen sammeln, wie sich alle Belegungen ohne Wiederholungen erfassen lassen.
     2. **Aufgabe 2 (S. 10):** Die eigene Strategie mithilfe der vorgegebenen Tabelle umsetzen. Für jede Ampelbelegung die Richtungspfeile in den Spalten C, D und E in Rot oder Grün einzeichnen.
