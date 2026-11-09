@@ -20,7 +20,7 @@ Für [Baustein 1a – Enaktiver Einstieg](baustein1-enaktiv.md) ein Materialset 
 - [M1.2 – Situationskarten (PDF)](https://github.com/salomegolden/logictraffic/releases/download/material-v2/M1_2_Situationskarten.pdf): für die Gruppen ausdrucken.
 - [M1.3 – Kreuzungen (PDF)](https://github.com/salomegolden/logictraffic/releases/download/material-v2/M1_3_Kreuzungen.pdf): Kreuzungsfelder für die Herstellung aus Papier.
 
-Bei der Herstellung aus Papier die Vorlagen auf Tonpapier drucken, damit das Material stabil ist. Die Arbeitsblätter AB1a–AB1c sind im [Dossier für Baustein 1a](../downloads/baustein1/v1/baustein1-enaktiv-dossier.pdf) enthalten; AB1X steht dort auf S. 12. Die [Materialien für Baustein 1b](baustein1-lehrpersonenzentriert.md) und den [optionalen Einstieg in die Logik](baustein1-logikblock.md) sind ebenfalls unter [Downloads](../anhang/downloads.md) verlinkt.
+Bei der Herstellung aus Papier die Vorlagen auf Tonpapier drucken, damit das Material stabil ist. Für Baustein 1a die Situationen **06, 07 und 04** vorbereiten; **03** wird nur für den optionalen Zusatz in AB1b, Aufgabe 5, benötigt. Jedes Lernpaar erhält ein Materialset, jede Person ein eigenes [Dossier v2](../downloads/baustein1/v2/baustein1-enaktiv-dossier.pdf): AB1a S. 2–3, AB1b S. 4–7 und AB1c S. 8–10. Das Dossier v2 enthält kein AB1X; die bisherigen Unterlagen dafür bleiben als zusätzliches Material verfügbar. Die [Materialien für Baustein 1b](baustein1-lehrpersonenzentriert.md) und den [optionalen Einstieg in die Logik](baustein1-logikblock.md) sind ebenfalls unter [Downloads](../anhang/downloads.md) verlinkt.
 
 ## Zeitplanung
 
@@ -28,10 +28,10 @@ Die Richtzeiten entsprechen den Angaben in den einzelnen Bausteinen:
 
 | Baustein | Unterrichtszeit |
 | --- | --- |
-| [1a – Enaktiver Einstieg](baustein1-enaktiv.md) | 65–85 Min.; Logikteil optional, zusätzlich 10–15 Min. |
+| [1a – Enaktiver Einstieg](baustein1-enaktiv.md) | 70–95 Min. gemäss Verlaufstabelle v2; [abweichende Zeitangaben](baustein1-enaktiv.md#zeitplanung); Logikteil optional, zusätzlich 10–15 Min. |
 | [1b – Kreuzungen anhand von Darstellungen untersuchen](baustein1-lehrpersonenzentriert.md) | Summe der Einzelzeiten 70–85 Min.; abweichende Gesamtangaben siehe Modulseite; Logikteil optional, zusätzlich 10–15 Min. |
 | [2 – Lernumgebung LogicTraffic](baustein2-logictraffic.md) | ca. 55–65 Min. |
 | [3 – Wahrheitstabellen](baustein3-wahrheitstabellen.md) | ca. 65–75 Min. |
 | [4 – Boolesche Algebra](baustein4-boolesche-algebra.md) | Basisteil ca. 70 Min.; optionale Vertiefung zusätzlich 45 Min.; optionaler Transfer zusätzlich 20–30 Min. |
 
-Die reguläre Reihe umfasst eine Einstiegsvariante und die Bausteine 2–4 mit Basisteil: **255–295 Minuten mit Einstieg 1a** oder **260–295 Minuten mit Einstieg 1b**. Der freiwillige Einstieg in die Logik ist nicht eingerechnet; bei seinem Einsatz kommen separat 10–15 Minuten hinzu. Vertiefung und Transfer in Baustein 4 sind ebenfalls optional. Die Berechnung ist unter [Aufbau der Unterrichtseinheit](../didaktik/aufbau.md#zeit-und-gerate-planen) erläutert. Herstellung und Bereitstellung des Materials erfolgen vor dem Unterricht.
+Die reguläre Reihe umfasst eine Einstiegsvariante und die Bausteine 2–4 mit Basisteil: **260–305 Minuten mit Einstieg 1a** oder **260–295 Minuten mit Einstieg 1b**. Der freiwillige Einstieg in die Logik ist nicht eingerechnet; bei seinem Einsatz kommen separat 10–15 Minuten hinzu. Vertiefung und Transfer in Baustein 4 sind ebenfalls optional. Die Berechnung ist unter [Aufbau der Unterrichtseinheit](../didaktik/aufbau.md#zeit-und-gerate-planen) erläutert. Herstellung und Bereitstellung des Materials erfolgen vor dem Unterricht.

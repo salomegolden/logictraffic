@@ -14,8 +14,10 @@ Zusätzlich zu den 3D-gedruckten Teilen werden nur noch die Situationskarten aus
 
 Für die Herstellung aus Papier die Vorlagen auf Tonpapier drucken, damit das Material stabil ist.
 
-- [:memo: Dossier für Lernende (PDF)](../downloads/baustein1/v1/baustein1-enaktiv-dossier.pdf) – AB1a–AB1c und AB1X
-- [:ledger: Kommentar für die Lehrperson (PDF)](../downloads/baustein1/v1/baustein1-enaktiv-lehrpersonenkommentar.pdf)
+- [:memo: Erprobtes Dossier v2 für Lernende (PDF)](../downloads/baustein1/v2/baustein1-enaktiv-dossier.pdf) – zehn Seiten: AB1a S. 2–3, AB1b S. 4–7, AB1c S. 8–10; AB1b, Aufgabe 5, optional
+- [:ledger: Erprobter Kommentar v2 für die Lehrperson (PDF)](../downloads/baustein1/v2/baustein1-enaktiv-lehrpersonenkommentar.pdf) – acht Seiten
+
+Die beiden PDFs entsprechen unverändert den bereitgestellten v2-Fassungen. AB1X ist darin nicht enthalten. [Zum abgestimmten Unterrichtsablauf](../unterricht/baustein1-enaktiv.md).
 
 ### Baustein 1b – Kreuzungen anhand von Darstellungen untersuchen
 
@@ -28,7 +30,7 @@ Für die Herstellung aus Papier die Vorlagen auf Tonpapier drucken, damit das Ma
 ### Einstieg in die Logik (optional)
 
 - [:film_projector: Präsentation «Erweiterung Logik» (PDF)](../downloads/baustein1/v1/baustein1-gemeinsam-logik-praesentation.pdf) – PDF-S. 1–5
-- AB1X, Aufgabe 1: [Dossier Baustein 1a, S. 12 (PDF)](../downloads/baustein1/v1/baustein1-enaktiv-dossier.pdf#page=12) oder [Dossier Baustein 1b, S. 7 (PDF)](../downloads/baustein1/v1/baustein1-darstellungen-dossier.pdf#page=7)
+- AB1X, Aufgabe 1, als zusätzliches Material: [bisheriges Dossier Baustein 1a (v1), S. 12 (PDF)](../downloads/baustein1/v1/baustein1-enaktiv-dossier.pdf#page=12) oder [Dossier Baustein 1b, S. 7 (PDF)](../downloads/baustein1/v1/baustein1-darstellungen-dossier.pdf#page=7)
 
 [Zum optionalen Einstieg in die Logik](../unterricht/baustein1-logikblock.md)
 

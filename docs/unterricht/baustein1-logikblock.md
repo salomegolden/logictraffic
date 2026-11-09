@@ -14,21 +14,21 @@ Er gehört **nicht zur regulären Zeitplanung** der Einstiegsvarianten und ist *
 
 ??? example "Arbeitsblatt und Präsentation"
 
-    - **AB1X «Gemeinsamer Logikblock», Aufgabe 1:** enthalten im [Dossier für Baustein 1a, S. 12 (PDF)](../downloads/baustein1/v1/baustein1-enaktiv-dossier.pdf#page=12) oder im [Dossier für Baustein 1b, S. 7 (PDF)](../downloads/baustein1/v1/baustein1-darstellungen-dossier.pdf#page=7). Beide Fassungen enthalten dieselben Beispiele. Jede Person verwendet ihr eigenes Dossier.
+    - **AB1X «Gemeinsamer Logikblock», Aufgabe 1:** als zusätzliches Material enthalten im [bisherigen Dossier für Baustein 1a (v1), S. 12 (PDF)](../downloads/baustein1/v1/baustein1-enaktiv-dossier.pdf#page=12) oder im [Dossier für Baustein 1b, S. 7 (PDF)](../downloads/baustein1/v1/baustein1-darstellungen-dossier.pdf#page=7). Beide Fassungen enthalten dieselben Beispiele. **Das aktuelle enaktive Dossier v2 enthält kein AB1X.** Für diesen freiwilligen Zusatz wird die entsprechende Seite aus den bisherigen Materialien zusätzlich bereitgestellt; jede Person erhält ein eigenes Exemplar.
     - [Präsentation «Erweiterung Logik» (PDF)](../downloads/baustein1/v1/baustein1-gemeinsam-logik-praesentation.pdf), **PDF-S. 1–5**.
     - Schreibzeug sowie Computer und Beamer für die Lehrperson.
 
-    Der Block ist in beiden [Lehrpersonenkommentaren auf S. 9](../downloads/baustein1/v1/baustein1-darstellungen-lehrpersonenkommentar.pdf#page=9) beschrieben; [Kommentar zu Baustein 1a (PDF)](../downloads/baustein1/v1/baustein1-enaktiv-lehrpersonenkommentar.pdf#page=9).
+    Der Block ist in den bisherigen Kommentaren beschrieben: [Kommentar zu Baustein 1b, S. 9](../downloads/baustein1/v1/baustein1-darstellungen-lehrpersonenkommentar.pdf#page=9) und [bisheriger Kommentar zu Baustein 1a (v1), S. 9 (PDF)](../downloads/baustein1/v1/baustein1-enaktiv-lehrpersonenkommentar.pdf#page=9).
 
 ## Organisation und Zeitbedarf
 
 ??? info "Freiwillige Ergänzung ausserhalb der regulären Zeitplanung"
 
-    **Zeitpunkt:** Im gemeinsamen weiteren Unterricht nach dem jeweiligen Einstieg, bei beiden Varianten an derselben Stelle. Eine genauere Einordnung innerhalb dieses gemeinsamen Unterrichts ist im Kommentar nicht festgelegt.
+    **Zeitpunkt:** Bei Bedarf im gemeinsamen weiteren Unterricht nach dem jeweiligen Einstieg, bei beiden Varianten an derselben Stelle. Diese Einordnung stammt aus den bisherigen Kommentaren; der enaktive Kommentar v2 enthält keinen Logikblock.
 
     **Sozialformen:** Einführung und Gespräch im Plenum, Einzelarbeit mit AB1X, gemeinsame Auswertung.
 
-    **Richtzeit bei Einsatz:** **10–15 Minuten zusätzlich**. Diese Zeit ist weder in den 65–85 Minuten des enaktiven Einstiegs noch in der aus den Einzelzeiten berechneten Dauer von 70–85 Minuten des Darstellungseinstiegs enthalten.
+    **Richtzeit bei Einsatz:** **10–15 Minuten zusätzlich**. Diese Zeit ist weder in den 70–95 Minuten des enaktiven Einstiegs gemäss Verlaufstabelle v2 noch in der aus den Einzelzeiten berechneten Dauer von 70–85 Minuten des Darstellungseinstiegs enthalten.
 
 | Abschnitt | Inhalt | Richtzeit |
 | --- | --- | --- |
@@ -70,9 +70,9 @@ Er gehört **nicht zur regulären Zeitplanung** der Einstiegsvarianten und ist *
 
 ??? info "Abweichende Materialverweise in den Kommentaren"
 
-    Beide Kommentare nennen auf **S. 9** die Folien **L1–L6**. Die nachgereichte Präsentation «Erweiterung Logik» enthält tatsächlich **fünf PDF-Seiten** ohne diese Foliennummern. Die Verweise dieser Seite beziehen sich auf diese vorhandenen Seiten; eine sechste Logikfolie wird nicht vorausgesetzt.
+    Die bisherigen Kommentare nennen auf **S. 9** die Folien **L1–L6**. Die nachgereichte Präsentation «Erweiterung Logik» enthält tatsächlich **fünf PDF-Seiten** ohne diese Foliennummern. Die Verweise dieser Seite beziehen sich auf diese vorhandenen Seiten; eine sechste Logikfolie wird nicht vorausgesetzt.
 
-    Der Verweis auf **AB1X auf Dossier S. 7** gilt für Baustein 1b. Im aktuellen enaktiven Dossier steht AB1X auf **S. 12**. Die Arbeitsblattnummer **AB1X** bleibt in beiden Varianten erhalten. Es werden keine Einzeldownloads aus den Gesamtdossiers erzeugt.
+    Der Verweis auf **AB1X auf Dossier S. 7** gilt für Baustein 1b. Im **bisherigen enaktiven Dossier v1** steht AB1X auf **S. 12**. Das **aktuelle Dossier v2** umfasst zehn Seiten mit AB1a–AB1c und enthält kein AB1X. Auch der enaktive Kommentar v2 enthält diesen Zusatz nicht. Für den freiwilligen Logikteil bleibt das bisherige Material unter der Arbeitsblattnummer **AB1X** erreichbar. Es werden keine Einzeldownloads aus den Gesamtdossiers erzeugt.
 
 [Zur Übersicht: Baustein 1 – Einstieg](baustein1/index.md)
 

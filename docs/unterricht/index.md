@@ -10,7 +10,7 @@ Im weiteren Verlauf wechseln die Lernenden von der konkreten Verkehrssituation z
 
     **:jigsaw: Umfang:** vier thematische Unterrichtsbausteine  
 
-    **:stopwatch: Reguläre Dauer:** 255–295 Minuten mit Einstieg 1a oder 260–295 Minuten mit Einstieg 1b, jeweils bis zum Basisteil von Baustein 4. Der freiwillige Logikteil benötigt bei Bedarf separat 10–15 Minuten; Vertiefung und Transfer sind ebenfalls optional.
+    **:stopwatch: Reguläre Dauer:** 260–305 Minuten mit Einstieg 1a oder 260–295 Minuten mit Einstieg 1b, jeweils bis zum Basisteil von Baustein 4. Der freiwillige Logikteil benötigt bei Bedarf separat 10–15 Minuten; Vertiefung und Transfer sind ebenfalls optional.
 
     **:brain: Vorwissen:** keine Vorkenntnisse in Aussagenlogik erforderlich  
     
@@ -101,7 +101,7 @@ Zentrale Darstellung: formal und symbolisch
 
 | Baustein | Schwerpunkt | :material-timer-sand: Richtzeit | :computer: Computer |
 | ------- | --------------------------------------------- | ---------: | :------: |
-| 1a / 1b | Sichere Ampelbelegungen handelnd oder anhand von Darstellungen untersuchen | 1a: 65–85 Min.; 1b: Summe 70–85 Min. (abweichende Gesamtangaben im Kommentar); Logikteil optional, zusätzlich 10–15 Min. | Nur Präsentation bei 1b |
+| 1a / 1b | Sichere Ampelbelegungen handelnd oder anhand von Darstellungen untersuchen | 1a: 70–95 Min.; 1b: Summe 70–85 Min. (abweichende Gesamtangaben im Kommentar); Logikteil optional, zusätzlich 10–15 Min. | Nur Präsentation bei 1b |
 | 2 | LogicTraffic kennenlernen und bedienen | ca. 55–65 Min. | Ja |
 | 3 | Ampelbelegungen in Wahrheitstabellen darstellen | ca. 65–75 Min. | Ja |
 | 4 | Sicherheitsregeln formal beschreiben | Basisteil ca. 70 Min.; Vertiefung zusätzlich 45 Min.; Transfer zusätzlich 20–30 Min. | Ja |

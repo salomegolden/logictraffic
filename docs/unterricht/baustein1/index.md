@@ -4,7 +4,7 @@ Für Baustein 1 stehen zwei alternative, aktive Zugänge zur Verfügung. Die Leh
 
 | Einstiegsvariante | Was machen die Lernenden? | Material und reguläre Dauer |
 | --- | --- | --- |
-| [1a – Enaktiver Einstieg](../baustein1-enaktiv.md) | Sie untersuchen Fahrwege handelnd mit Fahrzeugen und Ampelplättchen, prüfen Ampelbelegungen und erfassen alle acht Belegungen für drei Ampeln. | Physisches Material und Dossier mit AB1a–AB1c. **65–85 Minuten.** |
+| [1a – Enaktiver Einstieg](../baustein1-enaktiv.md) | Sie untersuchen Fahrwege handelnd mit Fahrzeugen und Ampelplättchen, verändern Ampelbelegungen gezielt, erfassen alle acht Belegungen für drei Ampeln und prüfen sprachliche Sicherheitsregeln. | Physisches Material und Dossier mit AB1a–AB1c. **70–95 Minuten** gemäss Verlaufstabelle v2; [abweichende Zeitangaben](../baustein1-enaktiv.md#zeitplanung). |
 | [1b – Kreuzungen anhand von Darstellungen untersuchen](../baustein1-lehrpersonenzentriert.md) | Sie verfolgen Fahrwege in den bereitgestellten Kreuzungsdarstellungen, bestimmen Konfliktpaare, beurteilen Ampelbelegungen und erstellen eine vollständige Tabelle. | Kreuzungsdarstellungen, Präsentation und Dossier mit AB1a–AB1d. **70–85 Minuten**, aus den Einzelzeiten berechnet. |
 
 ## Optional: Einstieg in die Logik
